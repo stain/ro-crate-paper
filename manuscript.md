@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Packaging research data with RO-Crate
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/))
+([permalink](https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/))
 was automatically generated
-from [stain/ro-crate-paper@92783fe](https://github.com/stain/ro-crate-paper/tree/92783fe9f5f52a9e62de16688275061b714cb0ba)
+from [stain/ro-crate-paper@f5598b9](https://github.com/stain/ro-crate-paper/tree/f5598b914052fe6ec588af2d82a927270e7837d3)
 on September 9, 2020.
 </em></small>
 
@@ -122,7 +122,7 @@ on September 9, 2020.
     [soilandreyes](https://twitter.com/soilandreyes)<br>
   <small>
      Department of Computer Science, The University of Manchester, UK; Informatics Institute, Faculty of Science, University of Amsterdam, NL
-     · Funded by BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
+     · Funded by BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830); EOSC-Life (European Commission H2020-xx-824087)
   </small>
 
 + **Paul Groth**<br>

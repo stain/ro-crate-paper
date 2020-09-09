@@ -1,4 +1,5 @@
 BioExcel
+EOSC
 Groth
 INFRAEDI
 NL
