@@ -1,18 +1,18 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "Packaging research data with RO-Crate",
     "keywords": [
-      "markdown",
-      "publishing",
-      "manubot"
+      "research object",
+      "linked data",
+      "scholarly communication"
     ],
-    "lang": "en-US",
+    "lang": "en-GB",
     "date-meta": "2020-09-09",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Stian Soiland-Reyes",
+      "Paul Groth"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-09-09\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-09\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"og:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"twitter:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"citation_title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"og:title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"twitter:title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"dc.date\" content=\"2020-09-09\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-09\" />\n<meta name=\"dc.language\" content=\"en-GB\" />\n<meta name=\"citation_language\" content=\"en-GB\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Stian Soiland-Reyes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, The University of Manchester, UK\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9842-9718\" />\n<meta name=\"twitter:creator\" content=\"@soilandreyes\" />\n<meta name=\"citation_author\" content=\"Paul Groth\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0183-6910\" />\n<link rel=\"canonical\" href=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"og:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"twitter:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -25,45 +25,45 @@
     "date": "September 9, 2020",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "github": "stain",
+        "name": "Stian Soiland-Reyes",
+        "initials": "SSR",
+        "orcid": "0000-0001-9842-9718",
+        "twitter": "soilandreyes",
+        "email": "soiland-reyes@manchester.ac.uk",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Department of Computer Science, The University of Manchester, UK",
+          "Informatics Institute, Faculty of Science, University of Amsterdam, NL"
         ],
         "funders": [
-          "Grant XXXXXXXX"
-        ],
-        "affiliation_numbers": [
-          1
-        ]
-      },
-      {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
-        "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
+          "BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)"
         ],
         "affiliation_numbers": [
           1,
+          2
+        ]
+      },
+      {
+        "github": "pgroth",
+        "name": "Paul Groth",
+        "initials": "PG",
+        "orcid": "0000-0003-0183-6910",
+        "email": "p.groth@uva.nl",
+        "affiliations": [
+          "Informatics Institute, Faculty of Science, University of Amsterdam, NL"
+        ],
+        "affiliation_numbers": [
           2
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Department of Computer Science, The University of Manchester, UK",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Whatever, University of Something",
+        "affiliation": "Informatics Institute, Faculty of Science, University of Amsterdam, NL",
         "affiliation_number": 2
       }
     ],
@@ -72,15 +72,15 @@
       "repo_slug": "stain/ro-crate-paper",
       "repo_owner": "stain",
       "repo_name": "ro-crate-paper",
-      "commit": "1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774",
-      "triggering_commit": "1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774",
-      "build_url": "https://github.com/stain/ro-crate-paper/commit/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/checks",
+      "commit": "92783fe9f5f52a9e62de16688275061b714cb0ba",
+      "triggering_commit": "92783fe9f5f52a9e62de16688275061b714cb0ba",
+      "build_url": "https://github.com/stain/ro-crate-paper/commit/92783fe9f5f52a9e62de16688275061b714cb0ba/checks",
       "job_url": "https://github.com/stain/ro-crate-paper/runs/run3"
     },
     "html_url": "https://stain.github.io/ro-crate-paper/",
     "pdf_url": "https://stain.github.io/ro-crate-paper/manuscript.pdf",
-    "html_url_versioned": "https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/",
-    "pdf_url_versioned": "https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/manuscript.pdf",
+    "html_url_versioned": "https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/",
+    "pdf_url_versioned": "https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "0964fd7ed7fdc1e3b468b5f4f1234d24de0b14fc",
     "manuscript_stats": {

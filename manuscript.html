@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
+  <meta name="author" content="Stian Soiland-Reyes" />
+  <meta name="author" content="Paul Groth" />
   <meta name="dcterms.date" content="2020-09-09" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <meta name="keywords" content="research object, linked data, scholarly communication" />
+  <title>Packaging research data with RO-Crate</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,35 +25,35 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Packaging research data with RO-Crate" />
+  <meta name="citation_title" content="Packaging research data with RO-Crate" />
+  <meta property="og:title" content="Packaging research data with RO-Crate" />
+  <meta property="twitter:title" content="Packaging research data with RO-Crate" />
   <meta name="dc.date" content="2020-09-09" />
   <meta name="citation_publication_date" content="2020-09-09" />
-  <meta name="dc.language" content="en-US" />
-  <meta name="citation_language" content="en-US" />
+  <meta name="dc.language" content="en-GB" />
+  <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Stian Soiland-Reyes" />
+  <meta name="citation_author_institution" content="Department of Computer Science, The University of Manchester, UK" />
+  <meta name="citation_author_institution" content="Informatics Institute, Faculty of Science, University of Amsterdam, NL" />
+  <meta name="citation_author_orcid" content="0000-0001-9842-9718" />
+  <meta name="twitter:creator" content="@soilandreyes" />
+  <meta name="citation_author" content="Paul Groth" />
+  <meta name="citation_author_institution" content="Informatics Institute, Faculty of Science, University of Amsterdam, NL" />
+  <meta name="citation_author_orcid" content="0000-0003-0183-6910" />
   <link rel="canonical" href="https://stain.github.io/ro-crate-paper/" />
   <meta property="og:url" content="https://stain.github.io/ro-crate-paper/" />
   <meta property="twitter:url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,35 +63,35 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">Packaging research data with RO-Crate</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774">stain/ro-crate-paper@1a0b286</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/92783fe9f5f52a9e62de16688275061b714cb0ba">stain/ro-crate-paper@92783fe</a>
 on September 9, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong><br>
+<li><p><strong>Stian Soiland-Reyes</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0001-9842-9718">0000-0001-9842-9718</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/johndoe">johndoe</a>
+<a href="https://github.com/stain">stain</a>
 · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
-<a href="https://twitter.com/johndoe">johndoe</a><br>
+<a href="https://twitter.com/soilandreyes">soilandreyes</a><br>
 <small>
-Department of Something, University of Whatever
-· Funded by Grant XXXXXXXX
+Department of Computer Science, The University of Manchester, UK; Informatics Institute, Faculty of Science, University of Amsterdam, NL
+· Funded by BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
 </small></p></li>
-<li><p><strong>Jane Roe</strong><br>
+<li><p><strong>Paul Groth</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0003-0183-6910">0000-0003-0183-6910</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
+<a href="https://github.com/pgroth">pgroth</a><br>
 <small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
+Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>

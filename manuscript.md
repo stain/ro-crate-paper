@@ -1,7 +1,7 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Stian Soiland-Reyes
+- Paul Groth
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-09'
@@ -15,21 +15,21 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Packaging research data with RO-Crate" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Packaging research data with RO-Crate" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Packaging research data with RO-Crate" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Packaging research data with RO-Crate" />
 
   <meta name="dc.date" content="2020-09-09" />
 
   <meta name="citation_publication_date" content="2020-09-09" />
 
-  <meta name="dc.language" content="en-US" />
+  <meta name="dc.language" content="en-GB" />
 
-  <meta name="citation_language" content="en-US" />
+  <meta name="citation_language" content="en-GB" />
 
   <meta name="dc.relation.ispartof" content="Manubot" />
 
@@ -39,21 +39,21 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Stian Soiland-Reyes" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Computer Science, The University of Manchester, UK" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="Informatics Institute, Faculty of Science, University of Amsterdam, NL" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author_orcid" content="0000-0001-9842-9718" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="twitter:creator" content="@soilandreyes" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Paul Groth" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_institution" content="Informatics Institute, Faculty of Science, University of Amsterdam, NL" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0003-0183-6910" />
 
   <link rel="canonical" href="https://stain.github.io/ro-crate-paper/" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
 
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +85,15 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
-lang: en-US
+- research object
+- linked data
+- scholarly communication
+lang: en-GB
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Packaging research data with RO-Crate
 ...
 
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774/))
+([permalink](https://stain.github.io/ro-crate-paper/v/92783fe9f5f52a9e62de16688275061b714cb0ba/))
 was automatically generated
-from [stain/ro-crate-paper@1a0b286](https://github.com/stain/ro-crate-paper/tree/1a0b286c6b8ce2b2ff0cfb30646e86f2085d5774)
+from [stain/ro-crate-paper@92783fe](https://github.com/stain/ro-crate-paper/tree/92783fe9f5f52a9e62de16688275061b714cb0ba)
 on September 9, 2020.
 </em></small>
 
@@ -113,25 +113,25 @@ on September 9, 2020.
 
 
 
-+ **John Doe**<br>
++ **Stian Soiland-Reyes**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-9842-9718](https://orcid.org/0000-0001-9842-9718)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [stain](https://github.com/stain)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [soilandreyes](https://twitter.com/soilandreyes)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of Computer Science, The University of Manchester, UK; Informatics Institute, Faculty of Science, University of Amsterdam, NL
+     · Funded by BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
   </small>
 
-+ **Jane Roe**<br>
++ **Paul Groth**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-0183-6910](https://orcid.org/0000-0003-0183-6910)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [pgroth](https://github.com/pgroth)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Informatics Institute, Faculty of Science, University of Amsterdam, NL
   </small>
 
 
