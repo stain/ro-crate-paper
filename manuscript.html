@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Stian Soiland-Reyes" />
   <meta name="author" content="Paul Groth" />
-  <meta name="dcterms.date" content="2020-09-09" />
+  <meta name="dcterms.date" content="2020-09-14" />
   <meta name="keywords" content="research object, linked data, scholarly communication" />
   <title>Packaging research data with RO-Crate</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2020-09-09" />
-  <meta name="citation_publication_date" content="2020-09-09" />
+  <meta name="dc.date" content="2020-09-14" />
+  <meta name="citation_publication_date" content="2020-09-14" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/f5598b914052fe6ec588af2d82a927270e7837d3/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/f5598b914052fe6ec588af2d82a927270e7837d3">stain/ro-crate-paper@f5598b9</a>
-on September 9, 2020.
+from <a href="https://github.com/stain/ro-crate-paper/tree/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc">stain/ro-crate-paper@1043ce5</a>
+on September 14, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -95,6 +95,71 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<h1 id="structure-from-eccb-presentation">Structure from ECCB presentation</h1>
+<ul>
+<li>Slides: <a href="https://doi.org/10.5281/zenodo.4011999" class="uri">https://doi.org/10.5281/zenodo.4011999</a></li>
+</ul>
+<h2 id="fair-principles">FAIR principles</h2>
+<p>FAIR principles <a href="https://doi.org/10.1038/sdata.2016.18" class="uri">https://doi.org/10.1038/sdata.2016.18</a> lay out principles for ensuring research data is Findable, Accessible, Interoperable and Reusable. Key factor the FAIR principles for Interoperability is <em>machine readability</em>:</p>
+<blockquote>
+<p>I1. (meta)data use a <strong>formal</strong>, accessible, shared and broadly applicable <strong>language for knowledge representation</strong>.
+I2. (meta)data use <strong>vocabularies</strong> that follow FAIR principles
+I3. (meta)data include qualified <strong>references</strong> to other (meta)data</p>
+</blockquote>
+<p>FAIR not just for data - also for research software, how to make that data and where data came from. <a href="https://doi.org/10.3233/DS-190026" class="uri">https://doi.org/10.3233/DS-190026</a></p>
+<h2 id="best-practice-for-workflow-reproducibility">Best practice for workflow reproducibility</h2>
+<p>The use of computational workflows has gained prominence, in particular life sciences, typically combining a chain of open source tools in an analytical pipeline. While the workflows initially may have been used to improve scalability, it can be argued they both assist in making computated data results FAIR, but at the same time raising additional FAIR challenges when considering the workflows as important research artifacts themselves in order to capture and explain the computational method behind an analysis. <a href="https://doi.org/10.1162/dint_a_00033" class="uri">https://doi.org/10.1162/dint_a_00033</a></p>
+<p>Even when researchers follow current best practice for workflow reproducibility, <a href="https://doi.org/10.1016/j.cels.2018.03.014" class="uri">https://doi.org/10.1016/j.cels.2018.03.014</a> <a href="https://doi.org/10.1016/j.future.2017.01.012" class="uri">https://doi.org/10.1016/j.future.2017.01.012</a> the communication of that outcome through traditional academic publishing routes with a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow. Even as researchers the ambition of FAIR reproducible research, it has not yet become common practice.</p>
+<p>As a real-life example let’s look at a metagenomics article in Nature <a href="https://doi.org/10.1038/s41586-019-0965-1" class="uri">https://doi.org/10.1038/s41586-019-0965-1</a>, where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The <em>Methods</em> section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB) <a href="http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/" class="uri">http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/</a> and the open source code in GitHub repository <a href="https://github.com/Finn-Lab/MGS-gut" class="uri">https://github.com/Finn-Lab/MGS-gut</a> includes the pipeline as shell scripts and associated analysis scripts in R and Python.</p>
+<p>This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong <em>data availability</em> requirements they frequently do not require authors to include or cite <em>software, scripts and pipelines</em> used for analysing and producing results <a href="https://twitter.com/soilandreyes/status/1250721245622079488" class="uri">https://twitter.com/soilandreyes/status/1250721245622079488</a> - rather authors are often penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.</p>
+<p>However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description).
+<a href="https://doi.org/10.3389/fninf.2017.00069" class="uri">https://doi.org/10.3389/fninf.2017.00069</a> [Goble R* bruahaha]</p>
+<p>Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They may would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.</p>
+<p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences <a href="https://doi.org/10.1007/s41019-017-0050-4" class="uri">https://doi.org/10.1007/s41019-017-0050-4</a> with supporting collaborative efforts like BioConda <a href="https://doi.org/10.1038/s41592-018-0046-7" class="uri">https://doi.org/10.1038/s41592-018-0046-7</a>, BioContainers [??] and by Linux distributions themselves (Debian Med <a href="https://doi.org/10.1186/1471-2105-11-S12-S5" class="uri">https://doi.org/10.1186/1471-2105-11-S12-S5</a>) to make more than 7000 software packages available in BioConda alone <a href="https://anaconda.org/bioconda/" class="uri">https://anaconda.org/bioconda/</a> and 9000 containers in BioContainers <a href="https://biocontainers.pro/#/registry" class="uri">https://biocontainers.pro/#/registry</a>. Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
+<h2 id="research-objects---a-brief-history">Research Objects - a brief history</h2>
+<p>The challenge of describing computational workflows was one of the main motivations for the proposal of <em>Research Objects</em> <a href="https://doi.org/10.1016/j.future.2011.08.004" class="uri">https://doi.org/10.1016/j.future.2011.08.004</a> as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in <a href="https://doi.org/10.1016/j.future.2011.08.004" class="uri">https://doi.org/10.1016/j.future.2011.08.004</a> an open-ended <em>Linked Data</em> approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.</p>
+<p>Considering the FAIR principles we can say with hindsight (the FAIR paper was published 7 years later) that the initial Research Objects approach was strongly targeting Interoperability. [???]</p>
+<p>The first implementation of Research Objects in 2009 for sharing workflows in myExperiment <a href="https://doi.org/10.1093/nar/gkq429" class="uri">https://doi.org/10.1093/nar/gkq429</a> was based on RDF ontologies <a href="http://eprints.soton.ac.uk/id/eprint/267787" class="uri">http://eprints.soton.ac.uk/id/eprint/267787</a>, building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and creditation, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. <a href="http://web.archive.org/web/20091115080336/http://rdf.myexperiment.org/ontologies" class="uri">http://web.archive.org/web/20091115080336/http://rdf.myexperiment.org/ontologies</a>
+Programmatic access to Research Objects was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queriable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.</p>
+<p>However, most programmatic users of myExperiment, such as workflow systems and portals, ended up using its separate XML-based REST API; particularly as it provided a</p>
+<p>WF4Ever. Preservation.</p>
+<p>Research Object ontologies. OAI-ORE, OAC/AO/OAC.</p>
+<p>Research Object Bundle - downloadble ROs.</p>
+<p>RO-BagIt. archivable ROs</p>
+<p>BDBag. scalable ROs.</p>
+<p>CWLProv. rerunnable ROs.</p>
+<p>Re-use of existing vocabularies. Making lots of new vocabularies. - too many??</p>
+<p>Stack becomes very large to learn and use.</p>
+<p>RDF as its own worst enemy.</p>
+<p>Need for simplicity. Cater for “web developer”.</p>
+<h2 id="ro-crate---rebirth-of-research-object">RO-Crate - Rebirth of Research Object</h2>
+<h3 id="datacrate-origin">DataCrate origin</h3>
+<p>Not workflows!</p>
+<p>More traditional data archiving.</p>
+<p>“As a researcher…I’m a bit bloody fed up with Data Management” <a href="https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/" class="uri">https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/</a></p>
+<h3 id="community-building">Community building</h3>
+<h3 id="schema.org-as-basis-and-almost-sole-vocabulary">schema.org as basis and almost sole vocabulary</h3>
+<h3 id="json-ld-vs-json">JSON-LD vs JSON</h3>
+<h3 id="tutorial-vs-specification">Tutorial vs Specification</h3>
+<h3 id="workflow-ro-crate">Workflow RO-Crate</h3>
+<p>.. and BioSchemas profile for Workflows</p>
+<h3 id="what-is-a-workflows-anyway">What is a workflows anyway?</h3>
+<p>Multiple variants/flavours. Multiple files. Tool vs workflow.</p>
+<h3 id="tooling-for-ro-crate">Tooling for RO-Crate</h3>
+<h4 id="libraries-for-developers">Libraries for developers</h4>
+<p>Javascript, Python, Ruby.</p>
+<p>No need for Java!</p>
+<h4 id="describo---ui-for-making-ro">Describo - UI for making RO</h4>
+<p>..</p>
+<p>Profiles: Why not SHACL SHeX or JSON-Schema malarchy?</p>
+<h4 id="what-next">What next??</h4>
+<p>Bringing back more of the original ideas. Cross-referenced ROs. Nested ROs. Citing ROs. DOIs? Web vs archive.</p>
+<h2 id="other-stuff-going-on---whats-in-the-stack">Other stuff going on - what’s in the stack?</h2>
+<p>(stuff from Primer on workflow packaging and metadata standards https://docs.google.com/document/d/1XREgfYNi7l4HbdrnXBs7Uv1tMH2AiR435SKjisu4l30/edit# )</p>
+<h3 id="nanopublications">Nanopublications</h3>
+<h3 id="biocompute-objects-ieee-2791">BioCompute Objects (IEEE 2791)</h3>
+<h3 id="prov-models">*Prov models</h3>
+<h3 id="fair-digital-objects">FAIR Digital Objects</h3>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
