@@ -15,7 +15,9 @@ author_info:
     affiliations:
       - Department of Computer Science, The University of Manchester, UK
       - Informatics Institute, Faculty of Science, University of Amsterdam, NL
-    funders: BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
+    funders: 
+      - BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
+      - EOSC-Life (European Commission H2020-xx-824087)     
   - github: pgroth
     name: Paul Groth
     initials: PG
