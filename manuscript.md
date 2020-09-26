@@ -4,7 +4,7 @@ author-meta:
 - Paul Groth
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-14'
+date-meta: '2020-09-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
 
-  <meta name="dc.date" content="2020-09-14" />
+  <meta name="dc.date" content="2020-09-26" />
 
-  <meta name="citation_publication_date" content="2020-09-14" />
+  <meta name="citation_publication_date" content="2020-09-26" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/" />
 
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: Packaging research data with RO-Crate
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/))
+([permalink](https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/))
 was automatically generated
-from [stain/ro-crate-paper@1043ce5](https://github.com/stain/ro-crate-paper/tree/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc)
-on September 14, 2020.
+from [stain/ro-crate-paper@8a833dd](https://github.com/stain/ro-crate-paper/tree/8a833ddb6c1a9ac54b74f17e53c6768e30e87956)
+on September 26, 2020.
 </em></small>
 
 ## Authors
@@ -266,6 +266,133 @@ Bringing back more of the original ideas. Cross-referenced ROs. Nested ROs. Citi
 ### FAIR Digital Objects
 
 
+
+
+
+
+# Formal definition of RO-Crate
+
+https://en.wikipedia.org/wiki/List_of_logic_symbols
+https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+
+https://www.w3.org/TR/2003/NOTE-lbase-20031010/
+
+http://www2003.sztaki.hu/cdrom/papers/refereed/p050/p50-horrocks.html
+
+
+𝕌
+𝕀𝕣𝕚
+
+𝔻
+𝕃 
+𝕊
+
+
+𝓇ℴ
+𝓻𝓸
+𝔯𝔬
+
+
+
+Propositional Logic 	
+¬ 	$\neg$
+→ 	$\rightarrow$
+↔ 	$\leftrightarrow$
+∨ ∥ or
+∧ &	 and
+⊢ 	$\vdash$ proves
+⊣ 	$\dashv$
+⊕ ≢  xor
+𝔻  Domain of predicate
+ℒ language
+
+
+Predicate Logic 	
+∀ 	$\forall$
+∃ 	$\exists$
+∈ 	$\in$
+⊨ 	$\models$ entails
+
+Modal Logic 	
+□ 	$\Box$
+◊ 	$\Diamond$
+
+Set
+⊃  superset / material implication
+≡ 
+⇔
+
+⊤ tautology
+⊥ contradiction
+
+∴  therefore
+∵ because
+∃!
+
+
+# Formalizing RO-Crate in First Order Logic
+_Below is a brief formalization of RO-Crate as a set of relations in First Order Logic, followed by a mapping to RDF using schema.org and forward-chaining production rules for making JSON-LD._
+
+𝕃 _ro-crate_ = { Property(p), Class(c), Literal(x), Describes(R, s) }
+𝔻 =  𝕀𝕣𝕚
+𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+ℝ ≡  { real or integer numbers }
+𝕊 ≡  { literal strings }
+
+## Minimal RO-Crate 
+RO-Crate(R) ⊨  Root(R) ∧ Describes((R, R)
+RO-Crate(R) ⊨  hasPart(R, d) ∧ Describes((R, d) ∧ DataEntity(d)
+RO-Crate(R) ⊨  Describes((R, c) ∧ ContextualEntity(c)
+
+Root(r) →  Dataset(r) ∧ published(r, Date)
+published(e, date) →  Literal(date)
+DataEntity(e) ≡  File(e) ⊕ Dataset(e)
+Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
+
+Describes(R, s) ⊨  Relation(s, p, e)  ⊕  Value(s, p, l)
+∀x . Value(o, p, x) →  Literal(x)
+Literal(x) ≡  x ∈ ℝ  ⊕  x ∈ 𝕊
+
+Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
+Entity(e) → Metadata(e)
+Metadata(e) → Class(t) ∧ Describes(R, e)
+
+## Mapping to RDF with schema.org
+Dataset(d) →  type(d, <http://schema.org/Dataset>)
+File(f) →  type(f, <http://schema.org/MediaObject>)
+Property(p) →  type(p, <http://www.w3.org/2000/01/rdf-schema#Property>)
+Class(c) →  type(c, <http://www.w3.org/2000/01/rdf-schema#Class>)
+
+hasPart(e, t) →  Relation(e, <http://schema.org/hasPart>, t)
+type(e, t) →  Relation(e, <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>, t)
+published(e, date) →  Value(e, <http://schema.org/datePublished>, date)
+
+## RO-Crate 1.0 Metadata File Descriptor
+about(s,o) →  Relation(, <http://schema.org/about>, o)
+conformsTo(s,o) →  Relation(s, <http://purl.org/dc/terms/conformsTo>, R)
+CreativeWork(e) →  ContextualEntity(m) ∧ type(m, <http://schema.org/CreativeWork>)
+MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧ 
+   conformsTo(m, <https://w3id.org/ro/crate/1.1>) )
+
+
+## Forward-chained Production Rules for JSON-LD
+Describes(R, S) ∧ Relation(S, P, O) →  Describes(R, O)
+i ∈ 𝕀𝕣𝕚 →  i
+r ∈ ℝ →  r
+s ∈ 𝕊 →  "s"
+Relation(s,p,o) →  { "@id": s, 
+                p: { "@id": o }
+              }
+Value(s,p,o) →  { "@id": s,
+              p: o }
+RO-Crate(r) →  { "@graph": [ Describes((r, c) ] }
+R ≡  <./>
+MetadataFileDescriptor(<ro-crate-metadata.json>) .
+
+
+## Mapping to OAI-ORE
+
+## Mapping to OAI-ORE with annotation
 
 
 

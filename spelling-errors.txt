@@ -12,9 +12,14 @@ BioSchemas
 bruahaha
 computated
 Conda
+conformsTo
+ContextualEntity
+CreativeWork
 creditation
 CWLProv
 DataCrate
+DataEntity
+Dataset
 datasets
 DBPedia
 Describo
@@ -24,8 +29,11 @@ ECCB
 EOSC
 Findable
 FOAF
+formalization
+Formalizing
 Goble
 Groth
+hasPart
 INFRAEDI
 Interoperability
 Interoperable
@@ -33,6 +41,7 @@ JSON
 LD
 lifecycle
 malarchy
+MetadataFileDescriptor
 metagenomics
 myExperiment
 Nanopublications
@@ -63,5 +72,6 @@ Soiland
 soilandreyes
 SPARQL
 Stian
+superset
 UI
 WF

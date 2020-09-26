@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Stian Soiland-Reyes" />
   <meta name="author" content="Paul Groth" />
-  <meta name="dcterms.date" content="2020-09-14" />
+  <meta name="dcterms.date" content="2020-09-26" />
   <meta name="keywords" content="research object, linked data, scholarly communication" />
   <title>Packaging research data with RO-Crate</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2020-09-14" />
-  <meta name="citation_publication_date" content="2020-09-14" />
+  <meta name="dc.date" content="2020-09-26" />
+  <meta name="citation_publication_date" content="2020-09-26" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/8a833ddb6c1a9ac54b74f17e53c6768e30e87956/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/1043ce5f9360da4aef63ff3f3868c72df9d3b7dc">stain/ro-crate-paper@1043ce5</a>
-on September 14, 2020.
+from <a href="https://github.com/stain/ro-crate-paper/tree/8a833ddb6c1a9ac54b74f17e53c6768e30e87956">stain/ro-crate-paper@8a833dd</a>
+on September 26, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -160,6 +160,97 @@ Programmatic access to Research Objects was facilitated with an RDF endpoint tha
 <h3 id="biocompute-objects-ieee-2791">BioCompute Objects (IEEE 2791)</h3>
 <h3 id="prov-models">*Prov models</h3>
 <h3 id="fair-digital-objects">FAIR Digital Objects</h3>
+<h1 id="formal-definition-of-ro-crate">Formal definition of RO-Crate</h1>
+<p>https://en.wikipedia.org/wiki/List_of_logic_symbols
+https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols</p>
+<p>https://www.w3.org/TR/2003/NOTE-lbase-20031010/</p>
+<p>http://www2003.sztaki.hu/cdrom/papers/refereed/p050/p50-horrocks.html</p>
+<p>𝕌
+𝕀𝕣𝕚</p>
+<p>𝔻
+𝕃
+𝕊</p>
+<p>𝓇ℴ
+𝓻𝓸
+𝔯𝔬</p>
+<p>Propositional Logic<br />
+¬ <span class="math inline">\(\neg\)</span>
+→ <span class="math inline">\(\rightarrow\)</span>
+↔︎ <span class="math inline">\(\leftrightarrow\)</span>
+∨ ∥ or
+∧ &amp; and
+⊢ <span class="math inline">\(\vdash\)</span> proves
+⊣ <span class="math inline">\(\dashv\)</span>
+⊕ ≢ xor
+𝔻 Domain of predicate
+ℒ language</p>
+<p>Predicate Logic<br />
+∀ <span class="math inline">\(\forall\)</span>
+∃ <span class="math inline">\(\exists\)</span>
+∈ <span class="math inline">\(\in\)</span>
+⊨ <span class="math inline">\(\models\)</span> entails</p>
+<p>Modal Logic<br />
+□ <span class="math inline">\(\Box\)</span>
+◊ <span class="math inline">\(\Diamond\)</span></p>
+<p>Set
+⊃ superset / material implication
+≡
+⇔</p>
+<p>⊤ tautology
+⊥ contradiction</p>
+<p>∴ therefore
+∵ because
+∃!</p>
+<h1 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h1>
+<p><em>Below is a brief formalization of RO-Crate as a set of relations in First Order Logic, followed by a mapping to RDF using schema.org and forward-chaining production rules for making JSON-LD.</em></p>
+<p>𝕃 <em>ro-crate</em> = { Property(p), Class(c), Literal(x), Describes(R, s) }
+𝔻 = 𝕀𝕣𝕚
+𝕀𝕣𝕚 ≡ { IRIs as defined in <a href="https://tools.ietf.org/html/rfc3987" class="uri">https://tools.ietf.org/html/rfc3987</a> }
+ℝ ≡ { real or integer numbers }
+𝕊 ≡ { literal strings }</p>
+<h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
+<p>RO-Crate(R) ⊨ Root(R) ∧ Describes((R, R)
+RO-Crate(R) ⊨ hasPart(R, d) ∧ Describes((R, d) ∧ DataEntity(d)
+RO-Crate(R) ⊨ Describes((R, c) ∧ ContextualEntity(c)</p>
+<p>Root(r) → Dataset(r) ∧ published(r, Date)
+published(e, date) → Literal(date)
+DataEntity(e) ≡ File(e) ⊕ Dataset(e)
+Entity(e) ≡ DataEntity(e) ∨ ContextualEntity(e)</p>
+<p>Describes(R, s) ⊨ Relation(s, p, e) ⊕ Value(s, p, l)
+∀x . Value(o, p, x) → Literal(x)
+Literal(x) ≡ x ∈ ℝ ⊕ x ∈ 𝕊</p>
+<p>Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
+Entity(e) → Metadata(e)
+Metadata(e) → Class(t) ∧ Describes(R, e)</p>
+<h2 id="mapping-to-rdf-with-schema.org">Mapping to RDF with schema.org</h2>
+<p>Dataset(d) → type(d, <a href="http://schema.org/Dataset" class="uri">http://schema.org/Dataset</a>)
+File(f) → type(f, <a href="http://schema.org/MediaObject" class="uri">http://schema.org/MediaObject</a>)
+Property(p) → type(p, <a href="http://www.w3.org/2000/01/rdf-schema#Property" class="uri">http://www.w3.org/2000/01/rdf-schema#Property</a>)
+Class(c) → type(c, <a href="http://www.w3.org/2000/01/rdf-schema#Class" class="uri">http://www.w3.org/2000/01/rdf-schema#Class</a>)</p>
+<p>hasPart(e, t) → Relation(e, <a href="http://schema.org/hasPart" class="uri">http://schema.org/hasPart</a>, t)
+type(e, t) → Relation(e, <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" class="uri">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a>, t)
+published(e, date) → Value(e, <a href="http://schema.org/datePublished" class="uri">http://schema.org/datePublished</a>, date)</p>
+<h2 id="ro-crate-1.0-metadata-file-descriptor">RO-Crate 1.0 Metadata File Descriptor</h2>
+<p>about(s,o) → Relation(, <a href="http://schema.org/about" class="uri">http://schema.org/about</a>, o)
+conformsTo(s,o) → Relation(s, <a href="http://purl.org/dc/terms/conformsTo" class="uri">http://purl.org/dc/terms/conformsTo</a>, R)
+CreativeWork(e) → ContextualEntity(m) ∧ type(m, <a href="http://schema.org/CreativeWork" class="uri">http://schema.org/CreativeWork</a>)
+MetadataFileDescriptor(m) → ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧
+conformsTo(m, <a href="https://w3id.org/ro/crate/1.1" class="uri">https://w3id.org/ro/crate/1.1</a>) )</p>
+<h2 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h2>
+<p>Describes(R, S) ∧ Relation(S, P, O) → Describes(R, O)
+i ∈ 𝕀𝕣𝕚 → i
+r ∈ ℝ → r
+s ∈ 𝕊 → “s”
+Relation(s,p,o) → { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: s,
+p: { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: o }
+}
+Value(s,p,o) → { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: s,
+p: o }
+RO-Crate(r) → { “<span class="citation" data-cites="graph">[<span class="citeproc-not-found" data-reference-id="graph"><strong>???</strong></span>]</span>”: [ Describes((r, c) ] }
+R ≡ &lt;./&gt;
+MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) .</p>
+<h2 id="mapping-to-oai-ore">Mapping to OAI-ORE</h2>
+<h2 id="mapping-to-oai-ore-with-annotation">Mapping to OAI-ORE with annotation</h2>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
