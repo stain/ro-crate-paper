@@ -1,9 +1,17 @@
-% PLEASE USE THIS FILE AS A TEMPLATE
-% Check file iosart2x.tex for more examples
+%% ro-crate paper
+%% (c) 2020-2021 The University of Manchester
+%% 
+%% SPDX-License-Identifier: CC-BY-4.0
+
 
 % add. options: [seceqn,secthm,crcready]
 \documentclass[ds]{iosart2x}
 \usepackage[smartEllipses]{markdown}
+\def\markdownOptionOutputDir{../output}
+
+%\markdownSetup{
+%    defaultOptions.cacheDir = 
+%}
 
 %\usepackage{dcolumn}
 
@@ -71,12 +79,14 @@ Abstract text.
 
 \markdownInput{../content/10.background.md}
 \markdownInput{../content/20.rocrate.md}
-\markdownInput{../content/30.formal-definition.md}
+%\markdownInput{../content/30.formal-definition.md}
+
 
 %\begin{figure}[t]
 %\includegraphics{}
 %\caption{Figure caption.}\label{f1}
 %\end{figure}
+
 
 %\begin{table*}
 %\caption{} \label{t1}
