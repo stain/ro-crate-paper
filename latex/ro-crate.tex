@@ -6,6 +6,7 @@
 
 % add. options: [seceqn,secthm,crcready]
 \documentclass[ds]{iosart2x}
+\usepackage[utf8]{inputenc}
 \usepackage[smartEllipses]{markdown}
 \def\markdownOptionOutputDir{../output}
 
@@ -40,18 +41,17 @@
 %Abbreviate US states, \cny{Country}\printead[presep={\\}]{e1,o1}}
 
 % Two or more authors:
-\author[A]{\inits{S.S-R.}\fnms{Stian} \snm{Soiland-Reyes}\ead[label=e1]{soiland-reyes@manchester.ac.uk}\ead[label=o1,orcid]{0000-0001-9842-9718}%
+\author[A,B]{\inits{S.S-R.}\fnms{Stian} \snm{Soiland-Reyes}\ead[label=e1]{soiland-reyes@manchester.ac.uk}\ead[label=o1,orcid]{0000-0001-9842-9718}%
 \thanks{Corresponding author. \printead{e1}.}},
-\author[B]{\inits{P.S.}\fnms{Peter} \snm{Sefton}\ead[label=e2]{Peter.Sefton@uts.edu.au}\ead[label=o2,orcid]{0000-0002-3545-944X}}
-and
-\author[A]{\inits{C.G.}\fnms{Carole} \snm{Goble}\ead[label=e3]{carole.goble@manchester.ac.uk}\ead[label=o3,orcid]{0000-0003-1219-2137}}
-\author[C]{\inits{P.G.}\fnms{Paul} \snm{Groth}\ead[label=e3]{p.t.groth@uva.nl}\ead[label=o3,orcid]{0000-0003-0183-6910}}
+\author[C]{\inits{P.S.}\fnms{Peter} \snm{Sefton}\ead[label=e2]{Peter.Sefton@uts.edu.au}\ead[label=o2,orcid]{0000-0002-3545-944X}},
+\author[A]{\inits{C.G.}\fnms{Carole} \snm{Goble}\ead[label=e3]{carole.goble@manchester.ac.uk}\ead[label=o3,orcid]{0000-0003-1219-2137}},
+\author[B]{\inits{P.G.}\fnms{Paul} \snm{Groth}\ead[label=e3]{p.t.groth@uva.nl}\ead[label=o3,orcid]{0000-0003-0183-6910}}
 \address[A]{Computer Science, \orgname{The University of Manchester},
 \cny{UK}\printead[presep={\\}]{e1,o1}}
-\address[B]{Faculty of Science, \orgname{University Technology Sydney},
-\cny{Australia}\printead[presep={\\}]{e2,o2}}
-\address[C]{Informatics Institute, \orgname{University of Amsterdam},
-\cny{The Netherlands}\printead[presep={\\}]{e3,o3}}
+\address[B]{Informatics Institute, \orgname{University of Amsterdam},
+\cny{The Netherlands}\printead[presep={\\}]{e2,o2}}
+\address[C]{Faculty of Science, \orgname{University Technology Sydney},
+\cny{Australia}\printead[presep={\\}]{e3,o3}}
 
 %\begin{review}{editor}
 %\reviewer{\fnms{First} \snm{Editor}\ead[label=oe1,orcid]{}\printead[presep={\ }]{oe1}}
