@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/))
+([permalink](https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/))
 was automatically generated
-from [stain/ro-crate-paper@d3552f3](https://github.com/stain/ro-crate-paper/tree/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2)
+from [stain/ro-crate-paper@3e08c4a](https://github.com/stain/ro-crate-paper/tree/3e08c4a0905ea550a8c9d3e90190a27974862ca7)
 on May 3, 2021.
 </em></small>
 
@@ -613,31 +613,27 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 �� ≡  { literal strings }
 
 
-### Minimal RO-Crate 
+### Minimal RO-Cratezies
 
 
-    RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ \
-	hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ \
-	Mentions(R, c) ∧ ContextualEntity(c)
+\begin{multline*}
+RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ Mentions(R, c) ∧ ContextualEntity(c)
 
+∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d) ∧ published(r, date) ∧ license(e, l) \\
+∀e∀n name(e, n) →  Literal(n)  \\
+∀e∀d description(e, d) →  Literal(d) \\
+∀e∀date datePublished(e, date) →  Literal(date) \\
+∀e∀l license(e, l) →  ContextualEntity(l) \\
 
-    ∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d) \
-                           ∧ published(r, date) ∧ license(e, l) \
-∀e∀n name(e, n) →  Literal(n) \
-∀e∀d description(e, d) →  Literal(d) \
-∀e∀date datePublished(e, date) →  Literal(date) \
-∀e∀l license(e, l) →  ContextualEntity(l)
-
-
-    DataEntity(e) ≡  File(e) ⊕ Dataset(e) \
-Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e) \
+DataEntity(e) ≡  File(e) ⊕ Dataset(e) \\
+Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e) \\
 ∀e Entity(e) → Class(e)
 
-
-    Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \
+Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \
 Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o) \
 Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x) \
 Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
+\end{multline*}
 
 The domain of discourse is the set of ������ identifiers (notation &lt;[http://example.com/](http://example.com/)>), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”). 
 
