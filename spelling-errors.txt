@@ -27,12 +27,12 @@ ContextualEntity
 counterintuitively
 CreativeWork
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datePublished
 datetime
@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -66,7 +66,7 @@ HttpRange
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
