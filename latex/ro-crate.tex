@@ -6,20 +6,22 @@
 
 % add. options: [seceqn,secthm,crcready]
 \documentclass[ds]{iosart2x}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-\setotherlanguages{greek}
 
+% From https://www.overleaf.com/latex/templates/using-the-stix2-opentype-fonts-with-lualatex-or-xelatex/hdfvhzqmhnpx
+\usepackage{amsmath}
+\usepackage{hyperref}
 \usepackage{fontspec}
-\setmainfont{FreeSerif}
-\setsansfont{FreeSans}
-\setmonofont{FreeMono}
+\usepackage{unicode-math}
+\usepackage{graphicx}
+
+%%
+
 
 \DeclareGraphicsExtensions{.png,.pdf}
 \graphicspath{../content/images/}
-\usepackage[smartEllipses,tableCaptions,pipeTables,fencedCode,footnotes,underscores]{markdown}
+\usepackage[smartEllipses,tableCaptions,pipeTables,fencedCode,footnotes,underscores,hybrid]{markdown}
 \def\markdownOptionOutputDir{../output}
 
 
@@ -40,6 +42,19 @@
 \lastpage{1}
 
 \begin{document}
+
+\setmathfont{STIX2Math}[
+Extension={.otf},
+Path=./STIX2fonts/,
+Scale=1]
+\setmainfont{STIX2Text}[
+Extension={.otf},
+Path=./STIX2fonts/,
+UprightFont={*-Regular},
+BoldFont={*-Bold},
+ItalicFont={*-Italic},
+BoldItalicFont={*-BoldItalic}]
+
 
 \begin{frontmatter}
 
