@@ -27,7 +27,7 @@ ContextualEntity
 counterintuitively
 CreativeWork
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -66,7 +66,7 @@ HttpRange
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
@@ -115,7 +115,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations
