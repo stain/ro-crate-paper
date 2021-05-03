@@ -71,7 +71,7 @@ interpretable
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 LFS
@@ -86,7 +86,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 ONI
 ontologies
 organized
@@ -110,12 +110,12 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
