@@ -2,7 +2,7 @@ Alterovitz
 analyze
 analyzing
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -108,14 +108,14 @@ RDFa
 realized
 regulatators
 Replicable
-Reproducibility
+reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
