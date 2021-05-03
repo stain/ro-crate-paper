@@ -11,7 +11,7 @@ Propositional Logic
 ⊢ 	$\vdash$ proves
 ⊣ 	$\dashv$
 ⊕ ≢  xor
-𝔻  Domain of predicate
+��  Domain of predicate
 ℒ language
 
 
@@ -42,11 +42,11 @@ Set
 # Formalizing RO-Crate in First Order Logic
 _Below is a brief formalization of RO-Crate as a set of relations in First Order Logic, followed by a mapping to RDF using schema.org and forward-chaining production rules for making JSON-LD._
 
-𝕃 _ro-crate_ = { Property(p), Class(c), Literal(x), Describes(R, s) }
-𝔻 =  𝕀𝕣𝕚
-𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+�� _ro-crate_ = { Property(p), Class(c), Literal(x), Describes(R, s) }
+�� =  ������
+������ ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
 ℝ ≡  { real or integer numbers }
-𝕊 ≡  { literal strings }
+�� ≡  { literal strings }
 
 ## Minimal RO-Crate 
 RO-Crate(R) ⊨  Root(R) ∧ Describes((R, R)
@@ -60,7 +60,7 @@ Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
 
 Describes(R, s) ⊨  Relation(s, p, e)  ⊕  Value(s, p, l)
 ∀x . Value(o, p, x) →  Literal(x)
-Literal(x) ≡  x ∈ ℝ  ⊕  x ∈ 𝕊
+Literal(x) ≡  x ∈ ℝ  ⊕  x ∈ ��
 
 Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
 Entity(e) → Metadata(e)
@@ -86,9 +86,9 @@ MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) 
 
 ## Forward-chained Production Rules for JSON-LD
 Describes(R, S) ∧ Relation(S, P, O) →  Describes(R, O)
-i ∈ 𝕀𝕣𝕚 →  i
+i ∈ ������ →  i
 r ∈ ℝ →  r
-s ∈ 𝕊 →  "s"
+s ∈ �� →  "s"
 Relation(s,p,o) →  { "@id": s, 
                 p: { "@id": o }
               }
@@ -114,13 +114,13 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 ### Language
 
 
-    𝕃<sub>ro-crate</sub> = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
+    ��<sub>ro-crate</sub> = { Property(p), Class(c), Literal(x), ℝ, �� }
 
 
-    𝔻 =  𝕀𝕣𝕚 \
-𝕀𝕣𝕚 ≡  { IRIs as defined in &lt;[https://tools.ietf.org/html/rfc3987](https://tools.ietf.org/html/rfc3987)> } \
+    �� =  ������ \
+������ ≡  { IRIs as defined in &lt;[https://tools.ietf.org/html/rfc3987](https://tools.ietf.org/html/rfc3987)> } \
 ℝ ≡  { real or integer numbers } \
-𝕊 ≡  { literal strings }
+�� ≡  { literal strings }
 
 
 ### Minimal RO-Crate 
@@ -147,11 +147,11 @@ Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e) \
     Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \
 Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o) \
 Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x) \
-Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ 𝕊
+Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
 
-The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation &lt;[http://example.com/](http://example.com/)>), with additional descriptions using numbers ℝ (notation 13.37) and literal strings 𝕊 (notation “Hello”). 
+The domain of discourse is the set of ������ identifiers (notation &lt;[http://example.com/](http://example.com/)>), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”). 
 
-From this formalized language 𝕃<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+From this formalized language ��<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
 An RO-Crate(R) is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology). 
 
@@ -235,9 +235,9 @@ Combining the above predicates and schema.org mapping with rudimentary JSON temp
 
 
     Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o) \
-i ∈ 𝕀𝕣𝕚 → "`i"` \
+i ∈ ������ → "`i"` \
 r ∈ ℝ →  `r` \
-s ∈ 𝕊 → `"s"`
+s ∈ �� → `"s"`
 
 
     ∀s∀p∀o Relation(s,p,o) →  `{ "@id": `s`, \
