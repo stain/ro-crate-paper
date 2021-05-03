@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/))
+([permalink](https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/))
 was automatically generated
-from [stain/ro-crate-paper@674312c](https://github.com/stain/ro-crate-paper/tree/674312c40b41e79270ca750f9f40b9e358a122a1)
+from [stain/ro-crate-paper@855fb57](https://github.com/stain/ro-crate-paper/tree/855fb57b09ba30f9862ce314ff480745c73bee20)
 on May 3, 2021.
 </em></small>
 
@@ -144,7 +144,7 @@ It is often argued that the publication of these assets and specifically softwar
 
 These strategies are focused primarily on one _type_ of artifact. To address this, [RO et al] introduced the notion of a _research object - _(def of RO). A research object combines the ability to document multiple of types of artifacts together, for example, a CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
-To address this gap, a new community came together to develop_ **RO-Crate** - _a_ lightweight approach to packaging and aggregating research artifacts with their metadata_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR.  Specifically, the contributions of this paper are as follows:
+To address this gap, a new community came together to develop **RO-Crate** - a _lightweight approach to packaging and aggregating research artifacts with their metadata_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR.  Specifically, the contributions of this paper are as follows:
 
 
 
@@ -307,7 +307,7 @@ The initial concept of RO-Crate was formed at the first Workshop on Research Obj
 
 Discussions at RO2018 identified that while the original Wf4Ever Research Object ontologies [] in principle were sufficient for packaging research artifact with rich descriptions, in practice, due to their reliance on Semantic Web technologies and other ontologies, they were considered inaccessible for regular programmers (e.g. Web developers) and in danger of being incomprehensible for domain scientists. 
 
-DataCrate [[https://doi.org/10.5281/zenodo.1445817](https://doi.org/10.5281/zenodo.1445817)] was presented at RO2018 as a promising lightweight alternative approach, and an agreement was made by a group of volunteers to attempt building “RO Lite” as a combination of DataCrate’s implementation and Research Object’s principles.
+DataCrate [[https://doi.org/10.5281/zenodo.1445817](https://doi.org/10.5281/zenodo.1445817)] was presented at RO2018 as a promising lightweight alternative approach, and an agreement was made by a group of volunteers to attempt building “RO Lite” as a combination of DataCrate's implementation and Research Object's principles.
 
 This set of volunteers were primarily digital library and semantic web experts. This group has subsequently grown to include domain scientists, developers, publishers, ++. This multiple perspective view has meant that the specification has been able to be used in a variety of domains (e.g…). 
 
@@ -327,7 +327,7 @@ We use the notion of norm here instead of principle, these are conventions or no
 3. Focus on examples and best practice over rigorous specification
 4. Reuse “just enough” Web standards
 
-A core norm of RO-Crate is that of **simplicity**, which sets the scene for how we guide developers to structure metadata with RO-Crate, in that we focus mainly on documenting simple approaches to the most common use cases, for instance authors having an affiliation. This norm of simplicity also influences our take on **developer friendliness**, for instance in that we are using the Web-native JSON format and allowing only a few of JSON-LD’s flexible Linked Data features, and that the RO-Crate documentation is largely built up by **examples** showcasing **best practice**, rather than a rigorous specification that could be harder. In a sense we are allowed this by building on existing **Web standards** that themselves are defined rigorously, which we utilize _“**just enough**”_ in order to benefit from the advantages of Linked Data (e.g. extensions by namespaced vocabularies) without imposing too many developer choices or uncertainties (e.g. having to choose between the many RDF syntaxes). 
+A core norm of RO-Crate is that of **simplicity**, which sets the scene for how we guide developers to structure metadata with RO-Crate, in that we focus mainly on documenting simple approaches to the most common use cases, for instance authors having an affiliation. This norm of simplicity also influences our take on **developer friendliness**, for instance in that we are using the Web-native JSON format and allowing only a few of JSON-LD's flexible Linked Data features, and that the RO-Crate documentation is largely built up by **examples** showcasing **best practice**, rather than a rigorous specification that could be harder. In a sense we are allowed this by building on existing **Web standards** that themselves are defined rigorously, which we utilize _“**just enough**”_ in order to benefit from the advantages of Linked Data (e.g. extensions by namespaced vocabularies) without imposing too many developer choices or uncertainties (e.g. having to choose between the many RDF syntaxes). 
 
 RO-Crate is not developed in a vacuum, and while the above norms alone could easily lead to the creation of “yet another” JSON format, we are also keeping the goal of **FAIR interoperability** of the captured metadata, and therefore follow closely FAIR best practices and current developments such as data citations, permanent identifiers, open repositories and recommendations for sharing of research outputs and software.
 
@@ -355,7 +355,7 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 
 | Tool Name | Targets | Language / Platform | Status | Brief Description |
 | --------  | ------  | ------------------  | -----  | ----------------  |
-| [Describo](https://arkisto-platform.github.io/describo/) | End users, Research Data Managers | JavaScript NodeJS (Desktop) | Release Candidate | Interactive desktop application to create, update and export RO-Crates for different profiles |
+| [Describo](https://arkisto-platform.github.io/describo/) | End users, Research Data Managers | NodeJS (Desktop) | Release Candidate | Interactive desktop application to create, update and export RO-Crates for different profiles |
 | [Describo Online](https://arkisto-platform.github.io/describo-online/) | Platform developers | NodeJS (Web) | Alpha |  |
 | [ro-crate-excel](https://www.npmjs.com/package/ro-crate-excel) | Data managers | JavaScript | Beta | Command-line tool to help create RO-Crates and HTML-readable rendering |
 | [ro-crate-html-js](https://www.npmjs.com/package/ro-crate-html-js) | Developers | JavaScript | Beta | HTML rendering of RO-Crate |
@@ -367,7 +367,7 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 | [ONI express](https://arkisto-platform.github.io/tools/portal/) | Repository managers | Platform |  | platform for publishing data and documents stored in an OCFL repository via a web interface |
 | [ocfl-tools](https://github.com/CoEDL/ocfl-tools) | Developers | ? |  | Is this just used by OCFL-indexer? |
 | [ocfl-viewer](https://hub.docker.com/r/coedl/ocfl-viewer) | Developers | Lua? |  |  |
-| [Research Object Composer](https://github.com/researchobject/research-object-composer) | Repository developers | Java | Alpha | REST API for gradually building ROs for given profile. |
+| [RO Composer](https://github.com/researchobject/research-object-composer) | Repository developers | Java | Alpha | REST API for gradually building ROs for given profile. |
 | [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl) | Workflow developers | Python | Alpha | Wraps Galaxy workflow as Workflow RO-Crate |
 
 
@@ -406,10 +406,7 @@ A similar separation of concerns we can find within the RO-Crate itself, where t
 
 Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [[10.6084/m9.figshare.3115156.v2](https://doi.org/10.6084/m9.figshare.3115156.v2)] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-![Separation of Concerns in BCO RO-Crate](../images/ro-crate-bco-sep-of-concerns.png "BCO RO-Crate")
-
-![twitter](../images/twitter.svg "twitter")
-
+![Separation of Concerns in BCO RO-Crate](../content/images/ro-crate-bco-sep-of-concerns.png "BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs")
 
 _Figure X: BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs._
 
@@ -458,7 +455,7 @@ Programmatic access to Research Objects was facilitated with an RDF endpoint tha
 
 FAIR Digital Objects (FDO) [[https://doi.org/10.3390/publications8020021](https://doi.org/10.3390/publications8020021)] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourage active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository, (ii) a _Permanent Identifier_ (PID) such as DOIs that identify the FDO and can resolve these parts, (iii) Associated rich _metadata_, as separate FDOs, (iv) Type definitions, also separate FDOs, (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
 
-As an “[abstract protocol](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf)”, Digital Objects could be implemented in multiple ways. Implementations suggested include [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/) based on HTTP and Linked Data, and while there is agreement on using permanent identifiers based on DOI, agreement on how to represent common metadata, core types and collections as FDOs have not yet been reached. We argue that RO-Crate can play an important role for FDOs:
+As an "[abstract protocol](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf)", Digital Objects could be implemented in multiple ways. Implementations suggested include [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/) based on HTTP and Linked Data, and while there is agreement on using permanent identifiers based on DOI, agreement on how to represent common metadata, core types and collections as FDOs have not yet been reached. We argue that RO-Crate can play an important role for FDOs:
 
 
 

@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/855fb57b09ba30f9862ce314ff480745c73bee20/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/674312c40b41e79270ca750f9f40b9e358a122a1">stain/ro-crate-paper@674312c</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/855fb57b09ba30f9862ce314ff480745c73bee20">stain/ro-crate-paper@855fb57</a>
 on May 3, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -185,7 +185,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research life cycle []. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on [].</p>
 <p>It is often argued that the publication of these assets and specifically software [<a href="https://doi.org/10.3233/DS-190026">https://doi.org/10.3233/DS-190026</a>] and data should follow the The FAIR principles[ <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the <em>implementation</em> strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfill these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples.</p>
 <p>These strategies are focused primarily on one <em>type</em> of artifact. To address this, [RO et al] introduced the notion of a <em>research object - </em>(def of RO). A research object combines the ability to document multiple of types of artifacts together, for example, a CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users.</p>
-<p>To address this gap, a new community came together to develop_ <strong>RO-Crate</strong> - <em>a</em> lightweight approach to packaging and aggregating research artifacts with their metadata_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR. Specifically, the contributions of this paper are as follows:</p>
+<p>To address this gap, a new community came together to develop <strong>RO-Crate</strong> - a <em>lightweight approach to packaging and aggregating research artifacts with their metadata</em>. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR. Specifically, the contributions of this paper are as follows:</p>
 <ol type="1">
 <li>an introduction to RO-Crate, its purpose and context;</li>
 <li>a guide to the RO-Crate community and tooling;</li>
@@ -326,7 +326,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <tr class="odd">
 <td><a href="https://arkisto-platform.github.io/describo/">Describo</a></td>
 <td>End users, Research Data Managers</td>
-<td>JavaScript NodeJS (Desktop)</td>
+<td>NodeJS (Desktop)</td>
 <td>Release Candidate</td>
 <td>Interactive desktop application to create, update and export RO-Crates for different profiles</td>
 </tr>
@@ -408,7 +408,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="https://github.com/researchobject/research-object-composer">Research Object Composer</a></td>
+<td><a href="https://github.com/researchobject/research-object-composer">RO Composer</a></td>
 <td>Repository developers</td>
 <td>Java</td>
 <td>Alpha</td>
@@ -440,10 +440,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>A similar separation of concerns we can find within the RO-Crate itself, where the transport-level metadata such as checksum of files are <a href="https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#adding-ro-crate-to-bagit">delegated to BagIt</a> manifests, a standard focusing on preservation challenges by digital libraries [<a href="https://www.rfc-editor.org/rfc/rfc8493.html">RFC8493</a>]. As such RO-Crates are not required to list all the files in its folder hierarchy, only those that are deemed to be needing a description.</p>
 <p>Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [<a href="https://doi.org/10.6084/m9.figshare.3115156.v2">10.6084/m9.figshare.3115156.v2</a>] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).</p>
 <figure>
-<img src="../images/ro-crate-bco-sep-of-concerns.png" alt="" /><figcaption>Separation of Concerns in BCO RO-Crate</figcaption>
-</figure>
-<figure>
-<img src="../images/twitter.svg" alt="" /><figcaption>twitter</figcaption>
+<img src="../content/images/ro-crate-bco-sep-of-concerns.png" alt="" /><figcaption>Separation of Concerns in BCO RO-Crate</figcaption>
 </figure>
 <p><em>Figure X: BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s software tools dependencies of as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs.</em></p>
 <h2 id="digital-humanities-cultural-heritage">Digital Humanities: Cultural Heritage</h2>
