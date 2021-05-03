@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/674312c40b41e79270ca750f9f40b9e358a122a1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/cf42a1c445d4eb20ee186a6d4b8598109601a90f">stain/ro-crate-paper@cf42a1c</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/674312c40b41e79270ca750f9f40b9e358a122a1">stain/ro-crate-paper@674312c</a>
 on May 3, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -193,9 +193,9 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </ol>
 <p>The rest of this paper is organized as follows. We first introduce RO-Crate, the assumptions underlying it and define it technically. We then proceed to introduce the community and tooling. We then analyze RO-Crate with respect to usage in a diverse set of domains. Finally, we present related work and conclude.</p>
 <h1 id="ro-crate">RO-Crate</h1>
-<p>As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <a href="https://nf-co.re/chipseq/1.2.1/output">https://nf-co.re/chipseq/1.2.1/output</a> , <a href="https://github.com/stain/bco-ro-example-chipseq">https://github.com/stain/bco-ro-example-chipseq</a>)</p>
+<p>As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <a href="https://nf-co.re/chipseq/1.2.1/output" class="uri">https://nf-co.re/chipseq/1.2.1/output</a> <a href="https://github.com/stain/bco-ro-example-chipseq" class="uri">https://github.com/stain/bco-ro-example-chipseq</a></p>
 <p>The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A defacto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can <em>easily</em> access the data in a programmatic fashion. This leads to the need for explicit metadata about the contents of this package.</p>
-<p>Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications ( <a href="https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/">https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/</a>).</p>
+<p>Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications (<a href="https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/" class="uri">https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/</a>).</p>
 <p>RO-Crate seeks to address this complexity by:</p>
 <ol type="1">
 <li>being easy to understand and simple conceptually;</li>
@@ -440,7 +440,10 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>A similar separation of concerns we can find within the RO-Crate itself, where the transport-level metadata such as checksum of files are <a href="https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#adding-ro-crate-to-bagit">delegated to BagIt</a> manifests, a standard focusing on preservation challenges by digital libraries [<a href="https://www.rfc-editor.org/rfc/rfc8493.html">RFC8493</a>]. As such RO-Crates are not required to list all the files in its folder hierarchy, only those that are deemed to be needing a description.</p>
 <p>Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [<a href="https://doi.org/10.6084/m9.figshare.3115156.v2">10.6084/m9.figshare.3115156.v2</a>] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).</p>
 <figure>
-<img src="images/ro-crate-bco-sep-of-concerns.png" alt="" /><figcaption>Separation of Concerns in BCO RO-Crate</figcaption>
+<img src="../images/ro-crate-bco-sep-of-concerns.png" alt="" /><figcaption>Separation of Concerns in BCO RO-Crate</figcaption>
+</figure>
+<figure>
+<img src="../images/twitter.svg" alt="" /><figcaption>twitter</figcaption>
 </figure>
 <p><em>Figure X: BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s software tools dependencies of as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs.</em></p>
 <h2 id="digital-humanities-cultural-heritage">Digital Humanities: Cultural Heritage</h2>
@@ -480,7 +483,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description).[ <a href="https://doi.org/10.3389/fninf.2017.00069">https://doi.org/10.3389/fninf.2017.00069</a>] [<a href="http://repscience2016.research-infrastructures.eu/img/CaroleGoble-ReproScience2016v2.pdf">Goble: What is Reproducibility? The R* brouhaha</a>]</p>
 <p>Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They may would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.</p>
 <p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences<a href="https://doi.org/10.1007/s41019-017-0050-4">https://doi.org/10.1007/s41019-017-0050-4</a> with supporting collaborative efforts like BioConda<a href="https://doi.org/10.1038/s41592-018-0046-7">https://doi.org/10.1038/s41592-018-0046-7</a>, BioContainers [??] and by Linux distributions themselves (Debian Med<a href="https://doi.org/10.1186/1471-2105-11-S12-S5">https://doi.org/10.1186/1471-2105-11-S12-S5</a>) to make more than 7000 software packages available in BioConda alone<a href="https://anaconda.org/bioconda/">https://anaconda.org/bioconda/</a> and 9000 containers in BioContainers<a href="https://biocontainers.pro/#/registry">https://biocontainers.pro/#/registry</a>. Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
-<p># Conclusion</p>
+<h1 id="conclusion">Conclusion</h1>
 <h1 id="formal-definition-of-ro-crate">Formal definition of RO-Crate</h1>
 <!--
 
@@ -493,7 +496,7 @@ Propositional Logic
 ⊢   $\vdash$ proves
 ⊣   $\dashv$
 ⊕ ≢  xor
-𝔻  Domain of predicate
+��  Domain of predicate
 ℒ language
 
 
@@ -521,11 +524,11 @@ Set
 -->
 <h1 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h1>
 <p><em>Below is a brief formalization of RO-Crate as a set of relations in First Order Logic, followed by a mapping to RDF using schema.org and forward-chaining production rules for making JSON-LD.</em></p>
-<p>𝕃 <em>ro-crate</em> = { Property(p), Class(c), Literal(x), Describes(R, s) }
-𝔻 = 𝕀𝕣𝕚
-𝕀𝕣𝕚 ≡ { IRIs as defined in <a href="https://tools.ietf.org/html/rfc3987" class="uri">https://tools.ietf.org/html/rfc3987</a> }
+<p>�� <em>ro-crate</em> = { Property(p), Class(c), Literal(x), Describes(R, s) }
+�� = ������
+������ ≡ { IRIs as defined in <a href="https://tools.ietf.org/html/rfc3987" class="uri">https://tools.ietf.org/html/rfc3987</a> }
 ℝ ≡ { real or integer numbers }
-𝕊 ≡ { literal strings }</p>
+�� ≡ { literal strings }</p>
 <h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
 <p>RO-Crate(R) ⊨ Root(R) ∧ Describes((R, R)
 RO-Crate(R) ⊨ hasPart(R, d) ∧ Describes((R, d) ∧ DataEntity(d)
@@ -536,7 +539,7 @@ DataEntity(e) ≡ File(e) ⊕ Dataset(e)
 Entity(e) ≡ DataEntity(e) ∨ ContextualEntity(e)</p>
 <p>Describes(R, s) ⊨ Relation(s, p, e) ⊕ Value(s, p, l)
 ∀x . Value(o, p, x) → Literal(x)
-Literal(x) ≡ x ∈ ℝ ⊕ x ∈ 𝕊</p>
+Literal(x) ≡ x ∈ ℝ ⊕ x ∈ ��</p>
 <p>Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
 Entity(e) → Metadata(e)
 Metadata(e) → Class(t) ∧ Describes(R, e)</p>
@@ -556,9 +559,9 @@ MetadataFileDescriptor(m) → ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) �
 conformsTo(m, <a href="https://w3id.org/ro/crate/1.1" class="uri">https://w3id.org/ro/crate/1.1</a>) )</p>
 <h2 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h2>
 <p>Describes(R, S) ∧ Relation(S, P, O) → Describes(R, O)
-i ∈ 𝕀𝕣𝕚 → i
+i ∈ ������ → i
 r ∈ ℝ → r
-s ∈ 𝕊 → “s”
+s ∈ �� → “s”
 Relation(s,p,o) → { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: s,
 p: { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: o }
 }
@@ -572,13 +575,13 @@ MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) .</p>
 <h2 id="formalizing-ro-crate-in-first-order-logic-1">Formalizing RO-Crate in First Order Logic</h2>
 <p>Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:</p>
 <h3 id="language">Language</h3>
-<pre><code>𝕃&lt;sub&gt;ro-crate&lt;/sub&gt; = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
+<pre><code>��&lt;sub&gt;ro-crate&lt;/sub&gt; = { Property(p), Class(c), Literal(x), ℝ, �� }
 
 
-𝔻 =  𝕀𝕣𝕚 \</code></pre>
-<p>𝕀𝕣𝕚 ≡ { IRIs as defined in &lt;<a href="https://tools.ietf.org/html/rfc3987">https://tools.ietf.org/html/rfc3987</a>&gt; }<br />
+�� =  ������ \</code></pre>
+<p>������ ≡ { IRIs as defined in &lt;<a href="https://tools.ietf.org/html/rfc3987">https://tools.ietf.org/html/rfc3987</a>&gt; }<br />
 ℝ ≡ { real or integer numbers }<br />
-𝕊 ≡ { literal strings }</p>
+�� ≡ { literal strings }</p>
 <h3 id="minimal-ro-crate-1">Minimal RO-Crate</h3>
 <pre><code>RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ \
 hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ \
@@ -597,9 +600,9 @@ Mentions(R, c) ∧ ContextualEntity(c)
 <pre><code>Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \</code></pre>
 <p>Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)<br />
 Attribute(s, p, x) ⊨ Entity(s) ∧ Property(p) ∧ Literal(x)<br />
-Literal(x) ≡ x ∈ ℝ ⊕ x ∈ 𝕊</p>
-<p>The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings 𝕊 (notation “Hello”).</p>
-<p>From this formalized language 𝕃<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
+Literal(x) ≡ x ∈ ℝ ⊕ x ∈ ��</p>
+<p>The domain of discourse is the set of ������ identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”).</p>
+<p>From this formalized language ��<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <p>An RO-Crate(R) is defined as a self-described <em>Root Data Entity</em>, which describes and contains parts (<em>data entities</em>), which are further described in <em>contextual entities</em>. These terms align with their use in the <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology">RO-Crate 1.1 terminology</a>.</p>
 <p>The Root(r) is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity">requirements for the root data entity</a>.</p>
 <p>The concept of an Entity(e) is introduced as being either a DataEntity(e), a ContextualEntity(e), or <a href="https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities">both</a>; and must be typed with at least one Class(e).</p>
@@ -649,9 +652,9 @@ conformsTo(m, &lt;<a href="https://w3id.org/ro/crate/1.1">https://w3id.org/ro/cr
 <h3 id="forward-chained-production-rules-for-json-ld-1">Forward-chained Production Rules for JSON-LD</h3>
 <p>Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification:</p>
 <pre><code>Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o) \</code></pre>
-<p>i ∈ 𝕀𝕣𝕚 → "<code>i"</code><br />
+<p>i ∈ ������ → "<code>i"</code><br />
 r ∈ ℝ → <code>r</code><br />
-s ∈ 𝕊 → <code>"s"</code></p>
+s ∈ �� → <code>"s"</code></p>
 <pre><code>∀s∀p∀o Relation(s,p,o) →  `{ &quot;@id&quot;: `s`, \
                   `p`: { &quot;@id&quot;: `o` } \
                }`
