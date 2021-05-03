@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble
@@ -66,7 +66,7 @@ HttpRange
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -86,7 +86,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
@@ -115,7 +115,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
