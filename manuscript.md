@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/c6c65b2ce86fb3d03e42cc63e3490814aa655047/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c6c65b2ce86fb3d03e42cc63e3490814aa655047/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c6c65b2ce86fb3d03e42cc63e3490814aa655047/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/c6c65b2ce86fb3d03e42cc63e3490814aa655047/))
+([permalink](https://stain.github.io/ro-crate-paper/v/cf42a1c445d4eb20ee186a6d4b8598109601a90f/))
 was automatically generated
-from [stain/ro-crate-paper@c6c65b2](https://github.com/stain/ro-crate-paper/tree/c6c65b2ce86fb3d03e42cc63e3490814aa655047)
+from [stain/ro-crate-paper@cf42a1c](https://github.com/stain/ro-crate-paper/tree/cf42a1c445d4eb20ee186a6d4b8598109601a90f)
 on May 3, 2021.
 </em></small>
 
@@ -245,8 +245,7 @@ In the design of RO-Crate we did however find that JSON-LD alone, like many RDF 
 
 RO-Crate mandates the use of flattened, compacted JSON-LD [[https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html)] where a single @graph array contains all the data and contextual entities in a flat list:
 
-
-```
+```json
 { "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     { "@id": "ro-crate-metadata.json",      
@@ -279,8 +278,7 @@ RO-Crate mandates the use of flattened, compacted JSON-LD [[https://www.research
 ] }
 ```
 
-
-_Figure X: _Simplified RO-Crate JSON-LD showing the flattened compacted @graph array
+_Figure X_: _Simplified RO-Crate JSON-LD showing the flattened compacted @graph array_
 
 It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite to, and which is normally emphasized  as a feature of JSON-LD in order to “hide” its RDF nature. 
 
@@ -359,201 +357,23 @@ Given the stage of the specification, the targets of these tools have been prima
 
 We argue that the adoption of simple web technologies in the RO-Crate specification has lent to the development of this wide variety of tools. 
 
+| Tool Name | Targets | Language / Platform | Status | Brief Description |
+| --------  | ------  | ------------------  | -----  | ----------------  |
+| [Describo](https://arkisto-platform.github.io/describo/) | End users, Research Data Managers | JavaScript NodeJS (Desktop) | Release Candidate | Interactive desktop application to create, update and export RO-Crates for different profiles |
+| [Describo Online](https://arkisto-platform.github.io/describo-online/) | Platform developers | NodeJS (Web) | Alpha |  |
+| [ro-crate-excel](https://www.npmjs.com/package/ro-crate-excel) | Data managers | JavaScript | Beta | Command-line tool to help create RO-Crates and HTML-readable rendering |
+| [ro-crate-html-js](https://www.npmjs.com/package/ro-crate-html-js) | Developers | JavaScript | Beta | HTML rendering of RO-Crate |
+| [ro-crate-js](https://github.com/UTS-eResearch/ro-crate-js) | Research Data managers | JavaScript | Alpha | Command line tool, render HTML from RO-Crate |
+| [ro-crate-ruby](https://github.com/fbacall/ro-crate-ruby) | Developers | Ruby | Beta |  |
+| [ro-crate-py](https://github.com/researchobject/ro-crate-py) | Developers | Python | Alpha |  |
+| [WorkflowHub](https://about.workflowhub.eu/) | Workflow users | Ruby | Beta | Imports and exports Workflow RO-Crates |
+| [OCFL-indexer](https://about.workflowhub.eu/) | Repository managers | NodeJS |  | OCFL-based RO-Crate validation and indexing |
+| [ONI express](https://arkisto-platform.github.io/tools/portal/) | Repository managers | Platform |  | platform for publishing data and documents stored in an OCFL repository via a web interface |
+| [ocfl-tools](https://github.com/CoEDL/ocfl-tools) | Developers | ? |  | Is this just used by OCFL-indexer? |
+| [ocfl-viewer](https://hub.docker.com/r/coedl/ocfl-viewer) | Developers | Lua? |  |  |
+| [Research Object Composer](https://github.com/researchobject/research-object-composer) | Repository developers | Java | Alpha | REST API for gradually building ROs for given profile. |
+| [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl) | Workflow developers | Python | Alpha | Wraps Galaxy workflow as Workflow RO-Crate |
 
-<table>
-  <tr>
-   <td><strong>Tool Name</strong>
-   </td>
-   <td><strong>Targets</strong>
-   </td>
-   <td><strong>Programming Language / Platform</strong>
-   </td>
-   <td><strong>Status</strong>
-   </td>
-   <td><strong>Brief Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://arkisto-platform.github.io/describo/">Describo</a>
-   </td>
-   <td>End users, Research Data Managers
-   </td>
-   <td>JavaScript NodeJS (Desktop)
-   </td>
-   <td>Release Candidate
-   </td>
-   <td>Interactive desktop application to create, update and export RO-Crates for different profiles
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://arkisto-platform.github.io/describo-online/">Describo Online</a>
-   </td>
-   <td>Platform developers
-   </td>
-   <td>NodeJS (Web)
-   </td>
-   <td>Alpha
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://www.npmjs.com/package/ro-crate-excel">ro-crate-excel</a> 
-   </td>
-   <td>Data managers
-   </td>
-   <td>JavaScript
-   </td>
-   <td>Beta
-   </td>
-   <td>Command-line tool to help create RO-Crates and HTML-readable rendering
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://www.npmjs.com/package/ro-crate-html-js">ro-crate-html-js</a>
-   </td>
-   <td>Developers
-   </td>
-   <td>JavaScript
-   </td>
-   <td>Beta
-   </td>
-   <td>HTML rendering of RO-Crate
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/UTS-eResearch/ro-crate-js">ro-crate-js</a> 
-   </td>
-   <td>Research Data managers
-   </td>
-   <td>JavaScript
-   </td>
-   <td>Alpha
-   </td>
-   <td>Command line tool, render HTML from RO-Crate
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/fbacall/ro-crate-ruby">ro-crate-ruby</a>
-   </td>
-   <td>Developers
-   </td>
-   <td>Ruby
-   </td>
-   <td>Beta
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/researchobject/ro-crate-py">ro-crate-py</a> 
-   </td>
-   <td>Developers
-   </td>
-   <td>Python
-   </td>
-   <td>Alpha
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://about.workflowhub.eu/">Workflow Hub</a>
-   </td>
-   <td>Workflow users
-   </td>
-   <td>Ruby
-   </td>
-   <td>Beta
-   </td>
-   <td>Imports and exports<a href="https://about.workflowhub.eu/Workflow-RO-Crate/"> Workflow RO-Crates</a>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/CoEDL/modpdsc/">OCFL-indexer</a>
-   </td>
-   <td>Repository managers
-   </td>
-   <td>NodeJS
-   </td>
-   <td>
-   </td>
-   <td><a href="https://ocfl.io/">OCFL</a>-based RO-Crate validation and indexing
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://arkisto-platform.github.io/tools/portal/">ONI express</a>
-   </td>
-   <td>Repository managers
-   </td>
-   <td>Platform
-   </td>
-   <td>
-   </td>
-   <td>platform for publishing data and documents stored in an OCFL repository via a web interface
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/CoEDL/ocfl-tools">ocfl-tools</a>
-   </td>
-   <td>Developers
-   </td>
-   <td>?
-   </td>
-   <td>
-   </td>
-   <td>Is this just used by OCFL-indexer?
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://hub.docker.com/r/coedl/ocfl-viewer">ocfl-viewer</a>
-   </td>
-   <td>Developers
-   </td>
-   <td>Lua?
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/researchobject/research-object-composer">Research Object Composer</a>
-   </td>
-   <td>Repository developers
-   </td>
-   <td>Java
-   </td>
-   <td>Alpha
-   </td>
-   <td>REST API for gradually building ROs for given profile.
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://github.com/workflowhub-eu/galaxy2cwl">galaxy2cwl</a>
-   </td>
-   <td>Workflow developers
-   </td>
-   <td>Python
-   </td>
-   <td>Alpha
-   </td>
-   <td>Wraps Galaxy workflow as Workflow RO-Crate
-   </td>
-  </tr>
-  <tr>
-   <td>...
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
 
 
 # Using RO-Crate
@@ -590,13 +410,7 @@ A similar separation of concerns we can find within the RO-Crate itself, where t
 
 Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [[10.6084/m9.figshare.3115156.v2](https://doi.org/10.6084/m9.figshare.3115156.v2)] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
+![Separation of Concerns in BCO RO-Crate](images/ro-crate-bco-sep-of-concerns.png "BCO RO-Crate")
 
 _Figure X: BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs._
 

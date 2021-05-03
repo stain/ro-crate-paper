@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -32,7 +32,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datePublished
 datetime
@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble
@@ -71,7 +71,7 @@ interpretable
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 LFS
@@ -86,7 +86,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
@@ -98,7 +98,6 @@ personalized
 pgroth
 PID
 PIDs
-png
 productionized
 programmatically
 ptsefton
