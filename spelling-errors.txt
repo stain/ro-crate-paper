@@ -28,12 +28,12 @@ counterintuitively
 Cratezies
 CreativeWork
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datePublished
 datetime
@@ -78,7 +78,6 @@ LD’s
 LFS
 lifecycle
 Lua
-MetadataFileDescriptor
 metagenomics
 myExperiment
 namespaced
@@ -116,12 +115,11 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations
 SHACL
-ShareAlike
 ShEx
 SIOC
 Snakemake
