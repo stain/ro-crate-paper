@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/727eeb7844420adac44b4fecc686b428b03606f8/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/727eeb7844420adac44b4fecc686b428b03606f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/727eeb7844420adac44b4fecc686b428b03606f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1b582f286e650641fd3c0adf4012d5498be62b5e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1b582f286e650641fd3c0adf4012d5498be62b5e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1b582f286e650641fd3c0adf4012d5498be62b5e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/727eeb7844420adac44b4fecc686b428b03606f8/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/1b582f286e650641fd3c0adf4012d5498be62b5e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/727eeb7844420adac44b4fecc686b428b03606f8">stain/ro-crate-paper@727eeb7</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/1b582f286e650641fd3c0adf4012d5498be62b5e">stain/ro-crate-paper@1b582f2</a>
 on May 3, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -481,189 +481,94 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They may would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.</p>
 <p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences<a href="https://doi.org/10.1007/s41019-017-0050-4">https://doi.org/10.1007/s41019-017-0050-4</a> with supporting collaborative efforts like BioConda<a href="https://doi.org/10.1038/s41592-018-0046-7">https://doi.org/10.1038/s41592-018-0046-7</a>, BioContainers [??] and by Linux distributions themselves (Debian Med<a href="https://doi.org/10.1186/1471-2105-11-S12-S5">https://doi.org/10.1186/1471-2105-11-S12-S5</a>) to make more than 7000 software packages available in BioConda alone<a href="https://anaconda.org/bioconda/">https://anaconda.org/bioconda/</a> and 9000 containers in BioContainers<a href="https://biocontainers.pro/#/registry">https://biocontainers.pro/#/registry</a>. Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
 <h1 id="conclusion">Conclusion</h1>
-<h1 id="formal-definition-of-ro-crate">Formal definition of RO-Crate</h1>
-<!--
-
-Propositional Logic     
-¬   $\neg$
-→   $\rightarrow$
-↔   $\leftrightarrow$
-∨ ∥ or
-∧ &  and
-⊢   $\vdash$ proves
-⊣   $\dashv$
-⊕ ≢  xor
-��  Domain of predicate
-ℒ language
-
-
-Predicate Logic     
-∀   $\forall$
-∃   $\exists$
-∈   $\in$
-⊨   $\models$ entails
-
-Modal Logic     
-□   $\Box$
-◊   $\Diamond$
-
-Set
-⊃  superset / material implication
-≡ 
-⇔
-
-⊤ tautology
-⊥ contradiction
-
-∴  therefore
-∵ because
-∃!
--->
-<h1 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h1>
-<p><em>Below is a brief formalization of RO-Crate as a set of relations in First Order Logic, followed by a mapping to RDF using schema.org and forward-chaining production rules for making JSON-LD.</em></p>
-<p>�� <em>ro-crate</em> = { Property(p), Class(c), Literal(x), Describes(R, s) }
-�� = ������
-������ ≡ { IRIs as defined in <a href="https://tools.ietf.org/html/rfc3987" class="uri">https://tools.ietf.org/html/rfc3987</a> }
-ℝ ≡ { real or integer numbers }
-�� ≡ { literal strings }</p>
-<h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
-<p>RO-Crate(R) ⊨ Root(R) ∧ Describes((R, R)
-RO-Crate(R) ⊨ hasPart(R, d) ∧ Describes((R, d) ∧ DataEntity(d)
-RO-Crate(R) ⊨ Describes((R, c) ∧ ContextualEntity(c)</p>
-<p>Root(r) → Dataset(r) ∧ published(r, Date)
-published(e, date) → Literal(date)
-DataEntity(e) ≡ File(e) ⊕ Dataset(e)
-Entity(e) ≡ DataEntity(e) ∨ ContextualEntity(e)</p>
-<p>Describes(R, s) ⊨ Relation(s, p, e) ⊕ Value(s, p, l)
-∀x . Value(o, p, x) → Literal(x)
-Literal(x) ≡ x ∈ ℝ ⊕ x ∈ ��</p>
-<p>Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
-Entity(e) → Metadata(e)
-Metadata(e) → Class(t) ∧ Describes(R, e)</p>
-<h2 id="mapping-to-rdf-with-schema.org">Mapping to RDF with schema.org</h2>
-<p>Dataset(d) → type(d, <a href="http://schema.org/Dataset" class="uri">http://schema.org/Dataset</a>)
-File(f) → type(f, <a href="http://schema.org/MediaObject" class="uri">http://schema.org/MediaObject</a>)
-Property(p) → type(p, <a href="http://www.w3.org/2000/01/rdf-schema#Property" class="uri">http://www.w3.org/2000/01/rdf-schema#Property</a>)
-Class(c) → type(c, <a href="http://www.w3.org/2000/01/rdf-schema#Class" class="uri">http://www.w3.org/2000/01/rdf-schema#Class</a>)</p>
-<p>hasPart(e, t) → Relation(e, <a href="http://schema.org/hasPart" class="uri">http://schema.org/hasPart</a>, t)
-type(e, t) → Relation(e, <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" class="uri">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a>, t)
-published(e, date) → Value(e, <a href="http://schema.org/datePublished" class="uri">http://schema.org/datePublished</a>, date)</p>
-<h2 id="ro-crate-1.0-metadata-file-descriptor">RO-Crate 1.0 Metadata File Descriptor</h2>
-<p>about(s,o) → Relation(, <a href="http://schema.org/about" class="uri">http://schema.org/about</a>, o)
-conformsTo(s,o) → Relation(s, <a href="http://purl.org/dc/terms/conformsTo" class="uri">http://purl.org/dc/terms/conformsTo</a>, R)
-CreativeWork(e) → ContextualEntity(m) ∧ type(m, <a href="http://schema.org/CreativeWork" class="uri">http://schema.org/CreativeWork</a>)
-MetadataFileDescriptor(m) → ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧
-conformsTo(m, <a href="https://w3id.org/ro/crate/1.1" class="uri">https://w3id.org/ro/crate/1.1</a>) )</p>
-<h2 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h2>
-<p>Describes(R, S) ∧ Relation(S, P, O) → Describes(R, O)
-i ∈ ������ → i
-r ∈ ℝ → r
-s ∈ �� → “s”
-Relation(s,p,o) → { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: s,
-p: { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: o }
-}
-Value(s,p,o) → { “<span class="citation" data-cites="id">[<span class="citeproc-not-found" data-reference-id="id"><strong>???</strong></span>]</span>”: s,
-p: o }
-RO-Crate(r) → { “<span class="citation" data-cites="graph">[<span class="citeproc-not-found" data-reference-id="graph"><strong>???</strong></span>]</span>”: [ Describes((r, c) ] }
-R ≡ &lt;./&gt;
-MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) .</p>
-<!-- From Google Docs -->
 <h1 id="appendix">Appendix</h1>
-<h2 id="formalizing-ro-crate-in-first-order-logic-1">Formalizing RO-Crate in First Order Logic</h2>
+<h2 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h2>
 <p>Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:</p>
 <h3 id="language">Language</h3>
-<pre><code>��&lt;sub&gt;ro-crate&lt;/sub&gt; = { Property(p), Class(c), Literal(x), ℝ, �� }
-
-
-�� =  ������ \</code></pre>
-<p>������ ≡ { IRIs as defined in &lt;<a href="https://tools.ietf.org/html/rfc3987">https://tools.ietf.org/html/rfc3987</a>&gt; }<br />
-ℝ ≡ { real or integer numbers }<br />
-�� ≡ { literal strings }</p>
+<pre><code>𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
+𝔻 =  𝕀𝕣𝕚
+𝕀𝕣𝕚 ≡  { IRIs as defined in &lt;https://tools.ietf.org/html/rfc3987&gt; }
+ℝ ≡  { real or integer numbers }
+𝕊 ≡  { literal strings }</code></pre>
 <h3 id="minimal-ro-cratezies">Minimal RO-Cratezies</h3>
-<p><span class="math display">\[\begin{multline*}
-RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ Mentions(R, c) ∧ ContextualEntity(c)
-
-∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d) ∧ published(r, date) ∧ license(e, l) \\
-∀e∀n name(e, n) →  Literal(n)  \\
-∀e∀d description(e, d) →  Literal(d) \\
-∀e∀date datePublished(e, date) →  Literal(date) \\
-∀e∀l license(e, l) →  ContextualEntity(l) \\
-
-DataEntity(e) ≡  File(e) ⊕ Dataset(e) \\
-Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e) \\
+<pre><code>RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧
+    hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧
+    Mentions(R, c) ∧ ContextualEntity(c)
+∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d)
+                        ∧ published(r, date) ∧ license(e, l)
+∀e∀n name(e, n) →  Literal(n)
+∀e∀d description(e, d) →  Literal(d)
+∀e∀date datePublished(e, date) →  Literal(date)
+∀e∀l license(e, l) →  ContextualEntity(l)
+DataEntity(e) ≡  File(e) ⊕ Dataset(e)
+Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
 ∀e Entity(e) → Class(e)
-
-Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \
-Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o) \
-Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x) \
-Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
-\end{multline*}\]</span></p>
-<p>The domain of discourse is the set of ������ identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”).</p>
-<p>From this formalized language ��<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
-<p>An RO-Crate(R) is defined as a self-described <em>Root Data Entity</em>, which describes and contains parts (<em>data entities</em>), which are further described in <em>contextual entities</em>. These terms align with their use in the <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology">RO-Crate 1.1 terminology</a>.</p>
-<p>The Root(r) is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity">requirements for the root data entity</a>.</p>
-<p>The concept of an Entity(e) is introduced as being either a DataEntity(e), a ContextualEntity(e), or <a href="https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities">both</a>; and must be typed with at least one Class(e).</p>
+Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
+Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
+Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x)
+Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ 𝕊</code></pre>
+<p>The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings 𝕊 (notation “Hello”).</p>
+<p>From this formalized language <code>𝕃ro-crate</code> a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
+<p>An <code>RO-Crate(R)</code> is defined as a self-described <em>Root Data Entity</em>, which describes and contains parts (<em>data entities</em>), which are further described in <em>contextual entities</em>. These terms align with their use in the <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology">RO-Crate 1.1 terminology</a>.</p>
+<p>The <code>Root(r)</code> is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity">requirements for the root data entity</a>.</p>
+<p>The concept of an <code>Entity(e)</code> is introduced as being either a DataEntity(e), a ContextualEntity(e), or <a href="https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities">both</a>; and must be typed with at least one Class(e).</p>
 <p>For simplicity in this formalization (and to assist production rules below) R is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. R is used by Mentions(R, e) to indicate that e is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. Relation(s, p, o) and Attribute(s, p, x) are defined as a <em>subject-predicate-object</em> triple pattern from an Entity(s) using a Property(p) to either another Entity(o) or a Literal(x) value.</p>
 <h3 id="example-of-formalized-ro-crate">Example of formalized RO-Crate</h3>
 <p>The below is an example RO-Crate represented using the above formalization, assuming a base URI of <a href="http://example.com/ro/123/">http://example.com/ro/123/</a>:</p>
-<pre><code>RO-Crate(&amp;lt;[http://example.com/ro/123/](http://example.com/ro/123/)&gt;) \</code></pre>
-<p>name(&lt;<a href="http://example.com/ro/123/">http://example.com/ro/123/</a>,<br />
-“Data files associated with the manuscript:Effects of facilitated family case …”)<br />
-description(&lt;<a href="http://example.com/ro/123/">http://example.com/ro/123/</a>,<br />
-“Palliative care planning for nursing home residents with advanced dementia …”)<br />
-datePublished(&lt;<a href="http://example.com/ro/123/">http://example.com/ro/123/</a>&gt;, “2017”)<br />
-license(&lt;<a href="http://example.com/ro/123/">http://example.com/ro/123/</a>&gt;, &lt;<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/au/">https://creativecommons.org/licenses/by-nc-sa/3.0/au/</a>&gt;</p>
-<pre><code>ContextualEntity(&amp;lt;[https://creativecommons.org/licenses/by-nc-sa/3.0/au/](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)&gt;) \</code></pre>
-<p>name(&lt;<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/au/">https://creativecommons.org/licenses/by-nc-sa/3.0/au/</a>,<br />
-“Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”)<br />
-<br />
-hasPart(&lt;<a href="http://example.com/ro/123/">http://example.com/ro/123/</a>&gt;, &lt;<a href="http://example.com/ro/123/file.txt">http://example.com/ro/123/file.txt</a>&gt;)<br />
-File(&lt;<a href="http://example.com/ro/123/survey.csv">http://example.com/ro/123/survey.csv</a>&gt;)<br />
-name(&lt;<a href="http://example.com/ro/123/survey.csv">http://example.com/ro/123/survey.csv</a>&gt;, “Survey of care providers”)</p>
-<pre><code>hasPart(&amp;lt;[http://example.com/ro/123/](http://example.com/ro/123/)&gt;, &amp;lt;[http://www.example.om/ro/123/folder/](http://example.com/ro/123/file.txt)&gt;) \</code></pre>
-<p>Dataset(&lt;<a href="http://example.com/ro/123/interviews/">http://example.com/ro/123/interviews/</a>&gt;)<br />
-name(&lt;<a href="http://example.com/ro/123/interviews/">http://example.com/ro/123/interviews/</a>&gt;, “Audio recordings of care provider interviews”)</p>
+<pre><code>RO-Crate(&lt;http://example.com/ro/123/&gt;)
+name(&lt;http://example.com/ro/123/, 
+    “Data files associated with the manuscript:Effects of facilitated family case …”)
+description(&lt;http://example.com/ro/123/, 
+    “Palliative care planning for nursing home residents with advanced dementia …&quot;)
+datePublished(&lt;http://example.com/ro/123/&gt;, “2017&quot;)
+license(&lt;http://example.com/ro/123/&gt;, &lt;https://creativecommons.org/licenses/by-nc-sa/3.0/au/&gt;
+ContextualEntity(&lt;https://creativecommons.org/licenses/by-nc-sa/3.0/au/&gt;)
+name(&lt;https://creativecommons.org/licenses/by-nc-sa/3.0/au/, 
+    “Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”)
+
+hasPart(&lt;http://example.com/ro/123/&gt;, &lt;http://example.com/ro/123/file.txt&gt;)
+File(&lt;http://example.com/ro/123/survey.csv&gt;)
+name(&lt;http://example.com/ro/123/survey.csv&gt;, “Survey of care providers”)
+hasPart(&lt;http://example.com/ro/123/&gt;, &lt;http://www.example.om/ro/123/folder/&gt;)
+Dataset(&lt;http://example.com/ro/123/interviews/&gt;)
+name(&lt;http://example.com/ro/123/interviews/&gt;, “Audio recordings of care provider interviews”)</code></pre>
 <p>In reality many additional attributes from schema.org types like <a href="http://schema.org/Dataset">http://schema.org/Dataset</a> and <a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.</p>
-<h3 id="mapping-to-rdf-with-schema.org-1">Mapping to RDF with schema.org</h3>
+<h3 id="mapping-to-rdf-with-schema.org">Mapping to RDF with schema.org</h3>
 <p>A formalized RO-Crate can be mapped to different serializations. Below follows a mapping to RDF using schema.org.</p>
-<pre><code>Dataset(d) →  type(d, &amp;lt;[http://schema.org/Dataset](http://schema.org/Dataset)&gt;) \</code></pre>
-<p>File(f) → type(f, &lt;<a href="http://schema.org/MediaObject">http://schema.org/MediaObject</a>&gt;)<br />
-Property(p) → type(p, &lt;<a href="http://www.w3.org/2000/01/rdf-schema#Property">http://www.w3.org/2000/01/rdf-schema#Property</a>&gt;)<br />
-Class(c) → type(c, &lt;<a href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a>&gt;)<br />
-CreativeWork(e) → ContextualEntity(e) ∧ type(e, &lt;<a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a>&gt;)</p>
-<pre><code>hasPart(e, t) →  Relation(e, &amp;lt;[http://schema.org/hasPart](http://schema.org/hasPart)&gt;, t) \</code></pre>
-<p>type(e, t) → Relation(e, &lt;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a>&gt;, t) ∧ Class(t)<br />
-name(e, n) → Attribute(e, &lt;<a href="http://schema.org/name">http://schema.org/name</a>&gt;, n)<br />
-description(e, d) → Attribute(e, &lt;<a href="http://schema.org/description">http://schema.org/description</a>&gt;, d)<br />
-datePublished(e, date) → Attribute(e, &lt;<a href="http://schema.org/datePublished">http://schema.org/datePublished</a>&gt;, date)<br />
-license(e, l) → Relation(e, &lt;<a href="http://schema.org/license">http://schema.org/license</a>&gt;, l) ∧ CreativeWork(l)</p>
+<pre><code>Dataset(d) →  type(d, &lt;http://schema.org/Dataset&gt;)
+File(f) →  type(f, &lt;http://schema.org/MediaObject&gt;)
+Property(p) →  type(p, &lt;http://www.w3.org/2000/01/rdf-schema#Property&gt;)
+Class(c) →  type(c, &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt;)
+CreativeWork(e) →  ContextualEntity(e) ∧ type(e, &lt;http://schema.org/CreativeWork&gt;)
+hasPart(e, t) →  Relation(e, &lt;http://schema.org/hasPart&gt;, t)
+type(e, t) →  Relation(e, &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;, t) ∧ Class(t)
+name(e, n) →  Attribute(e, &lt;http://schema.org/name&gt;, n)
+description(e, d) →  Attribute(e, &lt;http://schema.org/description&gt;, d)
+datePublished(e, date) →  Attribute(e, &lt;http://schema.org/datePublished&gt;, date)
+license(e, l) →  Relation(e, &lt;http://schema.org/license&gt;, l) ∧ CreativeWork(l)</code></pre>
 <p>Note that in the JSON-LD serialization of RO-Crate the expression of Class and Property is typically indirect, as the JSON-LD <code>@context</code> maps to schema.org IRIs, which when resolved as Linked Data embeds their formal definition as RDFa.</p>
 <h3 id="ro-crate-1.1-metadata-file-descriptor">RO-Crate 1.1 Metadata File Descriptor</h3>
-<p>An important RO-Crate principle is that of being <strong>self-describing</strong>. Therefore the serialization of the RO-Crate into a file should also describe itself in a <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#ro-crate-metadata-file-descriptor">Metadata File Descriptor</a>, indicating it is about (describing) the RO-Crate root data entity, and that it conformsTo a particular version of the RO-Crate specification:</p>
-<pre><code>about(s,o) →  Relation(s, &amp;lt;[http://schema.org/about](http://schema.org/about)&gt;, o) \</code></pre>
-<p>conformsTo(s,o) → Relation(s, &lt;<a href="http://purl.org/dc/terms/conformsTo">http://purl.org/dc/terms/conformsTo</a>&gt;, R)<br />
-MetadataFileDescriptor(m) → ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧<br />
-conformsTo(m, &lt;<a href="https://w3id.org/ro/crate/1.1">https://w3id.org/ro/crate/1.1</a>&gt;) )</p>
+<p>An important RO-Crate principle is that of being <strong>self-describing</strong>. Therefore the serialization of the RO-Crate into a file should also describe itself in a <a href="https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor">Metadata File Descriptor</a>, indicating it is about (describing) the RO-Crate root data entity, and that it conformsTo a particular version of the RO-Crate specification:</p>
+<pre><code>about(s,o) →  Relation(s, &lt;http://schema.org/about&gt;, o)
+conformsTo(s,o) →  Relation(s, &lt;http://purl.org/dc/terms/conformsTo&gt;, R)
+MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧ 
+    conformsTo(m, &lt;https://w3id.org/ro/crate/1.1&gt;) )</code></pre>
 <p>Note that although the metadata file necessarily is an <em>information resource</em> written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained <em>part</em> of the RO-Crate in the form of a <em>data entity</em>, rather it is described only as a <em>contextual entity</em>.</p>
 <p>While in the conceptual model the <em>RO-Crate Metadata File</em> can be seen as the top-level node that describes the <em>RO-Crate Root</em>, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.</p>
-<h3 id="forward-chained-production-rules-for-json-ld-1">Forward-chained Production Rules for JSON-LD</h3>
+<h3 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h3>
 <p>Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification:</p>
-<pre><code>Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o) \</code></pre>
-<p>i ∈ ������ → "<code>i"</code><br />
-r ∈ ℝ → <code>r</code><br />
-s ∈ �� → <code>"s"</code></p>
-<pre><code>∀s∀p∀o Relation(s,p,o) →  `{ &quot;@id&quot;: `s`, \
-                  `p`: { &quot;@id&quot;: `o` } \
-               }`
-
-
-∀s∀p∀v Attribute(s,p,v) → ` { &quot;@id&quot;: `s`, \
-                  `p`: `v` }`
-
-
-∀r∀c  RO-Crate(r) → ` { &quot;@graph&quot;: [ `Mentions(r, c)*` ] } \</code></pre>
-<p>`R ⊨ &lt;./&gt;<br />
-MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;)</p>
+<pre><code>Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o)
+i ∈ 𝕀𝕣𝕚 → &quot;i&quot;
+r ∈ ℝ →  r
+s ∈ 𝕊 → &quot;s&quot;
+∀s∀p∀o Relation(s,p,o) →  { &quot;@id&quot;: s,
+                    p: { &quot;@id&quot;: o }
+                }
+∀s∀p∀v Attribute(s,p,v) →  { &quot;@id&quot;: s,
+                    p: v }
+∀r∀c  RO-Crate(r) →  { &quot;@graph&quot;: [ Mentions(r, c)* ] }
+R ⊨  &lt;./&gt;
+MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) </code></pre>
 <p>This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of R by adding a transitive rule that anything described in R which is related to o means that o is also mentioned by the RO-Crate R. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.</p>
 <p>Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include <em>datePublished</em>, <em>CreativeWork</em> and <em>name</em>. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction Mentions(R, s) production rule; see <a href="https://github.com/ResearchObject/ro-crate/issues/122">issue #122</a>. The datePublished_(_e, date) rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a <code>@context</code> as the IRIs are produced unshortened; a post-step could be JSON-LD Flattening with a versioned RO-Crate context.</p>
 <h2 class="page_break_before" id="references">References</h2>
