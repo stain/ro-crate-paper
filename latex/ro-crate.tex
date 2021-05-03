@@ -7,8 +7,21 @@
 % add. options: [seceqn,secthm,crcready]
 \documentclass[ds]{iosart2x}
 \usepackage[utf8]{inputenc}
-\usepackage[smartEllipses,tableCaptions,pipeTAbles,fencedCode,footnotes,underscores]{markdown}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{greek}
+
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
+\DeclareGraphicsExtensions{.png,.pdf}
+\graphicspath{../content/images/}
+\usepackage[smartEllipses,tableCaptions,pipeTables,fencedCode,footnotes,underscores]{markdown}
 \def\markdownOptionOutputDir{../output}
+
 
 %\markdownSetup{
 %    defaultOptions.cacheDir = 
@@ -92,7 +105,7 @@ Abstract text.
 \markdownInput{../content/40.inuse.md}
 \markdownInput{../content/50.relatedwork.md}
 \markdownInput{../content/60.conclusion.md}
-%\markdownInput{../content/80.formal-definition.md}
+\markdownInput{../content/80.formal-definition.md}
 
 
 
