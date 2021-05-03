@@ -4,6 +4,13 @@ keywords:
   - research object
   - linked data
   - scholarly communication
+  - Data publishing
+  - Data packaging
+  - FAIR
+  - Linked Data
+  - Metadata
+  - Reproducibility
+  - Research Object
 lang: en-GB
 author_info:
   - github: stain
@@ -17,7 +24,21 @@ author_info:
       - Informatics Institute, Faculty of Science, University of Amsterdam, NL
     funders: 
       - BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830)
-      - EOSC-Life (European Commission H2020-xx-824087)     
+      - EOSC-Life (European Commission H2020-xx-824087)
+  - github: ptsefton
+    name: Peter Sefton
+    initials: PS
+    orcid: 0000-0002-3545-944X
+    email: Peter.Sefton@uts.edu.au
+    affiliations:
+      - Faculty of Science, University Technology Sydney, Australia
+  - github: carolegoble
+    name: Carole Goble
+    initials: CG
+    orcid: 0000-0003-1219-2137
+    email: carole.goble@manchester.ac.uk
+    affiliations:
+      - Department of Computer Science, The University of Manchester, UK
   - github: pgroth
     name: Paul Groth
     initials: PG
