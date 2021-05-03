@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/3e08c4a0905ea550a8c9d3e90190a27974862ca7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/d3552f390a6ceeee7ea50b27cd5706a7b2370dd2">stain/ro-crate-paper@d3552f3</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/3e08c4a0905ea550a8c9d3e90190a27974862ca7">stain/ro-crate-paper@3e08c4a</a>
 on May 3, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -579,25 +579,25 @@ MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) .</p>
 <p>������ ≡ { IRIs as defined in &lt;<a href="https://tools.ietf.org/html/rfc3987">https://tools.ietf.org/html/rfc3987</a>&gt; }<br />
 ℝ ≡ { real or integer numbers }<br />
 �� ≡ { literal strings }</p>
-<h3 id="minimal-ro-crate-1">Minimal RO-Crate</h3>
-<pre><code>RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ \
-hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ \
-Mentions(R, c) ∧ ContextualEntity(c)
+<h3 id="minimal-ro-cratezies">Minimal RO-Cratezies</h3>
+<p><span class="math display">\[\begin{multline*}
+RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧ Mentions(R, c) ∧ ContextualEntity(c)
 
+∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d) ∧ published(r, date) ∧ license(e, l) \\
+∀e∀n name(e, n) →  Literal(n)  \\
+∀e∀d description(e, d) →  Literal(d) \\
+∀e∀date datePublished(e, date) →  Literal(date) \\
+∀e∀l license(e, l) →  ContextualEntity(l) \\
 
-∀r Root(r) →  Dataset(r) ∧ name(r, n)∧ description(r, d) \
-                       ∧ published(r, date) ∧ license(e, l) \</code></pre>
-<p>∀e∀n name(e, n) → Literal(n)<br />
-∀e∀d description(e, d) → Literal(d)<br />
-∀e∀date datePublished(e, date) → Literal(date)<br />
-∀e∀l license(e, l) → ContextualEntity(l)</p>
-<pre><code>DataEntity(e) ≡  File(e) ⊕ Dataset(e) \</code></pre>
-<p>Entity(e) ≡ DataEntity(e) ∨ ContextualEntity(e)<br />
-∀e Entity(e) → Class(e)</p>
-<pre><code>Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \</code></pre>
-<p>Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)<br />
-Attribute(s, p, x) ⊨ Entity(s) ∧ Property(p) ∧ Literal(x)<br />
-Literal(x) ≡ x ∈ ℝ ⊕ x ∈ ��</p>
+DataEntity(e) ≡  File(e) ⊕ Dataset(e) \\
+Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e) \\
+∀e Entity(e) → Class(e)
+
+Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l) \
+Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o) \
+Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x) \
+Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
+\end{multline*}\]</span></p>
 <p>The domain of discourse is the set of ������ identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”).</p>
 <p>From this formalized language ��<sub>ro-crate </sub>a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <p>An RO-Crate(R) is defined as a self-described <em>Root Data Entity</em>, which describes and contains parts (<em>data entities</em>), which are further described in <em>contextual entities</em>. These terms align with their use in the <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology">RO-Crate 1.1 terminology</a>.</p>
