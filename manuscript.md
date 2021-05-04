@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7a52f000f8cd7c9ac8943c39be7fb3382afd5f73/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7a52f000f8cd7c9ac8943c39be7fb3382afd5f73/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7a52f000f8cd7c9ac8943c39be7fb3382afd5f73/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bd68ecb26dcb7a1f88954315200a64621dad4baa/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bd68ecb26dcb7a1f88954315200a64621dad4baa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bd68ecb26dcb7a1f88954315200a64621dad4baa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/7a52f000f8cd7c9ac8943c39be7fb3382afd5f73/))
+([permalink](https://stain.github.io/ro-crate-paper/v/bd68ecb26dcb7a1f88954315200a64621dad4baa/))
 was automatically generated
-from [stain/ro-crate-paper@7a52f00](https://github.com/stain/ro-crate-paper/tree/7a52f000f8cd7c9ac8943c39be7fb3382afd5f73)
+from [stain/ro-crate-paper@bd68ecb](https://github.com/stain/ro-crate-paper/tree/bd68ecb26dcb7a1f88954315200a64621dad4baa)
 on May 4, 2021.
 </em></small>
 
@@ -140,9 +140,9 @@ on May 4, 2021.
 
 The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on []. 
 
-It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles[@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfill these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples. 
+It is often argued that the publication of these assets and specifically software[@doi:10.3233/DS-190026] and data should follow the The FAIR principles[@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfill these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples. 
 
-These strategies are focused primarily on one _type_ of artifact. To address this, [@bechhofer_2013] introduced the notion of a _research object – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, a CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
+These strategies are focused primarily on one _type_ of artifact. To address this, \citet{@bechhofer_2013} introduced the notion of a _research object – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, a CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
 To address this gap, a new community came together [@carragain_2019] to develop **RO-Crate** - a _lightweight approach to packaging and aggregating research artifacts with their metadata_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR.  Specifically, the contributions of this paper are as follows:
 
@@ -177,10 +177,7 @@ A key premise of RO-Crate is the existence of a wide variety of resources on the
 
 ### Linked Data as a core principle
 
-Linked Data [] is a core principle of RO-Crate, and IRIs[^1] are therefore used to identify the RO-Crate, its constituent parts and metadata descriptions, as well as to the properties and classes used in the metadata. 
-
-[^1]:
-     IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [RFC3987](https://tools.ietf.org/html/rfc3987)] [@doi:10.17487/RFC3987], commonly used on the browser address bar and in HTML5.
+Linked Data [@doi:10.4018/978-1-60960-593-3.ch008] is a core principle of RO-Crate, and IRIs[^1] are therefore used to identify the RO-Crate, its constituent parts and metadata descriptions, as well as to the properties and classes used in the metadata. 
 
 Using Linked Data, where consumers can follow the links for more (ideally both human- or machine-readable) information, the RO-Crate can then be sufficiently _self-described_ and related using global identifiers, without needing to recursively fully describe every referenced entity.
 
@@ -226,6 +223,8 @@ To further verify this idea, we have here formalized the RO-Crate definition (se
 
 
 
+[^1]:
+     IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [RFC3987](https://tools.ietf.org/html/rfc3987)] [@doi:10.17487/RFC3987], commonly used on the browser address bar and in HTML5.
 
 ## Technical implementation of the model
 
