@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -59,7 +59,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -90,7 +90,7 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
@@ -114,12 +114,12 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
