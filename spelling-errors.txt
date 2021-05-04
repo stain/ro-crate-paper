@@ -36,7 +36,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datePublished
 datetime
@@ -59,7 +59,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble
@@ -75,7 +75,7 @@ interpretable
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 LFS
@@ -90,7 +90,7 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
@@ -112,14 +112,14 @@ RDFa
 realized
 regulatators
 Replicable
-reproducibility
+Reproducibility
 Repurposable
 RO
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
