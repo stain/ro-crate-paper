@@ -109,7 +109,6 @@ Abstract text.
 
 %%%%%%%%%%% The article body starts:
 
-
 % Every *.md file in content/ in order, except 00, 90
 \markdownInput{../content/10.background.md}
 \markdownInput{../content/20.rocrate.md}
@@ -120,16 +119,18 @@ Abstract text.
 \markdownInput{../content/40.inuse.md}
 \markdownInput{../content/50.relatedwork.md}
 \markdownInput{../content/60.conclusion.md}
+
+%%%% Appendix
+
+\appendix
 \markdownInput{../content/80.formal-definition.md}
 % TODO: Recode formal definition to LaTeX math mode?
 %\input{../content/80.formal-definition.tex}
 
 
 %%%%%%%%%%% The bibliography starts:
-
 \nocite{*} 
-% if your bibliography is in bibtex format, use those commands:
-\bibliographystyle{ios1}           % Style BST file.
-\bibliography{ro-crate}        % Bibliography file (usually '*.bib')
+\bibliographystyle{ios1}
+\bibliography{ro-crate}
 
 \end{document}
