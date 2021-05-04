@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -31,12 +31,12 @@ counterintuitively
 Cratezies
 CreativeWork
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datePublished
 datetime
@@ -59,7 +59,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble

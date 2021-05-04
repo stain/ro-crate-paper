@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/aea8dc3bbf7603e6b4044f6fb520639b8cea0a56/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aea8dc3bbf7603e6b4044f6fb520639b8cea0a56/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aea8dc3bbf7603e6b4044f6fb520639b8cea0a56/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/aea8dc3bbf7603e6b4044f6fb520639b8cea0a56/))
+([permalink](https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/))
 was automatically generated
-from [stain/ro-crate-paper@aea8dc3](https://github.com/stain/ro-crate-paper/tree/aea8dc3bbf7603e6b4044f6fb520639b8cea0a56)
+from [stain/ro-crate-paper@b65cbcb](https://github.com/stain/ro-crate-paper/tree/b65cbcba89e5cacd5d36a40853e63e171604f670)
 on May 4, 2021.
 </em></small>
 
@@ -340,9 +340,9 @@ In addition to the typical Open Source-style development with GitHub issues and 
 
 # RO-Crate Tooling
 
-The work of the community has resulted in a number of tools for creating and using RO-Crates. Table X, shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, Javascript, and Ruby. Additionally, these tools can integrate with commonly used_ _research environments in particular the command line (CalcyteJS). Furthermore, there are tools that cater to the end user (Describo, Workflow Hub). For example, **Describo** was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) [@doi:10.1080/14490854.2020.1796500] which is annotating historical prisoner records to gain greater insight into the history of Australia. 
+The work of the community has resulted in a number of tools for creating and using RO-Crates. Table X, shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, Javascript, and Ruby. Additionally, these tools can integrate with commonly used research environments in particular the command line (CalcyteJS). Furthermore, there are tools that cater to the end user (Describo, Workflow Hub). For example, **Describo** was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) [@doi:10.1080/14490854.2020.1796500] which is annotating historical prisoner records to gain greater insight into the history of Australia. 
 
-While the development of these ~12 tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status one year ago (Nov 2019). Now that there is a fixed point of reference, and RO-Crate 1.1 (Oct 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
+While the development of these \~13 tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status one year ago (Nov 2019). Now that there is a fixed point of reference, and RO-Crate 1.1 (Oct 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
 
 Given the stage of the specification, the targets of these tools have been primarily developers essentially providing the core libraries for working with RO-Crates. Another target has been research data managers who need to manage and curate large amounts of data. 
 
