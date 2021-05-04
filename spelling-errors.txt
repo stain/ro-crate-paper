@@ -28,7 +28,7 @@ Conda
 conformsTo
 counterintuitively
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -70,7 +70,7 @@ interpretable
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 LFS
@@ -88,7 +88,7 @@ OAC
 OAI
 ocfl
 ONI
-Ontologies
+ontologies
 organized
 PARADISEC
 PCDM
@@ -110,7 +110,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
