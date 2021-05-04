@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -28,7 +28,7 @@ Conda
 conformsTo
 counterintuitively
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
@@ -54,7 +54,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 generalization
 Goble
 Groth
@@ -63,7 +63,7 @@ hoc
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
@@ -84,7 +84,7 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
@@ -113,7 +113,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
