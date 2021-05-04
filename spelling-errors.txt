@@ -2,7 +2,7 @@ Alterovitz
 analyze
 analyzing
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -28,7 +28,7 @@ counterintuitively
 Cratezies
 CreativeWork
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
@@ -56,7 +56,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble
@@ -110,7 +110,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
