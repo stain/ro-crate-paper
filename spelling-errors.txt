@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -33,7 +33,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -68,7 +68,7 @@ interpretable
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 LFS
@@ -108,12 +108,12 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations

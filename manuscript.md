@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f9dc51b04a6bd6e784a59f6e192f22e649bb4750/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f9dc51b04a6bd6e784a59f6e192f22e649bb4750/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f9dc51b04a6bd6e784a59f6e192f22e649bb4750/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -66,6 +66,7 @@ header-includes: |-
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
 bibliography:
+- content/manual-references-ro-crate.bib
 - content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
@@ -80,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/))
+([permalink](https://stain.github.io/ro-crate-paper/v/f9dc51b04a6bd6e784a59f6e192f22e649bb4750/))
 was automatically generated
-from [stain/ro-crate-paper@b5e16fa](https://github.com/stain/ro-crate-paper/tree/b5e16fa49e18dcdac1a9187fde507909151e4bce)
+from [stain/ro-crate-paper@f9dc51b](https://github.com/stain/ro-crate-paper/tree/f9dc51b04a6bd6e784a59f6e192f22e649bb4750)
 on May 4, 2021.
 </em></small>
 
