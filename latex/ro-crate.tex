@@ -59,7 +59,15 @@ UprightFont={*-Regular},
 BoldFont={*-Bold},
 ItalicFont={*-Italic},
 BoldItalicFont={*-BoldItalic}]
-
+% https://typeof.net/Iosevka/ mono font has 
+% all; the logic symbols we need
+\setmonofont{iosevka-slab}[
+Extension={.otf},
+Path=./ttf-iosevka-slab-6.1.3/,
+Scale=MatchLowercase,
+UprightFont={*-light},
+ItalicFont={*-lightitalic}
+]
 
 \begin{frontmatter}
 
