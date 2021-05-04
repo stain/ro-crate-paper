@@ -38,9 +38,9 @@ The domain of discourse is the set of ������ identifiers (notation &
 
 From this formalized language `��ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
-An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology). 
+An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
 
-The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
 The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a ContextualEntity(e), or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one Class(e). 
 
@@ -49,7 +49,7 @@ For simplicity in this formalization (and to assist production rules below) R is
 
 ### Example of formalized RO-Crate 
 
-The below is an example RO-Crate represented using the above formalization, assuming a base URI of [http://example.com/ro/123/](http://example.com/ro/123/):
+The below is an example RO-Crate represented using the above formalization, assuming a base URI of `http://example.com/ro/123/`:
 
     RO-Crate(<http://example.com/ro/123/>)
     name(<http://example.com/ro/123/, 
@@ -69,7 +69,7 @@ The below is an example RO-Crate represented using the above formalization, assu
     Dataset(<http://example.com/ro/123/interviews/>)
     name(<http://example.com/ro/123/interviews/>, “Audio recordings of care provider interviews”)
 
-In reality many additional attributes from schema.org types like [http://schema.org/Dataset](http://schema.org/Dataset) and [http://schema.org/CreativeWork](http://schema.org/CreativeWork)  would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
+In reality many additional attributes from schema.org types like <http://schema.org/Dataset> and <http://schema.org/CreativeWork> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
 
 
 ### Mapping to RDF with schema.org
