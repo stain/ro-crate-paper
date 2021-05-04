@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/17140d13a2e9b152e776db2496a7380ffbd0963e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/17140d13a2e9b152e776db2496a7380ffbd0963e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/17140d13a2e9b152e776db2496a7380ffbd0963e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/))
+([permalink](https://stain.github.io/ro-crate-paper/v/17140d13a2e9b152e776db2496a7380ffbd0963e/))
 was automatically generated
-from [stain/ro-crate-paper@a707b62](https://github.com/stain/ro-crate-paper/tree/a707b62b311ac88a6fecd362f27b39305dec17c8)
+from [stain/ro-crate-paper@17140d1](https://github.com/stain/ro-crate-paper/tree/17140d13a2e9b152e776db2496a7380ffbd0963e)
 on May 4, 2021.
 </em></small>
 
@@ -157,7 +157,7 @@ The rest of this paper is organized as follows. We first describe RO-Crate, the 
 
 As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <https://nf-co.re/chipseq/1.2.1/output> <https://github.com/stain/bco-ro-example-chipseq>
 
-The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion. This leads to the need for explicit metadata about the contents of this package.
+The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion, or know what role each file plays in the research. This leads to the need for explicit metadata about the contents of this package.
 
 Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly [frustration with current tooling and specifications](https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/) [@neylon_blog_post_2017].
 
@@ -212,7 +212,7 @@ RO-Crate builds on Linked Data standards and community-evolved vocabularies like
 
 As such the specification [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing schema.org metadata as JSON-LD, which leaves it open for implementers to add additional metadata using other schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
 
-This does not mean that RO-Crate has not got constraints, crucially the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalize different _profiles_ of RO-Crates, e.g. that submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.
+This does not mean that RO-Crate has not got constraints, crucially the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalize different _profiles_ of RO-Crates, e.g. that submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language, or how to meet the (emerging requirements) of [FAIR Digital Objects](https://fairdo.org/). These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.
 
 
 ### Checking Simplicity
@@ -276,7 +276,7 @@ We found however that the use of trees, say a _Person_ entity appearing as autho
 
 In comparison, a single flat @graph array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasizes Research Object goals that describing the context and provenance is just as important as describing the data.
 
-While RO-Crate mainly use schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the @context to find Linked Data definitions of unknown properties and types. Thus RO-Crate provide its own, versioned JSON-LD context which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents, e.g. author maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [] for repositories and Bioschemas [] for describing computational workflows.
+While RO-Crate mainly use schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the @context to find Linked Data definitions of unknown properties and types. Thus RO-Crate provides its own, versioned JSON-LD context which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents, e.g. author maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [] for repositories and Bioschemas [] for describing computational workflows.
 
 Similarly, rather than relying on implications from “@type: @id” annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities` {"id": "#alice"} ` and string values "`Alice"` - meaning RO-Crate applications can find the corresponding entity without parsing the @context.
 
@@ -344,13 +344,15 @@ Given the stage of the specification, the targets of these tools have been prima
 
 We argue that the adoption of simple web technologies in the RO-Crate specification has lent to the development of this wide variety of tools. 
 
+\tiny
+
 | Tool Name | Targets | Language / Platform | Status | Brief Description |
 | --------  | ------  | ------------------  | -----  | ----------------  |
 | [Describo](https://arkisto-platform.github.io/describo/) | End users, Research Data Managers | NodeJS (Desktop) | Release Candidate | Interactive desktop application to create, update and export RO-Crates for different profiles |
 | [Describo Online](https://arkisto-platform.github.io/describo-online/) | Platform developers | NodeJS (Web) | Alpha |  |
 | [ro-crate-excel](https://www.npmjs.com/package/ro-crate-excel) | Data managers | JavaScript | Beta | Command-line tool to help create RO-Crates and HTML-readable rendering |
 | [ro-crate-html-js](https://www.npmjs.com/package/ro-crate-html-js) | Developers | JavaScript | Beta | HTML rendering of RO-Crate |
-| [ro-crate-js](https://github.com/UTS-eResearch/ro-crate-js) | Research Data managers | JavaScript | Alpha | Command line tool, render HTML from RO-Crate |
+| [ro-crate-js](https://github.com/UTS-eResearch/ro-crate-js) | Research Data managers | JavaScript | Alpha | Library for creating/manipulating crates; basic validation code |
 | [ro-crate-ruby](https://github.com/ResearchObject/ro-crate-ruby) | Developers | Ruby | Beta |  |
 | [ro-crate-py](https://github.com/researchobject/ro-crate-py) | Developers | Python | Alpha |  |
 | [WorkflowHub](https://about.workflowhub.eu/) | Workflow users | Ruby | Beta | Workflow repository; imports and exports Workflow RO-Crate |
@@ -400,8 +402,9 @@ Going deeper, a BCO alone is insufficient for reliable re-execution of a workflo
 
 [PARADISEC](https://www.paradisec.org.au/) (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) maintains a repository of more than 500,000 files documenting endangered languages across more than 16.000 items, collected over many years by researchers interviewing and recording native speakers across the region. As a proposed update of the 18 year old infrastructure, the [Modern PARADISEC demonstrator](https://mod.paradisec.org.au/) has been [developed](https://arkisto-platform.github.io/case-studies/paradisec/) to help also digitally preserve these artifacts using the [Oxford Common File Layout](https://ocfl.io/1.0/spec/) (OCFL) for file consistency and RO-Crate for structuring and capturing the metadata of each item. The existing PARADISEC data collection has been ported and captured as RO-Crates. A Web portal then exposes the repository and its entries by indexing the RO-Crate metadata files using Elasticsearch as a “NoSQL” object database, presenting a domain-specific view of the items - the RO-Crate is “hidden” and does not change the user interface.
 
-This use case takes advantage of several RO-Crate features and principles. Firstly the transcribed metadata is now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemized metadata in regular files (protected by OCFL[@ocfl_2020]) also gives flexibility for future developments and maintenance, like adding of potential Linked Data software such as a graph database queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback the generic RO-Crate HTML preview[@ro-crate-html-js] which can be hosted as static files by any web server.
+This use case takes advantage of several RO-Crate features and principles. Firstly the transcribed metadata is now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemized metadata in regular files (organized using OCFL[@ocfl_2020], with checksums for integrity checking and versioning) also gives flexibility for future developments and maintenance, like adding of potential Linked Data software such as a graph database queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback the generic RO-Crate HTML preview[@ro-crate-html-js] which can be hosted as static files by any web server, which is in line with the approach taken by the [Endings Project](https://endings.uvic.ca/)[^3].
 
+[^3]: The Endings Project is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
 
 
 # Related Work
@@ -413,15 +416,15 @@ Here, instead of surveying the large literature on sharing digital scholarly art
 
 ## Repositories
 
-*   DataCite Metadata
+*   DataCite Metadata [@doi:10.14454/3w3z-sa82]
 *   Open Science Framework
 
 
 ## Bunding and Packaging Digital Research Artifacts
 
-The challenge of describing computational workflows was one of the main motivations for the proposal of _Research Objects_[@doi:10.1016/j.future.2011.08.004] as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in [@doi:10.1016/j.future.2011.08.004] an open-ended _Linked Data_ approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.
+The challenge of describing computational workflows was one of the main motivations for the early proposal of _Research Objects_[@doi:10.1016/j.future.2011.08.004] as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in [@doi:10.1016/j.future.2011.08.004] an open-ended _Linked Data_ approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.
 
-Considering the FAIR principles we can say with hindsight (the FAIR paper was published 7 years later) that the initial Research Objects approaches were strongly targeting _Interoperability_, with a particular focus on reproducibility with computational workflows and reuse of existing RDF vocabularies. 
+Considering the FAIR principles we can say with hindsight that the initial Research Objects approaches were strongly targeting _Interoperability_, with a particular focus on reproducibility with computational workflows and reuse of existing RDF vocabularies. 
 
 The first implementation of Research Objects in 2009 for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. [@myExperimentOntology2009] 
 
@@ -458,7 +461,7 @@ This attention to reporting detail for computational workflows is unfortunately 
 
 However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). [@doi:10.3389/fninf.2017.00069] [@goble_presentation_2016]
 
-Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They may would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.
+Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.
 
 In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [??] and by Linux distributions themselves (Debian Med [@doi:10.1186/1471-2105-11-S12-S5] to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
 

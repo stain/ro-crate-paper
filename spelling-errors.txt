@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -21,6 +21,7 @@ CalcyteJS
 carolegoble
 Catalog
 centralized
+checksums
 CLI
 computated
 Conda
@@ -32,7 +33,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -62,7 +63,7 @@ hoc
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -82,7 +83,7 @@ NoSQL
 OA
 OAC
 OAI
-OCFL
+ocfl
 ONI
 ontologies
 organized
@@ -123,6 +124,7 @@ Soiland
 soilandreyes
 SPARQL
 specialized
+SSHRC
 stabilized
 standardize
 Stian
