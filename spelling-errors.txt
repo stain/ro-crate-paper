@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -68,7 +68,7 @@ interpretable
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 lifecycle
@@ -83,7 +83,7 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 ONI
 ontologies
 organized
