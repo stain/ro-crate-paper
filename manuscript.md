@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/9c72e620be931538f25cff4734f28a1ad311b819/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9c72e620be931538f25cff4734f28a1ad311b819/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9c72e620be931538f25cff4734f28a1ad311b819/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/9c72e620be931538f25cff4734f28a1ad311b819/))
+([permalink](https://stain.github.io/ro-crate-paper/v/b5e16fa49e18dcdac1a9187fde507909151e4bce/))
 was automatically generated
-from [stain/ro-crate-paper@9c72e62](https://github.com/stain/ro-crate-paper/tree/9c72e620be931538f25cff4734f28a1ad311b819)
+from [stain/ro-crate-paper@b5e16fa](https://github.com/stain/ro-crate-paper/tree/b5e16fa49e18dcdac1a9187fde507909151e4bce)
 on May 4, 2021.
 </em></small>
 
@@ -140,7 +140,7 @@ on May 4, 2021.
 
 The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on []. 
 
-It is often argued that the publication of these assets and specifically software[@doi:10.3233/DS-190026] and data should follow the The FAIR principles[@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfill these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples. 
+It is often argued that the publication of these assets and specifically software[@doi:10.3233/DS-190026] and data should follow the The FAIR principles[@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples. 
 
 These strategies are focused primarily on one _type_ of artifact. To address this, \citet{@bechhofer_2013} introduced the notion of a _research object – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, a CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
@@ -156,7 +156,7 @@ The rest of this paper is organized as follows. We first describe RO-Crate, the 
 
 As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <https://nf-co.re/chipseq/1.2.1/output> <https://github.com/stain/bco-ro-example-chipseq>
 
-The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A defacto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion. This leads to the need for explicit metadata about the contents of this package.
+The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion. This leads to the need for explicit metadata about the contents of this package.
 
 Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly [frustration with current tooling and specifications](https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/) [@neylon_blog_post_2017].
 
@@ -287,7 +287,7 @@ Similarly, rather than relying on implications from “@type: @id” annotations
 
 ## RO-Crate Community
 
-This RO-Crate conceptual model, implementation and best practice guides are situated in a growing RO-Crate community. This community is a key aspect of the effectivenessaffectiveness of RO-Crate for making research artifacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures in the end interoperability. 
+This RO-Crate conceptual model, implementation and best practice guides are situated in a growing RO-Crate community. This community is a key aspect of the effectiveness of RO-Crate for making research artifacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures in the end interoperability. 
 
 The RO-Crate community consists of a:
 
@@ -303,7 +303,7 @@ Discussions at RO2018 identified that while the original Wf4Ever Research Object
 
 DataCrate [@doi:10.5281/zenodo.1445817] was presented at RO2018 as a promising lightweight alternative approach, and an agreement was made by a group of volunteers to attempt building “RO Lite” as a combination of DataCrate's implementation and Research Object's principles.
 
-This set of volunteers were primarily digital library and semantic web experts. This group has subsequently grown to include domain scientists, developers, publishers, ++. This multiple perspective view has meant that the specification has been able to be used in a variety of domains (e.g…). 
+This set of volunteers were primarily digital library and semantic web experts. This group has subsequently grown to include domain scientists, developers, publishers and more. This multiple perspective view has meant that the specification has been able to be used in a variety of domains, from bioinformatics to cultural heritage. 
 
 Engagement with other projects EOSC-Life, Bioschemas, etc.
 

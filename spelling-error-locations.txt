@@ -6,7 +6,6 @@ content/00.front-matter.md:41:https
 content/10.background.md:3:artifacts
 content/10.background.md:3:datasets
 content/10.background.md:5:Findable
-content/10.background.md:5:fulfill
 content/10.background.md:5:Interoperable
 content/10.background.md:5:PDB
 content/10.background.md:5:Zenodo
@@ -35,7 +34,7 @@ content/20.rocrate.md:3:https
 content/20.rocrate.md:3:ro
 content/20.rocrate.md:3:RO
 content/20.rocrate.md:3:summarizing
-content/20.rocrate.md:5:defacto
+content/20.rocrate.md:5:facto
 content/20.rocrate.md:5:programmatically
 content/20.rocrate.md:7:https
 content/20.rocrate.md:7:schemas
@@ -196,7 +195,6 @@ content/22.implementation.md:56:RO
 content/22.implementation.md:56:RO
 content/23.community.md:1:RO
 content/23.community.md:3:artifacts
-content/23.community.md:3:effectivenessaffectiveness
 content/23.community.md:3:RO
 content/23.community.md:3:RO
 content/23.community.md:3:RO
@@ -217,6 +215,7 @@ content/23.community.md:17:DataCrate
 content/23.community.md:17:DataCrate's
 content/23.community.md:17:RO
 content/23.community.md:17:zenodo
+content/23.community.md:19:bioinformatics
 content/23.community.md:21:Bioschemas
 content/23.community.md:21:EOSC
 content/23.community.md:30:distill
