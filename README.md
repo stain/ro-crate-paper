@@ -16,6 +16,11 @@ For now the manuscript is edited as a hybrid of [Manubot](https://github.com/man
 
 The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs.
 
+### LaTeX requirements
+
+* [LuaLatex](http://www.luatex.org/) (for Unicode support)
+* [markdown](https://ctan.org/pkg/markdown) (for embedding `content/*.md`)
+
 ### Repository directories & files
 
 The directories are as follows:
