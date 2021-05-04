@@ -21,7 +21,6 @@ CalcyteJS
 carolegoble
 Catalog
 centralized
-checksums
 CLI
 computated
 Conda
@@ -71,7 +70,6 @@ js
 JSON
 LD
 LD’s
-LFS
 lifecycle
 metagenomics
 MGS
@@ -108,12 +106,12 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations
@@ -131,6 +129,7 @@ Stian
 summarizing
 syntaxes
 telcons
+UML
 unshortened
 URI
 UseGalaxy

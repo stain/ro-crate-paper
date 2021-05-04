@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a45a39919f6295f58156f5140197ee754ae50a24/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a45a39919f6295f58156f5140197ee754ae50a24/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a45a39919f6295f58156f5140197ee754ae50a24/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a45a39919f6295f58156f5140197ee754ae50a24/))
+([permalink](https://stain.github.io/ro-crate-paper/v/a707b62b311ac88a6fecd362f27b39305dec17c8/))
 was automatically generated
-from [stain/ro-crate-paper@a45a399](https://github.com/stain/ro-crate-paper/tree/a45a39919f6295f58156f5140197ee754ae50a24)
+from [stain/ro-crate-paper@a707b62](https://github.com/stain/ro-crate-paper/tree/a707b62b311ac88a6fecd362f27b39305dec17c8)
 on May 4, 2021.
 </em></small>
 
@@ -175,6 +175,7 @@ These 3 desiderata are what is meant by “lightweight”. We now show how the R
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such RO-Crate relies on concepts from the Web and in particular linked data. 
 
+![Conceptual RO-Crate Overview](../content/images/ro-crate-overview.pdf "\textbf{Conceptual overview of RO-Crate}. A \emph{Permanent Identifier} (PID) identifies a \emph{Research Object} (RO), which is archived using BagIt\cite{@doi:10.17487/rfc8493}, OCFL\cite{ocfl_2020}, git or ZIP. Using Linked Data, the RO is described within an \textit{RO Metadata File}, providing identifiers for authors using ORCID, organizations using ROR and licenses such as Creative Commons. The \emph{RO-Crate content} is further described with their own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.")
 
 ### Linked Data as a core principle
 
@@ -184,7 +185,6 @@ Using Linked Data, where consumers can follow the links for more (ideally both h
 
 The base of Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies like SPARQL and knowledge graph triple stores.
 
-
 ### RO-Crate is a self-described container
 
 An RO-Crate is defined as a self-described **Root Data Entity**, which describes and contains _data entities_, which are further described using _contextual entities_.  A **data entity** is primarily a _file_ (bytes on disk somewhere) or a _directory_ (dataset of named files) — while a **contextual entity** exists outside the information system (e.g. a Person) and its bytes are primarily metadata.
@@ -193,8 +193,7 @@ The _Root Data Entity_ is a directory, the _RO-Crate Root_, identified by the pr
 
 The minimal [requirements for the root data entity metadata](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity) is `name`, `description` and `datePublished`, as well as a contextual entity identifying its `license` —  additional metadata is frequently added depending on the purpose of the particular RO-Crate.
 
-Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [[RFC8493](https://www.rfc-editor.org/rfc/rfc8493.html)] [@doi:10.17487/RFC8493], Oxford Common File Layout (OCFL)[@ocfl_2020], downloadable ZIP archives in Zenodo or dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
-
+Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [@doi:10.17487/RFC8493], Oxford Common File Layout [@ocfl_2020] (OCFL), downloadable ZIP archives in Zenodo or dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
 
 ### Data Entities are described using Contextual Entities
 
@@ -202,14 +201,16 @@ RO-Crate distinguishes between [data and contextual entities](https://www.resear
 
 As both types of entities are identified by IRIs, their distinction is allowed to be blurry; data entities can be located anywhere and be complex, and the contextual entities can have a Web presence beyond their description inside the RO-Crate. For instance `https://orcid.org/0000-0002-1825-0097` is primarily an identifier for a person, but is secondarily also a web page that describes that person and their academic work. 
 
-Any particular IRI might appear as a contextual entity in one RO-Crate, and a data entity in another; their distinction is that data entities can be considered to be _contained_ or captured by the RO-Crate, while the contextual entities are mainly _explaining_ the RO-Crate and its entities. It follows that an RO-Crate should have one or more data entities, although this is not a formal requirement.
+Any particular IRI might appear as a contextual entity in one RO-Crate, and a data entity in another; their distinction is that data entities can be considered to be _contained_ or captured by the RO-Crate, while the contextual entities are mainly _explaining_ the RO-Crate and its entities. It follows that an RO-Crate should have one or more data entities, although this is not a formal requirement. 
+
+![RO-Crate UML](../content/images/ro-crate-uml.pdf "\textbf{UML model view of RO-Crate.} The \emph{RO-Crate Metadata File} conforms to a version of the specification, which mainly describes the \emph{RO-Crate Root Data Entity} representing the Research Object as a dataset. The RO-Crate aggregates \emph{data entities} (\texttt{hasPart}) which are further described using \emph{contextual entities}. Multiple types and relations from schema.org allow annotations to be more specific, including figures, nested datasets, computational workflows, people, organizations, instruments and places.")
 
 
 ### Best Practice Guide rather than strict specification
 
 RO-Crate builds on Linked Data standards and community-evolved vocabularies like JSON-LD [@sporny_2014] and [schema.org](https://schema.org/), but rather than enforce additional constraints and limits using perhaps intimidating technologies like _RDF shapes_ (SHACL, ShEx), RO-Crate aims instead to build a set of best practice guides on how to apply the existing standards in a common way to describe research outputs and their provenance.
 
-As such the RO-Crate specification [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing schema.org metadata as JSON-LD, and leaves it open for implementers to add additional metadata using other schema.org types and properties, or even using other Linked Data vocabularies/ontologies or their own ad-hoc terms.
+As such the specification [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing schema.org metadata as JSON-LD, which leaves it open for implementers to add additional metadata using other schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
 
 This does not mean that RO-Crate has not got constraints, crucially the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalize different _profiles_ of RO-Crates, e.g. that submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.
 
@@ -220,12 +221,7 @@ As previously discussed, one aim of RO-Crate is to be conceptually simple. This 
 
 To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the _boundness_ of the structure, namely, that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`), or are mainly referenced (`mentions`) and typed as _external _to the Research Object (Contextual Entities). 
 
-<!-- formalism? -->
-
-
-
-[^1]:
-     IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [RFC3987](https://tools.ietf.org/html/rfc3987)] [@doi:10.17487/RFC3987], commonly used on the browser address bar and in HTML5.
+[^1]: IRIs[@doi:10.17487/RFC3987] are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
 
 ## Technical implementation of the model
 
@@ -393,13 +389,11 @@ As such we can consider how a BCO and its referenced artifacts can be packaged a
 
 While there is some overlap in that RO-Crate can also describe a computational workflow, as detailed in previous section, a _separation of concerns_ emerges, where the BCO is responsible for describing the inside of a workflow and its run at an abstraction level suitable for a domain scientist, the RO-Crate describes the surroundings of the workflow, classifying and relating its resources and providing provenance of their existence beyond the BCO. 
 
-A similar separation of concerns we can find within the RO-Crate itself, where the transport-level metadata such as checksum of files are [delegated to BagIt](https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#adding-ro-crate-to-bagit) manifests, a standard focusing on preservation challenges by digital libraries[@doi:10.17487/RFC8493]. As such RO-Crates are not required to list all the files in its folder hierarchy, only those that are deemed to be needing a description.
+A similar separation of concerns we can find within the RO-Crate itself, where the transport-level metadata such as checksum of files are [delegated to BagIt](https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#adding-ro-crate-to-bagit) manifests, a standard focusing on preservation challenges by digital libraries[@doi:10.17487/rfc8493]. As such RO-Crates are not required to list all the files in its folder hierarchy, only those that are deemed to be needing a description.
 
 Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [@doi:10.6084/m9.figshare.3115156.v2] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-![Separation of Concerns in BCO RO-Crate](../content/images/ro-crate-bco-sep-of-concerns.png "BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs")
-
-_Figure X: BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs._
+![Separation of Concerns in BCO RO-Crate](../content/images/ro-crate-bco-sep-of-concerns.pdf "\textbf{Separation of Concerns in BCO RO-Crate}. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs")
 
 
 ## Digital Humanities: Cultural Heritage
