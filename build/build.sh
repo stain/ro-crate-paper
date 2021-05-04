@@ -15,6 +15,7 @@ export LC_ALL=en_US.UTF-8
 ln -fs v/latest/manuscript.pdf webpage/
 ln -fs v/latest/images webpage/
 ln -fs v/latest/index.html webpage/
+ln -s ../latex/ro-crate.bib content/manual-references-ro-crate.bib
 
 
 # Generate reference information
