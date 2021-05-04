@@ -9,13 +9,13 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 
     𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
     𝔻 =  𝕀𝕣𝕚
-    𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+    𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
     ℝ ≡  { real or integer numbers }
     𝕊 ≡  { literal strings }
 
-The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings 𝕊 (notation `“Hello”`). 
+The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
 
-From this formalized language `𝕃ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+From this formalized language `𝕃ro-crate` an RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
 ### Minimal RO-Crate
 
@@ -40,7 +40,7 @@ Below is using `𝕃ro-crate` to define a minimal RO-Crate:
 
 An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
 
-The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The `Root(r)` is a type of `Dataset(r)`, and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
 The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one `Class(e)`. 
 
@@ -101,7 +101,6 @@ An important RO-Crate principle is that of being **self-describing**. Therefore 
     conformsTo(s,o) →  Relation(s, <http://purl.org/dc/terms/conformsTo>, R)
     MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧ 
         conformsTo(m, <https://w3id.org/ro/crate/1.1>) )
-
 
 Note that although the metadata file necessarily is an _information resource_ written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained _part_ of the RO-Crate in the form of a _data entity_, rather it is described only as a _contextual entity_.
 
