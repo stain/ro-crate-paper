@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -70,7 +70,7 @@ interpretable
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 LFS
@@ -115,7 +115,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations
