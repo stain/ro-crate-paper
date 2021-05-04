@@ -28,7 +28,7 @@ Conda
 conformsTo
 counterintuitively
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
@@ -86,7 +86,7 @@ NoSQL
 OA
 OAC
 OAI
-OCFL
+ocfl
 ONI
 ontologies
 organized
@@ -110,7 +110,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
