@@ -6,10 +6,8 @@
 
 % add. options: [seceqn,secthm,crcready]
 \documentclass[ds]{iosart2x}
-%\usepackage[utf8]{inputenc}
 
-%\usepackage[backend=biber]{biblatex}
-%\addbibresource{ro-crate.bib}
+%%%%%%%%%%% Put your definitions here
 
 % From https://www.overleaf.com/latex/templates/using-the-stix2-opentype-fonts-with-lualatex-or-xelatex/hdfvhzqmhnpx
 \usepackage{amsmath}
@@ -18,25 +16,14 @@
 \usepackage{unicode-math}
 \usepackage{graphicx}
 
-%%
-
-
 \DeclareGraphicsExtensions{.png,.pdf}
 \graphicspath{../content/images/}
 \usepackage[citations,fencedCode,footnotes,hybrid,pipeTables,smartEllipses,tableCaptions,underscores]{markdown}
 \def\markdownOptionOutputDir{../output}
 
 
-%\markdownSetup{
-%    defaultOptions.cacheDir = 
-%}
-
-%\usepackage{dcolumn}
-
-%%%%%%%%%%% Put your definitions here
-
-
 %%%%%%%%%%% End of definitions
+
 
 \pubyear{2021}
 \volume{0}
@@ -123,7 +110,7 @@ Abstract text.
 %%%%%%%%%%% The article body starts:
 
 
-% Every *.md file in content in order, except 00, 90
+% Every *.md file in content/ in order, except 00, 90
 \markdownInput{../content/10.background.md}
 \markdownInput{../content/20.rocrate.md}
 \markdownInput{../content/21.conceptual.md}
@@ -134,53 +121,15 @@ Abstract text.
 \markdownInput{../content/50.relatedwork.md}
 \markdownInput{../content/60.conclusion.md}
 \markdownInput{../content/80.formal-definition.md}
-% TODO: Recode formal 
+% TODO: Recode formal definition to LaTeX math mode?
 %\input{../content/80.formal-definition.tex}
 
 
-%\begin{figure}[t]
-%\includegraphics{}
-%\caption{Figure caption.}\label{f1}
-%\end{figure}
-
-
-%\begin{table*}
-%\caption{} \label{t1}
-%\begin{tabular}{lll}
-%\hline
-%&&\\
-%&&\\
-%\hline
-%\end{tabular}
-%\end{table*}
-
-
 %%%%%%%%%%% The bibliography starts:
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                  The Bibliography                       %%
-%%                                                         %%
-%%  ios1.bst will be used to                               %%
-%%  create a .BBL file for submission.                     %%
-%%                                                         %%
-%%                                                         %%
-%%  Note that the displayed Bibliography will not          %%
-%%  necessarily be rendered by Latex exactly as specified  %%
-%%  in the online Instructions for Authors.                %%
-%%                                                         %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \nocite{*} 
 % if your bibliography is in bibtex format, use those commands:
 \bibliographystyle{ios1}           % Style BST file.
 \bibliography{ro-crate}        % Bibliography file (usually '*.bib')
-
-% or include bibliography directly:
-%\begin{thebibliography}{0}
-%\bibitem{r1} F. Author, Information about cited object.
-%
-%\bibitem{r2} S. Author and T. Author, Information about cited object.
-%\end{thebibliography}
 
 \end{document}
