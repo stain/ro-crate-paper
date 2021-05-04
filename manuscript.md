@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/4196a09d1c51a5700b59de556c695dcd4c49fc3b/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4196a09d1c51a5700b59de556c695dcd4c49fc3b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4196a09d1c51a5700b59de556c695dcd4c49fc3b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/62e4892dd683a1d94f73eeb51d394470b31773f6/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/62e4892dd683a1d94f73eeb51d394470b31773f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/62e4892dd683a1d94f73eeb51d394470b31773f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/4196a09d1c51a5700b59de556c695dcd4c49fc3b/))
+([permalink](https://stain.github.io/ro-crate-paper/v/62e4892dd683a1d94f73eeb51d394470b31773f6/))
 was automatically generated
-from [stain/ro-crate-paper@4196a09](https://github.com/stain/ro-crate-paper/tree/4196a09d1c51a5700b59de556c695dcd4c49fc3b)
+from [stain/ro-crate-paper@62e4892](https://github.com/stain/ro-crate-paper/tree/62e4892dd683a1d94f73eeb51d394470b31773f6)
 on May 4, 2021.
 </em></small>
 
@@ -483,13 +483,13 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 
     𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
     𝔻 =  𝕀𝕣𝕚
-    𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+    𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
     ℝ ≡  { real or integer numbers }
     𝕊 ≡  { literal strings }
 
-The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings 𝕊 (notation `“Hello”`). 
+The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
 
-From this formalized language `𝕃ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+From this formalized language `𝕃ro-crate` an RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
 ### Minimal RO-Crate
 
@@ -514,7 +514,7 @@ Below is using `𝕃ro-crate` to define a minimal RO-Crate:
 
 An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
 
-The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The `Root(r)` is a type of `Dataset(r)`, and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
 The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one `Class(e)`. 
 
@@ -575,7 +575,6 @@ An important RO-Crate principle is that of being **self-describing**. Therefore 
     conformsTo(s,o) →  Relation(s, <http://purl.org/dc/terms/conformsTo>, R)
     MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) ∧ 
         conformsTo(m, <https://w3id.org/ro/crate/1.1>) )
-
 
 Note that although the metadata file necessarily is an _information resource_ written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained _part_ of the RO-Crate in the form of a _data entity_, rather it is described only as a _contextual entity_.
 
