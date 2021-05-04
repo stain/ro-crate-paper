@@ -265,6 +265,13 @@ doi = {10.5281/zenodo.4711243},
 sciwheel-projects = {ro-crate-paper},
 abstract = {[1.2.2] - 2021-04-22 \#206 - Minor patch release to fix Conda environment Dependencies Update r-base 3.6.2 -\textgreater 3.6.3 Update r-xfun 0.15 -\textgreater 0.20}
 }
+@misc{ro-crate-metadata-file,
+title = {Root Data Entity - Research Object Crate ({RO}-Crate) Root Data Entity \textbar Research Object Crate ({RO}-Crate)},
+url = {https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#ro-crate-metadata-file-descriptor},
+urldate = {2021-05-04},
+sciwheel-projects = {ro-crate-paper},
+type = {WEBSITE}
+}
 @misc{rocrate-root,
 title = {Root Data Entity - Research Object Crate ({RO}-Crate) Root Data Entity \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#direct-properties-of-the-root-data-entity},
@@ -284,13 +291,21 @@ doi = {10.17487/{RFC8493}},
 sciwheel-projects = {ro-crate-paper},
 abstract = {This document specifies {BagIt}, a hierarchical file packaging format for storage and transfer of arbitrary digital content. A "bag" has just enough structure to enclose descriptive "tags" and a "payload" but does not require knowledge of the payload's internal semantics. This {BagIt} format should be suitable for disk-based or network-based storage and transfer. {BagIt} is widely used in the practice of digital preservation.}
 }
-@misc{ocfl1.0,
+@techreport{ocfl_2020,
 title = {Oxford Common File Layout Specification},
+author = {{OCFL},},
+editor = {Hankinson, Andrew and Jefferies, Neil and Metz, Rosalyn and Morley, Julian and Warner, Simeon and Woods, Andrew},
+publisher = {OCFL},
 url = {https://ocfl.io/1.0/spec/},
+year = {2020},
+month = {jul},
+day = {7},
 urldate = {2021-05-04},
+edition = {1.0},
 sciwheel-projects = {ro-crate-paper},
-type = {WEBSITE}
+type = {Recommendation}
 }
+
 @misc{rocrate-contextualentities,
 title = {Contextual Entities - Research Object Crate ({RO}-Crate) Contextual Entities \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/contextual-entities.html\#contextual-vs-data-entities},
@@ -314,28 +329,28 @@ sciwheel-projects = {ro-crate-paper},
 type = {Draft Tag Finding}
 }
 
-@misc{na_website_ndf,
+@techreport{sporny_2014,
 title = {{JSON}-{LD} 1.0},
+author = {Sporny, Manu and Longley, Dave and Kellogg, Gregg and Lanthaler, Markus and Lindström, Niklas},
+publisher = {W3C},
 url = {https://www.w3.org/{TR}/2014/{REC}-json-ld-20140116/},
+year = {2014},
+month = {jan},
+day = {16},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
-type = {WEBSITE}
+type = {{W3C} Recommendation}
 }
-@misc{na_website_ndg,
+
+@misc{schema.org,
 title = {Schema.org - Schema.org},
 url = {https://schema.org/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndh,
-title = {{RO}-Crate 1.1 - Research Object Crate ({RO}-Crate) {RO}-Crate 1.1 \textbar Research Object Crate ({RO}-Crate)},
-url = {https://w3id.org/ro/crate/1.1},
-urldate = {2021-05-04},
-sciwheel-projects = {ro-crate-paper},
-type = {WEBSITE}
-}
-@report{sefton_2021,
+
+@report{doi:10.5281/zenodo.4541002,
 title = {{RO}-Crate Metadata Specification 1.1.1},
 author = {Sefton, Peter and Carragáin, Eoghan Ó and Soiland-Reyes, Stian and Corcho, Oscar and Garijo, Daniel and Palma, Raul and Coppens, Frederik and Goble, Carole and Fernández, José María and Chard, Kyle and Gomez-Perez, Jose Manuel and Crusoe, Michael R and Eguinoa, Ignacio and Juty, Nick and Holmes, Kristi and Clark, Jason A. and Capella-Gutierrez, Salvador and Gray, Alasdair J. G. and Owen, Stuart and Williams, Alan R. and Tartari, Giacomo and Bacall, Finn and Thelen, Thomas and Ménager, Hervé and Navas, Laura Rodríguez and Walk, Paul and Whitehead, Brandon and Wilkinson, Mark and Groth, Paul and Bremer, Erich and Castro, {LJ} Garcia and Sebby, Karl and Kanitz, Alexander and Trisovic, Ana and Kennedy, Gavin and Graves, Mark and Koehorst, Jasper and Leo, Simone and Portier, Marc},
 url = {https://w3id.org/ro/crate/1.1},
@@ -346,35 +361,35 @@ doi = {10.5281/zenodo.4541002},
 sciwheel-projects = {ro-crate-paper},
 abstract = {Web-version: https://w3id.org/ro/crate/1.1 This document specifies a method, known as {RO}-Crate (Research Object Crate), of aggregating and describing research data with associated metadata. {RO}-Crates can aggregate and describe any resource including files, {URI}-addressable resources, or use other addressing schemes to locate digital or physical data. {RO}-Crates can describe data in aggregate and at the individual resource level, with metadata to aid in discovery, re-use and long term management of data. Metadata includes the ability to describe the context of data and the entities involved in its production, use and reuse. For example: who created it, using which equipment, software and workflows, under what licenses can it be re-used, where was it collected, and/or where is it about. {RO}-Crate uses {JSON}-{LD} to to express this metadata using linked data, describing data resources as well as contextual entities such as people, organizations, software and equipment as a series of linked {JSON}-{LD} objects - using common published vocabularies, chiefly schema.org. The core of {RO}-Crate is a {JSON}-{LD} file, the {RO}-Crate Metadata File, named ro-crate-metadata.json. This file contains structured metadata about the dataset as a whole (the Root Data Entity) and, optionally, about some or all of its files. This provides a simple way to, for example, assert the authors (e.g. people, organizations) of the {RO}-Crate or one its files, or to capture more complex provenance for files, such as how they were created using software and equipment. While providing the formal specification for {RO}-Crate, this document also aims to be a practical guide for software authors to create tools for generating and consuming research data packages, with explanation by examples.}
 }
-@misc{na_website_ndi,
+@misc{ro-crate-issue-71,
 title = {Use Case: As a researcher I want to be able to define ad hoc properties and use them in a crate without resorting to the verbose {PropertyValue} thing · Issue \#71 · {ResearchObject}/ro-crate · {GitHub}},
 url = {https://github.com/{ResearchObject}/ro-crate/issues/71},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndj,
+@misc{ro-crate-jsonld,
 title = {{RO}-Crate {JSON}-{LD} - Research Object Crate ({RO}-Crate) {RO}-Crate {JSON}-{LD} \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndk,
+@misc{ro2018,
 title = {Workshop on Research Objects ({RO2018})},
 url = {https://www.researchobject.org/ro2018/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndl,
+@misc{rda11-data-packaging,
 title = {Approaches to Research Data Packaging - {RDA} 11th Plenary {BoF} meeting \textbar {RDA}},
 url = {https://rd-alliance.org/approaches-research-data-packaging-rda-11th-plenary-bof-meeting},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@article{carragain_2019,
+@article{doi:10.5281/zenodo.3250687,
 title = {A lightweight approach to research object data packaging},
 author = {Carragáin, Eoghan Ó and Goble, Carole and Sefton, Peter and Soiland-Reyes, Stian},
 url = {https://zenodo.org/record/3250687},
@@ -385,7 +400,7 @@ doi = {10.5281/zenodo.3250687},
 sciwheel-projects = {ro-crate-paper},
 abstract = {A Research Object ({RO}) provides a machine-readable mechanism to communicate the diverse set of digital and real-world resources that contribute to an item of research. The aim of an {RO} is to evolve from traditional academic publication as a static {PDF}, to rather provide a complete and structured archive of the items (such as people, organisations, funding, equipment, software etc) that contributed to the research outcome, including their identifiers, provenance, relations and annotations. This is of particular importance as all domains of research and science are increasingly relying on computational analysis, yet we are facing a reproducibility crisis because key components are often not sufficiently tracked, archived or reported. Here we propose Research Object Crate (or {RO}-Crate for short), an emerging lightweight approach to packaging research data with their structured metadata, rephrasing the Research Object model as schema.org annotations to formalize a {JSON}-{LD} format that can be used independently of infrastructure, e.g. in {GitHub} or Zenodo archives. {RO}-Crate can be extended for domain-specific descriptions, aiming at a wide variety of applications and repositories to encourage {FAIR} sharing of reproducible datasets and analytical methods.}
 }
-@article{sefton_2018,
+@article{doi:10.5281/zenodo.1445817,
 title = {Datacrate Submisssion To The Workshop On Research Objects},
 author = {Sefton, Peter},
 url = {https://zenodo.org/record/1445817},
@@ -396,218 +411,216 @@ doi = {10.5281/zenodo.1445817},
 sciwheel-projects = {ro-crate-paper},
 abstract = {This is a somewhat experimental approach to submitting an extended abstract to a conference. The submission describes the {DataCrate} standard and the source-files, {HTML} and {PDF} versions of the submission are included in a {DataCrate} package.}
 }
-@misc{na_website_ndm,
+@misc{researchobject/ro-crate,
 title = {{GitHub} - {ResearchObject}/ro-crate: Research Object Crate},
 url = {https://github.com/researchobject/ro-crate/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndn,
+@misc{ro-crate-community,
 title = {Community - Research Object Crate ({RO}-Crate) Community \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/community},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndo,
+@misc{criminalcharacters,
 title = {Home page - Criminal Characters},
 url = {https://criminalcharacters.com/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndp,
+@misc{describo,
 title = {github-pages},
 url = {https://arkisto-platform.github.io/describo/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndq,
+@misc{describo-online,
 title = {github-pages},
 url = {https://arkisto-platform.github.io/describo-online/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndr,
+@misc{ro-crate-excel,
 title = {ro-crate-excel - npm},
 url = {https://www.npmjs.com/package/ro-crate-excel},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_nds,
+@misc{ro-crate-html-js,
 title = {ro-crate-html-js - npm},
 url = {https://www.npmjs.com/package/ro-crate-html-js},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndt,
+@misc{ro-crate-js,
 title = {{GitHub} - {UTS}-{eResearch}/ro-crate-js: Research Object Crate ({RO}-Crate) utilities},
 url = {https://github.com/{UTS}-{eResearch}/ro-crate-js},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndu,
+@misc{ro-crate-ruby,
 title = {{GitHub} - {ResearchObject}/ro-crate-ruby: A Ruby gem for creating, manipulating and reading {RO}-Crates.},
 url = {https://github.com/{ResearchObject}/ro-crate-ruby},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndv,
+@misc{ro-crate-py,
 title = {{GitHub} - {ResearchObject}/ro-crate-py: Python library for {RO}-Crate},
 url = {https://github.com/researchobject/ro-crate-py},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndw,
+@misc{about-workflowhub,
 title = {{WorkflowHub} project \textbar Project pages for developing and running the {WorkflowHub}, a registry of scientific workflows.},
 url = {https://about.workflowhub.eu/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndx,
+@misc{modpdsc,
 title = {{GitHub} - {CoEDL}/modpdsc},
 url = {https://github.com/{CoEDL}/modpdsc/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndy,
+@misc{arkisto-data-portal,
 title = {Tools: Data Portal \& Discovery},
 url = {https://arkisto-platform.github.io/tools/portal/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndz,
+@misc{ocfl-tools,
 title = {{GitHub} - {CoEDL}/ocfl-tools: Tools to process and manipulate an {OCFL} tree},
 url = {https://github.com/{CoEDL}/ocfl-tools},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndaa,
+@misc{ro-composer,
 title = {Ro Composer},
 url = {https://esciencelab.org.uk/projects/ro-composer/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndab,
+@misc{galaxy2cwl,
 title = {{GitHub} - workflowhub-eu/galaxy2cwl: Standalone version tool to get cwl descriptions (initially an abstract cwl interface) of galaxy workflows and Galaxy workflows executions.},
 url = {https://github.com/workflowhub-eu/galaxy2cwl},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndac,
-title = {Bioschemas - 1.0 Release},
+@misc{bioschemas-computationalworkflow,
+title = {Bioschemas ComputationalWorkflow 1.0},
 url = {https://bioschemas.org/profiles/{ComputationalWorkflow}/1.0-{RELEASE}/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndad,
+@misc{rocrate-workflows,
 title = {Workflows and scripts - Research Object Crate ({RO}-Crate) Workflows and scripts \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/workflows.html},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndae,
+@misc{workflow-ro-crate,
 title = {Workflow {RO}-Crate ({DRAFT}) \textbar {WorkflowHub} project},
 url = {https://about.workflowhub.eu/Workflow-{RO}-Crate/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndaf,
+@misc{elixir,
 title = {{ELIXIR} \textbar A distributed infrastructure for life-science information},
 url = {https://elixir-europe.org/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndag,
+@misc{eosc-life,
 title = {Home - {EOSC} Life},
 url = {https://www.eosc-life.eu/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndah,
+@misc{workflowhub,
 title = {The {WorkflowHub}},
 url = {https://workflowhub.eu/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndai,
+@misc{bco,
 title = {{BioCompute} Objects},
 url = {https://www.biocomputeobject.org/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndaj,
+@misc{doi:10.1109/IEEESTD.2020.9094416,
 title = {2791-2020 - {IEEE} Standard for Bioinformatics Analyses Generated by High-Throughput Sequencing ({HTS}) to Facilitate Communication \textbar {IEEE} Standard \textbar {IEEE} Xplore},
-url = {https://doi.org/10.1109/{IEEESTD}.2020.9094416},
+doi = {10.1109/{IEEESTD}.2020.9094416},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndak,
+@misc{ieee-2791-schema,
 title = {2791 object / ieee-2791-schema · {GitLab}},
 url = {https://opensource.ieee.org/2791-object/ieee-2791-schema/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndal,
+@misc{bco-ro-crate,
 title = {{BioCompute} Objects {RO}-Crate · Tutorial and specification for packaging {IEEE} 2791-2020 as {RO}-Crate Research ...},
 url = {https://biocompute-objects.github.io/bco-ro-crate/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndam,
+@misc{ro-crate-implementation-notes,
 title = {Implementation notes - Research Object Crate ({RO}-Crate) Implementation notes \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html\#adding-ro-crate-to-bagit},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndan,
+@misc{paradisec,
 title = {{PARADISEC} – Safeguarding research in Australia's region},
 url = {https://www.paradisec.org.au/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndao,
+@misc{case-study-paradisec,
 title = {Case Study: Modern {PARADISEC}},
 url = {https://arkisto-platform.github.io/case-studies/paradisec/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@article{koesten_2020,
+@article{doi:10.1016/j.patter.2020.100136,
 title = {Dataset reuse: toward translating principles to practice.},
 author = {Koesten, Laura and Vougiouklis, Pavlos and Simperl, Elena and Groth, Paul},
 pages = {100136},
-url = {https://linkinghub.elsevier.com/retrieve/pii/S2666389920301847},
 year = {2020},
 month = {nov},
 day = {13},
-urldate = {2021-05-04},
 journal = {Patterns (New York, N.Y.)},
 volume = {1},
 number = {8},
@@ -618,12 +631,11 @@ pmcid = {PMC7691392},
 sciwheel-projects = {ro-crate-paper},
 abstract = {The web provides access to millions of datasets that can have additional impact when used beyond their original context. We have little empirical insight into what makes a dataset more reusable than others and which of the existing guidelines and frameworks, if any, make a difference. In this paper, we explore potential reuse features through a literature review and present a case study on datasets on {GitHub}, a popular open platform for sharing code and data. We describe a corpus of more than 1.4 million data files, from over 65,000 repositories. Using {GitHub}'s engagement metrics as proxies for dataset reuse, we relate them to reuse features from the literature and devise an initial model, using deep neural networks, to predict a dataset's reusability. This demonstrates the practical gap between principles and actionable insights that allow data publishers and tools designers to implement functionalities that provably facilitate reuse. \copyright 2020 The Authors.}
 }
-@inproceedings{claerbout_1992,
+@inproceedings{doi:10.1190/1.1822162,
 title = {Electronic documents give reproducible research a new meaning},
 author = {Claerbout, Jon F. and Karrenbach, Martin},
 pages = {601-604},
 publisher = {Society of Exploration Geophysicists},
-url = {http://library.seg.org/doi/abs/10.1190/1.1822162},
 year = {1992},
 month = {jan},
 urldate = {2021-05-04},
@@ -657,11 +669,10 @@ year = {2009},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@article{desmedt_2020,
+@article{doi:10.3390/publications8020021,
 title = {{FAIR} digital objects for science: from data pieces to actionable knowledge units},
 author = {De Smedt, Koenraad and Koureas, Dimitris and Wittenburg, Peter},
 pages = {21},
-url = {https://www.mdpi.com/2304-6775/8/2/21},
 year = {2020},
 month = {apr},
 day = {11},
@@ -674,14 +685,22 @@ doi = {10.3390/publications8020021},
 sciwheel-projects = {ro-crate-paper},
 abstract = {Data science is facing the following major challenges: (1) developing scalable cross-disciplinary capabilities, (2) dealing with the increasing data volumes and their inherent complexity, (3) building tools that help to build trust, (4) creating mechanisms to efficiently operate in the domain of scientific assertions, (5) turning data into actionable knowledge units and (6) promoting data interoperability. As a way to overcome these challenges, we further develop the proposals by early Internet pioneers for Digital Objects as encapsulations of data and metadata made accessible by persistent identifiers. In the past decade, this concept was revisited by various groups within the Research Data Alliance and put in the context of the {FAIR} Guiding Principles for findable, accessible, interoperable and reusable data. The basic components of a {FAIR} Digital Object ({FDO}) as a self-contained, typed, machine-actionable data package are explained. A survey of use cases has indicated the growing interest of research communities in {FDO} solutions. We conclude that the {FDO} concept has the potential to act as the interoperable federative core of a hyperinfrastructure initiative such as the European Open Science Cloud ({EOSC}).}
 }
-@misc{na_website_ndar,
-title = {https://www.dona.net/sites/default/files/2018-11/{DOIPv2Spec\_1}.pdf},
+
+@misc{doip2.0,
+title = {Digital Object Interface Protocol Specification 2.0},
+author = {{DONA} Foundation,},
 url = {https://www.dona.net/sites/default/files/2018-11/{DOIPv2Spec\_1}.pdf},
+year = {2018},
+month = {nov},
+day = {14},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
+abstract = {This document is a specification for the Digital Object Interface Protocol ({DOIP}), a core protocol of the Digital Object Architecture ({DO} Architecture; or {DOA}). The {DO} Architecture is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another. It is a non-proprietaryarchitecture and is publicly availablewithout charge. It is an outgrowth of earlier work on mobile programs,1and security for packet radio systems. The {DOIP} is intended to enable interoperability across heterogeneous information systems.},
+journal = {{DONA} Foundation},
 type = {WEBSITE}
 }
-@misc{na_website_ndas,
+
+@misc{fdof,
 title = {{FAIR} Digital Object Framework Documentation},
 url = {https://fairdigitalobjectframework.org/},
 urldate = {2021-05-04},
@@ -753,42 +772,30 @@ sciwheel-projects = {ro-crate-paper},
 abstract = {I am looking for which bioinformatics journals encourage authors to submit their code/pipeline/workflow *supporting* data analysis, but so far I have only found vague references or special software article types. Usual suspects missing. See thread below; any more..?},
 type = {thread}
 }
-@misc{na_website_ndav,
-title = {http://repscience2016.research-infrastructures.eu/img/{CaroleGoble}-{ReproScience2016v2}.pdf},
-url = {http://repscience2016.research-infrastructures.eu/img/{CaroleGoble}-{ReproScience2016v2}.pdf},
-urldate = {2021-05-04},
-sciwheel-projects = {ro-crate-paper},
-type = {WEBSITE}
-}
-@misc{na_website_ndaw,
+
+
+@misc{anaconda-bioconda,
 title = {bioconda :: Anaconda.org},
 url = {https://anaconda.org/bioconda/},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndax,
+@misc{biocontainers-registry,
 title = {{BioContainers} Community},
 url = {https://biocontainers.pro/\#/registry},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_nday,
+@misc{ro-crate-terminology,
 title = {Terminology - Research Object Crate ({RO}-Crate) Terminology \textbar Research Object Crate ({RO}-Crate)},
 url = {https://www.researchobject.org/ro-crate/1.1/terminology},
 urldate = {2021-05-04},
 sciwheel-projects = {ro-crate-paper},
 type = {WEBSITE}
 }
-@misc{na_website_ndaz,
-title = {Root Data Entity - Research Object Crate ({RO}-Crate) Root Data Entity \textbar Research Object Crate ({RO}-Crate)},
-url = {https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#ro-crate-metadata-file-descriptor},
-urldate = {2021-05-04},
-sciwheel-projects = {ro-crate-paper},
-type = {WEBSITE}
-}
-@misc{na_website_ndba,
+@misc{ro-crate-issue-122,
 title = {Use Case: {RO}-Crate as collection of contextual items · Issue \#122 · {ResearchObject}/ro-crate · {GitHub}},
 url = {https://github.com/{ResearchObject}/ro-crate/issues/122},
 urldate = {2021-05-04},
@@ -811,8 +818,9 @@ issn = {1449-0854},
 doi = {10.1080/14490854.2020.1796500},
 sciwheel-projects = {ro-crate-paper}
 }
-@incollection{na_2020,
+@incollection{doi:10.1515/9783110636352-017,
 booktitle = {Making Histories},
+author = {Piper, Alana},
 title = {Chapter 16. crowdsourcing: citizen history and criminal characters},
 editor = {Ashton, Paul and Evans, Tanya and Hamilton, Paula},
 pages = {199-210},
@@ -826,7 +834,7 @@ isbn = {9783110636352},
 doi = {10.1515/9783110636352-017},
 sciwheel-projects = {ro-crate-paper}
 }
-@misc{na_website_ndbb,
+@misc{research-object-composer,
 title = {{GitHub} - {ResearchObject}/research-object-composer: Research Object Composer, an {API} for incremental building and depositing research objects},
 url = {https://github.com/researchobject/research-object-composer/},
 urldate = {2021-05-04},
