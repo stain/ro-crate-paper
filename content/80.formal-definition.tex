@@ -5,16 +5,21 @@
 
 Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:
 
-
 ### Language
 
-    ��ro-crate = { Property(p), Class(c), Literal(x), ℝ, �� }
-    �� =  ������
-    ������ ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+    𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
+    𝔻 =  𝕀𝕣𝕚
+    𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
     ℝ ≡  { real or integer numbers }
-    �� ≡  { literal strings }
+    𝕊 ≡  { literal strings }
 
-### Minimal RO-Cratezies
+The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings 𝕊 (notation `“Hello”`). 
+
+From this formalized language `𝕃ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+
+### Minimal RO-Crate
+
+Below is using `𝕃ro-crate` to define a minimal RO-Crate:
 
     RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧
         hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧
@@ -31,20 +36,15 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
     Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
     Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
     Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x)
-    Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
-
-
-The domain of discourse is the set of ������ identifiers (notation &lt;[http://example.com/](http://example.com/)>), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”). 
-
-From this formalized language `��ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+    Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ 𝕊
 
 An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
 
-The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
-The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a ContextualEntity(e), or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one Class(e). 
+The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one `Class(e)`. 
 
-For simplicity in this formalization (and to assist production rules below) R is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. R is used by Mentions(R, e) to indicate that e is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. Relation(s, p, o) and Attribute(s, p, x) are defined as a _subject-predicate-object_ triple pattern from an Entity(s) using a Property(p) to either another Entity(o) or a Literal(x) value.
+For simplicity in this formalization (and to assist production rules below) `R` is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. `R` is used by `Mentions(R, e)` to indicate that `e` is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. `Relation(s, p, o)` and `Attribute(s, p, x)` are defined as a _subject-predicate-object_ triple pattern from an `Entity(s)` using a `Property(p)` to either another `Entity(o)` or a `Literal(x)` value.
 
 
 ### Example of formalized RO-Crate 
@@ -53,11 +53,12 @@ The below is an example RO-Crate represented using the above formalization, assu
 
     RO-Crate(<http://example.com/ro/123/>)
     name(<http://example.com/ro/123/, 
-        “Data files associated with the manuscript:Effects of facilitated family case …”)
+        “Data files associated with the manuscript:Effects of …”)
     description(<http://example.com/ro/123/, 
-        “Palliative care planning for nursing home residents with advanced dementia …")
+        “Palliative care planning for nursing home residents …")
     datePublished(<http://example.com/ro/123/>, “2017")
-    license(<http://example.com/ro/123/>, <https://creativecommons.org/licenses/by-nc-sa/3.0/au/>
+    license(<http://example.com/ro/123/>, 
+        <https://creativecommons.org/licenses/by-nc-sa/3.0/au/>
     ContextualEntity(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>)
     name(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/, 
         “Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”)
@@ -67,7 +68,8 @@ The below is an example RO-Crate represented using the above formalization, assu
     name(<http://example.com/ro/123/survey.csv>, “Survey of care providers”)
     hasPart(<http://example.com/ro/123/>, <http://www.example.om/ro/123/folder/>)
     Dataset(<http://example.com/ro/123/interviews/>)
-    name(<http://example.com/ro/123/interviews/>, “Audio recordings of care provider interviews”)
+    name(<http://example.com/ro/123/interviews/>, 
+        “Audio recordings of care provider interviews”)
 
 In reality many additional attributes from schema.org types like <http://schema.org/Dataset> and <http://schema.org/CreativeWork> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
 
@@ -88,8 +90,7 @@ A formalized RO-Crate can be mapped to different serializations. Below follows a
     datePublished(e, date) →  Attribute(e, <http://schema.org/datePublished>, date)
     license(e, l) →  Relation(e, <http://schema.org/license>, l) ∧ CreativeWork(l)
 
-
-Note that in the JSON-LD serialization of RO-Crate the expression of Class and Property is typically indirect, as the JSON-LD `@context` maps to schema.org IRIs, which when resolved as Linked Data embeds their formal definition as RDFa. 
+Note that in the JSON-LD serialization of RO-Crate the expression of `Class` and `Property `is typically indirect, as the JSON-LD `@context` maps to schema.org IRIs, which when resolved as Linked Data embeds their formal definition as RDFa. 
 
 
 ### RO-Crate 1.1 Metadata File Descriptor
@@ -112,19 +113,20 @@ While in the conceptual model the _RO-Crate Metadata File_ can be seen as the to
 Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification[^2]:
 
     Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o)
-    i ∈ ������ → "i"
+    i ∈ 𝕀𝕣𝕚 → "i"
     r ∈ ℝ →  r
-    s ∈ �� → "s"
+    s ∈ 𝕊 → "s"
     ∀s∀p∀o Relation(s,p,o) →  { "@id": s,
                                 p: { "@id": o }
-                              }
+                              }     
     ∀s∀p∀v Attribute(s,p,v) →  { "@id": s,
-                                 p: v }
+                                p: v 
+                               }
     ∀r∀c  RO-Crate(r) →  { "@graph": [ Mentions(r, c)* ] }
     R ⊨  <./>
     MetadataFileDescriptor(<ro-crate-metadata.json>) 
 
-This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of R by adding a transitive rule that anything described in R which is related to o means that o is also mentioned by the RO-Crate R. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
+This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of `R` by adding a transitive rule that anything described in `R` which is related to `o` means that `o` is also mentioned by the RO-Crate `R`. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
 
 [^2]:
-    Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include _datePublished_, _CreativeWork_ and _name_. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction Mentions(R, s) production rule; see [issue #122](https://github.com/ResearchObject/ro-crate/issues/122). The datePublished_(_e, date) rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened; a post-step could be JSON-LD Flattening with a versioned RO-Crate context.
+    Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include `datePublished`, `CreativeWork` and `name`. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction `Mentions(R, s)` production rule; see [issue #122](https://github.com/ResearchObject/ro-crate/issues/122). The `datePublished(e, date)` rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened; a post-step could do JSON-LD Flattening with a versioned RO-Crate context.
