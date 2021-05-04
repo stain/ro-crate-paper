@@ -55,7 +55,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 fulfill
 generalization
 Goble
@@ -65,12 +65,12 @@ hoc
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 LFS
@@ -88,7 +88,7 @@ OAC
 OAI
 ocfl
 ONI
-ontologies
+Ontologies
 organized
 PARADISEC
 PCDM
@@ -115,7 +115,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
 serialization
 serializations
