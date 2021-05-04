@@ -28,12 +28,12 @@ Conda
 conformsTo
 counterintuitively
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -54,7 +54,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 generalization
 Goble
 Groth
@@ -63,12 +63,12 @@ hoc
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 LFS
@@ -84,7 +84,7 @@ NoSQL
 OA
 OAC
 OAI
-OCFL
+ocfl
 ONI
 ontologies
 organized
@@ -108,7 +108,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
