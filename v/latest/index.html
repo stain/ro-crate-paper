@@ -8,7 +8,7 @@
   <meta name="author" content="Peter Sefton" />
   <meta name="author" content="Carole Goble" />
   <meta name="author" content="Paul Groth" />
-  <meta name="dcterms.date" content="2021-05-03" />
+  <meta name="dcterms.date" content="2021-05-04" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research data with RO-Crate</title>
   <style>
@@ -93,8 +93,8 @@
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2021-05-03" />
-  <meta name="citation_publication_date" content="2021-05-03" />
+  <meta name="dc.date" content="2021-05-04" />
+  <meta name="citation_publication_date" content="2021-05-04" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/12f9707d27c10fbf95fb38e60e27310ca214aa12/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/12f9707d27c10fbf95fb38e60e27310ca214aa12/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/12f9707d27c10fbf95fb38e60e27310ca214aa12/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/86aac96796dd618bbe7e4e61ba033fa4f68fce40/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/86aac96796dd618bbe7e4e61ba033fa4f68fce40/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/86aac96796dd618bbe7e4e61ba033fa4f68fce40/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/12f9707d27c10fbf95fb38e60e27310ca214aa12/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/86aac96796dd618bbe7e4e61ba033fa4f68fce40/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/12f9707d27c10fbf95fb38e60e27310ca214aa12">stain/ro-crate-paper@12f9707</a>
-on May 3, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/86aac96796dd618bbe7e4e61ba033fa4f68fce40">stain/ro-crate-paper@86aac96</a>
+on May 4, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -485,11 +485,11 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <h2 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h2>
 <p>Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:</p>
 <h3 id="language">Language</h3>
-<pre><code>𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
-𝔻 =  𝕀𝕣𝕚
-𝕀𝕣𝕚 ≡  { IRIs as defined in &lt;https://tools.ietf.org/html/rfc3987&gt; }
+<pre><code>��ro-crate = { Property(p), Class(c), Literal(x), ℝ, �� }
+�� =  ������
+������ ≡  { IRIs as defined in &lt;https://tools.ietf.org/html/rfc3987&gt; }
 ℝ ≡  { real or integer numbers }
-𝕊 ≡  { literal strings }</code></pre>
+�� ≡  { literal strings }</code></pre>
 <h3 id="minimal-ro-cratezies">Minimal RO-Cratezies</h3>
 <pre><code>RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧
     hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧
@@ -506,9 +506,9 @@ Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
 Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
 Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
 Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x)
-Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ 𝕊</code></pre>
-<p>The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings 𝕊 (notation “Hello”).</p>
-<p>From this formalized language <code>𝕃ro-crate</code> a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
+Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��</code></pre>
+<p>The domain of discourse is the set of ������ identifiers (notation &lt;<a href="http://example.com/">http://example.com/</a>&gt;), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”).</p>
+<p>From this formalized language <code>��ro-crate</code> a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <p>An <code>RO-Crate(R)</code> is defined as a self-described <em>Root Data Entity</em>, which describes and contains parts (<em>data entities</em>), which are further described in <em>contextual entities</em>. These terms align with their use in the <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/terminology">RO-Crate 1.1 terminology</a>.</p>
 <p>The <code>Root(r)</code> is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 <a href="https://www.researchobject.org/ro-crate/1.1-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity">requirements for the root data entity</a>.</p>
 <p>The concept of an <code>Entity(e)</code> is introduced as being either a DataEntity(e), a ContextualEntity(e), or <a href="https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities">both</a>; and must be typed with at least one Class(e).</p>
@@ -556,21 +556,20 @@ MetadataFileDescriptor(m) →  ( CreativeWork(m) ∧ about(m,R) ∧ RO-Crate(R) 
 <p>Note that although the metadata file necessarily is an <em>information resource</em> written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained <em>part</em> of the RO-Crate in the form of a <em>data entity</em>, rather it is described only as a <em>contextual entity</em>.</p>
 <p>While in the conceptual model the <em>RO-Crate Metadata File</em> can be seen as the top-level node that describes the <em>RO-Crate Root</em>, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.</p>
 <h3 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h3>
-<p>Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification:</p>
+<p>Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>:</p>
 <pre><code>Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o)
-i ∈ 𝕀𝕣𝕚 → &quot;i&quot;
+i ∈ ������ → &quot;i&quot;
 r ∈ ℝ →  r
-s ∈ 𝕊 → &quot;s&quot;
+s ∈ �� → &quot;s&quot;
 ∀s∀p∀o Relation(s,p,o) →  { &quot;@id&quot;: s,
-                    p: { &quot;@id&quot;: o }
-                }
+                            p: { &quot;@id&quot;: o }
+                          }
 ∀s∀p∀v Attribute(s,p,v) →  { &quot;@id&quot;: s,
-                    p: v }
+                             p: v }
 ∀r∀c  RO-Crate(r) →  { &quot;@graph&quot;: [ Mentions(r, c)* ] }
 R ⊨  &lt;./&gt;
 MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) </code></pre>
 <p>This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of R by adding a transitive rule that anything described in R which is related to o means that o is also mentioned by the RO-Crate R. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.</p>
-<p>Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include <em>datePublished</em>, <em>CreativeWork</em> and <em>name</em>. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction Mentions(R, s) production rule; see <a href="https://github.com/ResearchObject/ro-crate/issues/122">issue #122</a>. The datePublished_(_e, date) rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a <code>@context</code> as the IRIs are produced unshortened; a post-step could be JSON-LD Flattening with a versioned RO-Crate context.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
@@ -580,6 +579,7 @@ MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) </code></pre>
 <hr />
 <ol>
 <li id="fn1" role="doc-endnote"><p>IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [<a href="https://tools.ietf.org/html/rfc3987">RFC3987</a>], commonly used on the browser address bar and in HTML5.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include <em>datePublished</em>, <em>CreativeWork</em> and <em>name</em>. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction Mentions(R, s) production rule; see <a href="https://github.com/ResearchObject/ro-crate/issues/122">issue #122</a>. The datePublished_(_e, date) rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a <code>@context</code> as the IRIs are produced unshortened; a post-step could be JSON-LD Flattening with a versioned RO-Crate context.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 <!-- default theme -->
