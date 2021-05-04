@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ba4f59721a2a8ec7247c6aa9fa33f9d8926c3aef/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ba4f59721a2a8ec7247c6aa9fa33f9d8926c3aef/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ba4f59721a2a8ec7247c6aa9fa33f9d8926c3aef/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/b65cbcba89e5cacd5d36a40853e63e171604f670/))
+([permalink](https://stain.github.io/ro-crate-paper/v/ba4f59721a2a8ec7247c6aa9fa33f9d8926c3aef/))
 was automatically generated
-from [stain/ro-crate-paper@b65cbcb](https://github.com/stain/ro-crate-paper/tree/b65cbcba89e5cacd5d36a40853e63e171604f670)
+from [stain/ro-crate-paper@ba4f597](https://github.com/stain/ro-crate-paper/tree/ba4f59721a2a8ec7247c6aa9fa33f9d8926c3aef)
 on May 4, 2021.
 </em></small>
 
@@ -180,7 +180,7 @@ A key premise of RO-Crate is the existence of a wide variety of resources on the
 Linked Data [] is a core principle of RO-Crate, and IRIs[^1] are therefore used to identify the RO-Crate, its constituent parts and metadata descriptions, as well as to the properties and classes used in the metadata. 
 
 [^1]:
-     IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [RFC3987](https://tools.ietf.org/html/rfc3987)] [@10.17487/RFC3987], commonly used on the browser address bar and in HTML5.
+     IRIs, are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without %-encoding [RFC3987](https://tools.ietf.org/html/rfc3987)] [@doi:10.17487/RFC3987], commonly used on the browser address bar and in HTML5.
 
 Using Linked Data, where consumers can follow the links for more (ideally both human- or machine-readable) information, the RO-Crate can then be sufficiently _self-described_ and related using global identifiers, without needing to recursively fully describe every referenced entity.
 
@@ -195,7 +195,7 @@ The Root Data Entity_ _is a directory, the _RO-Crate Root_, identified by the pr
 
 The minimal [requirements for the root data entity metadata](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity) is _name_, _description_ and _datePublished_, as well as a contextual entity identifying its _license_; but additional metadata is frequently added depending on the purpose of the particular RO-Crate.
 
-Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [[RFC8493](https://www.rfc-editor.org/rfc/rfc8493.html)] [@10.17487/RFC8493], Oxford Common File Layout [[OCFL](https://ocfl.io/1.0/spec/)], downloadable ZIP archives in Zenodo or dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
+Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [[RFC8493](https://www.rfc-editor.org/rfc/rfc8493.html)] [@doi:10.17487/RFC8493], Oxford Common File Layout [[OCFL](https://ocfl.io/1.0/spec/)], downloadable ZIP archives in Zenodo or dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
 
 
 ### Data Entities are described using Contextual Entities
@@ -415,14 +415,12 @@ This use case takes advantage of several RO-Crate features and principles. First
 
 # Related Work
 
-With the greater digitization of research processes, there has been a significant call for the wider use of interoperable sharing  of data and its associated metadata. For a comprehensive overview of this literature and recommendations in particular for data, we refer to [[https://doi.org/10.1016/j.patter.2020.100136](https://doi.org/10.1016/j.patter.2020.100136)]. It highlights  the wide variety of metadata and documentation that the literature prescribes for enabling the reuse of data. 
+With the greater digitization of research processes, there has been a significant call for the wider use of interoperable sharing  of data and its associated metadata. For a comprehensive overview of this literature and recommendations in particular for data, we refer to [@doi:10.1016/j.patter.2020.100136]. It highlights the wide variety of metadata and documentation that the literature prescribes for enabling the reuse of data. 
 
-Here, instead of surveying the large literature on sharing digital scholarly artifacts, we rather focus on approaches to bundling such artifacts along with their metadata. This notion has a long history [[https://doi.org/10.1190/1.1822162](https://doi.org/10.1190/1.1822162)] but recent approaches have followed three strands: 1) publishing to centralized repositories; 2) packaging approaches similar to RO-Crate; and 3) and bundling the computational workflow around a scientific experiment.  
+Here, instead of surveying the large literature on sharing digital scholarly artifacts, we rather focus on approaches to bundling such artifacts along with their metadata. This notion has a long history [@doi:10.1190/1.1822162] but recent approaches have followed three strands: 1) publishing to centralized repositories; 2) packaging approaches similar to RO-Crate; and 3) and bundling the computational workflow around a scientific experiment.  
 
 
 ## Repositories
-
-
 
 *   DataCite Metadata
 *   Open Science Framework
@@ -430,11 +428,11 @@ Here, instead of surveying the large literature on sharing digital scholarly art
 
 ## Bunding and Packaging Digital Research Artifacts
 
-The challenge of describing computational workflows was one of the main motivations for the proposal of _Research Objects_[ https://doi.org/10.1016/j.future.2011.08.004](https://doi.org/10.1016/j.future.2011.08.004) as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in[ https://doi.org/10.1016/j.future.2011.08.004](https://doi.org/10.1016/j.future.2011.08.004) an open-ended _Linked Data_ approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.
+The challenge of describing computational workflows was one of the main motivations for the proposal of _Research Objects_[@doi:10.1016/j.future.2011.08.004] as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in [@doi:10.1016/j.future.2011.08.004] an open-ended _Linked Data_ approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.
 
 Considering the FAIR principles we can say with hindsight (the FAIR paper was published 7 years later) that the initial Research Objects approaches were strongly targeting _Interoperability_, with a particular focus on reproducibility with computational workflows and reuse of existing RDF vocabularies. 
 
-The first implementation of Research Objects in 2009 for sharing workflows in myExperiment[ https://doi.org/10.1093/nar/gkq429](https://doi.org/10.1093/nar/gkq429) was based on RDF ontologies[ http://eprints.soton.ac.uk/id/eprint/267787](http://eprints.soton.ac.uk/id/eprint/267787), building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components.[ http://web.archive.org/web/20091115080336/http%3a%2f%2frdf.myexperiment.org/ontologies](http://web.archive.org/web/20091115080336/http://rdf.myexperiment.org/ontologies) 
+The first implementation of Research Objects in 2009 for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. [@myExperimentOntology2009] 
 
 Programmatic access to Research Objects was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queriable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.
 
@@ -445,7 +443,7 @@ Programmatic access to Research Objects was facilitated with an RDF endpoint tha
 
 ## FAIR Digital Objects
 
-FAIR Digital Objects (FDO) [[https://doi.org/10.3390/publications8020021](https://doi.org/10.3390/publications8020021)] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourage active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository, (ii) a _Permanent Identifier_ (PID) such as DOIs that identify the FDO and can resolve these parts, (iii) Associated rich _metadata_, as separate FDOs, (iv) Type definitions, also separate FDOs, (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
+FAIR Digital Objects (FDO) [@doi:10.3390/publications8020021] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourage active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository, (ii) a _Permanent Identifier_ (PID) such as DOIs that identify the FDO and can resolve these parts, (iii) Associated rich _metadata_, as separate FDOs, (iv) Type definitions, also separate FDOs, (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
 
 As an "[abstract protocol](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf)", Digital Objects could be implemented in multiple ways. Implementations suggested include [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/) based on HTTP and Linked Data, and while there is agreement on using permanent identifiers based on DOI, agreement on how to represent common metadata, core types and collections as FDOs have not yet been reached. We argue that RO-Crate can play an important role for FDOs:
 
@@ -459,19 +457,19 @@ At the same time it is clear that the goal of FDO is broader than RO-Crate; name
 
 ## Packaging Workflows
 
-The use of computational workflows has gained prominence, in particular life sciences, typically combining a chain of open source tools in an analytical pipeline. While the workflows initially may have been used to improve scalability, it can be argued they both assist in making computated data results FAIR, but at the same time raising additional FAIR challenges when considering the workflows as important research artifacts themselves in order to capture and explain the computational method behind an analysis[ [https://doi.org/10.1162/dint_a_00033](https://doi.org/10.1162/dint_a_00033)
+The use of computational workflows has gained prominence, in particular life sciences, typically combining a chain of open source tools in an analytical pipeline. While the workflows initially may have been used to improve scalability, it can be argued they both assist in making computated data results FAIR, but at the same time raising additional FAIR challenges when considering the workflows as important research artifacts themselves in order to capture and explain the computational method behind an analysis [@doi:10.1162/dint_a_00033].
 
-Even when researchers follow current best practice for workflow reproducibility,[ https://doi.org/10.1016/j.cels.2018.03.014 https://doi.org/10.1016/j.future.2017.01.012](https://doi.org/10.1016/j.cels.2018.03.014) the communication of that outcome through traditional academic publishing routes with a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow. Even as researchers the ambition of FAIR reproducible research, it has not yet become common practice.
+Even when researchers follow current best practice for workflow reproducibility, [@doi:10.1016/j.cels.2018.03.014] [@doi:10.1016/j.future.2017.01.012] the communication of that outcome through traditional academic publishing routes with a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow. Even as researchers the ambition of FAIR reproducible research, it has not yet become common practice.
 
-As a real-life example let's look at a metagenomics article [ https://doi.org/10.1038/s41586-019-0965-1](https://doi.org/10.1038/s41586-019-0965-1), where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The _Methods_ section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB)[ http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/](http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/) and the open source code in GitHub repository[ https://github.com/Finn-Lab/MGS-gut](https://github.com/Finn-Lab/MGS-gut) includes the pipeline as shell scripts and associated analysis scripts in R and Python.
+As a real-life example let's look at a metagenomics article [@doi:10.1038/s41586-019-0965-1], where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The _Methods_ section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB) [@ebi_ftp_umgs2019] and the open source code in GitHub repository [Finn-Lab/MGS-gut](https://github.com/Finn-Lab/MGS-gut) [@finn-lab-mgsgut] includes the pipeline as shell scripts and associated analysis scripts in R and Python.
 
-This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements they frequently do not require authors to include or cite _software, scripts and pipelines_ used for analysing and producing results[ https://twitter.com/soilandreyes/status/1250721245622079488](https://twitter.com/soilandreyes/status/1250721245622079488) - rather authors are often penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.
+This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements they frequently [do not require](https://twitter.com/soilandreyes/status/1250721245622079488) authors to include or cite _software, scripts and pipelines_ used for analysing and producing results[ [@soilandreyes_tweet_2020] - rather authors are often penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.
 
-However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description).[ [https://doi.org/10.3389/fninf.2017.00069](https://doi.org/10.3389/fninf.2017.00069)] [[Goble: What is Reproducibility? The R* brouhaha](http://repscience2016.research-infrastructures.eu/img/CaroleGoble-ReproScience2016v2.pdf)]
+However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). [@doi:10.3389/fninf.2017.00069] [@goble_presentation_2016]
 
 Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They may would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.
 
-In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences[ https://doi.org/10.1007/s41019-017-0050-4](https://doi.org/10.1007/s41019-017-0050-4) with supporting collaborative efforts like BioConda[ https://doi.org/10.1038/s41592-018-0046-7](https://doi.org/10.1038/s41592-018-0046-7), BioContainers [??] and by Linux distributions themselves (Debian Med[ https://doi.org/10.1186/1471-2105-11-S12-S5](https://doi.org/10.1186/1471-2105-11-S12-S5)) to make more than 7000 software packages available in BioConda alone[ https://anaconda.org/bioconda/](https://anaconda.org/bioconda/) and 9000 containers in BioContainers[ https://biocontainers.pro/#/registry](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
+In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [??] and by Linux distributions themselves (Debian Med [@doi:10.1186/1471-2105-11-S12-S5] to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
 
 
 # Conclusion
@@ -485,16 +483,21 @@ In recent years the situation has been greatly improved by software packaging an
 
 Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:
 
-
 ### Language
 
-    ��ro-crate = { Property(p), Class(c), Literal(x), ℝ, �� }
-    �� =  ������
-    ������ ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
+    𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
+    𝔻 =  𝕀𝕣𝕚
+    𝕀𝕣𝕚 ≡  { IRIs as defined in <https://tools.ietf.org/html/rfc3987> }
     ℝ ≡  { real or integer numbers }
-    �� ≡  { literal strings }
+    𝕊 ≡  { literal strings }
 
-### Minimal RO-Cratezies
+The domain of discourse is the set of 𝕀𝕣𝕚 identifiers (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings 𝕊 (notation `“Hello”`). 
+
+From this formalized language `𝕃ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+
+### Minimal RO-Crate
+
+Below is using `𝕃ro-crate` to define a minimal RO-Crate:
 
     RO-Crate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧
         hasPart(R, d) ∧ Mentions(R, d) ∧ DataEntity(d) ∧
@@ -511,20 +514,15 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
     Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
     Relation(s, p, o) ⊨ Entity(s) ∧ Property(p) ∧ Entity(o)
     Attribute(s, p, x) ⊨ Entity(s)  ∧ Property(p) ∧ Literal(x)
-    Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ ��
-
-
-The domain of discourse is the set of ������ identifiers (notation &lt;[http://example.com/](http://example.com/)>), with additional descriptions using numbers ℝ (notation 13.37) and literal strings �� (notation “Hello”). 
-
-From this formalized language `��ro-crate` a RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
+    Literal(x) ≡  x ∈ ℝ  ⊕   x ∈ 𝕊
 
 An `RO-Crate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
 
-The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a name, description and datePublished, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The `Root(r)` is a type of Dataset(r), and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
-The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a ContextualEntity(e), or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one Class(e). 
+The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one `Class(e)`. 
 
-For simplicity in this formalization (and to assist production rules below) R is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. R is used by Mentions(R, e) to indicate that e is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. Relation(s, p, o) and Attribute(s, p, x) are defined as a _subject-predicate-object_ triple pattern from an Entity(s) using a Property(p) to either another Entity(o) or a Literal(x) value.
+For simplicity in this formalization (and to assist production rules below) `R` is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. `R` is used by `Mentions(R, e)` to indicate that `e` is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. `Relation(s, p, o)` and `Attribute(s, p, x)` are defined as a _subject-predicate-object_ triple pattern from an `Entity(s)` using a `Property(p)` to either another `Entity(o)` or a `Literal(x)` value.
 
 
 ### Example of formalized RO-Crate 
@@ -533,11 +531,12 @@ The below is an example RO-Crate represented using the above formalization, assu
 
     RO-Crate(<http://example.com/ro/123/>)
     name(<http://example.com/ro/123/, 
-        “Data files associated with the manuscript:Effects of facilitated family case …”)
+        “Data files associated with the manuscript:Effects of …”)
     description(<http://example.com/ro/123/, 
-        “Palliative care planning for nursing home residents with advanced dementia …")
+        “Palliative care planning for nursing home residents …")
     datePublished(<http://example.com/ro/123/>, “2017")
-    license(<http://example.com/ro/123/>, <https://creativecommons.org/licenses/by-nc-sa/3.0/au/>
+    license(<http://example.com/ro/123/>, 
+        <https://creativecommons.org/licenses/by-nc-sa/3.0/au/>
     ContextualEntity(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>)
     name(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/, 
         “Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”)
@@ -547,7 +546,8 @@ The below is an example RO-Crate represented using the above formalization, assu
     name(<http://example.com/ro/123/survey.csv>, “Survey of care providers”)
     hasPart(<http://example.com/ro/123/>, <http://www.example.om/ro/123/folder/>)
     Dataset(<http://example.com/ro/123/interviews/>)
-    name(<http://example.com/ro/123/interviews/>, “Audio recordings of care provider interviews”)
+    name(<http://example.com/ro/123/interviews/>, 
+        “Audio recordings of care provider interviews”)
 
 In reality many additional attributes from schema.org types like <http://schema.org/Dataset> and <http://schema.org/CreativeWork> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
 
@@ -568,8 +568,7 @@ A formalized RO-Crate can be mapped to different serializations. Below follows a
     datePublished(e, date) →  Attribute(e, <http://schema.org/datePublished>, date)
     license(e, l) →  Relation(e, <http://schema.org/license>, l) ∧ CreativeWork(l)
 
-
-Note that in the JSON-LD serialization of RO-Crate the expression of Class and Property is typically indirect, as the JSON-LD `@context` maps to schema.org IRIs, which when resolved as Linked Data embeds their formal definition as RDFa. 
+Note that in the JSON-LD serialization of RO-Crate the expression of `Class` and `Property `is typically indirect, as the JSON-LD `@context` maps to schema.org IRIs, which when resolved as Linked Data embeds their formal definition as RDFa. 
 
 
 ### RO-Crate 1.1 Metadata File Descriptor
@@ -592,22 +591,23 @@ While in the conceptual model the _RO-Crate Metadata File_ can be seen as the to
 Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification[^2]:
 
     Mentions(R, s) ∧ Relation(s, p, o) →  Mentions(R, o)
-    i ∈ ������ → "i"
+    i ∈ 𝕀𝕣𝕚 → "i"
     r ∈ ℝ →  r
-    s ∈ �� → "s"
+    s ∈ 𝕊 → "s"
     ∀s∀p∀o Relation(s,p,o) →  { "@id": s,
                                 p: { "@id": o }
-                              }
+                              }     
     ∀s∀p∀v Attribute(s,p,v) →  { "@id": s,
-                                 p: v }
+                                p: v 
+                               }
     ∀r∀c  RO-Crate(r) →  { "@graph": [ Mentions(r, c)* ] }
     R ⊨  <./>
     MetadataFileDescriptor(<ro-crate-metadata.json>) 
 
-This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of R by adding a transitive rule that anything described in R which is related to o means that o is also mentioned by the RO-Crate R. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
+This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of `R` by adding a transitive rule that anything described in `R` which is related to `o` means that `o` is also mentioned by the RO-Crate `R`. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
 
 [^2]:
-    Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include _datePublished_, _CreativeWork_ and _name_. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction Mentions(R, s) production rule; see [issue #122](https://github.com/ResearchObject/ro-crate/issues/122). The datePublished_(_e, date) rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened; a post-step could be JSON-LD Flattening with a versioned RO-Crate context.
+    Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include `datePublished`, `CreativeWork` and `name`. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction `Mentions(R, s)` production rule; see [issue #122](https://github.com/ResearchObject/ro-crate/issues/122). The `datePublished(e, date)` rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened; a post-step could do JSON-LD Flattening with a versioned RO-Crate context.
 
 
 ## References {.page_break_before}

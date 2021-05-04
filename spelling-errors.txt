@@ -26,12 +26,9 @@ CLI
 computated
 Conda
 conformsTo
-ContextualEntity
 counterintuitively
-Cratezies
-CreativeWork
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
@@ -59,7 +56,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 fulfill
 generalization
 Goble
@@ -81,6 +78,7 @@ LD’s
 LFS
 lifecycle
 metagenomics
+MGS
 myExperiment
 namespaced
 Nextflow
@@ -119,7 +117,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 serialization
 serializations
