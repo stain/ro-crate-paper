@@ -27,12 +27,12 @@ Conda
 conformsTo
 counterintuitively
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -54,7 +54,7 @@ fontspec
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 generalization
 Goble
 Groth
