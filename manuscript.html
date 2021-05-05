@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/306be59525c93441788fa9de2c9a57bfe9cce3c1/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/306be59525c93441788fa9de2c9a57bfe9cce3c1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/306be59525c93441788fa9de2c9a57bfe9cce3c1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/306be59525c93441788fa9de2c9a57bfe9cce3c1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/77c3526cc00378437041c4ad085aeecedf9edefd">stain/ro-crate-paper@77c3526</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/306be59525c93441788fa9de2c9a57bfe9cce3c1">stain/ro-crate-paper@306be59</a>
 on May 5, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -278,7 +278,6 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>In comparison, a single flat <code>@graph</code> array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on <code>@id</code>. At the same time, lifting all entities to the same level emphasizes Research Object goals that describing the context and provenance is just as important as describing the data.</p>
 <p>While RO-Crate mainly use schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the <code>@context</code> to find Linked Data definitions of unknown properties and types. Thus RO-Crate provides its own, versioned JSON-LD context which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents, e.g. <code>author</code> maps to <a href="http://schema.org/author">http://schema.org/author</a>. Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the <em>Portland Common Data Model</em> (PCDM) <span class="citation" data-cites="6UztL3ul">[<a href="#ref-6UztL3ul" role="doc-biblioref">19</a>]</span> for repositories and Bioschemas <span class="citation" data-cites="vDdtcpOe">[<a href="#ref-vDdtcpOe" role="doc-biblioref">20</a>]</span> for describing computational workflows.</p>
 <p>Similarly, rather than relying on implications from <code>"@type: @id"</code> annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities <code>{"id": "#alice"}</code> and string values <code>"Alice"</code> - meaning RO-Crate applications can find the corresponding entity without parsing the <code>@context</code>.</p>
-<p>% ## schema.org as base vocabulary</p>
 <h2 id="ro-crate-community">RO-Crate Community</h2>
 <p>This RO-Crate conceptual model, implementation and best practice guides are situated in a growing RO-Crate community. This community is a key aspect of the effectiveness of RO-Crate for making research artifacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures in the end interoperability.</p>
 <p>The RO-Crate community consists of a:</p>
@@ -427,7 +426,6 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </tr>
 </tbody>
 </table>
-<p>%% TODO Convert to LaTeX table, add headings</p>
 <h1 id="using-ro-crate">Using RO-Crate</h1>
 <p>RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words, the key question can RO-Crate be used to share and (re)use research artifacts. We look at three research domains where it is being applied here: Bioinformatics, Regulatory Science and Cultural Heritages</p>
 <h2 id="bioinformatics-workflows">Bioinformatics workflows</h2>
@@ -452,20 +450,13 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <h1 id="related-work">Related Work</h1>
 <p>With the greater digitization of research processes, there has been a significant call for the wider use of interoperable sharing of data and its associated metadata. For a comprehensive overview of this literature and recommendations in particular for data, we refer to <span class="citation" data-cites="OkXvEtY">[<a href="#ref-OkXvEtY" role="doc-biblioref">44</a>]</span>. It highlights the wide variety of metadata and documentation that the literature prescribes for enabling the reuse of data.</p>
 <p>Here, instead of surveying the large literature on sharing digital scholarly artifacts, we rather focus on approaches to bundling such artifacts along with their metadata. This notion has a long history <span class="citation" data-cites="D318Yc35">[<a href="#ref-D318Yc35" role="doc-biblioref">45</a>]</span> but recent approaches have followed three strands: 1) publishing to centralized repositories; 2) packaging approaches similar to RO-Crate; and 3) and bundling the computational workflow around a scientific experiment.</p>
-<p>% ## Repositories
-%
-% * DataCite Metadata <span class="citation" data-cites="17VUZZFzv">[<a href="#ref-17VUZZFzv" role="doc-biblioref">46</a>]</span>
-% * Open Science Framework</p>
 <h2 id="bunding-and-packaging-digital-research-artifacts">Bunding and Packaging Digital Research Artifacts</h2>
 <p>The challenge of describing computational workflows was one of the main motivations for the early proposal of <em>Research Objects</em><span class="citation" data-cites="sRYUCzCq">[<a href="#ref-sRYUCzCq" role="doc-biblioref">9</a>]</span> as first-class citizens for sharing and publishing, by bundling datasets, workflows, scripts, results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each-other using semantic vocabularies. As pointed out in <span class="citation" data-cites="sRYUCzCq">[<a href="#ref-sRYUCzCq" role="doc-biblioref">9</a>]</span> an open-ended <em>Linked Data</em> approach is not sufficient for scholarly communication, as a common data model is also needed in addition to common practices for managing and annotating lifecycle, ownership, versioning and attributions.</p>
 <p>Considering the FAIR principles we can say with hindsight that the initial Research Objects approaches were strongly targeting <em>Interoperability</em>, with a particular focus on reproducibility with computational workflows and reuse of existing RDF vocabularies.</p>
-<p>The first implementation of Research Objects in 2009 for sharing workflows in myExperiment <span class="citation" data-cites="sTNYjVhY">[<a href="#ref-sTNYjVhY" role="doc-biblioref">47</a>]</span> was based on RDF ontologies <span class="citation" data-cites="1zQ0H831">[<a href="#ref-1zQ0H831" role="doc-biblioref">48</a>]</span>, building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. <span class="citation" data-cites="stokk0es">[<a href="#ref-stokk0es" role="doc-biblioref">49</a>]</span></p>
+<p>The first implementation of Research Objects in 2009 for sharing workflows in myExperiment <span class="citation" data-cites="sTNYjVhY">[<a href="#ref-sTNYjVhY" role="doc-biblioref">46</a>]</span> was based on RDF ontologies <span class="citation" data-cites="1zQ0H831">[<a href="#ref-1zQ0H831" role="doc-biblioref">47</a>]</span>, building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. <span class="citation" data-cites="stokk0es">[<a href="#ref-stokk0es" role="doc-biblioref">48</a>]</span></p>
 <p>Programmatic access to Research Objects was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queriable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.</p>
-<p>% * RO-Bag-It
-% * BDBag
-% * Ontologies ( OAI-ORE, OAC/AO/OA)</p>
 <h2 id="fair-digital-objects">FAIR Digital Objects</h2>
-<p>FAIR Digital Objects (FDO) <span class="citation" data-cites="k5pGkxd5">[<a href="#ref-k5pGkxd5" role="doc-biblioref">50</a>]</span> have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourage active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO <em>content</em>, bit sequences stored in an accessible repository, (ii) a <em>Permanent Identifier</em> (PID) such as DOIs that identify the FDO and can resolve these parts, (iii) Associated rich <em>metadata</em>, as separate FDOs, (iv) Type definitions, also separate FDOs, (v) Associated <em>operations</em> for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.</p>
+<p>FAIR Digital Objects (FDO) <span class="citation" data-cites="k5pGkxd5">[<a href="#ref-k5pGkxd5" role="doc-biblioref">49</a>]</span> have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourage active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO <em>content</em>, bit sequences stored in an accessible repository, (ii) a <em>Permanent Identifier</em> (PID) such as DOIs that identify the FDO and can resolve these parts, (iii) Associated rich <em>metadata</em>, as separate FDOs, (iv) Type definitions, also separate FDOs, (v) Associated <em>operations</em> for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.</p>
 <p>As an “<a href="https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.svg">abstract protocol</a>”, Digital Objects could be implemented in multiple ways. Implementations suggested include <a href="https://fairdigitalobjectframework.org/">FAIR Digital Object Framework</a> based on HTTP and Linked Data, and while there is agreement on using permanent identifiers based on DOI, agreement on how to represent common metadata, core types and collections as FDOs have not yet been reached. We argue that RO-Crate can play an important role for FDOs:</p>
 <ol type="1">
 <li>By providing a predictable and extensible serialization of structured metadata</li>
@@ -475,23 +466,17 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </ol>
 <p>At the same time it is clear that the goal of FDO is broader than RO-Crate; namely FDOs are active objects with a distributed operations, and add further constraints such as permanent identifiers for every element. While these measures can be said to improve FAIR features of digital objects and are also useful for RO-Crate, they also severely restrict the possible FDO infrastructure that need to be implemented and maintained in order for FDOs to remain available. RO-Crate on the other hand is more flexible, it can minimally be used within any file system structure, or ideally exposed through a range of Web-based scenarios, but a <em>FAIR profile of RO-Crate</em> (e.g. enforcing PID usage) will also fit well within and help to implement a FAIR Digital Object ecosystem.</p>
 <h2 id="packaging-workflows">Packaging Workflows</h2>
-<p>The use of computational workflows has gained prominence, in particular life sciences, typically combining a chain of open source tools in an analytical pipeline. While the workflows initially may have been used to improve scalability, it can be argued they both assist in making computated data results FAIR, but at the same time raising additional FAIR challenges when considering the workflows as important research artifacts themselves in order to capture and explain the computational method behind an analysis <span class="citation" data-cites="nHPbkJXy">[<a href="#ref-nHPbkJXy" role="doc-biblioref">51</a>]</span>.</p>
-<p>Even when researchers follow current best practice for workflow reproducibility, <span class="citation" data-cites="74cIRMFz">[<a href="#ref-74cIRMFz" role="doc-biblioref">52</a>]</span> <span class="citation" data-cites="1D4gyjbRv">[<a href="#ref-1D4gyjbRv" role="doc-biblioref">53</a>]</span> the communication of that outcome through traditional academic publishing routes with a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow. Even as researchers the ambition of FAIR reproducible research, it has not yet become common practice.</p>
-<p>As a real-life example let’s look at a metagenomics article <span class="citation" data-cites="FG7BdkMW">[<a href="#ref-FG7BdkMW" role="doc-biblioref">54</a>]</span>, where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The <em>Methods</em> section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB) <span class="citation" data-cites="fNw8iptq">[<a href="#ref-fNw8iptq" role="doc-biblioref">55</a>]</span> and the open source code in GitHub repository <a href="https://github.com/Finn-Lab/MGS-gut">Finn-Lab/MGS-gut</a> <span class="citation" data-cites="1BmIQbauY">[<a href="#ref-1BmIQbauY" role="doc-biblioref">56</a>]</span> includes the pipeline as shell scripts and associated analysis scripts in R and Python.</p>
-<p>This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong <em>data availability</em> requirements they frequently do not require authors to include or cite <em>software, scripts and pipelines</em> used for analysing and producing results <span class="citation" data-cites="14UO6fjKC">[<a href="#ref-14UO6fjKC" role="doc-biblioref">57</a>]</span> – rather authors might be penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.</p>
-<p>However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). <span class="citation" data-cites="jBiuoWG3">[<a href="#ref-jBiuoWG3" role="doc-biblioref">58</a>]</span><span class="citation" data-cites="LrIJVM5a">[<a href="#ref-LrIJVM5a" role="doc-biblioref">59</a>]</span></p>
+<p>The use of computational workflows has gained prominence, in particular life sciences, typically combining a chain of open source tools in an analytical pipeline. While the workflows initially may have been used to improve scalability, it can be argued they both assist in making computated data results FAIR, but at the same time raising additional FAIR challenges when considering the workflows as important research artifacts themselves in order to capture and explain the computational method behind an analysis <span class="citation" data-cites="nHPbkJXy">[<a href="#ref-nHPbkJXy" role="doc-biblioref">50</a>]</span>.</p>
+<p>Even when researchers follow current best practice for workflow reproducibility, <span class="citation" data-cites="74cIRMFz">[<a href="#ref-74cIRMFz" role="doc-biblioref">51</a>]</span> <span class="citation" data-cites="1D4gyjbRv">[<a href="#ref-1D4gyjbRv" role="doc-biblioref">52</a>]</span> the communication of that outcome through traditional academic publishing routes with a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow. Even as researchers the ambition of FAIR reproducible research, it has not yet become common practice.</p>
+<p>As a real-life example let’s look at a metagenomics article <span class="citation" data-cites="FG7BdkMW">[<a href="#ref-FG7BdkMW" role="doc-biblioref">53</a>]</span>, where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The <em>Methods</em> section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB) <span class="citation" data-cites="fNw8iptq">[<a href="#ref-fNw8iptq" role="doc-biblioref">54</a>]</span> and the open source code in GitHub repository <a href="https://github.com/Finn-Lab/MGS-gut">Finn-Lab/MGS-gut</a> <span class="citation" data-cites="1BmIQbauY">[<a href="#ref-1BmIQbauY" role="doc-biblioref">55</a>]</span> includes the pipeline as shell scripts and associated analysis scripts in R and Python.</p>
+<p>This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong <em>data availability</em> requirements they frequently do not require authors to include or cite <em>software, scripts and pipelines</em> used for analysing and producing results <span class="citation" data-cites="14UO6fjKC">[<a href="#ref-14UO6fjKC" role="doc-biblioref">56</a>]</span> – rather authors might be penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.</p>
+<p>However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). <span class="citation" data-cites="jBiuoWG3">[<a href="#ref-jBiuoWG3" role="doc-biblioref">57</a>]</span><span class="citation" data-cites="LrIJVM5a">[<a href="#ref-LrIJVM5a" role="doc-biblioref">58</a>]</span></p>
 <p>Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.</p>
-<p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences <span class="citation" data-cites="a1tub17j">[<a href="#ref-a1tub17j" role="doc-biblioref">60</a>]</span> with supporting collaborative efforts like BioConda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q" role="doc-biblioref">61</a>]</span>, BioContainers <span class="citation" data-cites="rJUU3iuR">[<a href="#ref-rJUU3iuR" role="doc-biblioref">62</a>]</span> and by Linux distributions themselves (e.g. Debian Med <span class="citation" data-cites="8DE4ZSsb">[<a href="#ref-8DE4ZSsb" role="doc-biblioref">63</a>]</span>) to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers <a href="https://biocontainers.pro/#/registry">in BioContainers</a>. Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
+<p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences <span class="citation" data-cites="a1tub17j">[<a href="#ref-a1tub17j" role="doc-biblioref">59</a>]</span> with supporting collaborative efforts like BioConda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q" role="doc-biblioref">60</a>]</span>, BioContainers <span class="citation" data-cites="rJUU3iuR">[<a href="#ref-rJUU3iuR" role="doc-biblioref">61</a>]</span> and by Linux distributions themselves (e.g. Debian Med <span class="citation" data-cites="8DE4ZSsb">[<a href="#ref-8DE4ZSsb" role="doc-biblioref">62</a>]</span>) to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers <a href="https://biocontainers.pro/#/registry">in BioContainers</a>. Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
 <h1 id="conclusion">Conclusion</h1>
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This work has received funding from the European Commission’s Horizon 2020 research and innovation programme for projects <a href="https://cordis.europa.eu/project/id/823830">BioExcel-2</a> (H2020-INFRAEDI-2018-1 823830), <a href="https://cordis.europa.eu/project/id/730976">IBISBA</a> (H2020-INFRAIA-2017-1-two-stage 730976), <a href="https://cordis.europa.eu/project/id/824087">EOSC-Life</a> (H2020-INFRAEOSC-2018-2 824087).</p>
 <h1 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h1>
-<p>% NOTE: Do NOT edit this file in Overleaf as the web editor seems to
-% replace some unicode characters with �
-%
-% Rather than using the awkward LaTeX math mode this simply uses
-% Unicode symbols like ⊨ within code blocks.
-% Those are rendered in font ttf-iosevka-slab using fontspec.</p>
 <p>Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:</p>
 <h2 id="language">Language</h2>
 <pre><code>𝕃ro-crate = { Property(p), Class(c), Literal(x), ℝ, 𝕊 }
@@ -868,102 +853,96 @@ Jon F. Claerbout, Martin Karrenbach<br />
 <em>SEG Technical Program Expanded Abstracts 1992</em> (1992-01) <br />
 DOI: <a href="https://doi.org/10.1190/1.1822162">10.1190/1.1822162</a></p>
 </div>
-<div id="ref-17VUZZFzv">
-<p>46. <strong>DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs v4.4</strong> <br />
-DataCite Metadata Working Group<br />
-<em>DataCite</em> (2021) <a href="https://schema.datacite.org/meta/kernel-4.4/">https://schema.datacite.org/meta/kernel-4.4/</a> <br />
-DOI: <a href="https://doi.org/10.14454/3w3z-sa82">10.14454/3w3z-sa82</a></p>
-</div>
 <div id="ref-sTNYjVhY">
-<p>47. <strong>myExperiment: a repository and social network for the sharing of bioinformatics workflows.</strong> <br />
+<p>46. <strong>myExperiment: a repository and social network for the sharing of bioinformatics workflows.</strong> <br />
 Carole A Goble, Jiten Bhagat, Sergejs Aleksejevs, Don Cruickshank, Danius Michaelides, David Newman, Mark Borkum, Sean Bechhofer, Marco Roos, Peter Li, David De Roure<br />
 <em>Nucleic Acids Research</em> (2010-07-01) <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkq429">10.1093/nar/gkq429</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20501605">20501605</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896080">PMC2896080</a></p>
 </div>
 <div id="ref-1zQ0H831">
-<p>48. <strong>myExperiment: An ontology for e-Research</strong> <br />
+<p>47. <strong>myExperiment: An ontology for e-Research</strong> <br />
 David Newman, Sean Bechhofer, David De Roure<br />
 <em>Proceedings of the Workshop on Semantic Web Applications in Scientific Discourse (SWASD 2009)</em> (2009-10) <a href="http://ceur-ws.org/Vol-523/Newman.pdf">http://ceur-ws.org/Vol-523/Newman.pdf</a></p>
 </div>
 <div id="ref-stokk0es">
-<p>49. <strong>myExperiment Ontology Modules</strong> (2009) <a href="http://web.archive.org/web/20091115080336/http\%3a\%2f\%2frdf.myexperiment.org/ontologies">http://web.archive.org/web/20091115080336/http\%3a\%2f\%2frdf.myexperiment.org/ontologies</a></p>
+<p>48. <strong>myExperiment Ontology Modules</strong> (2009) <a href="http://web.archive.org/web/20091115080336/http\%3a\%2f\%2frdf.myexperiment.org/ontologies">http://web.archive.org/web/20091115080336/http\%3a\%2f\%2frdf.myexperiment.org/ontologies</a></p>
 </div>
 <div id="ref-k5pGkxd5">
-<p>50. <strong>FAIR digital objects for science: from data pieces to actionable knowledge units</strong> <br />
+<p>49. <strong>FAIR digital objects for science: from data pieces to actionable knowledge units</strong> <br />
 Koenraad De Smedt, Dimitris Koureas, Peter Wittenburg<br />
 <em>Publications</em> (2020-04-11) <br />
 DOI: <a href="https://doi.org/10.3390/publications8020021">10.3390/publications8020021</a></p>
 </div>
 <div id="ref-nHPbkJXy">
-<p>51. <strong>FAIR Computational Workflows</strong> <br />
+<p>50. <strong>FAIR Computational Workflows</strong> <br />
 Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober<br />
 <em>Data Intelligence</em> (2019-11-01) <br />
 DOI: <a href="https://doi.org/10.1162/dint\_a\_00033">10.1162/dint\_a\_00033</a></p>
 </div>
 <div id="ref-74cIRMFz">
-<p>52. <strong>Practical computational reproducibility in the life sciences.</strong> <br />
+<p>51. <strong>Practical computational reproducibility in the life sciences.</strong> <br />
 Björn Grüning, John Chilton, Johannes Köster, Ryan Dale, Nicola Soranzo, Marius van den Beek, Jeremy Goecks, Rolf Backofen, Anton Nekrutenko, James Taylor<br />
 <em>Cell Systems</em> (2018-06-27) <br />
 DOI: <a href="https://doi.org/10.1016/j.cels.2018.03.014">10.1016/j.cels.2018.03.014</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29953862">29953862</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6263957">PMC6263957</a></p>
 </div>
 <div id="ref-1D4gyjbRv">
-<p>53. <strong>Scientific workflows for computational reproducibility in the life sciences: Status, challenges and opportunities</strong> <br />
+<p>52. <strong>Scientific workflows for computational reproducibility in the life sciences: Status, challenges and opportunities</strong> <br />
 Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre Larmande, Yvan Le Bras, Frédéric Lemoine, … Christophe Blanchet<br />
 <em>Future Generation Computer Systems</em> (2017-10) <br />
 DOI: <a href="https://doi.org/10.1016/j.future.2017.01.012">10.1016/j.future.2017.01.012</a></p>
 </div>
 <div id="ref-FG7BdkMW">
-<p>54. <strong>A new genomic blueprint of the human gut microbiota.</strong> <br />
+<p>53. <strong>A new genomic blueprint of the human gut microbiota.</strong> <br />
 Alexandre Almeida, Alex L Mitchell, Miguel Boland, Samuel C Forster, Gregory B Gloor, Aleksandra Tarkowska, Trevor D Lawley, Robert D Finn<br />
 <em>Nature</em> (2019-02-11) <br />
 DOI: <a href="https://doi.org/10.1038/s41586-019-0965-1">10.1038/s41586-019-0965-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30745586">30745586</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6784870">PMC6784870</a></p>
 </div>
 <div id="ref-fNw8iptq">
-<p>55. <strong>FTP index of /pub/databases/metagenomics/umgs\_analyses/</strong> <br />
+<p>54. <strong>FTP index of /pub/databases/metagenomics/umgs\_analyses/</strong> <br />
 EMBL-EBI Microbiome Informatics Team<br />
 <em>ftp.ebi.ac.uk</em> (2019-09-12) <a href="http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\_analyses/">http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\_analyses/</a></p>
 </div>
 <div id="ref-1BmIQbauY">
-<p>56. <strong>GitHub - Finn-Lab/MGS-gut: Analysing Metagenomic Species (MGS)</strong> <br />
+<p>55. <strong>GitHub - Finn-Lab/MGS-gut: Analysing Metagenomic Species (MGS)</strong> <br />
 EMBL-EBI Microbiome Informatics Team<br />
 <em>GitHub</em> <a href="https://github.com/Finn-Lab/%7BMGS%7D-gut">https://github.com/Finn-Lab/{MGS}-gut</a></p>
 </div>
 <div id="ref-14UO6fjKC">
-<p>57. <strong>I am looking for which bioinformatics journals encourage authors to submit their code/pipeline/workflow \*supporting\* data analysis</strong> <br />
+<p>56. <strong>I am looking for which bioinformatics journals encourage authors to submit their code/pipeline/workflow \*supporting\* data analysis</strong> <br />
 Stian Soiland-Reyes<br />
 <em>Twitter</em> (2020-04-16) <a href="https://twitter.com/soilandreyes/status/1250721245622079488">https://twitter.com/soilandreyes/status/1250721245622079488</a></p>
 </div>
 <div id="ref-jBiuoWG3">
-<p>58. <strong>Re-run, Repeat, Reproduce, Reuse, Replicate: Transforming Code into Scientific Contributions.</strong> <br />
+<p>57. <strong>Re-run, Repeat, Reproduce, Reuse, Replicate: Transforming Code into Scientific Contributions.</strong> <br />
 Fabien CY Benureau, Nicolas P Rougier<br />
 <em>Frontiers in Neuroinformatics</em> (2017) <br />
 DOI: <a href="https://doi.org/10.3389/fninf.2017.00069">10.3389/fninf.2017.00069</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29354046">29354046</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5758530">PMC5758530</a></p>
 </div>
 <div id="ref-LrIJVM5a">
-<p>59. <strong>What is Reproducibility? The R\* Brouhaha</strong> <br />
+<p>58. <strong>What is Reproducibility? The R\* Brouhaha</strong> <br />
 Carole Goble<br />
 (2016-09-09) <a href="http://repscience2016.research-infrastructures.eu/img/%7BCaroleGoble%7D-%7BReproScience2016v2%7D.pdf">http://repscience2016.research-infrastructures.eu/img/{CaroleGoble}-{ReproScience2016v2}.pdf</a></p>
 </div>
 <div id="ref-a1tub17j">
-<p>60. <strong>Robust Cross-Platform Workflows: How Technical and Scientific Communities Collaborate to Develop, Test and Share Best Practices for Data Analysis</strong> <br />
+<p>59. <strong>Robust Cross-Platform Workflows: How Technical and Scientific Communities Collaborate to Develop, Test and Share Best Practices for Data Analysis</strong> <br />
 Steffen Möller, Stuart W. Prescott, Lars Wirzenius, Petter Reinholdtsen, Brad Chapman, Pjotr Prins, Stian Soiland-Reyes, Fabian Klötzl, Andrea Bagnacani, Matúš Kalaš, … Michael R. Crusoe<br />
 <em>Data Science and Engineering</em> (2017-11-16) <br />
 DOI: <a href="https://doi.org/10.1007/s41019-017-0050-4">10.1007/s41019-017-0050-4</a></p>
 </div>
 <div id="ref-sYguBb3Q">
-<p>61. <strong>Bioconda: sustainable and comprehensive software distribution for the life sciences.</strong> <br />
+<p>60. <strong>Bioconda: sustainable and comprehensive software distribution for the life sciences.</strong> <br />
 Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A Chapman, Jillian Rowe, Christopher H Tomkins-Tinch, Renan Valieris, Johannes Köster, Bioconda Team<br />
 <em>Nature Methods</em> (2018) <br />
 DOI: <a href="https://doi.org/10.1038/s41592-018-0046-7">10.1038/s41592-018-0046-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29967506">29967506</a></p>
 </div>
 <div id="ref-rJUU3iuR">
-<p>62. <strong>BioContainers: an open-source and community-driven framework for software standardization.</strong> <br />
+<p>61. <strong>BioContainers: an open-source and community-driven framework for software standardization.</strong> <br />
 Felipe da Veiga Leprevost, Björn A Grüning, Saulo Alves Aflitos, Hannes L Röst, Julian Uszkoreit, Harald Barsnes, Marc Vaudel, Pablo Moreno, Laurent Gatto, Jonas Weber, … Yasset Perez-Riverol<br />
 <em>Bioinformatics</em> (2017-08-15) <br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btx192">10.1093/bioinformatics/btx192</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28379341">28379341</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5870671">PMC5870671</a></p>
 </div>
 <div id="ref-8DE4ZSsb">
-<p>63. <strong>Community-driven computational biology with Debian Linux.</strong> <br />
+<p>62. <strong>Community-driven computational biology with Debian Linux.</strong> <br />
 Steffen Möller, Hajo Nils Krabbenhöft, Andreas Tille, David Paleino, Alan Williams, Katy Wolstencroft, Carole Goble, Richard Holland, Dominique Belhachemi, Charles Plessy<br />
 <em>BMC Bioinformatics</em> (2010-12-21) <br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-11-S12-S5">10.1186/1471-2105-11-s12-s5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21210984">21210984</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040531">PMC3040531</a></p>
