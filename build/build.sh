@@ -17,6 +17,11 @@ ln -fs v/latest/images webpage/
 ln -fs v/latest/index.html webpage/
 ln -s ../latex/ro-crate.bib content/manual-references-ro-crate.bib
 
+# Replace silly paths for LaTeX
+sed -i 's,../content/images/,images/,g' content/*md
+# .. and use SVG instead of PDF
+sed -i 's,\.pdf,.svg/,g' content/*md
+
 
 # Generate reference information
 echo >&2 "Retrieving and processing reference metadata"
