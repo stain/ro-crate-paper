@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1a27d7cf75ee2e33320c3273300898283d950645/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a27d7cf75ee2e33320c3273300898283d950645/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a27d7cf75ee2e33320c3273300898283d950645/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/))
+([permalink](https://stain.github.io/ro-crate-paper/v/1a27d7cf75ee2e33320c3273300898283d950645/))
 was automatically generated
-from [stain/ro-crate-paper@e5b5de7](https://github.com/stain/ro-crate-paper/tree/e5b5de7f4dda468bd86f9f270c2617259befff7a)
+from [stain/ro-crate-paper@1a27d7c](https://github.com/stain/ro-crate-paper/tree/1a27d7cf75ee2e33320c3273300898283d950645)
 on May 5, 2021.
 </em></small>
 
@@ -382,11 +382,11 @@ RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts
 
 [WorkflowHub.eu](https://workflowhub.eu/) is a European cross-domain registry of computational workflows, supported by European Open Science Cloud projects like [EOSC-Life](https://www.eosc-life.eu/) and research infrastructures, including the pan-European bioinformatics network [ELIXIR](https://elixir-europe.org/) [@doi:10.1016/j.tibtech.2012.02.002]. As part of promoting workflows as reusable tools, the WorkflowHub includes documentation and high-level rendering of the workflow structure independent of its native workflow definition format - the rationale is that a domain scientist looking for a particular computational analysis can browse all relevant workflows before narrowing down their workflow engine requirements. As such the WorkflowHub is intended largely as a registry over workflows already deposited in repositories specific to particular workflow languages and domains, such as UseGalaxy.eu and Nextflow nf-core. 
 
-Being cross-domain also means the WorkflowHub has to cater for many different workflow systems. Many of these, for instance Nextflow and Snakemake, by their script-like nature, reference multiple neighbouring files typically maintained in a GitHub repository. The WorkflowHub has therefore adapted RO-Crate as the packaging mechanism typing and annotating the constituent files of a workflow, crucially marking up the workflow language, as many workflow engines use common file extensions like *.xml and *.json. RO-Crates can thus be used for interoperable deposition of workflows to the WorkflowHub, but is also used by the archive downloading workflows, embedding metadata registered with the Workflow Hub entry and translated workflow definitions such as abstract CWL and diagrams.
+Being cross-domain also means the WorkflowHub has to cater for many different workflow systems. Many of these, for instance Nextflow and Snakemake, by their script-like nature, reference multiple neighbouring files typically maintained in a GitHub repository. The WorkflowHub [@doi:10.5281/zenodo.4605654] has therefore adapted RO-Crate as the packaging mechanism  by typing and annotating the constituent files of a workflow, crucially marking up the workflow language, as many workflow engines use common file extensions like `*.xml` and `*.json`. Workflows are further described with authors, license, diagram previews and a listing of their inputs and outputs. RO-Crates can thus be used for interoperable deposition of workflows to the WorkflowHub, but is also used as an archive for downloading workflows, embedding metadata registered with the WorkflowHub entry and translated workflow definitions such as abstract CWL and diagrams. 
 
-In WorkflowHub, RO-Crate therefore can be seen as taking on the role of an interoperability layer between registries, repositories and users. The iterative development between Workflow Hub developers and RO-Crate community heavily informed the creation of the [Bioschemas profile for Computational Workflow](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/), which again informed the [RO-Crate 1.1 specification on workflows](https://www.researchobject.org/ro-crate/1.1/workflows.html) and led to the RO-Crate Python library and WorkflowHub’s [Workflow RO-Crate profile](https://about.workflowhub.eu/Workflow-RO-Crate/) which in a similar fashion to RO-Crate itself recommends which workflow resources and descriptions are required. This co-development across project boundaries exemplifies the drive for simplicity at the same time as establishing best practices.
+In WorkflowHub, RO-Crate therefore can be seen as taking on the role of an interoperability layer between registries, repositories and users. The iterative development between WorkflowHub developers and RO-Crate community heavily informed the creation of the Bioschemas[@bioschemas_2017] profile for [Computational Workflow](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/), which again informed the [RO-Crate 1.1 specification on workflows](https://www.researchobject.org/ro-crate/1.1/workflows.html) and led to the RO-Crate Python library and WorkflowHub’s [Workflow RO-Crate profile](https://about.workflowhub.eu/Workflow-RO-Crate/) which in a similar fashion to RO-Crate itself recommends which workflow resources and descriptions are required. This co-development across project boundaries exemplifies the drive for simplicity at the same time as establishing best practices.
 
-While RO-Crates in Workflow Hub so far has focused on workflows that are ready to be run, they are now moving into the development of a profile _Workflow Run RO-Crate_, for the purposes of benchmarking, testing and executing workflows [@doi:10.5281/zenodo.4605654]. As such RO-Crate serves multiple roles, both as container of a workflow definition that may be executed, but also of a workflow execution and test results.
+While RO-Crates in WorkflowHub so far has focused on workflows that are ready to be run, they are now moving into the development of a profile _Workflow Run RO-Crate_, for the purposes of benchmarking, testing and executing workflows. As such RO-Crate serves multiple roles, both as container of a workflow definition that may be executed, but also of a workflow execution and test results. WorkflowHub has recently enabled minting of DOIs for registered workflows, e.g. [@doi:10.48546/workflowhub.workflow.56.1], lowering the barrier for citing computational methods along with their FAIR metadata captured as an RO-Crate.
 
 
 ## Regulatory Sciences
@@ -479,6 +479,13 @@ In recent years the situation has been greatly improved by software packaging an
 # Conclusion
 
 
+
+# Acknowledgements
+
+\small
+
+This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087).
+     
 
 # Formalizing RO-Crate in First Order Logic
 
@@ -616,6 +623,53 @@ This exposes the first order logic domain of discourse of IRIs, with rational nu
 [^2]:
     Limitations: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include `datePublished`, `CreativeWork` and `name`. Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction `Mentions(R, s)` production rule; see [issue #122](https://github.com/ResearchObject/ro-crate/issues/122). The `datePublished(e, date)` rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened; a post-step could do JSON-LD Flattening with a versioned RO-Crate context.
 
+
+# RO-Crate Community
+
+As of 2021-05-05, the _RO-Crate_ Community members are:
+
+* Peter Sefton <https://orcid.org/0000-0002-3545-944X> (co-chair)
+* Stian Soiland-Reyes <https://orcid.org/0000-0001-9842-9718> (co-chair)
+* Eoghan Ó Carragáin <https://orcid.org/0000-0001-8131-2150> (emeritus chair)
+* Oscar Corcho <https://orcid.org/0000-0002-9260-0753>
+* Daniel Garijo <https://orcid.org/0000-0003-0454-7145>
+* Raul Palma <https://orcid.org/0000-0003-4289-4922>
+* Frederik Coppens <https://orcid.org/0000-0001-6565-5145>
+* Carole Goble <https://orcid.org/0000-0003-1219-2137>
+* José María Fernández <https://orcid.org/0000-0002-4806-5140>
+* Kyle Chard <https://orcid.org/0000-0002-7370-4805>
+* Jose Manuel Gomez-Perez <https://orcid.org/0000-0002-5491-6431>
+* Michael R Crusoe <https://orcid.org/0000-0002-2961-9670>
+* Ignacio Eguinoa <https://orcid.org/0000-0002-6190-122X>
+* Nick Juty <https://orcid.org/0000-0002-2036-8350>
+* Kristi Holmes <https://orcid.org/0000-0001-8420-5254>
+* Jason A. Clark <https://orcid.org/0000-0002-3588-6257>
+* Salvador Capella-Gutierrez <https://orcid.org/0000-0002-0309-604X>
+* Alasdair J. G. Gray <https://orcid.org/0000-0002-5711-4872>
+* Stuart Owen <https://orcid.org/0000-0003-2130-0865>
+* Alan R Williams <https://orcid.org/0000-0003-3156-2105>
+* Giacomo Tartari <https://orcid.org/0000-0003-1130-2154>
+* Finn Bacall <https://orcid.org/0000-0002-0048-3300>
+* Thomas Thelen <https://orcid.org/0000-0002-1756-2128>
+* Hervé Ménager <https://orcid.org/0000-0002-7552-1009>
+* Laura Rodríguez Navas <https://orcid.org/0000-0003-4929-1219>
+* Paul Walk <https://orcid.org/0000-0003-1541-5631>
+* brandon whitehead <https://orcid.org/0000-0002-0337-8610>
+* Mark Wilkinson <https://orcid.org/0000-0001-6960-357X>
+* Paul Groth <https://orcid.org/0000-0003-0183-6910>
+* Erich Bremer <https://orcid.org/0000-0003-0223-1059>
+* LJ Garcia Castro <https://orcid.org/0000-0003-3986-0510>
+* Karl Sebby <https://orcid.org/0000-0001-6022-9825>
+* Alexander Kanitz <https://orcid.org/0000-0002-3468-0652>
+* Ana Trisovic <https://orcid.org/0000-0003-1991-0533>
+* Gavin Kennedy <https://orcid.org/0000-0003-3910-0474>
+* Mark Graves <https://orcid.org/0000-0003-3486-8193>
+* Jasper Koehorst <https://orcid.org/0000-0001-8172-8981>
+* Simone Leo <https://orcid.org/0000-0001-8271-5429>
+* Marc Portier <https://orcid.org/0000-0002-9648-6484>
+* Paul Brack <https://orcid.org/0000-0002-5432-2748>
+* Milan Ojsteršek <https://orcid.org/0000-0003-1743-8300>
+* Bert Droesbeke <https://orcid.org/0000-0003-0522-5674>
 
 ## References {.page_break_before}
 

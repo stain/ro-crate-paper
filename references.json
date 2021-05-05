@@ -2152,6 +2152,42 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.4018/978-1-60960-593-3.ch008"
   },
   {
+    "DOI": "10.48546/workflowhub.workflow.56.1",
+    "URL": "https://workflowhub.eu/workflows/56?version=1",
+    "abstract": "\\# Summary This tutorial aims to illustrate the process of setting up a simulation system containing a protein in complex with a ligand, step by step, using the BioExcel Building Blocks library (biobb). The particular example used is the T4 lysozyme L99A/M102Q protein (PDB code 3HTB), in complex with the 2-propylphenol small molecule (3-letter Code JZ4). Workflow engine is a jupyter notebook. It can be run in binder, following the link given, or locally. Auxiliar libraries used are: nb\\\\\\_conda\\_kernels, nglview, ipywidgets, os, plotly, and simpletraj. Environment can be setup using the included environment.yml file. \\# Parameters \\#\\# Inputs Parameters needed to configure the workflow: \\* \\*\\*pdbCode\\*\\*: PDB code of the protein-ligand complex structure (e.g. 3HTB) \\* \\*\\*ligandCode\\*\\*: Small molecule 3-letter code for the ligand structure (e.g. JZ4) \\* \\*\\*mol\\\\\\_charge\\*\\*: Charge of the small molecule, needed to add hydrogen atoms. \\#\\# Outputs Output files generated (named according to the input parameters given above): \\* \\*\\*output\\\\\\_md\\\\\\_gro\\*\\*: final structure of the MD setup protocol \\* \\*\\*output\\\\\\_md\\\\\\_trr\\*\\*: final trajectory of the MD setup protocol \\* \\*\\*output\\\\\\_md\\\\\\_cpt\\*\\*: final checkpoint file \\* \\*\\*output\\\\\\_gppmd\\\\\\_tpr\\*\\*: final tpr file \\* \\*\\*output\\\\\\_genion\\\\\\_top\\\\\\_zip\\*\\*: final topology of the MD system",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Lowe",
+        "given": "Douglas"
+      },
+      {
+        "family": "Bayarri",
+        "given": "Genís"
+      }
+    ],
+    "container-title": "WorkflowHub",
+    "id": "HJqdR8JL",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "Protein Ligand Complex MD Setup tutorial using BioExcel Building Blocks (biobb) (jupyter notebook)",
+    "type": "article-journal",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.48546/workflowhub.workflow.56.1"
+  },
+  {
     "DOI": "10.5281/zenodo.1445817",
     "abstract": "This is a somewhat experimental approach to submitting an extended abstract to a conference. The submission describes the DataCrate standard and the source-files, HTML and PDF versions of the submission are included in a DataCrate package.",
     "accessed": {
