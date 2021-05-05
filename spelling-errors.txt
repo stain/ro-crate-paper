@@ -3,7 +3,7 @@ analyze
 analyzing
 AO
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -32,7 +32,7 @@ conformsTo
 Coppens
 Corcho
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
@@ -64,7 +64,7 @@ fontspec
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -81,14 +81,14 @@ implementers
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 iosevka
 IRI
 itemized
 José
 js
-json
+JSON
 Juty
 Kanitz
 Koehorst
@@ -111,7 +111,7 @@ NoSQL
 OA
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -138,13 +138,13 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 Rodríguez
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 separationofconcerns
@@ -170,7 +170,7 @@ Thelen
 TODO
 Trisovic
 ttf
-uml
+UML
 unshortened
 URI
 UseGalaxy
