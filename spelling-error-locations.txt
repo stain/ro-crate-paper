@@ -39,6 +39,7 @@ content/21.conceptual.md:3:RO
 content/21.conceptual.md:3:RO
 content/21.conceptual.md:5:BagIt
 content/21.conceptual.md:5:OCFL
+content/21.conceptual.md:5:organizations
 content/21.conceptual.md:5:PID
 content/21.conceptual.md:5:PIDs
 content/21.conceptual.md:5:ro
@@ -49,6 +50,7 @@ content/21.conceptual.md:5:RO
 content/21.conceptual.md:5:RO
 content/21.conceptual.md:5:RO
 content/21.conceptual.md:5:RO
+content/21.conceptual.md:5:ROR
 content/21.conceptual.md:9:RO
 content/21.conceptual.md:9:RO
 content/21.conceptual.md:11:RO
@@ -92,6 +94,7 @@ content/21.conceptual.md:33:UML
 content/21.conceptual.md:35:dataset
 content/21.conceptual.md:35:datasets
 content/21.conceptual.md:35:hasPart
+content/21.conceptual.md:35:organizations
 content/21.conceptual.md:35:ro
 content/21.conceptual.md:35:RO
 content/21.conceptual.md:35:RO
@@ -459,12 +462,12 @@ content/42.regulatory.md:18:checksums
 content/42.regulatory.md:18:datasets
 content/42.regulatory.md:18:DOIs
 content/42.regulatory.md:18:JSON
+content/42.regulatory.md:18:LFS
 content/42.regulatory.md:18:Nextflow
 content/42.regulatory.md:18:ro
 content/42.regulatory.md:18:RO
 content/42.regulatory.md:18:RO
 content/42.regulatory.md:18:RO
-content/42.regulatory.md:18:separationofconcerns
 content/42.regulatory.md:18:Zenodo
 content/43.culturalheritage.md:3:artifacts
 content/43.culturalheritage.md:3:https

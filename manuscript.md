@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/96446d89c0c277d317cf4596cf7bb661375b9ca7/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/96446d89c0c277d317cf4596cf7bb661375b9ca7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/96446d89c0c277d317cf4596cf7bb661375b9ca7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/96446d89c0c277d317cf4596cf7bb661375b9ca7/))
+([permalink](https://stain.github.io/ro-crate-paper/v/77c3526cc00378437041c4ad085aeecedf9edefd/))
 was automatically generated
-from [stain/ro-crate-paper@96446d8](https://github.com/stain/ro-crate-paper/tree/96446d89c0c277d317cf4596cf7bb661375b9ca7)
+from [stain/ro-crate-paper@77c3526](https://github.com/stain/ro-crate-paper/tree/77c3526cc00378437041c4ad085aeecedf9edefd)
 on May 5, 2021.
 </em></small>
 
@@ -143,7 +143,7 @@ The move towards open science and open research practices has increased the dema
 
 It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles [@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important example include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain specific data deposit (e.g. PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
 
-These strategies are focused primarily on one _type_ of artifact. To address this, \citet{doi:10.1016/j.future.2011.08.004} introduced the notion of a **research object** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
+These strategies are focused primarily on one _type_ of artifact. To address this, @doi:10.1016/j.future.2011.08.004 introduced the notion of a **research object** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
 To address this gap, a new community came together [@doi:10.5281/zenodo.3250687] to develop **RO-Crate** - a _lightweight approach to packaging and aggregating research artifacts with their metadata_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR.  Specifically, the contributions of this paper are as follows:
 
@@ -175,7 +175,7 @@ These 3 desiderata are what is meant by “lightweight”. We now show how the R
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such RO-Crate relies on concepts from the Web and in particular linked data. 
 
-![Conceptual RO-Crate Overview](images/ro-crate-overview.svg "\textbf{Conceptual overview of RO-Crate}. A \emph{Permanent Identifier} (PID) identifies a \emph{Research Object} (RO), which is archived using BagIt\cite{@doi:10.17487/RFC8493}, OCFL\cite{ocfl_2020}, git or ZIP. Using Linked Data, the RO is described within an \textit{RO Metadata File}, providing identifiers for authors using ORCID, organizations using ROR and licenses such as Creative Commons. The \emph{RO-Crate content} is further described with their own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates."){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Permanent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt[@@doi:10.17487/RFC8493], OCFL[@ocfl_2020], git or ZIP. Using Linked Data, the RO is described within an \textit{RO Metadata File}, providing identifiers for authors using ORCID, organizations using ROR and licenses such as Creative Commons. The *RO-Crate content* is further described with their own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a core principle
 
@@ -205,7 +205,7 @@ Any particular IRI might appear as a contextual entity in one RO-Crate, and a da
 
 Figure {@fig:uml} shows a UML view of RO-Crate \ref{fig:uml}, highlighting the different types of data entities and contextual entities that can be aggregated and related.
 
-![RO-Crate UML](images/ro-crate-uml.svg "\textbf{UML model view of RO-Crate.} The \emph{RO-Crate Metadata File} conforms to a version of the specification, which mainly describes the \emph{RO-Crate Root Data Entity} representing the Research Object as a dataset. The RO-Crate aggregates \emph{data entities} (\texttt{hasPart}) which are further described using \emph{contextual entities}. Multiple types and relations from schema.org allow annotations to be more specific, including figures, nested datasets, computational workflows, people, organizations, instruments and places."){#fig:uml width="90%"}
+![**UML model view of RO-Crate.** The *RO-Crate Metadata File* conforms to a version of the specification, which mainly describes the *RO-Crate Root Data Entity* representing the Research Object as a dataset. The RO-Crate aggregates *data entities* (`hasPart`) which are further described using *contextual entities*. Multiple types and relations from schema.org allow annotations to be more specific, including figures, nested datasets, computational workflows, people, organizations, instruments and places.](images/ro-crate-uml.svg "RO-Crate UML"){#fig:uml width="90%"}
 
 
 ### Best Practice Guide rather than strict specification
@@ -407,7 +407,7 @@ A similar separation of concerns we can find within the RO-Crate itself, where t
 
 Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [@doi:10.6084/m9.figshare.3115156.v2] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-![separationofconcerns](images/ro-crate-bco-sep-of-concerns.png "\textbf{Separation of Concerns in BCO RO-Crate}. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag \cite{doi:10.1109/BigData.2016.7840618} features to “complete” the bag with large external files such as the workflow outputs")
+![**Separation of Concerns in BCO RO-Crate**. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag [@doi:10.1109/BigData.2016.7840618] features to “complete” the bag with large external files such as the workflow outputs](images/ro-crate-bco-sep-of-concerns.png "separationofconcerns")
 
 
 ## Digital Humanities: Cultural Heritage
