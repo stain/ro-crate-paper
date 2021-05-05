@@ -2,7 +2,7 @@ Alasdair
 analyze
 analyzing
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Brack
@@ -30,7 +30,7 @@ conformsTo
 Coppens
 Corcho
 CSV
-CWL
+cwl
 DataCrate
 DataCrate’s
 DataEntity
@@ -104,7 +104,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -132,7 +132,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 Rodríguez
 ROR
 ROs
@@ -162,7 +162,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
