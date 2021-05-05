@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -32,7 +32,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -54,7 +54,7 @@ fontspec
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 generalization
 Goble
 Groth
@@ -63,7 +63,7 @@ hoc
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 iosevka
 IRI
