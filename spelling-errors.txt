@@ -31,7 +31,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -54,7 +54,7 @@ fontspec
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 generalization
 GH
 Goble
@@ -86,9 +86,9 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 ONI
-ontologies
+Ontologies
 OpenAIRE
 organized
 PARADISEC
@@ -110,7 +110,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
