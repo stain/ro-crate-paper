@@ -19,7 +19,6 @@ boundness
 Bunding
 CalcyteJS
 carolegoble
-Catalog
 centralized
 checksums
 CLI
@@ -28,7 +27,7 @@ Conda
 conformsTo
 counterintuitively
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
@@ -51,6 +50,7 @@ FDO
 FDOs
 Findable
 FOAF
+fontspec
 formalization
 formalize
 formalized
@@ -65,13 +65,15 @@ implementers
 INFRAEDI
 Interoperable
 interpretable
+iosevka
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 lifecycle
+math
 metagenomics
 MGS
 myExperiment
@@ -112,8 +114,9 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sefton
+separationofconcerns
 serialization
 serializations
 SHACL
@@ -131,6 +134,7 @@ Stian
 summarizing
 syntaxes
 telcons
+ttf
 UML
 unshortened
 URI
