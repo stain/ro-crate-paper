@@ -29,6 +29,8 @@ sed -E -i 's/\\emph\{([^}]*)\}/*\1*/g' content/*md
 sed -E -i 's/\\texttt\{([^}]*)\}/`\1`/g' content/*md
 sed -E -i 's/\\cite\{([^}]*)\}/[@\1]/g' content/*md
 sed -E -i 's/\\citet\{([^}]*)\}/@\1/g' content/*md
+# remove latex comments
+sed -E -i 's/^%.*//g' content/*md
 
 
 # Generate reference information
