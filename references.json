@@ -2178,7 +2178,7 @@
     },
     "author": [
       {
-        "family": "EMBL-EBI"
+        "literal": "EMBL-EBI Microbiome Informatics Team"
       }
     ],
     "container-title": "ftp.ebi.ac.uk",
@@ -2213,6 +2213,7 @@
         "literal": "EMBL-EBI Microbiome Informatics Team"
       }
     ],
+    "container-title": "GitHub",
     "genre": "WEBSITE",
     "id": "1BmIQbauY",
     "title": "GitHub - Finn-Lab/MGS-gut: Analysing Metagenomic Species (MGS)",
@@ -2602,6 +2603,7 @@
         ]
       ]
     },
+    "container-title": "GitHub",
     "genre": "WEBSITE",
     "id": "1AS14nqw5",
     "title": "GitHub - UTS-eResearch/ro-crate-js: Research Object Crate (RO-Crate) utilities",
@@ -2672,6 +2674,7 @@
         "given": "Martyn"
       }
     ],
+    "container-title": "GitHub",
     "genre": "WEBSITE",
     "id": "joQS4Xno",
     "title": "GitHub - ResearchObject/ro-crate-ruby: A Ruby gem for creating, manipulating and reading RO-Crates.",

@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -27,12 +27,12 @@ Conda
 conformsTo
 counterintuitively
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -114,7 +114,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 separationofconcerns
 serialization
