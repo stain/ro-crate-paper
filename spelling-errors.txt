@@ -32,12 +32,12 @@ conformsTo
 Coppens
 Corcho
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -64,7 +64,7 @@ fontspec
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 generalization
@@ -111,7 +111,7 @@ NoSQL
 OA
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -138,13 +138,13 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 Rodríguez
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 separationofconcerns
@@ -170,7 +170,7 @@ Thelen
 TODO
 Trisovic
 ttf
-UML
+uml
 unshortened
 URI
 UseGalaxy
