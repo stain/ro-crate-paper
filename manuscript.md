@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/577e9f230009a367367cf7d596a93c8e2aa58786/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/577e9f230009a367367cf7d596a93c8e2aa58786/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/577e9f230009a367367cf7d596a93c8e2aa58786/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/28c8af4ba1deecb2d0bc6c1e74c8f767ac6db473/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28c8af4ba1deecb2d0bc6c1e74c8f767ac6db473/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28c8af4ba1deecb2d0bc6c1e74c8f767ac6db473/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/577e9f230009a367367cf7d596a93c8e2aa58786/))
+([permalink](https://stain.github.io/ro-crate-paper/v/28c8af4ba1deecb2d0bc6c1e74c8f767ac6db473/))
 was automatically generated
-from [stain/ro-crate-paper@577e9f2](https://github.com/stain/ro-crate-paper/tree/577e9f230009a367367cf7d596a93c8e2aa58786)
+from [stain/ro-crate-paper@28c8af4](https://github.com/stain/ro-crate-paper/tree/28c8af4ba1deecb2d0bc6c1e74c8f767ac6db473)
 on May 5, 2021.
 </em></small>
 
@@ -159,7 +159,7 @@ As previously stated, RO-Crate provides a lightweight approach to packaging rese
 
 The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion, or know what role each file plays in the research. This leads to the need for explicit metadata about the contents of this package.
 
-Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications] [@neylon_blog_post_2017].
+Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite). However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications] [@neylon_blog_post_2017].
 
 RO-Crate seeks to address this complexity by:
 
@@ -296,13 +296,13 @@ The RO-Crate community consists of a:
 
 The initial concept of RO-Crate was formed at the first Workshop on Research Objects ([RO2018](https://www.researchobject.org/ro2018/)) at the IEEE eScience conference, which followed up considerations made at a [RDA meeting on Research Data Packaging](https://rd-alliance.org/approaches-research-data-packaging-rda-11th-plenary-bof-meeting) that found similar goals across multiple data packaging efforts [@doi:10.5281/zenodo.3250687] of simplicity, structured metadata and the use of JSON-LD.
 
-Discussions at RO2018 identified that while the original Wf4Ever Research Object ontologies [] in principle were sufficient for packaging research artifact with rich descriptions, in practice, due to their reliance on Semantic Web technologies and other ontologies, they were considered inaccessible for regular programmers (e.g. Web developers) and in danger of being incomprehensible for domain scientists. 
+Discussions at RO2018 identified that while the original Wf4Ever Research Object ontologies [@doi:10.1016/j.websem.2015.01.003] in principle were sufficient for packaging research artifact with rich descriptions, in practice, due to their reliance on Semantic Web technologies and other ontologies, they were considered inaccessible for regular programmers (e.g. Web developers) and in danger of being incomprehensible for domain scientists. 
 
 DataCrate [@doi:10.5281/zenodo.1445817] was presented at RO2018 as a promising lightweight alternative approach, and an agreement was made by a group of volunteers to attempt building “RO Lite” as a combination of DataCrate's implementation and Research Object's principles.
 
-This set of volunteers were primarily digital library and semantic web experts. This group has subsequently grown to include domain scientists, developers, publishers and more. This multiple perspective view has meant that the specification has been able to be used in a variety of domains, from bioinformatics to cultural heritage. 
+This set of volunteers were primarily digital library and semantic web experts. This group has subsequently grown to include domain scientists, developers, publishers and more. This multiple perspective view has meant that the specification has been able to be used in a variety of domains, from bioinformatics and regulatory submissions to humanities and cultural heritage preservation. 
 
-Engagement with other projects EOSC-Life, Bioschemas, etc.
+The RO-Crate community is strongly engaged with the European-wide biology collaboration ELIXIR [@doi:10.1016/j.tibtech.2012.02.002], along with European Open Science Cloud (EOSC) projects including EOSC-Life and FAIRplus. RO-Crate is also maintaining collaborations with Bioschemas, GA4GH, OpenAIRE and multiple H2020 projects.
 
 A key set of stakeholders has been developers. The community has made a point of attracting developers that are able to implement the specifications but importantly takes “developer user experience” in mind. Namely, that the specifications are straightforward to implement and thus does not require expertise in technologies that are not widely deployed to implement. 
 
@@ -336,15 +336,16 @@ In addition to the typical Open Source-style development with GitHub issues and 
 
 # RO-Crate Tooling
 
-The work of the community has resulted in a number of tools for creating and using RO-Crates. Table X, shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, Javascript, and Ruby. Additionally, these tools can integrate with commonly used research environments in particular the command line (CalcyteJS). Furthermore, there are tools that cater to the end user (Describo, Workflow Hub). For example, **Describo** was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) [@doi:10.1080/14490854.2020.1796500] which is annotating historical prisoner records to gain greater insight into the history of Australia. 
+The work of the community has resulted in a number of tools for creating and using RO-Crates. Table \ref{tab:tools}, shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, Javascript, and Ruby. Additionally, these tools can integrate with commonly used research environments in particular the command line (CalcyteJS). Furthermore, there are tools that cater to the end user (Describo, Workflow Hub). For example, **Describo** was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) which is annotating historical prisoner records to gain greater insight into the history of Australia [@doi:10.1080/14490854.2020.1796500]. 
 
-While the development of these \~13 tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status one year ago (Nov 2019). Now that there is a fixed point of reference, and RO-Crate 1.1 (Oct 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
+While the development of these tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status one year ago (Nov 2019). Now that there is a fixed point of reference, and RO-Crate 1.1 (Oct 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
 
 Given the stage of the specification, the targets of these tools have been primarily developers essentially providing the core libraries for working with RO-Crates. Another target has been research data managers who need to manage and curate large amounts of data. 
 
 We argue that the adoption of simple web technologies in the RO-Crate specification has lent to the development of this wide variety of tools. 
 
 \small
+\label{tab:tools}
 
 | Tool Name | Targets | Language / Platform | Status | Brief Description |
 | --------  | ------  | ------------------  | -----  | ----------------  |
@@ -402,9 +403,9 @@ Going deeper, a BCO alone is insufficient for reliable re-execution of a workflo
 
 [PARADISEC](https://www.paradisec.org.au/) (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) maintains a repository of more than 500,000 files documenting endangered languages across more than 16.000 items, collected over many years by researchers interviewing and recording native speakers across the region. As a proposed update of the 18 year old infrastructure, the [Modern PARADISEC demonstrator](https://mod.paradisec.org.au/) has been [developed](https://arkisto-platform.github.io/case-studies/paradisec/) to help also digitally preserve these artifacts using the [Oxford Common File Layout](https://ocfl.io/1.0/spec/) (OCFL) for file consistency and RO-Crate for structuring and capturing the metadata of each item. The existing PARADISEC data collection has been ported and captured as RO-Crates. A Web portal then exposes the repository and its entries by indexing the RO-Crate metadata files using Elasticsearch as a “NoSQL” object database, presenting a domain-specific view of the items - the RO-Crate is “hidden” and does not change the user interface.
 
-This use case takes advantage of several RO-Crate features and principles. Firstly the transcribed metadata is now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemized metadata in regular files (organized using OCFL[@ocfl_2020], with checksums for integrity checking and versioning) also gives flexibility for future developments and maintenance, like adding of potential Linked Data software such as a graph database queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback the generic RO-Crate HTML preview[@ro-crate-html-js] which can be hosted as static files by any web server, which is in line with the approach taken by the [Endings Project](https://endings.uvic.ca/)[^3].
+This use case takes advantage of several RO-Crate features and principles. Firstly the transcribed metadata is now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemized metadata in regular files (organized using OCFL[@ocfl_2020], with checksums for integrity checking and versioning) also gives flexibility for future developments and maintenance, like adding of potential Linked Data software such as a graph database queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback the generic RO-Crate HTML preview[@ro-crate-html-js] which can be hosted as static files by any web server, which is in line with the approach taken by the Endings Project[^3].
 
-[^3]: The Endings Project is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
+[^3]: The [Endings Project](https://endings.uvic.ca/) is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
 
 
 # Related Work
@@ -414,10 +415,10 @@ With the greater digitization of research processes, there has been a significan
 Here, instead of surveying the large literature on sharing digital scholarly artifacts, we rather focus on approaches to bundling such artifacts along with their metadata. This notion has a long history [@doi:10.1190/1.1822162] but recent approaches have followed three strands: 1) publishing to centralized repositories; 2) packaging approaches similar to RO-Crate; and 3) and bundling the computational workflow around a scientific experiment.  
 
 
-## Repositories
-
-*   DataCite Metadata [@doi:10.14454/3w3z-sa82]
-*   Open Science Framework
+% ## Repositories
+% 
+% *   DataCite Metadata [@doi:10.14454/3w3z-sa82]
+% *   Open Science Framework
 
 
 ## Bunding and Packaging Digital Research Artifacts
@@ -430,9 +431,9 @@ The first implementation of Research Objects in 2009 for sharing workflows in my
 
 Programmatic access to Research Objects was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queriable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.
 
-* RO-Bag-It
-* BDBag
-* Ontologies ( OAI-ORE, OAC/AO/OA)
+% * RO-Bag-It
+% * BDBag
+% * Ontologies ( OAI-ORE, OAC/AO/OA)
 
 
 ## FAIR Digital Objects

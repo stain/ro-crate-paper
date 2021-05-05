@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -32,7 +32,7 @@ DataCite
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -46,6 +46,7 @@ emphasizes
 EOSC
 eScience
 facto
+FAIRplus
 FDO
 FDOs
 Findable
@@ -54,8 +55,9 @@ fontspec
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 generalization
+GH
 Goble
 Groth
 hasPart
@@ -63,13 +65,13 @@ hoc
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 iosevka
 IRI
 itemized
 js
-JSON
+json
 LD
 LD’s
 lifecycle
@@ -88,6 +90,7 @@ OAI
 OCFL
 ONI
 ontologies
+OpenAIRE
 organized
 PARADISEC
 PCDM
@@ -114,7 +117,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sefton
 separationofconcerns
 serialization
