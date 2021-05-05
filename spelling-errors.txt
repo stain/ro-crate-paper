@@ -27,12 +27,12 @@ Conda
 conformsTo
 counterintuitively
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -65,7 +65,7 @@ hoc
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 iosevka
 IRI
@@ -112,7 +112,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 ROs
 runnable
 runtime
