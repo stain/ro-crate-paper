@@ -84,7 +84,6 @@ For continuous integration configuration details, see [`.github/workflows/manubo
 
 ## License
 
-
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -101,6 +100,10 @@ All files matched by the following glob patterns are dual licensed under CC BY 4
 + `*.bib`
 + `*.tsv`
 + `.gitignore`
+
+These files are licensed by the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1), see [`LICENSE-SIL.md`](LICENSE-SIL.md):
++ `*.ttf`
++ `*.otf`
 
 All other files are only available under CC BY 4.0, including:
 
