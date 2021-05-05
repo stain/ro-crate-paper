@@ -18,7 +18,7 @@ The authorative version is for now the LaTeX rendering through Overleaf, meaning
 
 ### LaTeX requirements
 
-* [LuaLatex](http://www.luatex.org/) (for Unicode support)
+* [LuaLatex](http://www.luatex.org/) (for Unicode support) from TeX Live 2020
 * [markdown](https://ctan.org/pkg/markdown) (for embedding `content/*.md`)
 
 ### Repository directories & files
