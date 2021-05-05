@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -63,7 +63,7 @@ hoc
 https
 implementers
 INFRAEDI
-Interoperable
+interoperable
 interpretable
 iosevka
 IRI
