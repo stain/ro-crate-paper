@@ -23,12 +23,12 @@ sed -i 's,../content/images/,images/,g' content/*md
 sed -i 's,\.pdf,.svg,g' content/*md
 
 ## Horrible latex seds for the figure captions
-sed -i -E 's/^!\[(.*)\]\((.*) "([^"]*)"\)/![\3](\2 "\1")/' content/*md
-sed -i -E 's/\\textbf{([^}]*)}/**\1**/g' content/*md
-sed -i -E 's/\\emph{([^}]*)}/*\1*/g' content/*md
-sed -i -E 's/\\texttt{([^}]*)}/`\1`/g' content/*md
-sed -i -E 's/\\cite{([^}]*)}/[@\1]/g' content/*md
-sed -i -E 's/\\citet{([^}]*)}/@\1/g' content/*md
+sed -E -i 's/^!\[(.*)\]\((.*) "([^"]*)"\)/![\3](\2 "\1")/g' content/*md
+sed -E -i 's/\\textbf{([^}]*)}/**\1**/g' content/*md
+sed -E -i 's/\\emph{([^}]*)}/*\1*/g' content/*md
+sed -E -i 's/\\texttt{([^}]*)}/`\1`/g' content/*md
+sed -E -i 's/\\cite{([^}]*)}/[@\1]/g' content/*md
+sed -E -i 's/\\citet{([^}]*)}/@\1/g' content/*md
 
 
 # Generate reference information
