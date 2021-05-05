@@ -2290,7 +2290,7 @@
     "author": [
       {
         "family": "Carragáin",
-        "given": "Eoghan \\acute{O}"
+        "given": "Eoghan Ó"
       },
       {
         "family": "Goble",
@@ -2338,7 +2338,7 @@
       },
       {
         "family": "Carragáin",
-        "given": "Eoghan \\acute{O}"
+        "given": "Eoghan Ó"
       },
       {
         "family": "Soiland-Reyes",
@@ -3356,7 +3356,7 @@
         ]
       ]
     },
-    "title": "I am looking for which bioinformatics journals encourage authors to submit their code/pipeline/workflow \\*supporting\\* data analysis",
+    "title": "I am looking for which bioinformatics journals encourage authors to submit their code/pipeline/workflow supporting data analysis",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: soilandreyes_tweet_2020",
     "type": "entry"
   },

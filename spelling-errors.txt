@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Brack
@@ -30,7 +30,7 @@ conformsTo
 Coppens
 Corcho
 CSV
-cwl
+CWL
 DataCrate
 DataCrate’s
 DataEntity
@@ -132,7 +132,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 Rodríguez
 ROR
 ROs
