@@ -1035,3 +1035,14 @@ isbn = {9781315351148},
 sciwheel-projects = {ro-crate-paper}
 }
 
+@article{doi:10.48546/workflowhub.workflow.56.1,
+title = {Protein Ligand Complex {MD} Setup tutorial using {BioExcel} Building Blocks (biobb) (jupyter notebook)},
+author = {Lowe, Douglas and Bayarri, Genís},
+url = {https://workflowhub.eu/workflows/56?version=1},
+year = {2021},
+urldate = {2021-05-05},
+journal = {WorkflowHub},
+doi = {10.48546/workflowhub.workflow.56.1},
+sciwheel-projects = {ro-crate-paper},
+abstract = {\# Summary This tutorial aims to illustrate the process of setting up a simulation system containing a protein in complex with a ligand, step by step, using the {BioExcel} Building Blocks library (biobb). The particular example used is the T4 lysozyme {L99A}/{M102Q} protein ({PDB} code {3HTB}), in complex with the 2-propylphenol small molecule (3-letter Code {JZ4}). Workflow engine is a jupyter notebook. It can be run in binder, following the link given, or locally. Auxiliar libraries used are: nb\textbackslash\_conda\_kernels, nglview, ipywidgets, os, plotly, and simpletraj. Environment can be setup using the included environment.yml file. \# Parameters \#\# Inputs Parameters needed to configure the workflow: * **{pdbCode}**: {PDB} code of the protein-ligand complex structure (e.g. {3HTB}) * **{ligandCode}**: Small molecule 3-letter code for the ligand structure (e.g. {JZ4}) * **mol\textbackslash\_charge**: Charge of the small molecule, needed to add hydrogen atoms. \#\# Outputs Output files generated (named according to the input parameters given above): * **output\textbackslash\_md\textbackslash\_gro**: final structure of the {MD} setup protocol * **output\textbackslash\_md\textbackslash\_trr**: final trajectory of the {MD} setup protocol * **output\textbackslash\_md\textbackslash\_cpt**: final checkpoint file * **output\textbackslash\_gppmd\textbackslash\_tpr**: final tpr file * **output\textbackslash\_genion\textbackslash\_top\textbackslash\_zip**: final topology of the {MD} system}
+}
