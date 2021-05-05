@@ -2730,6 +2730,31 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: httprange14"
   },
   {
+    "ISBN": "9781315351148",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Mons",
+        "given": "Barend"
+      }
+    ],
+    "edition": "1",
+    "id": "r3UZD8uu",
+    "page": "240",
+    "publisher": "Taylor & Francis",
+    "title": "Data Stewardship for Open Science",
+    "type": "book",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: isbn:9781315351148"
+  },
+  {
     "URL": "https://github.com/{CoEDL}/modpdsc/",
     "accessed": {
       "date-parts": [

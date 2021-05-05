@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7d95b46c15954d2fa1c5c58e9ee65871aa61a54f/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d95b46c15954d2fa1c5c58e9ee65871aa61a54f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d95b46c15954d2fa1c5c58e9ee65871aa61a54f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/7d95b46c15954d2fa1c5c58e9ee65871aa61a54f/))
+([permalink](https://stain.github.io/ro-crate-paper/v/e5b5de7f4dda468bd86f9f270c2617259befff7a/))
 was automatically generated
-from [stain/ro-crate-paper@7d95b46](https://github.com/stain/ro-crate-paper/tree/7d95b46c15954d2fa1c5c58e9ee65871aa61a54f)
+from [stain/ro-crate-paper@e5b5de7](https://github.com/stain/ro-crate-paper/tree/e5b5de7f4dda468bd86f9f270c2617259befff7a)
 on May 5, 2021.
 </em></small>
 
@@ -141,7 +141,7 @@ on May 5, 2021.
 
 The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on [@doi:10.1126/science.aah6168]. 
 
-It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles [@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals []. Important example include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain specific data deposit (e.g. PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
+It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles [@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important example include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain specific data deposit (e.g. PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
 
 These strategies are focused primarily on one _type_ of artifact. To address this, \citet{doi:10.1016/j.future.2011.08.004} introduced the notion of a **research object** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
