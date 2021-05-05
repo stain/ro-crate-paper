@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/stain/ro-crate-paper/tree/gh-pages) branch hosts the contents of this directory at <https://stain.github.io/ro-crate-paper/>.
-The permalink for this webpage version is <https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/>.
+The permalink for this webpage version is <https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://stain.github.io/ro-crate-paper/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`ee86d6f94218d22a407d997d677dae218ee50c71`](https://github.com/stain/ro-crate-paper/commit/ee86d6f94218d22a407d997d677dae218ee50c71).
+[`22df225168b309d7b590e425fc18a7f836aa31e2`](https://github.com/stain/ro-crate-paper/commit/22df225168b309d7b590e425fc18a7f836aa31e2).
