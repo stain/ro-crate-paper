@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/df5d28faa777b432857da194e4b2679e052d9ce7/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/df5d28faa777b432857da194e4b2679e052d9ce7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/df5d28faa777b432857da194e4b2679e052d9ce7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/df5d28faa777b432857da194e4b2679e052d9ce7/))
+([permalink](https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/))
 was automatically generated
-from [stain/ro-crate-paper@df5d28f](https://github.com/stain/ro-crate-paper/tree/df5d28faa777b432857da194e4b2679e052d9ce7)
+from [stain/ro-crate-paper@7ab7b39](https://github.com/stain/ro-crate-paper/tree/7ab7b39479d9308a7b6fb6f125feda327d2f4b98)
 on May 5, 2021.
 </em></small>
 
@@ -338,7 +338,7 @@ In addition to the typical Open Source-style development with GitHub issues and 
 
 The work of the community has resulted in a number of tools for creating and using RO-Crates. Table \ref{tab:tools}, shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, Javascript, and Ruby. Additionally, these tools can integrate with commonly used research environments in particular the command line (CalcyteJS). Furthermore, there are tools that cater to the end user (Describo, Workflow Hub). For example, **Describo** was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) which is annotating historical prisoner records to gain greater insight into the history of Australia [@doi:10.1080/14490854.2020.1796500]. 
 
-While the development of these tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status one year ago (Nov 2019). Now that there is a fixed point of reference, and RO-Crate 1.1 (Oct 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
+While the development of these tools is promising, analyzing the status we see that the majority are in the beta stage. That being the stage the RO-Crate specification reached 1.0 status in November 2019. Now that there is a fixed point of reference, and RO-Crate 1.1 (October 2020) has stabilized based on feedback from application development, we expect to see an increase in the maturity of these tools. 
 
 Given the stage of the specification, the targets of these tools have been primarily developers essentially providing the core libraries for working with RO-Crates. Another target has been research data managers who need to manage and curate large amounts of data. 
 
@@ -363,6 +363,7 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 | RO Composer [@ro-composer] | Repository developers | Java | Alpha | REST API for gradually building ROs for given profile. |
 | galaxy2cwl [@galaxy2cwl] | Workflow developers | Python | Alpha | Wraps Galaxy workflow as Workflow RO-Crate |
 
+%% TODO Convert to LaTeX table, add headings
 
 
 # Using RO-Crate
@@ -396,7 +397,7 @@ A similar separation of concerns we can find within the RO-Crate itself, where t
 
 Going deeper, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [@doi:10.6084/m9.figshare.3115156.v2] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. As such we can consider BCO-RO-Crate as a stack consisting of transport-level manifest of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-![separationofconcerns](../content/images/ro-crate-bco-sep-of-concerns.png "\textbf{Separation of Concerns in BCO RO-Crate}. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag features to “complete” the bag with large external files such as the workflow outputs")
+![separationofconcerns](../content/images/ro-crate-bco-sep-of-concerns.png "\textbf{Separation of Concerns in BCO RO-Crate}. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow that installs the workflow’s  software tools dependencies of  as Docker containers or BioConda packages. An example execution of the workflow exemplifies its kind of result outputs, which may be external using GitHub LFS to support larger data. The RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent identifiers DOIs for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licenses apply to individual resources. The RO-Crate and its local files are captured in a BagIt which checksums ensures completeness, combined with Big Data Bag \cite{doi:10.1109/BigData.2016.7840618} features to “complete” the bag with large external files such as the workflow outputs")
 
 
 ## Digital Humanities: Cultural Heritage
@@ -458,13 +459,13 @@ Even when researchers follow current best practice for workflow reproducibility,
 
 As a real-life example let's look at a metagenomics article [@doi:10.1038/s41586-019-0965-1], where the authors have gone to extraordinary effort to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The _Methods_ section is 2 pages in tight double-columns with 24 additional references, supported by data availability on FTP server (60 GB) [@ebi_ftp_umgs2019] and the open source code in GitHub repository [Finn-Lab/MGS-gut](https://github.com/Finn-Lab/MGS-gut) [@finn-lab-mgsgut] includes the pipeline as shell scripts and associated analysis scripts in R and Python.
 
-This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements they frequently [do not require](https://twitter.com/soilandreyes/status/1250721245622079488) authors to include or cite _software, scripts and pipelines_ used for analysing and producing results[ [@soilandreyes_tweet_2020] - rather authors are often penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.
+This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements they frequently do not require authors to include or cite _software, scripts and pipelines_ used for analysing and producing results [@soilandreyes_tweet_2020] – rather authors might be penalized for doing so [cite?] as it would work against artificial limits on number of pages and references.
 
-However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). [@doi:10.3389/fninf.2017.00069] [@goble_presentation_2016]
+However detailed, for a new researcher who wants to reuse a particular computational method they may first want to assess if the described tool and workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting workflow following the method description). [@doi:10.3389/fninf.2017.00069][@goble_presentation_2016]
 
 Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.
 
-In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [??] and by Linux distributions themselves (Debian Med [@doi:10.1186/1471-2105-11-S12-S5] to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
+In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [@doi:10.1093/bioinformatics/btx192] and by Linux distributions themselves (Debian Med [@doi:10.1186/1471-2105-11-S12-S5] to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
 
 
 # Conclusion

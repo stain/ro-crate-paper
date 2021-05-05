@@ -328,6 +328,7 @@ content/30.tooling.md:27:ro
 content/30.tooling.md:27:RO
 content/30.tooling.md:27:ROs
 content/30.tooling.md:28:RO
+content/30.tooling.md:30:TODO
 content/40.inuse.md:1:RO
 content/40.inuse.md:3:artifacts
 content/40.inuse.md:3:artifacts
@@ -562,9 +563,7 @@ content/50.relatedwork.md:49:metagenomics
 content/50.relatedwork.md:49:MGS
 content/50.relatedwork.md:49:MGS
 content/50.relatedwork.md:51:bioinformatics
-content/50.relatedwork.md:51:https
 content/50.relatedwork.md:51:penalized
-content/50.relatedwork.md:51:soilandreyes
 content/50.relatedwork.md:53:Replicable
 content/50.relatedwork.md:53:Repurposable
 content/50.relatedwork.md:53:runnable
@@ -577,6 +576,7 @@ content/50.relatedwork.md:57:BioConda
 content/50.relatedwork.md:57:biocontainers
 content/50.relatedwork.md:57:BioContainers
 content/50.relatedwork.md:57:BioContainers
+content/50.relatedwork.md:57:bioinformatics
 content/50.relatedwork.md:57:Conda
 content/50.relatedwork.md:57:Conda
 content/50.relatedwork.md:57:https

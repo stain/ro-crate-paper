@@ -1000,6 +1000,105 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1080/14490854.2020.1796500"
   },
   {
+    "DOI": "10.1093/bioinformatics/btx192",
+    "PMCID": "PMC5870671",
+    "PMID": "28379341",
+    "abstract": "Motivation: BioContainers (biocontainers.pro) is an open-source and community-driven framework which provides platform independent executable environments for bioinformatics software. BioContainers allows labs of all sizes to easily install bioinformatics software, maintain multiple versions of the same software and combine tools into powerful analysis pipelines. BioContainers is based on popular open-source projects Docker and rkt frameworks, that allow software to be installed and executed under an isolated and controlled environment. Also, it provides infrastructure and basic guidelines to create, manage and distribute bioinformatics containers with a special focus on omics technologies. These containers can be integrated into more comprehensive bioinformatics pipelines and different architectures (local desktop, cloud environments or HPC clusters). Availability and Implementation: The software is freely available at github.com/BioContainers/. Contact: yperez\\@ebi.ac.uk. ©The Author(s) 2017. Published by Oxford University Press.",
+    "author": [
+      {
+        "dropping-particle": "da",
+        "family": "Veiga Leprevost",
+        "given": "Felipe"
+      },
+      {
+        "family": "Grüning",
+        "given": "Björn A"
+      },
+      {
+        "family": "Alves Aflitos",
+        "given": "Saulo"
+      },
+      {
+        "family": "Röst",
+        "given": "Hannes L"
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "Julian"
+      },
+      {
+        "family": "Barsnes",
+        "given": "Harald"
+      },
+      {
+        "family": "Vaudel",
+        "given": "Marc"
+      },
+      {
+        "family": "Moreno",
+        "given": "Pablo"
+      },
+      {
+        "family": "Gatto",
+        "given": "Laurent"
+      },
+      {
+        "family": "Weber",
+        "given": "Jonas"
+      },
+      {
+        "family": "Bai",
+        "given": "Mingze"
+      },
+      {
+        "family": "Jimenez",
+        "given": "Rafael C"
+      },
+      {
+        "family": "Sachsenberg",
+        "given": "Timo"
+      },
+      {
+        "family": "Pfeuffer",
+        "given": "Julianus"
+      },
+      {
+        "family": "Vera Alvarez",
+        "given": "Roberto"
+      },
+      {
+        "family": "Griss",
+        "given": "Johannes"
+      },
+      {
+        "family": "Nesvizhskii",
+        "given": "Alexey I"
+      },
+      {
+        "family": "Perez-Riverol",
+        "given": "Yasset"
+      }
+    ],
+    "container-title": "Bioinformatics",
+    "id": "rJUU3iuR",
+    "issue": "16",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          15
+        ]
+      ]
+    },
+    "page": "2580-2582",
+    "title": "BioContainers: an open-source and community-driven framework for software standardization.",
+    "title-short": "BioContainers",
+    "type": "article-journal",
+    "volume": "33",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1093/bioinformatics/btx192"
+  },
+  {
     "DOI": "10.1093/nar/gkq429",
     "PMCID": "PMC2896080",
     "PMID": "20501605",

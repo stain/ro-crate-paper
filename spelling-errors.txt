@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Bunding
@@ -27,7 +27,7 @@ Conda
 conformsTo
 counterintuitively
 CSV
-cwl
+CWL
 DataCite
 DataCrate
 DataCrate’s
@@ -137,6 +137,7 @@ Stian
 summarizing
 syntaxes
 telcons
+TODO
 ttf
 UML
 unshortened
