@@ -22,6 +22,14 @@ sed -i 's,../content/images/,images/,g' content/*md
 # .. and use SVG instead of PDF
 sed -i 's,\.pdf,.svg,g' content/*md
 
+## Horrible latex seds for the figure captions
+sed -i -E 's/^!\[(.*)\]\((.*) "([^"]*)"\)/![\3](\2 "\1")/' content/*md
+sed -i -E 's/\\textbf{([^}]*)}/**\1**/g' content/*md
+sed -i -E 's/\\emph{([^}]*)}/*\1*/g' content/*md
+sed -i -E 's/\\texttt{([^}]*)}/`\1`/g' content/*md
+sed -i -E 's/\\cite{([^}]*)}/[@\1]/g' content/*md
+sed -i -E 's/\\citet{([^}]*)}/@\1/g' content/*md
+
 
 # Generate reference information
 echo >&2 "Retrieving and processing reference metadata"
