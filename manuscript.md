@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/))
+([permalink](https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/))
 was automatically generated
-from [stain/ro-crate-paper@ee86d6f](https://github.com/stain/ro-crate-paper/tree/ee86d6f94218d22a407d997d677dae218ee50c71)
+from [stain/ro-crate-paper@22df225](https://github.com/stain/ro-crate-paper/tree/22df225168b309d7b590e425fc18a7f836aa31e2)
 on May 5, 2021.
 </em></small>
 
@@ -155,11 +155,11 @@ The rest of this paper is organized as follows. We first describe RO-Crate, the 
 
 # RO-Crate
 
-As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <https://nf-co.re/chipseq/1.2.1/output> <https://github.com/stain/bco-ro-example-chipseq>
+As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. 
 
 The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can _easily_ access the data in a programmatic fashion, or know what role each file plays in the research. This leads to the need for explicit metadata about the contents of this package.
 
-Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly [frustration with current tooling and specifications](https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/) [@neylon_blog_post_2017].
+Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications] [@neylon_blog_post_2017].
 
 RO-Crate seeks to address this complexity by:
 
@@ -219,7 +219,7 @@ This does not mean that RO-Crate has not got constraints, crucially the specific
 
 As previously discussed, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatable checked and confirmed through a community process. See for example discussion at ([GitHub issue #71 on ad-hoc vocabularies](https://github.com/ResearchObject/ro-crate/issues/71)). 
 
-To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the _boundness_ of the structure, namely, that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`), or are mainly referenced (`mentions`) and typed as _external _to the Research Object (Contextual Entities). 
+To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the _boundness_ of the structure, namely, that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`), or are mainly referenced (`mentions`) and typed as _external_ to the Research Object (Contextual Entities). 
 
 [^1]: IRIs[@doi:10.17487/RFC3987] are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
 

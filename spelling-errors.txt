@@ -2,7 +2,7 @@ analyze
 analyzing
 AO
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -27,12 +27,12 @@ Conda
 conformsTo
 counterintuitively
 CSV
-CWL
+cwl
 DataCite
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -87,7 +87,7 @@ OAC
 OAI
 OCFL
 ONI
-Ontologies
+ontologies
 organized
 PARADISEC
 PCDM
@@ -109,7 +109,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime

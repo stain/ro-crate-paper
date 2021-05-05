@@ -121,9 +121,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/ee86d6f94218d22a407d997d677dae218ee50c71/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/22df225168b309d7b590e425fc18a7f836aa31e2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/ee86d6f94218d22a407d997d677dae218ee50c71">stain/ro-crate-paper@ee86d6f</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/22df225168b309d7b590e425fc18a7f836aa31e2">stain/ro-crate-paper@22df225</a>
 on May 5, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -193,9 +193,9 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </ol>
 <p>The rest of this paper is organized as follows. We first describe RO-Crate, the assumptions underlying it, and define RO-Crate technically and formally. We then proceed to introduce the community and tooling. We then analyze RO-Crate with respect to usage in a diverse set of domains. Finally, we present related work and conclude.</p>
 <h1 id="ro-crate">RO-Crate</h1>
-<p>As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory. (Note, this is a brief description of actual practice. See: <a href="https://nf-co.re/chipseq/1.2.1/output" class="uri">https://nf-co.re/chipseq/1.2.1/output</a> <a href="https://github.com/stain/bco-ro-example-chipseq" class="uri">https://github.com/stain/bco-ro-example-chipseq</a></p>
+<p>As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory.</p>
 <p>The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get this data and work with it. A de facto approach to sharing such compilations is through the use of a compressed archived (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can <em>easily</em> access the data in a programmatic fashion, or know what role each file plays in the research. This leads to the need for explicit metadata about the contents of this package.</p>
-<p>Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly <a href="https://cameronneylon.net/blog/as-a-researcher-im-a-bit-bloody-fed-up-with-data-management/">frustration with current tooling and specifications</a> <span class="citation" data-cites="xaBY9xom">[<a href="#ref-xaBY9xom" role="doc-biblioref">5</a>]</span>.</p>
+<p>Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite}. However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications] <span class="citation" data-cites="xaBY9xom">[<a href="#ref-xaBY9xom" role="doc-biblioref">5</a>]</span>.</p>
 <p>RO-Crate seeks to address this complexity by:</p>
 <ol type="1">
 <li>being easy to understand and simple conceptually;</li>
@@ -230,7 +230,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>This does not mean that RO-Crate has not got constraints, crucially the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalize different <em>profiles</em> of RO-Crates, e.g. that submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language, or how to meet the (emerging requirements) of <a href="https://fairdo.org/">FAIR Digital Objects</a>. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.</p>
 <h3 id="checking-simplicity">Checking Simplicity</h3>
 <p>As previously discussed, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatable checked and confirmed through a community process. See for example discussion at (<a href="https://github.com/ResearchObject/ro-crate/issues/71">GitHub issue #71 on ad-hoc vocabularies</a>).</p>
-<p>To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the <em>boundness</em> of the structure, namely, that elements are specifically identified as being either semantically <em>contained</em> by the RO-Crate (<code>hasPart</code>), or are mainly referenced (<code>mentions</code>) and typed as _external _to the Research Object (Contextual Entities).</p>
+<p>To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the <em>boundness</em> of the structure, namely, that elements are specifically identified as being either semantically <em>contained</em> by the RO-Crate (<code>hasPart</code>), or are mainly referenced (<code>mentions</code>) and typed as <em>external</em> to the Research Object (Contextual Entities).</p>
 <h2 id="technical-implementation-of-the-model">Technical implementation of the model</h2>
 <p>The above conceptual model has been realized using JSON-LD and schema.org in a prescriptive form as discussed in the best practice approach. This technical approach again caters for simplicity.</p>
 <p><a href="https://json-ld.org/">JSON-LD</a> provides a way to express Linked Data as a JSON structure, where a <em>context</em> provides mapping to RDF properties and classes. While JSON-LD can’t map arbitrary JSON structure to RDF, we found it does provide a good starting point for making a JSON-based language that at the same also is interpretable as Linked Data.</p>
