@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/64a739ba0fcb76cad485f0f22d65ccfc2da6d348/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/64a739ba0fcb76cad485f0f22d65ccfc2da6d348/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/64a739ba0fcb76cad485f0f22d65ccfc2da6d348/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/7ab7b39479d9308a7b6fb6f125feda327d2f4b98/))
+([permalink](https://stain.github.io/ro-crate-paper/v/64a739ba0fcb76cad485f0f22d65ccfc2da6d348/))
 was automatically generated
-from [stain/ro-crate-paper@7ab7b39](https://github.com/stain/ro-crate-paper/tree/7ab7b39479d9308a7b6fb6f125feda327d2f4b98)
+from [stain/ro-crate-paper@64a739b](https://github.com/stain/ro-crate-paper/tree/64a739ba0fcb76cad485f0f22d65ccfc2da6d348)
 on May 5, 2021.
 </em></small>
 
@@ -139,9 +139,9 @@ on May 5, 2021.
 
 # Introduction
 
-The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on []. 
+The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments, for example, the publication of software, datasets and records of the dependencies that such experiments rely on [@doi:10.1126/science.aah6168]. 
 
-It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles [@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals []. Data publication with rich metadata (Zenodo) [], domain specific data deposit (PDB) [], following practices for reproducible research software [] (e.g. use of containers) are important examples. 
+It is often argued that the publication of these assets and specifically software [@doi:10.3233/DS-190026] and data should follow the The FAIR principles [@doi:10.1038/sdata.2016.18], namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals []. Important example include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain specific data deposit (e.g. PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
 
 These strategies are focused primarily on one _type_ of artifact. To address this, \citet{doi:10.1016/j.future.2011.08.004} introduced the notion of a **research object** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data_. A research object combines the ability to document multiple of types of artifacts together, for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, were tailored to a particular platform and were also not easily usable for end-users. 
 
@@ -233,7 +233,7 @@ In the design of RO-Crate we did however find that JSON-LD alone, like many RDF 
 
 ### RO-Crate JSON-LD
 
-RO-Crate mandates the use of flattened, compacted JSON-LD [[https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html)] where a single @graph array contains all the data and contextual entities in a flat list:
+RO-Crate mandates the use of [flattened, compacted JSON-LD](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html)] where a single @graph array contains all the data and contextual entities in a flat list:
 
 ```json
 { "@context": "https://w3id.org/ro/crate/1.1/context",
@@ -270,17 +270,21 @@ RO-Crate mandates the use of flattened, compacted JSON-LD [[https://www.research
 
 _Figure X_: _Simplified RO-Crate JSON-LD showing the flattened compacted @graph array_
 
-It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite to, and which is normally emphasized  as a feature of JSON-LD in order to “hide” its RDF nature. 
+It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite to, and which is normally emphasized as a feature of JSON-LD in order to “hide” its RDF nature. 
 
-We found however that the use of trees, say a _Person_ entity appearing as author of a _File_ which a _Dataset_ nests under _hasPart_, counterintuitively lead to the need to consider the JSON-LD as an RDF Graph, as an identified Person entity then can appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
+We found however that the use of trees, say a _Person_ entity appearing as author of a _File_ which a _Dataset_ nests under _hasPart_, counter-intuitively lead to the need to consider the JSON-LD as an RDF Graph, as an identified Person entity then can appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
 
-In comparison, a single flat @graph array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasizes Research Object goals that describing the context and provenance is just as important as describing the data.
+In comparison, a single flat `@graph` array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasizes Research Object goals that describing the context and provenance is just as important as describing the data.
 
-While RO-Crate mainly use schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the @context to find Linked Data definitions of unknown properties and types. Thus RO-Crate provides its own, versioned JSON-LD context which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents, e.g. author maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [] for repositories and Bioschemas [] for describing computational workflows.
+While RO-Crate mainly use schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the `@context` to find Linked Data definitions of unknown properties and types. Thus RO-Crate provides its own, versioned JSON-LD context which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents, e.g. `author` maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [@pcdm] for repositories and Bioschemas [@bioschemas_2017] for describing computational workflows.
 
-Similarly, rather than relying on implications from “@type: @id” annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities` {"id": "#alice"} ` and string values "`Alice"` - meaning RO-Crate applications can find the corresponding entity without parsing the @context.
+Similarly, rather than relying on implications from `"@type: @id"` annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities `{"id": "#alice"}` and string values `"Alice"` - meaning RO-Crate applications can find the corresponding entity without parsing the `@context`.
 
-(...)
+% ## schema.org as base vocabulary
+
+
+
+
 
 ## RO-Crate Community
 
@@ -371,6 +375,9 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words,  the key question can RO-Crate be used to share and (re)use research artifacts. We look at three research domains where it is being applied here: Bioinformatics, Regulatory Science and Cultural Heritages
 
 
+
+
+
 ## Bioinformatics workflows
 
 [WorkflowHub.eu](https://workflowhub.eu/) is a European cross-domain registry of computational workflows, supported by European Open Science Cloud projects like [EOSC-Life](https://www.eosc-life.eu/) and research infrastructures, including the pan-European bioinformatics network [ELIXIR](https://elixir-europe.org/) [@doi:10.1016/j.tibtech.2012.02.002]. As part of promoting workflows as reusable tools, the WorkflowHub includes documentation and high-level rendering of the workflow structure independent of its native workflow definition format - the rationale is that a domain scientist looking for a particular computational analysis can browse all relevant workflows before narrowing down their workflow engine requirements. As such the WorkflowHub is intended largely as a registry over workflows already deposited in repositories specific to particular workflow languages and domains, such as UseGalaxy.eu and Nextflow nf-core. 
@@ -380,6 +387,7 @@ Being cross-domain also means the WorkflowHub has to cater for many different wo
 In WorkflowHub, RO-Crate therefore can be seen as taking on the role of an interoperability layer between registries, repositories and users. The iterative development between Workflow Hub developers and RO-Crate community heavily informed the creation of the [Bioschemas profile for Computational Workflow](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/), which again informed the [RO-Crate 1.1 specification on workflows](https://www.researchobject.org/ro-crate/1.1/workflows.html) and led to the RO-Crate Python library and WorkflowHub’s [Workflow RO-Crate profile](https://about.workflowhub.eu/Workflow-RO-Crate/) which in a similar fashion to RO-Crate itself recommends which workflow resources and descriptions are required. This co-development across project boundaries exemplifies the drive for simplicity at the same time as establishing best practices.
 
 While RO-Crates in Workflow Hub so far has focused on workflows that are ready to be run, they are now moving into the development of a profile _Workflow Run RO-Crate_, for the purposes of benchmarking, testing and executing workflows [@doi:10.5281/zenodo.4605654]. As such RO-Crate serves multiple roles, both as container of a workflow definition that may be executed, but also of a workflow execution and test results.
+
 
 ## Regulatory Sciences
 
@@ -465,7 +473,7 @@ However detailed, for a new researcher who wants to reuse a particular computati
 
 Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.
 
-In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [@doi:10.1093/bioinformatics/btx192] and by Linux distributions themselves (Debian Med [@doi:10.1186/1471-2105-11-S12-S5] to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
+In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences [@doi:10.1007/s41019-017-0050-4] with supporting collaborative efforts like BioConda [@doi:10.1038/s41592-018-0046-7], BioContainers [@doi:10.1093/bioinformatics/btx192] and by Linux distributions themselves (e.g. Debian Med [@doi:10.1186/1471-2105-11-S12-S5]) to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda has gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand.
 
 
 # Conclusion

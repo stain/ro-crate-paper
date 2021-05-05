@@ -25,7 +25,6 @@ CLI
 computated
 Conda
 conformsTo
-counterintuitively
 CSV
 CWL
 DataCite
@@ -55,7 +54,7 @@ fontspec
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 generalization
 GH
 Goble
@@ -65,13 +64,13 @@ hoc
 https
 implementers
 INFRAEDI
-interoperable
+Interoperable
 interpretable
 iosevka
 IRI
 itemized
 js
-json
+JSON
 LD
 LD’s
 lifecycle
@@ -87,14 +86,13 @@ NoSQL
 OA
 OAC
 OAI
-OCFL
+ocfl
 ONI
 ontologies
 OpenAIRE
 organized
 PARADISEC
 PCDM
-PDB
 penalized
 personalized
 pgroth
@@ -112,7 +110,7 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 ROs
 runnable
 runtime
