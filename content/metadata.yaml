@@ -32,6 +32,16 @@ author_info:
     email: Peter.Sefton@uts.edu.au
     affiliations:
       - Faculty of Science, University Technology Sydney, Australia
+  - github: simleo
+    name: Simone Leo
+    initials: SL
+    orcid: 0000-0001-8271-5429
+    twitter: _simleo_
+    email: simone.leo@crs4.it
+    affiliations:
+      - Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
+    funders:
+      - EOSC-Life (European Commission H2020-xx-824087)
   - github: researchobject
     name: RO-Crate Community
     initials: RO
