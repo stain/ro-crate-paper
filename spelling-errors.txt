@@ -2,7 +2,7 @@ Alasdair
 analyze
 analyzing
 artifact
-Artifacts
+artifacts
 BagIt
 BCO
 BCOs
@@ -34,7 +34,7 @@ cwl
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -60,7 +60,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 generalization
@@ -104,7 +104,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -132,7 +132,8 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+researchobject
+RO
 Rodríguez
 ROR
 ROs
@@ -162,7 +163,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy

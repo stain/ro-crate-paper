@@ -16,6 +16,7 @@ date-meta: '2021-05-06'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
+- RO-Crate Community
 - Carole Goble
 - Paul Groth
 header-includes: |-
@@ -44,6 +45,7 @@ header-includes: |-
   <meta name="citation_author" content="Peter Sefton" />
   <meta name="citation_author_institution" content="Faculty of Science, University Technology Sydney, Australia" />
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
+  <meta name="citation_author" content="RO-Crate Community" />
   <meta name="citation_author" content="Carole Goble" />
   <meta name="citation_author_institution" content="Department of Computer Science, The University of Manchester, UK" />
   <meta name="citation_author_orcid" content="0000-0003-1219-2137" />
@@ -56,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6f6cf4f4852174d41b059e2138216f7d52ec067f/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6f6cf4f4852174d41b059e2138216f7d52ec067f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6f6cf4f4852174d41b059e2138216f7d52ec067f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +83,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/))
+([permalink](https://stain.github.io/ro-crate-paper/v/6f6cf4f4852174d41b059e2138216f7d52ec067f/))
 was automatically generated
-from [stain/ro-crate-paper@dad6b43](https://github.com/stain/ro-crate-paper/tree/dad6b432ca905a3565e6eabba7c020652a12abff)
+from [stain/ro-crate-paper@6f6cf4f](https://github.com/stain/ro-crate-paper/tree/6f6cf4f4852174d41b059e2138216f7d52ec067f)
 on May 6, 2021.
 </em></small>
 
@@ -110,6 +112,13 @@ on May 6, 2021.
     [ptsefton](https://github.com/ptsefton)<br>
   <small>
      Faculty of Science, University Technology Sydney, Australia
+  </small>
+
++ **RO-Crate Community**<br>
+    [https://www.researchobject.org/ro-crate/community](https://www.researchobject.org/ro-crate/community)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [researchobject](https://github.com/researchobject)<br>
+  <small>
   </small>
 
 + **Carole Goble**<br>

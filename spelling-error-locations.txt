@@ -1,8 +1,8 @@
 content/00.front-matter.md:8:https
 content/00.front-matter.md:21:https
-content/00.front-matter.md:33:https
-content/00.front-matter.md:37:https
-content/00.front-matter.md:41:https
+content/00.front-matter.md:36:https
+content/00.front-matter.md:40:https
+content/00.front-matter.md:44:https
 content/10.background.md:3:artifacts
 content/10.background.md:3:datasets
 content/10.background.md:5:Findable
@@ -66,6 +66,7 @@ content/21.conceptual.md:19:ro
 content/21.conceptual.md:19:RO
 content/21.conceptual.md:19:RO
 content/21.conceptual.md:21:https
+content/21.conceptual.md:21:researchobject
 content/21.conceptual.md:21:ro
 content/21.conceptual.md:21:RO
 content/21.conceptual.md:23:BagIt
@@ -77,6 +78,7 @@ content/21.conceptual.md:23:Zenodo
 content/21.conceptual.md:27:https
 content/21.conceptual.md:27:https
 content/21.conceptual.md:27:IRI
+content/21.conceptual.md:27:researchobject
 content/21.conceptual.md:27:ro
 content/21.conceptual.md:27:RO
 content/21.conceptual.md:27:RO
@@ -135,6 +137,7 @@ content/21.conceptual.md:44:RO
 content/21.conceptual.md:44:Schemas
 content/21.conceptual.md:49:hoc
 content/21.conceptual.md:49:https
+content/21.conceptual.md:49:ResearchObject
 content/21.conceptual.md:49:ro
 content/21.conceptual.md:49:RO
 content/21.conceptual.md:51:emphasizes
@@ -175,6 +178,7 @@ content/22.implementation.md:9:RO
 content/22.implementation.md:11:https
 content/22.implementation.md:11:JSON
 content/22.implementation.md:11:LD
+content/22.implementation.md:11:researchobject
 content/22.implementation.md:11:ro
 content/22.implementation.md:11:RO
 content/22.implementation.md:13:json
@@ -228,6 +232,7 @@ content/23.community.md:13:https
 content/23.community.md:13:https
 content/23.community.md:13:JSON
 content/23.community.md:13:LD
+content/23.community.md:13:researchobject
 content/23.community.md:13:RO
 content/23.community.md:13:zenodo
 content/23.community.md:15:artifact
@@ -269,11 +274,13 @@ content/23.community.md:44:RO
 content/23.community.md:46:JSON
 content/23.community.md:48:DataCrate
 content/23.community.md:48:https
+content/23.community.md:48:researchobject
 content/23.community.md:48:ro
 content/23.community.md:48:RO
 content/23.community.md:48:Zenodo
 content/23.community.md:50:BioHackathon
 content/23.community.md:50:https
+content/23.community.md:50:researchobject
 content/23.community.md:50:ro
 content/23.community.md:50:RO
 content/23.community.md:50:RO
@@ -369,6 +376,7 @@ content/41.workflows.md:8:Bioschemas
 content/41.workflows.md:8:https
 content/41.workflows.md:8:https
 content/41.workflows.md:8:https
+content/41.workflows.md:8:researchobject
 content/41.workflows.md:8:ro
 content/41.workflows.md:8:RO
 content/41.workflows.md:8:RO
@@ -437,6 +445,7 @@ content/42.regulatory.md:12:RO
 content/42.regulatory.md:14:bagit
 content/42.regulatory.md:14:BagIt
 content/42.regulatory.md:14:https
+content/42.regulatory.md:14:researchobject
 content/42.regulatory.md:14:ro
 content/42.regulatory.md:14:ro
 content/42.regulatory.md:14:RO
@@ -613,15 +622,18 @@ content/80.formal-definition.md:37:DataEntity
 content/80.formal-definition.md:37:Dataset
 content/80.formal-definition.md:38:DataEntity
 content/80.formal-definition.md:45:https
+content/80.formal-definition.md:45:researchobject
 content/80.formal-definition.md:45:ro
 content/80.formal-definition.md:45:RO
 content/80.formal-definition.md:45:RO
 content/80.formal-definition.md:47:Dataset
 content/80.formal-definition.md:47:https
+content/80.formal-definition.md:47:researchobject
 content/80.formal-definition.md:47:ro
 content/80.formal-definition.md:47:RO
 content/80.formal-definition.md:49:DataEntity
 content/80.formal-definition.md:49:https
+content/80.formal-definition.md:49:researchobject
 content/80.formal-definition.md:49:ro
 content/80.formal-definition.md:51:formalization
 content/80.formal-definition.md:51:RO
@@ -682,6 +694,7 @@ content/80.formal-definition.md:97:serialization
 content/80.formal-definition.md:100:RO
 content/80.formal-definition.md:102:conformsTo
 content/80.formal-definition.md:102:https
+content/80.formal-definition.md:102:researchobject
 content/80.formal-definition.md:102:ro
 content/80.formal-definition.md:102:ro
 content/80.formal-definition.md:102:RO
@@ -721,6 +734,7 @@ content/80.formal-definition.md:135:JSON
 content/80.formal-definition.md:135:JSON
 content/80.formal-definition.md:135:LD
 content/80.formal-definition.md:135:LD
+content/80.formal-definition.md:135:ResearchObject
 content/80.formal-definition.md:135:ro
 content/80.formal-definition.md:135:RO
 content/80.formal-definition.md:135:RO
