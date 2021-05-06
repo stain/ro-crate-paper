@@ -2,7 +2,7 @@ Alasdair
 analyze
 analyzing
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Brack
@@ -30,11 +30,11 @@ conformsTo
 Coppens
 Corcho
 CSV
-CWL
+cwl
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -60,7 +60,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -139,7 +139,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -162,7 +162,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
