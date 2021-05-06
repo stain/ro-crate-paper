@@ -30,7 +30,7 @@ conformsTo
 Coppens
 Corcho
 CSV
-CWL
+cwl
 DataCrate
 DataCrate’s
 DataEntity
@@ -83,7 +83,7 @@ IRI
 itemized
 José
 js
-JSON
+json
 Juty
 Kanitz
 Koehorst
@@ -104,7 +104,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -132,14 +132,14 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
