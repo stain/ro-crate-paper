@@ -586,6 +586,8 @@ content/50.relatedwork.md:57:https
 content/50.relatedwork.md:57:https
 content/50.relatedwork.md:57:Nextflow
 content/50.relatedwork.md:57:Snakemake
+content/60.conclusion.md:3:artifacts
+content/60.conclusion.md:3:RO
 content/70.acknowledgements.md:5:BioExcel
 content/70.acknowledgements.md:5:EOSC
 content/70.acknowledgements.md:5:https

@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/15caf5146e2534f476423cb27d3cce353c7aee78/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/15caf5146e2534f476423cb27d3cce353c7aee78/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/15caf5146e2534f476423cb27d3cce353c7aee78/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/15caf5146e2534f476423cb27d3cce353c7aee78/))
+([permalink](https://stain.github.io/ro-crate-paper/v/dad6b432ca905a3565e6eabba7c020652a12abff/))
 was automatically generated
-from [stain/ro-crate-paper@15caf51](https://github.com/stain/ro-crate-paper/tree/15caf5146e2534f476423cb27d3cce353c7aee78)
+from [stain/ro-crate-paper@dad6b43](https://github.com/stain/ro-crate-paper/tree/dad6b432ca905a3565e6eabba7c020652a12abff)
 on May 6, 2021.
 </em></small>
 
@@ -374,7 +374,7 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 
 # Using RO-Crate
 
-RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words,  the key question can RO-Crate be used to share and (re)use research artifacts. We look at three research domains where it is being applied here: Bioinformatics, Regulatory Science and Cultural Heritages
+RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words,  the key question can RO-Crate be used to share and (re)use research artifacts. Here we look at three research domains where it is being applied: Bioinformatics, Regulatory Science and Cultural Heritages.
 
 
 
@@ -480,7 +480,7 @@ In recent years the situation has been greatly improved by software packaging an
 
 # Conclusion
 
-
+RO-Crate provides a lightweight approach to packaging digital research artifacts…
 
 # Acknowledgements
 
