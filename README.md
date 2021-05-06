@@ -14,11 +14,25 @@ This is the manuscript for the paper _Packaging research artifacts with RO-Crate
 
 For now the manuscript is edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
 
-The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs.
+The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs; see `bin/build.sh` for workarounds.
+
+
+The manuscript is currently in a kind of hybrid mode:
+
+1. Overleaf uses Luatex to render PDF according to the Data Science template
+2. Manubot runs automatically from Git commit and publishes HTML to https://stain.github.io/ro-crate-paper/
+3. Overleaf is triggered to sync with GitHub
+ 
+The text is all in <https://github.com/stain/ro-crate-paper/tree/master/content> as Markdown files. Note that some of them used some inline LaTeX that may not render well in the HTML. Figures are also only shown in PDF.
+ 
+Why still the HTML? Well, https://www.iospress.nl/journal/data-science/ encourages submission in HTML, and I have been a proponent for that as well, even the cited paper on RASH I was a reviewer on. But the challenge still is how to do collaborative editing and references. So in this hybrid approach I can choose to submit either the PDF or the HTML – or both. I would focus on the Overleaf approach for now.
+ 
+
 
 ### LaTeX requirements
 
 * [LuaLatex](http://www.luatex.org/) (for Unicode support) from TeX Live 2020
+* [fontspec](https://ctan.org/pkg/fontspec)
 * [markdown](https://ctan.org/pkg/markdown) (for embedding `content/*.md`)
 
 ### Repository directories & files
