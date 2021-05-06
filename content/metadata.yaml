@@ -32,6 +32,10 @@ author_info:
     email: Peter.Sefton@uts.edu.au
     affiliations:
       - Faculty of Science, University Technology Sydney, Australia
+  - github: researchobject
+    name: RO-Crate Community
+    initials: RO
+    url: https://www.researchobject.org/ro-crate/community      
   - github: carolegoble
     name: Carole Goble
     initials: CG
