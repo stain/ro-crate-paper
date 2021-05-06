@@ -19,9 +19,9 @@ The authorative version is for now the LaTeX rendering through Overleaf, meaning
 
 The manuscript is currently in a kind of hybrid mode:
 
-1. Overleaf uses Luatex to render PDF according to the Data Science template
+1. Overleaf uses Luatex to render PDF according to the Data Science template, see <https://www.overleaf.com/read/gbmzkwyhjnzc>
 2. Manubot runs automatically from Git commit and publishes HTML to https://stain.github.io/ro-crate-paper/
-3. Overleaf is triggered to sync with GitHub
+3. Overleaf is triggered manually to sync with GitHub
  
 The text is all in <https://github.com/stain/ro-crate-paper/tree/master/content> as Markdown files. Note that some of them used some inline LaTeX that may not render well in the HTML. Figures are also only shown in PDF.
  
