@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-05-05'
+date-meta: '2021-05-06'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2021-05-05" />
-  <meta name="citation_publication_date" content="2021-05-05" />
+  <meta name="dc.date" content="2021-05-06" />
+  <meta name="citation_publication_date" content="2021-05-06" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e25e96e269fa16f221f714c7318093370a1023ae/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e25e96e269fa16f221f714c7318093370a1023ae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e25e96e269fa16f221f714c7318093370a1023ae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/c286eb43be9c986eb4ea4ce7db753f2362b0f33f/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c286eb43be9c986eb4ea4ce7db753f2362b0f33f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c286eb43be9c986eb4ea4ce7db753f2362b0f33f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,10 +81,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/e25e96e269fa16f221f714c7318093370a1023ae/))
+([permalink](https://stain.github.io/ro-crate-paper/v/c286eb43be9c986eb4ea4ce7db753f2362b0f33f/))
 was automatically generated
-from [stain/ro-crate-paper@e25e96e](https://github.com/stain/ro-crate-paper/tree/e25e96e269fa16f221f714c7318093370a1023ae)
-on May 5, 2021.
+from [stain/ro-crate-paper@c286eb4](https://github.com/stain/ro-crate-paper/tree/c286eb43be9c986eb4ea4ce7db753f2362b0f33f)
+on May 6, 2021.
 </em></small>
 
 ## Authors
@@ -508,7 +508,7 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
     ℝ ≡  { real or integer numbers }
     𝕊 ≡  { literal strings }
 
-The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers ℝ (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
+The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers `ℝ` (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
 
 From this formalized language `𝕃ro-crate` an RO-Crate can be interpreted in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 

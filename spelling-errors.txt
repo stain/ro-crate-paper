@@ -30,7 +30,7 @@ conformsTo
 Coppens
 Corcho
 CSV
-cwl
+CWL
 DataCrate
 DataCrate’s
 DataEntity
@@ -60,7 +60,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -77,7 +77,7 @@ implementers
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -132,14 +132,14 @@ regulatators
 Replicable
 reproducibility
 Repurposable
-RO
+ro
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
