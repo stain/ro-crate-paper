@@ -37,7 +37,7 @@ CWL
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -153,7 +153,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
@@ -180,7 +180,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy

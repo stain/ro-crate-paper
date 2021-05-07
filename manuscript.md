@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5e6145e03b499356c7900932cd7fde7e1a998ad4/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5e6145e03b499356c7900932cd7fde7e1a998ad4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5e6145e03b499356c7900932cd7fde7e1a998ad4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/5e6145e03b499356c7900932cd7fde7e1a998ad4/))
+([permalink](https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/))
 was automatically generated
-from [stain/ro-crate-paper@5e6145e](https://github.com/stain/ro-crate-paper/tree/5e6145e03b499356c7900932cd7fde7e1a998ad4)
+from [stain/ro-crate-paper@612d4c2](https://github.com/stain/ro-crate-paper/tree/612d4c2ed78ea52f9ab63010b96209f668d20687)
 on May 7, 2021.
 </em></small>
 
@@ -395,6 +395,32 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 | ocfl-tools [@ocfl-tools] | Developers | JavaScript (CLI) | Beta | Tools for managing RO-Crates in an OCFL repository |
 | RO Composer [@ro-composer] | Repository developers | Java | Alpha | REST API for gradually building ROs for given profile. |
 | galaxy2cwl [@galaxy2cwl] | Workflow developers | Python | Alpha | Wraps Galaxy workflow as Workflow RO-Crate |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
