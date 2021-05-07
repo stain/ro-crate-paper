@@ -33,7 +33,7 @@ Coppens
 Corcho
 CRS
 CSV
-cwl
+CWL
 DataCrate
 DataCrate’s
 DataEntity
@@ -64,7 +64,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 generalization
@@ -115,7 +115,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -153,7 +153,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -180,7 +180,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
