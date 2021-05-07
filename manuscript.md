@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/))
+([permalink](https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/))
 was automatically generated
-from [stain/ro-crate-paper@e95a1b4](https://github.com/stain/ro-crate-paper/tree/e95a1b42897bbb44543f20ace9b3b938b73c6490)
+from [stain/ro-crate-paper@5c1a588](https://github.com/stain/ro-crate-paper/tree/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5)
 on May 7, 2021.
 </em></small>
 
@@ -689,7 +689,7 @@ As of 2021-05-05, the _RO-Crate_ Community members are:
 * Finn Bacall \url{https://orcid.org/0000-0002-0048-3300}
 * Thomas Thelen \url{https://orcid.org/0000-0002-1756-2128}
 * Hervé Ménager \url{https://orcid.org/0000-0002-7552-1009}
-* Laura Rodríguez Navas \url{https://orcid.org/0000-0003-4929-1219}
+* Laura Rodríguez-Navas \url{https://orcid.org/0000-0003-4929-1219}
 * Paul Walk \url{https://orcid.org/0000-0003-1541-5631}
 * brandon whitehead \url{https://orcid.org/0000-0002-0337-8610}
 * Mark Wilkinson \url{https://orcid.org/0000-0001-6960-357X}
