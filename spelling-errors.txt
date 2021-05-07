@@ -36,7 +36,7 @@ CWL
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -76,6 +76,7 @@ hoc
 https
 IBISBA
 implementers
+INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
@@ -163,11 +164,12 @@ standardize
 Stian
 summarizing
 syntaxes
+SyntheSys
 Tartari
 telcons
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy

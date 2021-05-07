@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/80cae47a700230c93a966f01ecfd6ffbccf5171a/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/80cae47a700230c93a966f01ecfd6ffbccf5171a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/80cae47a700230c93a966f01ecfd6ffbccf5171a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/80cae47a700230c93a966f01ecfd6ffbccf5171a/))
+([permalink](https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/))
 was automatically generated
-from [stain/ro-crate-paper@80cae47](https://github.com/stain/ro-crate-paper/tree/80cae47a700230c93a966f01ecfd6ffbccf5171a)
+from [stain/ro-crate-paper@bfe8a43](https://github.com/stain/ro-crate-paper/tree/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27)
 on May 7, 2021.
 </em></small>
 
@@ -107,7 +107,7 @@ on May 7, 2021.
     [soilandreyes](https://twitter.com/soilandreyes)<br>
   <small>
      Department of Computer Science, The University of Manchester, UK; Informatics Institute, Faculty of Science, University of Amsterdam, NL
-     · Funded by BioExcel-2 (European Commission H2020-INFRAEDI-02-2018-823830); EOSC-Life (European Commission H2020-xx-824087)
+     · Funded by [BioExcel-2](https://bioexcel.eu/) (European Commission [H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)); [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976)
   </small>
 
 + **Peter Sefton**<br>
@@ -128,7 +128,7 @@ on May 7, 2021.
     [_simleo_](https://twitter.com/_simleo_)<br>
   <small>
      Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
-     · Funded by EOSC-Life (European Commission H2020-xx-824087)
+     · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))
   </small>
 
 + **RO-Crate Community**<br>
@@ -145,6 +145,7 @@ on May 7, 2021.
     [carolegoble](https://github.com/carolegoble)<br>
   <small>
      Department of Computer Science, The University of Manchester, UK
+     · Funded by [BioExcel-2](https://bioexcel.eu/) (European Commission [H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)); [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [IBISBA](https://ibisba.eu/) (European Commission [H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)); [SyntheSys+](https://www.synthesys.info/) (European Commission [H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
   </small>
 
 + **Paul Groth**<br>
