@@ -6,6 +6,7 @@ artifacts
 BagIt
 BCO
 BCOs
+beconsidered
 benchmarking
 BioCompute
 BioConda
@@ -21,14 +22,15 @@ Bunding
 CalcyteJS
 carolegoble
 Carragáin
+Center
 centralized
 checksums
 CLI
-computated
 Conda
 conformsTo
 Coppens
 Corcho
+CRS
 CSV
 cwl
 DataCrate
@@ -60,7 +62,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -77,7 +79,7 @@ implementers
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -123,6 +125,7 @@ Portier
 productionized
 programmatically
 ptsefton
+Pula
 py
 queriable
 RDF
@@ -147,6 +150,7 @@ serialization
 serializations
 SHACL
 ShEx
+simleo
 SIOC
 Snakemake
 Soiland
@@ -163,7 +167,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
