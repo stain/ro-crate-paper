@@ -25,6 +25,7 @@ Carragáin
 Center
 centralized
 checksums
+Chenxu
 CLI
 Conda
 conformsTo
@@ -32,7 +33,7 @@ Coppens
 Corcho
 CRS
 CSV
-CWL
+cwl
 DataCrate
 DataCrate’s
 DataEntity
@@ -63,7 +64,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -81,7 +82,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
@@ -91,6 +92,7 @@ JSON
 Juty
 Kanitz
 Koehorst
+Kosuke
 LD
 LD’s
 LFS
@@ -108,11 +110,12 @@ namespaced
 namespaces
 Navas
 Nextflow
+Niu
 NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -150,7 +153,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
@@ -172,11 +175,12 @@ Stian
 summarizing
 syntaxes
 SyntheSys
+Tanabe
 Tartari
 telcons
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy

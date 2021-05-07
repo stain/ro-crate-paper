@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5b8d07349cc35dc81f81bf5b34a37e3bc93136f7/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5b8d07349cc35dc81f81bf5b34a37e3bc93136f7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5b8d07349cc35dc81f81bf5b34a37e3bc93136f7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5/))
+([permalink](https://stain.github.io/ro-crate-paper/v/5b8d07349cc35dc81f81bf5b34a37e3bc93136f7/))
 was automatically generated
-from [stain/ro-crate-paper@5c1a588](https://github.com/stain/ro-crate-paper/tree/5c1a588f8dc013f1df702fc2bad9c0bb163abbb5)
+from [stain/ro-crate-paper@5b8d073](https://github.com/stain/ro-crate-paper/tree/5b8d07349cc35dc81f81bf5b34a37e3bc93136f7)
 on May 7, 2021.
 </em></small>
 
@@ -663,7 +663,7 @@ This exposes the first order logic domain of discourse of IRIs, with rational nu
 
 # RO-Crate Community
 
-As of 2021-05-05, the _RO-Crate_ Community members are:
+As of 2021-05-07, the _RO-Crate_ Community members are:
 
 * Peter Sefton \url{https://orcid.org/0000-0002-3545-944X} (co-chair)
 * Stian Soiland-Reyes \url{https://orcid.org/0000-0001-9842-9718} (co-chair)
@@ -707,6 +707,9 @@ As of 2021-05-05, the _RO-Crate_ Community members are:
 * Paul Brack \url{https://orcid.org/0000-0002-5432-2748}
 * Milan Ojsteršek \url{https://orcid.org/0000-0003-1743-8300}
 * Bert Droesbeke \url{https://orcid.org/0000-0003-0522-5674}
+* Chenxu Niu \url{https://github.com/UstcChenxu}
+* Kosuke Tanabe \url{https://orcid.org/0000-0002-9986-7223}
+
 
 ## References {.page_break_before}
 
