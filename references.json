@@ -1,5 +1,22 @@
 [
   {
+    "URL": "https://crs4.github.io/life_monitor/",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          7
+        ]
+      ]
+    },
+    "genre": "WEBSITE",
+    "id": "10Mf5fVVl",
+    "title": "LifeMonitor Web site Web pages describing LifeMonitor, a testing and monitoring service for scientific workflows.",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: about-lifemonitor",
+    "type": "entry"
+  },
+  {
     "URL": "https://about.workflowhub.eu/",
     "accessed": {
       "date-parts": [

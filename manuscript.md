@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27/))
+([permalink](https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/))
 was automatically generated
-from [stain/ro-crate-paper@bfe8a43](https://github.com/stain/ro-crate-paper/tree/bfe8a43a81ae7bbd0e34e68faa440e7a4f5bab27)
+from [stain/ro-crate-paper@6b90fc6](https://github.com/stain/ro-crate-paper/tree/6b90fc6bff15efd2f448d34659fa0ac43bff9a08)
 on May 7, 2021.
 </em></small>
 
@@ -416,6 +416,13 @@ Being cross-domain also means the WorkflowHub has to cater for many different wo
 In WorkflowHub, RO-Crate therefore can be seen as taking on the role of an interoperability layer between registries, repositories and users. The iterative development between WorkflowHub developers and RO-Crate community heavily informed the creation of the Bioschemas[@bioschemas_2017] profile for [Computational Workflow](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/), which again informed the [RO-Crate 1.1 specification on workflows](https://www.researchobject.org/ro-crate/1.1/workflows.html) and led to the RO-Crate Python library and WorkflowHub’s [Workflow RO-Crate profile](https://about.workflowhub.eu/Workflow-RO-Crate/), which in a similar fashion to RO-Crate itself recommends which workflow resources and descriptions are required. This co-development across project boundaries exemplifies the drive for simplicity and for establishing best practices.
 
 While RO-Crates in WorkflowHub so far have been focused on workflows that are ready to be run, they are now moving into the development of a _Workflow Run RO-Crate_ profile for the purposes of benchmarking, testing and executing workflows. As such, RO-Crate serves as container of both a workflow definition that may be executed and of a workflow execution and test results. Additionally, WorkflowHub has recently enabled minting of DOIs for registered workflows, e.g. [@doi:10.48546/workflowhub.workflow.56.1], lowering the barrier for citing computational methods along with their FAIR metadata captured as an RO-Crate.
+
+The value of computational workflows, however, is potentially undermined by the "collapse" over time of the software and services they depend upon: a software dependency might change in a non-backwards-compatible way, or stop being actively maintained; an external resource, such as a reference index or a database query service, could be moved to a different URL or modify its access protocol; and the workflow itself, of course, could run into hard-to-find bugs as it gets updated. This can take a big toll on the workflow's reusability and on the reproducibility of any work it enables.
+
+For this reason, WorkflowHub is complemented by a monitoring and testing service called LifeMonitor[@about-lifemonitor], also supported by EOSC-Life. LifeMonitor's main goal is to assist in the creation, periodic execution and monitoring of workflow tests, enabling the early detection of software collapse in order to minimize its detrimental effects. The communication of metadata related to workflow testing is achieved through the adoption of a _Workflow Testing RO-Crate profile_ stacked on top of the Workflow RO-Crate one. This further specialization of Workflow RO-Crate allows to specify additional testing-related entities (test suites, instances, services, etc.), leveraging [RO-Crate's extension mechanism](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#extending-ro-crate) through the addition of terms from custom namespaces.
+
+In addition to showcasing RO-Crate's extensibility, the testing profile is an example of the format's flexibility and adaptability to the different needs of the research community. Though ultimately related to a computational workflow, in fact, most of the testing-specific entities are more about describing a protocol for interacting with a monitoring service than a set of research outputs and its associated metadata. Indeed, one of LifeMonitor's main functionalities is monitoring and reporting on test suites running on existing CI services, which is described in terms of service URLs and job identifiers in the testing profile. In principle, in this context, data could disappear altogether, leading to an RO-Crate consisting entirely of contextual entities. Such an RO-Crate acts more as an exchange format for communication between services (WorkflowHub and LifeMonitor) than as an aggregator for research data and metadata, providing a good example of the format's high versatility.
+
 
 
 ## Regulatory Sciences

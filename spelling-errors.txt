@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Brack
@@ -36,7 +36,7 @@ CWL
 DataCrate
 DataCrate’s
 DataEntity
-dataset
+Dataset
 datasets
 datetime
 DBPedia
@@ -52,6 +52,7 @@ emphasizes
 Eoghan
 EOSC
 eScience
+extensibility
 facto
 FAIRplus
 FDO
@@ -62,7 +63,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -94,20 +95,24 @@ LD
 LD’s
 LFS
 lifecycle
+LifeMonitor
+LifeMonitor’s
 LJ
 María
 Ménager
 metagenomics
 MGS
+minimize
 myExperiment
 namespaced
+namespaces
 Navas
 Nextflow
 NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -137,7 +142,8 @@ Replicable
 reproducibility
 Repurposable
 researchobject
-RO
+reusability
+ro
 Rodríguez
 ROR
 ROs
@@ -157,6 +163,7 @@ Snakemake
 Soiland
 soilandreyes
 SPARQL
+specialization
 specialized
 SSHRC
 stabilized
@@ -169,7 +176,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
