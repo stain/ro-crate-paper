@@ -2722,7 +2722,7 @@
   }
 
 \if@nameyear
-  \csuse{\fmt@name @natbib@authoryear}
+  \csuse{\fmt@name @natbib@authoryear} 
 \else
   \csuse{\fmt@name @natbib@numbers}
 \fi
