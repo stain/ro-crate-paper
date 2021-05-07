@@ -13,7 +13,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Brack
@@ -36,7 +36,7 @@ CWL
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -63,7 +63,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 generalization
@@ -112,7 +112,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -143,14 +143,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization

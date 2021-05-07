@@ -626,10 +626,14 @@ content/70.acknowledgements.md:5:EOSC
 content/70.acknowledgements.md:5:https
 content/70.acknowledgements.md:5:https
 content/70.acknowledgements.md:5:https
+content/70.acknowledgements.md:5:https
 content/70.acknowledgements.md:5:IBISBA
+content/70.acknowledgements.md:5:INFRADEV
 content/70.acknowledgements.md:5:INFRAEDI
 content/70.acknowledgements.md:5:INFRAEOSC
 content/70.acknowledgements.md:5:INFRAIA
+content/70.acknowledgements.md:5:INFRAIA
+content/70.acknowledgements.md:5:SyntheSys
 content/80.formal-definition.md:1:Formalizing
 content/80.formal-definition.md:1:RO
 content/80.formal-definition.md:10:formalize

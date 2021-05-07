@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/6b90fc6bff15efd2f448d34659fa0ac43bff9a08/))
+([permalink](https://stain.github.io/ro-crate-paper/v/e95a1b42897bbb44543f20ace9b3b938b73c6490/))
 was automatically generated
-from [stain/ro-crate-paper@6b90fc6](https://github.com/stain/ro-crate-paper/tree/6b90fc6bff15efd2f448d34659fa0ac43bff9a08)
+from [stain/ro-crate-paper@e95a1b4](https://github.com/stain/ro-crate-paper/tree/e95a1b42897bbb44543f20ace9b3b938b73c6490)
 on May 7, 2021.
 </em></small>
 
@@ -520,7 +520,8 @@ RO-Crate provides a lightweight approach to packaging digital research artifacts
 
 \small
 
-This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087).
+This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827)
+
      
 
 # Formalizing RO-Crate in First Order Logic
