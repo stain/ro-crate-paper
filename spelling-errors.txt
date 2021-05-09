@@ -29,6 +29,7 @@ Chenxu
 CLI
 Conda
 conformsTo
+contextualization
 Coppens
 Corcho
 CRS
@@ -37,7 +38,7 @@ CWL
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
@@ -82,7 +83,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -115,7 +116,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -146,7 +147,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
@@ -180,7 +181,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy

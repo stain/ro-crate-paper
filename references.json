@@ -1949,7 +1949,7 @@
     "publisher": "RFC Editor",
     "title": "The BagIt File Packaging Format (V1.0)",
     "type": "report",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.17487/RFC8493\noriginal_standard_id: doi:10.17487/RFC8493\nstandard_id: doi:10.17487/rfc8493"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc8493"
   },
   {
     "DOI": "10.3233/{DS}-190026",
