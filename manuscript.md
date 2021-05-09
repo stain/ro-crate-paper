@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/33baa5d335230688a93e71d5607b1fc1a7908f57/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/33baa5d335230688a93e71d5607b1fc1a7908f57/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/33baa5d335230688a93e71d5607b1fc1a7908f57/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/33baa5d335230688a93e71d5607b1fc1a7908f57/))
+([permalink](https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/))
 was automatically generated
-from [stain/ro-crate-paper@33baa5d](https://github.com/stain/ro-crate-paper/tree/33baa5d335230688a93e71d5607b1fc1a7908f57)
+from [stain/ro-crate-paper@cf69c39](https://github.com/stain/ro-crate-paper/tree/cf69c39069c0039e022e6cb5b04c9b2294f84336)
 on May 9, 2021.
 </em></small>
 
@@ -523,7 +523,7 @@ Supported by multiple open source tools and libraries, RO-Crate fit into the lar
 
 This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827)
 
-     
+
 
 # Formalizing RO-Crate in First Order Logic
 

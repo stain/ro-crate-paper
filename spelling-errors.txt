@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Brack
@@ -32,7 +32,7 @@ Coppens
 Corcho
 CRS
 CSV
-cwl
+CWL
 DataCrate
 DataCrate’s
 DataEntity
@@ -81,7 +81,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-Interoperable
+interoperable
 interpretable
 IRI
 itemized
@@ -145,14 +145,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
