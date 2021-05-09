@@ -1,7 +1,7 @@
 Alasdair
 analyze
 artifact
-artifacts
+Artifacts
 BagIt
 BCO
 BCOs
@@ -63,7 +63,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -81,7 +81,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -145,7 +145,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
@@ -179,7 +179,7 @@ Tartari
 telcons
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy
