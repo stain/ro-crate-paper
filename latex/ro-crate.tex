@@ -21,6 +21,9 @@
 \usepackage[citations,fencedCode,footnotes,hybrid,pipeTables,smartEllipses,tableCaptions,underscores]{markdown}
 \def\markdownOptionOutputDir{../output}
 
+% for table resizing
+\usepackage{booktabs}
+\usepackage{multirow}
 
 %%%%%%%%%%% End of definitions
 
@@ -122,6 +125,9 @@ Abstract text.
 \markdownInput{../content/22.implementation.md}
 \markdownInput{../content/23.community.md}
 \markdownInput{../content/30.tooling.md}
+%\markdownInput{../content/31.tooling-table.md}
+\input{../content/31.tooling-table.tex}
+
 \markdownInput{../content/40.inuse.md}
 \markdownInput{../content/41.workflows.md}
 \markdownInput{../content/42.regulatory.md}
