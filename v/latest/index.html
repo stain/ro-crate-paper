@@ -10,7 +10,7 @@
   <meta name="author" content="RO-Crate Community" />
   <meta name="author" content="Carole Goble" />
   <meta name="author" content="Paul Groth" />
-  <meta name="dcterms.date" content="2021-05-07" />
+  <meta name="dcterms.date" content="2021-05-09" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research data with RO-Crate</title>
   <style>
@@ -95,8 +95,8 @@
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2021-05-07" />
-  <meta name="citation_publication_date" content="2021-05-07" />
+  <meta name="dc.date" content="2021-05-09" />
+  <meta name="citation_publication_date" content="2021-05-09" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -128,9 +128,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5ee0a789c47bae8e7e0e3d79d867e7124f22e57e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ee0a789c47bae8e7e0e3d79d867e7124f22e57e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ee0a789c47bae8e7e0e3d79d867e7124f22e57e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -144,10 +144,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/612d4c2ed78ea52f9ab63010b96209f668d20687/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/5ee0a789c47bae8e7e0e3d79d867e7124f22e57e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/612d4c2ed78ea52f9ab63010b96209f668d20687">stain/ro-crate-paper@612d4c2</a>
-on May 7, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/5ee0a789c47bae8e7e0e3d79d867e7124f22e57e">stain/ro-crate-paper@5ee0a78</a>
+on May 9, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -502,7 +502,9 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <p>Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and reference datasets. This can be a daunting task in itself, which may have to be repeated multiple times as workflows typically are developed at small scale on their desktop computer, scaled up to a local cluster, and potentially productionized using cloud instances, each of which will have different requirements for software installations.</p>
 <p>In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adaptation in life sciences <span class="citation" data-cites="a1tub17j">[<a href="#ref-a1tub17j" role="doc-biblioref">60</a>]</span>, with supporting collaborative efforts like BioConda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q" role="doc-biblioref">61</a>]</span>, BioContainers <span class="citation" data-cites="rJUU3iuR">[<a href="#ref-rJUU3iuR" role="doc-biblioref">62</a>]</span> and by Linux distributions themselves (e.g. Debian Med <span class="citation" data-cites="8DE4ZSsb">[<a href="#ref-8DE4ZSsb" role="doc-biblioref">63</a>]</span>), to make more than 7000 software packages available [in BioConda alone] (https://anaconda.org/bioconda/) and 9000 containers <a href="https://biocontainers.pro/#/registry">in BioContainers</a>. Docker and Conda have gained integration in workflow systems like Snakemake, Galaxy, Nextflow, meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand.</p>
 <h1 id="conclusion">Conclusion</h1>
-<p>RO-Crate provides a lightweight approach to packaging digital research artifacts…</p>
+<p>RO-Crate provides a lightweight approach to packaging digital research artifacts with structured metadata, assisting developers and researchers to produce and consume FAIR data archives of their Research Objects, including permanent identifiers, contextualization and provenance of research items. Aggregated data may be large and distributed, or regular folders on a file system.</p>
+<p>As a set of Best Practice recommendations, developed by an open and broad community, RO-Crate shows how to use “just enough” Linked Data standards in a consistent way, with structured metadata using a rich base vocabulary that can cover everyday contextual relations, however also extensible for domain- and application-specific details.</p>
+<p>Supported by multiple open source tools and libraries, RO-Crate fit into the larger landscape of open scholarly communication and FAIR Digital Object infrastructure, easily integrated into data repository platforms. RO-Crate can be applied as a data/metadata exchange mechanism, assist in long-term archival preservation of metadata and data, or simply used at small-scale by individual researchers.</p>
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This work has received funding from the European Commission’s Horizon 2020 research and innovation programme for projects <a href="https://cordis.europa.eu/project/id/823830">BioExcel-2</a> (H2020-INFRAEDI-2018-1 823830), <a href="https://cordis.europa.eu/project/id/730976">IBISBA</a> (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), <a href="https://cordis.europa.eu/project/id/824087">EOSC-Life</a> (H2020-INFRAEOSC-2018-2 824087), <a href="https://cordis.europa.eu/project/id/823827">SyntheSys+</a> (H2020-INFRAIA-2018-1 823827)</p>
 <h1 id="formalizing-ro-crate-in-first-order-logic">Formalizing RO-Crate in First Order Logic</h1>
