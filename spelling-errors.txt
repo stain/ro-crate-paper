@@ -1,6 +1,5 @@
 Alasdair
 analyze
-analyzing
 artifact
 artifacts
 BagIt
@@ -13,13 +12,12 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundness
 Brack
 Bremer
 Bunding
-CalcyteJS
 carolegoble
 Carragáin
 Center
@@ -34,7 +32,7 @@ Coppens
 Corcho
 CRS
 CSV
-CWL
+cwl
 DataCrate
 DataCrate’s
 DataEntity
@@ -147,14 +145,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
