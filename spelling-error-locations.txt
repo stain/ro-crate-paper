@@ -3,6 +3,14 @@ content/00.front-matter.md:21:https
 content/00.front-matter.md:36:https
 content/00.front-matter.md:40:https
 content/00.front-matter.md:44:https
+content/01.abstract.md:1:JSON
+content/01.abstract.md:1:LD
+content/01.abstract.md:1:RO
+content/01.abstract.md:1:RO
+content/01.abstract.md:3:bioinformatics
+content/01.abstract.md:3:RO
+content/01.abstract.md:3:RO
+content/01.abstract.md:3:RO
 content/10.background.md:3:artifacts
 content/10.background.md:3:datasets
 content/10.background.md:5:Findable
@@ -32,6 +40,7 @@ content/20.rocrate.md:3:RO
 content/20.rocrate.md:3:summarizing
 content/20.rocrate.md:5:facto
 content/20.rocrate.md:5:programmatically
+content/20.rocrate.md:7:https
 content/20.rocrate.md:7:schemas
 content/20.rocrate.md:9:RO
 content/20.rocrate.md:15:RO
@@ -344,6 +353,7 @@ content/31.tooling-table.md:15:ro
 content/31.tooling-table.md:15:RO
 content/31.tooling-table.md:15:ROs
 content/31.tooling-table.md:16:RO
+content/31.tooling-table.md:18:RO
 content/40.inuse.md:1:RO
 content/40.inuse.md:3:artifacts
 content/40.inuse.md:3:artifacts
