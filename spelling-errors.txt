@@ -1,6 +1,4 @@
 Alasdair
-analyze
-artifact
 artifacts
 BagIt
 BCO
@@ -33,6 +31,7 @@ Corcho
 CRS
 CSV
 CWL
+CWLProv
 DataCrate
 DataCrate’s
 DataEntity
@@ -63,7 +62,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -171,11 +170,11 @@ SSHRC
 stabilized
 standardize
 Stian
-summarizing
 syntaxes
 SyntheSys
 Tanabe
 Tartari
+TavernaPROV
 telcons
 Thelen
 Trisovic
