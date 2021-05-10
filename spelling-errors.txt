@@ -30,7 +30,7 @@ Coppens
 Corcho
 CRS
 CSV
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -42,6 +42,7 @@ DBPedia
 Describo
 digitization
 distill
+DMP
 DOIs
 Droesbeke
 Eguinoa
@@ -62,7 +63,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 generalization
@@ -80,7 +81,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 itemized
@@ -98,6 +99,7 @@ lifecycle
 LifeMonitor
 LifeMonitor’s
 LJ
+maDMP
 María
 Ménager
 metagenomics
@@ -144,7 +146,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
