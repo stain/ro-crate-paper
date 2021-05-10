@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a788872e13b290d663b1dd746cc6b68c50fb8c4e/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a788872e13b290d663b1dd746cc6b68c50fb8c4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a788872e13b290d663b1dd746cc6b68c50fb8c4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5a3d98282bbcbf035777a1037e4e521ab26ad160/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5a3d98282bbcbf035777a1037e4e521ab26ad160/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5a3d98282bbcbf035777a1037e4e521ab26ad160/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a788872e13b290d663b1dd746cc6b68c50fb8c4e/))
+([permalink](https://stain.github.io/ro-crate-paper/v/5a3d98282bbcbf035777a1037e4e521ab26ad160/))
 was automatically generated
-from [stain/ro-crate-paper@a788872](https://github.com/stain/ro-crate-paper/tree/a788872e13b290d663b1dd746cc6b68c50fb8c4e)
+from [stain/ro-crate-paper@5a3d982](https://github.com/stain/ro-crate-paper/tree/5a3d98282bbcbf035777a1037e4e521ab26ad160)
 on May 10, 2021.
 </em></small>
 
@@ -404,7 +404,7 @@ _**Table 1**: Applications and libraries implementing RO-Crate, targeting differ
 
 # Using RO-Crate
 
-RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artifacts. Here we look at three research domains where it is being applied: Bioinformatics, Regulatory Science and Cultural Heritages.
+RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artifacts. Here we look at three research domains where it is being applied: Bioinformatics, Regulatory Science and Cultural Heritages. In addition we note how RO-Crate can have an importeant role as part of machine-actionable data management plans.
 
 
 
@@ -457,6 +457,17 @@ This use case takes advantage of several RO-Crate features and principles. First
 
 [^3]: The [Endings Project](https://endings.uvic.ca/) is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
 
+
+## Machine-actionable Data Management Plans
+
+Machine-actionable Data Management Plans (maDMPs) have been proposed as an improvement to automate FAIR data management tasks in research [@doi:10.1371/journal.pcbi.1006750], e.g. by using PIDs and controlled vocabularies to describe what happens to data over the research lifecycle. The Research Data Alliance's _DMP Common Standard_ for maDMPs [@doi:10.15497/rda00039] is one such formalization for expressing maDMPs, which can be expressed as Linked Data using the DMP Common Standard Ontology [@doi:10.5281/zenodo.3944464], a specializaton W3C DCAT [@dcat2]. However, more commonly, RDA maDMPs are expressed according as regular JSON, conforming to thhe DMP JSON Schema.
+
+A mapping has been produced between Research Object Crates and such Machine-actionable Data Management Plans [@doi:10.4126/frl01-006423291], implemented by the RO-Crate {RDA maDMP Mapper [@doi:10.5281/zenodo.3922136]. A similar mapping has been implemented by Ro-Crate_2_ma-DMP [@doi:10.5281/zenodo.3903463]. In both cases, a maDMP can be converted to a RO-Crate, or vice versa. In [@doi:10.4126/frl01-006423291] this is suggested to cater for two use cases:
+
+1. Start a skeleton data management plan based on an existing RO-Crate dataset, e.g. from an RO-Crate from Workflow Hub
+2. Instansiate an RO-Crate based on a data management plan.
+
+An important difference here is that data management plans are (ideally) written in advance of data production, while RO-Crates are typically created to describe data after it has been made. This approach shows the importance of _templating_ to make both tasks more automatable and approachable, and how RO-Crate can fit into earlier stages of the research life cycle.
 
 # Related Work
 

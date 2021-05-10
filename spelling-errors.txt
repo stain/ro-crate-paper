@@ -1,5 +1,6 @@
 Alasdair
 artifacts
+automatable
 BagIt
 BCO
 BCOs
@@ -10,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundness
 Brack
@@ -35,10 +36,11 @@ CWLProv
 DataCrate
 DataCrate’s
 DataEntity
-Dataset
+dataset
 datasets
 datetime
 DBPedia
+DCAT
 Describo
 digitization
 distill
@@ -63,7 +65,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 generalization
@@ -77,11 +79,13 @@ hoc
 https
 IBISBA
 implementers
+importeant
 INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-Interoperable
+Instansiate
+interoperable
 interpretable
 IRI
 itemized
@@ -100,6 +104,7 @@ LifeMonitor
 LifeMonitor’s
 LJ
 maDMP
+maDMPs
 María
 Ménager
 metagenomics
@@ -115,7 +120,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -167,6 +172,7 @@ Soiland
 soilandreyes
 SPARQL
 specialization
+specializaton
 specialized
 SSHRC
 stabilized
@@ -178,9 +184,11 @@ Tanabe
 Tartari
 TavernaPROV
 telcons
+templating
 Thelen
+thhe
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
