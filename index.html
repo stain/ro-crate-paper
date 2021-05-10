@@ -10,7 +10,7 @@
   <meta name="author" content="RO-Crate Community" />
   <meta name="author" content="Carole Goble" />
   <meta name="author" content="Paul Groth" />
-  <meta name="dcterms.date" content="2021-05-09" />
+  <meta name="dcterms.date" content="2021-05-10" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research data with RO-Crate</title>
   <style>
@@ -95,8 +95,8 @@
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2021-05-09" />
-  <meta name="citation_publication_date" content="2021-05-09" />
+  <meta name="dc.date" content="2021-05-10" />
+  <meta name="citation_publication_date" content="2021-05-10" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -128,9 +128,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/41da600527bc1e0d4685036ae19d7cbf43216259/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/41da600527bc1e0d4685036ae19d7cbf43216259/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/41da600527bc1e0d4685036ae19d7cbf43216259/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -144,10 +144,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/cf69c39069c0039e022e6cb5b04c9b2294f84336/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/41da600527bc1e0d4685036ae19d7cbf43216259/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/cf69c39069c0039e022e6cb5b04c9b2294f84336">stain/ro-crate-paper@cf69c39</a>
-on May 9, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/41da600527bc1e0d4685036ae19d7cbf43216259">stain/ro-crate-paper@41da600</a>
+on May 10, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -205,11 +205,12 @@ Department of Computer Science, The University of Manchester, UK
 Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </small></p></li>
 </ul>
-<h2 class="page_break_before" id="abstract">Abstract</h2>
+<p>RO-Crate is a lightweight approach to packaging research data with their metadata, established through an open community-based effort. Based on schema.org annotations in JSON-LD, RO-Crate aims to make best-practice in formal metadata description accessible and practical for use in a wide variety of situations.</p>
+<p>An RO-Crate is a structured archive of all the items that contributed to the research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR.</p>
 <h1 id="introduction">Introduction</h1>
 <p>The move towards open science and open research practices has increased the demand for the publication of more artifacts of the research process <span class="citation" data-cites="sefton_blog_post_2021">[<span class="citeproc-not-found" data-reference-id="sefton_blog_post_2021"><strong>???</strong></span>]</span>. This is particularly apparent in domains that rely on computational experiments; for example, the publication of software, datasets and records of the dependencies that such experiments rely on <span class="citation" data-cites="gvyja7v1">[<a href="#ref-gvyja7v1" role="doc-biblioref">1</a>]</span>.</p>
 <p>It is often argued that the publication of these assets, and specifically software <span class="citation" data-cites="sbRbAxdT">[<a href="#ref-sbRbAxdT" role="doc-biblioref">2</a>]</span> and data, should follow the The FAIR principles <span class="citation" data-cites="6DjakjNS">[<a href="#ref-6DjakjNS" role="doc-biblioref">3</a>]</span>; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the <em>implementation</em> strategy needed to meet them. Hence, there has been an increasing amount of work in the development of systems and specifications that aim to fulfil these goals <span class="citation" data-cites="r3UZD8uu">[<a href="#ref-r3UZD8uu" role="doc-biblioref">4</a>]</span>. Important examples include data publication with rich metadata (e.g. Zenodo <span class="citation" data-cites="8xxCWPLQ">[<a href="#ref-8xxCWPLQ" role="doc-biblioref">5</a>]</span>), domain specific data deposit (e.g. PDB <span class="citation" data-cites="c5hSVgMG">[<a href="#ref-c5hSVgMG" role="doc-biblioref">6</a>]</span>) and following practices for reproducible research software <span class="citation" data-cites="Pf3steOn">[<a href="#ref-Pf3steOn" role="doc-biblioref">7</a>]</span> (e.g. use of containers).</p>
-<p>These strategies are focused primarily on one <em>type</em> of artifact. To address this, <span class="citation" data-cites="sRYUCzCq"><a href="#ref-sRYUCzCq" role="doc-biblioref">8</a></span> introduced the notion of a <strong>research object</strong> – <em>semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data</em>. A research object combines the ability to document multiple types of artifacts together; for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, are tailored to a particular platform and are also not easily usable for end-users.</p>
+<p>These strategies are focused primarily on one <em>type</em> of artifact. To address this, <span class="citation" data-cites="sRYUCzCq">[<a href="#ref-sRYUCzCq" role="doc-biblioref">8</a>]</span> introduced the notion of a <strong>research object</strong> – <em>semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered as Linked Data</em>. A research object combines the ability to document multiple types of artifacts together; for example, CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, are tailored to a particular platform and are also not easily usable for end-users.</p>
 <p>To address this gap, a new community came together <span class="citation" data-cites="19ead6wt6">[<a href="#ref-19ead6wt6" role="doc-biblioref">9</a>]</span> to develop <strong>RO-Crate</strong> - a <em>lightweight approach to packaging and aggregating research artifacts with their metadata</em>. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artifacts FAIR. Specifically, the contributions of this paper are as follows:</p>
 <ol type="1">
 <li>an introduction to RO-Crate, its purpose and context;</li>
@@ -220,7 +221,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 <h1 id="ro-crate">RO-Crate</h1>
 <p>As previously stated, RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. What does that mean? Imagine a research paper reporting on the sequence analysis of proteins in an experiment on mice. The sequence analysis experiment code, associated sequence files and reports summarizing statistical measures would all be put in a directory.</p>
 <p>The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but accessible programmatically. Fundamentally, how can one easily get these data and work with them. A de facto approach to sharing such compilations is through the use of a compressed archive (e.g. a zip file). While this solves the problem of “packaging”, it does imply that the downstream user can <em>easily</em> access the data in a programmatic fashion, or know what role each file plays in the research. This leads to the need for explicit metadata about the contents of this package.</p>
-<p>Examples of metadata description abound within the literature both in research data management (?cite) but also within library and information systems (?cite). However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, or the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications <span class="citation" data-cites="neylon_blog_post_2017">[<span class="citeproc-not-found" data-reference-id="neylon_blog_post_2017"><strong>???</strong></span>]</span>.</p>
+<p>Examples of metadata descriptions across a <a href="https://rdamsc.bath.ac.uk/scheme-index">wide range of domains</a> abound within the literature both in research data management (?cite) but also within library and information systems (?cite). However, many of these approaches (discussed in the related work section) require knowledge of metadata schemas, particular annotation systems, or the use of obscure or complex software stacks. Indeed, particularly, within research, these requirements have led to the under-adoption and frankly frustration with current tooling and specifications <span class="citation" data-cites="neylon_blog_post_2017">[<span class="citeproc-not-found" data-reference-id="neylon_blog_post_2017"><strong>???</strong></span>]</span>.</p>
 <p>RO-Crate seeks to address this complexity by:</p>
 <ol type="1">
 <li>being easy to understand and simple conceptually;</li>
@@ -450,6 +451,7 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </tr>
 </tbody>
 </table>
+<p><em><strong>Table 1</strong>: Applications and libraries implementing RO-Crate, targeting different types of users across multiple programming languages. Status is indicative as assessed by this work.</em></p>
 <h1 id="using-ro-crate">Using RO-Crate</h1>
 <p>RO-Crate is fundamentally an infrastructure to help make FAIR research artifacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artifacts. Here we look at three research domains where it is being applied: Bioinformatics, Regulatory Science and Cultural Heritages.</p>
 <h2 id="bioinformatics-workflows">Bioinformatics workflows</h2>
