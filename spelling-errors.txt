@@ -117,7 +117,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -184,7 +184,7 @@ templating
 Thelen
 thhe
 Trisovic
-uml
+UML
 unshortened
 URI
 UseGalaxy
