@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-05-10'
+date-meta: '2021-05-11'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research data with RO-Crate" />
   <meta property="og:title" content="Packaging research data with RO-Crate" />
   <meta property="twitter:title" content="Packaging research data with RO-Crate" />
-  <meta name="dc.date" content="2021-05-10" />
-  <meta name="citation_publication_date" content="2021-05-10" />
+  <meta name="dc.date" content="2021-05-11" />
+  <meta name="citation_publication_date" content="2021-05-11" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/63f5d13553a535f6d422cd015e8c73e80f37fb13/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/63f5d13553a535f6d422cd015e8c73e80f37fb13/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/63f5d13553a535f6d422cd015e8c73e80f37fb13/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,10 +88,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/63f5d13553a535f6d422cd015e8c73e80f37fb13/))
+([permalink](https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/))
 was automatically generated
-from [stain/ro-crate-paper@63f5d13](https://github.com/stain/ro-crate-paper/tree/63f5d13553a535f6d422cd015e8c73e80f37fb13)
-on May 10, 2021.
+from [stain/ro-crate-paper@6a94381](https://github.com/stain/ro-crate-paper/tree/6a943816738ed1d3df6ab6563191334b4f03be8e)
+on May 11, 2021.
 </em></small>
 
 ## Authors
@@ -392,7 +392,7 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
 | ro-crate-py [@ro-crate-py] | Developers | Python | Alpha | Object-oriented Python library for reading/writing RO-Crate |
 | WorkflowHub [@about-workflowhub] | Workflow users | Ruby | Beta | Workflow repository; imports and exports Workflow RO-Crate |
 | Life Monitor [@about-lifemonitor] | Workflow developers | Python | Beta | Workflow testing and monitoring service; Workflow Testing profile of RO-Crate |
-| SCHeMa [@athenarc-schema] | Workflow users | PHP | Alpha | Workflow execution using RO-Crate as exchange mechanism [@doi:10.5281/zenodo.4671709] |
+| SCHeMa [@arxiv:2103.13138v1] | Workflow users | PHP | Alpha | Workflow execution using RO-Crate as exchange mechanism  |
 | galaxy2cwl [@galaxy2cwl] | Workflow developers | Python | Alpha | Wraps Galaxy workflow as Workflow RO-Crate |
 | Modern PARADISEC [@modpdsc] | Repository managers | Platform | Beta | Cultural Heritage portal based on OCFL and RO-Crate |
 | ONI express [@arkisto-data-portal] | Repository managers | Platform | Beta | Platform for publishing data and documents stored in an OCFL repository via a web interface |
@@ -488,7 +488,7 @@ The challenge of describing computational workflows was one of the main motivati
 
 Considering the FAIR principles, we can say with hindsight that the initial Research Objects approaches were strongly targeting _Interoperability_, with a particular focus on reproducibility with computational workflows and reuse of existing RDF vocabularies. 
 
-The first implementation of Research Objects in 2009 for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. [@myExperimentOntology2009] 
+The first implementation of Research Objects in 2009 for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE   and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. [@myExperimentOntology2009] 
 
 Programmatic access to Research Objects was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queriable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.
 

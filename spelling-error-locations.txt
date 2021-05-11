@@ -332,7 +332,6 @@ content/31.tooling-table.md:11:WorkflowHub
 content/31.tooling-table.md:12:lifemonitor
 content/31.tooling-table.md:12:RO
 content/31.tooling-table.md:13:RO
-content/31.tooling-table.md:13:zenodo
 content/31.tooling-table.md:14:RO
 content/31.tooling-table.md:15:OCFL
 content/31.tooling-table.md:15:PARADISEC
