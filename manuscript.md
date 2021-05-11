@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/6a943816738ed1d3df6ab6563191334b4f03be8e/))
+([permalink](https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/))
 was automatically generated
-from [stain/ro-crate-paper@6a94381](https://github.com/stain/ro-crate-paper/tree/6a943816738ed1d3df6ab6563191334b4f03be8e)
+from [stain/ro-crate-paper@e6ca5e3](https://github.com/stain/ro-crate-paper/tree/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5)
 on May 11, 2021.
 </em></small>
 
@@ -202,17 +202,17 @@ These 3 desiderata are what is meant by “lightweight”. We now show how the R
 
 ## Conceptual Definition
 
-A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such RO-Crate relies on concepts from the Web and in particular linked data. 
+A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such RO-Crate relies on concepts from the Web and in particular those of 'linked data'. 
 
-![**Conceptual overview of RO-Crate**. A *Permanent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt[@@doi:10.17487/rfc8493], OCFL[@ocfl_2020], git or ZIP. Using Linked Data, the RO is described within an \textit{RO Metadata File}, providing identifiers for authors using ORCID, organizations using ROR and licenses such as Creative Commons. The *RO-Crate content* is further described with their own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt[@@doi:10.17487/rfc8493], OCFL[@ocfl_2020], git or ZIP. Using Linked Data, the RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organizations using ROR and licenses such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a core principle
 
 Linked Data [@doi:10.4018/978-1-60960-593-3.ch008] is a core principle of RO-Crate, and IRIs[^1] are therefore used to identify the RO-Crate, its constituent parts and metadata descriptions, as well as the properties and classes used in the metadata. 
 
-Using Linked Data, where consumers can follow the links for more (ideally both human- or machine-readable) information, the RO-Crate can then be sufficiently _self-described_ and related using global identifiers, without needing to recursively fully describe every referenced entity.
+Using Linked Data, where consumers can follow the links for more (ideally both human- or machine-readable) information, the RO-Crate can then be sufficiently _self-describing_ and entities interrelated using global identifiers, without needing to recursively fully describe every referenced entity.
 
-The base of Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies like SPARQL and knowledge graph triple stores.
+The foundation on Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies like SPARQL and knowledge graph triple stores.
 
 ### RO-Crate is a self-described container
 
@@ -222,7 +222,7 @@ The _Root Data Entity_ is a directory, the _RO-Crate Root_, identified by the pr
 
 The minimal [requirements for the root data entity metadata](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity) are `name`, `description` and `datePublished`, as well as a contextual entity identifying its `license` —  additional metadata is frequently added depending on the purpose of the particular RO-Crate.
 
-Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [@doi:10.17487/rfc8493], Oxford Common File Layout [@ocfl_2020] (OCFL), downloadable ZIP archives in Zenodo or dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers, this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
+Because the RO-Crate is just a set of related resources and datasets, it can be stored, transferred or published in multiple ways, such as BagIt [@doi:10.17487/rfc8493], Oxford Common File Layout [@ocfl_2020] (OCFL), downloadable ZIP archives in Zenodo or through dedicated online repositories, as well as published directly on the web, e.g. using GitHub Pages. Combined with Linked Data identifiers, this caters for a diverse set of storage and access requirements across different scientific domains, e.g. metagenomics workflows producing ~100 GB of genome data, or cultural heritage records with access restrictions for personally identifiable data.
 
 ### Data Entities are described using Contextual Entities
 
@@ -239,24 +239,24 @@ Figure {@fig:uml} shows a UML view of RO-Crate \ref{fig:uml}, highlighting the d
 
 ### Best Practice Guide rather than strict specification
 
-RO-Crate builds on Linked Data standards and community-evolved vocabularies like JSON-LD [@sporny_2014] and [schema.org](https://schema.org/), but rather than enforce additional constraints and limits using perhaps intimidating technologies like _RDF shapes_ (SHACL, ShEx), RO-Crate aims instead to build a set of best practice guides on how to apply the existing standards in a common way to describe research outputs and their provenance.
+RO-Crate builds on Linked Data standards and community-evolved vocabularies like JSON-LD [@sporny_2014] and [schema.org](https://schema.org/), but rather than enforce additional constraints and limits using perhaps intimidating technologies like _RDF shapes_ (SHACL, ShEx), RO-Crate aims instead to build a set of best practice guides on how to apply  existing standards in a common way to describe research outputs and their provenance.
 
 As such, the specification [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing schema.org metadata as JSON-LD, which leaves it open for implementers to add additional metadata using other schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
 
-This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalize different _profiles_ of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of [FAIR Digital Objects](https://fairdo.org/). These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.
+This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the style of the flattened JSON-LD to facilitate lightweight developer consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalised different _profiles_ of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate with at least one workflow with a declared license and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of [FAIR Digital Objects](https://fairdo.org/). These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation.
 
 
 ### Checking Simplicity
 
-As previously discussed, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through a community process. See for example the discussion at ([GitHub issue #71 on ad-hoc vocabularies](https://github.com/ResearchObject/ro-crate/issues/71)). 
+As previously stated, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through a community process. See for example the discussion at ([GitHub issue #71 on ad-hoc vocabularies](https://github.com/ResearchObject/ro-crate/issues/71)). 
 
-To further verify this idea, we have here formalized the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalization also emphasizes the _boundness_ of the structure; namely, that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`), or are mainly referenced (`mentions`) and typed as _external_ to the Research Object (Contextual Entities). 
+To further verify this idea, we have here formalised the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalisation also emphasises the _boundedness_ of the structure; namely, that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`), or are mainly referenced (`mentions`) and typed as _external_ to the Research Object (Contextual Entities). 
 
-[^1]: IRIs[@doi:10.17487/rfc3987] are a generalization of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
+[^1]: IRIs[@doi:10.17487/rfc3987] are a generalisation of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
 
 ## Technical implementation of the model
 
-The above conceptual model has been realized using JSON-LD and schema.org in a prescriptive form as discussed in the best practice approach. This technical approach again caters for simplicity. 
+The above conceptual model has been realised using JSON-LD and schema.org in a prescriptive form as discussed in the best practice approach. This technical approach again caters for simplicity. 
 
 [JSON-LD](https://json-ld.org/) provides a way to express Linked Data as a JSON structure, where a _context_ provides mapping to RDF properties and classes. While JSON-LD can’t map arbitrary JSON structure to RDF, we found it does provide a good starting point for making a JSON-based language that is also interpretable as Linked Data.
 
@@ -301,11 +301,11 @@ RO-Crate mandates the use of [flattened, compacted JSON-LD](https://www.research
 
 _Figure X_: _Simplified RO-Crate JSON-LD showing the flattened compacted `@graph` array_
 
-It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite to, and which is normally emphasized as a feature of JSON-LD in order to “hide” its RDF nature. 
+It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite, and which is normally emphasised as a feature of JSON-LD in order to “hide” its RDF nature. 
 
-We found, however, that the use of trees, say a _Person_ entity appearing as author of a _File_ which a _Dataset_ nests under _hasPart_, counter-intuitively lead to the need to consider the JSON-LD as an RDF Graph, as an identified Person entity then can appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
+However, we found that the use of trees for, say,* a _Person_ entity appearing as author of a _File_ which nests under a _Dataset, _hasPart_*, counter-intuitively leads one to consider the JSON-LD as an RDF Graph, as an identified Person entity can then appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
 
-In comparison, a single flat `@graph` array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasizes Research Object's principle that describing the context and provenance is just as important as describing the data.
+By comparison, a single flat `@graph` array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasizes Research Object's principle that describing the context and provenance is just as important as describing the data.
 
 While RO-Crate mainly uses schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the `@context` to find Linked Data definitions of unknown properties and types. Thus, RO-Crate provides its own versioned JSON-LD context, which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents; for instance, `author` maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [@pcdm] for repositories and Bioschemas [@bioschemas_2017] for describing computational workflows.
 
@@ -319,7 +319,7 @@ Similarly, rather than relying on implications from `"@type: @id"` annotations i
 
 ## RO-Crate Community
 
-The RO-Crate conceptual model, implementation and best practice guides are developed by a growing community. The RO-Crate community is a key aspect of its effectiveness in making research artifacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures its interoperability. 
+The RO-Crate conceptual model, implementation and best practice guides are developed by a growing community. The RO-Crate community is a key aspect of its effectiveness in making research artefacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures its interoperability. 
 
 The RO-Crate community consists of:
 
@@ -331,40 +331,40 @@ The RO-Crate community consists of:
 
 The initial concept of RO-Crate was formed at the first Workshop on Research Objects ([RO2018](https://www.researchobject.org/ro2018/)) held as part of the IEEE conference on eScience. This, in turn, followed up considerations made at an [RDA meeting on Research Data Packaging](https://rd-alliance.org/approaches-research-data-packaging-rda-11th-plenary-bof-meeting) that found similar goals across multiple data packaging efforts [@doi:10.5281/zenodo.3250687]: simplicity, structured metadata and the use of JSON-LD.
 
-Discussions at RO2018 identified that the original Wf4Ever Research Object ontologies [@doi:10.1016/j.websem.2015.01.003], while in principle sufficient for packaging research artifacts with rich descriptions, were, in practice, considered inaccessible for regular programmers (e.g. Web developers) and in danger of being incomprehensible for domain scientists due to their reliance on Semantic Web technologies and other ontologies.
+Discussions at RO2018 identified that the original Wf4Ever Research Object ontologies [@doi:10.1016/j.websem.2015.01.003], while in principle sufficient for packaging research artefacts with rich descriptions, were, in practice, considered inaccessible for regular programmers (e.g. Web developers) and in danger of being incomprehensible for domain scientists due to their reliance on Semantic Web technologies and other ontologies.
 
 DataCrate [@doi:10.5281/zenodo.1445817] was presented at RO2018 as a promising lightweight alternative approach, and an agreement was made by a group of volunteers to attempt building “RO Lite” as a combination of DataCrate's implementation and Research Object's principles.
 
-This group, originally made up of library and semantic web experts, has subsequently grown to include domain scientists, developers, publishers and more. This multiple perspective view led to the specification being used in a variety of domains, from bioinformatics and regulatory submissions to humanities and cultural heritage preservation. 
+This group, originally made up of library and semantic web experts, has subsequently grown to include domain scientists, developers, publishers and more. This perspective of multiple views led to the specification being used in a variety of domains, from bioinformatics and regulatory submissions to humanities and cultural heritage preservation. 
 
-The RO-Crate community is strongly engaged with the European-wide biology collaboration ELIXIR [@doi:10.1016/j.tibtech.2012.02.002], along with European Open Science Cloud (EOSC) projects including EOSC-Life and FAIRplus. RO-Crate is also maintaining collaborations with Bioschemas, GA4GH, OpenAIRE and multiple H2020 projects.
+The RO-Crate community is strongly engaged with the European-wide biology/bioinformatics collaborative e-Infrastructure, ELIXIR,  [@doi:10.1016/j.tibtech.2012.02.002], along with European Open Science Cloud (EOSC) projects including EOSC-Life and FAIRplus. RO-Crate has also established collaborations with Bioschemas, GA4GH, OpenAIRE and multiple H2020 projects.
 
-A key set of stakeholders is that of developers. The community has made a point of attracting developers that are able to implement the specifications but, importantly, keeps “developer user experience” in mind. This means that the specifications are straightforward to implement and thus do not require expertise in technologies that are not widely deployed. 
+A key set of stakeholders is that of developers; the community has made a point of attracting developers that are able to implement the specifications but, importantly, keeps “developer user experience” in mind. This means that the specifications are straightforward to implement and thus do not require expertise in technologies that are not widely deployed. 
 
 This notion of catering to “developer user experience” is an example of the set of norms that have developed and now define the community. 
 
 
 ### Norms
 
-We use the notion of norm here instead of principle: these are conventions or notions that are prevalent within the community but not formalized. Here, we distill what we as authors believe are the critical set of norms that have facilitated the development of RO-Crate and contribute to the ability for RO-Crate research packages to be FAIR. This is not to say that there are no other norms within the community or that every one in the community holds these uniformly. Instead, what we emphasize is that these norms are helpful and also shaped by community practice. 
+We use the notion of norm here instead of principle: these are conventions or notions that are prevalent within the community but not formalized. Here, we distil what we as authors believe are the critical set of norms that have facilitated the development of RO-Crate and contribute to the ability for RO-Crate research packages to be FAIR. This is not to say that there are no other norms within the community or that every one in the community holds these uniformly. Instead, what we emphasize is that these norms are helpful and also shaped by community practice. 
 
 1. Simplicity
 2. Developer friendliness
 3. Focus on examples and best practice over rigorous specification
 4. Reuse “just enough” Web standards
 
-A core norm of RO-Crate is that of **simplicity**, which sets the scene for how we guide developers to structure metadata with RO-Crate. We focus mainly on documenting simple approaches to the most common use cases, such as authors having an affiliation. This norm of simplicity also influences our take on **developer friendliness**; for instance, in that we are using the Web-native JSON format and allowing only a few of JSON-LD's flexible Linked Data features, and that the RO-Crate documentation is largely built up by **examples** showcasing **best practice**, rather than rigorous specifications. In a sense, we are allowed to do this by building on existing **Web standards** that themselves are defined rigorously, which we utilize _“**just enough**”_ in order to benefit from the advantages of Linked Data (e.g. extensions by namespaced vocabularies), without imposing too many developer choices or uncertainties (e.g. having to choose between the many RDF syntaxes). 
+A core norm of RO-Crate is that of **simplicity**, which sets the scene for how we guide developers to structure metadata with RO-Crate. We focus mainly on documenting simple approaches to the most common use cases, such as authors having an affiliation. This norm of simplicity also influences our take on **developer friendliness**; for instance, in that we are using the Web-native JSON format and allowing only a few of JSON-LD's flexible Linked Data features, and that the RO-Crate documentation is largely built up by **examples** showcasing **best practice**, rather than rigorous specifications. In a sense, we are allowed to do this by building on existing **Web standards** that themselves are defined rigorously, which we utilise _“**just enough**”_ in order to benefit from the advantages of Linked Data (e.g. extensions by namespaced vocabularies), without imposing too many developer choices or uncertainties (e.g. having to choose between the many RDF syntaxes). 
 
-RO-Crate is not developed in a vacuum, and while the above norms alone could easily lead to the creation of “yet another” JSON format, we are also keeping the goal of **FAIR interoperability** of the captured metadata, and therefore follow closely FAIR best practices and current developments such as data citations, permanent identifiers, open repositories and recommendations for sharing research outputs and software.
+RO-Crate is not developed in a vacuum, and while the above norms alone could easily lead to the creation of “yet another” JSON format, we are also keeping the goal of **FAIR interoperability** of the captured metadata, and therefore follow closely FAIR best practices and current developments such as data citations, persistent identifiers, open repositories and recommendations for sharing research outputs and software.
 
 
 ### Open Platforms
 
-The critical infrastructure that enables the community around RO-Crate is the use of open development platforms. This might not seem novel, but it underpins the importance of open community access to supporting FAIR. Specifically, it is difficult to build and consume FAIR research artifacts without being able to access the specifications, understand how they are developed, knowing about any potential implementation issues, and discuss usage to evolve best practices. 
+The critical infrastructure that enables the community around RO-Crate is the use of open development platforms. This might not seem novel, but it underpins the importance of open community access to supporting FAIR. Specifically, it is difficult to build and consume FAIR research artefacts without being able to access the specifications, understand how they are developed, knowing about any potential implementation issues, and discuss usage to evolve best practices. 
 
 It was seen as more important to document real-life examples and best practice guides than to develop a rigorous specification. At the same time, we agreed to be opinionated on the syntactic form to reduce the jungle of implementation choices; we wanted to keep the important aspects of Linked Data to adhere to the FAIR principles while retaining the option of combining and extending the structured metadata using the existing Semantic Web stack, not just build “yet another” standalone JSON format. 
 
-Further work during 2019 started adapting the DataCrate documentation through a more collaborative and exploratory _RO-Lite_ phase, initially using Google Docs for review and discussion, then moving to GitHub as a collaboration space for developing what is now the RO-Crate specification, [maintained as Markdown](https://github.com/researchobject/ro-crate/) in GitHub Pages and published with Zenodo. 
+Further work during 2019 started adapting the DataCrate documentation through a more collaborative and exploratory _RO-Lite_ phase, initially using Google Docs for review and discussion, then moving to GitHub as a collaboration space for developing what is now the RO-Crate specification, [maintained as Markdown](https://github.com/researchobject/ro-crate/) in GitHub Pages and published through Zenodo. 
 
 In addition to the typical Open Source-style development with GitHub issues and pull requests, the RO-Crate Community now has two regular monthly calls, a Slack channel and mailing list for coordinating the project, and many of its participants collaborate on RO-Crate at multiple conferences and coding events such as the ELIXIR BioHackathon. The community is jointly developing the RO-Crate specification and Open Source tools, as well as providing support and considering new use cases. The [RO-Crate Community](https://www.researchobject.org/ro-crate/community) is open for anyone to join, to equally participate under a code of conduct, and currently has more than 40 members. 
 
