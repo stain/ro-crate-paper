@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -65,7 +65,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 GH
@@ -82,7 +82,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 José
@@ -150,7 +150,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization

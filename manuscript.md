@@ -63,9 +63,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/4de50d222335ac177af6d760fe5ab3cb6737b980/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4de50d222335ac177af6d760fe5ab3cb6737b980/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4de50d222335ac177af6d760fe5ab3cb6737b980/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3670228a19190b20461ce8422855985ffbee72cd/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3670228a19190b20461ce8422855985ffbee72cd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3670228a19190b20461ce8422855985ffbee72cd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/4de50d222335ac177af6d760fe5ab3cb6737b980/))
+([permalink](https://stain.github.io/ro-crate-paper/v/3670228a19190b20461ce8422855985ffbee72cd/))
 was automatically generated
-from [stain/ro-crate-paper@4de50d2](https://github.com/stain/ro-crate-paper/tree/4de50d222335ac177af6d760fe5ab3cb6737b980)
+from [stain/ro-crate-paper@3670228](https://github.com/stain/ro-crate-paper/tree/3670228a19190b20461ce8422855985ffbee72cd)
 on May 14, 2021.
 </em></small>
 
@@ -551,29 +551,52 @@ This work has received funding from the European Commission's Horizon 2020 resea
 
 Author contributions according to the Contributor Roles Taxonomy [CASRAI CrEDiT](https://casrai.org/credit/) [@doi:10.1087/20150211]:
 
-* **Stian Soiland-Reyes**: Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review \& editing
-* **Peter Sefton**: Conceptualization, Methodology, Project administration, Software, Writing – review \& editing
-* **Simone Leo**: Software, Writing – review \& editing
-* **Ana Trisovic**: Software, Writing – review \& editing
-* **RO-Crate Community**: Software, Validation, Writing – review \& editing
-* **Paul Groth**: Methodology, Supervision, Writing – original draft, Writing – review \& editing
-* **Carole Goble**: Conceptualization, Funding acquisition, Methodology, Project administration, Supervision, Visualization, Writing – review \& editing
+Stian Soiland-Reyes
+: Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review \& editing
+Peter Sefton
+: Conceptualization, Methodology, Project administration, Software, Writing – review \& editing
+Simone Leo
+: Software, Writing – review \& editing
+Ana Trisovic
+: Software, Writing – review \& editing
+RO-Crate Community
+: Software, Validation, Writing – review \& editing
+Paul Groth
+: Methodology, Supervision, Writing – original draft, Writing – review \& editing
+Carole Goble
+: Conceptualization, Funding acquisition, Methodology, Project administration, Supervision, Visualization, Writing – review \& editing
 
-We would also like to thank:
+ \  
 
-* **Mercè Crosas**: Writing – review \& editing
-* **Daniel Garijo**: Methodology
-* **Eoghan Ó Carragáin**: Project administration, Writing – review \& editing
-* **Finn Bacall**: Software, Methodology
-* **Frederik Coppens**: Writing – review \& editing
-* **Herbert Van de Sompel**: Writing – review \& editing 
-* **Ignacio Eguinoa**: Software
-* **José María Fernández**: Methodology
-* **Marc Portier**: Methodology
-* **Marco La Rosa**: Software, Methodology
-* **Nick Juty**: Writing – review \& editing
-* **Oscar Corcho**: Writing – review \& editing
-* **Stuart Owen**: Writing – review \& editing
+  
+We would also like to thank for contributions from:
+
+Daniel Garijo
+: Methodology
+Eoghan Ó Carragáin
+: Project administration, Writing – review \& editing
+Finn Bacall
+: Software, Methodology
+Frederik Coppens
+: Writing – review \& editing
+Herbert Van de Sompel
+: Writing – review \& editing 
+Ignacio Eguinoa
+: Software
+José María Fernández
+: Methodology
+Marc Portier
+: Methodology
+Marco La Rosa
+: Software, Methodology
+Mercè Crosas
+: Writing – review \& editing
+Nick Juty
+: Writing – review \& editing
+Oscar Corcho
+: Writing – review \& editing
+Stuart Owen
+: Writing – review \& editing
 
 
 
