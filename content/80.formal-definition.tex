@@ -1,7 +1,7 @@
-%% TODO: Being onverted to LaTex math mode. See GitHub rendering for original Unicode symbols
+%% TODO: Convert to LaTex math mode. See GitHub rendering for original Unicode symbols
 % https://github.com/stain/ro-crate-paper/blob/master/content/80.formal-definition.md
 
-% Text remains for now as Markdown blocks
+% Text remains for now as Markdown
 
 
 \begin{markdown}
@@ -25,7 +25,7 @@ Definition of language $\mathcal{L}_{rocrate}$:
 \end{eqnarray*}
 
 \begin{markdown}
-The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers $\mathbb{R}$ (notation `13.37`) and literal strings $\mathbb{S}$ (notation `"Hello"`). 
+The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`), with additional descriptions using numbers $\mathbb{R}$ (notation $13.37$) and literal strings $\mathbb{S}$ (notation $\text{“Hello”}$). 
 
 From this formalised language $\mathcal{L}_{rocrate}$ we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 \end{markdown}
@@ -69,27 +69,35 @@ For simplicity in this formalization (and to assist production rules below) $R$ 
 ### Example of formalized RO-Crate 
 
 The below is an example RO-Crate represented using the above formalization, assuming a base URI of `<http://example.com/ro/123/>`:
-
-    ROCrate(<http://example.com/ro/123/>)
-    name(<http://example.com/ro/123/, 
-        “Data files associated with the manuscript:Effects of …”)
-    description(<http://example.com/ro/123/, 
-        “Palliative care planning for nursing home residents …")
-    datePublished(<http://example.com/ro/123/>, “2017")
-    license(<http://example.com/ro/123/>, 
-        <https://creativecommons.org/licenses/by-nc-sa/3.0/au/>
-    ContextualEntity(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>)
-    name(<https://creativecommons.org/licenses/by-nc-sa/3.0/au/, 
-        “Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”)
-
-    hasPart(<http://example.com/ro/123/>, <http://example.com/ro/123/file.txt>)
-    File(<http://example.com/ro/123/survey.csv>)
-    name(<http://example.com/ro/123/survey.csv>, “Survey of care providers”)
-    hasPart(<http://example.com/ro/123/>, <http://www.example.om/ro/123/folder/>)
-    Dataset(<http://example.com/ro/123/interviews/>)
-    name(<http://example.com/ro/123/interviews/>, 
-        “Audio recordings of care provider interviews”)
 \end{markdown}
+
+\allowdisplaybreaks
+\begin{eqnarray*}
+&& ROCrate(\texttt{<http://example.com/ro/123/>}) \\
+&& name(\texttt{<http://example.com/ro/123/>}, \\
+&& \ \ \ \ \ \text{“Data files associated with the manuscript:Effects of …”}) \\
+&& description(\texttt{<http://example.com/ro/123/}, \\
+&& \ \ \ \ \ \text{“Palliative care planning for nursing home residents …”}) \\
+&& license(\texttt{<http://example.com/ro/123/>}, \\ 
+&& \ \ \ \ \ \texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>}) \\ 
+&& datePublished(\texttt{<http://example.com/ro/123/>}, \text{“2017-02-23”}) \\ 
+&& hasPart(\texttt{<http://example.com/ro/123/>}, 
+        \texttt{<http://example.com/ro/123/file.txt>}) \\
+&& hasPart(\texttt{<http://example.com/ro/123/>}, 
+        \texttt{<http://www.example.om/ro/123/folder/>}) \\
+\\
+&& ContextualEntity(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>}) \\
+&& name(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>},  \\
+&& \ \ \ \ \  \text{“Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”}) \\
+\\
+&& File(\texttt{<http://example.com/ro/123/survey.csv>}) \\
+&& name(\texttt{<http://example.com/ro/123/survey.csv>}, 
+        \text{“Survey of care providers”}) \\
+\\
+&& Dataset(\texttt{<http://example.com/ro/123/interviews/>}) \\
+&& name(\texttt{<http://example.com/ro/123/interviews/>},  \\
+&& \ \ \ \ \  \text{“Audio recordings of care provider interviews”}) 
+\end{eqnarray*}
 
 \begin{markdown}
 In reality many additional attributes from schema.org types like <http://schema.org/Dataset> and <http://schema.org/CreativeWork> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
