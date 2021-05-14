@@ -1120,7 +1120,16 @@ journal = {Zenodo},
 doi = {10.5281/zenodo.4705078},
 abstract = {The original scope of task 8.3 is to develop metrics to assess the impact on reproducibility of the availability of life-science open data and workflows in the cloud. A great part of the activities within {EOSC}-Life is actually related to reproducibility and provides in several ways tools that will have an impact. Therefore, we decided that it would be more informative to describe such activities and to explain why and how they will have an impact on reproducibility in life sciences, instead of providing abstract metrics for such an impact. For these reasons, we changed the title of the deliverable, from \textquotedblleftframework to assess ...\textquotedblright to \textquotedblleftframework to enhance reproducibility\textquotedblright. First of all, we reasoned on what can be the contribution of open science to improve the reproducibility of research. Publicly sharing data, protocols, tools and computational workflows makes it possible to compare or combine the data and outcomes from different studies within a discipline as well as integrate data across scientific domains. It allows conclusions to be validated and possibly corrected as well as being reinforced by meta-analyses. Replication data and test/training data can also be used in many applications to contribute to reproducible research. Moreover, new hypotheses, different from the original aims of the study, can be explored. Data sets can be re-used to develop and test new methods, to conduct scientific and technical benchmarking activities and to support training activities. Therefore, in addition to generating more value from research investments, data sharing has the potential to increase confidence in research outcomes and increase knowledge dissemination. These benefits of open sharing have long been recognized in some fields such as bioinformatics, which has a long history of publicly sharing data with, for example, public repositories for nucleotide sequences going back 30 years and the Protein Data Bank ({PDB}), a repository of information about the {3D} structures of proteins, nucleic acids and complex assemblies, that celebrates its 50th birthday this year. In this notion, any improvement in sharing of data, tools and workflows among scientists and across disciplines, that is the aim of {EOSC}-Life and the wider {EOSC}, will contribute to reproducible science. In addition to this general scope, several specific actions to frame transparency in the reporting of experimental protocols, data and analytical workflows warrant the reproducibility of each single object (experimental results, data or workflows) that is made available on the cloud. We will describe here the initiatives in {EOSC}-Life to implement existing tools for reproducibility as well as to develop new tools for its enhancement. As the final goal of {EOSC}-Life is to make data resources available to the wider community of life scientists, although necessarily technical in several points, this document aims at a general readership, including experimental in addition to data scientists.}
 }
-
+@misc{athenarc-schema,
+title = {{GitHub} - athenarc/schema: {SCHeMa} (Scheduler for scientific Containers on clusters of Heterogeneous Machines)},
+author = {Zagganas, Kostis and Gonzalez, Alvaro and Kolaitis, Aggelos and Deneke, Tewodros},
+url = {https://github.com/athenarc/schema},
+year = {2021},
+urldate = {2021-05-10},
+sciwheel-projects = {ro-crate-paper},
+abstract = {an open source platform to facilitate the execution and reproducibility of computational experiments on heterogeneous clusters.},
+type = {WEBSITE}
+}
 
 @article{doi:10.1093/gigascience/giz095,
 title = {Sharing interoperable workflow provenance: A review of best practices and their practical application in {CWLProv}},
@@ -1168,6 +1177,16 @@ doi = {10.4126/frl01-006423291},
 sciwheel-projects = {ro-crate-paper}
 }
 
+@article{doi:10.5281/zenodo.4671709,
+title = {Use of {RO}-Crates in {SCHeMa}},
+author = {Vergoulis, Thanasis},
+year = {2021},
+month = {apr},
+day = {8},
+journal = {Zenodo},
+doi = {10.5281/zenodo.4671709},
+abstract = {Presentation of the use of {RO}-Crate objects in {SCHeMa}.}
+}
 @article{doi:10.15497/rda00039,
 title = {{RDA} {DMP} Common Standard for Machine-actionable Data Management Plans},
 author = {Walk, Paul and Miksa, Tomasz and Neish, Peter},
@@ -1192,7 +1211,6 @@ pmcid = {PMC6438441},
 sciwheel-projects = {ro-crate-paper},
 abstract = {Data management plans ({DMPs}) are documents accompanying research proposals and project outputs. {DMPs} are created as free-form text and describe the data and tools employed in scientific investigations. They are often seen as an administrative exercise and not as an integral part of research practice. There is now widespread recognition that the {DMP} can have more thematic, machine-actionable richness with added value for all stakeholders: researchers, funders, repository managers, research administrators, data librarians, and others. The research community is moving toward a shared goal of making {DMPs} machine-actionable to improve the experience for all involved by exchanging information across research tools and systems and embedding {DMPs} in existing workflows. This will enable parts of the {DMP} to be automatically generated and shared, thus reducing administrative burdens and improving the quality of information within a {DMP}. This paper presents 10 principles to put machine-actionable {DMPs} ({maDMPs}) into practice and realize their benefits. The principles contain specific actions that various stakeholders are already undertaking or should undertake in order to work together across research communities to achieve the larger aims of the principles themselves. We describe existing initiatives to highlight how much progress has already been made toward achieving the goals of {maDMPs} as well as a call to action for those who wish to get involved.}
 }
-
 @article{doi:10.5281/zenodo.3922136,
 title = {{RO}-Crate {RDA} {maDMP} Mapper},
 author = {Arfaoui, Ghaith and Jaoua, Maroua},
@@ -1248,4 +1266,16 @@ volume = {6},
 issn = {2367-7163},
 doi = {10.3897/rio.6.e57602},
 abstract = {This report reviews the current state-of-the-art applied approaches on automated tools, services and workflows for extracting information from images of natural history specimens and their labels. We consider the potential for repurposing existing tools, including workflow management systems; and areas where more development is required. This paper was written as part of the {SYNTHESYS}+ project for software development teams and informatics teams working on new software-based approaches to improve mass digitisation of natural history specimens.}
+}
+@techreport{dcat2,
+title = {Data Catalog Vocabulary ({DCAT}) - Version 2},
+author = {Albertoni, Riccardo and Browning, David and Cox, Simon and Gonzalez Beltran, Alejandra and Perego, Andrea and Winstanley, Peter and Dataset Exchange Working Group,},
+publisher = {W3C},
+url = {https://www.w3.org/{TR}/2020/{REC}-vocab-dcat-2-20200204/},
+year = {2020},
+month = {feb},
+day = {4},
+urldate = {2021-05-10},
+sciwheel-projects = {ro-crate-paper},
+type = {{W3C} Recommendation}
 }
