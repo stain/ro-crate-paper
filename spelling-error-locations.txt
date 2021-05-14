@@ -319,6 +319,7 @@ content/31.tooling-table.md:11:WorkflowHub
 content/31.tooling-table.md:12:lifemonitor
 content/31.tooling-table.md:12:RO
 content/31.tooling-table.md:13:RO
+content/31.tooling-table.md:13:zenodo
 content/31.tooling-table.md:14:RO
 content/31.tooling-table.md:15:OCFL
 content/31.tooling-table.md:15:PARADISEC
@@ -333,12 +334,16 @@ content/31.tooling-table.md:17:RO
 content/31.tooling-table.md:18:ro
 content/31.tooling-table.md:18:RO
 content/31.tooling-table.md:18:ROs
-content/31.tooling-table.md:19:DMP
 content/31.tooling-table.md:19:maDMP
-content/31.tooling-table.md:19:Ro
+content/31.tooling-table.md:19:maDMP
 content/31.tooling-table.md:19:RO
 content/31.tooling-table.md:19:zenodo
-content/31.tooling-table.md:21:RO
+content/31.tooling-table.md:20:DMP
+content/31.tooling-table.md:20:maDMP
+content/31.tooling-table.md:20:Ro
+content/31.tooling-table.md:20:RO
+content/31.tooling-table.md:20:zenodo
+content/31.tooling-table.md:22:RO
 content/40.inuse.md:1:RO
 content/40.inuse.md:3:Bioinformatics
 content/40.inuse.md:3:importeant
