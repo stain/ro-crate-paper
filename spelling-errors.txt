@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -65,7 +65,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 GH
@@ -82,7 +82,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-Interoperable
+interoperable
 interpretable
 IRI
 José
@@ -143,7 +143,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
@@ -177,7 +177,7 @@ telcons
 templating
 Thelen
 Trisovic
-UML
+uml
 unshortened
 URI
 UseGalaxy
