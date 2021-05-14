@@ -14,7 +14,7 @@
       "Research Object"
     ],
     "lang": "en-GB",
-    "date-meta": "2021-05-11",
+    "date-meta": "2021-05-14",
     "author-meta": [
       "Stian Soiland-Reyes",
       "Peter Sefton",
@@ -23,7 +23,7 @@
       "Carole Goble",
       "Paul Groth"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"citation_title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"og:title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"twitter:title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"dc.date\" content=\"2021-05-11\" />\n<meta name=\"citation_publication_date\" content=\"2021-05-11\" />\n<meta name=\"dc.language\" content=\"en-GB\" />\n<meta name=\"citation_language\" content=\"en-GB\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Stian Soiland-Reyes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, The University of Manchester, UK\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9842-9718\" />\n<meta name=\"twitter:creator\" content=\"@soilandreyes\" />\n<meta name=\"citation_author\" content=\"Peter Sefton\" />\n<meta name=\"citation_author_institution\" content=\"Faculty of Science, University Technology Sydney, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3545-944X\" />\n<meta name=\"citation_author\" content=\"Simone Leo\" />\n<meta name=\"citation_author_institution\" content=\"Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8271-5429\" />\n<meta name=\"twitter:creator\" content=\"@_simleo_\" />\n<meta name=\"citation_author\" content=\"RO-Crate Community\" />\n<meta name=\"citation_author\" content=\"Carole Goble\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, The University of Manchester, UK\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1219-2137\" />\n<meta name=\"citation_author\" content=\"Paul Groth\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0183-6910\" />\n<link rel=\"canonical\" href=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"og:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"twitter:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"citation_title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"og:title\" content=\"Packaging research data with RO-Crate\" />\n<meta property=\"twitter:title\" content=\"Packaging research data with RO-Crate\" />\n<meta name=\"dc.date\" content=\"2021-05-14\" />\n<meta name=\"citation_publication_date\" content=\"2021-05-14\" />\n<meta name=\"dc.language\" content=\"en-GB\" />\n<meta name=\"citation_language\" content=\"en-GB\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Stian Soiland-Reyes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, The University of Manchester, UK\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9842-9718\" />\n<meta name=\"twitter:creator\" content=\"@soilandreyes\" />\n<meta name=\"citation_author\" content=\"Peter Sefton\" />\n<meta name=\"citation_author_institution\" content=\"Faculty of Science, University Technology Sydney, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3545-944X\" />\n<meta name=\"citation_author\" content=\"Simone Leo\" />\n<meta name=\"citation_author_institution\" content=\"Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8271-5429\" />\n<meta name=\"twitter:creator\" content=\"@_simleo_\" />\n<meta name=\"citation_author\" content=\"RO-Crate Community\" />\n<meta name=\"citation_author\" content=\"Carole Goble\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, The University of Manchester, UK\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1219-2137\" />\n<meta name=\"citation_author\" content=\"Paul Groth\" />\n<meta name=\"citation_author_institution\" content=\"Informatics Institute, Faculty of Science, University of Amsterdam, NL\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0183-6910\" />\n<link rel=\"canonical\" href=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"og:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta property=\"twitter:url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://stain.github.io/ro-crate-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://stain.github.io/ro-crate-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://stain.github.io/ro-crate-paper/v/032d930c5c47246a7f85f33ec377b5189fc6d47b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/032d930c5c47246a7f85f33ec377b5189fc6d47b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://stain.github.io/ro-crate-paper/v/032d930c5c47246a7f85f33ec377b5189fc6d47b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references-ro-crate.bib",
       "content/manual-references.json"
@@ -34,7 +34,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "May 11, 2021",
+    "date": "May 14, 2021",
     "authors": [
       {
         "github": "stain",
@@ -149,19 +149,19 @@
       "repo_slug": "stain/ro-crate-paper",
       "repo_owner": "stain",
       "repo_name": "ro-crate-paper",
-      "commit": "e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5",
-      "triggering_commit": "e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5",
-      "build_url": "https://github.com/stain/ro-crate-paper/commit/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/checks",
+      "commit": "032d930c5c47246a7f85f33ec377b5189fc6d47b",
+      "triggering_commit": "032d930c5c47246a7f85f33ec377b5189fc6d47b",
+      "build_url": "https://github.com/stain/ro-crate-paper/commit/032d930c5c47246a7f85f33ec377b5189fc6d47b/checks",
       "job_url": "https://github.com/stain/ro-crate-paper/runs/run3"
     },
     "html_url": "https://stain.github.io/ro-crate-paper/",
     "pdf_url": "https://stain.github.io/ro-crate-paper/manuscript.pdf",
-    "html_url_versioned": "https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/",
-    "pdf_url_versioned": "https://stain.github.io/ro-crate-paper/v/e6ca5e3f5b4a58fd1286e24ef7a5a6fdb07f7af5/manuscript.pdf",
+    "html_url_versioned": "https://stain.github.io/ro-crate-paper/v/032d930c5c47246a7f85f33ec377b5189fc6d47b/",
+    "pdf_url_versioned": "https://stain.github.io/ro-crate-paper/v/032d930c5c47246a7f85f33ec377b5189fc6d47b/manuscript.pdf",
     "manubot_version": "0.5.0",
     "rootstock_commit": "f09ce13278540620afe5a67840ef23284d4d83f9",
     "manuscript_stats": {
-      "word_count": 9432
+      "word_count": 9434
     }
   }
 }
