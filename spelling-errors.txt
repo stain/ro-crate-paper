@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -81,7 +81,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-Interoperable
+interoperable
 interpretable
 IRI
 José
@@ -91,7 +91,7 @@ Juty
 Kanitz
 Koehorst
 Kosuke
-LD
+Ld
 LD’s
 LFS
 lifecycle
@@ -163,7 +163,7 @@ Soiland
 soilandreyes
 Sompel
 SPARQL
-specializaton
+specialization
 specialized
 SSHRC
 Stian
@@ -177,7 +177,7 @@ templating
 Thelen
 Trisovic
 txt
-uml
+UML
 unshortened
 URI
 UseGalaxy
