@@ -128,9 +128,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/9e0cfecbc857751d81aa31d20ea4a297794ad7c9/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9e0cfecbc857751d81aa31d20ea4a297794ad7c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9e0cfecbc857751d81aa31d20ea4a297794ad7c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -144,9 +144,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/9e0cfecbc857751d81aa31d20ea4a297794ad7c9/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/9e0cfecbc857751d81aa31d20ea4a297794ad7c9">stain/ro-crate-paper@9e0cfec</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285">stain/ro-crate-paper@a7cd9b9</a>
 on May 17, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -257,9 +257,9 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 </figure>
 </div>
 <h3 id="best-practice-guide-rather-than-strict-specification">Best Practice Guide rather than strict specification</h3>
-<p>RO-Crate builds on Linked Data standards and community-evolved vocabularies like JSON-LD <span class="citation" data-cites="17q6tYFV2">[<a href="#ref-17q6tYFV2" role="doc-biblioref">17</a>]</span> and <a href="https://schema.org/">Schema.org</a> <span class="citation" data-cites="sPbaKC9t">[<a href="#ref-sPbaKC9t" role="doc-biblioref">18</a>]</span>, but rather than enforce additional constraints and limits — using perhaps intimidating technologies like <em>RDF shapes</em> (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply existing standards in a common way to describe research outputs and their provenance.</p>
+<p>RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD <span class="citation" data-cites="17q6tYFV2">[<a href="#ref-17q6tYFV2" role="doc-biblioref">17</a>]</span> and <a href="https://schema.org/">Schema.org</a> <span class="citation" data-cites="sPbaKC9t">[<a href="#ref-sPbaKC9t" role="doc-biblioref">18</a>]</span>, but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as <em>RDF shapes</em> (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply existing standards in a common way to describe research outputs and their provenance.</p>
 <p>As such, the <a href="https://w3id.org/ro/crate/1.1">RO-Crate 1.1</a> specification <span class="citation" data-cites="6Lj8VCHS">[<a href="#ref-6Lj8VCHS" role="doc-biblioref">19</a>]</span> can be seen as an opinionated and example-driven guide to writing Schema.org metadata as JSON-LD, which leaves it open for implementers to include additional metadata using other Schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.</p>
-<p>This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the JSON-LD being <em>flattened</em> and <em>compacted</em>, to facilitate lightweight consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalised different <em>profiles</em> of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate to contain at least one workflow with a declared license and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of <a href="https://fairdo.org/">FAIR Digital Objects</a>. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation requirements.</p>
+<p>This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the JSON-LD being <em>flattened</em> and <em>compacted</em>, to facilitate lightweight consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalised different <em>profiles</em> of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate to contain at least one workflow with a declared licence and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of <a href="https://fairdo.org/">FAIR Digital Objects</a>. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation requirements.</p>
 <h3 id="checking-simplicity">Checking Simplicity</h3>
 <p>As previously stated, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through a community review process. See for example the discussion at (<a href="https://github.com/ResearchObject/ro-crate/issues/71">GitHub issue #71 on ad-hoc vocabularies</a>).</p>
 <p>To further verify this idea, we have formalised the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalisation also emphasises the <em>boundedness</em> of the structure; namely, the fact that elements are specifically identified as being either semantically <em>contained</em> by the RO-Crate (<code>hasPart</code>) or mainly referenced (<code>mentions</code>) and typed as <em>external</em> to the Research Object (Contextual Entities).</p>
@@ -556,9 +556,24 @@ Informatics Institute, Faculty of Science, University of Amsterdam, NL
 Peter Sefton
 </dd>
 <dd>Conceptualization, Methodology, Project administration, Software, Writing – review &amp; editing
+Mercè Crosas
+</dd>
+<dd>Writing – review &amp; editing
+José María Fernández
+</dd>
+<dd>Methodology, Software, Writing – review &amp; editing
+Daniel Garijo
+</dd>
+<dd>Methodology, Writing – review &amp; editing
+Marco La Rosa
+</dd>
+<dd>Software, Methodology, Writing – review &amp; editing
 Simone Leo
 </dd>
-<dd>Software, Writing – review &amp; editing
+<dd>Software, Methodology, Writing – review &amp; editing
+Marc Portier
+</dd>
+<dd>Methodology, Writing – review &amp; editing
 Ana Trisovic
 </dd>
 <dd>Software, Writing – review &amp; editing
@@ -573,13 +588,9 @@ Carole Goble
 <dd>Conceptualization, Funding acquisition, Methodology, Project administration, Supervision, Visualization, Writing – review &amp; editing
 </dd>
 </dl>
-<p> </p>
 <p>We would also like to thank for contributions from:</p>
 <dl>
-<dt>Daniel Garijo</dt>
-<dd>Methodology, Writing – review &amp; editing
-Eoghan Ó Carragáin
-</dd>
+<dt>Eoghan Ó Carragáin</dt>
 <dd>Project administration, Writing – review &amp; editing
 Finn Bacall
 </dd>
@@ -592,19 +603,7 @@ Herbert Van de Sompel
 <dd>Writing – review &amp; editing
 Ignacio Eguinoa
 </dd>
-<dd>Software
-José María Fernández
-</dd>
-<dd>Methodology
-Marc Portier
-</dd>
-<dd>Methodology
-Marco La Rosa
-</dd>
 <dd>Software, Methodology
-Mercè Crosas
-</dd>
-<dd>Writing – review &amp; editing
 Nick Juty
 </dd>
 <dd>Writing – review &amp; editing
