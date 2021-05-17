@@ -1,5 +1,6 @@
 Alasdair
 artifacts
+atrisovic
 automatable
 BagIt
 BCO
@@ -10,11 +11,12 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
 Bremer
+CaroleAnneGoble
 carolegoble
 Carragáin
 CASRAI
@@ -43,6 +45,7 @@ datetime
 DBPedia
 DCAT
 Describo
+dgarijov
 digitization
 DMP
 DOIs
@@ -81,9 +84,11 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
+Instituut
 Interoperable
 interpretable
 IRI
+JMFernand
 José
 js
 JSON
@@ -91,7 +96,7 @@ Juty
 Kanitz
 Koehorst
 Kosuke
-LD
+Ld
 LD’s
 LFS
 lifecycle
@@ -103,8 +108,10 @@ maDMPs
 María
 Ménager
 Mercè
+mercecrosas
 metagenomics
 MGS
+mportier
 myExperiment
 namespaced
 namespaces
@@ -119,6 +126,7 @@ OCFL
 Ojsteršek
 ONI
 ontologies
+Oostende
 OpenAIRE
 organizations
 organized
@@ -128,6 +136,7 @@ PCDM
 pgroth
 PID
 PIDs
+Politécnica
 Portier
 productionized
 programmatically
@@ -142,7 +151,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
@@ -167,6 +176,7 @@ specialization
 specialized
 SSHRC
 Stian
+Supercomputing
 syntaxes
 SyntheSys
 Tanabe
@@ -177,12 +187,16 @@ templating
 Thelen
 Trisovic
 txt
-uml
+UML
+Universidad
 unshortened
 URI
 UseGalaxy
 Visualization
+Vlaams
+voor
 Wf
 WorkflowHub
 WorkflowHub’s
+Zee
 Zenodo

@@ -16,10 +16,16 @@ date-meta: '2021-05-17'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
+- Mercè Crosas
+- José María Fernández
+- Daniel Garijo
+- Marco La Rosa
 - Simone Leo
+- Marc Portier
+- Ana Trisovic
 - RO-Crate Community
-- Carole Goble
 - Paul Groth
+- Carole Goble
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -44,28 +50,51 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-9842-9718" />
   <meta name="twitter:creator" content="@soilandreyes" />
   <meta name="citation_author" content="Peter Sefton" />
-  <meta name="citation_author_institution" content="Faculty of Science, University Technology Sydney, Australia" />
+  <meta name="citation_author_institution" content="Faculty of Science, University Technology Sydney, AU" />
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
+  <meta name="citation_author" content="Mercè Crosas" />
+  <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
+  <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
+  <meta name="twitter:creator" content="@mercecrosas" />
+  <meta name="citation_author" content="José María Fernández" />
+  <meta name="citation_author_institution" content="Barcelona Supercomputing Center, Barcelona, ES" />
+  <meta name="citation_author_orcid" content="0000-0002-4806-5140" />
+  <meta name="twitter:creator" content="@JMFernand3z" />
+  <meta name="citation_author" content="Daniel Garijo" />
+  <meta name="citation_author_institution" content="Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES" />
+  <meta name="citation_author_orcid" content="0000-0003-0454-7145" />
+  <meta name="twitter:creator" content="@dgarijov" />
+  <meta name="citation_author" content="Marco La Rosa" />
   <meta name="citation_author" content="Simone Leo" />
   <meta name="citation_author_institution" content="Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy" />
   <meta name="citation_author_orcid" content="0000-0001-8271-5429" />
   <meta name="twitter:creator" content="@_simleo_" />
+  <meta name="citation_author" content="Marc Portier" />
+  <meta name="citation_author_institution" content="Vlaams Instituut voor de Zee}, Oostende, BE" />
+  <meta name="citation_author_orcid" content="0000-0002-9648-6484" />
+  <meta name="twitter:creator" content="@mportier" />
+  <meta name="citation_author" content="Ana Trisovic" />
+  <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
+  <meta name="citation_author_orcid" content="0000-0003-1991-0533" />
+  <meta name="twitter:creator" content="@atrisovic" />
   <meta name="citation_author" content="RO-Crate Community" />
-  <meta name="citation_author" content="Carole Goble" />
-  <meta name="citation_author_institution" content="Department of Computer Science, The University of Manchester, UK" />
-  <meta name="citation_author_orcid" content="0000-0003-1219-2137" />
   <meta name="citation_author" content="Paul Groth" />
   <meta name="citation_author_institution" content="Informatics Institute, Faculty of Science, University of Amsterdam, NL" />
   <meta name="citation_author_orcid" content="0000-0003-0183-6910" />
+  <meta name="twitter:creator" content="@pgroth" />
+  <meta name="citation_author" content="Carole Goble" />
+  <meta name="citation_author_institution" content="Department of Computer Science, The University of Manchester, UK" />
+  <meta name="citation_author_orcid" content="0000-0003-1219-2137" />
+  <meta name="twitter:creator" content="@CaroleAnneGoble" />
   <link rel="canonical" href="https://stain.github.io/ro-crate-paper/" />
   <meta property="og:url" content="https://stain.github.io/ro-crate-paper/" />
   <meta property="twitter:url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/810da070014a84c3eb918d983ceff7d4edc01d18/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/810da070014a84c3eb918d983ceff7d4edc01d18/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/810da070014a84c3eb918d983ceff7d4edc01d18/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +117,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285/))
+([permalink](https://stain.github.io/ro-crate-paper/v/810da070014a84c3eb918d983ceff7d4edc01d18/))
 was automatically generated
-from [stain/ro-crate-paper@a7cd9b9](https://github.com/stain/ro-crate-paper/tree/a7cd9b9cf4eb795a900221b0f45fc48c4e3ec285)
+from [stain/ro-crate-paper@810da07](https://github.com/stain/ro-crate-paper/tree/810da070014a84c3eb918d983ceff7d4edc01d18)
 on May 17, 2021.
 </em></small>
 
@@ -116,7 +145,38 @@ on May 17, 2021.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [ptsefton](https://github.com/ptsefton)<br>
   <small>
-     Faculty of Science, University Technology Sydney, Australia
+     Faculty of Science, University Technology Sydney, AU
+  </small>
+
++ **Mercè Crosas**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1304-1939](https://orcid.org/0000-0003-1304-1939)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [mercecrosas](https://twitter.com/mercecrosas)<br>
+  <small>
+     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+  </small>
+
++ **José María Fernández**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4806-5140](https://orcid.org/0000-0002-4806-5140)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [JMFernand3z](https://twitter.com/JMFernand3z)<br>
+  <small>
+     Barcelona Supercomputing Center, Barcelona, ES
+  </small>
+
++ **Daniel Garijo**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-0454-7145](https://orcid.org/0000-0003-0454-7145)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dgarijov](https://twitter.com/dgarijov)<br>
+  <small>
+     Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES
+  </small>
+
++ **Marco La Rosa**<br><br>
+  <small>
   </small>
 
 + **Simone Leo**<br>
@@ -131,6 +191,24 @@ on May 17, 2021.
      · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))
   </small>
 
++ **Marc Portier**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9648-6484](https://orcid.org/0000-0002-9648-6484)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [mportier](https://twitter.com/mportier)<br>
+  <small>
+     Vlaams Instituut voor de Zee}, Oostende, BE
+  </small>
+
++ **Ana Trisovic**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1991-0533](https://orcid.org/0000-0003-1991-0533)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [atrisovic](https://twitter.com/atrisovic)<br>
+  <small>
+     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+  </small>
+
 + **RO-Crate Community**<br>
     [https://www.researchobject.org/ro-crate/community](https://www.researchobject.org/ro-crate/community)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -138,23 +216,27 @@ on May 17, 2021.
   <small>
   </small>
 
-+ **Carole Goble**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1219-2137](https://orcid.org/0000-0003-1219-2137)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [carolegoble](https://github.com/carolegoble)<br>
-  <small>
-     Department of Computer Science, The University of Manchester, UK
-     · Funded by [BioExcel-2](https://bioexcel.eu/) (European Commission [H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)); [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [IBISBA](https://ibisba.eu/) (European Commission [H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)); [SyntheSys+](https://www.synthesys.info/) (European Commission [H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
-  </small>
-
 + **Paul Groth**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-0183-6910](https://orcid.org/0000-0003-0183-6910)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [pgroth](https://github.com/pgroth)<br>
+    [pgroth](https://github.com/pgroth)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [pgroth](https://twitter.com/pgroth)<br>
   <small>
      Informatics Institute, Faculty of Science, University of Amsterdam, NL
+  </small>
+
++ **Carole Goble**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1219-2137](https://orcid.org/0000-0003-1219-2137)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [carolegoble](https://github.com/carolegoble)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [CaroleAnneGoble](https://twitter.com/CaroleAnneGoble)<br>
+  <small>
+     Department of Computer Science, The University of Manchester, UK
+     · Funded by [BioExcel-2](https://bioexcel.eu/) (European Commission [H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)); [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [IBISBA](https://ibisba.eu/) (European Commission [H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)); [SyntheSys+](https://www.synthesys.info/) (European Commission [H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
   </small>
 
 
