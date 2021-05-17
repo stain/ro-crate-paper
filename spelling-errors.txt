@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -32,7 +32,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCrate
 DataCrate’s
@@ -65,7 +65,7 @@ FOAF
 formalization
 formalize
 formalized
-Formalizing
+formalizing
 Frederik
 Garijo
 GH
@@ -81,7 +81,7 @@ INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
-interoperable
+Interoperable
 interpretable
 IRI
 José
@@ -91,7 +91,7 @@ Juty
 Kanitz
 Koehorst
 Kosuke
-Ld
+LD
 LD’s
 LFS
 lifecycle
@@ -142,14 +142,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -177,7 +177,7 @@ templating
 Thelen
 Trisovic
 txt
-UML
+uml
 unshortened
 URI
 UseGalaxy
