@@ -31,24 +31,65 @@ author_info:
     orcid: 0000-0002-3545-944X
     email: Peter.Sefton@uts.edu.au
     affiliations:
-      - Faculty of Science, University Technology Sydney, Australia
+      - Faculty of Science, University Technology Sydney, AU
+  - name: Mercè Crosas
+    initials: MC
+    orcid: 0000-0003-1304-1939
+    twitter: mercecrosas
+    affiliations:
+      - Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+  - name: José María Fernández
+    initials: JMF
+    orcid: 0000-0002-4806-5140
+    twitter: JMFernand3z
+    affiliations:
+      - Barcelona Supercomputing Center, Barcelona, ES
+  - name: Daniel Garijo
+    initials: DG
+    orcid: 0000-0003-0454-7145
+    twitter: dgarijov
+    affiliations:
+      - Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES
+  - name: Marco La Rosa
+    initials: ML
+    email: m@lr.id.au
   - github: simleo
     name: Simone Leo
     initials: SL
     orcid: 0000-0001-8271-5429
     twitter: _simleo_
-    email: simone.leo@crs4.it
     affiliations:
       - Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
     funders:
       - "[EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))"
+  - name: Marc Portier
+    initials: MP
+    orcid: 0000-0002-9648-6484
+    twitter: mportier
+    affiliations:
+      - Vlaams Instituut voor de Zee}, Oostende, BE
+  - name: Ana Trisovic
+    initials: AT
+    orcid: 0000-0003-1991-0533
+    twitter: atrisovic
+    affiliations:
+      - Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
   - github: researchobject
     name: RO-Crate Community
     initials: RO
     url: https://www.researchobject.org/ro-crate/community      
+  - github: pgroth
+    name: Paul Groth
+    initials: PG
+    orcid: 0000-0003-0183-6910
+    twitter: pgroth
+    email: p.groth@uva.nl
+    affiliations:
+      - Informatics Institute, Faculty of Science, University of Amsterdam, NL
   - github: carolegoble
     name: Carole Goble
     initials: CG
+    twitter: CaroleAnneGoble
     orcid: 0000-0003-1219-2137
     email: carole.goble@manchester.ac.uk
     affiliations:
@@ -58,10 +99,3 @@ author_info:
       - "[EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))"
       - "[IBISBA](https://ibisba.eu/) (European Commission [H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118))"
       - "[SyntheSys+](https://www.synthesys.info/) (European Commission [H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))"
-  - github: pgroth
-    name: Paul Groth
-    initials: PG
-    orcid: 0000-0003-0183-6910
-    email: p.groth@uva.nl
-    affiliations:
-      - Informatics Institute, Faculty of Science, University of Amsterdam, NL
