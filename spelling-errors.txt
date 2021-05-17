@@ -18,6 +18,7 @@ Bremer
 carolegoble
 Carragáin
 CASRAI
+Catalog
 Center
 checksums
 Chenxu
@@ -25,14 +26,13 @@ CLI
 Conceptualization
 Conda
 conformsTo
-contextualization
 Coppens
 Corcho
 Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -77,7 +77,6 @@ hoc
 https
 IBISBA
 implementers
-importeant
 INFRADEV
 INFRAEDI
 INFRAEOSC
@@ -150,7 +149,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
@@ -177,6 +176,7 @@ telcons
 templating
 Thelen
 Trisovic
+txt
 uml
 unshortened
 URI
