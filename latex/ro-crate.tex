@@ -76,34 +76,58 @@
 %Abbreviate US states, \cny{Country}\printead[presep={\\}]{e1,o1}}
 
 % Two or more authors:
-\author[A,B]{\fnms{Stian} \snm{Soiland-Reyes}\ead[label=e1]{soiland-reyes@manchester.ac.uk}\ead[label=o1,orcid]{0000-0001-9842-9718}%
-\thanks{Corresponding author. \printead{e1}.}},
-\author[C]{\inits{P.S.}\fnms{Peter} \snm{Sefton}\ead[label=e2]{Peter.Sefton@uts.edu.au}\ead[label=o2,orcid]{0000-0002-3545-944X}},
-\author[I]{\inits{M.C.}\fnms{Mercè} \snm{Crosas}\ead[label=e9]{mcrosas@g.harvard.edu}\ead[label=o9,orcid]{0000-0003-1304-1939}},
-\author[H]{\inits{D.G.}\fnms{Daniel} \snm{Garijo}\ead[label=e8]{dgarijo@fi.upm.es}\ead[label=o8,orcid]{0000-0003-0454-7145}},
-\author[G]{\inits{M.LR.}\fnms{Marco} \snm{La Rosa}\ead[label=e7]{m@lr.id.au}\ead[label=o7,orcid]{0000-}},
-\author[E]{\inits{S.L.}\fnms{Simone} \snm{Leo}\ead[label=e5]{simone.leo@crs4.it}\ead[label=o5,orcid]{0000-0001-8271-5429}},
-\author[F]{\inits{M.P.}\fnms{Marc} \snm{Portier}\ead[label=e6]{marc.portier@vliz.be}\ead[label=o6,orcid]{0000-0002-9648-6484}},
-\author[I]{\inits{A.T.}\fnms{Ana} \snm{Trisovic}\ead[label=e9]{ana.trisovic@gmail.com}\ead[label=o9,orcid]{0000-0003-1991-0533}},
+\author[SSR1,SSR2]{\inits{S.SR.}\fnms{Stian}
+    \snm{Soiland-Reyes}\ead[label=eSSR]{soiland-reyes@manchester.ac.uk}\ead[label=oSSR,orcid]{0000-0001-9842-9718}%
+    \thanks{Corresponding author. \printead{eSSR}.}}, 
+\author[PS]{\inits{P.S.}\fnms{Peter}
+    \snm{Sefton}\ead[label=ePS]{Peter.Sefton@uts.edu.au}\ead[label=oPS,orcid]{0000-0002-3545-944X}},
+\author[MC]{\inits{M.C.}\fnms{Mercè}
+    \snm{Crosas}\ead[label=eMC]{mcrosas@g.harvard.edu}\ead[label=oMC,orcid]{0000-0003-1304-1939}},
+\author[JMF]{\inits{JM.F.}\fnms{José María}
+    \snm{Fernández}\ead[label=eJMF]{jose.m.fernandez@bsc.es}\ead[label=oJMF,orcid]{0000-0002-4806-5140}},
+\author[DG]{\inits{D.G.}\fnms{Daniel}
+    \snm{Garijo}\ead[label=eDG]{dgarijo@fi.upm.es}\ead[label=oDG,orcid]{0000-0003-0454-7145}},
+\author[MLR]{\inits{M.LR.}\fnms{Marco}
+    \snm{La Rosa}\ead[label=eMLR]{m@lr.id.au}},
+\author[SL]{\inits{S.L.}\fnms{Simone}
+    \snm{Leo}\ead[label=eSL]{simone.leo@crs4.it}\ead[label=oSL,orcid]{0000-0001-8271-5429}},
+\author[MP]{\inits{M.P.}\fnms{Marc}
+    \snm{Portier}\ead[label=eMP]{marc.portier@vliz.be}\ead[label=oMP,orcid]{0000-0002-9648-6484}},
+\author[AT]{\inits{A.T.}\fnms{Ana}
+    \snm{Trisovic}\ead[label=eMP]{ana.trisovic@gmail.com}\ead[label=oAT,orcid]{0000-0003-1991-0533}},
+\author[RO]{RO-Crate Community},
+\author[PG]{\inits{P.G.}\fnms{Paul}
+    \snm{Groth}\ead[label=ePG]{p.t.groth@uva.nl}\ead[label=oPG,orcid]{0000-0003-0183-6910}},
+\author[CG]{\inits{C.G.}\fnms{Carole}
+    \snm{Goble}\ead[label=eCG]{carole.goble@manchester.ac.uk}\ead[label=oCG,orcid]{0000-0003-1219-2137}}
+\address[SSR1]{Computer Science, 
+    \orgname{The University of Manchester}, \cny{UK}}
+\address[SSR2]{Informatics Institute, \orgname{University of Amsterdam},
+    \cny{The Netherlands}\printead[presep={\\}]{eSSR,oSSR}}
+\address[PS]{Faculty of Science, \orgname{University Technology Sydney},
+    \cny{Australia}\printead[presep={\\}]{ePS,oPS}}
+\address[MC]{Institute for Quantitative Social Science, 
+    \orgname{Harvard University}, Cambridge, MA,  \cny{USA}\printead[presep={\\}]{oMC}}
+\address[JMF]{\orgname{Barcelona Supercomputing Center}, 
+    Barcelona \cny{Spain}\printead[presep={\\}]{oJMF}}
+\address[DG]{Ontology Engineering Group, 
+    \orgname{Universidad Politécnica de Madrid}, Madrid, \cny{Spain}\printead[presep={\\}]{oDG}}
+\address[MLR]{\printead{eMLR}}
+\address[SL]{\orgname{Center for Advanced Studies, Research, and Development in Sardinia} (CRS4), Pula (CA),
+    \cny{Italy}\printead[presep={\\}]{oSL}}
+\address[MP]{\orgname{Vlaams Instituut voor de Zee}, Oostende,
+    \cny{Belgium}\printead[presep={\\}]{oMP}}
+\address[AT]{Institute for Quantitative Social Science,
+    \orgname{Harvard University}, Cambridge, MA, \cny{USA}\printead[presep={\\}]{oAT}}
+\address[RO]{\url{https://www.researchobject.org/ro-crate/community} (see appendix B)}
+\address[PG]{Informatics Institute, \orgname{University of Amsterdam},
+    \cny{The Netherlands}\printead[presep={\\}]{ePG,oPG}}
+\address[CG]{Computer Science, \orgname{The University of Manchester},
+    \cny{UK}\printead[presep={\\}]{eCG,oCG}}
+    
 
-\author[D]{RO-Crate Community},
-\author[B]{\inits{P.G.}\fnms{Paul} 
-\snm{Groth}\ead[label=e3]{p.t.groth@uva.nl}\ead[label=o3,orcid]{0000-0003-0183-6910}},
-\author[A]{\inits{C.G.}\fnms{Carole} \snm{Goble}\ead[label=e3]{carole.goble@manchester.ac.uk}\ead[label=o3,orcid]{0000-0003-1219-2137}}
 
-\address[A]{Computer Science, \orgname{The University of Manchester},
-\cny{UK}\printead[presep={\\}]{e1,o1}}
-\address[B]{Informatics Institute, \orgname{University of Amsterdam},
-\cny{The Netherlands}\printead[presep={\\}]{e2,o2}}
-\address[C]{Faculty of Science, \orgname{University Technology Sydney},
-\cny{Australia}\printead[presep={\\}]{e3,o3}}
-\address[E]{\orgname{Center for Advanced Studies, Research, and Development in Sardinia} (CRS4), Pula (CA), \cny{Italy}\printead[presep={\\}]{e5,o5}}
-\address[D]{\url{https://www.researchobject.org/ro-crate/community} (see appendix B)}
-\address[H]{Ontology Engineering Group, \orgname{Universidad Politécnica de Madrid},
-Madrid, \cny{Spain}\printead[presep={\\}]{e8,o8}}
-\address[I]{Institute for Quantitative Social Science, \orgname{Harvard University} Cambridge, MA,  \cny{USA}\printead[presep={\\}]{e9,o9}}
-
-%% TODO: Fix this mess - it seems we need one \address per author
+%% TODO: Fix this LaTeX mess - it seems we need one \address per author
 %% as this address also print their individual email and orcid,
 %% meaning some organization will repeat.
 
