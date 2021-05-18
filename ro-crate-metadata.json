@@ -1,0 +1,1392 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000003",
+      "@type": "Thing",
+      "name": "figure development role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000006",
+      "@type": "Thing",
+      "name": "background and literature search role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000008",
+      "@type": "Thing",
+      "name": "website role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000014",
+      "@type": "Thing",
+      "name": "technical documentation role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000038",
+      "@type": "Thing",
+      "name": "metadata role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000051",
+      "@type": "Thing",
+      "name": "system administrator role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000073",
+      "@type": "Thing",
+      "name": "standards development role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000081",
+      "@type": "Thing",
+      "name": "coordination role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000083",
+      "@type": "Thing",
+      "name": "community engagement role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000089",
+      "@type": "Thing",
+      "name": "lay summary role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000091",
+      "@type": "Thing",
+      "name": "technical writing role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000100",
+      "@type": "Thing",
+      "name": "presenter role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000102",
+      "@type": "Thing",
+      "name": "advisory role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000103",
+      "@type": "Thing",
+      "name": "modifier role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000105",
+      "@type": "Thing",
+      "name": "submitter role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000001",
+      "@type": "Thing",
+      "name": "conceptualization role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000002",
+      "@type": "Thing",
+      "name": "data curation role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000003",
+      "@type": "Thing",
+      "name": "formal analysis role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000004",
+      "@type": "Thing",
+      "name": "funding acquisition role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000005",
+      "@type": "Thing",
+      "name": "investigation role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000006",
+      "@type": "Thing",
+      "name": "methodology role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000007",
+      "@type": "Thing",
+      "name": "project administration role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000009",
+      "@type": "Thing",
+      "name": "software role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000010",
+      "@type": "Thing",
+      "name": "supervision role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000011",
+      "@type": "Thing",
+      "name": "validation role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000012",
+      "@type": "Thing",
+      "name": "visualization role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000013",
+      "@type": "Thing",
+      "name": "writing original draft role"
+    },
+    {
+      "@id": "http://purl.org/credit/ontology#CREDIT_00000014",
+      "@type": "Thing",
+      "name": "writing review and editing role"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.4541002",
+      "@type": "Dataset",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9260-0753"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4289-4922"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7370-4805"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5491-6431"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2961-9670"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6190-122X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2036-8350"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8420-5254"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3588-6257"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0309-604X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5711-4872"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2130-0865"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3156-2105"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1130-2154"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1756-2128"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7552-1009"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4929-1219"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1541-5631"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0337-8610"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6960-357X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0223-1059"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6022-9825"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3468-0652"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3910-0474"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3486-8193"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8172-8981"
+        }
+      ],
+      "identifier": "https://doi.org/10.5281/zenodo.4541002",
+      "license": {
+        "@id": "https://spdx.org/licenses/Apache-2.0"
+      },
+      "name": "RO-Crate Metadata Specification 1.1.1",
+      "subjectOf": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
+      "url": "https://www.researchobject.org/ro-crate/1.1/ro-crate-preview.html",
+      "version": "1.1.1"
+    },
+    {
+      "@id": "https://github.com/marcolarosa",
+      "name": "Marco La Rosa"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "abstract": "An increasing amount of researchers support reproducibility by including pointers and descriptions of datasets, software and methods in their publications. However, scientific articles  may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research data with their metadata in a machine readable manner. Based on Schema.org annotations in JSON-LD, RO-Crate aims to establish best-practice for formal metadata description accessible and practical for use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR.",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://github.com/marcolarosa"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9648-6484"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/community"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        }
+      ],
+      "contributor": [
+        {
+          "@id": "#role-0000-0001-9842-9718"
+        },
+        {
+          "@id": "#role-0000-0002-3545-944X"
+        },
+        {
+          "@id": "#role-0000-0003-1304-1939"
+        },
+        {
+          "@id": "#role-0000-0002-4806-5140"
+        },
+        {
+          "@id": "#role-0000-0003-0454-7145"
+        },
+        {
+          "@id": "#role-marcolarosa"
+        },
+        {
+          "@id": "#role-0000-0001-8271-5429"
+        },
+        {
+          "@id": "#role-0000-0002-9648-6484"
+        },
+        {
+          "@id": "#role-0000-0003-1991-0533"
+        },
+        {
+          "@id": "#role-community"
+        },
+        {
+          "@id": "#role-0000-0003-0183-6910"
+        },
+        {
+          "@id": "#role-0000-0003-1219-2137"
+        },
+        {
+          "@id": "#role-0000-0001-8131-2150"
+        },
+        {
+          "@id": "#role-0000-0002-0048-3300"
+        },
+        {
+          "@id": "#role-0000-0001-6565-5145"
+        },
+        {
+          "@id": "#role-0000-0002-0715-6126"
+        },
+        {
+          "@id": "#role-0000-0002-6190-122X"
+        },
+        {
+          "@id": "#role-0000-0002-2036-8350"
+        },
+        {
+          "@id": "#role-0000-0002-9260-0753"
+        },
+        {
+          "@id": "#role-0000-0003-2130-0865"
+        },
+        {
+          "@id": "#role-0000-0003-4929-1219"
+        }
+      ],
+      "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
+      "encoding": [
+        {
+          "@id": "index.html"
+        },
+        {
+          "@id": "manuscript.pdf"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.4541002"
+        },
+        {
+          "@id": "index.html"
+        },
+        {
+          "@id": "manuscript.pdf"
+        }
+      ],
+      "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
+      "license": {
+        "@id": "https://spdx.org/licenses/CC-BY-4.0"
+      },
+      "mentions": [],
+      "name": "Packaging research data with RO-Crate",
+      "publisher": {
+        "@id": "https://www.researchobject.org/"
+      }
+    },
+    {
+      "@id": "#role-0000-0001-6565-5145",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000102"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000083"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0001-6565-5145"
+      }
+    },
+    {
+      "@id": "#role-0000-0001-8131-2150",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000007"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0001-8131-2150"
+      }
+    },
+    {
+      "@id": "#role-0000-0001-8271-5429",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0001-8271-5429"
+      }
+    },
+    {
+      "@id": "#role-0000-0001-9842-9718",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000001"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000002"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000003"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000004"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000005"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000007"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000012"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000013"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000105"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000083"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000003"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000038"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000051"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-0048-3300",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-0048-3300"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-0715-6126",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-0715-6126"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-2036-8350",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000102"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-2036-8350"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-3545-944X",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000001"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000007"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000083"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-3545-944X"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-3588-6257",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        }
+      ],
+      "contributor": "https://orcid.org/0000-0002-3588-6257"
+    },
+    {
+      "@id": "#role-0000-0002-4806-5140",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-4806-5140"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-6190-122X",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000083"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-6190-122X"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-9260-0753",
+      "@type": "Role",
+      "additionalType": {
+        "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+      },
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-9260-0753"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-9648-6484",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-9648-6484"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-0183-6910",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000013"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-0454-7145",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000102"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-0454-7145"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-0522-5674",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000008"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000051"
+        }
+      ],
+      "contributor": "https://orcid.org/0000-0003-0522-5674"
+    },
+    {
+      "@id": "#role-0000-0003-1219-2137",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000001"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000004"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000007"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000012"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000102"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000083"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000003"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000006"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-1219-2137"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-1304-1939",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-1304-1939"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-1991-0533",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-1991-0533"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-2130-0865",
+      "@type": "Role",
+      "additionalType": {
+        "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+      },
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-2130-0865"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-4929-1219",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000012"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000103"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-4929-1219"
+      }
+    },
+    {
+      "@id": "#role-community",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": {
+        "@id": "https://www.researchobject.org/ro-crate/community"
+      }
+    },
+    {
+      "@id": "#role-marcolarosa",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
+        }
+      ],
+      "contributor": {
+        "@id": "https://github.com/marcolarosa"
+      }
+    },
+    {
+      "@id": "index.html",
+      "@type": "ScholarlyArticle",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://github.com/marcolarosa"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9648-6484"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/community"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        }
+      ],
+      "description": "HTML manuscript of the RO-Crate article",
+      "name": "Packaging research data with RO-Crate (HTML)"
+    },
+    {
+      "@id": "manuscript.pdf",
+      "@type": "ScholarlyArticle",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://github.com/marcolarosa"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9648-6484"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/community"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        }
+      ],
+      "description": "HTML manuscript of the RO-Crate article",
+      "name": "Packaging research data with RO-Crate (HTML)"
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      },
+      "creator": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "license": {
+        "@id": "https://spdx.org/licenses/CC0-1.0"
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6022-9825",
+      "@type": "Person",
+      "name": "Karl Sebby"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6565-5145",
+      "@type": "Person",
+      "name": "Frederik Coppens"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6960-357X",
+      "@type": "Person",
+      "name": "Mark Wilkinson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8131-2150",
+      "@type": "Person",
+      "name": "Eoghan Ó Carragáin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8172-8981",
+      "@type": "Person",
+      "name": "Jasper Koehorst"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8271-5429",
+      "name": "Simone Leo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8420-5254",
+      "@type": "Person",
+      "name": "Kristi Holmes"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "@type": "Person",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0048-3300",
+      "@type": "Person",
+      "name": "Finn Bacall"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0309-604X",
+      "@type": "Person",
+      "name": "Salvador Capella-Gutierrez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0337-8610",
+      "@type": "Person",
+      "name": "brandon whitehead"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0715-6126",
+      "@type": "Person",
+      "name": "Herbert Van de Sompel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1756-2128",
+      "@type": "Person",
+      "name": "Thomas Thelen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2036-8350",
+      "@type": "Person",
+      "name": "Nick Juty"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2142-1731",
+      "name": "Chenxu Niu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2961-9670",
+      "@type": "Person",
+      "name": "Michael R Crusoe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3468-0652",
+      "@type": "Person",
+      "name": "Alexander Kanitz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3545-944X",
+      "@type": "Person",
+      "name": "Peter Sefton"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3588-6257",
+      "@type": "Person",
+      "name": "Jason A. Clark"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4806-5140",
+      "@type": "Person",
+      "name": "José María Fernández"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4929-7875",
+      "name": "Tomasz Miksa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5432-2748",
+      "name": "Paul Brack"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5491-6431",
+      "@type": "Person",
+      "name": "Jose Manuel Gomez-Perez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5711-4872",
+      "@type": "Person",
+      "name": "Alasdair J. G. Gray"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6190-122X",
+      "@type": "Person",
+      "name": "Ignacio Eguinoa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7370-4805",
+      "@type": "Person",
+      "name": "Kyle Chard"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7552-1009",
+      "@type": "Person",
+      "name": "Hervé Ménager"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9260-0753",
+      "@type": "Person",
+      "name": "Oscar Corcho"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9648-6484",
+      "name": "Marc Portier"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9986-7223",
+      "name": "Kosuke Tanabe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0183-6910",
+      "@type": "Person",
+      "name": "Paul Groth"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0223-1059",
+      "@type": "Person",
+      "name": "Erich Bremer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0454-7145",
+      "@type": "Person",
+      "name": "Daniel Garijo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0522-5674",
+      "name": "Bert Droesbeke"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1130-2154",
+      "@type": "Person",
+      "name": "Giacomo Tartari"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1219-2137",
+      "@type": "Person",
+      "name": "Carole Goble"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1304-1939",
+      "@type": "Person",
+      "name": "Mercè Crosas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1541-5631",
+      "@type": "Person",
+      "name": "Paul Walk"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1743-8300",
+      "name": "Milan Ojsteršek"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1991-0533",
+      "@type": "Person",
+      "name": "Ana Trisovic"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2130-0865",
+      "@type": "Person",
+      "name": "Stuart Owen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3156-2105",
+      "@type": "Person",
+      "name": "Alan R Williams"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3486-8193",
+      "@type": "Person",
+      "name": "Mark Graves"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3910-0474",
+      "@type": "Person",
+      "name": "Gavin Kennedy"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "name": "LJ Garcia Castro"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4289-4922",
+      "@type": "Person",
+      "name": "Raul Palma"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4929-1219",
+      "@type": "Person",
+      "name": "Laura Rodríguez-Navas"
+    },
+    {
+      "@id": "https://spdx.org/licenses/Apache-2.0",
+      "@type": "CreativeWork",
+      "identifier": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "version": "2.0"
+    },
+    {
+      "@id": "https://spdx.org/licenses/CC-BY-4.0",
+      "@type": "CreativeWork",
+      "identifier": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "4.0"
+    },
+    {
+      "@id": "https://spdx.org/licenses/CC0-1.0",
+      "@type": "CreativeWork",
+      "identifier": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "version": "1.0"
+    },
+    {
+      "@id": "https://www.researchobject.org/",
+      "@type": "Organization",
+      "name": "ResearchObject.org",
+      "url": "https://www.researchobject.org/"
+    },
+    {
+      "@id": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "https://www.researchobject.org/ro-crate/community",
+      "@type": "Project",
+      "member": [
+        {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9260-0753"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4289-4922"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7370-4805"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5491-6431"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2961-9670"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6190-122X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2036-8350"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8420-5254"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3588-6257"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0309-604X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5711-4872"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2130-0865"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3156-2105"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1130-2154"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1756-2128"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7552-1009"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4929-1219"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1541-5631"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0337-8610"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6960-357X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0223-1059"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6022-9825"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3468-0652"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3910-0474"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3486-8193"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8172-8981"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9648-6484"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5432-2748"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1743-8300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0522-5674"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2142-1731"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9986-7223"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4929-7875"
+        },
+        {
+          "@id": "https://github.com/marcolarosa"
+        }
+      ],
+      "name": "RO-Crate Community",
+      "parentOrganization": {
+        "@id": "https://www.researchobject.org/"
+      },
+      "sdDatePublished": "2021-05-17T23:22:00Z",
+      "url": "https://www.researchobject.org/ro-crate/community"
+    }
+  ]
+}
