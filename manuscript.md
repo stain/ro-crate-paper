@@ -92,9 +92,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a0033c546ecb8f8a1e2c98ca56c6115d7ffbbaf4/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a0033c546ecb8f8a1e2c98ca56c6115d7ffbbaf4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a0033c546ecb8f8a1e2c98ca56c6115d7ffbbaf4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/03624306c88bf4ecabbca7318d8a397fa7f2d647/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03624306c88bf4ecabbca7318d8a397fa7f2d647/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03624306c88bf4ecabbca7318d8a397fa7f2d647/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -117,9 +117,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a0033c546ecb8f8a1e2c98ca56c6115d7ffbbaf4/))
+([permalink](https://stain.github.io/ro-crate-paper/v/03624306c88bf4ecabbca7318d8a397fa7f2d647/))
 was automatically generated
-from [stain/ro-crate-paper@a0033c5](https://github.com/stain/ro-crate-paper/tree/a0033c546ecb8f8a1e2c98ca56c6115d7ffbbaf4)
+from [stain/ro-crate-paper@0362430](https://github.com/stain/ro-crate-paper/tree/03624306c88bf4ecabbca7318d8a397fa7f2d647)
 on May 18, 2021.
 </em></small>
 
@@ -670,7 +670,7 @@ We would also like to thank for contributions from:
 
 
 Eoghan Ó Carragáin
-: Project administration, Writing – review \& editing
+: Conceptualization, Project administration, Writing – review \& editing
 Finn Bacall
 : Software, Methodology
 Frederik Coppens
@@ -685,6 +685,10 @@ Oscar Corcho
 : Writing – review \& editing
 Stuart Owen
 : Writing – review \& editing
+Laura Rodríguez-Navas
+: Software, Visualization, Writing – review \& editing
+
+
 
 
 

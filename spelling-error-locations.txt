@@ -726,12 +726,16 @@ content/70.acknowledgements.md:34:Conceptualization
 content/70.acknowledgements.md:34:Visualization
 content/70.acknowledgements.md:40:Carragáin
 content/70.acknowledgements.md:40:Eoghan
+content/70.acknowledgements.md:41:Conceptualization
 content/70.acknowledgements.md:44:Coppens
 content/70.acknowledgements.md:44:Frederik
 content/70.acknowledgements.md:46:Sompel
 content/70.acknowledgements.md:48:Eguinoa
 content/70.acknowledgements.md:50:Juty
 content/70.acknowledgements.md:52:Corcho
+content/70.acknowledgements.md:56:Navas
+content/70.acknowledgements.md:56:Rodríguez
+content/70.acknowledgements.md:57:Visualization
 content/80.formal-definition.md:1:Formalizing
 content/80.formal-definition.md:1:RO
 content/80.formal-definition.md:10:formalize
