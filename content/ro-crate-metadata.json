@@ -262,9 +262,13 @@
         "@id": "https://spdx.org/licenses/Apache-2.0"
       },
       "name": "RO-Crate Metadata Specification 1.1.1",
-      "subjectOf": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.json",
+      "subjectOf": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
       "url": "https://www.researchobject.org/ro-crate/1.1/ro-crate-preview.html",
       "version": "1.1.1"
+    },
+    {
+      "@id": "https://github.com/marcolarosa",
+      "name": "Marco La Rosa"
     },
     {
       "@id": "./",
@@ -287,7 +291,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "#marcolarosa"
+          "@id": "https://github.com/marcolarosa"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -863,7 +867,7 @@
         }
       ],
       "contributor": {
-        "@id": "#marcolarosa"
+        "@id": "https://github.com/marcolarosa"
       }
     },
     {
@@ -886,7 +890,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "#marcolarosa"
+          "@id": "https://github.com/marcolarosa"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -930,7 +934,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "#marcolarosa"
+          "@id": "https://github.com/marcolarosa"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -1144,6 +1148,11 @@
       "name": "Carole Goble"
     },
     {
+      "@id": "https://orcid.org/0000-0003-1304-1939",
+      "@type": "Person",
+      "name": "Mercè Crosas"
+    },
+    {
       "@id": "https://orcid.org/0000-0003-1541-5631",
       "@type": "Person",
       "name": "Paul Walk"
@@ -1223,7 +1232,7 @@
       "url": "https://www.researchobject.org/"
     },
     {
-      "@id": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.json",
+      "@id": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
       "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.1"
@@ -1369,7 +1378,7 @@
           "@id": "https://orcid.org/0000-0002-4929-7875"
         },
         {
-          "@id": "#marcolarosa"
+          "@id": "https://github.com/marcolarosa"
         }
       ],
       "name": "RO-Crate Community",
