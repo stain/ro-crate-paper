@@ -20,6 +20,7 @@
       {
         "@id": "./",
         "@type": "Dataset",
+        "creator": [{"@id": "https://orcid.org/0000-0001-9842-9718"}],
         "author": [
             {"@id": "https://orcid.org/0000-0001-9842-9718"},
             {"@id": "https://orcid.org/0000-0002-3545-944X"},
@@ -37,12 +38,53 @@
         "publisher": {"@id": "https://www.researchobject.org/"},
         "license": {"@id": "https://spdx.org/licenses/CC-BY-4.0"},
         "name": "Packaging research data with RO-Crate",
-        "description": "RO-Crate for the article about RO-Crate, submitted to Data Science.\n\nAn increasing amount of researchers support reproducibility by including pointers and descriptions of datasets, software and methods in their publications. However, scientific articles  may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research data with their metadata in a machine readable manner. Based on Schema.org annotations in JSON-LD, RO-Crate aims to establish best-practice for formal metadata description accessible and practical for use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR.",
+        "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
+        "abstract": "An increasing amount of researchers support reproducibility by including pointers and descriptions of datasets, software and methods in their publications. However, scientific articles  may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research data with their metadata in a machine readable manner. Based on Schema.org annotations in JSON-LD, RO-Crate aims to establish best-practice for formal metadata description accessible and practical for use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR.",        
         "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
-        "hasPart": [
-            {"@id": "https://doi.org/10.5281/zenodo.4541002"},
+        "encoding": [
             {"@id": "index.html"},
             {"@id": "manuscript.pdf"}
+        ],
+        "hasPart": [
+            {"@id": "https://doi.org/10.5281/zenodo.4541002"},
+            {"@id": "index.html",
+             "@type": "ScholarlyWork",
+             "name": "Packaging research data with RO-Crate (HTML)",
+             "description": "HTML manuscript of the RO-Crate article",             
+             "author": [
+                {"@id": "https://orcid.org/0000-0001-9842-9718"},
+                {"@id": "https://orcid.org/0000-0002-3545-944X"},
+                {"@id": "https://orcid.org/0000-0003-1304-1939"},
+                {"@id": "https://orcid.org/0000-0002-4806-5140"},
+                {"@id": "https://orcid.org/0000-0003-0454-7145"},
+                {"@id": "#marcolarosa"},
+                {"@id": "https://orcid.org/0000-0001-8271-5429"},
+                {"@id": "https://orcid.org/0000-0002-9648-6484"},
+                {"@id": "https://orcid.org/0000-0003-1991-0533"},
+                {"@id": "https://www.researchobject.org/ro-crate/community"},
+                {"@id": "https://orcid.org/0000-0003-0183-6910"},
+                {"@id": "https://orcid.org/0000-0003-1219-2137"}                
+            ]             
+            },
+            {"@id": "manuscript.pdf",
+                "@type": "ScholarlyWork",
+                "name": "Packaging research data with RO-Crate (HTML)",
+                "description": "HTML manuscript of the RO-Crate article",             
+                "author": [
+                   {"@id": "https://orcid.org/0000-0001-9842-9718"},
+                   {"@id": "https://orcid.org/0000-0002-3545-944X"},
+                   {"@id": "https://orcid.org/0000-0003-1304-1939"},
+                   {"@id": "https://orcid.org/0000-0002-4806-5140"},
+                   {"@id": "https://orcid.org/0000-0003-0454-7145"},
+                   {"@id": "#marcolarosa"},
+                   {"@id": "https://orcid.org/0000-0001-8271-5429"},
+                   {"@id": "https://orcid.org/0000-0002-9648-6484"},
+                   {"@id": "https://orcid.org/0000-0003-1991-0533"},
+                   {"@id": "https://www.researchobject.org/ro-crate/community"},
+                   {"@id": "https://orcid.org/0000-0003-0183-6910"},
+                   {"@id": "https://orcid.org/0000-0003-1219-2137"}
+                ]               
+            }
         ],
         "mentions": [
 
@@ -257,8 +299,7 @@
         ],
         "sdDatePublished": "2021-05-17T23:22:00Z",
         "parentOrganization": {"@id": "https://www.researchobject.org/"},
-        "url": "https://www.researchobject.org/ro-crate/community",
-
+        "url": "https://www.researchobject.org/ro-crate/community"
       },
       {
         "@id": "https://orcid.org/0000-0001-8131-2150",
