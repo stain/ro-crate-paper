@@ -138,4 +138,8 @@ if [ "${SPELLCHECK:-}" = "true" ]; then
   rm output/expanded-spelling-errors.txt
 fi
 
+# Copy RO-Crate metadata
+# TODO: Add date, commit etc.
+cp ro-crate/ro-crate-metadata.json ro-crate/ro-crate-preview.html output/
+
 echo >&2 "Build complete"
