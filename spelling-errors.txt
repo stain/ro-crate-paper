@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -68,7 +68,7 @@ FOAF
 formalization
 formalize
 formalized
-formalizing
+Formalizing
 Frederik
 Garijo
 GH
@@ -85,7 +85,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 interpretable
 IRI
 JMFernand
@@ -96,7 +96,7 @@ Juty
 Kanitz
 Koehorst
 Kosuke
-Ld
+LD
 LD’s
 LFS
 lifecycle
