@@ -21,7 +21,7 @@
   <meta name="author" content="Carole Goble" />
   <meta name="dcterms.date" content="2021-05-19" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
-  <title>Packaging research data with RO-Crate</title>
+  <title>Packaging research artefacts with RO-Crate</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -100,10 +100,10 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Packaging research data with RO-Crate" />
-  <meta name="citation_title" content="Packaging research data with RO-Crate" />
-  <meta property="og:title" content="Packaging research data with RO-Crate" />
-  <meta property="twitter:title" content="Packaging research data with RO-Crate" />
+  <meta name="dc.title" content="Packaging research artefacts with RO-Crate" />
+  <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
+  <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
+  <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
   <meta name="dc.date" content="2021-05-19" />
   <meta name="citation_publication_date" content="2021-05-19" />
   <meta name="dc.language" content="en-GB" />
@@ -172,9 +172,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -184,13 +184,13 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Packaging research data with RO-Crate</h1>
+<h1 class="title">Packaging research artefacts with RO-Crate</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/830d4452484b0bfc61866dcbacca2ba2698384f2">stain/ro-crate-paper@830d445</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/f69c36a49b95ded41fd74f980377095ffefaf60e">stain/ro-crate-paper@f69c36a</a>
 on May 19, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -340,7 +340,7 @@ Department of Computer Science, The University of Manchester, UK
 </ol>
 <p>The rest of this paper is organised as follows. We first describe RO-Crate, the assumptions underlying it, and define RO-Crate technically and formally. We then proceed to introduce the community and tooling. We move to analyse RO-Crate with respect to usage in a diverse set of domains. Finally, we present related work and conclude with some remarks including RO-Crate highlights and future work.</p>
 <h1 id="ro-crate">RO-Crate</h1>
-<p>RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. To illustrate this, let us imagine a research paper reporting on the sequence analysis of proteins obtained from an experiment on mice. The sequence output files, sequence analysis code, resulting data and reports summarising statistical measures or outputs are all important and inter-related research outputs, and consequently would ideally all be co-located in a directory and accompanied with their corresponding metadata. In reality some of the artefacts (e.g. data or software) will be external references, not necessarily captured in a FAIR way. This directory, along with the relationships between its constituent digital artefacts, is what the RO-Crate model aims to represent, linking together all the elements pertaining to an experiment and required for its reproducibility.</p>
+<p>RO-Crate provides a lightweight approach to packaging research artefacts with their metadata. To illustrate this, let us imagine a research paper reporting on the sequence analysis of proteins obtained from an experiment on mice. The sequence output files, sequence analysis code, resulting data and reports summarising statistical measures or outputs are all important and inter-related research outputs, and consequently would ideally all be co-located in a directory and accompanied with their corresponding metadata. In reality some of the artefacts (e.g. data or software) will be external references, not necessarily captured in a FAIR way. This directory, along with the relationships between its constituent digital artefacts, is what the RO-Crate model aims to represent, linking together all the elements pertaining to an experiment and required for its reproducibility.</p>
 <p>The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but programmatically accessible. A de facto approach to sharing collections of resources is through compressed archives (e.g. a zip file). This solves the problem of “packaging”, but it does not guarantee downstream access to all artefacts in a programmatic fashion, or the role of each file in that particular research. This leads to the need for explicit metadata about the contents of the folder, describing each and linking them together.</p>
 <p>Examples of metadata descriptions across a <a href="https://rdamsc.bath.ac.uk/scheme-index">wide range of domains</a> abound within the literature, both in research data management (?cite) and within library and information systems (?cite). However, many of these approaches require knowledge of metadata schemas, particular annotation systems, or the use of obscure or complex software stacks. Indeed, particularly within research, these requirements have led to a lack of adoption and growing frustration with current tooling and specifications <span class="citation" data-cites="xaBY9xom">[<a href="#ref-xaBY9xom" role="doc-biblioref">11</a>]</span>.</p>
 <p>RO-Crate seeks to address this complexity by:</p>
@@ -677,7 +677,7 @@ Department of Computer Science, The University of Manchester, UK
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This work has received funding from the European Commission’s Horizon 2020 research and innovation programme for projects <a href="https://cordis.europa.eu/project/id/823830">BioExcel-2</a> (H2020-INFRAEDI-2018-1 823830), <a href="https://cordis.europa.eu/project/id/730976">IBISBA</a> (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), <a href="https://cordis.europa.eu/project/id/824087">EOSC-Life</a> (H2020-INFRAEOSC-2018-2 824087), <a href="https://cordis.europa.eu/project/id/823827">SyntheSys+</a> (H2020-INFRAIA-2018-1 823827)</p>
 <h2 id="contributions">Contributions</h2>
-<p>Author contributions according to the Contributor Roles Taxonomy <a href="https://casrai.org/credit/">CASRAI CrEDiT</a> <span class="citation" data-cites="doi:10.1087/20150211">[<span class="citeproc-not-found" data-reference-id="doi:10.1087/20150211"><strong>???</strong></span>]</span>:</p>
+<p>Author contributions according to the Contributor Roles Taxonomy <a href="https://casrai.org/credit/">CASRAI CrEDiT</a> <span class="citation" data-cites="ewNBB7el">[<a href="#ref-ewNBB7el" role="doc-biblioref">81</a>]</span>:</p>
 <dl>
 <dt>Stian Soiland-Reyes</dt>
 <dd>Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review &amp; editing
@@ -1323,6 +1323,12 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btx192">10.1093/bioinformat
 Steffen Möller, Hajo Nils Krabbenhöft, Andreas Tille, David Paleino, Alan Williams, Katy Wolstencroft, Carole Goble, Richard Holland, Dominique Belhachemi, Charles Plessy<br />
 <em>BMC Bioinformatics</em> (2010-12-21) <br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-11-S12-S5">10.1186/1471-2105-11-s12-s5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21210984">21210984</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040531">PMC3040531</a></p>
+</div>
+<div id="ref-ewNBB7el">
+<p>81. <strong>Beyond authorship: attribution, contribution, collaboration, and credit</strong> <br />
+Amy Brand, Liz Allen, Micah Altman, Marjorie Hlava, Jo Scott<br />
+<em>Learned Publishing</em> (2015-04-01) <a href="https://doi.org/gc6v3m">https://doi.org/gc6v3m</a> <br />
+DOI: <a href="https://doi.org/10.1087/20150211">10.1087/20150211</a></p>
 </div>
 </div>
 <section class="footnotes" role="doc-endnotes">
