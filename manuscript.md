@@ -16,7 +16,10 @@ date-meta: '2021-05-19'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
+- Eoghan Ó Carragáin
 - Mercè Crosas
+- Leyla Jael Castro
+- Frederik Coppens
 - José María Fernández
 - Daniel Garijo
 - Marco La Rosa
@@ -52,10 +55,22 @@ header-includes: |-
   <meta name="citation_author" content="Peter Sefton" />
   <meta name="citation_author_institution" content="Faculty of Science, University Technology Sydney, AU" />
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
+  <meta name="citation_author" content="Eoghan Ó Carragáin" />
+  <meta name="citation_author_institution" content="University College Cork, IE" />
+  <meta name="citation_author_orcid" content="0000-0001-8131-2150" />
+  <meta name="twitter:creator" content="@eocarragain" />
   <meta name="citation_author" content="Mercè Crosas" />
   <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
   <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
   <meta name="twitter:creator" content="@mercecrosas" />
+  <meta name="citation_author" content="Leyla Jael Castro" />
+  <meta name="citation_author_institution" content="ZB MED Information Centre for Life Sciences, DE" />
+  <meta name="citation_author_orcid" content="0000-0003-3986-0510" />
+  <meta name="twitter:creator" content="@lj_garcia" />
+  <meta name="citation_author" content="Frederik Coppens" />
+  <meta name="citation_author_institution" content="VIB-UGent Center for Plant Systems Biology, Gent, BE" />
+  <meta name="citation_author_orcid" content="0000-0001-6565-5145" />
+  <meta name="twitter:creator" content="@FrederikCoppens" />
   <meta name="citation_author" content="José María Fernández" />
   <meta name="citation_author_institution" content="Barcelona Supercomputing Center, Barcelona, ES" />
   <meta name="citation_author_orcid" content="0000-0002-4806-5140" />
@@ -92,9 +107,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/4445fe30d3ac33d3468c554949c2a344198a7120/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4445fe30d3ac33d3468c554949c2a344198a7120/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4445fe30d3ac33d3468c554949c2a344198a7120/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -117,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/4445fe30d3ac33d3468c554949c2a344198a7120/))
+([permalink](https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/))
 was automatically generated
-from [stain/ro-crate-paper@4445fe3](https://github.com/stain/ro-crate-paper/tree/4445fe30d3ac33d3468c554949c2a344198a7120)
+from [stain/ro-crate-paper@830d445](https://github.com/stain/ro-crate-paper/tree/830d4452484b0bfc61866dcbacca2ba2698384f2)
 on May 19, 2021.
 </em></small>
 
@@ -148,6 +163,17 @@ on May 19, 2021.
      Faculty of Science, University Technology Sydney, AU
   </small>
 
++ **Eoghan Ó Carragáin**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8131-2150](https://orcid.org/0000-0001-8131-2150)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [eocarragain](https://github.com/eocarragain)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [eocarragain](https://twitter.com/eocarragain)<br>
+  <small>
+     University College Cork, IE
+  </small>
+
 + **Mercè Crosas**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-1304-1939](https://orcid.org/0000-0003-1304-1939)
@@ -155,6 +181,28 @@ on May 19, 2021.
     [mercecrosas](https://twitter.com/mercecrosas)<br>
   <small>
      Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+  </small>
+
++ **Leyla Jael Castro**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-3986-0510](https://orcid.org/0000-0003-3986-0510)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ljgarcia](https://github.com/ljgarcia)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [lj_garcia](https://twitter.com/lj_garcia)<br>
+  <small>
+     ZB MED Information Centre for Life Sciences, DE
+  </small>
+
++ **Frederik Coppens**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-6565-5145](https://orcid.org/0000-0001-6565-5145)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [frederikcoppens](https://github.com/frederikcoppens)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [FrederikCoppens](https://twitter.com/FrederikCoppens)<br>
+  <small>
+     VIB-UGent Center for Plant Systems Biology, Gent, BE
   </small>
 
 + **José María Fernández**<br>
@@ -648,10 +696,16 @@ Stian Soiland-Reyes
 Peter Sefton
 : Conceptualization, Methodology, Project administration, Software, Writing – review \& editing
 
+Eoghan Ó Carragáin
+: Conceptualization, Project administration, Writing – review \& editing
+
 Mercè Crosas
 : Writing – review \& editing
 
 Leyla Jael Castro
+: Methodology, Writing – review \& editing
+
+Frederik Coppens
 : Writing – review \& editing
 
 José María Fernández
@@ -685,14 +739,8 @@ Carole Goble
 We would also like to thank for contributions from:
 
 
-Eoghan Ó Carragáin
-: Conceptualization, Project administration, Writing – review \& editing
-
 Finn Bacall
 : Software, Methodology
-
-Frederik Coppens
-: Writing – review \& editing
 
 Herbert Van de Sompel
 : Writing – review \& editing 
@@ -708,6 +756,7 @@ Oscar Corcho
 
 Stuart Owen
 : Writing – review \& editing
+
 Laura Rodríguez-Navas
 : Software, Visualization, Writing – review \& editing
 

@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -52,6 +52,7 @@ DMP
 DOIs
 Droesbeke
 Eguinoa
+eocarragain
 Eoghan
 EOSC
 eScience
@@ -69,6 +70,7 @@ formalize
 formalized
 Formalizing
 Frederik
+frederikcoppens
 Garijo
 GH
 Giacomo
@@ -84,7 +86,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -102,7 +104,8 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
+ljgarcia
 maDMP
 maDMPs
 María
@@ -122,7 +125,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -148,7 +151,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+ro
 Rodríguez
 ROR
 ROs
@@ -183,16 +186,19 @@ templating
 Thelen
 Trisovic
 txt
-UML
+UGent
+uml
 Universidad
 unshortened
 URI
 UseGalaxy
+VIB
 Visualization
 Vlaams
 voor
 Wf
 WorkflowHub
 WorkflowHub’s
+ZB
 Zee
 Zenodo

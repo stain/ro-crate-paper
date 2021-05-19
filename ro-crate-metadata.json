@@ -282,7 +282,16 @@
           "@id": "https://orcid.org/0000-0002-3545-944X"
         },
         {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
           "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
         },
         {
           "@id": "https://orcid.org/0000-0002-4806-5140"
@@ -320,7 +329,16 @@
           "@id": "#role-0000-0002-3545-944X"
         },
         {
+          "@id": "#role-0000-0001-8131-2150"
+        },
+        {
           "@id": "#role-0000-0003-1304-1939"
+        },
+        {
+          "@id": "#role-0000-0003-3986-0510"
+        },
+        {
+          "@id": "#role-0000-0001-6565-5145"
         },
         {
           "@id": "#role-0000-0002-4806-5140"
@@ -350,13 +368,7 @@
           "@id": "#role-0000-0003-1219-2137"
         },
         {
-          "@id": "#role-0000-0001-8131-2150"
-        },
-        {
           "@id": "#role-0000-0002-0048-3300"
-        },
-        {
-          "@id": "#role-0000-0001-6565-5145"
         },
         {
           "@id": "#role-0000-0002-0715-6126"
@@ -423,12 +435,16 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0001-6565-5145"
-      }
+      },
+      "name": "Contributions by Frederik Coppens"
     },
     {
       "@id": "#role-0000-0001-8131-2150",
       "@type": "Role",
       "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000001"
+        },
         {
           "@id": "http://purl.org/credit/ontology#CREDIT_00000007"
         },
@@ -438,7 +454,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0001-8131-2150"
-      }
+      },
+      "name": "Contributions by Eoghan Ó Carragáin"
     },
     {
       "@id": "#role-0000-0001-8271-5429",
@@ -456,7 +473,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0001-8271-5429"
-      }
+      },
+      "name": "Contributions by Simone Leo"
     },
     {
       "@id": "#role-0000-0001-9842-9718",
@@ -519,7 +537,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0001-9842-9718"
-      }
+      },
+      "name": "Contributions by Stian Soiland-Reyes"
     },
     {
       "@id": "#role-0000-0002-0048-3300",
@@ -534,7 +553,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-0048-3300"
-      }
+      },
+      "name": "Contributions by Finn Bacall"
     },
     {
       "@id": "#role-0000-0002-0715-6126",
@@ -549,7 +569,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-0715-6126"
-      }
+      },
+      "name": "Contributions by Herbert Van de Sompel"
     },
     {
       "@id": "#role-0000-0002-2036-8350",
@@ -564,7 +585,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-2036-8350"
-      }
+      },
+      "name": "Contributions by Nick Juty"
     },
     {
       "@id": "#role-0000-0002-3545-944X",
@@ -597,7 +619,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-3545-944X"
-      }
+      },
+      "name": "Contributions by Peter Sefton"
     },
     {
       "@id": "#role-0000-0002-3588-6257",
@@ -610,7 +633,8 @@
           "@id": "http://purl.obolibrary.org/obo/CRO_0000100"
         }
       ],
-      "contributor": "https://orcid.org/0000-0002-3588-6257"
+      "contributor": "https://orcid.org/0000-0002-3588-6257",
+      "name": "Contributions by Jason A. Clark"
     },
     {
       "@id": "#role-0000-0002-4806-5140",
@@ -631,7 +655,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-4806-5140"
-      }
+      },
+      "name": "Contributions by José María Fernández"
     },
     {
       "@id": "#role-0000-0002-6190-122X",
@@ -649,7 +674,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-6190-122X"
-      }
+      },
+      "name": "Contributions by Ignacio Eguinoa"
     },
     {
       "@id": "#role-0000-0002-9260-0753",
@@ -659,7 +685,8 @@
       },
       "contributor": {
         "@id": "https://orcid.org/0000-0002-9260-0753"
-      }
+      },
+      "name": "Contributions by Oscar Corcho"
     },
     {
       "@id": "#role-0000-0002-9648-6484",
@@ -674,7 +701,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0002-9648-6484"
-      }
+      },
+      "name": "Contributions by Marc Portier"
     },
     {
       "@id": "#role-0000-0003-0183-6910",
@@ -695,7 +723,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-0183-6910"
-      }
+      },
+      "name": "Contributions by Paul Groth"
     },
     {
       "@id": "#role-0000-0003-0454-7145",
@@ -716,7 +745,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-0454-7145"
-      }
+      },
+      "name": "Contributions by Daniel Garijo"
     },
     {
       "@id": "#role-0000-0003-0522-5674",
@@ -729,7 +759,8 @@
           "@id": "http://purl.obolibrary.org/obo/CRO_0000051"
         }
       ],
-      "contributor": "https://orcid.org/0000-0003-0522-5674"
+      "contributor": "https://orcid.org/0000-0003-0522-5674",
+      "name": "Contributions by Bert Droesbeke"
     },
     {
       "@id": "#role-0000-0003-1219-2137",
@@ -771,7 +802,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-1219-2137"
-      }
+      },
+      "name": "Contributions by Carole Goble"
     },
     {
       "@id": "#role-0000-0003-1304-1939",
@@ -786,7 +818,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-1304-1939"
-      }
+      },
+      "name": "Contributions by Mercè Crosas"
     },
     {
       "@id": "#role-0000-0003-1991-0533",
@@ -801,7 +834,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-1991-0533"
-      }
+      },
+      "name": "Contributions by Ana Trisovic"
     },
     {
       "@id": "#role-0000-0003-2130-0865",
@@ -811,7 +845,22 @@
       },
       "contributor": {
         "@id": "https://orcid.org/0000-0003-2130-0865"
-      }
+      },
+      "name": "Contributions by Stuart Owen"
+    },
+    {
+      "@id": "#role-0000-0003-3986-0510",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000006"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        }
+      ],
+      "contributor": "https://orcid.org/0000-0003-3986-0510",
+      "name": "Contributions by LJ Garcia Castro"
     },
     {
       "@id": "#role-0000-0003-4929-1219",
@@ -832,7 +881,8 @@
       ],
       "contributor": {
         "@id": "https://orcid.org/0000-0003-4929-1219"
-      }
+      },
+      "name": "Contributions by Laura Rodríguez-Navas"
     },
     {
       "@id": "#role-community",
@@ -847,7 +897,8 @@
       ],
       "contributor": {
         "@id": "https://www.researchobject.org/ro-crate/community"
-      }
+      },
+      "name": "Contributions by RO-Crate Community"
     },
     {
       "@id": "#role-marcolarosa",
@@ -868,7 +919,8 @@
       ],
       "contributor": {
         "@id": "https://github.com/marcolarosa"
-      }
+      },
+      "name": "Contributions by Marco La Rosa"
     },
     {
       "@id": "index.html",
@@ -881,7 +933,16 @@
           "@id": "https://orcid.org/0000-0002-3545-944X"
         },
         {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
           "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
         },
         {
           "@id": "https://orcid.org/0000-0002-4806-5140"
@@ -925,7 +986,16 @@
           "@id": "https://orcid.org/0000-0002-3545-944X"
         },
         {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
           "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
         },
         {
           "@id": "https://orcid.org/0000-0002-4806-5140"
