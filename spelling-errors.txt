@@ -22,6 +22,7 @@ Carragáin
 CASRAI
 Catalog
 Center
+CheckMyCrate
 checksums
 Chenxu
 CLI
@@ -46,13 +47,11 @@ DBPedia
 DCAT
 Describo
 dgarijov
-digitization
+digitalisation
 DMP
 DOIs
 Droesbeke
 Eguinoa
-emphasize
-emphasizes
 Eoghan
 EOSC
 eScience
@@ -85,9 +84,9 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
-interpretable
+interoperable
 IRI
+Jael
 JMFernand
 José
 js
@@ -96,8 +95,9 @@ Juty
 Kanitz
 Koehorst
 Kosuke
-Ld
+LD
 LD’s
+Leyla
 LFS
 lifecycle
 LifeMonitor
@@ -122,14 +122,12 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
 Oostende
 OpenAIRE
-organizations
-organized
 Palma
 PARADISEC
 PCDM
@@ -138,7 +136,6 @@ PID
 PIDs
 Politécnica
 Portier
-productionized
 programmatically
 ptsefton
 Pula
@@ -151,7 +148,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROR
 ROs
@@ -165,6 +162,7 @@ serialization
 serializations
 SHACL
 ShEx
+silico
 simleo
 SIOC
 Snakemake
@@ -172,8 +170,6 @@ Soiland
 soilandreyes
 Sompel
 SPARQL
-specialization
-specialized
 SSHRC
 Stian
 Supercomputing

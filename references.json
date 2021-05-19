@@ -1,5 +1,39 @@
 [
   {
+    "URL": "https://github.com/KockataEPich/CheckMyCrate",
+    "abstract": "A command line application for validating a RO-Crate object against a JSON profile.",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Belchev",
+        "given": "Kostadin"
+      }
+    ],
+    "genre": "computer software.COMPUTER\\_SOFTWARE",
+    "id": "kYELZGhL",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "publisher": "GitHub",
+    "title": "KockataEPich/CheckMyCrate: A command line application for validating a RO-Crate object against a JSON profile.",
+    "title-short": "KockataEPich/CheckMyCrate",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: CheckMyCrate",
+    "type": "entry"
+  },
+  {
     "URL": "https://crs4.github.io/life_monitor/",
     "accessed": {
       "date-parts": [
@@ -54,6 +88,60 @@
     "title": "Tools: Data Portal & Discovery",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: arkisto-data-portal",
     "type": "entry"
+  },
+  {
+    "URL": "http://arxiv.org/abs/2105.07028v1",
+    "author": [
+      {
+        "family": "Crusoe",
+        "given": "Michael R."
+      },
+      {
+        "family": "Abeln",
+        "given": "Sanne"
+      },
+      {
+        "family": "Iosup",
+        "given": "Alexandru"
+      },
+      {
+        "family": "Amstutz",
+        "given": "Peter"
+      },
+      {
+        "family": "Chilton",
+        "given": "John"
+      },
+      {
+        "family": "Tijanić",
+        "given": "Nebojša"
+      },
+      {
+        "family": "Ménager",
+        "given": "Hervé"
+      },
+      {
+        "family": "Soiland-Reyes",
+        "given": "Stian"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      }
+    ],
+    "container-title": "arXiv",
+    "id": "hNiixe5H",
+    "issue": "2105.0702",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "2105.07028v1 \\[cs.DC\\]\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: arxiv:2105.07028",
+    "title": "Methods Included: Standardizing Computational Reuse and Portability with the Common Workflow Language",
+    "type": "article-journal"
   },
   {
     "URL": "https://github.com/athenarc/schema",
@@ -248,6 +336,70 @@
     "title": "Arkisto Platform: Describo Online",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: describo-online",
     "type": "entry"
+  },
+  {
+    "DOI": "10.1007/978-3-030-45442-5\\_15",
+    "ISBN": "978-3-030-45442-5",
+    "abstract": "Funding bodies and other policy-makers are increasingly more concerned with Research Data Management (RDM). The Data Management Plan (DMP) is one of the tools available to perform RDM tasks, however it is not a perfect concept. The Machine-Actionable Data Management Plan (maDMP) is a concept that aims to make the DMP interoperable, automated and increasingly standardised. In this paper we showcase that through the usage of semantic technologies, it is possible to both express and exploit the features of the maDMP. In particular, we focus on showing how a maDMP formalised as an ontology can be used automate the assessment of a funder’s requirements for a given organisation.",
+    "author": [
+      {
+        "family": "Cardoso",
+        "given": "João"
+      },
+      {
+        "family": "Proença",
+        "given": "Diogo"
+      },
+      {
+        "family": "Borbinha",
+        "given": "José"
+      }
+    ],
+    "container-title": "Advances in Information Retrieval",
+    "editor": [
+      {
+        "family": "Jose",
+        "given": "Joemon M."
+      },
+      {
+        "family": "Yilmaz",
+        "given": "Emine"
+      },
+      {
+        "family": "Magalhães",
+        "given": "João"
+      },
+      {
+        "family": "Castells",
+        "given": "Pablo"
+      },
+      {
+        "family": "Ferro",
+        "given": "Nicola"
+      },
+      {
+        "family": "Silva",
+        "given": "Mário J."
+      },
+      {
+        "family": "Martins",
+        "given": "Flávio"
+      }
+    ],
+    "id": "1ZBdroY0",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "118-125",
+    "publisher": "Springer International Publishing",
+    "publisher-place": "Cham",
+    "title": "Machine-Actionable Data Management Plans: A Knowledge Retrieval Approach to Automate the Assessment of Funders’ Requirements",
+    "type": "paper-conference",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1007/978-3-030-45442-5_15"
   },
   {
     "DOI": "10.1007/s41019-017-0050-4",
@@ -1164,50 +1316,6 @@
     "type": "article-journal",
     "volume": "17",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1080/14490854.2020.1796500"
-  },
-  {
-    "type": "article-journal",
-    "id": "ewNBB7el",
-    "author": [
-      {
-        "family": "Brand",
-        "given": "Amy"
-      },
-      {
-        "family": "Allen",
-        "given": "Liz"
-      },
-      {
-        "family": "Altman",
-        "given": "Micah"
-      },
-      {
-        "family": "Hlava",
-        "given": "Marjorie"
-      },
-      {
-        "family": "Scott",
-        "given": "Jo"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2015,
-          4,
-          1
-        ]
-      ]
-    },
-    "container-title": "Learned Publishing",
-    "DOI": "10.1087/20150211",
-    "volume": "28",
-    "issue": "2",
-    "page": "151-155",
-    "publisher": "Wiley",
-    "title": "Beyond authorship: attribution, contribution, collaboration, and credit",
-    "URL": "https://doi.org/gc6v3m",
-    "note": "This CSL Item was generated by Manubot v0.5.0 from its persistent identifier (standard_id).\nstandard_id: doi:10.1087/20150211"
   },
   {
     "DOI": "10.1093/bioinformatics/btx192",
@@ -2484,6 +2592,57 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.4018/978-1-60960-593-3.ch008"
   },
   {
+    "DOI": "10.4126/frl01-006423289",
+    "URL": "https://repository.publisso.de/resource/frl:6423289",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cardoso",
+        "given": "João"
+      },
+      {
+        "family": "Garcia Castro",
+        "given": "Leyla Jael"
+      },
+      {
+        "family": "Ekaputra",
+        "given": "Fajar"
+      },
+      {
+        "family": "Jacquemot-Perbal",
+        "given": "Marie-Christine"
+      },
+      {
+        "family": "Miksa",
+        "given": "Tomasz"
+      },
+      {
+        "family": "Borbinha",
+        "given": "José"
+      }
+    ],
+    "container-title": "PUBLISSO",
+    "id": "1FiTt7FKJ",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Towards semantic representation of machine-actionable Data Management Plans",
+    "type": "article-journal",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.4126/frl01-006423289"
+  },
+  {
     "DOI": "10.4126/frl01-006423291",
     "author": [
       {
@@ -2769,40 +2928,6 @@
     "title": "RO-Crate RDA maDMP Mapper",
     "type": "article-journal",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3922136"
-  },
-  {
-    "DOI": "10.5281/zenodo.3944464",
-    "abstract": "The development of the DMP Common Standard Ontology (DCSO) is an ongoing effort intended to provide semantic technology representation of the DCS application profile. The objective of this Issue was to create a new version of the DCSO that complies with the best practices in the community. For this hackathon there were 3 main sub-issues to tackle: (1) Third-party concept integration; (2) controlled vocabularies; and (3) constraint representation.",
-    "author": [
-      {
-        "family": "Cardoso",
-        "given": "João"
-      },
-      {
-        "family": "Ekaputra",
-        "given": "Fajar J."
-      },
-      {
-        "family": "Garcia",
-        "given": "Leyla"
-      },
-      {
-        "family": "Jacquemot",
-        "given": "Christine"
-      }
-    ],
-    "container-title": "Zenodo",
-    "id": "XZq9XR1",
-    "issued": {
-      "date-parts": [
-        [
-          2020
-        ]
-      ]
-    },
-    "title": "New version of the DMP Common Standard Ontology",
-    "type": "article-journal",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3944464"
   },
   {
     "DOI": "10.5281/zenodo.4031327",
@@ -3424,86 +3549,6 @@
     "note": "PROV: Three Years Later\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.51314",
     "title": "Tracking Workflow Execution With TavernaPROV",
     "type": "entry"
-  },
-  {
-    "DOI": "10.6084/m9.figshare.3115156.v2",
-    "URL": "https://www.commonwl.org/v1.0/",
-    "abstract": "The Common Workflow Language (CWL) is an informal, multi-vendor working group consisting of various organizations and individuals that have an interest in portability of data analysis workflows. Our goal is to create specifications that enable data scientists to describe analysis tools and workflows that are powerful, easy to use, portable, and support reproducibility.CWL builds on technologies such as JSON-LD and Avro for data modeling and Docker for portable runtime environments. CWL is designed to express workflows for data-intensive science, such as Bioinformatics, Medical Imaging, Chemistry, Physics, and Astronomy.This is v1.0 of the CWL tool and workflow specification, released on 2016-07-08.The specification, in HTML format, is in the draft-3/docs folder.",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          5,
-          4
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Amstutz",
-        "given": "Peter"
-      },
-      {
-        "family": "Crusoe",
-        "given": "Michael R."
-      },
-      {
-        "family": "Tijanić",
-        "given": "Nebojša"
-      },
-      {
-        "family": "Chapman",
-        "given": "Brad"
-      },
-      {
-        "family": "Chilton",
-        "given": "John"
-      },
-      {
-        "family": "Heuer",
-        "given": "Michael"
-      },
-      {
-        "family": "Kartashov",
-        "given": "Andrey"
-      },
-      {
-        "family": "Leehr",
-        "given": "Dan"
-      },
-      {
-        "family": "Ménager",
-        "given": "Hervé"
-      },
-      {
-        "family": "Nedeljkovich",
-        "given": "Maya"
-      },
-      {
-        "family": "Scales",
-        "given": "Matt"
-      },
-      {
-        "family": "Soiland-Reyes",
-        "given": "Stian"
-      },
-      {
-        "family": "Stojanovic",
-        "given": "Luka"
-      }
-    ],
-    "container-title": "Figshare",
-    "id": "Ppg8PzBL",
-    "issued": {
-      "date-parts": [
-        [
-          2016
-        ]
-      ]
-    },
-    "title": "Common Workflow Language, v1.0",
-    "type": "article-journal",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.6084/m9.figshare.3115156.v2"
   },
   {
     "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\\_analyses/",
