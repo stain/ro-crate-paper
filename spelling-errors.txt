@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -69,7 +69,7 @@ formalize
 formalized
 Formalizing
 Frederik
-FrederikCoppens
+frederikcoppens
 Garijo
 GH
 Giacomo
@@ -85,7 +85,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -124,7 +124,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -150,14 +150,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
