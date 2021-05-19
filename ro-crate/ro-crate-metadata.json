@@ -414,7 +414,7 @@
         "@id": "https://spdx.org/licenses/CC-BY-4.0"
       },
       "mentions": [],
-      "name": "Packaging research data with RO-Crate",
+      "name": "Packaging research artefacts with RO-Crate",
       "publisher": {
         "@id": "https://www.researchobject.org/"
       }
@@ -973,7 +973,7 @@
         }
       ],
       "description": "HTML manuscript of the RO-Crate article",
-      "name": "Packaging research data with RO-Crate (HTML)"
+      "name": "Packaging research artefacts with RO-Crate (HTML)"
     },
     {
       "@id": "manuscript.pdf",
@@ -1026,7 +1026,7 @@
         }
       ],
       "description": "HTML manuscript of the RO-Crate article",
-      "name": "Packaging research data with RO-Crate (HTML)"
+      "name": "Packaging research artefacts with RO-Crate (HTML)"
     },
     {
       "@id": "ro-crate-metadata.json",

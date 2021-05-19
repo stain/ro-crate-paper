@@ -1,4 +1,4 @@
-# Manuscript: Packaging research artifacts with RO-Crate
+# Manuscript: Packaging research artefacts with RO-Crate
 
 [![HTML from Manubot](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://stain.github.io/ro-crate-paper/)
 [![PDF from Manubot](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://stain.github.io/ro-crate-paper/manuscript.pdf)
