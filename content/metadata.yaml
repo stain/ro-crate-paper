@@ -32,12 +32,33 @@ author_info:
     email: Peter.Sefton@uts.edu.au
     affiliations:
       - Faculty of Science, University Technology Sydney, AU
+  - name: Eoghan Ó Carragáin
+    initials: EOC
+    orcid: 0000-0001-8131-2150
+    github: eocarragain
+    twitter: eocarragain
+    affiliations:
+      - University College Cork, IE
   - name: Mercè Crosas
     initials: MC
     orcid: 0000-0003-1304-1939
     twitter: mercecrosas
     affiliations:
       - Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+  - name: Leyla Jael Castro
+    initials: LJC
+    orcid: 0000-0003-3986-0510
+    github: ljgarcia
+    twitter: lj_garcia
+    affiliations:
+      - ZB MED Information Centre for Life Sciences, DE
+  - name: Frederik Coppens
+    initials: FC
+    orcid: 0000-0001-6565-5145
+    github: frederikcoppens
+    twitter: FrederikCoppens
+    affiliations:
+      - VIB-UGent Center for Plant Systems Biology, Gent, BE
   - name: José María Fernández
     initials: JMF
     orcid: 0000-0002-4806-5140
