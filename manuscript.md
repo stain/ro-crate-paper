@@ -1,5 +1,5 @@
 ---
-title: Packaging research data with RO-Crate
+title: Packaging research artefacts with RO-Crate
 keywords:
 - research object
 - linked data
@@ -35,10 +35,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Packaging research data with RO-Crate" />
-  <meta name="citation_title" content="Packaging research data with RO-Crate" />
-  <meta property="og:title" content="Packaging research data with RO-Crate" />
-  <meta property="twitter:title" content="Packaging research data with RO-Crate" />
+  <meta name="dc.title" content="Packaging research artefacts with RO-Crate" />
+  <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
+  <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
+  <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
   <meta name="dc.date" content="2021-05-19" />
   <meta name="citation_publication_date" content="2021-05-19" />
   <meta name="dc.language" content="en-GB" />
@@ -107,9 +107,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/830d4452484b0bfc61866dcbacca2ba2698384f2/))
+([permalink](https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/))
 was automatically generated
-from [stain/ro-crate-paper@830d445](https://github.com/stain/ro-crate-paper/tree/830d4452484b0bfc61866dcbacca2ba2698384f2)
+from [stain/ro-crate-paper@f69c36a](https://github.com/stain/ro-crate-paper/tree/f69c36a49b95ded41fd74f980377095ffefaf60e)
 on May 19, 2021.
 </em></small>
 
@@ -317,7 +317,7 @@ The rest of this paper is organised as follows. We first describe RO-Crate, the 
 
 # RO-Crate
 
-RO-Crate provides a lightweight approach to packaging research artifacts with their metadata. To illustrate this, let us imagine a research paper reporting on the sequence analysis of proteins obtained from an experiment on mice. The sequence output files, sequence analysis code, resulting data and reports summarising statistical measures or outputs are all important and inter-related research outputs, and consequently would ideally all be co-located in a directory and accompanied with their corresponding metadata. In reality some of the artefacts (e.g. data or software) will be external references, not necessarily captured in a FAIR way. This directory, along with the relationships between its constituent digital artefacts, is what the RO-Crate model aims to represent, linking together all the elements pertaining to an experiment and required for its reproducibility. 
+RO-Crate provides a lightweight approach to packaging research artefacts with their metadata. To illustrate this, let us imagine a research paper reporting on the sequence analysis of proteins obtained from an experiment on mice. The sequence output files, sequence analysis code, resulting data and reports summarising statistical measures or outputs are all important and inter-related research outputs, and consequently would ideally all be co-located in a directory and accompanied with their corresponding metadata. In reality some of the artefacts (e.g. data or software) will be external references, not necessarily captured in a FAIR way. This directory, along with the relationships between its constituent digital artefacts, is what the RO-Crate model aims to represent, linking together all the elements pertaining to an experiment and required for its reproducibility. 
 
 The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. By usable we mean not just readable by humans but programmatically accessible. A de facto approach to sharing collections of resources is through compressed archives (e.g. a zip file). This solves the problem of “packaging”, but it does not guarantee downstream access to all artefacts in a programmatic fashion, or the role of each file in that particular research. This leads to the need for explicit metadata about the contents of the folder, describing each and linking them together.
 

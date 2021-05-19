@@ -30,7 +30,6 @@ content/10.background.md:16:RO
 content/10.background.md:16:RO
 content/10.background.md:16:RO
 content/20.rocrate.md:1:RO
-content/20.rocrate.md:3:artifacts
 content/20.rocrate.md:3:reproducibility
 content/20.rocrate.md:3:RO
 content/20.rocrate.md:3:RO

@@ -1,5 +1,4 @@
 Alasdair
-artifacts
 atrisovic
 automatable
 BagIt
@@ -11,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -35,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -70,7 +69,7 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
 GH
 Giacomo
@@ -104,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -151,7 +150,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
