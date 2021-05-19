@@ -43,6 +43,7 @@ content/21.conceptual.md:3:RO
 content/21.conceptual.md:3:RO
 content/21.conceptual.md:3:RO
 content/21.conceptual.md:3:RO
+content/21.conceptual.md:3:RO
 content/21.conceptual.md:5:BagIt
 content/21.conceptual.md:5:OCFL
 content/21.conceptual.md:5:PID
@@ -101,7 +102,6 @@ content/21.conceptual.md:33:RO
 content/21.conceptual.md:33:RO
 content/21.conceptual.md:33:RO
 content/21.conceptual.md:35:RO
-content/21.conceptual.md:35:uml
 content/21.conceptual.md:35:uml
 content/21.conceptual.md:35:UML
 content/21.conceptual.md:37:dataset

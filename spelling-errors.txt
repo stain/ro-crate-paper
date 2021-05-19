@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCrate
 DataCrate’s
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 maDMP
 maDMPs
@@ -150,14 +150,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -186,7 +186,7 @@ Thelen
 Trisovic
 txt
 UGent
-uml
+UML
 Universidad
 unshortened
 URI

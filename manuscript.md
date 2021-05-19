@@ -107,9 +107,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/323eedc6a077aac313fc7ecedabc8dfd172f1637/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/323eedc6a077aac313fc7ecedabc8dfd172f1637/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/323eedc6a077aac313fc7ecedabc8dfd172f1637/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/f69c36a49b95ded41fd74f980377095ffefaf60e/))
+([permalink](https://stain.github.io/ro-crate-paper/v/323eedc6a077aac313fc7ecedabc8dfd172f1637/))
 was automatically generated
-from [stain/ro-crate-paper@f69c36a](https://github.com/stain/ro-crate-paper/tree/f69c36a49b95ded41fd74f980377095ffefaf60e)
+from [stain/ro-crate-paper@323eedc](https://github.com/stain/ro-crate-paper/tree/323eedc6a077aac313fc7ecedabc8dfd172f1637)
 on May 19, 2021.
 </em></small>
 
@@ -335,9 +335,9 @@ In the following sections we show how the RO-Crate specification and ecosystem a
 
 ## Conceptual Definition
 
-A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on concepts from the Web, in particular that of Linked Data. Figure {@fig:conceptual} shows  the main conceptual elements involved in an RO-Crate; the top half shows the metadata elements while the bottom half depicts the artefacts bundled and described by the RO-Crate.
+A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on concepts from the Web, in particular that of Linked Data [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure \ref{fig:conceptual} shows the main conceptual elements involved in an RO-Crate; an RO-Metadata File(top) describes the research object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt[@@doi:10.17487/rfc8493], OCFL[@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using ROR and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using ROR and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a core principle
 
@@ -367,7 +367,7 @@ As both types of entities are identified by IRIs, their distinction is allowed t
 
 Any particular IRI might appear as a contextual entity in one RO-Crate and as a data entity in another; their distinction lies in the fact that data entities can be considered to be _contained_ or captured by the RO-Crate, while contextual entities mainly _explain_ the RO-Crate and its entities. It follows that an RO-Crate should have one or more data entities, although this is not a formal requirement. 
 
-Figure {@fig:uml} shows a UML view of RO-Crate \ref{fig:uml}, highlighting the different types of data entities and contextual entities that can be aggregated and related.
+Figure \ref{fig:uml} shows a UML view of RO-Crate, highlighting the different types of data entities and contextual entities that can be aggregated and related.
 
 ![**UML model view of RO-Crate.** The *RO-Crate Metadata File* conforms to a version of the specification, which mainly describes the *RO-Crate Root Data Entity* representing the Research Object as a dataset. The RO-Crate aggregates *data entities* (`hasPart`) which are further described using *contextual entities*. Multiple types and relations from Schema.org allow annotations to be more specific, including figures, nested datasets, computational workflows, people, organisations, instruments and places.](images/ro-crate-uml.svg "RO-Crate UML"){#fig:uml width="90%"}
 

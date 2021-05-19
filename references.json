@@ -2362,6 +2362,48 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc8493"
   },
   {
+    "DOI": "10.2200/S00334ED1V01Y201102WBE001",
+    "ISBN": "9781608454310",
+    "ISSN": "2160-4711",
+    "URL": "http://www.morganclaypool.com/doi/abs/10.2200/{S00334ED1V01Y201102WBE001}",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Heath",
+        "given": "Tom"
+      },
+      {
+        "family": "Bizer",
+        "given": "Christian"
+      }
+    ],
+    "collection-number": "1",
+    "container-title": "Synthesis Lectures on the Semantic Web: Theory and Technology",
+    "id": "GOjoQFmf",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          2,
+          9
+        ]
+      ]
+    },
+    "page": "1-136",
+    "title": "Linked Data: Evolving the Web into a Global Data Space",
+    "type": "book",
+    "volume": "1",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.2200/S00334ED1V01Y201102WBE001\noriginal_standard_id: doi:10.2200/S00334ED1V01Y201102WBE001\nstandard_id: doi:10.2200/s00334ed1v01y201102wbe001"
+  },
+  {
     "DOI": "10.3233/{DS}-190026",
     "ISSN": "24518492",
     "accessed": {
