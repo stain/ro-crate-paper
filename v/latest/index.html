@@ -19,7 +19,7 @@
   <meta name="author" content="RO-Crate Community" />
   <meta name="author" content="Paul Groth" />
   <meta name="author" content="Carole Goble" />
-  <meta name="dcterms.date" content="2021-05-19" />
+  <meta name="dcterms.date" content="2021-05-20" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research artefacts with RO-Crate</title>
   <style>
@@ -104,8 +104,8 @@
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-05-19" />
-  <meta name="citation_publication_date" content="2021-05-19" />
+  <meta name="dc.date" content="2021-05-20" />
+  <meta name="citation_publication_date" content="2021-05-20" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -172,9 +172,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -188,10 +188,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/f76565ee76dd97d0115303d3967a4e8f07b4cf41">stain/ro-crate-paper@f76565e</a>
-on May 19, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/3b7789d439cebd3d783397180812bef0f2b6293c">stain/ro-crate-paper@3b7789d</a>
+on May 20, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -327,7 +327,7 @@ Department of Computer Science, The University of Manchester, UK
 </small></p></li>
 </ul>
 <p>An increasing amount of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. Based on Schema.org annotations in JSON-LD, RO-Crate aims to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.</p>
-<p>An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhance research reproducibility.</p>
+<p>An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhance research reproducibility.</p>
 <h1 id="introduction">Introduction</h1>
 <p>The move towards open science and open research practices has increased the need and demand for the publication of artefacts of the research process <span class="citation" data-cites="19ybGpBJJ">[<a href="#ref-19ybGpBJJ" role="doc-biblioref">1</a>]</span>. This is particularly apparent in domains that rely on computational experiments; for example, the publication of software, datasets and records of the dependencies that such experiments rely on <span class="citation" data-cites="gvyja7v1">[<a href="#ref-gvyja7v1" role="doc-biblioref">2</a>]</span>.</p>
 <p>It is often argued that the publication of these assets, and specifically software <span class="citation" data-cites="sbRbAxdT">[<a href="#ref-sbRbAxdT" role="doc-biblioref">3</a>]</span> and data, should follow the The FAIR principles <span class="citation" data-cites="6DjakjNS">[<a href="#ref-6DjakjNS" role="doc-biblioref">4</a>]</span>; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the <em>implementation</em> strategy needed to comply with them. Hence, there has been an increasing amount of work in the development of platforms and specifications that aim to fulfil these goals <span class="citation" data-cites="r3UZD8uu">[<a href="#ref-r3UZD8uu" role="doc-biblioref">5</a>]</span>. Important examples include data publication with rich metadata (e.g. Zenodo <span class="citation" data-cites="8xxCWPLQ">[<a href="#ref-8xxCWPLQ" role="doc-biblioref">6</a>]</span>), domain specific data deposition (e.g. PDB <span class="citation" data-cites="c5hSVgMG">[<a href="#ref-c5hSVgMG" role="doc-biblioref">7</a>]</span>) and following practices for reproducible research software <span class="citation" data-cites="Pf3steOn">[<a href="#ref-Pf3steOn" role="doc-biblioref">8</a>]</span> (e.g. use of containers).</p>
@@ -358,7 +358,7 @@ Department of Computer Science, The University of Manchester, UK
 </figure>
 </div>
 <h3 id="linked-data-as-a-core-principle">Linked Data as a core principle</h3>
-<p>Linked Data principles<span class="citation" data-cites="OsBEGq7D">[<a href="#ref-OsBEGq7D" role="doc-biblioref">15</a>]</span> (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> are used to identify an RO-Crate package, its constituent parts and metadata descriptions, and the properties and classes used in the metadata.</p>
+<p>Linked Data principles <span class="citation" data-cites="OsBEGq7D">[<a href="#ref-OsBEGq7D" role="doc-biblioref">15</a>]</span> (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> are used to identify an RO-Crate package, its constituent parts and metadata descriptions, and the properties and classes used in the metadata.</p>
 <p>Linked Data make it possible for consumers to follow links for more (ideally both human- and machine-readable) information; as the RO-Crate relies on these principles, ti can be sufficiently <em>self-describing</em> as artefacts can be interrelated using global identifiers, without needing to recursively fully describe every referenced artefact.</p>
 <p>[PROPOSED REPHRASE ON PREVIOUS PAR] RO Crates are <em>self-described</em>; and follow the Linked Data principles to describe all of their resources in both human and machine readable manner. Hence, resources are identified using global identifiers; and relationships between two resources are defined with links.</p>
 <p>The foundation on Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies such as SPARQL and knowledge graph triple stores.</p>
@@ -697,7 +697,7 @@ Department of Computer Science, The University of Manchester, UK
 <dt>Frederik Coppens</dt>
 <dd>Writing – review &amp; editing
 </dd>
-<dt>José María Fernández</dt>
+<dt>José M. Fernández</dt>
 <dd>Methodology, Software, Writing – review &amp; editing
 </dd>
 <dt>Daniel Garijo</dt>
