@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-05-19'
+date-meta: '2021-05-20'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-05-19" />
-  <meta name="citation_publication_date" content="2021-05-19" />
+  <meta name="dc.date" content="2021-05-20" />
+  <meta name="citation_publication_date" content="2021-05-20" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -107,9 +107,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/f76565ee76dd97d0115303d3967a4e8f07b4cf41/))
+([permalink](https://stain.github.io/ro-crate-paper/v/3b7789d439cebd3d783397180812bef0f2b6293c/))
 was automatically generated
-from [stain/ro-crate-paper@f76565e](https://github.com/stain/ro-crate-paper/tree/f76565ee76dd97d0115303d3967a4e8f07b4cf41)
-on May 19, 2021.
+from [stain/ro-crate-paper@3b7789d](https://github.com/stain/ro-crate-paper/tree/3b7789d439cebd3d783397180812bef0f2b6293c)
+on May 20, 2021.
 </em></small>
 
 ## Authors
@@ -293,7 +293,7 @@ on May 19, 2021.
 
 An increasing amount of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. Based on Schema.org annotations in JSON-LD, RO-Crate aims to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations. 
 
-An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory submissions. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhance research reproducibility.
+An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging framework for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhance research reproducibility.
 
 
 
@@ -341,7 +341,7 @@ A key premise of RO-Crate is the existence of a wide variety of resources on the
 
 ### Linked Data as a core principle
 
-Linked Data principles[@doi:10.4018/978-1-60960-593-3.ch008] (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs[^1] are used to identify an RO-Crate package, its constituent parts and metadata descriptions, and the properties and classes used in the metadata. 
+Linked Data principles [@doi:10.4018/978-1-60960-593-3.ch008] (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs[^1] are used to identify an RO-Crate package, its constituent parts and metadata descriptions, and the properties and classes used in the metadata. 
 
 Linked Data make it possible for consumers to follow links for more (ideally both human- and machine-readable) information; as the RO-Crate relies on these principles, ti can be sufficiently _self-describing_ as artefacts can be interrelated using global identifiers, without needing to recursively fully describe every referenced artefact.
 
@@ -708,7 +708,7 @@ Leyla Jael Castro
 Frederik Coppens
 : Writing – review \& editing
 
-José María Fernández
+José M. Fernández
 : Methodology, Software, Writing – review \& editing
 
 Daniel Garijo

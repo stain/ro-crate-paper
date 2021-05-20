@@ -726,7 +726,6 @@ content/70.acknowledgements.md:26:Coppens
 content/70.acknowledgements.md:26:Frederik
 content/70.acknowledgements.md:29:Fernández
 content/70.acknowledgements.md:29:José
-content/70.acknowledgements.md:29:María
 content/70.acknowledgements.md:32:Garijo
 content/70.acknowledgements.md:41:Portier
 content/70.acknowledgements.md:44:Trisovic
