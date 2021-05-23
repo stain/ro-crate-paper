@@ -12,9 +12,7 @@
 % From https://www.overleaf.com/latex/templates/using-the-stix2-opentype-fonts-with-lualatex-or-xelatex/hdfvhzqmhnpx
 \usepackage{amsmath}
 \usepackage{amssymb}
-%\usepackage{url}
 \usepackage{hyperref}
-\usepackage{doi} % clickable DOIs, welcome to 2000s
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -24,6 +22,14 @@
 \usepackage{fontspec}
 \usepackage{unicode-math}
 % \usepackage{graphicx}
+
+% We had to make our own copy of 
+% https://ctan.org/pkg/doi?lang=en 
+% where commands are renamde to \doix
+% because iosart2x.cls and ios1.bst have 
+% a different use of \doiurl \doi etc.
+\usepackage{doix}
+\newcommand{\doiurl}[1]{\doix{#1}}
 
 \DeclareGraphicsExtensions{.pdf,.png,.svg}
 \graphicspath{../content/images/}
