@@ -12,7 +12,7 @@
 \ifx \bfpage  \undefined \def \bfpage#1{#1} \fi
 \ifx \blpage  \undefined \def \blpage #1{#1} \fi
 \ifx \burl  \undefined \def \burl#1{#1} \fi
-\ifx \doiurl  \undefined \def \doiurl#1{#1} \fi
+\ifx \doiwurl  \undefined \def \doiwurl#1{#1} \fi
 \ifx \betal  \undefined \def \betal{et al.} \fi
 \ifx \binstitute  \undefined \def \binstitute#1{#1} \fi
 \ifx \beditor  \undefined \def \beditor#1{#1} \fi
