@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -85,7 +85,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -151,7 +151,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROR
 ROs
