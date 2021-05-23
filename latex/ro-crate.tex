@@ -13,23 +13,30 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{darkerblue}{cmyk}{1,1,0,0.45}
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
     citecolor=black,
-    urlcolor=blue}
+    urlcolor=darkerblue}
 
 \usepackage{fontspec}
 \usepackage{unicode-math}
 % \usepackage{graphicx}
 
+% Hyperlinks on DOI permalinks – just 20 years after DOI invention!
+% 
 % We had to make our own copy of 
 % https://ctan.org/pkg/doi?lang=en 
 % where commands are renamde to \doix
 % because iosart2x.cls and ios1.bst have 
 % a different use of \doiurl \doi etc.
+% We also set the doixtext prefix empty
+% to avoid doi:doi:
 \usepackage{doix}
-\newcommand{\doiurl}[1]{\doix{#1}}
+\renewcommand{\doixtext}{}
+\renewcommand{\doiurl}[1]{\doix{#1}}
 
 \DeclareGraphicsExtensions{.pdf,.png,.svg}
 \graphicspath{../content/images/}
@@ -70,13 +77,13 @@
 
 % https://typeof.net/Iosevka/ mono font has 
 % all; the logic symbols we need
-\setmonofont{iosevka-slab}[
-    Extension={.ttf},
-    Path=./ttf-iosevka-slab-6.1.3/,
-    Scale=MatchLowercase,
-    UprightFont={*-light},
-    ItalicFont={*-lightitalic}
-]
+%\setmonofont{iosevka-slab}[
+%    Extension={.ttf},
+%    Path=./ttf-iosevka-slab-6.1.3/,
+%    Scale=MatchLowercase,
+%    UprightFont={*-light},
+%    ItalicFont={*-lightitalic}
+%]
 
 \begin{frontmatter}
 
@@ -212,8 +219,7 @@
 %%%% Appendix
 
 \appendix
-\markdownInput{../content/80.formal-definition.md}
-% TODO: Recode formal definition to LaTeX math mode?
+%\markdownInput{../content/80.formal-definition.md}
 \input{../content/80.formal-definition}
 
 \markdownInput{../content/89.community.md}

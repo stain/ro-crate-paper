@@ -2401,7 +2401,7 @@ FUNCTION {write.preambule}
     "\ifx \bfpage  \undefined \def \bfpage#1{#1} \fi" write$ newline$
     "\ifx \blpage  \undefined \def \blpage #1{#1} \fi" write$ newline$
     "\ifx \burl  \undefined \def \burl#1{#1} \fi" write$ newline$
-	    "\ifx \doiurl  \undefined \def \doiurl#1{#1} \fi" write$ newline$
+    "\ifx \doiurl  \undefined \def \doiurl#1{#1} \fi" write$ newline$
     "\ifx \betal  \undefined \def \betal{et al.} \fi" write$ newline$
     "\ifx \binstitute  \undefined \def \binstitute#1{#1} \fi" write$ newline$
     "\ifx \beditor  \undefined \def \beditor#1{#1} \fi" write$ newline$
