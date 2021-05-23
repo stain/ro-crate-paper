@@ -11,32 +11,28 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 Definition of language $\mathcal{L}_{rocrate}$:
 
 \begin{eqnarray*}
-    \mathcal{L}_{rocrate}   & \equiv & \big\{ Property(p), Class(c), 
+    \mathcal{L}_{rocrate}   & = & \big\{ Property(p), Class(c), 
                             Value(x), \mathbb{R}, \mathbb{S} \big\} \\
-    \mathbb{D}              & \equiv & \mathbb{IRI} \\
+    \mathbb{D}              & = & \mathbb{IRI} \\
     \mathbb{IRI}            & \equiv & { \text{IRIs as defined in RFC3987} } \\
     \mathbb{R}              & \equiv & { \text{real or integer numbers} } \\
     \mathbb{S}              & \equiv & { \text{literal strings} }
 \end{eqnarray*}
 
 
-\begin{markdown}
-The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`)[^3], with additional descriptions using numbers $\mathbb{R}$ (notation $13.37$) and literal strings $\mathbb{S}$ (notation $\text{“Hello”}$). 
+The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers \cite{doi:10.17487/rfc3987} (notation $\texttt{<http://example.com/>}$)\footnote{
+    For simplicity, blank nodes are not included in this formalisation, as RO-Crate
+    recommends the use of IRI identifiers: \url{https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#describing-entities-in-json-ld} 
+}, with additional descriptions using numbers $\mathbb{R}$ (notation $13.37$) and literal strings $\mathbb{S}$ (notation $\text{“Hello”}$). 
 
 From this formalised language $\mathcal{L}_{rocrate}$ we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
-[^3]:
-    For simplicity, blank nodes are not included in this formalisation, as RO-Crate
-    recommends the use of IRI identifiers: \url{https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#describing-entities-in-json-ld} 
-\end{markdown}
+\subsection{Minimal RO-Crate}
 
-\begin{markdown}
-### Minimal RO-Crate
+Below we use $\mathcal{L}_{rocrate}$ to define a minimal\footnote{
+    The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include $datePublished$, $CreativeWork$ and $name$.
+} RO-Crate:
 
-Below we use $\mathcal{L}_{rocrate}$ to define a minimal[^4] RO-Crate:
-
-[^4]: The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include $datePublished$, $CreativeWork$ and $name$.
-\end{markdown}
 
 \begin{eqnarray*}
 ROCrate(R)                                  & \models & Root(R) \land Mentions(R, R) \land hasPart(R, d) \land \\
@@ -57,21 +53,17 @@ Attribute(s, p, v)                          & \models &     Entity(s) \land Prop
 Value(v)                                    & \equiv &      v \in \mathbb{R} \oplus v \in \mathbb{S}
 \end{eqnarray*}
 
-\begin{markdown}
-An $ROCrate(R)$ is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
+An $ROCrate(R)$ is defined as a self-described \emph{Root Data Entity}, which describes and contains parts (\emph{data entities}), which are further described in \emph{contextual entities}.  These terms align with their use in the \href{https://www.researchobject.org/ro-crate/1.1/terminology}{RO-Crate 1.1 terminology}. 
 
-The $Root(r)$ is a type of $Dataset(r)$, and must have the metadata to literal attributes to provide a $name$, $description$ and $datePublished$, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
+The $Root(r)$ is a type of $Dataset(r)$, and must have the metadata to literal attributes to provide a $name$, $description$ and $datePublished$, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 \href{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity}{requirements for the root data entity}.
 
-The concept of an $Entity(e)$ is introduced as being either a $DataEntity(e)$, a $ContextualEntity(e)$, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one $Class(e)$. 
+The concept of an $Entity(e)$ is introduced as being either a $DataEntity(e)$, a $ContextualEntity(e)$, or \href{https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities}{both}; and must be typed with at least one $Class(e)$. 
 
-For simplicity in this formalization (and to assist production rules below) $R$ is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. $R$ is used by $Mentions(R, e)$ to indicate that $e$ is an Entity described by the RO-Crate and therefore its metadata (a set of $Relation$ and $Attribute$ predicates) form part of the RO-Crate serialization. $Relation(s, p, o)$ and $Attribute(s, p, x)$ are defined as a _subject-predicate-object_ triple pattern from an $Entity(s)$ using a $Property(p)$ to either another $Entity(o)$ or a $Value(x)$ value.
-\end{markdown}
+For simplicity in this formalization (and to assist production rules below) $R$ is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. $R$ is used by $Mentions(R, e)$ to indicate that $e$ is an Entity described by the RO-Crate and therefore its metadata (a set of $Relation$ and $Attribute$ predicates) form part of the RO-Crate serialization. $Relation(s, p, o)$ and $Attribute(s, p, x)$ are defined as a \emph{subject—predicate—object} triple pattern from an $Entity(s)$ using a $Property(p)$ to either another $Entity(o)$ or a $Value(x)$ value.
 
-\begin{markdown}
-### Example of formalized RO-Crate 
+\subsection{Example of formalized RO-Crate}
 
-The below is an example RO-Crate represented using the above formalization, assuming a base URI of `<http://example.com/ro/123/>`:
-\end{markdown}
+The below is an example RO-Crate represented using the above formalisation, assuming a base URI of \texttt{<http://example.com/ro/123/>}:
 
 \allowdisplaybreaks
 \begin{eqnarray*}
@@ -101,22 +93,15 @@ The below is an example RO-Crate represented using the above formalization, assu
 && \ \ \ \ \  \text{“Audio recordings of care provider interviews”}) 
 \end{eqnarray*}
 
-\begin{markdown}
-In reality many additional attributes from schema.org types like <http://schema.org/Dataset> and <http://schema.org/CreativeWork> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.
+In reality many additional attributes from schema.org types like \url{http://schema.org/Dataset} and \url{http://schema.org/CreativeWork} would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalisation.
 
-### Mapping to RDF with schema.org
+\subsection{Mapping to RDF with schema.org}
 
-A formalized RO-Crate in 
-$\mathcal{L}_{rocrate}$
-can be mapped to different serializations.
-
-Assume a simplified[^4] language 
-$\mathcal{L}_{RDF}$ 
-based on the [RDF abstract syntax](http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/):
-
-[^4]: This simplification does not cover the extensive list of literal datatypes built-in to RDF 1.1, only strings and decimal real numbers. Likewise, language of literals are not included.
-    
-\end{markdown}
+A formalized RO-Crate in $\mathcal{L}_{rocrate}$ can be mapped to different serializations.
+Assume a simplified\footnote{
+ This simplification does not cover the extensive list of literal datatypes built-in to RDF 1.1, only strings and decimal real numbers. Likewise, language of literals are not included.
+} language $\mathcal{L}_{RDF}$ 
+based on the \href{http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/}{RDF abstract syntax}:
 
 \begin{eqnarray*}
 \mathcal{L}_{RDF}           & \equiv &      \big\{ Triple(s,p,o), IRI(i), BlankNode(b), Literal(s), 
@@ -157,14 +142,11 @@ Relation(s,p,o)     & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land IRI(o) 
 Attribute(s,p,o)    & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land Literal(o) \\
 \end{eqnarray*}
 
+Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD \texttt{@context} maps to schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa.  
 
-\begin{markdown}
-Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD `@context` maps to schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa.  
+\subsection{RO-Crate 1.1 Metadata File Descriptor}
 
-### RO-Crate 1.1 Metadata File Descriptor
-
-An important RO-Crate principle is that of being **self-describing**. Therefore the serialization of the RO-Crate into a file should also describe itself in a [Metadata File Descriptor](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor), indicating it is about (describing) the RO-Crate root data entity, and that it conformsTo a particular version of the RO-Crate specification:
-\end{markdown}
+An important RO-Crate principle is that of being \textbf{self-describing} Therefore the serialisation of the RO-Crate into a file should also describe itself in a \href{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor}{Metadata File Descriptor}, indicating it is $about$ (describing) the RO-Crate root data entity, and that it $conformsTo$ a particular version of the RO-Crate specification:
 
 \begin{eqnarray*}
 about(s,o)      & \Rightarrow & Relation(s, \texttt{<http://schema.org/about>}, o)   \\
@@ -173,20 +155,15 @@ MetadataFile(m) & \Rightarrow & CreativeWork(m) \land about(m,R) ∧ ROCrate(R) 
                 &             & conformsTo(m, \texttt{<https://w3id.org/ro/crate/1.1>})
 \end{eqnarray*}
 
-\begin{markdown}
-Note that although the metadata file necessarily is an _information resource_ written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained _part_ of the RO-Crate in the form of a _data entity_, rather it is described only as a _contextual entity_.
+Note that although the metadata file necessarily is an \emph{information resource} written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained \emph{part} of the RO-Crate in the form of a \emph{data entity}, rather it is described only as a \emph{contextual entity}.
 
-While in the conceptual model the _RO-Crate Metadata File_ can be seen as the top-level node that describes the _RO-Crate Root_, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.
-\end{markdown}
+While in the conceptual model the \emph{RO-Crate Metadata File} can be seen as the top-level node that describes the \emph{RO-Crate Root}, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.
 
-\begin{markdown}
-### Forward-chained Production Rules for JSON-LD
+\subsection{Forward-chained Production Rules for JSON-LD}
 
-Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification[^2]:
-
-[^2]:
-    **Limitations:** Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see [issue 122](https://github.com/ResearchObject/ro-crate/issues/122). The $datePublished(e, date)$ rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a $@context$ as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The `@type` expansion is included for clarity, even though this is also implied by the $type(e, t)$ expansion to $Relation(e, \texttt{xsd:type})$.
-\end{markdown}
+Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification\footnote{
+    \textbf{Limitations:} Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see \href{https://github.com/ResearchObject/ro-crate/issues/122}{issue 122}. The $datePublished(e, date)$ rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a $@context$ as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The \texttt{@type} expansion is included for clarity, even though this is also implied by the $type(e, t)$ expansion to $Relation(e, \texttt{xsd:type})$.
+}:
 
 \begin{eqnarray*}
 Mentions(R, s) \land Relation(s,p,o)  
@@ -216,7 +193,5 @@ R   & \equiv & \texttt{<./>}  \\
 R   & \Rightarrow &  MetadataFile(\texttt{<ro-crate-metadata.json>}) \\
 \end{eqnarray*}    
 
-\begin{markdown}
 This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of $R$ by adding a transitive rule – anything described in $R$ which is related to $o$, means that $o$ is also mentioned by the $ROCrate(R)$. For simplicity this rule is one-way; in practice the graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
-\end{markdown}
 
