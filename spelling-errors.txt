@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCrate
 DataCrate’s
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -124,7 +124,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -133,6 +133,7 @@ OpenAIRE
 Palma
 PARADISEC
 PCDM
+PDB
 pgroth
 PID
 PIDs
