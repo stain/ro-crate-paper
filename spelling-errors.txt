@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCrate
 DataCrate’s
@@ -85,7 +85,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -113,6 +113,7 @@ Mercè
 mercecrosas
 metagenomics
 MGS
+Miksa
 mportier
 myExperiment
 namespaced
@@ -124,7 +125,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -140,6 +141,7 @@ PIDs
 Politécnica
 Portier
 programmatically
+projet
 ptsefton
 Pula
 py
@@ -183,6 +185,7 @@ Tartari
 TavernaPROV
 templating
 Thelen
+Tomasz
 Trisovic
 txt
 UGent

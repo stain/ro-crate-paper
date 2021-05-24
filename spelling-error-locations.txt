@@ -707,6 +707,8 @@ content/70.acknowledgements.md:5:SyntheSys
 content/70.acknowledgements.md:9:casrai
 content/70.acknowledgements.md:9:CASRAI
 content/70.acknowledgements.md:9:https
+content/70.acknowledgements.md:9:projet
+content/70.acknowledgements.md:9:RO
 content/70.acknowledgements.md:11:Soiland
 content/70.acknowledgements.md:11:Stian
 content/70.acknowledgements.md:12:Conceptualization
@@ -716,7 +718,6 @@ content/70.acknowledgements.md:14:Sefton
 content/70.acknowledgements.md:15:Conceptualization
 content/70.acknowledgements.md:17:Carragáin
 content/70.acknowledgements.md:17:Eoghan
-content/70.acknowledgements.md:18:Conceptualization
 content/70.acknowledgements.md:20:Crosas
 content/70.acknowledgements.md:20:Mercè
 content/70.acknowledgements.md:23:Jael
@@ -955,3 +956,7 @@ content/89.community.md:47:Niu
 content/89.community.md:48:https
 content/89.community.md:48:Kosuke
 content/89.community.md:48:Tanabe
+content/89.community.md:49:https
+content/89.community.md:49:Miksa
+content/89.community.md:49:Tomasz
+content/89.community.md:50:https

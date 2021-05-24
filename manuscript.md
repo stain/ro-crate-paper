@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/))
+([permalink](https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/))
 was automatically generated
-from [stain/ro-crate-paper@92b2061](https://github.com/stain/ro-crate-paper/tree/92b2061a80b6fad3fe4b1eb03919666579538417)
+from [stain/ro-crate-paper@ed02b39](https://github.com/stain/ro-crate-paper/tree/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e)
 on May 24, 2021.
 </em></small>
 
@@ -691,16 +691,16 @@ This work has received funding from the European Commission's Horizon 2020 resea
 
 ## Contributions
 
-Author contributions according to the Contributor Roles Taxonomy [CASRAI CrEDiT](https://casrai.org/credit/) [@doi:10.1087/20150211]:
+Author contributions to this article and the RO-Crate projet according to the Contributor Roles Taxonomy [CASRAI CrEDiT](https://casrai.org/credit/) [@doi:10.1087/20150211]:
 
 Stian Soiland-Reyes
 : Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review \& editing
 
 Peter Sefton
-: Conceptualization, Methodology, Project administration, Software, Writing – review \& editing
+: Conceptualization, Investigation, Methodology, Project administration, Resources, Software, Writing – review \& editing
 
 Eoghan Ó Carragáin
-: Conceptualization, Project administration, Writing – review \& editing
+: Investigation, Methodology, Project administration, Writing – review \& editing
 
 Mercè Crosas
 : Writing – review \& editing
@@ -730,7 +730,7 @@ Ana Trisovic
 : Software, Writing – review \& editing
 
 RO-Crate Community
-: Software, Validation, Writing – review \& editing
+: Investigation, Software, Validation, Writing – review \& editing
 
 Paul Groth
 : Methodology, Supervision, Writing – original draft, Writing – review \& editing
@@ -920,7 +920,7 @@ This exposes the first order logic domain of discourse of IRIs, with rational nu
 
 # RO-Crate Community
 
-As of 2021-05-07, the _RO-Crate_ Community members are:
+As of 2021-05-24, the _RO-Crate_ Community members are:
 
 * Peter Sefton \url{https://orcid.org/0000-0002-3545-944X} (co-chair)
 * Stian Soiland-Reyes \url{https://orcid.org/0000-0001-9842-9718} (co-chair)
@@ -966,7 +966,8 @@ As of 2021-05-07, the _RO-Crate_ Community members are:
 * Bert Droesbeke \url{https://orcid.org/0000-0003-0522-5674}
 * Chenxu Niu \url{https://github.com/UstcChenxu}
 * Kosuke Tanabe \url{https://orcid.org/0000-0002-9986-7223}
-
+* Tomasz Miksa \url{https://orcid.org/0000-0002-4929-7875}
+* Marco La Rosa \url{https://orcid.org/0000-0001-5383-6993}
 
 ## References {.page_break_before}
 
