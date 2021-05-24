@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCrate
 DataCrate’s
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 maDMP
 maDMPs
@@ -181,7 +181,6 @@ SyntheSys
 Tanabe
 Tartari
 TavernaPROV
-telcons
 templating
 Thelen
 Trisovic

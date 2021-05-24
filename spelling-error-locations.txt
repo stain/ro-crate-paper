@@ -246,7 +246,6 @@ content/23.community.md:1:RO
 content/23.community.md:3:RO
 content/23.community.md:3:RO
 content/23.community.md:5:RO
-content/23.community.md:9:telcons
 content/23.community.md:13:eScience
 content/23.community.md:13:https
 content/23.community.md:13:https

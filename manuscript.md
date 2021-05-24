@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-05-23'
+date-meta: '2021-05-24'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-05-23" />
-  <meta name="citation_publication_date" content="2021-05-23" />
+  <meta name="dc.date" content="2021-05-24" />
+  <meta name="citation_publication_date" content="2021-05-24" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -107,9 +107,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1a0bde5213eaf1c76be01eb36f4d8d85bc8be582/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0bde5213eaf1c76be01eb36f4d8d85bc8be582/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a0bde5213eaf1c76be01eb36f4d8d85bc8be582/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/1a0bde5213eaf1c76be01eb36f4d8d85bc8be582/))
+([permalink](https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/))
 was automatically generated
-from [stain/ro-crate-paper@1a0bde5](https://github.com/stain/ro-crate-paper/tree/1a0bde5213eaf1c76be01eb36f4d8d85bc8be582)
-on May 23, 2021.
+from [stain/ro-crate-paper@caab79c](https://github.com/stain/ro-crate-paper/tree/caab79c2351eeaf861a7720c9f63af1547b30e72)
+on May 24, 2021.
 </em></small>
 
 ## Authors
@@ -438,7 +438,7 @@ _Figure X_: _Simplified RO-Crate JSON-LD showing the flattened compacted `@graph
 
 It can be argued that this is a more graph-like approach than the tree structure JSON would otherwise invite, and which is normally emphasised as a feature of JSON-LD in order to “hide” its RDF nature. 
 
-However, we found that the use of trees for, e.g. *a _Person_ entity appearing as author of a `File` which nests under a `Dataset`, `hasPart`*, counter-intuitively leads one to consider the JSON-LD as an RDF Graph, since an identified Person entity can then appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
+However, we found that the use of trees for, e.g. *a _Person_ entity appearing as author of a `File` which nests under a `Dataset`, `hasPart`*, counter-intuitively leads one to consider the JSON-LD as an RDF Graph, since an identified `Person` entity can then appear at multiple and repeated points of the tree (e.g. author of multiple files), necessitating node merging or duplication. 
 
 By comparison, a single flat `@graph` array approach means that applications can process and edit each entity as pure JSON by a simple lookup based on `@id`. At the same time, lifting all entities to the same level emphasises Research Object's principle that describing the context and provenance is just as important as describing the data.
 
@@ -446,7 +446,7 @@ RO-Crate reuses Schema.org, but provides its own versioned JSON-LD context, whic
 
 <!--While RO-Crate mainly uses schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the `@context` to find Linked Data definitions of unknown properties and types. Thus, RO-Crate provides its own versioned JSON-LD context, which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents; for instance, `author` maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [@pcdm] for repositories and Bioschemas [@bioschemas_2017] for describing computational workflows.-->
 
-Similarly, rather than relying on implications from `"@type: @id"` annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities (`{"id": "#alice"}`) and string values (`"Alice"`) - meaning RO-Crate applications can find the corresponding entity without parsing the `@context`.
+Similarly, rather than relying on implications from `"@type": "@id"` annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities (`{"id": "#alice"}`) and string values (`"Alice"`) - meaning RO-Crate applications can find the corresponding entity without parsing the `@context`.
 
 
 
@@ -462,7 +462,7 @@ The RO-Crate community consists of:
 
 1. a diverse set of people representing a variety of stakeholders;
 2. a set of collective norms;
-3. an open platform that facilitates communication (GitHub, Google Docs, monthly telcons).
+3. an open platform that facilitates communication (GitHub, Google Docs, monthly teleconferences).
 
 ### People
 
@@ -508,7 +508,7 @@ In addition to the typical Open Source-style development with GitHub issues and 
 
 # RO-Crate Tooling
 
-The work of the community led to the development of a number of tools for creating and using RO-Crates. Table \ref{tab:tools} shows the current set of implementations. Reviewing this list, one can see that there are tools that support commonly used programming languages including Python, JavaScript, and Ruby. Additionally, these tools can be integrated into commonly used research environments; in particular, the command line (*ro-crate-html-js*). Furthermore, there are tools that cater to the end user (*Describo*, *Workflow Hub*). For example, Describo was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) annotate historical prisoner records, to gain greater insight into the history of Australia [@doi:10.1080/14490854.2020.1796500]. 
+The work of the community led to the development of a number of tools for creating and using RO-Crates. Table \ref{tab:tools} shows the current set of implementations. Reviewing this list, one can see that tools support commonly used programming languages, including Python, JavaScript, and Ruby. Additionally, these tools can be integrated into commonly used research environments; in particular, the command line (*ro-crate-html-js*). Furthermore, there are tools that cater to the end-user (*Describo*, *Workflow Hub*). For example, Describo was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) annotate historical prisoner records to gain greater insight into the history of Australia [@doi:10.1080/14490854.2020.1796500]. 
 
 While the development of these tools is promising, our analysis of their maturity status shows that the majority of them are in the Beta stage. This is partly due to the fact that the RO-Crate specification itself only recently reached 1.0 status, in November 2019 [@doi:10.5281/zenodo.3541888]. Now that there is a fixed point of reference, and RO-Crate 1.1 (October 2020) [@doi:10.5281/zenodo.4031327] has stabilised based on feedback from application development, we expect to see a further increase in the maturity of these tools, along with the creation of new ones.
 
@@ -552,13 +552,13 @@ RO-Crate is fundamentally an infrastructure to help build FAIR research artefact
 
 ## Bioinformatics workflows
 
-[WorkflowHub.eu](https://workflowhub.eu/) is a European cross-domain registry of computational workflows, supported by European Open Science Cloud projects, e.g. [EOSC-Life](https://www.eosc-life.eu/), and research infrastructures, e.g. the pan-European bioinformatics network [ELIXIR](https://elixir-europe.org/) [@doi:10.1016/j.tibtech.2012.02.002]. As part of promoting workflows as reusable tools,  WorkflowHub includes documentation and high-level rendering of the workflow structure independent of its native workflow definition format - the rationale being that a domain scientist looking for a particular computational analysis can browse all relevant workflows before narrowing down their workflow engine requirements. As such, the WorkflowHub is intended largely as a registry of workflows already deposited in repositories specific to particular workflow languages and domains, such as UseGalaxy.eu and Nextflow nf-core. 
+[WorkflowHub.eu](https://workflowhub.eu/) is a European cross-domain registry of computational workflows, supported by European Open Science Cloud projects, e.g. [EOSC-Life](https://www.eosc-life.eu/), and research infrastructures, e.g. the pan-European bioinformatics network [ELIXIR](https://elixir-europe.org/) [@doi:10.1016/j.tibtech.2012.02.002]. As part of promoting workflows as reusable tools, WorkflowHub includes documentation and high-level rendering of the workflow structure independent of its native workflow definition format - the rationale being that a domain scientist looking for a particular computational analysis can browse all relevant workflows before narrowing down their workflow engine requirements. As such, the WorkflowHub is intended largely as a registry of workflows already deposited in repositories specific to particular workflow languages and domains, such as UseGalaxy.eu and Nextflow nf-core. 
 
 Being cross-domain, WorkflowHub has to cater for many different workflow systems. Many of these, for instance Nextflow and Snakemake, by virtue of their script-like nature, reference multiple neighbouring files typically maintained in a GitHub repository. This calls for a data exchange method that allows to keep related files together. WorkflowHub has tackled this problem by adopting RO-Crate as the packaging mechanism [@doi:10.5281/zenodo.4705078], typing and annotating the constituent files of a workflow and — crucially — marking up the workflow language, as many workflow engines use common file extensions like `*.xml` and `*.json`. Workflows are further described with authors, licence, diagram previews and a listing of their inputs and outputs. RO-Crates can thus be used for interoperable deposition of workflows to the WorkflowHub, but are also used as an archive for downloading workflows, embedding metadata registered with the WorkflowHub entry and translated workflow definitions such as abstract Common Workflow Language files and diagrams [@doi:10.5281/zenodo.4605654]. 
 
 RO-Crate acts therefore as an interoperability layer between registries, repositories and users in WorkflowHub. The iterative development between WorkflowHub developers and the RO-Crate community heavily informed the creation of the Bioschemas [@bioschemas_2017] profile for [Computational Workflows](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/), which again informed the [RO-Crate 1.1 specification on workflows](https://www.researchobject.org/ro-crate/1.1/workflows.html) and led to the RO-Crate Python library [@ro-crate-py] and WorkflowHub’s [Workflow RO-Crate profile](https://about.workflowhub.eu/Workflow-RO-Crate/), which, in a similar fashion to RO-Crate itself, recommends which workflow resources and descriptions are required. This co-development across project boundaries exemplifies the drive for simplicity and for establishing best practices.
 
-While RO-Crates in WorkflowHub so far have been focused on workflows that are ready to be run, they are now moving into the development of a _Workflow Run RO-Crate profile_ for the purposes of benchmarking, testing and executing workflows. As such, RO-Crate serves as container of both a _workflow definition_ that may be executed and of a particular _workflow execution with test results_. This profile is a continuation of our previous work with capturing workflow provenance in a Research Object in CWLProv [@doi:10.1093/gigascience/giz095] and TavernaPROV [@doi:10.5281/zenodo.51314]. In both cases, we used the Provenance Ontology (PROV-O) to detail every task execution with all the intermediate data. To simplify the approach, this, for this workflow-focused RO-Crate profile, we will use a [schema.org provenance](https://www.researchobject.org/ro-crate/1.1/provenance.html#software-used-to-create-files) for the input/output boundary of the overall workflow execution. This _Level 1 workflow provenance_ [@doi:10.1093/gigascience/giz095] can be expressed generally across workflow languages or engine types, with the option of more detailed provenance traces as separate resources in the RO-Crate. 
+While RO-Crates in WorkflowHub so far have been focused on workflows that are ready to be run, they are now moving into the development of a _Workflow Run RO-Crate profile_ for the purposes of benchmarking, testing and executing workflows. As such, RO-Crate serves as a container of both a _workflow definition_ that may be executed and of a particular _workflow execution with test results_. This profile is a continuation of our previous work with capturing workflow provenance in a Research Object in CWLProv [@doi:10.1093/gigascience/giz095] and TavernaPROV [@doi:10.5281/zenodo.51314]. In both cases, we used the Provenance Ontology (PROV-O) to detail every task execution with all the intermediate data. To simplify the approach, this, for this workflow-focused RO-Crate profile, we will use a [schema.org provenance](https://www.researchobject.org/ro-crate/1.1/provenance.html#software-used-to-create-files) for the input/output boundary of the overall workflow execution. This _Level 1 workflow provenance_ [@doi:10.1093/gigascience/giz095] can be expressed generally across workflow languages or engine types, with the option of more detailed provenance traces as separate resources in the RO-Crate. 
 
 WorkflowHub has recently enabled minting of Digital Object Identifiers (DOIs), a PID commonly used for scholarly artefacts, for registered workflows, e.g. `10.48546/workflowhub.workflow.56.1` [@doi:10.48546/workflowhub.workflow.56.1], lowering the barrier for citing workflows as computational methods along with their FAIR metadata – captured within an RO-Crate.
 
