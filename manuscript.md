@@ -80,6 +80,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-0454-7145" />
   <meta name="twitter:creator" content="@dgarijov" />
   <meta name="citation_author" content="Marco La Rosa" />
+  <meta name="citation_author_orcid" content="0000-0001-5383-6993" />
   <meta name="citation_author" content="Simone Leo" />
   <meta name="citation_author_institution" content="Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy" />
   <meta name="citation_author_orcid" content="0000-0001-8271-5429" />
@@ -107,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/caab79c2351eeaf861a7720c9f63af1547b30e72/))
+([permalink](https://stain.github.io/ro-crate-paper/v/92b2061a80b6fad3fe4b1eb03919666579538417/))
 was automatically generated
-from [stain/ro-crate-paper@caab79c](https://github.com/stain/ro-crate-paper/tree/caab79c2351eeaf861a7720c9f63af1547b30e72)
+from [stain/ro-crate-paper@92b2061](https://github.com/stain/ro-crate-paper/tree/92b2061a80b6fad3fe4b1eb03919666579538417)
 on May 24, 2021.
 </em></small>
 
@@ -223,7 +224,9 @@ on May 24, 2021.
      Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES
   </small>
 
-+ **Marco La Rosa**<br><br>
++ **Marco La Rosa**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-5383-6993](https://orcid.org/0000-0001-5383-6993)<br>
   <small>
   </small>
 
