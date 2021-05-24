@@ -16,7 +16,6 @@ date-meta: '2021-05-24'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
-- Eoghan Ó Carragáin
 - Mercè Crosas
 - Leyla Jael Castro
 - Frederik Coppens
@@ -24,6 +23,7 @@ author-meta:
 - Daniel Garijo
 - Marco La Rosa
 - Simone Leo
+- Eoghan Ó Carragáin
 - Marc Portier
 - Ana Trisovic
 - RO-Crate Community
@@ -55,10 +55,6 @@ header-includes: |-
   <meta name="citation_author" content="Peter Sefton" />
   <meta name="citation_author_institution" content="Faculty of Science, University Technology Sydney, AU" />
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
-  <meta name="citation_author" content="Eoghan Ó Carragáin" />
-  <meta name="citation_author_institution" content="University College Cork, IE" />
-  <meta name="citation_author_orcid" content="0000-0001-8131-2150" />
-  <meta name="twitter:creator" content="@eocarragain" />
   <meta name="citation_author" content="Mercè Crosas" />
   <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
   <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
@@ -85,6 +81,10 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy" />
   <meta name="citation_author_orcid" content="0000-0001-8271-5429" />
   <meta name="twitter:creator" content="@_simleo_" />
+  <meta name="citation_author" content="Eoghan Ó Carragáin" />
+  <meta name="citation_author_institution" content="University College Cork, IE" />
+  <meta name="citation_author_orcid" content="0000-0001-8131-2150" />
+  <meta name="twitter:creator" content="@eocarragain" />
   <meta name="citation_author" content="Marc Portier" />
   <meta name="citation_author_institution" content="Vlaams Instituut voor de Zee}, Oostende, BE" />
   <meta name="citation_author_orcid" content="0000-0002-9648-6484" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/fb70b021378cc166a245bcb27d5aad4f84a67189/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/fb70b021378cc166a245bcb27d5aad4f84a67189/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/fb70b021378cc166a245bcb27d5aad4f84a67189/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e/))
+([permalink](https://stain.github.io/ro-crate-paper/v/fb70b021378cc166a245bcb27d5aad4f84a67189/))
 was automatically generated
-from [stain/ro-crate-paper@ed02b39](https://github.com/stain/ro-crate-paper/tree/ed02b39e3c2372eab2567c66a312fa6a2a9f3c1e)
+from [stain/ro-crate-paper@fb70b02](https://github.com/stain/ro-crate-paper/tree/fb70b021378cc166a245bcb27d5aad4f84a67189)
 on May 24, 2021.
 </em></small>
 
@@ -162,17 +162,6 @@ on May 24, 2021.
     [ptsefton](https://github.com/ptsefton)<br>
   <small>
      Faculty of Science, University Technology Sydney, AU
-  </small>
-
-+ **Eoghan Ó Carragáin**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8131-2150](https://orcid.org/0000-0001-8131-2150)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [eocarragain](https://github.com/eocarragain)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [eocarragain](https://twitter.com/eocarragain)<br>
-  <small>
-     University College Cork, IE
   </small>
 
 + **Mercè Crosas**<br>
@@ -240,6 +229,17 @@ on May 24, 2021.
   <small>
      Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
      · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))
+  </small>
+
++ **Eoghan Ó Carragáin**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8131-2150](https://orcid.org/0000-0001-8131-2150)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [eocarragain](https://github.com/eocarragain)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [eocarragain](https://twitter.com/eocarragain)<br>
+  <small>
+     University College Cork, IE
   </small>
 
 + **Marc Portier**<br>
