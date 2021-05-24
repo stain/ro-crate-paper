@@ -267,7 +267,7 @@
       "version": "1.1.1"
     },
     {
-      "@id": "https://github.com/marcolarosa",
+      "@id": "https://orcid.org/0000-0001-5383-6993",
       "name": "Marco La Rosa"
     },
     {
@@ -300,7 +300,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "https://github.com/marcolarosa"
+          "@id": "https://orcid.org/0000-0001-5383-6993"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -347,7 +347,7 @@
           "@id": "#role-0000-0003-0454-7145"
         },
         {
-          "@id": "#role-marcolarosa"
+          "@id": "#role-0000-0001-5383-6993"
         },
         {
           "@id": "#role-0000-0001-8271-5429"
@@ -901,7 +901,7 @@
       "name": "Contributions by RO-Crate Community"
     },
     {
-      "@id": "#role-marcolarosa",
+      "@id": "#role-0000-0001-5383-6993",
       "@type": "Role",
       "additionalType": [
         {
@@ -918,7 +918,7 @@
         }
       ],
       "contributor": {
-        "@id": "https://github.com/marcolarosa"
+        "@id": "https://orcid.org/0000-0001-5383-6993"
       },
       "name": "Contributions by Marco La Rosa"
     },
@@ -951,7 +951,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "https://github.com/marcolarosa"
+          "@id": "https://orcid.org/0000-0001-5383-6993"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -1004,7 +1004,7 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "https://github.com/marcolarosa"
+          "@id": "https://orcid.org/0000-0001-5383-6993"
         },
         {
           "@id": "https://orcid.org/0000-0001-8271-5429"
@@ -1449,7 +1449,7 @@
           "@id": "https://orcid.org/0000-0002-4929-7875"
         },
         {
-          "@id": "https://github.com/marcolarosa"
+          "@id": "https://orcid.org/0000-0001-5383-6993"
         }
       ],
       "name": "RO-Crate Community",
