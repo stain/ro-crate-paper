@@ -10,7 +10,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -85,7 +85,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -103,7 +103,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -125,7 +125,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
