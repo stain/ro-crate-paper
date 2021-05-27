@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -72,7 +72,7 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
 GDC
 genomic
@@ -160,7 +160,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROR
 ROs
