@@ -173,9 +173,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/534ceecab603b40dd46a4fbed5ef4ba91a253add">stain/ro-crate-paper@534ceec</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de">stain/ro-crate-paper@bafe4cb</a>
 on May 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -767,11 +767,11 @@ Department of Computer Science, The University of Manchester, UK
 <h2 id="language">Language</h2>
 <p>Definition of language <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code>:</p>
 <pre><code>𝕃rocrate = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
-        𝔻 =  𝕀ℝ𝕀
-      𝕀ℝ𝕀 ≡  { IRIs as defined in RFC3987 }
+        𝔻 =  𝕀𝕣𝕚
+      𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }</code></pre>
-<p>The domain of discourse is the set of <code>𝕀ℝ𝕀</code> identifiers <span class="citation" data-cites="rqjuXkEf">[<a href="#ref-rqjuXkEf" role="doc-biblioref">16</a>]</span> (notation <code>&lt;http://example.com/&gt;</code>)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, with additional descriptions using numbers <code>ℝ</code> (notation <code>13.37</code>) and literal strings <code>𝕊</code> (notation <code>“Hello”</code>).</p>
+<p>The domain of discourse is the set of <code>𝕀𝕣𝕚</code> identifiers <span class="citation" data-cites="rqjuXkEf">[<a href="#ref-rqjuXkEf" role="doc-biblioref">16</a>]</span> (notation <code>&lt;http://example.com/&gt;</code>)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, with additional descriptions using numbers <code>ℝ</code> (notation <code>13.37</code>) and literal strings <code>𝕊</code> (notation <code>“Hello”</code>).</p>
 <p>From this formalized language <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
 <p>Below we use <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to define a minimal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> RO-Crate:</p>
@@ -822,9 +822,9 @@ name(&lt;http://example.com/ro/123/interviews/&gt;,
 <h2 id="mapping-to-rdf-with-schema.org">Mapping to RDF with schema.org</h2>
 <p>A formalized RO-Crate can be mapped to different serializations. Assume a simplified[^7] language <code>𝕃ʀᴅꜰ</code></p>
 <pre><code>                𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
-                         𝕀ℝ𝕀, ℝ, 𝕊 }
+                         𝕀𝕣𝕚, ℝ, 𝕊 }
                 𝔻𝖗𝖉𝖋 = 𝕊
-           ∀i IRI(i) ⇒ i ∈ 𝕀ℝ𝕀
+           ∀i IRI(i) ⇒ i ∈ 𝕀𝕣𝕚
 ∀s∀p∀o Triple(s,p,o) ⇒（ IRI(s) ∨ BlankNode(s) ） ∧
                         IRI(p) ∧
                       （ IRI(o) ∨ BlankNode(o) ∨ Literal(o) ）
