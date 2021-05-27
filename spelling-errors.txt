@@ -36,7 +36,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCite
 DataCrate
@@ -73,10 +73,10 @@ formalize
 formalized
 Formalizing
 Frederik
-FrederikCoppens
+frederikcoppens
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Goble
@@ -126,6 +126,7 @@ myExperiment
 namespaced
 namespaces
 Navas
+NCI’s
 Nextflow
 Niu
 NL
@@ -190,7 +191,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
