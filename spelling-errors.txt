@@ -21,7 +21,7 @@ carolegoble
 Carragáin
 CASRAI
 Catalog
-center
+Center
 centric
 CheckMyCrate
 checksums
@@ -72,10 +72,10 @@ formalize
 formalized
 Formalizing
 Frederik
-FrederikCoppens
+frederikcoppens
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Goble
@@ -90,7 +90,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IQSS
 IRI
 Jael
@@ -160,7 +160,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs

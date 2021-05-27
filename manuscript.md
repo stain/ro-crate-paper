@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/))
+([permalink](https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/))
 was automatically generated
-from [stain/ro-crate-paper@534ceec](https://github.com/stain/ro-crate-paper/tree/534ceecab603b40dd46a4fbed5ef4ba91a253add)
+from [stain/ro-crate-paper@bafe4cb](https://github.com/stain/ro-crate-paper/tree/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de)
 on May 27, 2021.
 </em></small>
 
@@ -829,13 +829,13 @@ Definition of language `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊`:
 
 ```
 𝕃rocrate = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
-        𝔻 =  𝕀ℝ𝕀
-      𝕀ℝ𝕀 ≡  { IRIs as defined in RFC3987 }
+        𝔻 =  𝕀𝕣𝕚
+      𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }
 ```
 
-The domain of discourse is the set of `𝕀ℝ𝕀` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`)[^9], with additional descriptions using numbers `ℝ` (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
+The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`)[^9], with additional descriptions using numbers `ℝ` (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
 
 From this formalized language `𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.  
 
@@ -908,9 +908,9 @@ A formalized RO-Crate can be mapped to different serializations. Assume a simpli
 
 ```
                 𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
-                         𝕀ℝ𝕀, ℝ, 𝕊 }
+                         𝕀𝕣𝕚, ℝ, 𝕊 }
                 𝔻𝖗𝖉𝖋 = 𝕊
-           ∀i IRI(i) ⇒ i ∈ 𝕀ℝ𝕀
+           ∀i IRI(i) ⇒ i ∈ 𝕀𝕣𝕚
 ∀s∀p∀o Triple(s,p,o) ⇒（ IRI(s) ∨ BlankNode(s) ） ∧
                         IRI(p) ∧
                       （ IRI(o) ∨ BlankNode(o) ∨ Literal(o) ）
