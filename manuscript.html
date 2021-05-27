@@ -173,9 +173,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/db5de01c1db2f7498ee183e007b4b87a75d618e6">stain/ro-crate-paper@db5de01</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5">stain/ro-crate-paper@28b004b</a>
 on May 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -766,9 +766,9 @@ Department of Computer Science, The University of Manchester, UK
 <p>Below is an attempt to formalize the concept of RO-Crate as a set of relations using First Order Logic:</p>
 <h2 id="language">Language</h2>
 <p>Definition of language <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code>:</p>
-<pre><code>𝕃rocrate = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
-        𝔻 =  𝕀𝕣𝕚
-      𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
+<pre><code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊 = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
+       𝔻 =  𝕀𝕣𝕚
+       𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }</code></pre>
 <p>The domain of discourse is the set of <code>𝕀𝕣𝕚</code> identifiers <span class="citation" data-cites="rqjuXkEf">[<a href="#ref-rqjuXkEf" role="doc-biblioref">16</a>]</span> (notation <code>&lt;http://example.com/&gt;</code>)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, with additional descriptions using numbers <code>ℝ</code> (notation <code>13.37</code>) and literal strings <code>𝕊</code> (notation <code>“Hello”</code>).</p>
@@ -861,7 +861,8 @@ datePublished(e, d) ⇒ Attribute(e, &lt;http://schema.org/datePublished&gt;, d)
 <h2 id="ro-crate-1.1-metadata-file-descriptor">RO-Crate 1.1 Metadata File Descriptor</h2>
 <p>An important RO-Crate principle is that of being <strong>self-describing</strong>. Therefore the serialization of the RO-Crate into a file should also describe itself in a <a href="https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor">Metadata File Descriptor</a>, indicating it is <code>about</code> (describing) the RO-Crate root data entity, and that it <code>conformsTo</code> a particular version of the RO-Crate specification:</p>
 <pre><code>               about(s,o) ⇒  Relation(s, &lt;http://schema.org/about&gt;, o)
-          conformsTo(s,o) ⇒  Relation(s, &lt;http://purl.org/dc/terms/conformsTo&gt;, R)
+          conformsTo(s,o) ⇒  Relation(s, 
+                               &lt;http://purl.org/dc/terms/conformsTo&gt;, R)
 MetadataFileDescriptor(m) ⇒ （ CreativeWork(m) ∧ about(m,R) ∧ ROCrate(R) ∧ 
                              conformsTo(m,
                                &lt;https://w3id.org/ro/crate/1.1&gt;) ）</code></pre>
@@ -887,7 +888,8 @@ MetadataFileDescriptor(m) ⇒ （ CreativeWork(m) ∧ about(m,R) ∧ ROCrate(R) 
                                          ]
                                        }
                                   R ⊨  &lt;./&gt;
-                                  R ⇒ MetadataFileDescriptor(&lt;ro-crate-metadata.json&gt;) </code></pre>
+                                  R ⇒ MetadataFileDescriptor(
+                                        &lt;ro-crate-metadata.json&gt;) </code></pre>
 <p>This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of <code>R</code> by adding a transitive rule that anything described in <code>R</code> which is related to <code>o</code> means that <code>o</code> is also mentioned by the RO-Crate <code>R</code>. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.</p>
 <h1 id="ro-crate-community-1">RO-Crate Community</h1>
 <p>As of 2021-05-24, the <em>RO-Crate</em> Community members are:</p>

@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -35,7 +35,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 DataCite
 DataCrate
@@ -72,7 +72,7 @@ formalize
 formalized
 Formalizing
 Frederik
-FrederikCoppens
+frederikcoppens
 Garijo
 GDC
 genomic
@@ -109,7 +109,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -160,7 +160,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+RO
 Rodríguez
 ROR
 ROs

@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/))
+([permalink](https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/))
 was automatically generated
-from [stain/ro-crate-paper@db5de01](https://github.com/stain/ro-crate-paper/tree/db5de01c1db2f7498ee183e007b4b87a75d618e6)
+from [stain/ro-crate-paper@28b004b](https://github.com/stain/ro-crate-paper/tree/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5)
 on May 27, 2021.
 </em></small>
 
@@ -828,9 +828,9 @@ Below is an attempt to formalize the concept of RO-Crate as a set of relations u
 Definition of language `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊`:
 
 ```
-𝕃rocrate = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
-        𝔻 =  𝕀𝕣𝕚
-      𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
+𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊 = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
+       𝔻 =  𝕀𝕣𝕚
+       𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }
 ```
@@ -958,7 +958,8 @@ An important RO-Crate principle is that of being **self-describing**. Therefore 
 
 ```
                about(s,o) ⇒  Relation(s, <http://schema.org/about>, o)
-          conformsTo(s,o) ⇒  Relation(s, <http://purl.org/dc/terms/conformsTo>, R)
+          conformsTo(s,o) ⇒  Relation(s, 
+                               <http://purl.org/dc/terms/conformsTo>, R)
 MetadataFileDescriptor(m) ⇒ （ CreativeWork(m) ∧ about(m,R) ∧ ROCrate(R) ∧ 
                              conformsTo(m,
                                <https://w3id.org/ro/crate/1.1>) ）
@@ -992,7 +993,8 @@ Combining the above predicates and schema.org mapping with rudimentary JSON temp
                                          ]
                                        }
                                   R ⊨  <./>
-                                  R ⇒ MetadataFileDescriptor(<ro-crate-metadata.json>) 
+                                  R ⇒ MetadataFileDescriptor(
+                                        <ro-crate-metadata.json>) 
 ```
 
 This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of `R` by adding a transitive rule that anything described in `R` which is related to `o` means that `o` is also mentioned by the RO-Crate `R`. For simplicity this rule is one-way; in practice the JSON-LD graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
