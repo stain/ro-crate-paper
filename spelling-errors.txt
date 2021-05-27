@@ -1,4 +1,5 @@
 Alasdair
+ARDC
 atrisovic
 automatable
 BagIt
@@ -10,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -21,6 +22,7 @@ Carragáin
 CASRAI
 Catalog
 Center
+centric
 CheckMyCrate
 checksums
 Chenxu
@@ -34,16 +36,19 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
+DataCite
 DataCrate
 DataCrate’s
 DataEntity
 dataset
 datasets
+Dataverse
 datetime
 DBPedia
 DCAT
+DDI
 Describo
 dgarijov
 digitalisation
@@ -56,7 +61,6 @@ Eoghan
 EOSC
 eScience
 extensibility
-extensiblility
 facto
 FAIRplus
 FDO
@@ -69,8 +73,10 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
+GDC
+Genomic
 GH
 Giacomo
 Goble
@@ -85,7 +91,8 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
+IQSS
 IRI
 Jael
 JMFernand
@@ -103,7 +110,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 maDMP
 maDMPs
@@ -160,7 +167,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
@@ -175,6 +182,7 @@ Soiland
 soilandreyes
 Sompel
 SPARQL
+specialized
 SSHRC
 Stian
 Supercomputing
@@ -182,7 +190,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
