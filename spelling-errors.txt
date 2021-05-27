@@ -76,7 +76,7 @@ Frederik
 frederikcoppens
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Goble
@@ -91,7 +91,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IQSS
 IRI
 Jael
@@ -168,7 +168,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -183,7 +183,6 @@ Soiland
 soilandreyes
 Sompel
 SPARQL
-specialized
 SSHRC
 Stian
 Supercomputing
@@ -191,7 +190,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
