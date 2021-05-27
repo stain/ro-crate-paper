@@ -78,7 +78,7 @@ The below is an example RO-Crate represented using the above formalisation, assu
 && hasPart(\texttt{<http://example.com/ro/123/>}, 
         \texttt{<http://example.com/ro/123/file.txt>}) \\
 && hasPart(\texttt{<http://example.com/ro/123/>}, 
-        \texttt{<http://www.example.om/ro/123/folder/>}) \\
+        \texttt{<http://example.com/ro/123/interviews/>}) \\
 \\
 && ContextualEntity(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>}) \\
 && name(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>},  \\
@@ -108,7 +108,6 @@ based on the \href{http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/}{RDF a
     \mathbb{IRI}, \mathbb{S}, \mathbb{R}    \big\} \\
 \mathbb{D}_{RDF}            & \equiv &      \mathbb{S} \\
 \forall i \ IRI(i)          & \Rightarrow & i \in \mathbb{IRI} \\
-\forall s \ BlankNode(s)    & \Rightarrow & s \in \mathbb{S} \\
 \forall s \forall p \forall o \ 
     Triple(s,p,o)           & \Rightarrow & \Big( IRI(s) \lor BlankNode(s) \Big) \land  \\
                             & &             IRI(p) \land  \\
@@ -162,7 +161,7 @@ While in the conceptual model the \emph{RO-Crate Metadata File} can be seen as t
 \subsection{Forward-chained Production Rules for JSON-LD}
 
 Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification\footnote{
-    \textbf{Limitations:} Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see \href{https://github.com/ResearchObject/ro-crate/issues/122}{issue 122}. The $datePublished(e, date)$ rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a $@context$ as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The \texttt{@type} expansion is included for clarity, even though this is also implied by the $type(e, t)$ expansion to $Relation(e, \texttt{xsd:type})$.
+    \textbf{Limitations:} Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see \href{https://github.com/ResearchObject/ro-crate/issues/122}{issue 122}. The $datePublished(e, d)$ rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a $@context$ as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The \texttt{@type} expansion is included for clarity, even though this is also implied by the $type(e, t)$ expansion to $Relation(e, \texttt{xsd:type})$.
 }:
 
 \begin{eqnarray*}
