@@ -173,9 +173,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/db5de01c1db2f7498ee183e007b4b87a75d618e6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/bafe4cbfe133091a3c1c2b0f1ef979b7a2a600de">stain/ro-crate-paper@bafe4cb</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/db5de01c1db2f7498ee183e007b4b87a75d618e6">stain/ro-crate-paper@db5de01</a>
 on May 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -772,9 +772,9 @@ Department of Computer Science, The University of Manchester, UK
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }</code></pre>
 <p>The domain of discourse is the set of <code>𝕀𝕣𝕚</code> identifiers <span class="citation" data-cites="rqjuXkEf">[<a href="#ref-rqjuXkEf" role="doc-biblioref">16</a>]</span> (notation <code>&lt;http://example.com/&gt;</code>)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, with additional descriptions using numbers <code>ℝ</code> (notation <code>13.37</code>) and literal strings <code>𝕊</code> (notation <code>“Hello”</code>).</p>
-<p>From this formalized language <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
+<p>From this formalized language <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
-<p>Below we use <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to define a minimal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> RO-Crate:</p>
+<p>Below we use <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to define a minimal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> RO-Crate:</p>
 <pre><code>               ROCrate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ 
                              Mentions(R, d) ∧ DataEntity(d) ∧
                              Mentions(R, c) ∧ ContextualEntity(c)
@@ -825,28 +825,35 @@ name(&lt;http://example.com/ro/123/interviews/&gt;,
                          𝕀𝕣𝕚, ℝ, 𝕊 }
                 𝔻𝖗𝖉𝖋 = 𝕊
            ∀i IRI(i) ⇒ i ∈ 𝕀𝕣𝕚
-∀s∀p∀o Triple(s,p,o) ⇒（ IRI(s) ∨ BlankNode(s) ） ∧
+∀s∀p∀o Triple(s,p,o) ⇒（ IRI(s) ∨ BlankNode(s) ）∧
                         IRI(p) ∧
                       （ IRI(o) ∨ BlankNode(o) ∨ Literal(o) ）
           Literal(v) ⊨ Value(v) ∧ Datatype(v,t) ∧ IRI(t)
          ∀v Value(v) ⇒ v ∈ 𝕊
-    LanguageTag(v,l) ≡ Datatype(v, http://www.w3.org/1999/02/22-rdf-syntax-ns#langString)</code></pre>
+    LanguageTag(v,l) ≡ Datatype(v,
+                         http://www.w3.org/1999/02/22-rdf-syntax-ns#langString)</code></pre>
 <p>Below follows a mapping from <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to <code>𝕃𝖗𝖉𝖋</code> using schema.org.</p>
 <pre><code>        Property(p) ⇒ type(p, &lt;http://www.w3.org/2000/01/rdf-schema#Property&gt;)
            Class(c) ⇒ type(c, &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt;)
          Dataset(d) ⇒ type(d, &lt;http://schema.org/Dataset&gt;)
             File(f) ⇒ type(f, &lt;http://schema.org/MediaObject&gt;)
-    CreativeWork(e) ⇒ ContextualEntity(e) ∧ type(e, &lt;http://schema.org/CreativeWork&gt;)
+    CreativeWork(e) ⇒ ContextualEntity(e) ∧
+                      type(e, &lt;http://schema.org/CreativeWork&gt;)
       hasPart(e, t) ⇒ Relation(e, &lt;http://schema.org/hasPart&gt;, t)
          name(e, n) ⇒ Attribute(e, &lt;http://schema.org/name&gt;, n)
   description(e, s) ⇒ Attribute(e, &lt;http://schema.org/description&gt;, s)
 datePublished(e, d) ⇒ Attribute(e, &lt;http://schema.org/datePublished&gt;, d)
-      license(e, l) ⇒ Relation(e, &lt;http://schema.org/license&gt;, l) ∧ CreativeWork(l)
-         type(e, t) ⇒ Relation(e, &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;, t) ∧ Class(t)
+      license(e, l) ⇒ Relation(e, &lt;http://schema.org/license&gt;, l) ∧
+                      CreativeWork(l)
+         type(e, t) ⇒ Relation(e,
+                        &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;, t) ∧
+                      Class(t)
           String(s) ≡ Value(s) ∧  s ∈ 𝕊
-          String(s) ⇒ Datatype(s, &lt;http://www.w3.org/2001/XMLSchema#string&gt;)
+          String(s) ⇒ Datatype(s, 
+                        &lt;http://www.w3.org/2001/XMLSchema#string&gt;)
          Decimal(d) ≡ Value(d) ∧  d ∈ ℝ
-         Decimal(d) ⇒ Datatype(d, &lt;http://www.w3.org/2001/XMLSchema#decimal&gt;)
+         Decimal(d) ⇒ Datatype(d,
+                        &lt;http://www.w3.org/2001/XMLSchema#decimal&gt;)
     Relation(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ IRI(o)
    Attribute(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ Literal(o)
 </code></pre>
@@ -856,7 +863,8 @@ datePublished(e, d) ⇒ Attribute(e, &lt;http://schema.org/datePublished&gt;, d)
 <pre><code>               about(s,o) ⇒  Relation(s, &lt;http://schema.org/about&gt;, o)
           conformsTo(s,o) ⇒  Relation(s, &lt;http://purl.org/dc/terms/conformsTo&gt;, R)
 MetadataFileDescriptor(m) ⇒ （ CreativeWork(m) ∧ about(m,R) ∧ ROCrate(R) ∧ 
-                             conformsTo(m, &lt;https://w3id.org/ro/crate/1.1&gt;) ）</code></pre>
+                             conformsTo(m,
+                               &lt;https://w3id.org/ro/crate/1.1&gt;) ）</code></pre>
 <p>Note that although the metadata file necessarily is an <em>information resource</em> written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained <em>part</em> of the RO-Crate in the form of a <em>data entity</em>, rather it is described only as a <em>contextual entity</em>.</p>
 <p>While in the conceptual model the <em>RO-Crate Metadata File</em> can be seen as the top-level node that describes the <em>RO-Crate Root</em>, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.</p>
 <h2 id="forward-chained-production-rules-for-json-ld">Forward-chained Production Rules for JSON-LD</h2>
