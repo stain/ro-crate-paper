@@ -3156,36 +3156,6 @@
     "type": "entry"
   },
   {
-    "DOI": "10.5281/zenodo.12586",
-    "URL": "https://w3id.org/bundle/2014-11-05/",
-    "author": [
-      {
-        "family": "Soiland-Reyes",
-        "given": "Stian"
-      },
-      {
-        "family": "Gamble",
-        "given": "Matthew"
-      },
-      {
-        "family": "Haines",
-        "given": "Robert"
-      }
-    ],
-    "id": "dijZpInF",
-    "issued": {
-      "date-parts": [
-        [
-          2014,
-          11
-        ]
-      ]
-    },
-    "note": "See https://w3id.org/bundle/2014-11-05/\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.12586",
-    "title": "Research Object Bundle 1.0",
-    "type": "book"
-  },
-  {
     "DOI": "10.5281/zenodo.1445817",
     "abstract": "This is a somewhat experimental approach to submitting an extended abstract to a conference. The submission describes the DataCrate standard and the source-files, HTML and PDF versions of the submission are included in a DataCrate package.",
     "accessed": {
