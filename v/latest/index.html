@@ -173,9 +173,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3e576d25a7d7878cf0c95e43598fcc7b07a339d2/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e576d25a7d7878cf0c95e43598fcc7b07a339d2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3e576d25a7d7878cf0c95e43598fcc7b07a339d2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/3e576d25a7d7878cf0c95e43598fcc7b07a339d2/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/534ceecab603b40dd46a4fbed5ef4ba91a253add/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/3e576d25a7d7878cf0c95e43598fcc7b07a339d2">stain/ro-crate-paper@3e576d2</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/534ceecab603b40dd46a4fbed5ef4ba91a253add">stain/ro-crate-paper@534ceec</a>
 on May 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -772,9 +772,9 @@ Department of Computer Science, The University of Manchester, UK
         ℝ ≡  { real or integer numbers }
         𝕊 ≡  { literal strings }</code></pre>
 <p>The domain of discourse is the set of <code>𝕀ℝ𝕀</code> identifiers <span class="citation" data-cites="rqjuXkEf">[<a href="#ref-rqjuXkEf" role="doc-biblioref">16</a>]</span> (notation <code>&lt;http://example.com/&gt;</code>)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, with additional descriptions using numbers <code>ℝ</code> (notation <code>13.37</code>) and literal strings <code>𝕊</code> (notation <code>“Hello”</code>).</p>
-<p>From this formalized language <code>𝕃rocrate</code> we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
+<p>From this formalized language <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> we can interpret an RO-Crate in any representation that can gather these descriptions, their properties, classes, and literal attributes.</p>
 <h2 id="minimal-ro-crate">Minimal RO-Crate</h2>
-<p>Below we use <code>𝕃rocrate</code> to define a minimal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> RO-Crate:</p>
+<p>Below we use <code>𝕃𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to define a minimal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> RO-Crate:</p>
 <pre><code>               ROCrate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ 
                              Mentions(R, d) ∧ DataEntity(d) ∧
                              Mentions(R, c) ∧ ContextualEntity(c)
@@ -821,9 +821,9 @@ name(&lt;http://example.com/ro/123/interviews/&gt;,
 <p>In reality many additional attributes from schema.org types like <a href="http://schema.org/Dataset" class="uri">http://schema.org/Dataset</a> and <a href="http://schema.org/CreativeWork" class="uri">http://schema.org/CreativeWork</a> would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalization.</p>
 <h2 id="mapping-to-rdf-with-schema.org">Mapping to RDF with schema.org</h2>
 <p>A formalized RO-Crate can be mapped to different serializations. Assume a simplified[^7] language <code>𝕃ʀᴅꜰ</code></p>
-<pre><code>                𝕃ʀᴅꜰ = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
+<pre><code>                𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
                          𝕀ℝ𝕀, ℝ, 𝕊 }
-                𝔻ʀᴅꜰ = 𝕊
+                𝔻𝖗𝖉𝖋 = 𝕊
            ∀i IRI(i) ⇒ i ∈ 𝕀ℝ𝕀
 ∀s∀p∀o Triple(s,p,o) ⇒（ IRI(s) ∨ BlankNode(s) ） ∧
                         IRI(p) ∧
@@ -831,7 +831,7 @@ name(&lt;http://example.com/ro/123/interviews/&gt;,
           Literal(v) ⊨ Value(v) ∧ Datatype(v,t) ∧ IRI(t)
          ∀v Value(v) ⇒ v ∈ 𝕊
     LanguageTag(v,l) ≡ Datatype(v, http://www.w3.org/1999/02/22-rdf-syntax-ns#langString)</code></pre>
-<p>Below follows a mapping from <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to <code>𝕃ʀᴅꜰ</code> using schema.org.</p>
+<p>Below follows a mapping from <code>𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊</code> to <code>𝕃𝖗𝖉𝖋</code> using schema.org.</p>
 <pre><code>        Property(p) ⇒ type(p, &lt;http://www.w3.org/2000/01/rdf-schema#Property&gt;)
            Class(c) ⇒ type(c, &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt;)
          Dataset(d) ⇒ type(d, &lt;http://schema.org/Dataset&gt;)
