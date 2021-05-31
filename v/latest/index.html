@@ -19,7 +19,7 @@
   <meta name="author" content="RO-Crate Community" />
   <meta name="author" content="Paul Groth" />
   <meta name="author" content="Carole Goble" />
-  <meta name="dcterms.date" content="2021-05-27" />
+  <meta name="dcterms.date" content="2021-05-31" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research artefacts with RO-Crate</title>
   <style>
@@ -104,8 +104,8 @@
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-05-27" />
-  <meta name="citation_publication_date" content="2021-05-27" />
+  <meta name="dc.date" content="2021-05-31" />
+  <meta name="citation_publication_date" content="2021-05-31" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -173,9 +173,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,10 +189,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5">stain/ro-crate-paper@28b004b</a>
-on May 27, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca">stain/ro-crate-paper@d2cd7a4</a>
+on May 31, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -381,7 +381,7 @@ Department of Computer Science, The University of Manchester, UK
 </figure>
 </div>
 <h3 id="best-practice-guide-rather-than-strict-specification">Best Practice Guide rather than strict specification</h3>
-<p>RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD <span class="citation" data-cites="17q6tYFV2">[<a href="#ref-17q6tYFV2" role="doc-biblioref">18</a>]</span> and <a href="https://schema.org/">Schema.org</a> <span class="citation" data-cites="sPbaKC9t">[<a href="#ref-sPbaKC9t" role="doc-biblioref">19</a>]</span>, but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as <em>RDF shapes</em> (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply existing standards in a common way to describe research outputs and their provenance.</p>
+<p>RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD <span class="citation" data-cites="17q6tYFV2">[<a href="#ref-17q6tYFV2" role="doc-biblioref">18</a>]</span> and <a href="https://schema.org/">Schema.org</a> <span class="citation" data-cites="vC6te3yd">[<a href="#ref-vC6te3yd" role="doc-biblioref">19</a>]</span>, but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as <em>RDF shapes</em> (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply existing standards in a common way to describe research outputs and their provenance.</p>
 <p>As such, the <a href="https://w3id.org/ro/crate/1.1">RO-Crate 1.1</a> specification <span class="citation" data-cites="6Lj8VCHS">[<a href="#ref-6Lj8VCHS" role="doc-biblioref">20</a>]</span> can be seen as an opinionated and example-driven guide to writing Schema.org metadata as JSON-LD, which leaves it open for implementers to include additional metadata using other Schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.</p>
 <p>This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the JSON-LD being <em>flattened</em> and <em>compacted</em>, to facilitate lightweight consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalise different <em>profiles</em> of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate to contain at least one workflow with a declared licence and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of <a href="https://fairdo.org/">FAIR Digital Objects</a>. These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation requirements.</p>
 <h3 id="checking-simplicity">Checking Simplicity</h3>
@@ -644,7 +644,7 @@ Department of Computer Science, The University of Manchester, UK
 <p>This use case takes advantage of several RO-Crate features and principles. Firstly, the transcribed metadata are now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using Schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemised metadata in regular files (organised using OCFL<span class="citation" data-cites="TivFlCqv">[<a href="#ref-TivFlCqv" role="doc-biblioref">14</a>]</span>, with checksums for integrity checking and versioning) also gives flexibility for future developments and maintenance; for example, potentially using Linked Data software such as a graph database, queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback to the generic RO-Crate HTML preview <span class="citation" data-cites="hojAyeKY">[<a href="#ref-hojAyeKY" role="doc-biblioref">32</a>]</span>, which can be hosted as static files by any web server, in line with the approach taken by the Endings Project<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
 <h2 id="machine-actionable-data-management-plans">Machine-actionable Data Management Plans</h2>
 <p>Machine-actionable Data Management Plans (maDMPs) have been proposed as an improvement to automate FAIR data management tasks in research <span class="citation" data-cites="1DVC7tcYl">[<a href="#ref-1DVC7tcYl" role="doc-biblioref">64</a>]</span>, e.g. by using PIDs and controlled vocabularies to describe what happens to data over the research life cycle <span class="citation" data-cites="1ZBdroY0">[<a href="#ref-1ZBdroY0" role="doc-biblioref">65</a>]</span>. The Research Data Alliance’s <em>DMP Common Standard</em> for maDMPs <span class="citation" data-cites="T271G9Gd">[<a href="#ref-T271G9Gd" role="doc-biblioref">66</a>]</span> is one such formalisation for expressing maDMPs, which can be expressed as Linked Data using the DMP Common Standard Ontology <span class="citation" data-cites="1FiTt7FKJ">[<a href="#ref-1FiTt7FKJ" role="doc-biblioref">67</a>]</span>, a specialisation of the W3C Data Catalog Vocabulary (DCAT) <span class="citation" data-cites="naVrw7g1">[<a href="#ref-naVrw7g1" role="doc-biblioref">68</a>]</span>. RDA maDMPs are usually expressed using regular JSON, conforming to the DMP JSON Schema.</p>
-<p>A mapping has been produced between Research Object Crates and Machine-actionable Data Management Plans <span class="citation" data-cites="162NBMW8l">[<a href="#ref-162NBMW8l" role="doc-biblioref">46</a>]</span>, implemented by the RO-Crate {RDA maDMP Mapper <span class="citation" data-cites="keqQfayg">[<a href="#ref-keqQfayg" role="doc-biblioref">45</a>]</span>. A similar mapping has been implemented by RO-Crate_2_ma-DMP <span class="citation" data-cites="16XFBusSZ">[<a href="#ref-16XFBusSZ" role="doc-biblioref">47</a>]</span>. In both cases, a maDMP can be converted to a RO-Crate, or vice versa. In <span class="citation" data-cites="162NBMW8l">[<a href="#ref-162NBMW8l" role="doc-biblioref">46</a>]</span> this functionality caters for two use cases:</p>
+<p>A mapping has been produced between Research Object Crates and Machine-actionable Data Management Plans <span class="citation" data-cites="162NBMW8l">[<a href="#ref-162NBMW8l" role="doc-biblioref">46</a>]</span>, implemented by the RO-Crate {RDA maDMP Mapper <span class="citation" data-cites="keqQfayg">[<a href="#ref-keqQfayg" role="doc-biblioref">45</a>]</span>. A similar mapping has been implemented by <code>RO-Crate_2_ma-DMP</code> <span class="citation" data-cites="16XFBusSZ">[<a href="#ref-16XFBusSZ" role="doc-biblioref">47</a>]</span>. In both cases, a maDMP can be converted to a RO-Crate, or vice versa. In <span class="citation" data-cites="162NBMW8l">[<a href="#ref-162NBMW8l" role="doc-biblioref">46</a>]</span> this functionality caters for two use cases:</p>
 <ol type="1">
 <li>Start a skeleton data management plan based on an existing RO-Crate dataset, e.g. from an RO-Crate from WorkflowHub.</li>
 <li>Instantiate an RO-Crate based on a data management plan.</li>
@@ -689,6 +689,7 @@ Department of Computer Science, The University of Manchester, UK
 <p>RO-Crate is supported by multiple open source tools and libraries, fits into the larger landscape of open scholarly communication and FAIR Digital Object infrastructure, and can be easily integrated into data repository platforms. RO-Crate can be applied as a data/metadata exchange mechanism, assist in long-term archival preservation of metadata and data, or simply used at small-scale by individual researchers. Thanks to its strong community support, new and improved profiles and tools are continuously added to the RO-Crate tooling landscape, making it easier for adopters to find examples and support for their own use case.</p>
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This work has received funding from the European Commission’s Horizon 2020 research and innovation programme for projects <a href="https://cordis.europa.eu/project/id/823830">BioExcel-2</a> (H2020-INFRAEDI-2018-1 823830), <a href="https://cordis.europa.eu/project/id/730976">IBISBA</a> (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), <a href="https://cordis.europa.eu/project/id/824087">EOSC-Life</a> (H2020-INFRAEOSC-2018-2 824087), <a href="https://cordis.europa.eu/project/id/823827">SyntheSys+</a> (H2020-INFRAIA-2018-1 823827)</p>
+<p>A. Trisovic is funded by the Alfred P. Sloan Foundation (grant number P-2020-13988). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).</p>
 <h2 id="contributions">Contributions</h2>
 <p>Author contributions to this article and the RO-Crate projet according to the Contributor Roles Taxonomy <a href="https://casrai.org/credit/">CASRAI CrEDiT</a> <span class="citation" data-cites="ewNBB7el">[<a href="#ref-ewNBB7el" role="doc-biblioref">92</a>]</span>:</p>
 <dl>
@@ -1047,10 +1048,11 @@ W3C Technical Architecture Group<br />
 Manu Sporny, Dave Longley, Gregg Kellogg, Markus Lanthaler, Niklas Lindström<br />
 <em>W3C</em> (2014-01-16) <a href="https://www.w3.org/%7BTR%7D/2014/%7BREC%7D-json-ld-20140116/">https://www.w3.org/{TR}/2014/{REC}-json-ld-20140116/</a></p>
 </div>
-<div id="ref-sPbaKC9t">
-<p>19. <strong>Schema. org: Evolution of Structured Data on the Web: Big data makes common schemas even more necessary.</strong> <br />
+<div id="ref-vC6te3yd">
+<p>19. <strong>Schema.org: Evolution of Structured Data on the Web: Big data makes common schemas even more necessary</strong> <br />
 Ramanathan V Guha, Dan Brickley, Steve Macbeth<br />
-<em>Queue</em> (2015)</p>
+<em>Queue</em> (2015) <br />
+DOI: <a href="https://doi.org/10.1145/2857274.2857276">10.1145/2857274.2857276</a></p>
 </div>
 <div id="ref-6Lj8VCHS">
 <p>20. <strong>RO-Crate Metadata Specification 1.1.1</strong> <br />
@@ -1081,7 +1083,7 @@ Peter Sefton<br />
 DOI: <a href="https://doi.org/10.5281/zenodo.1445817">10.5281/zenodo.1445817</a></p>
 </div>
 <div id="ref-U6WvlYl">
-<p>25. <strong>ELIXIR: a distributed infrastructure for European biological data.</strong> <br />
+<p>25. <strong>ELIXIR: a distributed infrastructure for European biological data</strong> <br />
 Lindsey C Crosswell, Janet M Thornton<br />
 <em>Trends in Biotechnology</em> (2012-05) <a href="http://dx.doi.org/10.1016/j.tibtech.2012.02.002">http://dx.doi.org/10.1016/j.tibtech.2012.02.002</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.tibtech.2012.02.002">10.1016/j.tibtech.2012.02.002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22417641">22417641</a></p>
@@ -1128,7 +1130,7 @@ GitHub<br />
 <a href="https://github.com/%7BUTS%7D-%7BeResearch%7D/ro-crate-js">https://github.com/{UTS}-{eResearch}/ro-crate-js</a></p>
 </div>
 <div id="ref-joQS4Xno">
-<p>34. <strong>GitHub - ResearchObject/ro-crate-ruby: A Ruby gem for creating, manipulating and reading RO-Crates.</strong> <br />
+<p>34. <strong>GitHub - ResearchObject/ro-crate-ruby: A Ruby gem for creating, manipulating and reading RO-Crates</strong> <br />
 Finn Bacall, Martyn Whitwell<br />
 <em>GitHub</em> <a href="https://github.com/%7BResearchObject%7D/ro-crate-ruby">https://github.com/{ResearchObject}/ro-crate-ruby</a></p>
 </div>
@@ -1138,7 +1140,7 @@ Simone Leo, Ignacio Eguinoa, Stian Soiland-Reyes, Bert Droesbeke, Laura Rodrígu
 <a href="https://github.com/researchobject/ro-crate-py">https://github.com/researchobject/ro-crate-py</a></p>
 </div>
 <div id="ref-syXvUAqM">
-<p>36. <strong>WorkflowHub project Project pages for developing and running the WorkflowHub, a registry of scientific workflows.</strong> <a href="https://about.workflowhub.eu/">https://about.workflowhub.eu/</a></p>
+<p>36. <strong>WorkflowHub project Project pages for developing and running the WorkflowHub, a registry of scientific workflows</strong> <a href="https://about.workflowhub.eu/">https://about.workflowhub.eu/</a></p>
 </div>
 <div id="ref-10Mf5fVVl">
 <p>37. <strong>LifeMonitor, a testing and monitoring service for scientific workflows</strong> <br />
@@ -1157,7 +1159,7 @@ Thanasis Vergoulis<br />
 DOI: <a href="https://doi.org/10.5281/zenodo.4671709">10.5281/zenodo.4671709</a></p>
 </div>
 <div id="ref-6o0SYlZw">
-<p>40. <strong>GitHub - workflowhub-eu/galaxy2cwl: Standalone version tool to get cwl descriptions (initially an abstract cwl interface) of galaxy workflows and Galaxy workflows executions.</strong> <a href="https://github.com/workflowhub-eu/galaxy2cwl">https://github.com/workflowhub-eu/galaxy2cwl</a></p>
+<p>40. <strong>GitHub - workflowhub-eu/galaxy2cwl: Standalone version tool to get cwl descriptions (initially an abstract cwl interface) of galaxy workflows and Galaxy workflows executions</strong> <a href="https://github.com/workflowhub-eu/galaxy2cwl">https://github.com/workflowhub-eu/galaxy2cwl</a></p>
 </div>
 <div id="ref-DuSSAwkc">
 <p>41. <strong>GitHub - CoEDL/modpdsc</strong> <a href="https://github.com/%7BCoEDL%7D/modpdsc/">https://github.com/{CoEDL}/modpdsc/</a></p>
@@ -1314,29 +1316,29 @@ Riccardo Albertoni, David Browning, Simon Cox, Alejandra Gonzalez Beltran, Andre
 <div id="ref-1EOrDAznb">
 <p>69. <strong>The Australian Research Data Commons</strong> <br />
 Michelle Barker, Ross Wilkinson, Andrew Treloar<br />
-<em>Data Science Journal</em> (2019-09-05) <a href="https://doi.org/gj7tcx">https://doi.org/gj7tcx</a> <br />
+<em>Data Science Journal</em> (2019-09-05) <a href="http://datascience.codata.org/articles/10.5334/dsj-2019-044/">http://datascience.codata.org/articles/10.5334/dsj-2019-044/</a> <br />
 DOI: <a href="https://doi.org/10.5334/dsj-2019-044">10.5334/dsj-2019-044</a></p>
 </div>
 <div id="ref-oCofS7oZ">
-<p>70. <strong>The NCI Genomic Data Commons as an engine for precision medicine</strong> <br />
-Mark A. Jensen, Vincent Ferretti, Robert L. Grossman, Louis M. Staudt<br />
-<em>Blood</em> (2017-07-27) <a href="https://doi.org/ghzwkg">https://doi.org/ghzwkg</a> <br />
+<p>70. <strong>The NCI Genomic Data Commons as an engine for precision medicine.</strong> <br />
+Mark A Jensen, Vincent Ferretti, Robert L Grossman, Louis M Staudt<br />
+<em>Blood</em> (2017-07-27) <br />
 DOI: <a href="https://doi.org/10.1182/blood-2017-03-735654">10.1182/blood-2017-03-735654</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28600341">28600341</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5533202">PMC5533202</a></p>
 </div>
 <div id="ref-1Hh0kF7qr">
 <p>71. <strong>Harvard Data Commons</strong> <br />
 Mercè Crosas<br />
-<em>Septentrio Conference Series</em> (2020-03-20) <a href="https://doi.org/gj7tcz">https://doi.org/gj7tcz</a> <br />
+<em>Septentrio Conference Series</em> (2020-03-20) <br />
 DOI: <a href="https://doi.org/10.7557/5.5422">10.7557/5.5422</a></p>
 </div>
 <div id="ref-1GS5Dq9yc">
-<p>72. <strong>The Dataverse Network®: An Open-Source Application for Sharing, Discovering and Preserving Data</strong> <br />
+<p>72. <strong>The Dataverse Network: An Open-Source Application for Sharing, Discovering and Preserving Data</strong> <br />
 Mercè Crosas<br />
-<em>D-Lib Magazine</em> (2011-01) <a href="https://doi.org/dhmkdt">https://doi.org/dhmkdt</a> <br />
+<em>D-Lib Magazine</em> (2011-01) <br />
 DOI: <a href="https://doi.org/10.1045/january2011-crosas">10.1045/january2011-crosas</a></p>
 </div>
 <div id="ref-OkXvEtY">
-<p>73. <strong>Dataset reuse: toward translating principles to practice.</strong> <br />
+<p>73. <strong>Dataset reuse: toward translating principles to practice</strong> <br />
 Laura Koesten, Pavlos Vougiouklis, Elena Simperl, Paul Groth<br />
 <em>Patterns (New York, N.Y.)</em> (2020-11-13) <br />
 DOI: <a href="https://doi.org/10.1016/j.patter.2020.100136">10.1016/j.patter.2020.100136</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33294873">33294873</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7691392">PMC7691392</a></p>
@@ -1455,7 +1457,7 @@ DOI: <a href="https://doi.org/10.1087/20150211">10.1087/20150211</a></p>
 <li id="fn2" role="doc-endnote"><p>For simplicity, blank nodes are not included in this formalisation, as RO-Crate
 <a href="https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#describing-entities-in-json-ld">recommends the use of IRI identifiers</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3" role="doc-endnote"><p>IEEE 2791-2020 do permit user extensions in the <em>extension domain</em> by referencing additional JSON Schemas.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>The <a href="https://endings.uvic.ca/">Endings Project</a> is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>The Endings Project  is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn5" role="doc-endnote"><p>For simplicity, blank nodes are not included in this formalisation, as RO-Crate
 <a href="https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#describing-entities-in-json-ld">recommends the use of IRI identifiers</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn6" role="doc-endnote"><p>The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include <code>datePublished</code>, <code>CreativeWork</code> and <code>name</code>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
