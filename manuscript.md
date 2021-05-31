@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-05-27'
+date-meta: '2021-05-31'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-05-27" />
-  <meta name="citation_publication_date" content="2021-05-27" />
+  <meta name="dc.date" content="2021-05-31" />
+  <meta name="citation_publication_date" content="2021-05-31" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5/))
+([permalink](https://stain.github.io/ro-crate-paper/v/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca/))
 was automatically generated
-from [stain/ro-crate-paper@28b004b](https://github.com/stain/ro-crate-paper/tree/28b004bbd0bd16fd07ca99911a88e09dfe94dcd5)
-on May 27, 2021.
+from [stain/ro-crate-paper@d2cd7a4](https://github.com/stain/ro-crate-paper/tree/d2cd7a44ecf0c454a465b03c5ca86a3dfa6209ca)
+on May 31, 2021.
 </em></small>
 
 ## Authors
@@ -377,7 +377,7 @@ Figure \ref{fig:uml} shows a UML view of RO-Crate, highlighting the different ty
 
 ### Best Practice Guide rather than strict specification
 
-RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD [@sporny_2014] and [Schema.org](https://schema.org/) [@guha2015schema], but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as _RDF shapes_ (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply  existing standards in a common way to describe research outputs and their provenance.
+RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD [@sporny_2014] and [Schema.org](https://schema.org/) [@doi:10.1145/2857274.2857276], but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as _RDF shapes_ (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply  existing standards in a common way to describe research outputs and their provenance.
 
 As such, the [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) specification [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing Schema.org metadata as JSON-LD, which leaves it open for implementers to include additional metadata using other Schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
 
@@ -611,14 +611,14 @@ Specifically, a BCO alone is insufficient for reliable re-execution of a workflo
 
 This use case takes advantage of several RO-Crate features and principles. Firstly, the transcribed metadata are now independent of the PARADISEC platform and can be archived, preserved and processed in its own right, using Schema.org vocabularies augmented with PARADISEC-specific terms. The lightweight infrastructure with RO-Crate as the holder of itemised metadata in regular files (organised using OCFL[@ocfl_2020], with checksums for integrity checking and versioning) also gives flexibility for future developments and maintenance; for example, potentially using Linked Data software such as a graph database, queried using SPARQL triple patterns across RO-Crates, or a “last resort” fallback to the generic RO-Crate HTML preview [@ro-crate-html-js], which can be hosted as static files by any web server, in line with the approach taken by the Endings Project[^3].
 
-[^3]: The [Endings Project](https://endings.uvic.ca/) is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
+[^3]: The Endings Project \url{https://endings.uvic.ca/} is a five-year project funded by the Social Sciences and Humanities Research Council (SSHRC) that is creating tools, principles, policies and recommendations for digital scholarship practitioners to create accessible, stable, long-lasting resources in the humanities.
 
 
 ## Machine-actionable Data Management Plans
 
 Machine-actionable Data Management Plans (maDMPs) have been proposed as an improvement to automate FAIR data management tasks in research [@doi:10.1371/journal.pcbi.1006750], e.g. by using PIDs and controlled vocabularies to describe what happens to data over the research life cycle [@doi:10.1007/978-3-030-45442-5_15]. The Research Data Alliance's _DMP Common Standard_ for maDMPs [@doi:10.15497/rda00039] is one such formalisation for expressing maDMPs, which can be expressed as Linked Data using the DMP Common Standard Ontology [@doi:10.4126/frl01-006423289], a specialisation of the W3C Data Catalog Vocabulary (DCAT) [@dcat2]. RDA maDMPs are usually expressed using regular JSON, conforming to the DMP JSON Schema.
 
-A mapping has been produced between Research Object Crates and Machine-actionable Data Management Plans [@doi:10.4126/frl01-006423291], implemented by the RO-Crate {RDA maDMP Mapper [@doi:10.5281/zenodo.3922136]. A similar mapping has been implemented by RO-Crate\_2\_ma-DMP [@doi:10.5281/zenodo.3903463]. In both cases, a maDMP can be converted to a RO-Crate, or vice versa. In [@doi:10.4126/frl01-006423291] this functionality caters for two use cases:
+A mapping has been produced between Research Object Crates and Machine-actionable Data Management Plans [@doi:10.4126/frl01-006423291], implemented by the RO-Crate {RDA maDMP Mapper [@doi:10.5281/zenodo.3922136]. A similar mapping has been implemented by `RO-Crate_2_ma-DMP` [@doi:10.5281/zenodo.3903463]. In both cases, a maDMP can be converted to a RO-Crate, or vice versa. In [@doi:10.4126/frl01-006423291] this functionality caters for two use cases:
 
 1. Start a skeleton data management plan based on an existing RO-Crate dataset, e.g. from an RO-Crate from WorkflowHub.
 2. Instantiate an RO-Crate based on a data management plan.
@@ -629,10 +629,10 @@ An important difference here is that data management plans are (ideally) written
 
 **This section is Work in progress**
 
-The concept of Data Commons has emerged as an effort to integrate active data-centric research with data management and archival best practices. Its goal is to accelerate discoveries by providing cloud-based platforms where researchers can use, share and store data, software, workflows, and other digital objects used in science. This idea brings together software tools and services for research, cloud computation and storage for scalability, and data repositories for sharing and archival. Multiple initiatives were undertaken to create Data Commons on national, research, and institutional levels. For example, [Australian Research Data Commons](https://ardc.edu.au) (ARDC) [@10.5334/dsj-2019-044] is a national initiative that enables local researchers and industries to access computing infrastructure, training, and curated datasets for data-intensive research. NCI’s [Genomic Data Commons](https://gdc.cancer.gov/) (GDC) [@10.1182/blood-2017-03-735654] provides the cancer research community with access to genomic data. GDC contains an extensive collection amounting to over 3 PB of genomic and clinical data, and it has become one of the most significant and widely-used resources in cancer genomics. 
-**Harvard Data Commons** [@10.7557/5.5422] aims to address the challenges of the institutional research community. In particular, its uncoordinated growth resulted in disconnected research services across units and schools, causing difficulties in data sharing across groups, e.g. multiple purchases of the same datasets. Other challenges include a lack of data documentation and the risk of non-compliance with data policies. Harvard Data Commons will support institutional researchers to browse through the University's breadth of resources and services such as access and reuse of (unpublished and published) data, data purchase, licensing, and management. In particular, a *metadata registry* will track all active datasets and their descriptions and thus act as an entry point for collaboration. In addition, researchers will be able to receive specialised support for publishing large and sensitive datasets. 
+The concept of Data Commons has emerged as an effort to integrate active data-centric research with data management and archival best practices. Its goal is to accelerate discoveries by providing cloud-based platforms where researchers can use, share and store data, software, workflows, and other digital objects used in science. This idea brings together software tools and services for research, cloud computation and storage for scalability, and data repositories for sharing and archival. Multiple initiatives were undertaken to create Data Commons on national, research, and institutional levels. For example, [Australian Research Data Commons](https://ardc.edu.au) (ARDC) [@doi:10.5334/dsj-2019-044] is a national initiative that enables local researchers and industries to access computing infrastructure, training, and curated datasets for data-intensive research. NCI’s [Genomic Data Commons](https://gdc.cancer.gov/) (GDC) [@doi:10.1182/blood-2017-03-735654] provides the cancer research community with access to genomic data. GDC contains an extensive collection amounting to over 3 PB of genomic and clinical data, and it has become one of the most significant and widely-used resources in cancer genomics. 
+**Harvard Data Commons** [@doi:10.7557/5.5422] aims to address the challenges of the institutional research community. In particular, its uncoordinated growth resulted in disconnected research services across units and schools, causing difficulties in data sharing across groups, e.g. multiple purchases of the same datasets. Other challenges include a lack of data documentation and the risk of non-compliance with data policies. Harvard Data Commons will support institutional researchers to browse through the University's breadth of resources and services such as access and reuse of (unpublished and published) data, data purchase, licensing, and management. In particular, a *metadata registry* will track all active datasets and their descriptions and thus act as an entry point for collaboration. In addition, researchers will be able to receive specialised support for publishing large and sensitive datasets. 
 
-Harvard Data Commons is a collaboration between the institutional schools, the library, the research computing center, and the [Harvard Dataverse data repository](https://dataverse.harvard.edu/). [Dataverse](https://dataverse.org/) [@10.1045/january2011-crosas] is a free and open-source software platform to archive, share and cite research data. It is developed and maintained by Harvard's Institute for Quantitative Social Science (IQSS) and the Dataverse community. There are currently 70 Dataverse installations deployed across the world. The Harvard Dataverse repository is the largest installation containing over 100K datasets with about 1M [data files](https://dataverse.org/metrics), open to all researchers worldwide, across disciplines, and supports all data types. 
+Harvard Data Commons is a collaboration between the institutional schools, the library, the research computing center, and the [Harvard Dataverse data repository](https://dataverse.harvard.edu/). [Dataverse](https://dataverse.org/) [@doi:10.1045/january2011-crosas] is a free and open-source software platform to archive, share and cite research data. It is developed and maintained by Harvard's Institute for Quantitative Social Science (IQSS) and the Dataverse community. There are currently 70 Dataverse installations deployed across the world. The Harvard Dataverse repository is the largest installation containing over 100K datasets with about 1M [data files](https://dataverse.org/metrics), open to all researchers worldwide, across disciplines, and supports all data types. 
 
 Harvard Data Commons is developing an interoperability framework between research tools and cloud computing for data processing and data management (Dataverse) and archival (Figure~\ref{fig:hdc}). In practice, researchers often conduct data cleaning, processing, and exploration without documenting every single step of their research. Even files like group notes and presentations often do not make the finished product that follows a publication. As a result, external researchers may be unable to reconstruct the whole analysis process and reproduce the analysis. In contrast, some researchers use workflows and virtual containers to automate and encapsulate their data, code, and runtime environments for reproducibility. These tools are however relatively novel and not yet adopted in many research infrastructures – in addition documenting and recording computational tool usage in respect to data outputs is still not common practice. 
 
@@ -640,7 +640,7 @@ Considering these diverse research paths, Harvard Data Commons is currently work
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{content/images/data-commons-ro-crate-figure.svg}
+    \includegraphics[width=\linewidth]{content/images/data-commons-ro-crate-figure-2.svg}
     \caption{Schematic view of Harvard Data Commons. It can be roughly divided into "Active Data-Intensive Research" infrastructure for ongoing studies across the University and "Published Data and Research" infrastructure for completed, published, or shared studies. }
     \label{fig:hdc}
 \end{figure}
@@ -718,6 +718,8 @@ RO-Crate is supported by multiple open source tools and libraries, fits into the
 \small
 
 This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827)
+
+A. Trisovic is funded by the Alfred P. Sloan Foundation (grant number P-2020-13988). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).
 
 ## Contributions
 

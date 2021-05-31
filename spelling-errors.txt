@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -35,7 +35,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 DataCite
 DataCrate
@@ -72,7 +72,7 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
 GDC
 genomic
@@ -83,6 +83,7 @@ Groth
 Hervé
 hoc
 https
+HUIT
 IBISBA
 implementers
 INFRADEV
@@ -132,7 +133,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -167,7 +168,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
