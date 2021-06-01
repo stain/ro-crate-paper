@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -21,7 +21,7 @@ carolegoble
 Carragáin
 CASRAI
 Catalog
-center
+Center
 centric
 CheckMyCrate
 checksums
@@ -72,10 +72,10 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Goble
@@ -133,7 +133,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
