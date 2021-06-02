@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-06-01'
+date-meta: '2021-06-02'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-06-01" />
-  <meta name="citation_publication_date" content="2021-06-01" />
+  <meta name="dc.date" content="2021-06-02" />
+  <meta name="citation_publication_date" content="2021-06-02" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/25a202500f61acdad8eb2941cdd0d4796f533286/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/25a202500f61acdad8eb2941cdd0d4796f533286/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/25a202500f61acdad8eb2941cdd0d4796f533286/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7c77e42d932655bc87f9ccf73215f746b1aff620/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7c77e42d932655bc87f9ccf73215f746b1aff620/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7c77e42d932655bc87f9ccf73215f746b1aff620/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/25a202500f61acdad8eb2941cdd0d4796f533286/))
+([permalink](https://stain.github.io/ro-crate-paper/v/7c77e42d932655bc87f9ccf73215f746b1aff620/))
 was automatically generated
-from [stain/ro-crate-paper@25a2025](https://github.com/stain/ro-crate-paper/tree/25a202500f61acdad8eb2941cdd0d4796f533286)
-on June 1, 2021.
+from [stain/ro-crate-paper@7c77e42](https://github.com/stain/ro-crate-paper/tree/7c77e42d932655bc87f9ccf73215f746b1aff620)
+on June 2, 2021.
 </em></small>
 
 ## Authors
@@ -340,11 +340,11 @@ In the following sections we show how the RO-Crate specification and ecosystem a
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on concepts from the Web, in particular that of Linked Data [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure \ref{fig:conceptual} shows the main conceptual elements involved in an RO-Crate; an RO-Metadata File(top) describes the research object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) identifies a *Research Object* (RO), which is archived using BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using ROR and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] identifies a *Research Object* (RO), which is archived using BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using ROR and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a core principle
 
-Linked Data principles [@doi:10.4018/978-1-60960-593-3.ch008] (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs[^1] are used to identify an RO-Crate package, its constituent parts and metadata descriptions, and the properties and classes used in the metadata. 
+Linked Data principles [@doi:10.4018/978-1-60960-593-3.ch008] (use of IRIs to identify resources (i.e. artefacts), resolvable via HTTP, enriched with metadata and linked to each other) are core to RO-Crate; therefore IRIs[^1] are used to identify an RO-Crate, its constituent parts and metadata descriptions, and the properties and classes used in the metadata. 
 
 Linked Data make it possible for consumers to follow links for more (ideally both human- and machine-readable) information; as the RO-Crate relies on these principles, it can be sufficiently _self-describing_ as artefacts can be interrelated using global identifiers, without needing to recursively fully describe every referenced artefact.
 
@@ -377,18 +377,16 @@ Figure \ref{fig:uml} shows a UML view of RO-Crate, highlighting the different ty
 
 ### Best Practice Guide rather than strict specification
 
-RO-Crate builds on Linked Data standards and community-evolved vocabularies such as JSON-LD [@sporny_2014] and [Schema.org](https://schema.org/) [@doi:10.1145/2857274.2857276], but rather than enforcing additional constraints and limits — using perhaps intimidating technologies such as _RDF shapes_ (SHACL, ShEx) — RO-Crate aims instead to build a set of best practices on how to apply  existing standards in a common way to describe research outputs and their provenance.
+RO-Crate builds on Linked Data standards (JSON-LD [@sporny_2014]) and community-evolved vocabularies ([Schema.org](https://schema.org/) [@doi:10.1145/2857274.2857276]). RO-Crate aims to build a set of best practices on how to practically apply these existing standards in a common way to describe research outputs and their provenance, without having to learn each of the underlying technologies in detail.
 
 As such, the [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) specification [@doi:10.5281/zenodo.4541002] can be seen as an opinionated and example-driven guide to writing Schema.org metadata as JSON-LD, which leaves it open for implementers to include additional metadata using other Schema.org types and properties, or even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
-
-This does not mean, however, that RO-Crate does not have constraints. Crucially, the specification is quite strict on the JSON-LD being _flattened_ and _compacted_, to facilitate lightweight consumption and generation of the RO-Crate Metadata file without the need for RDF libraries. In addition, work has now begun to formalise different _profiles_ of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. For instance, submission to a workflow repository would expect an RO-Crate to contain at least one workflow with a declared licence and workflow language; specific additional recommendations could also be needed to meet the emerging requirements of [FAIR Digital Objects](https://fairdo.org/). These optional profiles are planned to build on a combination of JSON Schemas and RDF shapes, but again these will primarily provide developers with guidance and suggestions rather than strict validation requirements.
 
 
 ### Checking Simplicity
 
-As previously stated, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through a community review process. See for example the discussion at ([GitHub issue #71 on ad-hoc vocabularies](https://github.com/ResearchObject/ro-crate/issues/71)). 
+As previously stated, one aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through a community review process. For instance, in the discussion on supporting [ad-hoc vocabularies](https://github.com/ResearchObject/ro-crate/issues/71) in RO-Crate, the community explored potential Linked Data solutions. The conventional wisdom in [RDF best practice](https://www.w3.org/TR/swbp-vocab-pub/) is to establish a vocabulary with a new URI namespace, formalised using [RDF Schema](http://www.w3.org/TR/2014/REC-rdf-schema-20140225/) or [OWL](http://www.w3.org/TR/2012/REC-owl2-overview-20121211/) ontologies, however, as this may seem excessive learning curve for the use case of clarifying that `sentence` in an RO-Crate refers to prisoner sentencing rather than a linguistic structure, the RO-Crate community instead agreed on a dual lightweight approach: (ⅰ) [Document](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#adding-new-or-ad-hoc-vocabulary-terms) how projects with their own web-presence can make a pure HTML-based vocabulary, and (ⅱ) provide a community-wide PID namespace under <https://w3id.org/ro/terms/> that redirect to simple CSV files [maintained in GitHub](https://github.com/ResearchObject/ro-terms). 
 
-To further verify this idea, we have formalised the RO-Crate definition (see Appendix X). An important result of this exercise is that the underlying data structure of RO-Crate is a depth limited tree of 1 level. The formalisation also emphasises the _boundedness_ of the structure; namely, the fact that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`) or mainly referenced (`mentions`) and typed as _external_ to the Research Object (Contextual Entities). 
+To further verify this idea, we have formalised the RO-Crate definition (see Appendix A). An important result of this exercise is that the underlying data structure of RO-Crate, although conceptually a graph, is represented as a tree limited to depth 2. The formalisation also emphasises the _boundedness_ of the structure; namely, the fact that elements are specifically identified as being either semantically _contained_ by the RO-Crate (`hasPart`) or mainly referenced (`mentions`) and typed as _external_ to the Research Object (Contextual Entities). 
 
 [^1]: IRIs[@doi:10.17487/rfc3987] are a generalisation of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
 
@@ -447,12 +445,7 @@ By comparison, a single flat `@graph` array approach means that applications can
 
 RO-Crate reuses Schema.org, but provides its own versioned JSON-LD context, which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents (e.g. `author` maps to [http://schema.org/author](http://schema.org/author)). The rationale behind this decision is to support JSON-based RO-Crate applications that are largely unaware of JSON-LD, and thus still may want to process the `@context` to find Linked Data definitions of unknown properties and types. Not reusing the official Schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [@pcdm] for repositories and Bioschemas [@bioschemas_2017] for describing computational workflows.
 
-<!--While RO-Crate mainly uses schema.org, we found that JSON-based RO-Crate applications that are largely unaware of JSON-LD still may want to process the `@context` to find Linked Data definitions of unknown properties and types. Thus, RO-Crate provides its own versioned JSON-LD context, which has a similar flat list with the mapping from JSON-LD keys to their URI equivalents; for instance, `author` maps to [http://schema.org/author](http://schema.org/author). Not reusing the official schema.org context means RO-Crate is also able to map in additional vocabularies where needed, namely the _Portland Common Data Model_ (PCDM) [@pcdm] for repositories and Bioschemas [@bioschemas_2017] for describing computational workflows.-->
-
-Similarly, rather than relying on implications from `"@type": "@id"` annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities (`{"id": "#alice"}`) and string values (`"Alice"`) - meaning RO-Crate applications can find the corresponding entity without parsing the `@context`.
-
-
-
+Similarly, rather than relying on implications from `"@type": "@id"` annotations in the context, RO-Crate JSON-LD distinguishes explicitly between references to other entities (`{"@id": "#alice"}`) and string values (`"Alice"`) - meaning RO-Crate applications can find the corresponding entity without parsing the `@context`.
 
 
 
@@ -545,11 +538,11 @@ We argue that the adoption of simple web technologies in the RO-Crate specificat
         
 _**Table 1**: Applications and libraries implementing RO-Crate, targeting different types of users across multiple programming languages. Status is indicative as assessed by this work._
 
-# Using RO-Crate
+# Profiles of RO-Crate in use
 
-RO-Crate is fundamentally an infrastructure to help build FAIR research artefacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artefacts. Here we look at three research domains where RO-Crate is being applied: Bioinformatics, Regulatory Science and Cultural Heritages. In addition, we note how RO-Crate may have an important role as part of machine-actionable data management plans.
+RO-Crate is fundamentally an infrastructure to help build FAIR research artefacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artefacts. Here we look at three research domains where RO-Crate is being applied: Bioinformatics, Regulatory Science and Cultural Heritages. In addition, we note how RO-Crate may have an important role as part of machine-actionable data management plans and institutional repositories.
 
-
+From these varied uses of RO-Crate we observe a natural differences in their detail level and the type of entities described by the RO-Crate. For instance, on submission of an RO-Crate to a workflow repository, it is reasonable to expect the RO-Crate to contain at least one workflow, ideally with a declared licence and workflow language. Specific additional recommendations such as on identifiers is also needed to meet the emerging requirements of [FAIR Digital Objects](https://fairdo.org/). [Work has now begun](https://github.com/ResearchObject/ro-crate/issues/153) to formalise these different _profiles_ of RO-Crates, which may impose additional constraints based on the needs of a specific domain or use case. 
 
 
 
@@ -598,9 +591,9 @@ Here the BCO is responsible for describing the _purpose_ of a workflow and its r
 
 A similar separation of concerns can be found if considering the RO-Crate as a set of files, where the _transport-level_ metadata, such as checksum of files, are [delegated to BagIt](https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#adding-ro-crate-to-bagit) manifests, a standard focusing on the preservation challenges of digital libraries[@doi:10.17487/rfc8493]. As such, RO-Crates are not required to iterate all the files in their folder hierarchy, only those that benefit from being described.
 
-Specifically, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [@arxiv:2105.07028] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using Docker or Conda. Thus, we can consider BCO RO-Crate as a stack: transport-level manifests of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
+Specifically, a BCO alone is insufficient for reliable re-execution of a workflow, which would need a compatible workflow engine depending on the workflow definition language, so IEEE 2791 recommends using Common Workflow Language [@arxiv:2105.07028] for interoperable pipeline execution. CWL itself relies on tool packaging in software containers using [Docker](https://www.docker.com/) or [Conda](https://docs.conda.io/). Thus, we can consider BCO RO-Crate as a stack: transport-level manifests of files (BagIt), provenance, typing and context of those files (RO-Crate), workflow overview and purpose (BCO), interoperable workflow definition (CWL) and tool distribution (Docker).
 
-![**Separation of Concerns in BCO RO-Crate**. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow, that installs the workflow’s software dependencies as Docker containers or BioConda packages. An example execution of the workflow shows the different kinds of result outputs, which may be external, using GitHub LFS to support larger data. RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent DOI identifiers for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licences apply to individual resources. The RO-Crate and its local files are captured in a BagIt whose checksum ensures completeness, combined with Big Data Bag [@doi:10.1109/BigData.2016.7840618] features to “complete” the bag with large external files such as the workflow outputs](images/ro-crate-bco-sep-of-concerns.svg "separationofconcerns")
+![**Separation of Concerns in BCO RO-Crate**. BioCompute Object (IEEE2791) is a JSON file that structurally explains the purpose and implementation of a computational workflow, for instance implemented in Nextflow, that installs the workflow’s software dependencies as Docker containers or BioConda packages. An example execution of the workflow shows the different kinds of result outputs, which may be external, using GitHub LFS to support larger data. RO-Crate gathers all these local and external resources, relating them and giving individual descriptions, for instance permanent DOI identifiers for reused datasets accessed from Zenodo, but also adding external identifiers to attribute authors using ORCID or to identify which licences apply to individual resources. The RO-Crate and its local files are captured in a BagIt whose checksum ensures completeness, combined with Big Data Bag [@doi:10.1109/BigData.2016.7840618] features to “complete” the bag with large external files such as the workflow outputs](images/ro-crate-bco-sep-of-concerns.png "separationofconcerns")
 
 [^6]:
     IEEE 2791-2020 do permit user extensions in the _extension domain_ by referencing additional JSON Schemas.
@@ -627,24 +620,19 @@ An important difference here is that data management plans are (ideally) written
 
 ## Institutional data repositories – Harvard Data Commons
 
-**This section is Work in progress**
+The concept of a Data Commons for research collaboration was originally defined as "cyber-infrastructure that co-locates data, storage, and computing infrastructure with commonly used tools for analysing and sharing data to create an interoperable resource for the research community" [@doi:10.1109/MCSE.2016.92]. More recently, it was established to integrate active data-intensive research with data management and archival best practices. It facilitates research by providing computational infrastructure where researchers can use, share and store data, software, workflows and other digital artefacts used in their studies. Furthermore, the Commons feature tools and services, such as computation clusters and storage for scalability, data repositories for disseminating and preserving regular, but also large or sensitive datasets, and other research assets. Multiple initiatives were undertaken to create Data Commons on national, research, and institutional levels. For example, the [Australian Research Data Commons (ARDC)](https://ardc.edu.au) [@doi:10.5334/dsj-2019-044] is a national initiative that enables local researchers and industries to access computing infrastructure, training, and curated datasets for data-intensive research. NCI’s [Genomic Data Commons](https://gdc.cancer.gov/) (GDC) [@doi:10.1182/blood-2017-03-735654] provides the cancer research community with access to a vast volume of genomic and clinical data. Initiatives such as [Research Data Alliance (RDA) Global Open Research Commons](https://www.rd-alliance.org/groups/global-open-research-commons-ig) propose standards on the implementation of Data Commons to avoid them becoming "data silos" and enable interoperability from one Data Commons to another.
 
-The concept of Data Commons has emerged as an effort to integrate active data-centric research with data management and archival best practices. Its goal is to accelerate discoveries by providing cloud-based platforms where researchers can use, share and store data, software, workflows, and other digital objects used in science. This idea brings together software tools and services for research, cloud computation and storage for scalability, and data repositories for sharing and archival. Multiple initiatives were undertaken to create Data Commons on national, research, and institutional levels. For example, [Australian Research Data Commons](https://ardc.edu.au) (ARDC) [@doi:10.5334/dsj-2019-044] is a national initiative that enables local researchers and industries to access computing infrastructure, training, and curated datasets for data-intensive research. NCI’s [Genomic Data Commons](https://gdc.cancer.gov/) (GDC) [@doi:10.1182/blood-2017-03-735654] provides the cancer research community with access to genomic data. GDC contains an extensive collection amounting to over 3 PB of genomic and clinical data, and it has become one of the most significant and widely-used resources in cancer genomics. 
-**Harvard Data Commons** [@doi:10.7557/5.5422] aims to address the challenges of the institutional research community. In particular, its uncoordinated growth resulted in disconnected research services across units and schools, causing difficulties in data sharing across groups, e.g. multiple purchases of the same datasets. Other challenges include a lack of data documentation and the risk of non-compliance with data policies. Harvard Data Commons will support institutional researchers to browse through the University's breadth of resources and services such as access and reuse of (unpublished and published) data, data purchase, licensing, and management. In particular, a *metadata registry* will track all active datasets and their descriptions and thus act as an entry point for collaboration. In addition, researchers will be able to receive specialised support for publishing large and sensitive datasets. 
+**Harvard Data Commons** [@doi:10.7557/5.5422] aims to address data access and reuse challenges of cross-disciplinary research within a research institution. It brings together multiple institutional schools, libraries, computing centres and the [Harvard Dataverse data repository](https://dataverse.harvard.edu/). [Dataverse](https://dataverse.org/) [@doi:10.1045/january2011-crosas] is a free and open-source software platform to archive, share and cite research data. The Harvard Dataverse repository is the largest of 70 installations worldwide, containing over 100K datasets with about 1M data files. Toward the goal of facilitating collaboration and data discoverability and management within the university, Harvard Data Commons has the following primary objectives:
 
-Harvard Data Commons is a collaboration between the institutional schools, the library, the research computing center, and the [Harvard Dataverse data repository](https://dataverse.harvard.edu/). [Dataverse](https://dataverse.org/) [@doi:10.1045/january2011-crosas] is a free and open-source software platform to archive, share and cite research data. It is developed and maintained by Harvard's Institute for Quantitative Social Science (IQSS) and the Dataverse community. There are currently 70 Dataverse installations deployed across the world. The Harvard Dataverse repository is the largest installation containing over 100K datasets with about 1M [data files](https://dataverse.org/metrics), open to all researchers worldwide, across disciplines, and supports all data types. 
+1. integrating Harvard Research Computing with Harvard Dataverse by leveraging Globus endpoints [@doi:10.1109/MCC.2014.52] that will allow an automatic transfer of large datasets to the repository. In some cases, only the metadata will be transferred while the data stays stored in remote storage;
+2. supporting advanced research workflows and providing packaging options for assets such as code and workflows in the Harvard Dataverse repository to enable reproducibility and reuse, and 
+3. integrating repositories supported by Harvard, which are [DASH](https://dash.harvard.edu), the open access institutional repository, the Digital Repository Services (DRS) for preserving digital asset collections, and the Harvard Dataverse.
 
-Harvard Data Commons is developing an interoperability framework between research tools and cloud computing for data processing and data management (Dataverse) and archival (Figure~\ref{fig:hdc}). In practice, researchers often conduct data cleaning, processing, and exploration without documenting every single step of their research. Even files like group notes and presentations often do not make the finished product that follows a publication. As a result, external researchers may be unable to reconstruct the whole analysis process and reproduce the analysis. In contrast, some researchers use workflows and virtual containers to automate and encapsulate their data, code, and runtime environments for reproducibility. These tools are however relatively novel and not yet adopted in many research infrastructures – in addition documenting and recording computational tool usage in respect to data outputs is still not common practice. 
+Particularly relevant to this paper is the second objective of the Harvard Data Commons, which aims to support the deposit of research artefacts to Harvard Dataverse with sufficient information in the metadata to allow their future reuse (Figure~\ref{fig:hdc}). Considering the requirements of incorporating data, code, and other artefacts from various institutional infrastructures, Harvard Data Commons is currently working on RO-Crate adaptation. The RO-Crate metadata provides the necessary structure to make all research artefacts FAIR. The Dataverse software already has extensive support for metadata, including the Data Documentation Initiative (DDI), Dublin Core, DataCite, and Schema.org. Incorporating RO-Crate, which has the flexibility to describe a wide range of research resources, will facilitate their seamless transition from one infrastructure to the other within the Harvard Data Commons.
 
-Considering these diverse research paths, Harvard Data Commons is currently working on RO-Crate adaptation. This will provide a holistic approach to recording studies that incorporate data and code coming from a variety of institutional infrastructures in addition to workflows, containers, and contextual documents like reports and presentations. The RO-Crate metadata structure provides the necessary flexibility to make all outputs from a study FAIR. Dataverse software already has extensive support for metadata, including the Data Documentation Initiative (DDI), Dublin Core, DataCite, and Schema.org. Incorporating RO-Crate, which has the flexibility to describe a wide range of research resources, will help Harvard Data Commons facilitate a seamless study transitions throughout the research life cycle.
+![**One aspect of Harvard Data Commons**. Automatic encapsulation and deposit of artefacts from data management tools used during active research at the Harvard Dataverse repository.](images/data-commons-ro-crate-figure-2.svg "Harvard Data Commons"){#fig:hdc}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{content/images/data-commons-ro-crate-figure-2.svg}
-    \caption{Schematic view of Harvard Data Commons. It can be roughly divided into "Active Data-Intensive Research" infrastructure for ongoing studies across the University and "Published Data and Research" infrastructure for completed, published, or shared studies. }
-    \label{fig:hdc}
-\end{figure}
-
+Even though the Harvard Data Commons is specific to Harvard University, the overall vision and the three objectives can be abstracted and applied to other universities or research organisations. The Commons will be designed and implemented using standards and commonly-used approaches to make it interoperable and reusable by others.
 
 # Related Work
 
@@ -663,11 +651,9 @@ Here we focus on approaches for bundling research artefacts along with their met
 
 The challenge of describing computational workflows was one of the main motivations for the early proposal of _Research Objects_ (RO) [@doi:10.1016/j.future.2011.08.004] as first-class citizens for sharing and publishing. The RO approach involves bundling datasets, workflows, scripts and results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each other using semantic vocabularies. As pointed out in [@doi:10.1016/j.future.2011.08.004] an open-ended _Linked Data_ approach is not sufficient for scholarly communication: a common data model is also needed in addition to common and best practices for managing and annotating lifecycle, ownership, versioning and attributions.
 
-Considering the FAIR principles, we can say with hindsight that the initial RO approaches strongly targeted _Interoperability_, with a particular focus on the reproducibility of in-silico experiments involving computational workflows and the reuse of existing RDF vocabularies. 
+Considering the FAIR principles, we can say with hindsight that the initial RO approaches strongly targeted _Interoperability_, with a particular focus on the reproducibility of _in-silico experiments_ involving computational workflows and the reuse of existing RDF vocabularies. 
 
-The first implementation of Research Objects for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons, OAI-ORE and (later) DBPedia to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components. [@myExperimentOntology2009] 
-
-Programmatic access to ROs was facilitated with an RDF endpoint that exposed individual myExperiment resources, also queryable from a SPARQL endpoint, both using the myExperiment vocabularies and RDF formats RDF/XML and Turtle.
+The first implementation of Research Objects for sharing workflows in myExperiment [@doi:10.1093/nar/gkq429] was based on RDF ontologies [@newman2009], building on Dublin Core, FOAF, SIOC, Creative Commons and OAI-ORE to form myExperiment ontologies for describing social networking, attribution and credit, annotations, aggregation packs, experiments, view statistics, contributions, and workflow components [@myExperimentOntology2009].
 
 
 
@@ -690,7 +676,7 @@ At the same time, it is clear that the goal of FDO is broader than that of RO-Cr
 
 ## Packaging Workflows
 
-The use of computational workflows, typically combining a chain of open source tools in an analytical pipeline, has gained prominence, in particular in the life sciences. While workflows may have initially been used to improve scalability, it can be argued that they also assist in making computed data results FAIR. At the same time, however, they raise additional FAIR challenges, since they can be considered important research artefacts themselves, posing the problem of capturing and explaining the computational methods behind the analysis they perform [@doi:10.1162/dint_a_00033].
+The use of computational workflows, typically combining a chain of open source tools in an analytical pipeline, has gained prominence, in particular in the life sciences. While workflows may have initially been used to improve computational scalability, it can be argued that they also assist in making computed data results FAIR. At the same time, however, they raise additional FAIR challenges, since they can be considered important research artefacts themselves, posing the problem of capturing and explaining the computational methods behind the analysis they perform [@doi:10.1162/dint_a_00033].
 
 Even when researchers follow current best practices for workflow reproducibility, [@doi:10.1016/j.cels.2018.03.014] [@doi:10.1016/j.future.2017.01.012] the communication of outcomes through traditional academic publishing routes relying on a textual representation adds barriers that hinder reproducibility and FAIR use of the knowledge previously captured in the workflow.
 

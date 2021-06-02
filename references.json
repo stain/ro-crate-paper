@@ -1964,6 +1964,79 @@
     "type": "entry"
   },
   {
+    "DOI": "10.1109/MCC.2014.52",
+    "author": [
+      {
+        "family": "Chard",
+        "given": "Kyle"
+      },
+      {
+        "family": "Tuecke",
+        "given": "Steven"
+      },
+      {
+        "family": "Foster",
+        "given": "Ian"
+      }
+    ],
+    "container-title": "IEEE Cloud Computing",
+    "id": "7yKqnsAx",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "46-55",
+    "title": "Efficient and Secure Transfer, Synchronization, and Sharing of Big Data",
+    "type": "article-journal",
+    "volume": "1",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/MCC.2014.52\noriginal_standard_id: doi:10.1109/MCC.2014.52\nstandard_id: doi:10.1109/mcc.2014.52"
+  },
+  {
+    "DOI": "10.1109/MCSE.2016.92",
+    "author": [
+      {
+        "family": "Grossman",
+        "given": "Robert L"
+      },
+      {
+        "family": "Heath",
+        "given": "Allison"
+      },
+      {
+        "family": "Murphy",
+        "given": "Mark"
+      },
+      {
+        "family": "Patterson",
+        "given": "Maria"
+      },
+      {
+        "family": "Wells",
+        "given": "Walt"
+      }
+    ],
+    "container-title": "Computing in science & engineering",
+    "id": "7O1j0YRj",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "10-20",
+    "publisher": "IEEE",
+    "title": "A case for data commons: toward data science as a service",
+    "type": "article-journal",
+    "volume": "18",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/MCSE.2016.92\noriginal_standard_id: doi:10.1109/MCSE.2016.92\nstandard_id: doi:10.1109/mcse.2016.92"
+  },
+  {
     "DOI": "10.1126/science.aah6168",
     "ISSN": "0036-8075",
     "PMID": "27940837",
@@ -2271,6 +2344,208 @@
     "title": "Electronic documents give reproducible research a new meaning",
     "type": "paper-conference",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1190/1.1822162"
+  },
+  {
+    "DOI": "10.1371/journal.pbio.2001414",
+    "PMCID": "PMC5490878",
+    "PMID": "28662064",
+    "abstract": "In many disciplines, data are highly decentralized across thousands of online databases (repositories, registries, and knowledgebases). Wringing value from such databases depends on the discipline of data science and on the humble bricks and mortar that make integration possible; identifiers are a core component of this integration infrastructure. Drawing on our experience and on work by other groups, we outline 10 lessons we have learned about the identifier qualities and best practices that facilitate large-scale data integration. Specifically, we propose actions that identifier practitioners (database providers) should take in the design, provision and reuse of identifiers. We also outline the important considerations for those referencing identifiers in various circumstances, including by authors and data generators. While the importance and relevance of each lesson will vary by context, there is a need for increased awareness about how to avoid and manage common identifier problems, especially those related to persistence and web-accessibility/resolvability. We focus strongly on web-based identifiers in the life sciences; however, the principles are broadly relevant to other disciplines.",
+    "author": [
+      {
+        "family": "McMurry",
+        "given": "Julie A"
+      },
+      {
+        "family": "Juty",
+        "given": "Nick"
+      },
+      {
+        "family": "Blomberg",
+        "given": "Niklas"
+      },
+      {
+        "family": "Burdett",
+        "given": "Tony"
+      },
+      {
+        "family": "Conlin",
+        "given": "Tom"
+      },
+      {
+        "family": "Conte",
+        "given": "Nathalie"
+      },
+      {
+        "family": "Courtot",
+        "given": "Mélanie"
+      },
+      {
+        "family": "Deck",
+        "given": "John"
+      },
+      {
+        "family": "Dumontier",
+        "given": "Michel"
+      },
+      {
+        "family": "Fellows",
+        "given": "Donal K"
+      },
+      {
+        "family": "Gonzalez-Beltran",
+        "given": "Alejandra"
+      },
+      {
+        "family": "Gormanns",
+        "given": "Philipp"
+      },
+      {
+        "family": "Grethe",
+        "given": "Jeffrey"
+      },
+      {
+        "family": "Hastings",
+        "given": "Janna"
+      },
+      {
+        "family": "Hériché",
+        "given": "Jean-Karim"
+      },
+      {
+        "family": "Hermjakob",
+        "given": "Henning"
+      },
+      {
+        "family": "Ison",
+        "given": "Jon C"
+      },
+      {
+        "family": "Jimenez",
+        "given": "Rafael C"
+      },
+      {
+        "family": "Jupp",
+        "given": "Simon"
+      },
+      {
+        "family": "Kunze",
+        "given": "John"
+      },
+      {
+        "family": "Laibe",
+        "given": "Camille"
+      },
+      {
+        "family": "Le Novère",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Malone",
+        "given": "James"
+      },
+      {
+        "family": "Martin",
+        "given": "Maria Jesus"
+      },
+      {
+        "family": "McEntyre",
+        "given": "Johanna R"
+      },
+      {
+        "family": "Morris",
+        "given": "Chris"
+      },
+      {
+        "family": "Muilu",
+        "given": "Juha"
+      },
+      {
+        "family": "Müller",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Rocca-Serra",
+        "given": "Philippe"
+      },
+      {
+        "family": "Sansone",
+        "given": "Susanna-Assunta"
+      },
+      {
+        "family": "Sariyar",
+        "given": "Murat"
+      },
+      {
+        "family": "Snoep",
+        "given": "Jacky L"
+      },
+      {
+        "family": "Soiland-Reyes",
+        "given": "Stian"
+      },
+      {
+        "family": "Stanford",
+        "given": "Natalie J"
+      },
+      {
+        "family": "Swainston",
+        "given": "Neil"
+      },
+      {
+        "family": "Washington",
+        "given": "Nicole"
+      },
+      {
+        "family": "Williams",
+        "given": "Alan R"
+      },
+      {
+        "family": "Wimalaratne",
+        "given": "Sarala M"
+      },
+      {
+        "family": "Winfree",
+        "given": "Lilly M"
+      },
+      {
+        "family": "Wolstencroft",
+        "given": "Katherine"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      },
+      {
+        "family": "Mungall",
+        "given": "Christopher J"
+      },
+      {
+        "family": "Haendel",
+        "given": "Melissa A"
+      },
+      {
+        "family": "Parkinson",
+        "given": "Helen"
+      }
+    ],
+    "container-title": "PLoS Biology",
+    "id": "5ln5TkiV",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          29
+        ]
+      ]
+    },
+    "keyword": "Stian",
+    "page": "e2001414",
+    "title": "Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.",
+    "type": "article-journal",
+    "volume": "15",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1371/journal.pbio.2001414"
   },
   {
     "DOI": "10.1371/journal.pbio.3000099",

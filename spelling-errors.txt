@@ -22,7 +22,6 @@ Carragáin
 CASRAI
 Catalog
 Center
-centric
 CheckMyCrate
 checksums
 Chenxu
@@ -37,6 +36,7 @@ CSV
 curation
 CWL
 CWLProv
+cyber
 DataCite
 DataCrate
 DataCrate’s
@@ -45,15 +45,16 @@ dataset
 datasets
 Dataverse
 datetime
-DBPedia
 DCAT
 DDI
 Describo
 dgarijov
 digitalisation
+discoverability
 DMP
 DOIs
 Droesbeke
+DRS
 Eguinoa
 eocarragain
 Eoghan
@@ -72,12 +73,13 @@ formalize
 formalized
 Formalizing
 Frederik
-FrederikCoppens
+frederikcoppens
 Garijo
 GDC
 Genomic
 GH
 Giacomo
+Globus
 Goble
 Groth
 Hervé
@@ -91,8 +93,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
-IQSS
+interoperable
 IRI
 Jael
 JMFernand
@@ -123,6 +124,7 @@ MGS
 Miksa
 mportier
 myExperiment
+namespace
 namespaced
 namespaces
 Navas
@@ -133,7 +135,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -153,7 +155,6 @@ projet
 ptsefton
 Pula
 py
-queryable
 RDF
 RDFa
 Replicable
@@ -161,7 +162,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
@@ -173,8 +174,6 @@ Sebby
 Sefton
 serialization
 serializations
-SHACL
-ShEx
 silico
 simleo
 SIOC
