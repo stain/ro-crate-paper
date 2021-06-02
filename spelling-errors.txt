@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -73,7 +73,7 @@ formalize
 formalized
 Formalizing
 Frederik
-frederikcoppens
+FrederikCoppens
 Garijo
 GDC
 Genomic
@@ -111,7 +111,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 maDMP
 maDMPs
@@ -135,7 +135,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -162,14 +162,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization

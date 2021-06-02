@@ -396,6 +396,59 @@
     "type": "entry"
   },
   {
+    "DOI": "10.1002/cpe.1228",
+    "ISSN": "15320626",
+    "URL": "http://doi.wiley.com/10.1002/cpe.1228",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Jihie"
+      },
+      {
+        "family": "Deelman",
+        "given": "Ewa"
+      },
+      {
+        "family": "Gil",
+        "given": "Yolanda"
+      },
+      {
+        "family": "Mehta",
+        "given": "Gaurang"
+      },
+      {
+        "family": "Ratnakar",
+        "given": "Varun"
+      }
+    ],
+    "container-title": "Concurrency and Computation: Practice and Experience",
+    "id": "TmTSmrSZ",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          4,
+          10
+        ]
+      ]
+    },
+    "page": "587-597",
+    "title": "Provenance trails in the Wings/Pegasus system",
+    "type": "article-journal",
+    "volume": "20",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1002/cpe.1228"
+  },
+  {
     "DOI": "10.1007/978-3-030-45442-5\\_15",
     "ISBN": "978-3-030-45442-5",
     "abstract": "Funding bodies and other policy-makers are increasingly more concerned with Research Data Management (RDM). The Data Management Plan (DMP) is one of the tools available to perform RDM tasks, however it is not a perfect concept. The Machine-Actionable Data Management Plan (maDMP) is a concept that aims to make the DMP interoperable, automated and increasingly standardised. In this paper we showcase that through the usage of semantic technologies, it is possible to both express and exploit the features of the maDMP. In particular, we focus on showing how a maDMP formalised as an ontology can be used automate the assessment of a funder’s requirements for a given organisation.",
@@ -1864,6 +1917,113 @@
     "type": "article-journal",
     "volume": "38",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1093/nar/gkq429"
+  },
+  {
+    "DOI": "10.1093/nar/gky379",
+    "ISSN": "0305-1048",
+    "PMCID": "PMC6030816",
+    "PMID": "29790989",
+    "abstract": "Galaxy (homepage: https://galaxyproject.org, main public server: https://usegalaxy.org) is a web-based scientific analysis platform used by tens of thousands of scientists across the world to analyze large biomedical datasets such as those found in genomics, proteomics, metabolomics and imaging. Started in 2005, Galaxy continues to focus on three key challenges of data-driven biomedical science: making analyses accessible to all researchers, ensuring analyses are completely reproducible, and making it simple to communicate analyses so that they can be reused and extended. During the last two years, the Galaxy team and the open-source community around Galaxy have made substantial improvements to Galaxy’s core framework, user interface, tools, and training materials. Framework and user interface improvements now enable Galaxy to be used for analyzing tens of thousands of datasets, and \\>5500 tools are now available from the Galaxy ToolShed. The Galaxy community has led an effort to create numerous high-quality tutorials focused on common types of genomic analyses. The Galaxy developer and user communities continue to grow and be integral to Galaxy’s development. The number of Galaxy public servers, developers contributing to the Galaxy framework and its tools, and users of the main Galaxy server have all increased substantially.",
+    "author": [
+      {
+        "family": "Afgan",
+        "given": "Enis"
+      },
+      {
+        "family": "Baker",
+        "given": "Dannon"
+      },
+      {
+        "family": "Batut",
+        "given": "Bérénice"
+      },
+      {
+        "dropping-particle": "van den",
+        "family": "Beek",
+        "given": "Marius"
+      },
+      {
+        "family": "Bouvier",
+        "given": "Dave"
+      },
+      {
+        "family": "Cech",
+        "given": "Martin"
+      },
+      {
+        "family": "Chilton",
+        "given": "John"
+      },
+      {
+        "family": "Clements",
+        "given": "Dave"
+      },
+      {
+        "family": "Coraor",
+        "given": "Nate"
+      },
+      {
+        "family": "Grüning",
+        "given": "Björn A"
+      },
+      {
+        "family": "Guerler",
+        "given": "Aysam"
+      },
+      {
+        "family": "Hillman-Jackson",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Hiltemann",
+        "given": "Saskia"
+      },
+      {
+        "family": "Jalili",
+        "given": "Vahid"
+      },
+      {
+        "family": "Rasche",
+        "given": "Helena"
+      },
+      {
+        "family": "Soranzo",
+        "given": "Nicola"
+      },
+      {
+        "family": "Goecks",
+        "given": "Jeremy"
+      },
+      {
+        "family": "Taylor",
+        "given": "James"
+      },
+      {
+        "family": "Nekrutenko",
+        "given": "Anton"
+      },
+      {
+        "family": "Blankenberg",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Nucleic Acids Research",
+    "id": "WBsVRA32",
+    "issue": "W1",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          2
+        ]
+      ]
+    },
+    "page": "W537-W544",
+    "title": "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update.",
+    "type": "article-journal",
+    "volume": "46",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1093/nar/gky379"
   },
   {
     "DOI": "10.1109/{BigData}.2016.7840618",
