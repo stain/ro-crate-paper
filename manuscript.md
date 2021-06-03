@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-06-02'
+date-meta: '2021-06-03'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-06-02" />
-  <meta name="citation_publication_date" content="2021-06-02" />
+  <meta name="dc.date" content="2021-06-03" />
+  <meta name="citation_publication_date" content="2021-06-03" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3a2d6416481245b896052d5a25625d63b38cc40c/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3a2d6416481245b896052d5a25625d63b38cc40c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3a2d6416481245b896052d5a25625d63b38cc40c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/3a2d6416481245b896052d5a25625d63b38cc40c/))
+([permalink](https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/))
 was automatically generated
-from [stain/ro-crate-paper@3a2d641](https://github.com/stain/ro-crate-paper/tree/3a2d6416481245b896052d5a25625d63b38cc40c)
-on June 2, 2021.
+from [stain/ro-crate-paper@eb73261](https://github.com/stain/ro-crate-paper/tree/eb73261a88c1e16e2a9584972261b76f486c99fb)
+on June 3, 2021.
 </em></small>
 
 ## Authors
@@ -660,7 +660,7 @@ The first implementation of Research Objects for sharing workflows in myExperime
 
 ## FAIR Digital Objects
 
-FAIR Digital Objects (FDO) [@doi:10.3390/publications8020021] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourages active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository; (ii) a _Permanent Identifier_ (PID) such as a DOI that identifies the FDO and can resolve these parts; (iii) Associated rich _metadata_, as separate FDOs; (iv) Type definitions, also separate FDOs; (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
+FAIR Digital Objects (FDO) [@doi:10.3390/publications8020021] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture that encourages active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository; (ii) a _Persistent Identifier_ (PID) such as a DOI that identifies the FDO and can resolve these parts; (iii) Associated rich _metadata_, as separate FDOs; (iv) Type definitions, also separate FDOs; (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
 
 As an "[abstract protocol](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.svg)", DOs could be implemented in multiple ways. One suggested implementation is the [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/), based on HTTP and the Linked Data Principles. While there is agreement on using PIDs based on DOIs, consensus on how to represent common metadata, core types and collections as FDOs has not yet been reached. We argue that RO-Crate can play an important role for FDOs:
 
