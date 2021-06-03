@@ -19,8 +19,7 @@ ln -s ../latex/ro-crate.bib content/manual-references-ro-crate.bib
 
 # Replace silly paths for LaTeX
 sed -i 's,../content/images/,images/,g' content/*md
-# .. and use PNG/SVG instead of PDF
-sed -i 's,ro-crate-bco-sep-of-concerns.pdf,ro-crate-bco-sep-of-concerns.png' content/42*md 
+# .. and use SVG instead of PDF
 sed -i 's,\.pdf,.svg,g' content/*md
 
 ## Horrible latex seds for the figure captions
