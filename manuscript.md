@@ -60,7 +60,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
   <meta name="twitter:creator" content="@mercecrosas" />
   <meta name="citation_author" content="Leyla Jael Castro" />
-  <meta name="citation_author_institution" content="ZB MED Information Centre for Life Sciences, DE" />
+  <meta name="citation_author_institution" content="ZB MED Information Centre for Life Sciences, Cologne, DE" />
   <meta name="citation_author_orcid" content="0000-0003-3986-0510" />
   <meta name="twitter:creator" content="@lj_garcia" />
   <meta name="citation_author" content="Frederik Coppens" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/eb73261a88c1e16e2a9584972261b76f486c99fb/))
+([permalink](https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/))
 was automatically generated
-from [stain/ro-crate-paper@eb73261](https://github.com/stain/ro-crate-paper/tree/eb73261a88c1e16e2a9584972261b76f486c99fb)
+from [stain/ro-crate-paper@c497e53](https://github.com/stain/ro-crate-paper/tree/c497e5399a636c75e152ec212434f88d38901288)
 on June 9, 2021.
 </em></small>
 
@@ -181,7 +181,7 @@ on June 9, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [lj_garcia](https://twitter.com/lj_garcia)<br>
   <small>
-     ZB MED Information Centre for Life Sciences, DE
+     ZB MED Information Centre for Life Sciences, Cologne, DE
   </small>
 
 + **Frederik Coppens**<br>
