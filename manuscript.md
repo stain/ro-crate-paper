@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-06-09'
+date-meta: '2021-08-08'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-06-09" />
-  <meta name="citation_publication_date" content="2021-06-09" />
+  <meta name="dc.date" content="2021-08-08" />
+  <meta name="citation_publication_date" content="2021-08-08" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,9 +108,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ddb80a8f0dac3a15d4db06d53b8e5463e720cc7b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ddb80a8f0dac3a15d4db06d53b8e5463e720cc7b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ddb80a8f0dac3a15d4db06d53b8e5463e720cc7b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/c497e5399a636c75e152ec212434f88d38901288/))
+([permalink](https://stain.github.io/ro-crate-paper/v/ddb80a8f0dac3a15d4db06d53b8e5463e720cc7b/))
 was automatically generated
-from [stain/ro-crate-paper@c497e53](https://github.com/stain/ro-crate-paper/tree/c497e5399a636c75e152ec212434f88d38901288)
-on June 9, 2021.
+from [stain/ro-crate-paper@ddb80a8](https://github.com/stain/ro-crate-paper/tree/ddb80a8f0dac3a15d4db06d53b8e5463e720cc7b)
+on August 8, 2021.
 </em></small>
 
 ## Authors
@@ -304,11 +304,11 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
 # Introduction
 
 
-The move towards open science and open research practices has increased the need and demand for the publication of artefacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments; for example, the publication of software, datasets and records of the dependencies that such experiments rely on [@doi:10.1126/science.aah6168]. 
+The move towards open science has increased the need and demand for the publication of artefacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments; for example, the publication of software, datasets and records of the dependencies that such experiments rely on [@doi:10.1126/science.aah6168]. 
 
-It is often argued that the publication of these assets, and specifically software [@doi:10.3233/DS-190026] and data, should follow the FAIR principles [@doi:10.1038/sdata.2016.18]; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to comply with them. Hence, there has been an increasing amount of work in the development of platforms and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important examples include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain-specific data deposition (e.g., PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
+It is often argued that the publication of these assets, and specifically software [@doi:10.3233/DS-190026], workflows [@https://doi.org/10.1162/dint_a_00033] and data, should follow the FAIR principles [@doi:10.1038/sdata.2016.18]; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to comply with them. Hence, there has been an increasing amount of work in the development of platforms and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important examples include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain-specific data deposition (e.g., PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
 
-These strategies are focused primarily on one _type_ of artefact. To address this, [@doi:10.1016/j.future.2011.08.004] introduced the notion of **research objects** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered in a machine-readable format_. A research object combines the ability to bundle multiple types of artefacts together, such as CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, are tailored to a particular platform and are also not easily usable by end-users. 
+These strategies are focused primarily on one _type_ of artefact. To address this, [@doi:10.1016/j.future.2011.08.004] introduced the notion of **research objects** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered in a machine-readable format_. A Research Object combines the ability to bundle multiple types of artefacts together, such as CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, are tailored to a particular platform and are also not easily usable by end-users. 
 
 To address this gap, a new community came together [@doi:10.5281/zenodo.3250687] to develop **RO-Crate** - an _approach to package and aggregate research artefacts with their metadata and relationships_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artefacts FAIR.  Specifically, the contributions of this paper are as follows:
 
@@ -330,9 +330,10 @@ RO-Crate seeks to address this complexity by:
 
 1. being easy to understand and conceptually simple;
 2. providing a strong and opinionated guide regarding current best practices;
-3. adopting software stacks that are widely used on the Web.
+3. adopting de-facto standards that are widely used on the Web.
 
-In the following sections we show how the RO-Crate specification and ecosystem achieves these goals, which concur in forming our definition of “lightweight”.  
+In the following sections we show how the RO-Crate specification and ecosystem achieves these goals, which concur in forming our definition of “lightweight”.
+
 
 
 
@@ -340,7 +341,7 @@ In the following sections we show how the RO-Crate specification and ecosystem a
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on concepts from the Web, in particular that of Linked Data [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure \ref{fig:conceptual} shows the main conceptual elements involved in an RO-Crate; an RO-Metadata File(top) describes the research object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] identifies a *Research Object* (RO), which is archived using BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using ROR and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] identifies a *Research Object* (RO), which is archived using BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO Metadata File}, providing identifiers for authors using ORCID, organisations using [ROR](https://ror.org/) and licences such as Creative Commons. The *RO-Crate content* is further described with its own metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs [@10.1371/journal.pbio.2001414] and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a core principle
 
@@ -350,7 +351,7 @@ Linked Data make it possible for consumers to follow links for more (ideally bot
 
 [PROPOSED REPHRASE ON PREVIOUS PAR] RO Crates are _self-described_; and follow the Linked Data principles to describe all of their resources in both human and machine readable manner.  Hence, resources are identified using global identifiers; and  relationships between two resources are defined with links.
 
-The foundation on Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies such as SPARQL and knowledge graph triple stores.
+The foundation on Linked Data and shared vocabularies also means multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, integrated or transformed using existing Semantic Web technologies such as [SPARQL](https://www.w3.org/TR/sparql11-overview/) and knowledge graph triple stores.
 
 ### RO-Crate is a self-described container
 

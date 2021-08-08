@@ -93,7 +93,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -162,14 +162,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
