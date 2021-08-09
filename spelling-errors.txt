@@ -11,7 +11,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 boundedness
 Brack
@@ -34,7 +34,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 cyber
 DataCite
@@ -76,7 +76,7 @@ Frederik
 FrederikCoppens
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -111,7 +111,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 maDMP
 maDMPs
@@ -135,7 +135,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -162,14 +162,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
