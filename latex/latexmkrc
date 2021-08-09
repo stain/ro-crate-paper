@@ -1,5 +1,6 @@
 # Settings
 $xdvipdfmx = "xdvipdfmx -z 6 -o %D %O %S";
+$latex = 'lualatex %O %S'; # to use the LuaTeX engine
 
 #$ENV{'TEXINPUTS'}='./latex//:' . $ENV{'TEXINPUTS'}; 
 #$ENV{'BSTINPUTS'}='./latex//:' . $ENV{'BSTINPUTS'}
