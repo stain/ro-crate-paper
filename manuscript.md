@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-08-09'
+date-meta: '2021-08-11'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -21,6 +21,7 @@ author-meta:
 - Frederik Coppens
 - José María Fernández
 - Daniel Garijo
+- Björn Grüning
 - Marco La Rosa
 - Simone Leo
 - Eoghan Ó Carragáin
@@ -39,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-08-09" />
-  <meta name="citation_publication_date" content="2021-08-09" />
+  <meta name="dc.date" content="2021-08-11" />
+  <meta name="citation_publication_date" content="2021-08-11" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,6 +58,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
   <meta name="citation_author" content="Mercè Crosas" />
   <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
+  <meta name="citation_author_institution" content="Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT)." />
   <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
   <meta name="twitter:creator" content="@mercecrosas" />
   <meta name="citation_author" content="Leyla Jael Castro" />
@@ -75,6 +77,10 @@ header-includes: |-
   <meta name="citation_author_institution" content="Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES" />
   <meta name="citation_author_orcid" content="0000-0003-0454-7145" />
   <meta name="twitter:creator" content="@dgarijov" />
+  <meta name="citation_author" content="Björn Grüning" />
+  <meta name="citation_author_institution" content="Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Freiburg, DE" />
+  <meta name="citation_author_orcid" content="0000-0002-3079-6586" />
+  <meta name="twitter:creator" content="@bg" />
   <meta name="citation_author" content="Marco La Rosa" />
   <meta name="citation_author_orcid" content="0000-0001-5383-6993" />
   <meta name="citation_author" content="Simone Leo" />
@@ -108,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f0aec01546fe5fb08fa54bf6eddb9764ca9aa1ce/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f0aec01546fe5fb08fa54bf6eddb9764ca9aa1ce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f0aec01546fe5fb08fa54bf6eddb9764ca9aa1ce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/c85f9eb7634806b6ca43a5d334d107689ed058d5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c85f9eb7634806b6ca43a5d334d107689ed058d5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/c85f9eb7634806b6ca43a5d334d107689ed058d5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +139,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/f0aec01546fe5fb08fa54bf6eddb9764ca9aa1ce/))
+([permalink](https://stain.github.io/ro-crate-paper/v/c85f9eb7634806b6ca43a5d334d107689ed058d5/))
 was automatically generated
-from [stain/ro-crate-paper@f0aec01](https://github.com/stain/ro-crate-paper/tree/f0aec01546fe5fb08fa54bf6eddb9764ca9aa1ce)
-on August 9, 2021.
+from [stain/ro-crate-paper@c85f9eb](https://github.com/stain/ro-crate-paper/tree/c85f9eb7634806b6ca43a5d334d107689ed058d5)
+on August 11, 2021.
 </em></small>
 
 ## Authors
@@ -170,7 +176,7 @@ on August 9, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [mercecrosas](https://twitter.com/mercecrosas)<br>
   <small>
-     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US; Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT).
   </small>
 
 + **Leyla Jael Castro**<br>
@@ -211,6 +217,16 @@ on August 9, 2021.
     [dgarijov](https://twitter.com/dgarijov)<br>
   <small>
      Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, ES
+  </small>
+
++ **Björn Grüning**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3079-6586](https://orcid.org/0000-0002-3079-6586)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [bg](https://twitter.com/bg)<br>
+  <small>
+     Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Freiburg, DE
+     · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [DataPLANT](https://nfdi4plants.de/) ([NFDI 7/1 – 42077441](https://gepris.dfg.de/gepris/projekt/442077441)), part of the German [National Research Data Infrastructure](https://www.dfg.de/en/research_funding/programmes/nfdi/) (NFDI), funded by the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (DFG).
   </small>
 
 + **Marco La Rosa**<br>
@@ -258,6 +274,7 @@ on August 9, 2021.
     [atrisovic](https://twitter.com/atrisovic)<br>
   <small>
      Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+     · Funded by [Alfred P. Sloan Foundation](https://sloan.org/) (grant number [P-2020-13988](https://sloan.org/grant-detail/9555)).
   </small>
 
 + **RO-Crate Community**<br>
@@ -306,7 +323,7 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
 
 The move towards open science has increased the need and demand for the publication of artefacts of the research process [@sefton_blog_post_2021]. This is particularly apparent in domains that rely on computational experiments; for example, the publication of software, datasets and records of the dependencies that such experiments rely on [@doi:10.1126/science.aah6168]. 
 
-It is often argued that the publication of these assets, and specifically software [@doi:10.3233/DS-190026], workflows [@https://doi.org/10.1162/dint_a_00033] and data, should follow the FAIR principles [@doi:10.1038/sdata.2016.18]; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to comply with them. Hence, there has been an increasing amount of work in the development of platforms and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important examples include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain-specific data deposition (e.g., PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
+It is often argued that the publication of these assets, and specifically software [@doi:10.3233/DS-190026], workflows [@doi:10.1162/dint_a_00033] and data, should follow the FAIR principles [@doi:10.1038/sdata.2016.18]; namely, that they are Findable, Accessible, Interoperable and Reusable. These principles are agnostic to the _implementation_ strategy needed to comply with them. Hence, there has been an increasing amount of work in the development of platforms and specifications that aim to fulfil these goals [@isbn:9781315351148]. Important examples include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain-specific data deposition (e.g., PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). 
 
 These strategies are focused primarily on one _type_ of artefact. To address this, [@doi:10.1016/j.future.2011.08.004] introduced the notion of **research objects** – _semantically rich aggregations of (potentially distributed) resources that provide a layer of structure on top of information delivered in a machine-readable format_. A Research Object combines the ability to bundle multiple types of artefacts together, such as CSV files, code, examples, and figures. This provides a compelling vision as an approach for implementing FAIR. However, existing research object implementations require a large technology stack, are tailored to a particular platform and are also not easily usable by end-users. 
 
@@ -704,9 +721,11 @@ The adoption of simple web technologies in the RO-Crate specification has helped
 
 \small
 
-This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827)
+This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976, H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827).
 
-A. Trisovic is funded by the Alfred P. Sloan Foundation (grant number P-2020-13988). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).
+Björn Grüning is supported by [DataPLANT](https://nfdi4plants.de/) ([NFDI 7/1 – 42077441](https://gepris.dfg.de/gepris/projekt/442077441)), part of the German National Research Data Infrastructure (NFDI), funded by the Deutsche Forschungsgemeinschaft (DFG).
+
+Ana Trisovic is funded by the Alfred P. Sloan Foundation (grant number [P-2020-13988](https://sloan.org/grant-detail/9555)). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).
 
 ## Contributions
 
@@ -732,6 +751,9 @@ José M. Fernández
 
 Daniel Garijo
 : Methodology, Writing – review \& editing
+
+Björn Grüning
+: Writing – review \& editing
 
 Marco La Rosa
 : Software, Methodology, Writing – review \& editing
