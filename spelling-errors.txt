@@ -12,7 +12,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 Björn
 boundedness
@@ -36,7 +36,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 cyber
 DataCite
@@ -83,7 +83,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -119,7 +119,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -179,7 +179,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
