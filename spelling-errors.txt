@@ -1,3 +1,4 @@
+abuot
 Alasdair
 ARDC
 atrisovic
@@ -36,7 +37,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 cyber
 DataCite
@@ -83,7 +84,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -101,7 +102,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -172,7 +173,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROR
 ROs
@@ -192,7 +193,9 @@ Soiland
 soilandreyes
 Sompel
 SPARQL
+SPDX
 SSHRC
+standardized
 Stian
 Supercomputing
 syntaxes
@@ -205,6 +208,7 @@ Thelen
 Tomasz
 Trisovic
 txt
+typycally
 UGent
 UML
 Universidad
