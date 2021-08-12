@@ -75,16 +75,20 @@ The below is an example RO-Crate represented using the above formalisation, assu
 && description(\texttt{<http://example.com/ro/123/}, \\
 && \ \ \ \ \ \text{“Palliative care planning for nursing home residents …”}) \\
 && license(\texttt{<http://example.com/ro/123/>}, \\ 
-&& \ \ \ \ \ \texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>}) \\ 
+&& \ \ \ \ \ \texttt{<https://spdx.org/licenses/CC-BY-4.0>}) \\ 
 && datePublished(\texttt{<http://example.com/ro/123/>}, \text{“2017-02-23”}) \\ 
 && hasPart(\texttt{<http://example.com/ro/123/>}, 
         \texttt{<http://example.com/ro/123/file.txt>}) \\
 && hasPart(\texttt{<http://example.com/ro/123/>}, 
         \texttt{<http://example.com/ro/123/interviews/>}) \\
 \\
-&& ContextualEntity(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>}) \\
-&& name(\texttt{<https://creativecommons.org/licenses/by-nc-sa/3.0/au/>},  \\
-&& \ \ \ \ \  \text{“Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)”}) \\
+&& ContextualEntity(\texttt{<https://spdx.org/licenses/CC-BY-4.0>}) \\
+&& name(\texttt{<https://spdx.org/licenses/CC-BY-4.0>},  \\
+&& \ \ \ \ \  \text{Creative Commons Attribution 4.0”}) \\
+\\
+&& ContextualEntity(\texttt{<https://spdx.org/licenses/CC-BY-NC-4.0>}) \\
+&& name(\texttt{<https://spdx.org/licenses/CC-BY-NC-4.0>},  \\
+&& \ \ \ \ \  \text{Creative Commons Attribution Non Commercial 4.0”}) \\
 \\
 && File(\texttt{<http://example.com/ro/123/survey.csv>}) \\
 && name(\texttt{<http://example.com/ro/123/survey.csv>}, 
@@ -92,10 +96,16 @@ The below is an example RO-Crate represented using the above formalisation, assu
 \\
 && Dataset(\texttt{<http://example.com/ro/123/interviews/>}) \\
 && name(\texttt{<http://example.com/ro/123/interviews/>},  \\
-&& \ \ \ \ \  \text{“Audio recordings of care provider interviews”}) 
+&& \ \ \ \ \  \text{“Audio recordings of care provider interviews”}) \\
+&& license(\texttt{<http://example.com/ro/123/interviews/>}, \\ 
+&& \ \ \ \ \ \texttt{<https://spdx.org/licenses/CC-BY-NC-4.0>})
 \end{eqnarray*}
 
-In reality many additional attributes from schema.org types like \url{http://schema.org/Dataset} and \url{http://schema.org/CreativeWork} would be used to further describe the RO-Crate and its entities, but as these are optional they do not form part of this formalisation.
+
+Notable from this triple-like formalization is that a RO-Crate $R$ is fully represented as a tree at depth 2 helped by the use of $𝕀𝕣𝕚$ nodes. For instance the aggregation from the root entity $hasPart(…interviews/>)$ is at same level as the data entity’s property $license(…CC-BY-NC-4.0>)$ and that contextual entity’s attribute name $(…Non Commercial 4.0”)$. As shown in section RO-Crate JSON-LD, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of \texttt{"@context"} and \texttt{"@graph"}.
+
+In reality many additional attributes and contextual types from schema.org types like \url{http://schema.org/affiliation} and \url{http://schema.org/Organization} would be used to further describe the RO-Crate and its entities, but as these are optional (_SHOULD_ requirements) they do not form part of this formalization
+
 
 \subsection{Mapping to RDF with schema.org}
 
@@ -143,11 +153,11 @@ Relation(s,p,o)     & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land IRI(o) 
 Attribute(s,p,o)    & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land Literal(o) \\
 \end{eqnarray*}
 
-Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD \texttt{@context} maps to schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa.  
+Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD \texttt{@context} maps to schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa. Extensions may however include such term definitions directly in the RO-Crate. 
 
 \subsection{RO-Crate 1.1 Metadata File Descriptor}
 
-An important RO-Crate principle is that of being \textbf{self-describing} Therefore the serialisation of the RO-Crate into a file should also describe itself in a \href{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor}{Metadata File Descriptor}, indicating it is $about$ (describing) the RO-Crate root data entity, and that it $conformsTo$ a particular version of the RO-Crate specification:
+An important RO-Crate principle is that of being \textbf{self-described} Therefore the serialisation of the RO-Crate into a file should also describe itself in a \href{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor}{Metadata File Descriptor}, indicating it is $about$ (describing) the RO-Crate root data entity, and that it $conformsTo$ a particular version of the RO-Crate specification:
 
 \begin{eqnarray*}
 about(s,o)      & \Rightarrow & Relation(s, \texttt{<http://schema.org/about>}, o)   \\
@@ -156,9 +166,9 @@ MetadataFile(m) & \Rightarrow & CreativeWork(m) \land about(m,R) ∧ ROCrate(R) 
                 &             & conformsTo(m, \texttt{<https://w3id.org/ro/crate/1.1>})
 \end{eqnarray*}
 
-Note that although the metadata file necessarily is an \emph{information resource} written to disk or served over the network (e.g. as JSON-LD), it is not considered to be a contained \emph{part} of the RO-Crate in the form of a \emph{data entity}, rather it is described only as a \emph{contextual entity}.
+Note that although the metadata file necessarily is an \emph{information resource} written to disk or served over the network (as JSON-LD), it is not considered to be a contained \emph{part} of the RO-Crate in the form of a \emph{data entity}, rather it is described only as a \emph{contextual entity}.
 
-While in the conceptual model the \emph{RO-Crate Metadata File} can be seen as the top-level node that describes the \emph{RO-Crate Root}, in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity and not affecting the depth-limit of the RO-Crate.
+In the conceptual model the \emph{RO-Crate Metadata File} can be seen as the top-level node that describes the \emph{RO-Crate Root}, however in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity that is not affecting the depth-limit of the RO-Crate.
 
 \subsection{Forward-chained Production Rules for JSON-LD}
 
@@ -194,5 +204,6 @@ R   & \equiv & \texttt{<./>}  \\
 R   & \Rightarrow &  MetadataFile(\texttt{<ro-crate-metadata.json>}) \\
 \end{eqnarray*}    
 
-This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of $R$ by adding a transitive rule – anything described in $R$ which is related to $o$, means that $o$ is also mentioned by the $ROCrate(R)$. For simplicity this rule is one-way; in practice the graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities.
+This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of $R$ by adding a transitive rule – anything described in $R$ which is related to $o$, means that $o$ is also mentioned by the $ROCrate(R)$. For simplicity this rule is one-way; in theory the graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities, but these are proposed to be bound to the root data entity with schema.org relation \href{http://schema.org/mentions}.
+
 
