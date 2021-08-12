@@ -15,7 +15,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 Björn
 boundedness
@@ -73,7 +73,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRplus
 FDO
@@ -90,7 +90,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -127,7 +127,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
