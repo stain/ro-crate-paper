@@ -34,6 +34,64 @@
     "type": "entry"
   },
   {
+    "URL": "http://www.w3.org/TR/2013/REC-prov-o-20130430/",
+    "author": [
+      {
+        "family": "Lebo",
+        "given": "Timothy"
+      },
+      {
+        "family": "Sahoo",
+        "given": "Satya"
+      },
+      {
+        "family": "McGuinness",
+        "given": "Deborah"
+      },
+      {
+        "family": "Belhajjame",
+        "given": "Khalid"
+      },
+      {
+        "family": "Cheney",
+        "given": "James"
+      },
+      {
+        "family": "Corsar",
+        "given": "David"
+      },
+      {
+        "family": "Garijo",
+        "given": "Daniel"
+      },
+      {
+        "family": "Soiland-Reyes",
+        "given": "Stian"
+      },
+      {
+        "family": "Zednik",
+        "given": "Stephan"
+      },
+      {
+        "family": "Zhao",
+        "given": "Jun"
+      }
+    ],
+    "id": "cLnDUfHN",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          30
+        ]
+      ]
+    },
+    "note": "W3C Recommendation Note 30 April 2013\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: PROVO",
+    "title": "PROV-O: The PROV Ontology",
+    "type": "report"
+  },
+  {
     "URL": "https://about.lifemonitor.eu/",
     "accessed": {
       "date-parts": [
@@ -793,6 +851,136 @@
     "type": "article-journal",
     "volume": "75",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1016/j.future.2017.01.012"
+  },
+  {
+    "DOI": "10.1016/j.future.2019.03.046",
+    "ISSN": "0167739X",
+    "abstract": "Abstract Data-intensive science communities are progressively adopting FAIR practices that enhance the visibility of scientific breakthroughs and enable reuse. At the core of this movement, research objects contain and describe scientific information and resources in a way compliant with the FAIR principles and sustain the development of key infrastructure and tools. This paper provides an account of the challenges, experiences and solutions involved in the adoption of FAIR around research objects over several Earth Science disciplines. During this journey, our work has been comprehensive, with outcomes including: an extended research object model adapted to the needs of earth scientists; the provisioning of digital object identifiers (DOI) to enable persistent identification and to give due credit to authors; the generation of content-based, semantically rich, research object metadata through natural language processing, enhancing visibility and reuse through recommendation systems and third-party search engines; and various types of checklists that provide a compact representation of research object quality as a key enabler of scientific reuse. All these results have been integrated in ROHub, a platform that provides research object management functionality to a wealth of applications and interfaces across different scientific communities. To monitor and quantify the community uptake of research objects, we have defined indicators and obtained measures via ROHub that are also discussed herein.",
+    "author": [
+      {
+        "family": "Garcia-Silva",
+        "given": "Andres"
+      },
+      {
+        "family": "Gomez-Perez",
+        "given": "Jose Manuel"
+      },
+      {
+        "family": "Palma",
+        "given": "Raul"
+      },
+      {
+        "family": "Krystek",
+        "given": "Marcin"
+      },
+      {
+        "family": "Mantovani",
+        "given": "Simone"
+      },
+      {
+        "family": "Foglini",
+        "given": "Federica"
+      },
+      {
+        "family": "Grande",
+        "given": "Valentina"
+      },
+      {
+        "family": "De Leo",
+        "given": "Francesco"
+      },
+      {
+        "family": "Salvi",
+        "given": "Stefano"
+      },
+      {
+        "family": "Trasatti",
+        "given": "Elisa"
+      },
+      {
+        "family": "Romaniello",
+        "given": "Vito"
+      },
+      {
+        "family": "Albani",
+        "given": "Mirko"
+      },
+      {
+        "family": "Silvagni",
+        "given": "Cristiano"
+      },
+      {
+        "family": "Leone",
+        "given": "Rosemarie"
+      },
+      {
+        "family": "Marelli",
+        "given": "Fulvio"
+      },
+      {
+        "family": "Albani",
+        "given": "Sergio"
+      },
+      {
+        "family": "Lazzarini",
+        "given": "Michele"
+      },
+      {
+        "family": "Napier",
+        "given": "Hazel J."
+      },
+      {
+        "family": "Glaves",
+        "given": "Helen M."
+      },
+      {
+        "family": "Aldridge",
+        "given": "Timothy"
+      },
+      {
+        "family": "Meertens",
+        "given": "Charles"
+      },
+      {
+        "family": "Boler",
+        "given": "Fran"
+      },
+      {
+        "family": "Loescher",
+        "given": "Henry W."
+      },
+      {
+        "family": "Laney",
+        "given": "Christine"
+      },
+      {
+        "family": "Genazzio",
+        "given": "Melissa A."
+      },
+      {
+        "family": "Crawl",
+        "given": "Daniel"
+      },
+      {
+        "family": "Altintas",
+        "given": "Ilkay"
+      }
+    ],
+    "container-title": "Future Generation Computer Systems",
+    "id": "tyKVYqu2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "page": "550-564",
+    "title": "Enabling FAIR research in Earth Science through research objects",
+    "type": "article-journal",
+    "volume": "98",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1016/j.future.2019.03.046"
   },
   {
     "type": "article-journal",
@@ -3248,6 +3436,113 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.2200/S00334ED1V01Y201102WBE001\noriginal_standard_id: doi:10.2200/S00334ED1V01Y201102WBE001\nstandard_id: doi:10.2200/s00334ed1v01y201102wbe001"
   },
   {
+    "DOI": "10.3233/978-1-61499-660-6-9",
+    "ISBN": "978-1-61499-660-6",
+    "URL": "https://doi.org/10.3233/978-1-61499-660-6-9",
+    "author": [
+      {
+        "family": "Katsumi",
+        "given": "Megan"
+      },
+      {
+        "family": "Grüninger",
+        "given": "Michael"
+      }
+    ],
+    "collection-title": "Frontiers in Artificial Intelligence and Applications",
+    "container-title": "Formal Ontology in Information Systems",
+    "editor": [
+      {
+        "family": "Ferrario",
+        "given": "Roberta"
+      },
+      {
+        "family": "Kuhn",
+        "given": "Werner"
+      }
+    ],
+    "id": "16Tre0SD9",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "9-22",
+    "publisher": "IOS Press",
+    "title": "What Is Ontology Reuse?",
+    "type": "paper-conference",
+    "volume": "283",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.3233/978-1-61499-660-6-9"
+  },
+  {
+    "DOI": "10.3233/APC200107",
+    "ISSN": "0927-5452",
+    "author": [
+      {
+        "family": "Kyle",
+        "given": "Chard"
+      },
+      {
+        "family": "Niall",
+        "given": "Gaffney"
+      },
+      {
+        "family": "Mihael",
+        "given": "Hategan"
+      },
+      {
+        "family": "Kacper",
+        "given": "Kowalik"
+      },
+      {
+        "family": "Bertram",
+        "given": "Ludäscher"
+      },
+      {
+        "family": "Timothy",
+        "given": "McPhillips"
+      },
+      {
+        "family": "Jarek",
+        "given": "Nabrzyski"
+      },
+      {
+        "family": "Victoria",
+        "given": "Stodden"
+      },
+      {
+        "family": "Ian",
+        "given": "Taylor"
+      },
+      {
+        "family": "Thomas",
+        "given": "Thelen"
+      },
+      {
+        "dropping-particle": "et",
+        "family": "al."
+      }
+    ],
+    "container-title": "Advances in Parallel Computing",
+    "id": "16M9YRYfg",
+    "issue": "Parallel Computing: Technology Trends",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "766-778",
+    "publisher": "IOS Press",
+    "title": "Toward Enabling Reproducibility for Data-Intensive Research Using the Whole Tale Platform",
+    "type": "article-journal",
+    "volume": "36",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.3233/APC200107\noriginal_standard_id: doi:10.3233/APC200107\nstandard_id: doi:10.3233/apc200107"
+  },
+  {
     "DOI": "10.3233/{DS}-190026",
     "ISSN": "24518492",
     "accessed": {
@@ -4492,6 +4787,37 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.4705078"
   },
   {
+    "DOI": "10.5281/zenodo.51314",
+    "abstract": "Apache Taverna is a scientific workflow system for combining web services and local tools. Taverna records provenance of workflow runs, intermediate values and user interactions, both as an aid for debugging while designing the workflow, but also as a record for later reproducibility and comparison. Taverna also records provenance of the evolution of the workflow definition (including a chain of wasDerivedFrom relations), attributions and annotations; for brevity we here focus on how Taverna’s workflow run provenance extends PROV and is embedded with Research Objects.",
+    "author": [
+      {
+        "family": "Soiland-Reyes",
+        "given": "Stian"
+      },
+      {
+        "family": "Alper",
+        "given": "Pinar"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      }
+    ],
+    "id": "W6bDegHu",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          6
+        ]
+      ]
+    },
+    "note": "PROV: Three Years Later\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.51314",
+    "title": "Tracking Workflow Execution With TavernaPROV",
+    "type": "entry"
+  },
+  {
     "DOI": "10.5334/dsj-2019-044",
     "ISSN": "1683-1470",
     "URL": "http://datascience.codata.org/articles/10.5334/dsj-2019-044/",
@@ -5281,5 +5607,43 @@
     "title": "JSON-LD 1.0",
     "type": "report",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: sporny_2014"
+  },
+  {
+    "URL": "http://icl.utk.edu/ctwatch/quarterly/articles/2007/08/interoperability-for-the-discovery-use-and-re-use-of-units-of-scholarly-communication/",
+    "abstract": "Improvements in computing and network technologies, digital data capture, and data mining techniques are enabling research methods that are highly collaborative, network-based, and data-intensive. These methods challenge existing scholarly communication mechanisms, which are largely based on physical (paper, ink, and voice) rather than digital technologies. One major challenge to the existing system is the change in the nature of the unit of scholarly communication. In the established scholarly communication system, the dominant communication units are journals and their contained articles. This established system generally fails to deal with other types of research results in the sciences and humanities, including datasets, simulations, software, dynamic knowledge representations, annotations, and aggregates thereof, all of which should be considered units of scholarly communication. Another challenge is the increasing importance of machine agents (e.g., web crawlers, data mining applications) as consumers of scholarly materials. The established system by and large targets human consumers. However, all communication units (including the journal publications) should be available as source materials for machine-based applications that mine, interpret, and visualize these materials to generate new units of communication and new knowledge. Yet another challenge to the existing system lies in the changing nature of the social activity that is scholarly communication. Increasingly, this social activity extends beyond traditional journals and conference proceedings, and even beyond more recent phenomena such as preprint systems, institutional repositories, and dataset repositories. It now includes less formal and more dynamic communication such as blogging. Scholarly communication is suddenly all over the web, both in traditional publication portals and in new social networking venues, and is interlinked with the broader social network of the web. Dealing adequately with this communication revolution requires fundamental changes in the scholarly communication system. Many of the required changes in response to these challenges are of a socio-cultural nature and relate directly to the question of what constitutes the scholarly record in this new environment. This raises the fundamental issue of how the crucial functions of scholarly communication 2 – registration, certification, awareness, archiving, rewarding – should be re-implemented in the new context. The solutions to these socio-cultural questions rely in part on the development of basic technical infrastructure to support an innately digital scholarly communication system. This paper describes the work of the Object Re-Use and Exchange (ORE) project of the Open Archives Initiative (OAI) to develop one component of this new infrastructure in order to support the revolutionized scholarly communication paradigm – standards to facilitate discovery, use and re-use of new types of compound scholarly communication units by networked services and applications. Compound units are aggregations of distinct information units that, when combined, form a logical whole. Some examples of these are a digitized book that is an aggregation of chapters, where each chapter is an aggregation of scanned pages, and a scholarly publication that is an aggregation of text and supporting materials such as datasets, software tools, and video recordings of an experiment. The ORE work aims to develop mechanisms for representing and referencing compound information units in a machine-readable manner that is independent of both the actual content of the information unit and nature of the re-using application.",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Van de Sompel",
+        "given": "Herbert"
+      },
+      {
+        "family": "Lagoze",
+        "given": "Carl"
+      }
+    ],
+    "container-title": "CTWatch Quarterly",
+    "id": "16USoLuIY",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          8
+        ]
+      ]
+    },
+    "title": "Interoperability for the Discovery, Use, and Re-Use of Units of Scholarly Communication",
+    "type": "article-journal",
+    "volume": "3",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: vandesompel_2007"
   }
 ]

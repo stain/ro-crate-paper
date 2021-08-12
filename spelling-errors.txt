@@ -1,5 +1,6 @@
 abuot
 Alasdair
+AO
 APIs
 ARDC
 atrisovic
@@ -7,13 +8,14 @@ automatable
 BagIt
 BCO
 BCOs
+benchmarking
 bg
 BioCompute
 BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 Björn
 boundedness
@@ -64,6 +66,7 @@ DMP
 DOIs
 Droesbeke
 DRS
+Eer
 Eguinoa
 emphasize
 eocarragain
@@ -83,7 +86,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Garijo
 GDC
@@ -149,6 +152,7 @@ Niu
 NL
 NodeJS
 NoSQL
+OAC
 OAI
 OCFL
 Ojsteršek
@@ -180,6 +184,7 @@ researchobject
 reusability
 RO
 Rodríguez
+ROHub
 ROR
 ROs
 runnable
@@ -210,7 +215,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
@@ -228,6 +233,7 @@ Visualization
 Vlaams
 voor
 Wf
+WholeTale
 WorkflowHub
 WorkflowHub’s
 ZB
