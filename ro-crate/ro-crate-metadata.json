@@ -787,6 +787,7 @@
         }
       ],
       "description": "HTML manuscript of the RO-Crate article",
+      "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "name": "Packaging research artefacts with RO-Crate (HTML)"
     },
     {
@@ -842,8 +843,9 @@
           "@id": "https://orcid.org/0000-0003-1219-2137"
         }
       ],
-      "description": "HTML manuscript of the RO-Crate article",
-      "name": "Packaging research artefacts with RO-Crate (HTML)"
+      "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
+      "description": "PDF manuscript of the RO-Crate article",
+      "name": "Packaging research artefacts with RO-Crate (PDF)"
     },
     {
       "@id": "https://orcid.org/0000-0001-5383-6993",
