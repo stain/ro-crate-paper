@@ -58,7 +58,6 @@ Describo
 Deutsche
 DFG
 dgarijov
-digitalisation
 discoverability
 DMP
 DOIs
@@ -70,7 +69,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -79,7 +78,6 @@ Fernández
 Findable
 FOAF
 formalization
-formalize
 formalized
 Formalizing
 Forschungsgemeinschaft
@@ -88,7 +86,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -151,7 +149,7 @@ NL
 NodeJS
 NoSQL
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -173,6 +171,7 @@ Pula
 py
 RDF
 RDFa
+RDFS
 Replicable
 reproducibility
 Repurposable
@@ -185,7 +184,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -199,6 +198,8 @@ soilandreyes
 Sompel
 SPARQL
 SPDX
+specialization
+specialized
 SSHRC
 standardized
 Stian
