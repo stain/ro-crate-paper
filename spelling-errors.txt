@@ -7,7 +7,6 @@ automatable
 BagIt
 BCO
 BCOs
-benchmarking
 bg
 BioCompute
 BioConda
@@ -26,6 +25,7 @@ Carragáin
 CASRAI
 Catalog
 Center
+centric
 CheckMyCrate
 checksums
 Chenxu
@@ -50,6 +50,7 @@ DataEntity
 DataPLANT
 dataset
 datasets
+datatypes
 Dataverse
 datetime
 DCAT
@@ -82,7 +83,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
@@ -123,7 +124,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -149,7 +150,7 @@ NL
 NodeJS
 NoSQL
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -199,6 +200,7 @@ Sompel
 SPARQL
 SPDX
 specialization
+specializations
 specialized
 SSHRC
 standardized
@@ -208,7 +210,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
