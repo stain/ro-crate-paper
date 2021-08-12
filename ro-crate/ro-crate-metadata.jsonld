@@ -44,9 +44,6 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "https://orcid.org/0000-0002-3079-6586"
-        },        
-        {
           "@id": "https://orcid.org/0000-0001-5383-6993"
         },
         {
@@ -92,9 +89,6 @@
         },
         {
           "@id": "#role-0000-0003-0454-7145"
-        },
-        {
-          "@id": "#role-0000-0002-3079-6586"
         },
         {
           "@id": "#role-0000-0001-5383-6993"
@@ -162,7 +156,6 @@
           "@id": "manuscript.pdf"
         }
       ],
-      "identifier": "https://doi.org/10.5281/zenodo.5146227",
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
       "license": {
         "@id": "https://spdx.org/licenses/CC-BY-4.0"
@@ -171,8 +164,7 @@
       "name": "Packaging research artefacts with RO-Crate",
       "publisher": {
         "@id": "https://www.researchobject.org/"
-      },
-      "url": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/"
+      }
     },
     {
       "@id": "#role-0000-0001-5383-6993",
@@ -678,19 +670,6 @@
       "contributor": "https://orcid.org/0000-0003-3986-0510",
       "name": "Contributions by LJ Garcia Castro"
     },
-
-    {
-      "@id": "#role-0000-0002-3079-6586",
-      "@type": "Role",
-      "additionalType": [
-        {
-          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
-        }
-      ],
-      "contributor": "https://orcid.org/0000-0002-3079-6586",
-      "name": "Contributions by Björn Grüning"
-    },
-    
     {
       "@id": "#role-0000-0003-4929-1219",
       "@type": "Role",
@@ -758,9 +737,6 @@
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
         {
-          "@id": "https://orcid.org/0000-0002-3079-6586"
-        },        
-        {
           "@id": "https://orcid.org/0000-0001-5383-6993"
         },
         {
@@ -813,9 +789,6 @@
         {
           "@id": "https://orcid.org/0000-0003-0454-7145"
         },
-        {
-          "@id": "https://orcid.org/0000-0002-3079-6586"
-        },        
         {
           "@id": "https://orcid.org/0000-0001-5383-6993"
         },
@@ -1066,11 +1039,6 @@
       "alternateName": "LJ Garcia Castro",
       "name": "Leyla Jael Castro"
     },
-    {
-      "@id": "https://orcid.org/0000-0002-3079-6586",
-      "@type": "Person",
-      "name": "Björn Grüning"
-    },        
     {
       "@id": "https://orcid.org/0000-0003-4289-4922",
       "@type": "Person",
