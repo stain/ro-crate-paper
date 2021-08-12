@@ -37,7 +37,7 @@ Crosas
 CRS
 CSV
 curation
-CWL
+cwl
 CWLProv
 cyber
 DataCite
@@ -80,7 +80,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
@@ -120,7 +120,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -173,14 +173,14 @@ reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+RO
 Rodríguez
 ROR
 ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 serialization
