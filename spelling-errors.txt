@@ -80,11 +80,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -102,7 +102,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -120,7 +120,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -180,7 +180,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
