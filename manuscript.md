@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b247e9465bc2f5b4896a2e6aba61bfdafbfb32a1/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b247e9465bc2f5b4896a2e6aba61bfdafbfb32a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b247e9465bc2f5b4896a2e6aba61bfdafbfb32a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/27d86ae4b11995079549c65bf52d3d67398ea980/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/27d86ae4b11995079549c65bf52d3d67398ea980/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/27d86ae4b11995079549c65bf52d3d67398ea980/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/b247e9465bc2f5b4896a2e6aba61bfdafbfb32a1/))
+([permalink](https://stain.github.io/ro-crate-paper/v/27d86ae4b11995079549c65bf52d3d67398ea980/))
 was automatically generated
-from [stain/ro-crate-paper@b247e94](https://github.com/stain/ro-crate-paper/tree/b247e9465bc2f5b4896a2e6aba61bfdafbfb32a1)
+from [stain/ro-crate-paper@27d86ae](https://github.com/stain/ro-crate-paper/tree/27d86ae4b11995079549c65bf52d3d67398ea980)
 on August 13, 2021.
 </em></small>
 
@@ -343,7 +343,7 @@ RO-Crate aims to provide an approach to packaging research artefacts with their 
 
 The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. This means programmatically and automatically accessible by machines and human readable. A de facto approach to sharing collections of resources is through compressed archives (e.g. a zip file). This solves the problem of “packaging”, but it does not guarantee downstream access to all artefacts in a programmatic fashion, or the role of each file in that particular research. Both features, the ability to automatically access and reason abuot an object, are crucial and lead to the need for explicit metadata about the contents of the folder, describing each and linking them together.
 
-Examples of metadata descriptions across a [wide range of domains](https://rdamsc.bath.ac.uk/scheme-index) abound within the literature, both in research data management (?cite) and within library and information systems (?cite). However, many of these approaches require knowledge of metadata schemas, particular annotation systems, or the use of complex software stacks. Indeed, particularly within research, these requirements have led to a lack of adoption and growing  frustration with current tooling and specifications [@neylon_blog_post_2017].
+Examples of metadata descriptions across a [wide range of domains](https://rdamsc.bath.ac.uk/scheme-index) abound within the literature, both in research data management [@doi:10.1007/s10209-016-0475-y] [@farnel_2014] [@doi:10.2777/620649] and within [library and information systems](https://www.loc.gov/librarians/standards) [@chan_1995] [@doi:10.1515/9783598441844]. However, many of these approaches require knowledge of metadata schemas, particular annotation systems, or the use of complex software stacks. Indeed, particularly within research, these requirements have led to a lack of adoption and growing  frustration with current tooling and specifications [@neylon_blog_post_2017].
 
 RO-Crate seeks to address this complexity by:
 
