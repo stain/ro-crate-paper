@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/2f5f52145883829e5245a2c12a9fe39949c49497/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2f5f52145883829e5245a2c12a9fe39949c49497/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2f5f52145883829e5245a2c12a9fe39949c49497/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/))
+([permalink](https://stain.github.io/ro-crate-paper/v/2f5f52145883829e5245a2c12a9fe39949c49497/))
 was automatically generated
-from [stain/ro-crate-paper@f91cf17](https://github.com/stain/ro-crate-paper/tree/f91cf176bc26e2b3d3591c56c2ffb57e10366450)
+from [stain/ro-crate-paper@2f5f521](https://github.com/stain/ro-crate-paper/tree/2f5f52145883829e5245a2c12a9fe39949c49497)
 on August 13, 2021.
 </em></small>
 
