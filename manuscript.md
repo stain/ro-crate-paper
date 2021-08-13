@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3cc917d86dda145199e74df6764c4b3889a4c5c6/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3cc917d86dda145199e74df6764c4b3889a4c5c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3cc917d86dda145199e74df6764c4b3889a4c5c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cab421c3dac43a7875f12b5ae68379368eceeb7b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cab421c3dac43a7875f12b5ae68379368eceeb7b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cab421c3dac43a7875f12b5ae68379368eceeb7b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/3cc917d86dda145199e74df6764c4b3889a4c5c6/))
+([permalink](https://stain.github.io/ro-crate-paper/v/cab421c3dac43a7875f12b5ae68379368eceeb7b/))
 was automatically generated
-from [stain/ro-crate-paper@3cc917d](https://github.com/stain/ro-crate-paper/tree/3cc917d86dda145199e74df6764c4b3889a4c5c6)
+from [stain/ro-crate-paper@cab421c](https://github.com/stain/ro-crate-paper/tree/cab421c3dac43a7875f12b5ae68379368eceeb7b)
 on August 13, 2021.
 </em></small>
 
@@ -327,7 +327,7 @@ It is often argued that the publication of these assets, and specifically softwa
 
 Important examples include data publication with rich metadata (e.g. Zenodo [@doi:10.3897/biss.3.37080]), domain-specific data deposition (e.g., PDB [@doi:10.1093/nar/gkl971]) and following practices for reproducible research software [@doi:10.1371/journal.pcbi.1003285] (e.g. use of containers). While these platforms are useful, experience has shown that it is important to put greater emphasis on the interconnection of the multiple artefacts that make up the research process [@doi:10.1016/j.ijhcs.2020.102562]. 
 
-The notion of **Research Objects** [@doi:10.1016/j.future.2011.08.004] were introduced to address this connectivity as semantically rich aggregations of (potentially distributed) resources that provide a layer of structure over a research study and are delivered in a machine-readable format_. Research Object combines the ability to bundle multiple types of artefacts together, such as spreadsheets, code, examples, and figures; augmented by relationships that describe their context (e.g. a CSV being used by a script, a figure being a result of a workflow, etc.). This provides a compelling vision as an approach for implementing FAIR data. However, existing Research Object implementations require a large technology stack [@doi:10.1016/j.websem.2015.01.003], are typycally tailored to a particular platform and are also not easily usable by end-users. 
+The notion of **Research Objects** [@doi:10.1016/j.future.2011.08.004] was introduced to address this connectivity as semantically rich aggregations of (potentially distributed) resources that provide a layer of structure over a research study and are delivered in a _machine-readable format_. Research Object combines the ability to bundle multiple types of artefacts together, such as spreadsheets, code, examples, and figures; augmented by relationships that describe their context (e.g. a CSV being used by a script, a figure being a result of a workflow, etc.). This provides a compelling vision as an approach for implementing FAIR data. However, existing Research Object implementations require a large technology stack [@doi:10.1016/j.websem.2015.01.003], are typically tailored to a particular platform and are also not easily usable by end-users. 
 
 To address this gap, a new community came together [@doi:10.5281/zenodo.3250687] to develop **RO-Crate** — an _approach to package and aggregate research artefacts with their metadata and relationships_. The aim of this paper is to introduce RO-Crate and assess it as a strategy for making multiple types of research artefacts FAIR.  Specifically, the contributions of this paper are as follows:
 

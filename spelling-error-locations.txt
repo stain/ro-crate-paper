@@ -20,7 +20,6 @@ content/10.background.md:6:Interoperable
 content/10.background.md:8:PDB
 content/10.background.md:8:Zenodo
 content/10.background.md:10:CSV
-content/10.background.md:10:typycally
 content/10.background.md:12:RO
 content/10.background.md:12:RO
 content/10.background.md:12:zenodo

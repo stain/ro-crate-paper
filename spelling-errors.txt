@@ -42,7 +42,7 @@ CRS
 CSV
 curation
 customized
-cwl
+CWL
 CWLProv
 cyber
 DataCite
@@ -86,11 +86,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -127,7 +127,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -215,13 +215,12 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
 Trisovic
 txt
-typycally
 UGent
 UML
 Universidad
