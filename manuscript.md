@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a4aa355aa2a70464687bec5587e8c0529e298a9f/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a4aa355aa2a70464687bec5587e8c0529e298a9f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a4aa355aa2a70464687bec5587e8c0529e298a9f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a4aa355aa2a70464687bec5587e8c0529e298a9f/))
+([permalink](https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/))
 was automatically generated
-from [stain/ro-crate-paper@a4aa355](https://github.com/stain/ro-crate-paper/tree/a4aa355aa2a70464687bec5587e8c0529e298a9f)
+from [stain/ro-crate-paper@03ddaf4](https://github.com/stain/ro-crate-paper/tree/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc)
 on August 13, 2021.
 </em></small>
 
@@ -360,7 +360,7 @@ In the following sections we demonstrate how the RO-Crate specification and ecos
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on the Linked Data principles [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure {@fig:conceptual} \ref{fig:conceptual} shows the main conceptual elements involved in an RO-Crate; an RO-Metadata File (top) describes the research object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO-Crate Metadata File}, providing identifiers for \textit{authors} using ORCID, \textit{organisations} using [ROR](https://ror.org/) and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs [@10.1371/journal.pbio.2001414] and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO-Crate Metadata File}, providing identifiers for \textit{authors} using ORCID, \textit{organisations} using [ROR](https://ror.org/) and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a foundation
 
@@ -438,7 +438,7 @@ However, JSON-LD alone has too many degrees of freedom and hidden complexities f
 
 ### RO-Crate JSON-LD
 
-RO-Crate mandates the use of [flattened, compacted JSON-LD](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html) in the RO-Crate Metadata file `ro-crate-metadata.json`[^4] where a single `@graph` array contains all the data and contextual entities in a flat list. An example can be seen in the JSON-LD snippet in listing 1 below, describing a simple RO-Crate containing two datasets (data1.txt and data2.txt):
+RO-Crate mandates the use of [flattened, compacted JSON-LD](https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html) in the RO-Crate Metadata file `ro-crate-metadata.json`[^4] where a single `@graph` array contains all the data and contextual entities in a flat list. An example can be seen in the JSON-LD snippet in listing 1 below, describing a simple RO-Crate containing data entities described using contextual entities:
 
 
 ```json
@@ -487,7 +487,7 @@ RO-Crate mandates the use of [flattened, compacted JSON-LD](https://www.research
 ] }
 ```
 
-_Listing 1_: _Simplified[^5] RO-Crate metadata file showing the flattened compacted JSON-LD `@graph` array containing the data entities and contextual entities, cross-referenced using @id. The ro-crate-metadata.json entity declares conformance with the RO-Crate specification using a versioned persistent identifier, further RO-Crate descriptions are on the root data entity ./ or any of the referenced data or contextual entities, as exemplified by the ImageObject referencing contextual entities for contentLocation and author that differs from that of the overall RO-Crate.  While  Person entities ideally are identified with ORCID PIDs as for Josiah, in contrast #alice is here an RO-Crate local identifier, highlighting the pragmatic “just enough” Linked Data approach_
+_**Listing 1**: Simplified[^5] RO-Crate metadata file showing the flattened compacted JSON-LD `@graph` array containing the data entities and contextual entities, cross-referenced using `@id`. The `ro-crate-metadata.json` entity declares conformance with the RO-Crate specification using a versioned persistent identifier, further RO-Crate descriptions are on the root data entity `./` or any of the referenced data or contextual entities, as exemplified by the `ImageObject` referencing contextual entities for `contentLocation` and `author` that differs from that of the overall RO-Crate.  While `Person` entities ideally are identified with ORCID PIDs as for Josiah, in contrast `#alice` is here an RO-Crate local identifier, highlighting the pragmatic “just enough” Linked Data approach_.
 
 In this flattened profile of JSON-LD, each `{entity}` under `@graph` represents the RDF triples with a common subject (`@id`), mapped properties like `hasPart`, and objects — as either literal `"string"` values, referenced `{objects}` (which properties are listed in its own entity), or a JSON `[list]` of these.  If processed as JSON-LD, this forms an RDF graph by matching the `@id` IRIs and applying the `@context` mapping to schema.org terms. 
 
@@ -628,7 +628,7 @@ RO-Crates in WorkflowHub have so far been focused on workflows that are ready to
 
 This workflow run profile is a continuation of our previous work with capturing workflow provenance in a Research Object in CWLProv [@doi:10.1093/gigascience/giz095] and TavernaPROV [@doi:10.5281/zenodo.51314]. In both cases, we used the PROV Ontology [59], including details of every task execution with all the intermediate data, which required significant workflow engine integration[^10]. 
 
-To simplify from that approach, for this Workflow Run RO-Crate profile we will use a higher level [schema.org provenance](https://www.researchobject.org/ro-crate/1.1/provenance.html#software-used-to-create-files) for the input/output boundary of the overall workflow execution. This _Level 1 workflow provenance_ [@doi:10.1093/gigascience/giz095] can be expressed generally across workflow languages with minimal engine changes, with the option of more detailed provenance traces as separate PROV resources in the RO-Crate. 
+To simplify from that approach, for this Workflow Run RO-Crate profile we will use a higher level [schema.org provenance](https://www.researchobject.org/ro-crate/1.1/provenance.html#software-used-to-create-files) for the input/output boundary of the overall workflow execution. This _Level 1 workflow provenance_ [@doi:10.1093/gigascience/giz095] can be expressed generally across workflow languages with minimal engine changes, with the option of more detailed provenance traces as separate PROV resources in the RO-Crate. In the current development of [Specimen Data Refinery](https://github.com/DiSSCo/SDR) [@doi:10.3897/rio.6.e57602] these RO-Crates will document the text recognition workflow runs of digitised biological specimens, exposed as FAIR Digital Objects [@doi:10.3390/publications8020021]. 
 
 WorkflowHub has recently enabled minting of Digital Object Identifiers (DOIs), a PID commonly used for scholarly artefacts, for registered workflows, e.g. `10.48546/workflowhub.workflow.56.1` [@doi:10.48546/workflowhub.workflow.56.1], lowering the barrier for citing workflows as computational methods along with their FAIR metadata – captured within an RO-Crate. While it is not an aim for WorkflowHub to be a repository of workflow runs and their data, RO-Crates of *exemplar workflow runs* serve as useful workflow documentation, as well as being an exchange mechanism that preserve FAIR metadata in a diverse workflow execution environment.
 
@@ -729,7 +729,7 @@ We can claim that one barrier for adoption of the Wf4Eer Research Object model f
 
 Several later developments for Research Objects improved on this situation, such as ROHub used by Earth Sciences [@doi:10.1016/j.future.2019.03.046], which provides a interactive user-interface for making research objects, along with Research Object Bundle [@doi:10.5281/zenodo.12586] (RO Bundle), which is a ZIP-archive embedding data files and a JSON-LD serialization of the manifest has mapping for a limited set of terms and was used for storing workflow run provenance (TavernaPROV [@doi:10.5281/zenodo.51314]).
 
-RO-Bundle evolved to [Research Object BagIt archives](https://w3id.org/ro/bagit), a variant of RO Bundle as a BagIt archive [@doi:10.17487/rfc8493], used by Big Data Bags [@doi:10.1109/BigData.2016.7840618], CWLProv [@doi:10.1093/gigascience/giz095] and WholeTale [@doi:10.3233/APC200107].  
+RO-Bundle evolved to [Research Object BagIt archives](https://w3id.org/ro/bagit), a variant of RO Bundle as a BagIt archive [@doi:10.17487/rfc8493], used by Big Data Bags [@doi:10.1109/BigData.2016.7840618], CWLProv [@doi:10.1093/gigascience/giz095] and WholeTale [@doi:10.3233/APC200107] [@doi:10.1109/eScience.2019.00068].  
 
 
 
@@ -778,11 +778,11 @@ The adoption of simple web technologies in the RO-Crate specification has helped
 
 \small
 
-This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA 1.0](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976), [PREP-IBISBA](https://cordis.europa.eu/project/id/871118) H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827).
+This work has received funding from the European Commission's Horizon 2020 research and innovation programme for projects [BioExcel-2](https://cordis.europa.eu/project/id/823830) (H2020-INFRAEDI-2018-1 823830), [IBISBA 1.0](https://cordis.europa.eu/project/id/730976) (H2020-INFRAIA-2017-1-two-stage 730976), [PREP-IBISBA](https://cordis.europa.eu/project/id/871118) (H2020-INFRADEV-2019-2 871118), [EOSC-Life](https://cordis.europa.eu/project/id/824087) (H2020-INFRAEOSC-2018-2 824087), [SyntheSys+](https://cordis.europa.eu/project/id/823827) (H2020-INFRAIA-2018-1 823827).
 
-Björn Grüning is supported by [DataPLANT](https://nfdi4plants.de/) ([NFDI 7/1 – 42077441](https://gepris.dfg.de/gepris/projekt/442077441)), part of the German National Research Data Infrastructure (NFDI), funded by the Deutsche Forschungsgemeinschaft (DFG).
+Björn Grüning is supported by DataPLANT ([NFDI 7/1 – 42077441](https://gepris.dfg.de/gepris/projekt/442077441)), part of the German National Research Data Infrastructure (NFDI), funded by the Deutsche Forschungsgemeinschaft (DFG).
 
-Ana Trisovic is funded by the Alfred P. Sloan Foundation (grant number [P-2020-13988](https://sloan.org/grant-detail/9555)). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).
+Ana Trisovic is funded by the Alfred P. Sloan Foundation [(grant number P-2020-13988)](https://sloan.org/grant-detail/9555). Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).
 
 ## Contributions
 
@@ -1090,7 +1090,7 @@ This exposes the first order logic domain of discourse of IRIs, with rational nu
 
 # RO-Crate Community
 
-As of 2021-05-24, the _RO-Crate_ Community members are:
+As of 2021-08-13, the _RO-Crate_ Community members are:
 
 * Peter Sefton <https://orcid.org/0000-0002-3545-944X> (co-chair)
 * Stian Soiland-Reyes <https://orcid.org/0000-0001-9842-9718> (co-chair)
@@ -1143,6 +1143,7 @@ As of 2021-05-24, the _RO-Crate_ Community members are:
 * Jeremy Jay <https://orcid.org/0000-0002-5761-7533>
 * Sergio Serra <https://orcid.org/0000-0002-0792-8157>
 * Ronald Siebes <https://orcid.org/0000-0001-8772-7904>
+
 
 ## References {.page_break_before}
 

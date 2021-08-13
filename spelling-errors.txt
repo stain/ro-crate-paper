@@ -35,7 +35,6 @@ Chenxu
 CLI
 Conceptualization
 Conda
-contentLocation
 Coppens
 Corcho
 Crosas
@@ -43,7 +42,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -76,7 +75,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -89,7 +88,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Garijo
 GDC
@@ -105,14 +104,13 @@ hoc
 https
 HUIT
 IBISBA
-ImageObject
 implementers
 INFRADEV
 INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -130,7 +128,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -157,7 +155,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -185,7 +183,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROHub
 ROR
@@ -224,7 +222,6 @@ templating
 Thelen
 Tomasz
 Trisovic
-txt
 UGent
 UML
 Universidad

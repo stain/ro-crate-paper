@@ -202,49 +202,6 @@
     "type": "article-journal"
   },
   {
-    "URL": "https://github.com/athenarc/schema",
-    "abstract": "an open source platform to facilitate the execution and reproducibility of computational experiments on heterogeneous clusters.",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          5,
-          10
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Zagganas",
-        "given": "Kostis"
-      },
-      {
-        "family": "Gonzalez",
-        "given": "Alvaro"
-      },
-      {
-        "family": "Kolaitis",
-        "given": "Aggelos"
-      },
-      {
-        "family": "Deneke",
-        "given": "Tewodros"
-      }
-    ],
-    "genre": "WEBSITE",
-    "id": "1BGQ7QL3E",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "title": "GitHub - athenarc/schema: SCHeMa (Scheduler for scientific Containers on clusters of Heterogeneous Machines)",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: athenarc-schema",
-    "type": "entry"
-  },
-  {
     "URL": "https://iswc2017.semanticweb.org/paper-579/",
     "abstract": "The life sciences have a wealth of data resources with a wide range of overlapping content. Key repositories, such as UniProt for protein data or Entrez Gene for gene data, are well known and their content easily discovered through search engines. However, there is a long-tail of bespoke datasets with important content that are not so prominent in search results. Building on the success of Schema.org for making a wide range of structured web content more discoverable and interpretable, e.g. food recipes, the Bioschemas community (http://bioschemas.org) aim to make life sciences datasets more findable by encouraging data providers to embed Schema.org markup in their resources.",
     "accessed": {
@@ -1896,7 +1853,6 @@
   {
     "DOI": "10.1080/14490854.2020.1796500",
     "ISSN": "1449-0854",
-    "URL": "https://www.tandfonline.com/doi/full/10.1080/14490854.2020.1796500",
     "accessed": {
       "date-parts": [
         [
@@ -2485,6 +2441,86 @@
     "title": "I’ll take that to go: Big data bags and minimal identifiers for exchange of large, complex datasets",
     "type": "paper-conference",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/BigData.2016.7840618\noriginal_standard_id: doi:10.1109/BigData.2016.7840618\nstandard_id: doi:10.1109/bigdata.2016.7840618"
+  },
+  {
+    "DOI": "10.1109/eScience.2019.00068",
+    "ISBN": "978-1-7281-2451-3",
+    "URL": "https://ieeexplore.ieee.org/document/9041738/",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          27
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Chard",
+        "given": "Kyle"
+      },
+      {
+        "family": "Gaffney",
+        "given": "Niall"
+      },
+      {
+        "family": "Jones",
+        "given": "Matthew B."
+      },
+      {
+        "family": "Kowalik",
+        "given": "Kacper"
+      },
+      {
+        "family": "Ludascher",
+        "given": "Bertram"
+      },
+      {
+        "family": "McPhillips",
+        "given": "Timothy"
+      },
+      {
+        "family": "Nabrzyski",
+        "given": "Jarek"
+      },
+      {
+        "family": "Stodden",
+        "given": "Victoria"
+      },
+      {
+        "family": "Taylor",
+        "given": "Ian"
+      },
+      {
+        "family": "Thelen",
+        "given": "Thomas"
+      },
+      {
+        "family": "Turk",
+        "given": "Matthew J."
+      },
+      {
+        "family": "Willis",
+        "given": "Craig"
+      }
+    ],
+    "container-title": "15th International Conference on eScience (eScience 2019)",
+    "id": "wIuPSf9U",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          24
+        ]
+      ]
+    },
+    "page": "514-521",
+    "publisher": "IEEE",
+    "title": "Application of BagIt-Serialized Research Object Bundles for Packaging and Re-Execution of Computational Analyses",
+    "type": "paper-conference",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/eScience.2019.00068\noriginal_standard_id: doi:10.1109/eScience.2019.00068\nstandard_id: doi:10.1109/escience.2019.00068"
   },
   {
     "DOI": "10.1109/IEEESTD.2020.9094416",
@@ -4053,6 +4089,84 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.3897/biss.3.37080"
   },
   {
+    "DOI": "10.3897/rio.6.e57602",
+    "ISSN": "2367-7163",
+    "abstract": "This report reviews the current state-of-the-art applied approaches on automated tools, services and workflows for extracting information from images of natural history specimens and their labels. We consider the potential for repurposing existing tools, including workflow management systems; and areas where more development is required. This paper was written as part of the SYNTHESYS+ project for software development teams and informatics teams working on new software-based approaches to improve mass digitisation of natural history specimens.",
+    "author": [
+      {
+        "family": "Walton",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Livermore",
+        "given": "Laurence"
+      },
+      {
+        "family": "Bánki",
+        "given": "Olaf"
+      },
+      {
+        "family": "Cubey",
+        "given": "Robert"
+      },
+      {
+        "family": "Drinkwater",
+        "given": "Robyn"
+      },
+      {
+        "family": "Englund",
+        "given": "Markus"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      },
+      {
+        "family": "Groom",
+        "given": "Quentin"
+      },
+      {
+        "family": "Kermorvant",
+        "given": "Christopher"
+      },
+      {
+        "family": "Rey",
+        "given": "Isabel"
+      },
+      {
+        "family": "Santos",
+        "given": "Celia"
+      },
+      {
+        "family": "Scott",
+        "given": "Ben"
+      },
+      {
+        "family": "Williams",
+        "given": "Alan"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhengzhe"
+      }
+    ],
+    "container-title": "Research Ideas and Outcomes",
+    "id": "8CVxQAro",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ]
+    },
+    "title": "Landscape analysis for the Specimen Data Refinery",
+    "type": "article-journal",
+    "volume": "6",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.3897/rio.6.e57602"
+  },
+  {
     "DOI": "10.4018/978-1-60960-593-3.ch008",
     "ISBN": "9781609605933",
     "URL": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-593-3.ch008",
@@ -4440,8 +4554,8 @@
         ]
       ]
     },
-    "type": "article-journal",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3903463"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3903463",
+    "type": "entry"
   },
   {
     "DOI": "10.5281/zenodo.3922136",
@@ -4932,16 +5046,19 @@
     "type": "entry"
   },
   {
-    "DOI": "10.5281/zenodo.4671709",
-    "abstract": "Presentation of the use of RO-Crate objects in SCHeMa.",
+    "type": "article-journal",
+    "id": "1H1OTXp4j",
+    "categories": [
+      "RO-Crate",
+      "ELIXIR",
+      "ELIXIR-GR"
+    ],
     "author": [
       {
         "family": "Vergoulis",
         "given": "Thanasis"
       }
     ],
-    "container-title": "Zenodo",
-    "id": "1H1OTXp4j",
     "issued": {
       "date-parts": [
         [
@@ -4951,9 +5068,13 @@
         ]
       ]
     },
+    "abstract": "Presentation of the use of RO-Crate objects in SCHeMa.",
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.4671709",
+    "publisher": "Zenodo",
     "title": "Use of RO-Crates in SCHeMa",
-    "type": "article-journal",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.4671709"
+    "URL": "https://doi.org/gjx264",
+    "note": "This CSL Item was generated by Manubot v0.5.0 from its persistent identifier (standard_id).\nstandard_id: doi:10.5281/zenodo.4671709"
   },
   {
     "DOI": "10.5281/zenodo.4705078",

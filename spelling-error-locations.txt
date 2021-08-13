@@ -197,7 +197,6 @@ content/21.conceptual.md:56:RO
 content/21.conceptual.md:56:RO
 content/21.conceptual.md:58:Extensibility
 content/21.conceptual.md:58:RO
-content/21.conceptual.md:60:contentLocation
 content/21.conceptual.md:60:RO
 content/21.conceptual.md:60:RO
 content/21.conceptual.md:60:RO
@@ -259,7 +258,6 @@ content/22.implementation.md:7:RO
 content/22.implementation.md:9:JSON
 content/22.implementation.md:9:LD
 content/22.implementation.md:9:RO
-content/22.implementation.md:11:datasets
 content/22.implementation.md:11:https
 content/22.implementation.md:11:json
 content/22.implementation.md:11:JSON
@@ -272,8 +270,6 @@ content/22.implementation.md:11:ro
 content/22.implementation.md:11:RO
 content/22.implementation.md:11:RO
 content/22.implementation.md:11:RO
-content/22.implementation.md:11:txt
-content/22.implementation.md:11:txt
 content/22.implementation.md:14:json
 content/22.implementation.md:15:https
 content/22.implementation.md:15:ro
@@ -289,14 +285,10 @@ content/22.implementation.md:28:csv
 content/22.implementation.md:29:https
 content/22.implementation.md:32:csv
 content/22.implementation.md:36:https
-content/22.implementation.md:37:ImageObject
-content/22.implementation.md:38:contentLocation
 content/22.implementation.md:39:https
 content/22.implementation.md:45:https
 content/22.implementation.md:53:https
 content/22.implementation.md:53:spdx
-content/22.implementation.md:60:contentLocation
-content/22.implementation.md:60:ImageObject
 content/22.implementation.md:60:json
 content/22.implementation.md:60:JSON
 content/22.implementation.md:60:LD
@@ -608,8 +600,10 @@ content/41.workflows.md:18:CWLProv
 content/41.workflows.md:18:TavernaPROV
 content/41.workflows.md:18:zenodo
 content/41.workflows.md:20:https
+content/41.workflows.md:20:https
 content/41.workflows.md:20:researchobject
 content/41.workflows.md:20:ro
+content/41.workflows.md:20:RO
 content/41.workflows.md:20:RO
 content/41.workflows.md:20:RO
 content/41.workflows.md:22:DOIs
@@ -869,6 +863,7 @@ content/50.relatedwork.md:28:bagit
 content/50.relatedwork.md:28:BagIt
 content/50.relatedwork.md:28:BagIt
 content/50.relatedwork.md:28:CWLProv
+content/50.relatedwork.md:28:eScience
 content/50.relatedwork.md:28:https
 content/50.relatedwork.md:28:ro
 content/50.relatedwork.md:28:RO
@@ -960,7 +955,6 @@ content/70.acknowledgements.md:7:dfg
 content/70.acknowledgements.md:7:DFG
 content/70.acknowledgements.md:7:Forschungsgemeinschaft
 content/70.acknowledgements.md:7:Grüning
-content/70.acknowledgements.md:7:https
 content/70.acknowledgements.md:7:https
 content/70.acknowledgements.md:7:NFDI
 content/70.acknowledgements.md:7:NFDI
