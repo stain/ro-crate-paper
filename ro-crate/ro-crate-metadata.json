@@ -1088,6 +1088,31 @@
       "name": "Laura Rodríguez-Navas"
     },
     {
+      "@id": "https://orcid.org/0000-0001-6387-5988",
+      "@type": "Person",
+      "name": "Cedric Decruw"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3883-4169",
+      "@type": "Person",
+      "name": "Andreas Czerniak"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5761-7533",
+      "@type": "Person",
+      "name": "Jeremy Jay"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0792-8157",
+      "@type": "Person",
+      "name": "Sergio Serra"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8772-7904",
+      "@type": "Person",
+      "name": "Ronald Siebes"
+    },
+    {
       "@id": "https://spdx.org/licenses/Apache-2.0",
       "@type": "CreativeWork",
       "identifier": "Apache-2.0",
@@ -1265,13 +1290,28 @@
         },
         {
           "@id": "https://orcid.org/0000-0001-5383-6993"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6387-5988",
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3883-4169",
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5761-7533",
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0792-8157",
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8772-7904",
         }
       ],
       "name": "RO-Crate Community",
       "parentOrganization": {
         "@id": "https://www.researchobject.org/"
       },
-      "sdDatePublished": "2021-05-17T23:22:00Z",
+      "sdDatePublished": "2021-08-13T12:35:00Z",
       "url": "https://www.researchobject.org/ro-crate/community"
     },
     {
