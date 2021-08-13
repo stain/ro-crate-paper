@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b258a0a230dfa32f6b0a751f7758cfc1729f6803/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b258a0a230dfa32f6b0a751f7758cfc1729f6803/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b258a0a230dfa32f6b0a751f7758cfc1729f6803/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/9c5fcfb320d8ce6f0483c23f164b95ba3da8ae90/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9c5fcfb320d8ce6f0483c23f164b95ba3da8ae90/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9c5fcfb320d8ce6f0483c23f164b95ba3da8ae90/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/b258a0a230dfa32f6b0a751f7758cfc1729f6803/))
+([permalink](https://stain.github.io/ro-crate-paper/v/9c5fcfb320d8ce6f0483c23f164b95ba3da8ae90/))
 was automatically generated
-from [stain/ro-crate-paper@b258a0a](https://github.com/stain/ro-crate-paper/tree/b258a0a230dfa32f6b0a751f7758cfc1729f6803)
+from [stain/ro-crate-paper@9c5fcfb](https://github.com/stain/ro-crate-paper/tree/9c5fcfb320d8ce6f0483c23f164b95ba3da8ae90)
 on August 13, 2021.
 </em></small>
 
@@ -310,12 +310,14 @@ on August 13, 2021.
 
 
 
-
 An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations. 
 
 An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also enhancing research reproducibility.
 
 
+## RO-Crate of this article
+
+An [RO-Crate for this article](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/) is archived at <https://doi.org/10.5281/zenodo.5146227>
 
 
 # Introduction
