@@ -88,11 +88,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -110,7 +110,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -128,7 +128,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -155,7 +155,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -183,7 +183,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+ro
 Rodríguez
 ROHub
 ROR
