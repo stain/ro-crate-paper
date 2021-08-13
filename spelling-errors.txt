@@ -15,7 +15,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 Björn
 boundedness
@@ -109,7 +109,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -127,7 +127,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP

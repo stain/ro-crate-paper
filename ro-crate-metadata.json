@@ -160,7 +160,10 @@
         },
         {
           "@id": "manuscript.pdf"
-        }
+        },
+        {
+          "@id": "software/"
+        }        
       ],
       "identifier": "https://doi.org/10.5281/zenodo.5146227",
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
@@ -567,7 +570,7 @@
           "@id": "http://purl.obolibrary.org/obo/CRO_0000051"
         }
       ],
-      "contributor": "https://orcid.org/0000-0003-0522-5674",
+      "contributor": {"@id": "https://orcid.org/0000-0003-0522-5674"},
       "name": "Contributions by Bert Droesbeke"
     },
     {
@@ -1535,6 +1538,559 @@
       "subjectOf": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
       "url": "https://www.researchobject.org/ro-crate/1.1/ro-crate-preview.html",
       "version": "1.1.1"
-    }    
+    },
+    {
+      "@id": "_:b0",
+      "familyName": "Jaoua",
+      "givenName": "Maroua",
+      "name": "Maroua Jaoua"
+    },
+    {
+      "@id": "_:b1",
+      "@type": "Person",
+      "familyName": "Arfaoui",
+      "givenName": "Ghaith",
+      "name": "Ghaith Arfaoui"
+    },
+    {
+      "@id": "_:b2",
+      "@type": "Person",
+      "familyName": "Brenner",
+      "givenName": "Gabriel",
+      "name": "Gabriel Brenner"
+    },
+    {
+      "@id": "_:b3",
+      "@type": "Person",
+      "familyName": "Jaoua",
+      "givenName": "Maroua",
+      "name": "Maroua Jaoua"
+    },
+    {
+      "@id": "_:b4",
+      "@type": "Person",
+      "familyName": "Belchev",
+      "givenName": "Kostadin",
+      "name": "Kostadin Belchev"
+    },
+    {
+      "@id": "_:b5",
+      "@type": "Person",
+      "familyName": "Vergoulis",
+      "givenName": "Thanasis",
+      "name": "Thanasis Vergoulis"
+    },
+    {
+      "@id": "_:b6",
+      "@type": "Person",
+      "familyName": "Soares e Silva",
+      "givenName": "Marina",
+      "name": "Marina Soares e Silva"
+    },
+    {
+      "@id": "_:b7",
+      "@type": "Person",
+      "familyName": "Lynch",
+      "givenName": "Mike",
+      "name": "Mike Lynch"
+    },
+    {
+      "@id": "_:b8",
+      "@type": "Person",
+      "familyName": "Whitwell",
+      "givenName": "Martyn",
+      "name": "Martyn Whitwell"
+    },
+    {
+      "@id": "https://ardc.edu.au/",
+      "@type": "FundingAgency"
+    },
+    {
+      "@id": "https://arkisto-platform.github.io/case-studies/paradisec/",
+      "@type": "WebPage",
+      "name": "Case Study: Modern PARADISEC"
+    },
+    {
+      "@id": "https://doi.org/10.4126/frl01-006423291",
+      "@type": "ScholarlyArticle",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-4929-7875"
+        },
+        {
+          "@id": "_:b0"
+        },
+        {
+          "@id": "_:b1"
+        }
+      ],
+      "name": "Research Object Crates and Machine-actionable Data Management Plans"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.3903463",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#dmp-users"
+      },
+      "author": {
+        "@id": "_:b2"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Convert between machine-actionable data management plans (maDMP) and RO-Crate",
+      "name": "Ro-Crate_2_ma-DMP",
+      "softwareRequirements": "Python",
+      "url": "https://github.com/BrennerG/Ro-Crate_2_ma-DMP"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.3922136",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#dmp-users"
+      },
+      "author": [
+        {
+          "@id": "_:b1"
+        },
+        {
+          "@id": "_:b3"
+        }
+      ],
+      "citation": {
+        "@id": "https://doi.org/10.4126/frl01-006423291"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Mapping between machine-actionable data management plans (maDMP) and RO-Crate",
+      "name": "RDA maDMP Mapper",
+      "softwareRequirements": "Python",
+      "url": "https://github.com/GhaithArf/ro-crate-rda-madmp-mapper"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.4671709",
+      "@type": "PresentationDigitalDocument",
+      "author": {
+        "@id": "_:b5"
+      },
+      "name": "Use of RO-Crates in SCHeMa"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.4705143",
+      "@type": "SoftwareApplication",
+      "audience": {
+        "@id": "#Developers"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6190-122X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0522-5674"
+        },
+        {
+          "@id": "#alban"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4929-1219"
+        }
+      ],
+      "creativeWorkStatus": "Alpha",
+      "description": "Object-oriented Python library for reading/writing RO-Crate",
+      "name": "ro-crate-py",
+      "softwareRequirements": "Python",
+      "url": "https://github.com/researchobject/ro-crate-py/"
+    },
+    {
+      "@id": "software/",
+      "@type": "Dataset",
+      "description": "Applications and libraries implementing RO-Crate, targeting different types of users across multiple programming languages. creativeWorkStatus is indicative as assessed by this work (Alpha < Beta < Release Candidate (RC) < Release)",
+      "hasPart": [
+        {
+          "@id": "#describo"
+        },
+        {
+          "@id": "#describo-online"
+        },
+        {
+          "@id": "#ro-crate-excel"
+        },
+        {
+          "@id": "#ro-crate-html-js"
+        },
+        {
+          "@id": "#ro-crate-js"
+        },
+        {
+          "@id": "#ro-crate-ruby"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.4705143"
+        },
+        {
+          "@id": "#about-workflowhub"
+        },
+        {
+          "@id": "#about-lifemonitor"
+        },
+        {
+          "@id": "#athenarc-schema"
+        },
+        {
+          "@id": "#galaxy2cwl"
+        },
+        {
+          "@id": "#modpdsc"
+        },
+        {
+          "@id": "#arkisto-data-portal"
+        },
+        {
+          "@id": "#ocfl-tools"
+        },
+        {
+          "@id": "#ro-composer"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.3922136"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.3903463"
+        },
+        {
+          "@id": "#CheckMyCrate"
+        }
+      ],
+      "name": "RO-Crate Software (Table 1)"
+    },
+    {
+      "@id": "#CheckMyCrate",
+      "@type": "SoftwareApplication",
+      "abstract": "A command line application for validating a RO-Crate object against a JSON profile.",
+      "alternateName": "KockataEPich/CheckMyCrate",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#Developers"
+      },
+      "author": {
+        "@id": "_:b4"
+      },
+      "creativeWorkStatus": "Alpha",
+      "description": "Validation according to Workflow RO-Crate profile",
+      "name": "CheckMyCrate",
+      "softwareRequirements": "Python",
+      "url": "https://github.com/KockataEPich/CheckMyCrate"
+    },
+    {
+      "@id": "#Data-managers",
+      "@type": "Audience",
+      "name": "Data managers"
+    },
+    {
+      "@id": "#Developers",
+      "@type": "Audience",
+      "name": "Developers"
+    },
+    {
+      "@id": "#Platform-developers",
+      "@type": "Audience",
+      "name": "Platform developers"
+    },
+    {
+      "@id": "#Repository-developers",
+      "@type": "Audience",
+      "name": "Repository developers"
+    },
+    {
+      "@id": "#Repository-managers",
+      "@type": "Audience",
+      "name": "Repository managers"
+    },
+    {
+      "@id": "#Research-Data-Managers",
+      "@type": "Audience",
+      "name": "Research Data Managers"
+    },
+    {
+      "@id": "#Workflow-developers",
+      "@type": "Audience",
+      "name": "Workflow developers"
+    },
+    {
+      "@id": "#Workflow-users",
+      "@type": "Audience",
+      "name": "Workflow users"
+    },
+    {
+      "@id": "#about-lifemonitor",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Web",
+      "applicationSubCategory": "API",
+      "audience": {
+        "@id": "#Workflow-developers"
+      },
+      "creativeWorkStatus": "Alpha",
+      "description": "Workflow testing and monitoring service; Workflow Testing profile of RO-Crate",
+      "name": "Life Monitor",
+      "softwareRequirements": "Python",
+      "url": "https://about.lifemonitor.eu/"
+    },
+    {
+      "@id": "#about-workflowhub",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Web",
+      "audience": [
+        {
+          "@id": "#Workflow-developers"
+        },
+        {
+          "@id": "#Workflow-users"
+        }
+      ],
+      "creativeWorkStatus": "Beta",
+      "description": "Workflow repository; imports and exports Workflow RO-Crate",
+      "name": "WorkflowHub",
+      "softwareRequirements": "Ruby",
+      "url": "https://about.workflowhub.eu/"
+    },
+    {
+      "@id": "#alban",
+      "@type": "Person",
+      "familyName": "Gaignard",
+      "givenName": "Alban",
+      "name": "Alban Gaignard"
+    },
+    {
+      "@id": "#arkisto-data-portal",
+      "@type": "SoftwareApplication",
+      "applicationCategory": [
+        "Platform",
+        "Web"
+      ],
+      "audience": {
+        "@id": "#Repository-managers"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Platform for publishing data and documents stored in an OCFL repository via a web interface",
+      "name": "ONI express",
+      "softwareRequirements": "Docker",
+      "url": "https://arkisto-platform.github.io/tools/portal/"
+    },
+    {
+      "@id": "#athenarc-schema",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Web",
+      "audience": {
+        "@id": "#Workflow-users"
+      },
+      "creativeWorkStatus": "Alpha",
+      "description": "Workflow execution using RO-Crate as exchange mechanism [@doi:]",
+      "name": "SCHeMa",
+      "softwareRequirements": "PHP",
+      "subjectOf": {
+        "@id": "https://doi.org/10.5281/zenodo.4671709"
+      },
+      "url": "https://github.com/athenarc/schema"
+    },
+    {
+      "@id": "#describo",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Desktop",
+      "audience": {
+        "@id": "#Research-Data-Managers"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-5383-6993"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        }
+      ],
+      "creativeWorkStatus": "RC",
+      "description": "Interactive desktop application to create, update and export RO-Crates for different profiles",
+      "installUrl": "https://github.com/Arkisto-Platform/describo/releases",
+      "name": "Describo",
+      "softwareRequirements": "NodeJS",
+      "url": "https://arkisto-platform.github.io/describo/"
+    },
+    {
+      "@id": "#describo-online",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Web",
+      "audience": {
+        "@id": "#Platform-developers"
+      },
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5383-6993"
+      },
+      "creativeWorkStatus": "Alpha",
+      "description": "Web-based application to create RO-Crates using cloud storage",
+      "name": "Describo Online",
+      "softwareRequirements": "NodeJS",
+      "url": "https://arkisto-platform.github.io/describo-online/"
+    },
+    {
+      "@id": "#dmp-users",
+      "@type": "Audience",
+      "name": "Data Management Plan users"
+    },
+    {
+      "@id": "#galaxy2cwl",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#Workflow-developers"
+      },
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6190-122X"
+      },
+      "creativeWorkStatus": "Alpha",
+      "description": "Wraps Galaxy workflow as Workflow RO-Crate",
+      "installUrl": "https://pypi.org/project/galaxy2cwl/",
+      "name": "galaxy2cwl",
+      "softwareRequirements": "Python",
+      "url": "https://github.com/workflowhub-eu/galaxy2cwl"
+    },
+    {
+      "@id": "#modpdsc",
+      "@type": "WebApplication",
+      "applicationCategory": "Web",
+      "audience": {
+        "@id": "#Repository-managers"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Cultural Heritage portal based on OCFL and RO-Crate",
+      "downloadUrl": "https://github.com/CoEDL/modpdsc/",
+      "funder": {
+        "@id": "https://ardc.edu.au/"
+      },
+      "name": "Modern PARADISEC",
+      "subjectOf": {
+        "@id": "https://arkisto-platform.github.io/case-studies/paradisec/"
+      },
+      "url": "http://mod.paradisec.org.au/"
+    },
+    {
+      "@id": "#ocfl-tools",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#Repository-developers"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Tools for managing RO-Crates in an OCFL repository",
+      "name": "ocfl-tools",
+      "softwareRequirements": "JavaScript",
+      "url": "https://github.com/CoEDL/ocfl-tools"
+    },
+    {
+      "@id": "#ro-composer",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Web",
+      "applicationSubCategory": "API",
+      "audience": {
+        "@id": "#Repository-developers"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "_:b6"
+        }
+      ],
+      "creativeWorkStatus": "Alpha",
+      "description": "REST API for gradually building ROs for given profile.",
+      "downloadUrl": "https://github.com/ResearchObject/research-object-composer",
+      "funder": {
+        "@id": "https://www.mendeley.com/"
+      },
+      "name": "RO Composer",
+      "softwareRequirements": "Java",
+      "url": "https://esciencelab.org.uk/projects/ro-composer/"
+    },
+    {
+      "@id": "#ro-crate-excel",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#Data-managers"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "Command-line tool to help create RO-Crates and HTML-readable rendering",
+      "installUrl": "https://www.npmjs.com/package/ro-crate-excel",
+      "name": "ro-crate-excel",
+      "softwareRequirements": "JavaScript",
+      "url": "https://github.com/UTS-eResearch/ro-crate-excel"
+    },
+    {
+      "@id": "#ro-crate-html-js",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "CLI",
+      "audience": {
+        "@id": "#Developers"
+      },
+      "creativeWorkStatus": "Beta",
+      "description": "HTML rendering of RO-Crate",
+      "installUrl": "https://www.npmjs.com/package/ro-crate-html-js",
+      "name": "ro-crate-html-js",
+      "softwareRequirements": "JavaScript",
+      "url": "https://github.com/UTS-eResearch/ro-crate-html-js"
+    },
+    {
+      "@id": "#ro-crate-js",
+      "@type": "SoftwareApplication",
+      "applicationCategory": "Library",
+      "audience": {
+        "@id": "#Research-Data-Managers"
+      },
+      "author": [
+        {
+          "@id": "_:b7"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        }
+      ],
+      "creativeWorkStatus": "Alpha",
+      "description": "Library for creating/manipulating crates; basic validation code",
+      "installUrl": "https://www.npmjs.com/package/ro-crate",
+      "name": "ro-crate-js",
+      "softwareRequirements": "JavaScript",
+      "url": "https://github.com/UTS-eResearch/ro-crate-js"
+    },
+    {
+      "@id": "#ro-crate-ruby",
+      "@type": "SoftwareApplication",
+      "audience": {
+        "@id": "#Developers"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "_:b8"
+        }
+      ],
+      "creativeWorkStatus": "Beta",
+      "description": "Ruby library for reading/writing RO-Crate, with workflow support",
+      "name": "ro-crate-ruby",
+      "softwareRequirements": "Ruby"
+    },
+    {
+      "@id": "https://www.mendeley.com",
+      "@type": "Organization",
+      "name": "Mendeley Ltd"
+    }
   ]
 }
