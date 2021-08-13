@@ -86,11 +86,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
