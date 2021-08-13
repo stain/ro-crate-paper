@@ -449,7 +449,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1002/cpe.1228"
   },
   {
-    "DOI": "10.1007/978-3-030-45442-5\\_15",
+    "DOI": "10.1007/978-3-030-45442-5_15",
     "ISBN": "978-3-030-45442-5",
     "abstract": "Funding bodies and other policy-makers are increasingly more concerned with Research Data Management (RDM). The Data Management Plan (DMP) is one of the tools available to perform RDM tasks, however it is not a perfect concept. The Machine-Actionable Data Management Plan (maDMP) is a concept that aims to make the DMP interoperable, automated and increasingly standardised. In this paper we showcase that through the usage of semantic technologies, it is possible to both express and exploit the features of the maDMP. In particular, we focus on showing how a maDMP formalised as an ontology can be used automate the assessment of a funder’s requirements for a given organisation.",
     "author": [
@@ -2194,7 +2194,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1093/nar/gky379"
   },
   {
-    "DOI": "10.1109/{BigData}.2016.7840618",
+    "DOI": "10.1109/BigData.2016.7840618",
     "ISBN": "978-1-4673-9005-7",
     "URL": "https://static.aminer.org/pdf/fa/bigdata2016/BigD418.pdf",
     "abstract": "Big data workflows often require the assembly and exchange of complex, multi-element datasets. For example, in biomedical applications, the input to an analytic pipeline can be a dataset consisting thousands of images and genome sequences assembled from diverse repositories, requiring a description of the contents of the dataset in a concise and unambiguous form. Typical approaches to creating datasets for big data workflows assume that all data reside in a single location, requiring costly data marshaling and permitting errors of omission and commission because dataset members are not explicitly specified. We address these issues by proposing simple methods and tools for assembling, sharing, and analyzing large and complex datasets that scientists can easily integrate into their daily workflows. These tools combine a simple and robust method for describing data collections (BDBags), data descriptions (Research Objects), and simple persistent identifiers (Minids) to create a powerful ecosystem of tools and services for big data analysis and sharing. We present these tools and use biomedical case studies to illustrate their use for the rapid assembly, sharing, and analysis of large datasets.",
@@ -2283,7 +2283,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/BigData.2016.7840618\noriginal_standard_id: doi:10.1109/BigData.2016.7840618\nstandard_id: doi:10.1109/bigdata.2016.7840618"
   },
   {
-    "DOI": "10.1109/{IEEESTD}.2020.9094416",
+    "DOI": "10.1109/IEEESTD.2020.9094416",
     "ISBN": "978-1-5044-6466-6",
     "genre": "Standard",
     "id": "R51nz7Xg",
@@ -3346,7 +3346,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc3987"
   },
   {
-    "DOI": "10.17487/{RFC8493}",
+    "DOI": "10.17487/RFC8493",
     "URL": "https://www.rfc-editor.org/info/rfc8493",
     "accessed": {
       "date-parts": [
@@ -3397,7 +3397,7 @@
     "DOI": "10.2200/S00334ED1V01Y201102WBE001",
     "ISBN": "9781608454310",
     "ISSN": "2160-4711",
-    "URL": "http://www.morganclaypool.com/doi/abs/10.2200/{S00334ED1V01Y201102WBE001}",
+    "URL": "http://www.morganclaypool.com/doi/abs/10.2200/S00334ED1V01Y201102WBE001",
     "accessed": {
       "date-parts": [
         [
@@ -3543,7 +3543,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.3233/APC200107\noriginal_standard_id: doi:10.3233/APC200107\nstandard_id: doi:10.3233/apc200107"
   },
   {
-    "DOI": "10.3233/{DS}-190026",
+    "DOI": "10.3233/DS-190026",
     "ISSN": "24518492",
     "accessed": {
       "date-parts": [
@@ -4877,7 +4877,7 @@
     "type": "entry"
   },
   {
-    "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\\_analyses/",
+    "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/",
     "abstract": "UMGS genomes generated in this work were deposited in ENA, under the study accession ERP108418. The 92,143 MAGs with QS \\>50, as well as the quantification results from BWA and sourmash, all phylogenetic trees and the functional analysis results with InterProScan, GP and GhostKOALA are available at ftp://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\\_analyses/.",
     "accessed": {
       "date-parts": [
@@ -4910,7 +4910,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://github.com/Finn-Lab/{MGS}-gut",
+    "URL": "https://github.com/Finn-Lab/MGS-gut",
     "accessed": {
       "date-parts": [
         [
@@ -4950,7 +4950,7 @@
     "type": "entry"
   },
   {
-    "URL": "http://repscience2016.research-infrastructures.eu/img/{CaroleGoble}-{ReproScience2016v2}.pdf",
+    "URL": "http://repscience2016.research-infrastructures.eu/img/CaroleGoble-ReproScience2016v2.pdf",
     "accessed": {
       "date-parts": [
         [
@@ -4983,7 +4983,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://www.w3.org/2001/tag/doc/{httpRange}-14/2007-08-31/{HttpRange}-14.html",
+    "URL": "https://www.w3.org/2001/tag/doc/httpRange-14/2007-08-31/HttpRange-14.html",
     "accessed": {
       "date-parts": [
         [
@@ -5047,7 +5047,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: isbn:9781315351148"
   },
   {
-    "URL": "https://github.com/{CoEDL}/modpdsc/",
+    "URL": "https://github.com/CoEDL/modpdsc/",
     "accessed": {
       "date-parts": [
         [
@@ -5064,7 +5064,7 @@
     "type": "entry"
   },
   {
-    "URL": "http://web.archive.org/web/20091115080336/http\\%3a\\%2f\\%2frdf.myexperiment.org/ontologies",
+    "URL": "http://web.archive.org/web/20091115080336/http%3a%2f%2frdf.myexperiment.org/ontologies",
     "accessed": {
       "date-parts": [
         [
@@ -5179,7 +5179,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://github.com/{CoEDL}/ocfl-tools",
+    "URL": "https://github.com/CoEDL/ocfl-tools",
     "accessed": {
       "date-parts": [
         [
@@ -5404,7 +5404,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://github.com/{UTS}-{eResearch}/ro-crate-js",
+    "URL": "https://github.com/UTS-eResearch/ro-crate-js",
     "accessed": {
       "date-parts": [
         [
@@ -5465,7 +5465,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://github.com/{ResearchObject}/ro-crate-ruby",
+    "URL": "https://github.com/ResearchObject/ro-crate-ruby",
     "accessed": {
       "date-parts": [
         [
@@ -5560,7 +5560,7 @@
     "type": "entry"
   },
   {
-    "URL": "https://www.w3.org/{TR}/2014/{REC}-json-ld-20140116/",
+    "URL": "https://www.w3.org/TR/2014/REC-json-ld-20140116/",
     "accessed": {
       "date-parts": [
         [
