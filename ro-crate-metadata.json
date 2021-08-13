@@ -145,7 +145,7 @@
       "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
       "encoding": [
         {
-          "@id": "index.html"
+          "@id": "manuscript.html"
         },
         {
           "@id": "manuscript.pdf"
@@ -156,7 +156,7 @@
           "@id": "https://doi.org/10.5281/zenodo.4541002"
         },
         {
-          "@id": "index.html"
+          "@id": "manuscript.html"
         },
         {
           "@id": "manuscript.pdf"
@@ -748,7 +748,7 @@
       "name": "Contributions by RO-Crate Community"
     },
     {
-      "@id": "index.html",
+      "@id": "manuscript.html",
       "@type": ["File", "ScholarlyArticle"],
       "author": [
         {
