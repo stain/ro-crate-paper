@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc/))
+([permalink](https://stain.github.io/ro-crate-paper/v/f91cf176bc26e2b3d3591c56c2ffb57e10366450/))
 was automatically generated
-from [stain/ro-crate-paper@03ddaf4](https://github.com/stain/ro-crate-paper/tree/03ddaf45ee2ba3ce37a4d3821f5f9d94be982ecc)
+from [stain/ro-crate-paper@f91cf17](https://github.com/stain/ro-crate-paper/tree/f91cf176bc26e2b3d3591c56c2ffb57e10366450)
 on August 13, 2021.
 </em></small>
 
@@ -716,6 +716,8 @@ Here we focus on approaches for bundling research artefacts along with their met
 
 
 ## Bundling and Packaging Digital Research Artefacts
+
+Early work making the case for publishing compound scholarly communication units [@vandesompel_2007] led to the development of the [Object Re-Use and Exchange model](http://www.openarchives.org/ore/1.0/primer) (OAI-ORE), providing a structured **resource map** of the digital artefacts that together support a scholarly output. 
 
 The challenge of describing computational workflows was one of the main motivations for the early proposal of _Research Objects_ (RO) [@doi:10.1016/j.future.2011.08.004] as first-class citizens for sharing and publishing. The RO approach involves bundling datasets, workflows, scripts and results along with traditional dissemination materials like journal articles and presentations, forming a single package. Crucially, these resources are not just gathered, but also individually typed, described and related to each other using semantic vocabularies. As pointed out in [@doi:10.1016/j.future.2011.08.004] an open-ended _Linked Data_ approach is not sufficient for scholarly communication: a common data model is also needed in addition to common and best practices for managing and annotating lifecycle, ownership, versioning and attributions.
 
