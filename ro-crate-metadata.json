@@ -163,21 +163,32 @@
         },
         {
           "@id": "software/"
-        }        
+        },
+        {
+          "@id": "https://w3id.org/ro/crate/"
+        } 
       ],
       "identifier": "https://doi.org/10.5281/zenodo.5146227",
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
       "license": {
         "@id": "https://spdx.org/licenses/CC-BY-4.0"
       },
-      "mentions": [],
+      "mentions": [
+        {"@id": "https://www.researchobject.org/ro-crate/community"}
+      ],
       "name": "Packaging research artefacts with RO-Crate",
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-08-13T10:00:00Z",
+      "datePublished": "2021-08-13T14:00:00Z",
       "url": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/"
     },
+    {
+      "@id": "https://w3id.org/ro/crate/",
+      "@type": "WebSite",
+      "name": "Research Object Crate (RO-Crate) website",
+      "url": "https://www.researchobject.org/ro-crate/"
+    },  
     {
       "@id": "#role-0000-0001-5383-6993",
       "@type": "Role",
