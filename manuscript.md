@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1c3c58b69e138bc245d457d7c81075c31bc44fd0/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1c3c58b69e138bc245d457d7c81075c31bc44fd0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1c3c58b69e138bc245d457d7c81075c31bc44fd0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/1c3c58b69e138bc245d457d7c81075c31bc44fd0/))
+([permalink](https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/))
 was automatically generated
-from [stain/ro-crate-paper@1c3c58b](https://github.com/stain/ro-crate-paper/tree/1c3c58b69e138bc245d457d7c81075c31bc44fd0)
+from [stain/ro-crate-paper@469fe51](https://github.com/stain/ro-crate-paper/tree/469fe5106577a16e0d02b8d3ade313f05e2cfb05)
 on August 13, 2021.
 </em></small>
 
@@ -314,10 +314,7 @@ An increasing number of researchers support reproducibility by including pointer
 
 An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying "just enough" Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also enhancing research reproducibility.
 
-
-## RO-Crate of this article
-
-An [RO-Crate for this article](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/) is archived at <https://doi.org/10.5281/zenodo.5146227>
+An [RO-Crate for this article](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/) is archived at `https://doi.org/10.5281/zenodo.5146227`
 
 
 # Introduction
@@ -700,7 +697,7 @@ The concept of a Data Commons for research collaboration was originally defined 
 
 Particularly relevant to this paper is the second objective of the Harvard Data Commons, which aims to support the deposit of research artefacts to Harvard Dataverse with sufficient information in the metadata to allow their future reuse (Figure~\ref{fig:hdc}). Considering the requirements of incorporating data, code, and other artefacts from various institutional infrastructures, Harvard Data Commons is currently working on RO-Crate adaptation. The RO-Crate metadata provides the necessary structure to make all research artefacts FAIR. The Dataverse software already has extensive support for metadata, including the Data Documentation Initiative (DDI), Dublin Core, DataCite, and Schema.org. Incorporating RO-Crate, which has the flexibility to describe a wide range of research resources, will facilitate their seamless transition from one infrastructure to the other within the Harvard Data Commons.
 
-![**One aspect of Harvard Data Commons**. Automatic encapsulation and deposit of artefacts from data management tools used during active research at the Harvard Dataverse repository.](images/data-commons-ro-crate-figure-2.svg "Harvard Data Commons"){#fig:hdc}
+![**One aspect of Harvard Data Commons**. Automatic encapsulation and deposit of artefacts from data management tools used during active research at the Harvard Dataverse repository.](images/data-commons-ro-crate-figure-5.svg "Harvard Data Commons"){#fig:hdc}
 
 Even though the Harvard Data Commons is specific to Harvard University, the overall vision and the three objectives can be abstracted and applied to other universities or research organisations. The Commons will be designed and implemented using standards and commonly-used approaches to make it interoperable and reusable by others.
 

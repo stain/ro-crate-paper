@@ -42,7 +42,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -88,11 +88,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -110,7 +110,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -155,7 +155,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
