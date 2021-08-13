@@ -1,5 +1,6 @@
 abuot
 Alasdair
+Andreas
 AO
 APIs
 ARDC
@@ -45,6 +46,7 @@ customized
 CWL
 CWLProv
 cyber
+Czerniak
 DataCite
 DataCrate
 DataCrate’s
@@ -57,6 +59,7 @@ Dataverse
 datetime
 DCAT
 DDI
+Decruw
 Describo
 Deutsche
 DFG
@@ -73,7 +76,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRplus
 FDO
@@ -90,7 +93,7 @@ frederikcoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -109,7 +112,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -190,11 +193,12 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
 serializations
+Siebes
 silico
 simleo
 SIOC
@@ -215,7 +219,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
