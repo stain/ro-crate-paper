@@ -10,7 +10,6 @@ BagIt
 BCO
 BCOs
 benchmarking
-bg
 BioCompute
 BioConda
 BioContainers
@@ -18,6 +17,7 @@ BioExcel
 BioHackathon
 bioinformatics
 Bioschemas
+bjoerngruening
 Björn
 boundedness
 Brack
@@ -42,7 +42,7 @@ CRS
 CSV
 curation
 customized
-cwl
+CWL
 CWLProv
 cyber
 Czerniak
@@ -110,7 +110,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -128,7 +128,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -183,7 +183,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROHub
 ROR

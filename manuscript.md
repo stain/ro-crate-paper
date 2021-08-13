@@ -80,7 +80,7 @@ header-includes: |-
   <meta name="citation_author" content="Björn Grüning" />
   <meta name="citation_author_institution" content="Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Freiburg, DE" />
   <meta name="citation_author_orcid" content="0000-0002-3079-6586" />
-  <meta name="twitter:creator" content="@bg" />
+  <meta name="twitter:creator" content="@bjoerngruening" />
   <meta name="citation_author" content="Marco La Rosa" />
   <meta name="citation_author_orcid" content="0000-0001-5383-6993" />
   <meta name="citation_author" content="Simone Leo" />
@@ -114,9 +114,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5c0d98aa81c3269d4bfd2fa7c588a43b0b113914/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c0d98aa81c3269d4bfd2fa7c588a43b0b113914/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5c0d98aa81c3269d4bfd2fa7c588a43b0b113914/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/469fe5106577a16e0d02b8d3ade313f05e2cfb05/))
+([permalink](https://stain.github.io/ro-crate-paper/v/5c0d98aa81c3269d4bfd2fa7c588a43b0b113914/))
 was automatically generated
-from [stain/ro-crate-paper@469fe51](https://github.com/stain/ro-crate-paper/tree/469fe5106577a16e0d02b8d3ade313f05e2cfb05)
+from [stain/ro-crate-paper@5c0d98a](https://github.com/stain/ro-crate-paper/tree/5c0d98aa81c3269d4bfd2fa7c588a43b0b113914)
 on August 13, 2021.
 </em></small>
 
@@ -223,7 +223,7 @@ on August 13, 2021.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3079-6586](https://orcid.org/0000-0002-3079-6586)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [bg](https://twitter.com/bg)<br>
+    [bjoerngruening](https://twitter.com/bjoerngruening)<br>
   <small>
      Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Freiburg, DE
      · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [DataPLANT](https://nfdi4plants.de/) ([NFDI 7/1 – 42077441](https://gepris.dfg.de/gepris/projekt/442077441)), part of the German [National Research Data Infrastructure](https://www.dfg.de/en/research_funding/programmes/nfdi/) (NFDI), funded by the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (DFG).
