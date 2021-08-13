@@ -749,7 +749,7 @@
     },
     {
       "@id": "index.html",
-      "@type": "ScholarlyArticle",
+      "@type": ["File", "ScholarlyArticle"],
       "author": [
         {
           "@id": "https://orcid.org/0000-0001-9842-9718"
@@ -806,7 +806,7 @@
     },
     {
       "@id": "manuscript.pdf",
-      "@type": "ScholarlyArticle",
+      "@type": ["File", "ScholarlyArticle"],
       "author": [
         {
           "@id": "https://orcid.org/0000-0001-9842-9718"
