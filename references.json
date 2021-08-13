@@ -550,6 +550,50 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1007/978-3-030-45442-5_15"
   },
   {
+    "DOI": "10.1007/s00267-014-0258-2",
+    "PMID": "24604667",
+    "abstract": "Increasingly, research and management in natural resource science rely on very large datasets compiled from multiple sources. While it is generally good to have more data, utilizing large, complex datasets has introduced challenges in data sharing, especially for collaborating researchers in disparate locations (\"distributed research teams\"). We surveyed natural resource scientists about common data-sharing problems. The major issues identified by our survey respondents (n = 118) when providing data were lack of clarity in the data request (including format of data requested). When receiving data, survey respondents reported various insufficiencies in documentation describing the data (e.g., no data collection description/no protocol, data aggregated, or summarized without explanation). Since metadata, or \"information about the data,\" is a central obstacle in efficient data handling, we suggest documenting metadata through data dictionaries, protocols, read-me files, explicit null value documentation, and process metadata as essential to any large-scale research program. We advocate for all researchers, but especially those involved in distributed teams to alleviate these problems with the use of several readily available communication strategies including the use of organizational charts to define roles, data flow diagrams to outline procedures and timelines, and data update cycles to guide data-handling expectations. In particular, we argue that distributed research teams magnify data-sharing challenges making data management training even more crucial for natural resource scientists. If natural resource scientists fail to overcome communication and metadata documentation issues, then negative data-sharing experiences will likely continue to undermine the success of many large-scale collaborative projects.",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Volk",
+        "given": "Carol J"
+      },
+      {
+        "family": "Lucero",
+        "given": "Yasmin"
+      },
+      {
+        "family": "Barnas",
+        "given": "Katie"
+      }
+    ],
+    "container-title": "Environmental Management",
+    "id": "DfP2RrQB",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5
+        ]
+      ]
+    },
+    "page": "883-893",
+    "title": "Why is data sharing in collaborative natural resource efforts so hard and what can we do to improve it?",
+    "type": "article-journal",
+    "volume": "53",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1007/s00267-014-0258-2"
+  },
+  {
     "DOI": "10.1007/s10209-016-0475-y",
     "ISSN": "1615-5289",
     "abstract": "Research data management is rapidly becoming a regular concern for researchers, and institutions need to provide them with platforms to support data organization and preparation for publication. Some institutions have adopted institutional repositories as the basis for data deposit, whereas others are experimenting with richer environments for data description, in spite of the diversity of existing workflows. This paper is a synthetic overview of current platforms that can be used for data management purposes. Adopting a pragmatic view on data management, the paper focuses on solutions that can be adopted in the long tail of science, where investments in tools and manpower are modest. First, a broad set of data management platforms is presenteddesigned for institutional repositories and digital librariesselect a short list of the more promising ones for data management. These platforms are compared considering their architecture, support for metadata, existing programming interfaces, as well as their search mechanisms and community acceptance. In this process, the stakeholders’requirements are also taken into account. The results show that there is still plenty of room for improvement, mainly regarding the specificity of data description in different domains, as well as the potential for integration of the data management platforms with existing research management tools. Nevertheless, depending on the context, some platforms can meet all or part of the stakeholders’requirements.",
@@ -1487,6 +1531,91 @@
     "type": "article-journal",
     "volume": "15",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1038/s41592-018-0046-7"
+  },
+  {
+    "DOI": "10.1038/s41597-020-0524-5",
+    "ISSN": "2052-4463",
+    "PMCID": "PMC7305141",
+    "PMID": "32561801",
+    "author": [
+      {
+        "family": "Schriml",
+        "given": "Lynn M"
+      },
+      {
+        "family": "Chuvochina",
+        "given": "Maria"
+      },
+      {
+        "family": "Davies",
+        "given": "Neil"
+      },
+      {
+        "family": "Eloe-Fadrosh",
+        "given": "Emiley A"
+      },
+      {
+        "family": "Finn",
+        "given": "Robert D"
+      },
+      {
+        "family": "Hugenholtz",
+        "given": "Philip"
+      },
+      {
+        "family": "Hunter",
+        "given": "Christopher I"
+      },
+      {
+        "family": "Hurwitz",
+        "given": "Bonnie L"
+      },
+      {
+        "family": "Kyrpides",
+        "given": "Nikos C"
+      },
+      {
+        "family": "Meyer",
+        "given": "Folker"
+      },
+      {
+        "family": "Mizrachi",
+        "given": "Ilene Karsch"
+      },
+      {
+        "family": "Sansone",
+        "given": "Susanna-Assunta"
+      },
+      {
+        "family": "Sutton",
+        "given": "Granger"
+      },
+      {
+        "family": "Tighe",
+        "given": "Scott"
+      },
+      {
+        "family": "Walls",
+        "given": "Ramona"
+      }
+    ],
+    "container-title": "Scientific data",
+    "id": "WD4Wsy0c",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          19
+        ]
+      ]
+    },
+    "page": "188",
+    "title": "COVID-19 pandemic reveals the peril of ignoring metadata standards.",
+    "type": "article-journal",
+    "volume": "7",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1038/s41597-020-0524-5"
   },
   {
     "DOI": "10.1038/sdata.2016.18",
