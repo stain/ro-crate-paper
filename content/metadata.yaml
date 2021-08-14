@@ -38,6 +38,7 @@ author_info:
     twitter: mercecrosas
     affiliations:
       - Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+    funders:      
       - "Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT)."
   - name: Leyla Jael Castro
     initials: LJC
@@ -53,7 +54,7 @@ author_info:
     twitter: FrederikCoppens
     affiliations:
       - VIB-UGent Center for Plant Systems Biology, Gent, BE
-  - name: José María Fernández
+  - name: José M. Fernández
     initials: JMF
     orcid: 0000-0002-4806-5140
     twitter: JMFernand3z
@@ -84,7 +85,7 @@ author_info:
     orcid: 0000-0001-8271-5429
     twitter: _simleo_
     affiliations:
-      - Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
+      - Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA), Italy
     funders:
       - "[EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))"
   - name: Eoghan Ó Carragáin
