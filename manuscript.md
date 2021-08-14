@@ -12,14 +12,14 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-08-13'
+date-meta: '2021-08-14'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
 - Mercè Crosas
 - Leyla Jael Castro
 - Frederik Coppens
-- José María Fernández
+- José M. Fernández
 - Daniel Garijo
 - Björn Grüning
 - Marco La Rosa
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-08-13" />
-  <meta name="citation_publication_date" content="2021-08-13" />
+  <meta name="dc.date" content="2021-08-14" />
+  <meta name="citation_publication_date" content="2021-08-14" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,7 +58,6 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-3545-944X" />
   <meta name="citation_author" content="Mercè Crosas" />
   <meta name="citation_author_institution" content="Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US" />
-  <meta name="citation_author_institution" content="Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT)." />
   <meta name="citation_author_orcid" content="0000-0003-1304-1939" />
   <meta name="twitter:creator" content="@mercecrosas" />
   <meta name="citation_author" content="Leyla Jael Castro" />
@@ -69,7 +68,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="VIB-UGent Center for Plant Systems Biology, Gent, BE" />
   <meta name="citation_author_orcid" content="0000-0001-6565-5145" />
   <meta name="twitter:creator" content="@FrederikCoppens" />
-  <meta name="citation_author" content="José María Fernández" />
+  <meta name="citation_author" content="José M. Fernández" />
   <meta name="citation_author_institution" content="Barcelona Supercomputing Center, Barcelona, ES" />
   <meta name="citation_author_orcid" content="0000-0002-4806-5140" />
   <meta name="twitter:creator" content="@JMFernand3z" />
@@ -84,7 +83,7 @@ header-includes: |-
   <meta name="citation_author" content="Marco La Rosa" />
   <meta name="citation_author_orcid" content="0000-0001-5383-6993" />
   <meta name="citation_author" content="Simone Leo" />
-  <meta name="citation_author_institution" content="Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy" />
+  <meta name="citation_author_institution" content="Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA), Italy" />
   <meta name="citation_author_orcid" content="0000-0001-8271-5429" />
   <meta name="twitter:creator" content="@_simleo_" />
   <meta name="citation_author" content="Eoghan Ó Carragáin" />
@@ -114,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/543870d65a7c891d20497ff87f19ebbbc716c4e1/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/543870d65a7c891d20497ff87f19ebbbc716c4e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/543870d65a7c891d20497ff87f19ebbbc716c4e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3d85e2fb912cf4808ac7edfb76cd7aa54984b871/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3d85e2fb912cf4808ac7edfb76cd7aa54984b871/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3d85e2fb912cf4808ac7edfb76cd7aa54984b871/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +138,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/543870d65a7c891d20497ff87f19ebbbc716c4e1/))
+([permalink](https://stain.github.io/ro-crate-paper/v/3d85e2fb912cf4808ac7edfb76cd7aa54984b871/))
 was automatically generated
-from [stain/ro-crate-paper@543870d](https://github.com/stain/ro-crate-paper/tree/543870d65a7c891d20497ff87f19ebbbc716c4e1)
-on August 13, 2021.
+from [stain/ro-crate-paper@3d85e2f](https://github.com/stain/ro-crate-paper/tree/3d85e2fb912cf4808ac7edfb76cd7aa54984b871)
+on August 14, 2021.
 </em></small>
 
 ## Authors
@@ -176,7 +175,8 @@ on August 13, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [mercecrosas](https://twitter.com/mercecrosas)<br>
   <small>
-     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US; Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT).
+     Institute for Quantitative Social Science, Harvard University, Cambridge, MA, US
+     · Funded by Harvard Data Commons is supported by an award from [Harvard University Information Technology](https://huit.harvard.edu/) (HUIT).
   </small>
 
 + **Leyla Jael Castro**<br>
@@ -201,7 +201,7 @@ on August 13, 2021.
      VIB-UGent Center for Plant Systems Biology, Gent, BE
   </small>
 
-+ **José María Fernández**<br>
++ **José M. Fernández**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-4806-5140](https://orcid.org/0000-0002-4806-5140)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
@@ -243,7 +243,7 @@ on August 13, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [_simleo_](https://twitter.com/_simleo_)<br>
   <small>
-     Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA) , Italy
+     Center for Advanced Studies, Research, and Development in Sardinia (CRS4), Pula (CA), Italy
      · Funded by [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087))
   </small>
 
