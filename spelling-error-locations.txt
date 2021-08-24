@@ -1,8 +1,17 @@
+content/00.front-matter.md:7:https
+content/00.front-matter.md:7:https
+content/00.front-matter.md:7:ro
+content/00.front-matter.md:8:arxiv
+content/00.front-matter.md:8:arXiv
+content/00.front-matter.md:8:citable
 content/00.front-matter.md:8:https
-content/00.front-matter.md:21:https
-content/00.front-matter.md:36:https
-content/00.front-matter.md:40:https
-content/00.front-matter.md:44:https
+content/00.front-matter.md:8:https
+content/00.front-matter.md:8:preprint
+content/00.front-matter.md:8:zenodo
+content/00.front-matter.md:20:https
+content/00.front-matter.md:35:https
+content/00.front-matter.md:39:https
+content/00.front-matter.md:43:https
 content/01.abstract.md:2:datasets
 content/01.abstract.md:2:JSON
 content/01.abstract.md:2:LD
@@ -561,6 +570,7 @@ content/41.workflows.md:4:WorkflowHub
 content/41.workflows.md:4:WorkflowHub
 content/41.workflows.md:6:RO
 content/41.workflows.md:6:WorkflowHub
+content/41.workflows.md:10:arxiv
 content/41.workflows.md:10:bioinformatics
 content/41.workflows.md:10:CWL
 content/41.workflows.md:10:interoperable
@@ -697,6 +707,7 @@ content/42.regulatory.md:14:ro
 content/42.regulatory.md:14:ro
 content/42.regulatory.md:14:RO
 content/42.regulatory.md:14:RO
+content/42.regulatory.md:16:arxiv
 content/42.regulatory.md:16:BagIt
 content/42.regulatory.md:16:BCO
 content/42.regulatory.md:16:BCO

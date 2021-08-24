@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/e2a5f7fca3153b1103c5cca8fda153c5c25155bf/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e2a5f7fca3153b1103c5cca8fda153c5c25155bf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/e2a5f7fca3153b1103c5cca8fda153c5c25155bf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/78e4e3af5e57bc8596b437eb4864e3b48e11dac2/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/78e4e3af5e57bc8596b437eb4864e3b48e11dac2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/78e4e3af5e57bc8596b437eb4864e3b48e11dac2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,14 +133,15 @@ manubot-clear-requests-cache: false
 
 
 
-
+_This manuscript has been [submitted](https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate) to the journal [Data Science](https://datasciencehub.net/) for review.
+A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146228>_ and  	[arXiv:2108.06503](https://arxiv.org/abs/2108.06503)_
 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/e2a5f7fca3153b1103c5cca8fda153c5c25155bf/))
+([permalink](https://stain.github.io/ro-crate-paper/v/78e4e3af5e57bc8596b437eb4864e3b48e11dac2/))
 was automatically generated
-from [stain/ro-crate-paper@e2a5f7f](https://github.com/stain/ro-crate-paper/tree/e2a5f7fca3153b1103c5cca8fda153c5c25155bf)
+from [stain/ro-crate-paper@78e4e3a](https://github.com/stain/ro-crate-paper/tree/78e4e3af5e57bc8596b437eb4864e3b48e11dac2)
 on August 24, 2021.
 </em></small>
 

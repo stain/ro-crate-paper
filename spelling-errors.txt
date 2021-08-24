@@ -4,6 +4,7 @@ Andreas
 AO
 APIs
 ARDC
+arXiv
 atrisovic
 automatable
 BagIt
@@ -15,7 +16,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -32,6 +33,7 @@ centric
 CheckMyCrate
 checksums
 Chenxu
+citable
 CLI
 Conceptualization
 Conda
@@ -75,7 +77,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -88,7 +90,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Garijo
 GDC
@@ -110,7 +112,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -128,7 +130,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -170,6 +172,7 @@ PID
 PIDs
 Politécnica
 Portier
+preprint
 programmatically
 projet
 ptsefton
