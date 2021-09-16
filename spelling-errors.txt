@@ -44,7 +44,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -157,7 +157,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -186,7 +186,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROHub
 ROR

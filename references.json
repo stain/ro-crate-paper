@@ -148,60 +148,6 @@
     "type": "entry"
   },
   {
-    "URL": "http://arxiv.org/abs/2105.07028v1",
-    "author": [
-      {
-        "family": "Crusoe",
-        "given": "Michael R."
-      },
-      {
-        "family": "Abeln",
-        "given": "Sanne"
-      },
-      {
-        "family": "Iosup",
-        "given": "Alexandru"
-      },
-      {
-        "family": "Amstutz",
-        "given": "Peter"
-      },
-      {
-        "family": "Chilton",
-        "given": "John"
-      },
-      {
-        "family": "Tijanić",
-        "given": "Nebojša"
-      },
-      {
-        "family": "Ménager",
-        "given": "Hervé"
-      },
-      {
-        "family": "Soiland-Reyes",
-        "given": "Stian"
-      },
-      {
-        "family": "Goble",
-        "given": "Carole"
-      }
-    ],
-    "container-title": "arXiv",
-    "id": "hNiixe5H",
-    "issue": "2105.0702",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "note": "2105.07028v1 \\[cs.DC\\]\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: arxiv:2105.07028",
-    "title": "Methods Included: Standardizing Computational Reuse and Portability with the Common Workflow Language",
-    "type": "article-journal"
-  },
-  {
     "URL": "https://iswc2017.semanticweb.org/paper-579/",
     "abstract": "The life sciences have a wealth of data resources with a wide range of overlapping content. Key repositories, such as UniProt for protein data or Entrez Gene for gene data, are well known and their content easily discovered through search engines. However, there is a long-tail of bespoke datasets with important content that are not so prominent in search results. Building on the success of Schema.org for making a wide range of structured web content more discoverable and interpretable, e.g. food recipes, the Bioschemas community (http://bioschemas.org) aim to make life sciences datasets more findable by encouraging data providers to embed Schema.org markup in their resources.",
     "accessed": {
@@ -2739,6 +2685,59 @@
     "type": "article-journal",
     "volume": "13",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1145/2857274.2857276"
+  },
+  {
+    "DOI": "10.1145/3486897",
+    "author": [
+      {
+        "family": "Crusoe",
+        "given": "Michael R."
+      },
+      {
+        "family": "Abeln",
+        "given": "Sanne"
+      },
+      {
+        "family": "Iosup",
+        "given": "Alexandru"
+      },
+      {
+        "family": "Amstutz",
+        "given": "Peter"
+      },
+      {
+        "family": "Chilton",
+        "given": "John"
+      },
+      {
+        "family": "Tijanić",
+        "given": "Nebojša"
+      },
+      {
+        "family": "Ménager",
+        "given": "Hervé"
+      },
+      {
+        "family": "Soiland-Reyes",
+        "given": "Stian"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      }
+    ],
+    "container-title": "Communications of the ACM",
+    "id": "10Uayv5us",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "Accepted\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1145/3486897",
+    "title": "Methods Included: Standardizing Computational Reuse and Portability with the Common Workflow Language",
+    "type": "article-journal"
   },
   {
     "DOI": "10.1162/dint_a_00033",
