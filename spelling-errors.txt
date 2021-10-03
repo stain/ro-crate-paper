@@ -44,7 +44,7 @@ CRS
 CSV
 curation
 customized
-cwl
+CWL
 CWLProv
 cyber
 Czerniak
@@ -90,11 +90,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -157,7 +157,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -186,7 +186,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+ro
 Rodríguez
 ROHub
 ROR
@@ -194,7 +194,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
