@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/2d168367d9e858bb3767287319872c28c0869689/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2d168367d9e858bb3767287319872c28c0869689/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2d168367d9e858bb3767287319872c28c0869689/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a582eec9e3b7bc04b0ec1cf60ada4a1ff3b0a159/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a582eec9e3b7bc04b0ec1cf60ada4a1ff3b0a159/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a582eec9e3b7bc04b0ec1cf60ada4a1ff3b0a159/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146228>_
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/2d168367d9e858bb3767287319872c28c0869689/))
+([permalink](https://stain.github.io/ro-crate-paper/v/a582eec9e3b7bc04b0ec1cf60ada4a1ff3b0a159/))
 was automatically generated
-from [stain/ro-crate-paper@2d16836](https://github.com/stain/ro-crate-paper/tree/2d168367d9e858bb3767287319872c28c0869689)
+from [stain/ro-crate-paper@a582eec](https://github.com/stain/ro-crate-paper/tree/a582eec9e3b7bc04b0ec1cf60ada4a1ff3b0a159)
 on October 4, 2021.
 </em></small>
 
@@ -341,7 +341,7 @@ The rest of this paper is organised as follows. We first describe RO-Crate, the 
 
 RO-Crate aims to provide an approach to packaging research artefacts with their metadata that can be easily adopted. To illustrate this, let us imagine a research paper reporting on the sequence analysis of proteins obtained from an experiment on mice. The sequence output files, sequence analysis code, resulting data and reports summarising statistical measures or outputs are all important and inter-related research outputs, and consequently would ideally all be co-located in a directory and accompanied with their corresponding metadata. In reality, some of the artefacts (e.g. data or software) will be recorded as external references, not necessarily captured in a FAIR way. This directory, along with the relationships between its constituent digital artefacts, is what the RO-Crate model aims to represent, linking together all the elements pertaining to an experiment and required for its reproducibility. 
 
-The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. This means programmatically and automatically accessible by machines and human readable. A de facto approach to sharing collections of resources is through compressed archives (e.g. a zip file). This solves the problem of “packaging”, but it does not guarantee downstream access to all artefacts in a programmatic fashion, or the role of each file in that particular research. Both features, the ability to automatically access and reason abuot an object, are crucial and lead to the need for explicit metadata about the contents of the folder, describing each and linking them together.
+The question then arises as to how the directory with all this material should be packaged in a manner that is accessible and usable by others. This means programmatically and automatically accessible by machines and human readable. A de facto approach to sharing collections of resources is through compressed archives (e.g. a zip file). This solves the problem of “packaging”, but it does not guarantee downstream access to all artefacts in a programmatic fashion, or the role of each file in that particular research. Both features, the ability to automatically access and reason about an object, are crucial and lead to the need for explicit metadata about the contents of the folder, describing each and linking them together.
 
 Examples of metadata descriptions across a [wide range of domains](https://rdamsc.bath.ac.uk/scheme-index) abound within the literature, both in research data management [@doi:10.1007/s10209-016-0475-y] [@farnel_2014] [@doi:10.2777/620649] and within [library and information systems](https://www.loc.gov/librarians/standards) [@chan_1995] [@doi:10.1515/9783598441844]. However, many of these approaches require knowledge of metadata schemas, particular annotation systems, or the use of complex software stacks. Indeed, particularly within research, these requirements have led to a lack of adoption and growing  frustration with current tooling and specifications [@neylon_blog_post_2017] [@doi:10.1007/s00267-014-0258-2] [@doi:10.1038/s41597-020-0524-5].
 
@@ -360,7 +360,7 @@ In the following sections we demonstrate how the RO-Crate specification and ecos
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on the Linked Data principles [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure {@fig:conceptual} \ref{fig:conceptual} shows the main conceptual elements involved in an RO-Crate; an RO-Metadata File (top) describes the research object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a \textit{RO-Crate Metadata File}, providing identifiers for \textit{authors} using ORCID, \textit{organisations} using [ROR](https://ror.org/) and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a *RO-Crate Metadata File*, providing identifiers for *authors* using ORCID, *organisations* using [ROR](https://ror.org/) and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90%"}
 
 ### Linked Data as a foundation
 
@@ -427,6 +427,7 @@ In addition, there are sometimes existing domain-specific metadata formats alrea
 Section 4 _Profiles of RO-Crate in use_ examines the observed specialization of RO-Crate use in several domains and their emerging profiles.
 
 [^1]: IRIs[@doi:10.17487/rfc3987] are a generalisation of URIs (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
+
 
 ## Technical implementation of the RO-Crate model
 
