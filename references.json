@@ -148,6 +148,52 @@
     "type": "entry"
   },
   {
+    "URL": "https://arxiv.org/abs/2103.13138v1",
+    "abstract": "In the era of data-driven science, conducting computational experiments thatinvolve analysing large datasets using heterogeneous computational clusters, is part of the everyday routine for many scientists. Moreover, to ensure the credibility of their results, it is very important for these analyses to be easily reproducible by other researchers. Although various technologies, that could facilitate the work of scientists in this direction, have been introduced in the recent years, there is still a lack of open source platforms that combine them to this end. In this work, we describe and demonstrate SCHeMa, an open-source platform that facilitates the execution and reproducibility of computational analysis on heterogeneous clusters, leveraging containerization,experiment packaging, workflow management, and machine learning technologies.",
+    "author": [
+      {
+        "family": "Vergoulis",
+        "given": "Thanasis"
+      },
+      {
+        "family": "Zagganas",
+        "given": "Konstantinos"
+      },
+      {
+        "family": "Kavouras",
+        "given": "Loukas"
+      },
+      {
+        "family": "Reczko",
+        "given": "Martin"
+      },
+      {
+        "family": "Sartzetakis",
+        "given": "Stelios"
+      },
+      {
+        "family": "Dalamagas",
+        "given": "Theodore"
+      }
+    ],
+    "container-title": "arXiv",
+    "id": "1GtSNP0ij",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ]
+    },
+    "page": "2103.13138",
+    "title": "SCHeMa: Scheduling Scientific Containers on a Cluster of Heterogeneous Machines",
+    "title-short": "SCHeMa",
+    "type": "article-journal",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: arxiv:2103.13138v1"
+  },
+  {
     "URL": "https://iswc2017.semanticweb.org/paper-579/",
     "abstract": "The life sciences have a wealth of data resources with a wide range of overlapping content. Key repositories, such as UniProt for protein data or Entrez Gene for gene data, are well known and their content easily discovered through search engines. However, there is a long-tail of bespoke datasets with important content that are not so prominent in search results. Building on the success of Schema.org for making a wide range of structured web content more discoverable and interpretable, e.g. food recipes, the Bioschemas community (http://bioschemas.org) aim to make life sciences datasets more findable by encouraging data providers to embed Schema.org markup in their resources.",
     "accessed": {
@@ -5538,6 +5584,27 @@
     "type": "entry"
   },
   {
+    "DOI": "10.1038/s41592-019-0350-x",
+    "ISSN": "1548-7105",
+    "URL": "https://doi.org/10.1038/s41592-019-0350-x",
+    "abstract": "Software and algorithm development is crucial for scientific progress; we discuss how to improve the impact and recognition of these tools.",
+    "container-title": "Nature Methods",
+    "id": "ml5o5Q6v",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "207-207",
+    "title": "Giving software its due",
+    "type": "article-journal",
+    "volume": "16",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: natmet_2019_swcit"
+  },
+  {
     "ISSN": "1613-0073",
     "URL": "http://ceur-ws.org/Vol-523/Newman.pdf",
     "abstract": "myExperiment describes itself as a \"Social Virtual Research Environment\" that provides the ability to share Research Objects (ROs) over a social infrastructure to facilitate actioning of research. The myExperiment Ontology is a logical representation of the data model used by this environment, allowing its data to be published in a standard RDF format, whilst providing a generic extensible framework that can be reused by similar projects. ROs are data structures designed to semantically enhance research publications by capturing and preserving the research method so that it can be reproduced in the future. This paper provides some motivation for an RO specification and briefly considers how existing domain-specifific ontologies might be integrated. It concludes by discussing the future direction of the myExperiment Ontology and how it will best support these ROs.",
@@ -5777,6 +5844,36 @@
     "title": "Portland Common Data Model",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: pcdm",
     "type": "entry"
+  },
+  {
+    "URL": "http://resolver.sub.uni-goettingen.de/purl?gs-1/11942",
+    "abstract": "Research outcomes resulting from taxpayers’ investment in research are a common good and should be made openly available for all. According to the European Commission (EC), open access (OA) is defined as the “practice of providing online access to reusable scientific information that is free of charge to the end user.” The EC is a significant funder of research and facilitates collaborative and cross-disciplinary scientific activities. In 2008, the EC launched the Open Access Pilot, requiring beneficiaries of its previous funding program, the 7th Framework Programme (FP7), to make their best effort to ensure OA to peer-reviewed articles. Its new funding program, Horizon2020, will invest nearly €80 billion in competitive research. Here the mandate was strengthened to stipulate that the publication output of all EC-funded projects be made open.",
+    "author": [
+      {
+        "family": "Rettberg",
+        "given": "Najla"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Birgit"
+      }
+    ],
+    "container-title": "College & Research Libraries News",
+    "id": "kjCRcBZ5",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "OpenAIRE; open access; repositories; e-infrastructures",
+    "page": "306-310",
+    "title": "OpenAIRE",
+    "type": "article-journal",
+    "volume": "76",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: rettberg_2015_openaire"
   },
   {
     "URL": "https://esciencelab.org.uk/projects/ro-composer/",
