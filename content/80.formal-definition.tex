@@ -102,7 +102,7 @@ The below is an example RO-Crate represented using the above formalisation, assu
 \end{eqnarray*}
 
 
-Notable from this triple-like formalization is that a RO-Crate $R$ is fully represented as a tree at depth 2 helped by the use of $𝕀𝕣𝕚$ nodes. For instance the aggregation from the root entity $hasPart(…interviews/>)$ is at same level as the data entity’s property $license(…CC-BY-NC-4.0>)$ and that contextual entity’s attribute name $(…Non Commercial 4.0”)$. As shown in section RO-Crate JSON-LD, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of \texttt{"@context"} and \texttt{"@graph"}.
+Notable from this triple-like formalization is that a RO-Crate $R$ is fully represented as a tree at depth 2 helped by the use of $𝕀𝕣𝕚$ nodes. For instance the aggregation from the root entity $hasPart(\texttt{…interviews/>})$ is at same level as the data entity’s property $license(\texttt{…CC-BY-NC-4.0>})$ and that contextual entity’s attribute name $(\text{…Non Commercial 4.0”})$. As shown in section RO-Crate JSON-LD, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of \texttt{"@context"} and \texttt{"@graph"}.
 
 In reality many additional attributes and contextual types from schema.org types like \url{http://schema.org/affiliation} and \url{http://schema.org/Organization} would be used to further describe the RO-Crate and its entities, but as these are optional (\textit{SHOULD} requirements) they do not form part of this formalization
 
