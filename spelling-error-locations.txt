@@ -479,6 +479,7 @@ content/30.tooling.md:3:js
 content/30.tooling.md:3:ro
 content/30.tooling.md:3:ro
 content/30.tooling.md:3:RO
+content/30.tooling.md:3:RO
 content/30.tooling.md:3:workflowhub
 content/30.tooling.md:5:RO
 content/30.tooling.md:5:RO
@@ -839,15 +840,12 @@ content/45.institutional-repos.md:11:DataCite
 content/45.institutional-repos.md:11:Dataverse
 content/45.institutional-repos.md:11:Dataverse
 content/45.institutional-repos.md:11:DDI
-content/45.institutional-repos.md:11:hdc
-content/45.institutional-repos.md:11:hdc
 content/45.institutional-repos.md:11:RO
 content/45.institutional-repos.md:11:RO
 content/45.institutional-repos.md:11:RO
-content/45.institutional-repos.md:13:Dataverse
-content/45.institutional-repos.md:13:hdc
-content/45.institutional-repos.md:13:ro
-content/45.institutional-repos.md:15:interoperable
+content/45.institutional-repos.md:17:ro
+content/45.institutional-repos.md:18:Dataverse
+content/45.institutional-repos.md:22:interoperable
 content/50.relatedwork.md:3:interoperable
 content/50.relatedwork.md:5:RO
 content/50.relatedwork.md:16:OAI

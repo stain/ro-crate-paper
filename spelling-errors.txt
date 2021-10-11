@@ -43,7 +43,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -78,7 +78,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -102,7 +102,6 @@ Globus
 Goble
 Groth
 Grüning
-hdc
 Hervé
 hoc
 https
@@ -114,7 +113,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -159,7 +158,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
