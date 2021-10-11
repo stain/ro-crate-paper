@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/0bc62971ed693146997e223de855279cfdeb041f/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0bc62971ed693146997e223de855279cfdeb041f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0bc62971ed693146997e223de855279cfdeb041f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/57e8f9c24d7895c9ade3e96177cd40d5182ba8da/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/57e8f9c24d7895c9ade3e96177cd40d5182ba8da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/57e8f9c24d7895c9ade3e96177cd40d5182ba8da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227>_
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/0bc62971ed693146997e223de855279cfdeb041f/))
+([permalink](https://stain.github.io/ro-crate-paper/v/57e8f9c24d7895c9ade3e96177cd40d5182ba8da/))
 was automatically generated
-from [stain/ro-crate-paper@0bc6297](https://github.com/stain/ro-crate-paper/tree/0bc62971ed693146997e223de855279cfdeb041f)
+from [stain/ro-crate-paper@57e8f9c](https://github.com/stain/ro-crate-paper/tree/57e8f9c24d7895c9ade3e96177cd40d5182ba8da)
 on October 11, 2021.
 </em></small>
 
@@ -786,7 +786,7 @@ As a set of best practice recommendations, developed by an open and broad commun
 
 The adoption of simple web technologies in the RO-Crate specification has helped a rapid development of a wide variety of supporting open source tools and libraries. RO-Crate fits into the larger landscape of open scholarly communication and FAIR Digital Object infrastructure, and can be  integrated into data repository platforms. RO-Crate can be applied as a data/metadata exchange mechanism, assist in long-term archival preservation of metadata and data, or simply used at small-scale by individual researchers. Thanks to its strong community support, new and improved profiles and tools are continuously added to the RO-Crate tooling landscape, making it easier for adopters to find examples and support for their own use case.
 
-As a collaborative effort, the RO-Crate future work is lead by the community around it. We currently plan on further outreach, building training material and maturing the reference implementation libraries. In addition, we are exploring ways to support some entity types requested by users, e.g. workflow runs or containers, which do not have a good match in schema.org. Such support could be added, for instance, by integrating other vocabularies or having separated (but linked) metadata files. Furthermore, we want to better understand how the community uses RO-crates in practice and how it contrast with other related efforts as that will help us improve our specification and tools. We plan to gather feedback via user studies either with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.
+As a collaborative effort, the RO-Crate future work is lead by the community around it. We currently plan on further outreach, building training material and maturing the reference implementation libraries. In addition, we are exploring ways to support some entity types requested by users, e.g. workflow runs or containers, which do not have a good match in schema.org. Such support could be added, for instance, by integrating other vocabularies or having separated (but linked) metadata files. Furthermore, we want to better understand how the community uses RO-Crate in practice and how it contrast with other related efforts as that will help us improve our specification and tools. We plan to gather feedback via user studies either with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.
 
 # Acknowledgements
 
