@@ -15,7 +15,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -43,7 +43,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -78,7 +78,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRplus
 FDO
@@ -95,7 +95,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -132,7 +132,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -227,7 +227,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
