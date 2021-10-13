@@ -178,9 +178,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,9 +196,9 @@
 A DOI-citable preprint is available at <a href="https://doi.org/10.5281/zenodo.5146227" class="uri">https://doi.org/10.5281/zenodo.5146227</a></em> and <a href="https://arxiv.org/abs/2108.06503">arXiv:2108.06503</a>_</p>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df">stain/ro-crate-paper@a2e7c96</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/413f3d43ed9021c60f3ae422646268fa95e7b47b">stain/ro-crate-paper@413f3d4</a>
 on October 13, 2021.
 </em></small></p>
 <h2 class="unnumbered" data-number="" id="authors">Authors</h2>
@@ -900,7 +900,8 @@ license(&lt;http://example.com/ro/123/interviews/&gt;,
 <p>Notable from this triple-like formalization is that a RO-Crate R is fully represented as a tree at depth 2 helped by the use of <code>𝕀𝕣𝕚</code> nodes. For instance the aggregation from the root entity <code>hasPart(…interviews/&gt;)</code> is at same level as the data entity’s property <code>license(…CC-BY-NC-4.0&gt;)</code> and that contextual entity’s attribute name <code>(…Non Commercial 4.0”)</code>. As shown in section RO-Crate JSON-LD, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of <code>"@context"</code> and <code>"@graph"</code>.</p>
 <p>In reality many additional attributes and contextual types from schema.org types like <a href="http://schema.org/affiliation" class="uri">http://schema.org/affiliation</a> and <a href="http://schema.org/Organization" class="uri">http://schema.org/Organization</a> would be used to further describe the RO-Crate and its entities, but as these are optional (<em>SHOULD</em> requirements) they do not form part of this formalization.</p>
 <h2 data-number="8.4" id="mapping-to-rdf-with-schema.org"><span class="header-section-number">8.4</span> Mapping to RDF with schema.org</h2>
-<p>A formalized RO-Crate can be mapped to different serializations. Assume a simplified<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> language <code>𝕃ʀᴅꜰ</code></p>
+<p>A formalized RO-Crate can be mapped to different serializations. Assume a simplified<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> language <code>𝕃ʀᴅꜰ</code>
+based on the RDF abstract syntax <span class="citation" data-cites="rdfworkinggroup_2014">[<span class="citeproc-not-found" data-reference-id="rdfworkinggroup_2014"><strong>???</strong></span>]</span>:</p>
 <pre><code>                𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
                          𝕀𝕣𝕚, ℝ, 𝕊 }
                 𝔻𝖗𝖉𝖋 = 𝕊

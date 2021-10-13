@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227>_
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df/))
+([permalink](https://stain.github.io/ro-crate-paper/v/413f3d43ed9021c60f3ae422646268fa95e7b47b/))
 was automatically generated
-from [stain/ro-crate-paper@a2e7c96](https://github.com/stain/ro-crate-paper/tree/a2e7c96d2adf2cb07ecbe1ec7230bf0d268e13df)
+from [stain/ro-crate-paper@413f3d4](https://github.com/stain/ro-crate-paper/tree/413f3d43ed9021c60f3ae422646268fa95e7b47b)
 on October 13, 2021.
 </em></small>
 
@@ -1008,7 +1008,8 @@ In reality many additional attributes and contextual types from schema.org types
 
 ## Mapping to RDF with schema.org
 
-A formalized RO-Crate can be mapped to different serializations. Assume a simplified[^7] language `𝕃ʀᴅꜰ`
+A formalized RO-Crate can be mapped to different serializations. Assume a simplified[^7] language `𝕃ʀᴅꜰ` 
+based on the RDF abstract syntax [@rdfworkinggroup_2014]:
 
 ```
                 𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
@@ -1106,7 +1107,7 @@ This exposes the first order logic domain of discourse of IRIs, with rational nu
 [^2]:
     **Limitations:** Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see [issue 122](https://github.com/ResearchObject/ro-crate/issues/122). The `datePublished(e, d)` rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a `@context` as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The `@type` expansion is included for clarity, even though this is also implied by the `type(e, t)` expansion to `Relation(e, xsd:type)`.
 [^7]:
-  This simplification does not cover the extensive list of literal datatypes built-in to RDF 1.1, only strings and decimal real numbers. Likewise, language of literals are not included.
+  This simplification does not cover the extensive list of literal datatypes built-in to RDF 1.1, only strings and decimal real numbers. Likewise, language of literals are not included.  
 [^8]:
    The full list of types, relations and attribute properties from the RO-Crate specification are not included. Examples shown include `datePublished`, `CreativeWork` and `name`.
 [^9]:

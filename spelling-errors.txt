@@ -15,7 +15,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -95,7 +95,7 @@ frederikcoppens
 Freiburg
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -227,7 +227,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
