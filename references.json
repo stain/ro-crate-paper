@@ -17,7 +17,6 @@
         "given": "Kostadin"
       }
     ],
-    "genre": "computer software.COMPUTER\\_SOFTWARE",
     "id": "kYELZGhL",
     "issued": {
       "date-parts": [
@@ -460,7 +459,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1002/cpe.1228"
   },
   {
-    "DOI": "10.1007/978-3-030-45442-5\\_15",
+    "DOI": "10.1007/978-3-030-45442-5_15",
     "ISBN": "978-3-030-45442-5",
     "abstract": "Funding bodies and other policy-makers are increasingly more concerned with Research Data Management (RDM). The Data Management Plan (DMP) is one of the tools available to perform RDM tasks, however it is not a perfect concept. The Machine-Actionable Data Management Plan (maDMP) is a concept that aims to make the DMP interoperable, automated and increasingly standardised. In this paper we showcase that through the usage of semantic technologies, it is possible to both express and exploit the features of the maDMP. In particular, we focus on showing how a maDMP formalised as an ontology can be used automate the assessment of a funder’s requirements for a given organisation.",
     "author": [
@@ -2785,7 +2784,7 @@
     "type": "article-journal"
   },
   {
-    "DOI": "10.1162/dint\\_a\\_00033",
+    "DOI": "10.1162/dint_a_00033",
     "ISSN": "2641-{435X}",
     "abstract": "Computational workflows describe the complex multi-step methods that are used for data collection, data preparation, analytics, predictive modelling, and simulation that lead to new data products. They can inherently contribute to the FAIR data principles: by processing data according to established metadata; by creating metadata themselves during the processing of data; and by tracking and recording data provenance. These properties aid data quality assessment and contribute to secondary data usage. Moreover, workflows are digital objects in their own right. This paper argues that FAIR principles for workflows need to address their specific nature in terms of their composition of executable software steps, their provenance, and their development.",
     "author": [
@@ -4594,7 +4593,6 @@
         ]
       ]
     },
-    "title": "BrennerG/Ro-Crate\\_2\\_ma-DMP: v1.0.0",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3903463",
     "type": "entry"
   },
@@ -5324,8 +5322,7 @@
     "type": "entry"
   },
   {
-    "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\\_analyses/",
-    "abstract": "UMGS genomes generated in this work were deposited in ENA, under the study accession ERP108418. The 92,143 MAGs with QS \\>50, as well as the quantification results from BWA and sourmash, all phylogenetic trees and the functional analysis results with InterProScan, GP and GhostKOALA are available at ftp://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs\\_analyses/.",
+    "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/",
     "accessed": {
       "date-parts": [
         [
@@ -5352,7 +5349,6 @@
         ]
       ]
     },
-    "title": "FTP index of /pub/databases/metagenomics/umgs\\_analyses/",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: ebi_ftp_umgs2019",
     "type": "entry"
   },
@@ -5677,7 +5673,6 @@
       }
     ],
     "container-title": "Science In The Open",
-    "genre": "BLOG\\_POST",
     "id": "xaBY9xom",
     "issued": {
       "date-parts": [
@@ -6054,7 +6049,6 @@
       }
     ],
     "container-title": "ptsefton.com",
-    "genre": "BLOG\\_POST",
     "id": "19ybGpBJJ",
     "issued": {
       "date-parts": [

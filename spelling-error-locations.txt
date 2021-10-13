@@ -578,7 +578,7 @@ content/31.tooling-table.md:21:CheckMyCrate
 content/31.tooling-table.md:21:CheckMyCrate
 content/31.tooling-table.md:21:CLI
 content/31.tooling-table.md:21:RO
-content/31.tooling-table.md:24:RO
+content/31.tooling-table.md:23:RO
 content/40.inuse.md:1:RO
 content/40.inuse.md:3:Bioinformatics
 content/40.inuse.md:3:RO
@@ -883,13 +883,16 @@ content/45.institutional-repos.md:11:DataCite
 content/45.institutional-repos.md:11:Dataverse
 content/45.institutional-repos.md:11:Dataverse
 content/45.institutional-repos.md:11:DDI
+content/45.institutional-repos.md:11:hdc
 content/45.institutional-repos.md:11:RO
 content/45.institutional-repos.md:11:RO
 content/45.institutional-repos.md:11:RO
 content/45.institutional-repos.md:15:ro
 content/45.institutional-repos.md:16:Dataverse
+content/45.institutional-repos.md:17:hdc
 content/45.institutional-repos.md:20:interoperable
 content/46.institutional-repos-img.md:1:Dataverse
+content/46.institutional-repos-img.md:1:hdc
 content/46.institutional-repos-img.md:1:ro
 content/50.relatedwork.md:3:interoperable
 content/50.relatedwork.md:5:RO
