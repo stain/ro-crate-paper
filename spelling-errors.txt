@@ -43,7 +43,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -78,7 +78,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -91,11 +91,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -187,7 +187,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROHub
 ROR
@@ -195,7 +195,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -221,7 +221,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
