@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1fe46d4c2d8cda8826428b072d00d9bbce303dca/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1fe46d4c2d8cda8826428b072d00d9bbce303dca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1fe46d4c2d8cda8826428b072d00d9bbce303dca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/bc30d815599fdea1de314bcf0a397659ba8eed0b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bc30d815599fdea1de314bcf0a397659ba8eed0b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/bc30d815599fdea1de314bcf0a397659ba8eed0b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,13 +139,13 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227>_
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/1fe46d4c2d8cda8826428b072d00d9bbce303dca/))
+([permalink](https://stain.github.io/ro-crate-paper/v/bc30d815599fdea1de314bcf0a397659ba8eed0b/))
 was automatically generated
-from [stain/ro-crate-paper@1fe46d4](https://github.com/stain/ro-crate-paper/tree/1fe46d4c2d8cda8826428b072d00d9bbce303dca)
+from [stain/ro-crate-paper@bc30d81](https://github.com/stain/ro-crate-paper/tree/bc30d815599fdea1de314bcf0a397659ba8eed0b)
 on October 13, 2021.
 </em></small>
 
-## Authors
+## Authors {-}
 
 
 
@@ -308,6 +308,8 @@ on October 13, 2021.
      · Funded by [BioExcel-2](https://bioexcel.eu/) (European Commission [H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)); [EOSC-Life](https://www.eosc-life.eu/) (European Commission [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087)); [IBISBA](https://ibisba.eu/) (European Commission [H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)); [SyntheSys+](https://www.synthesys.info/) (European Commission [H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
   </small>
 
+
+## Abstract {-}
 
 
 
