@@ -23,7 +23,7 @@ sed -i 's,../content/images/,images/,g' content/*md
 sed -i 's,\.pdf,.svg,g' content/*md
 
 ## Horrible latex seds for the figure captions
-sed -E -i 's/\ref\{fig:/\{@fig:/g' content/*md
+sed -E -i 's/\\ref\{fig:/\{@fig:/g' content/*md
 sed -E -i 's/^!\[(.*)\]\((.*) "([^"]*)"\)/![\3](\2 "\1")/g' content/*md
 sed -E -i 's/\\textbf\{([^}]*)\}/**\1**/g' content/*md
 sed -E -i 's/\\emph\{([^}]*)\}/*\1*/g' content/*md
@@ -33,7 +33,7 @@ sed -E -i 's/\\citet\{([^}]*)\}/@\1/g' content/*md
 # remove latex comments
 sed -E -i 's/^%.*//g' content/*md
 # Remove LaTeX \_ escapes in DOIs
-sed -E -i 's/\_/_/g' latex/ro-crate.bib
+sed -E -i 's/\\_/_/g' latex/ro-crate.bib
 
 
 # Generate reference information
