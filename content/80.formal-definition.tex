@@ -127,14 +127,14 @@ based on the \href{http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/}{RDF a
 Literal(v)                  & \models &     Value(v) \land Datatype(v,t) \land IRI(t) \\
 \forall v \ Value(v)        & \Rightarrow & v \in \mathbb{S} \\
 LanguageTag(v, l)           & \equiv &      Datatype\big(v, \\
-    && \texttt{<http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>}\big)
+    && \texttt{<http://www.w3.org/1999/02/22-rdf-syntax-ns\#langString>}\big)
 \end{eqnarray*}
 
 Below follows a mapping from $\mathcal{L}_{rocrate}$ to $\mathcal{L}_{RDF}$ using schema.org as vocabulary:
 
 \begin{eqnarray*}
-Property(p)         & \Rightarrow &     type(p, \texttt{<http://www.w3.org/2000/01/rdf-schema#Property>})   \\
-Class(c)            & \Rightarrow &     type(c, \texttt{<http://www.w3.org/2000/01/rdf-schema#Class>})  \\
+Property(p)         & \Rightarrow &     type(p, \texttt{<http://www.w3.org/2000/01/rdf-schema\#Property>})   \\
+Class(c)            & \Rightarrow &     type(c, \texttt{<http://www.w3.org/2000/01/rdf-schema\#Class>})  \\
 Dataset(d)          & \Rightarrow &     type(d, \texttt{<http://schema.org/Dataset>})   \\
 File(f)             & \Rightarrow &     type(f, \texttt{<http://schema.org/MediaObject>})   \\
 CreativeWork(e)     & \Rightarrow &     ContextualEntity(e) \land type(e, \texttt{<http://schema.org/CreativeWork>})  \\
@@ -143,12 +143,12 @@ name(e, n)          & \Rightarrow &     Attribute(e, \texttt{<http://schema.org/
 description(e, s)   & \Rightarrow &     Attribute(e, \texttt{<http://schema.org/description>}, s)   \\
 datePublished(e, d) & \Rightarrow &     Attribute(e, \texttt{<http://schema.org/datePublished>}, d) \\
 license(e, l)       & \Rightarrow &     Relation(e, \texttt{<http://schema.org/license>}, l) \land CreativeWork(l) \\
-type(e, t)          & \Rightarrow &     Relation(e, \texttt{<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>}, t) \\
+type(e, t)          & \Rightarrow &     Relation(e, \texttt{<http://www.w3.org/1999/02/22-rdf-syntax-ns\#type>}, t) \\
                     & & \land Class(t)   \\
 String(s)           & \equiv &          Value(s) \land  s \in \mathbb{S} \\
-String(s)           & \Rightarrow &     Datatype(s, \texttt{<http://www.w3.org/2001/XMLSchema#string>}) \\
+String(s)           & \Rightarrow &     Datatype(s, \texttt{<http://www.w3.org/2001/XMLSchema\#string>}) \\
 Decimal(d)          & \equiv &          Value(d) \land  d \in \mathbb{R} \\
-Decimal(d)          & \Rightarrow &     Datatype(d, \texttt{<http://www.w3.org/2001/XMLSchema#decimal>}) \\
+Decimal(d)          & \Rightarrow &     Datatype(d, \texttt{<http://www.w3.org/2001/XMLSchema\#decimal>}) \\
 Relation(s,p,o)     & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land IRI(o) \\
 Attribute(s,p,o)    & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land Literal(o) \\
 \end{eqnarray*}
