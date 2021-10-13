@@ -244,7 +244,7 @@
         "given": "Rafael"
       },
       {
-        "family": "Bioschemas Community"
+        "literal": "Bioschemas Community"
       }
     ],
     "genre": "Poster",
@@ -337,7 +337,7 @@
         "given": "Peter"
       },
       {
-        "family": "Dataset Exchange Working Group"
+        "literal": "Dataset Exchange Working Group"
       }
     ],
     "genre": "W3C Recommendation",
@@ -3568,16 +3568,13 @@
     "ISBN": "9783598441844",
     "ISSN": "1868-8438",
     "URL": "https://www.ifla.org/node/7858",
-    "collection-title": "IFLA series on bibliographic control",
-    "editor": [
+    "author": [
       {
         "family": "Žumer",
         "given": "Maja"
-      },
-      {
-        "family": "Ifla"
       }
     ],
+    "collection-title": "IFLA series on bibliographic control",
     "id": "twn3K6TG",
     "issued": {
       "date-parts": [
@@ -3588,10 +3585,10 @@
         ]
       ]
     },
+    "note": "IFLA Working Group on Guidelines for National Bibliographies\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1515/9783598441844",
     "publisher": "Walter de Gruyter – K. G. Saur",
-    "title": "National bibliographies in the digital age: guidance and new directions: IFLA working group on guidelines for national bibliographies",
-    "type": "book",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1515/9783598441844"
+    "title": "National bibliographies in the digital age: guidance and new directions",
+    "type": "book"
   },
   {
     "DOI": "10.15497/rda00039",
@@ -4597,6 +4594,7 @@
         ]
       ]
     },
+    "title": "BrennerG/Ro-Crate\\_2\\_ma-DMP: v1.0.0",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3903463",
     "type": "entry"
   },
