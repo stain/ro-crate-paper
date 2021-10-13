@@ -5838,6 +5838,52 @@
     "type": "entry"
   },
   {
+    "URL": "https://www.w3.org/{TR}/2014/{REC}-rdf11-concepts-20140225/",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "RDF Working Group"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Cyganiak",
+        "given": "Richard"
+      },
+      {
+        "family": "Wood",
+        "given": "David"
+      },
+      {
+        "family": "Lanthaler",
+        "given": "Markus"
+      }
+    ],
+    "genre": "W3C Recommendation",
+    "id": "lSR394ye",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          25
+        ]
+      ]
+    },
+    "publisher": "W3C",
+    "title": "RDF 1.1 Concepts and Abstract Syntax",
+    "type": "report",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: rdfworkinggroup_2014"
+  },
+  {
     "URL": "http://resolver.sub.uni-goettingen.de/purl?gs-1/11942",
     "abstract": "Research outcomes resulting from taxpayers’ investment in research are a common good and should be made openly available for all. According to the European Commission (EC), open access (OA) is defined as the “practice of providing online access to reusable scientific information that is free of charge to the end user.” The EC is a significant funder of research and facilitates collaborative and cross-disciplinary scientific activities. In 2008, the EC launched the Open Access Pilot, requiring beneficiaries of its previous funding program, the 7th Framework Programme (FP7), to make their best effort to ensure OA to peer-reviewed articles. Its new funding program, Horizon2020, will invest nearly €80 billion in competitive research. Here the mandate was strengthened to stipulate that the publication output of all EC-funded projects be made open.",
     "author": [
