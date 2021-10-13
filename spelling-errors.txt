@@ -78,7 +78,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -114,7 +114,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 IRI
 Jael
 JMFernand
@@ -221,13 +221,13 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
