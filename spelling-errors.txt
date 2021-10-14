@@ -15,7 +15,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -95,7 +95,7 @@ FrederikCoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -132,7 +132,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -159,7 +159,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -182,6 +182,7 @@ py
 RDF
 RDFa
 RDFS
+realized
 Replicable
 reproducibility
 Repurposable
@@ -200,6 +201,7 @@ Sebby
 Sefton
 serialization
 serializations
+serialized
 Siebes
 silico
 simleo
@@ -221,13 +223,13 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
