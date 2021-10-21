@@ -78,7 +78,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -91,11 +91,11 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -114,7 +114,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 IRI
 Jael
 JMFernand
@@ -188,7 +188,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROHub
 ROR
@@ -196,7 +196,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
@@ -223,13 +223,13 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
