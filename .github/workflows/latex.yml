@@ -7,7 +7,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile document.tex
-        uses: dante-ev/latex-action@latest        
+        uses: dante-ev/latex-action@2021-10-15        
         with:
           root_file: ro-crate.tex
           working_directory: ./latex/
