@@ -8,6 +8,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile document.tex
         uses: dante-ev/latex-action@latest
+        working-directory: ./latex/
         with:
-          root_file: latex/ro-crate.tex
+          root_file: ro-crate.tex
           
