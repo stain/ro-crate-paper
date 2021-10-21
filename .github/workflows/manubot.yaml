@@ -11,7 +11,7 @@ on:
 jobs:
   manubot:
     name: Manubot
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       SPELLCHECK: true
