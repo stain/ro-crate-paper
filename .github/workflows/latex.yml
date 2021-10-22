@@ -11,7 +11,7 @@ jobs:
         with:
           root_file: ro-crate.tex
           working_directory: ./latex/
-          args: -pdflua -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
+          args: -pdflua -f -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v2
         with:
