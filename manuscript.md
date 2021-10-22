@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-10-21'
+date-meta: '2021-10-22'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-10-21" />
-  <meta name="citation_publication_date" content="2021-10-21" />
+  <meta name="dc.date" content="2021-10-22" />
+  <meta name="citation_publication_date" content="2021-10-22" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/11a011fab0f9eda3eedc00adc44a6a93e14b73a5/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/11a011fab0f9eda3eedc00adc44a6a93e14b73a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/11a011fab0f9eda3eedc00adc44a6a93e14b73a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/09cf4e6cb7ca99b926e12648040cec2858e58510/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/09cf4e6cb7ca99b926e12648040cec2858e58510/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/09cf4e6cb7ca99b926e12648040cec2858e58510/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +139,10 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/11a011fab0f9eda3eedc00adc44a6a93e14b73a5/))
+([permalink](https://stain.github.io/ro-crate-paper/v/09cf4e6cb7ca99b926e12648040cec2858e58510/))
 was automatically generated
-from [stain/ro-crate-paper@11a011f](https://github.com/stain/ro-crate-paper/tree/11a011fab0f9eda3eedc00adc44a6a93e14b73a5)
-on October 21, 2021.
+from [stain/ro-crate-paper@09cf4e6](https://github.com/stain/ro-crate-paper/tree/09cf4e6cb7ca99b926e12648040cec2858e58510)
+on October 22, 2021.
 </em></small>
 
 ## Authors {-}
@@ -358,13 +358,29 @@ In the following sections we demonstrate how the RO-Crate specification and ecos
 
 
 
+## Development Methodology
+
+It is a good question as to what base level we assume for ‘conceptually simple’. We take simplicity to apply at two levels: for the developers who produce the platforms and for the data practitioners and users who use those platforms. 
+
+For our development methodology we followed the mantra of working closely with a small group to really get a deep understanding of requirements and rapid feedback loops. We created a pool of early adopter projects from a range of disciplines and groups, primarily addressing developers of   platforms. Thus the base level for simplicity was **developer friendliness**. 
+
+We assumed a developer familiar with making Web applications with JSON data (which would then learn how to make RO-Crate JSON-LD), which has informed core design choices for our JSON-level documentation and specification in our approach of making the specification for RO-Crate serialization (section \ref{implementation}). This group drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section \ref{community}. 
+
+Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example through  interactive tools like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87].  This requires a new type of awareness and learning material, focusing on the simplicity of extensibility to serve the user needs and the development of Profiles.
+
+We are now ready to widen user adoption coupled with user evaluation to confirm our claims of developer friendliness and conceptual simplicity. The development of a comprehensive entry-level tutorial, maturing the reference implementation libraries and a series of EOSC Bring-your-own-Data (BYOD) training events for both communities are priorities, followed by a user survey as you suggest. 
+
+We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. Recent contacts include American Geophysical Union (AGU) on Data Citations,  National Institute of Standards and Technology (NIST) on material science and InvenioRDM for the Zenodo data repository. 
+
+The main addition in RO-Crate 1.2 will be the formalization of profiles for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from Frictionless Data  https://frictionlessdata.io/ 
+
 ## Conceptual Definition
 
 A key premise of RO-Crate is the existence of a wide variety of resources on the Web that can help describe research. As such, RO-Crate relies on the Linked Data principles [@doi:10.2200/S00334ED1V01Y201102WBE001]. Figure {@fig:conceptual} shows the main conceptual elements involved in an RO-Crate: The RO-Crate Metadata File (top) describes the Research Object using structured metadata including external references, coupled with the contained artefacts (bottom) bundled and described by the RO-Crate.
 
 As such, the conceptual notion of a _Research Object_ [@doi:10.1016/j.future.2011.08.004] is realized with the RO-Crate model, which description is serialized using Linked Data constructs within the RO-Crate metadata file.
 
-![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a *RO-Crate Metadata File*, providing identifiers for *authors* using ORCID, *organisations* using [ROR](https://ror.org/) and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90}
+![**Conceptual overview of RO-Crate**. A *Persistent Identifier* (PID) [@doi:10.1371/journal.pbio.2001414] points to a *Research Object* (RO), which may be archived using different packaging approaches like BagIt [@doi:10.17487/rfc8493], OCFL [@ocfl_2020], git or ZIP. The RO is described within a *RO-Crate Metadata File*, providing identifiers for *authors* using ORCID, *organisations* using ROR [@doi:10.6087/kcse.192] and licences such as Creative Commons using SPDX identifiers. The *RO-Crate content* is further described with additional metadata following a Linked Data approach. Data can be embedded files and directories, as well as links to external web resources, PIDs and nested RO-Crates.](images/ro-crate-overview.svg "Conceptual RO-Crate Overview"){#fig:conceptual width="90}
 
 
 
@@ -442,7 +458,9 @@ Section 4 _Profiles of RO-Crate in use_ examines the observed specialization of 
 
 
 
-## Technical implementation of the RO-Crate model
+## Technical implementation of the RO-Crate model {#implementation}
+
+\label{implementation}
 
 The RO-Crate conceptual model has been realised using JSON-LD and Schema.org in a prescriptive form as discussed in the previous sections. These technical choices were made to caters for simplicity. 
 
@@ -531,7 +549,9 @@ Similarly, while the Schema.org context has `"@type": "@id"` annotations for obj
 
 
 
-## RO-Crate Community
+## RO-Crate Community {#community}
+
+\label{community}
 
 The RO-Crate conceptual model, implementation and best practices are developed by a growing community of researchers, developers and publishers. The RO-Crate community is a key aspect of its effectiveness in making research artefacts FAIR. Fundamentally, the community provides the overall context of the implementation and model and ensures its interoperability. 
 
@@ -774,13 +794,13 @@ Even when researchers follow current best practices for workflow reproducibility
 
 As a real-life example, let us look at a metagenomics article [@doi:10.1038/s41586-019-0965-1] where the authors have gone to extraordinary efforts to document the individual tools that have been reused, including their citations, versions, settings, parameters and combinations. The _Methods_ section is two pages in tight double-columns with twenty four additional references, supported by the availability of data on an FTP server (60 GB) [@ebi_ftp_umgs2019] and of open source code in GitHub [Finn-Lab/MGS-gut](https://github.com/Finn-Lab/MGS-gut) [@finn-lab-mgsgut], including the pipeline as shell scripts and associated analysis scripts in R and Python.
 
-This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements, they frequently do not require authors to include or cite _software, scripts and pipelines_ used for analysing and producing results [@soilandreyes_tweet_2020]. Indeed, in the absence of a specific requirement and an editorial policy to back it up -- such as eliminating the reference limit -- authors are effectively discouraged from properly and comprehensively citing software [@natmet_2019_swcit].
+This attention to reporting detail for computational workflows is unfortunately not yet the norm, and although bioinformatics journals have strong _data availability_ requirements, they frequently do not require authors to include or cite _software, scripts and pipelines_ used for analysing and producing results [@soilandreyes_tweet_2020]. Indeed, in the absence of a specific requirement and an editorial policy to back it up -- such as eliminating the reference limit -- authors are effectively discouraged from properly and comprehensively citing software [@doi:10.1038/s41592-019-0350-x].
 
-However detailed this additional information might be, another researcher who wants to reuse a particular computational method may first want to assess if the described tool or workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting the workflow following the method description). [@doi:10.3389/fninf.2017.00069][@goble_presentation_2016]
+However detailed this additional information might be, another researcher who wants to reuse a particular computational method may first want to assess if the described tool or workflow is Re-runnable (executable at all), Repeatable (same results for original inputs on same platform), Reproducible (same results for original inputs with different platform or newer tools) and ultimately Reusable (similar results for different input data), Repurposable (reusing parts of the method for making a new method) or Replicable (rewriting the workflow following the method description) [@doi:10.3389/fninf.2017.00069][@goble_presentation_2016].
 
 Following the textual description alone, researchers would be forced to jump straight to evaluate "Replicable" by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and download reference datasets. This can be a daunting task in and of itself, which may have to be repeated multiple times as workflows typically are developed at small scale on desktop computers, scaled up to local clusters, and potentially put into production using cloud instances, each of which will have different requirements for software installations.
 
-In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adoption in life sciences [@doi:10.1007/s41019-017-0050-4] thanks to collaborative efforts such as BioConda [@doi:10.1038/s41592-018-0046-7] and BioContainers [@doi:10.1093/bioinformatics/btx192], and support by Linux distributions (e.g. Debian Med [@doi:10.1186/1471-2105-11-S12-S5]). As of May 2021, more than 7000 software packages are available [in BioConda alone] (https://anaconda.org/bioconda/), and 9000 containers [in BioContainers.](https://biocontainers.pro/#/registry) Docker and Conda have gained integration in workflow systems such as Snakemake [@doi:10.1093/bioinformatics/bts480], Galaxy [@doi:10.1093/nar/gky379] and Nextflow [@doi:10.1038/nbt.3820], meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand – but even here there is a reproducibility challenge, for instance [Docker Hub's retention policy will expire container images after six months,](https://www.docker.com/blog/docker-hub-image-retention-policy-delayed-and-subscription-updates/) or a lack of recording versions of transitive dependencies of Conda packages could cause incompatibilities if the packages are subsequently updated. Except for brief metadata in their repositories, these containers and packages do not capture any semantic relationships of their content – rather their opaqueness and wrapping of arbitrary binary tools makes such relationships harder to find.
+In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, which have seen increased adoption in life sciences [@doi:10.1007/s41019-017-0050-4] thanks to collaborative efforts such as BioConda [@doi:10.1038/s41592-018-0046-7] and BioContainers [@doi:10.1093/bioinformatics/btx192], and support by Linux distributions (e.g. Debian Med [@doi:10.1186/1471-2105-11-S12-S5]). As of May 2021, more than 7000 software packages are available [in BioConda alone] (https://anaconda.org/bioconda/), and 9000 containers [in BioContainers](https://biocontainers.pro/#/registry). Docker and Conda have gained integration in workflow systems such as Snakemake [@doi:10.1093/bioinformatics/bts480], Galaxy [@doi:10.1093/nar/gky379] and Nextflow [@doi:10.1038/nbt.3820], meaning a downloaded workflow definition can now be executed on a "blank" machine (except for the workflow engine) with the underlying analytical tools installed on demand – but even here there is a reproducibility challenge, for instance [Docker Hub's retention policy will expire container images after six months,](https://www.docker.com/blog/docker-hub-image-retention-policy-delayed-and-subscription-updates/) or a lack of recording versions of transitive dependencies of Conda packages could cause incompatibilities if the packages are subsequently updated. Except for brief metadata in their repositories, these containers and packages do not capture any semantic relationships of their content – rather their opaqueness and wrapping of arbitrary binary tools makes such relationships harder to find.
 
 From this we see that computational workflows are themselves complex digital objects that need to be recorded not just as files, but in the context of their execution environment, dependencies and analytical purpose in research – as well as other metadata (e.g. version, license, attribution and identifiers).
 

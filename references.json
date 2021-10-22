@@ -53,12 +53,13 @@
       "date-parts": [
         [
           2017,
-          2
+          2,
+          23
         ]
       ]
     },
     "note": "https://www.w3.org/TR/2017/REC-annotation-model-20170223/\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: Ciccarese:17:WAD",
-    "publisher": "W3C",
+    "publisher": "W3C; W3C",
     "title": "Web Annotation Data Model",
     "type": "report"
   },
@@ -1505,6 +1506,26 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1038/s41592-018-0046-7"
   },
   {
+    "DOI": "10.1038/s41592-019-0350-x",
+    "ISSN": "1548-7105",
+    "abstract": "Software and algorithm development is crucial for scientific progress; we discuss how to improve the impact and recognition of these tools.",
+    "container-title": "Nature Methods",
+    "id": "wBH0JR9E",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "207-207",
+    "title": "Giving software its due",
+    "type": "article-journal",
+    "volume": "16",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1038/s41592-019-0350-x"
+  },
+  {
     "DOI": "10.1038/s41597-020-0524-5",
     "ISSN": "2052-4463",
     "PMCID": "PMC7305141",
@@ -1904,15 +1925,6 @@
   {
     "DOI": "10.1087/20150211",
     "ISSN": "09531513",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          7,
-          11
-        ]
-      ]
-    },
     "author": [
       {
         "family": "Brand",
@@ -3566,7 +3578,6 @@
     "DOI": "10.1515/9783598441844",
     "ISBN": "9783598441844",
     "ISSN": "1868-8438",
-    "URL": "https://www.ifla.org/node/7858",
     "author": [
       {
         "family": "Žumer",
@@ -3794,6 +3805,85 @@
     "title": "EOSC Interoperability Framework",
     "type": "report",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.2777/620649"
+  },
+  {
+    "DOI": "10.3233/978-1-61499-649-1-87",
+    "ISBN": "978-1-61499-649-1",
+    "author": [
+      {
+        "family": "Kluyver",
+        "given": "Thomas"
+      },
+      {
+        "family": "Ragan-Kelley",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Pérez",
+        "given": "Fernando"
+      },
+      {
+        "family": "Granger",
+        "given": "Brian"
+      },
+      {
+        "family": "Bussonnier",
+        "given": "Matthias"
+      },
+      {
+        "family": "Frederic",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Kelley",
+        "given": "Kyle"
+      },
+      {
+        "family": "Hamrick",
+        "given": "Jessica"
+      },
+      {
+        "family": "Grout",
+        "given": "Jason"
+      },
+      {
+        "family": "Corlay",
+        "given": "Sylvain"
+      },
+      {
+        "family": "Ivanov",
+        "given": "Paul"
+      },
+      {
+        "family": "Avila",
+        "given": "Damián"
+      },
+      {
+        "family": "Abdalla",
+        "given": "Safia"
+      },
+      {
+        "family": "Willing",
+        "given": "Carol"
+      },
+      {
+        "literal": "Jupyter Development Team"
+      }
+    ],
+    "container-title": "Positioning and Power in Academic Publishing: Players, Agents and Agendas",
+    "id": "1Bh7g5XAe",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Proceedings of the 20th International Conference on Electronic Publishing\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.3233/978-1-61499-649-1-87",
+    "page": "87-90",
+    "publisher": "IOS Press",
+    "title": "Jupyter Notebooks - a publishing format for reproducible computational workflows",
+    "type": "paper-conference"
   },
   {
     "DOI": "10.3233/978-1-61499-660-6-9",
@@ -5297,6 +5387,33 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5334/dsj-2019-044"
   },
   {
+    "DOI": "10.6087/kcse.192",
+    "ISSN": "2288-8063",
+    "author": [
+      {
+        "family": "Lammey",
+        "given": "Rachael"
+      }
+    ],
+    "container-title": "Science Editing",
+    "id": "1HE52iXrN",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          20
+        ]
+      ]
+    },
+    "page": "65-69",
+    "title": "Solutions for identification problems: a look at the Research Organization Registry",
+    "type": "article-journal",
+    "volume": "7",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.6087/kcse.192"
+  },
+  {
     "DOI": "10.7557/5.5422",
     "ISSN": "2387-3086",
     "author": [
@@ -5575,27 +5692,6 @@
     "title": "myExperiment Ontology Modules",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: myExperimentOntology2009",
     "type": "entry"
-  },
-  {
-    "DOI": "10.1038/s41592-019-0350-x",
-    "ISSN": "1548-7105",
-    "URL": "https://doi.org/10.1038/s41592-019-0350-x",
-    "abstract": "Software and algorithm development is crucial for scientific progress; we discuss how to improve the impact and recognition of these tools.",
-    "container-title": "Nature Methods",
-    "id": "ml5o5Q6v",
-    "issue": "3",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "page": "207-207",
-    "title": "Giving software its due",
-    "type": "article-journal",
-    "volume": "16",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: natmet_2019_swcit"
   },
   {
     "ISSN": "1613-0073",

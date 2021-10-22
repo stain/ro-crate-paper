@@ -1,3 +1,4 @@
+AGU
 Alasdair
 Andreas
 AO
@@ -22,6 +23,7 @@ Björn
 boundedness
 Brack
 Bremer
+BYOD
 CaroleAnneGoble
 carolegoble
 Carragáin
@@ -43,7 +45,7 @@ CRS
 CSV
 curation
 customized
-CWL
+cwl
 CWLProv
 cyber
 Czerniak
@@ -78,7 +80,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -91,11 +93,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
+Frictionless
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -115,12 +118,14 @@ INFRAEOSC
 INFRAIA
 Instituut
 Interoperable
+InvenioRDM
 IRI
 Jael
 JMFernand
 José
 js
 JSON
+Jupyter
 Juty
 Kanitz
 Koehorst
@@ -132,7 +137,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -153,6 +158,7 @@ Navas
 NCI’s
 Nextflow
 NFDI
+NIST
 Niu
 NL
 NodeJS
@@ -223,7 +229,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
