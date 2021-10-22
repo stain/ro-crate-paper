@@ -42,6 +42,7 @@
 \graphicspath{../content/images/}
 \usepackage[citations,definitionLists,fencedCode,footnotes,hybrid,pipeTables,smartEllipses,tableCaptions,underscores]{markdown}
 \def\markdownOptionOutputDir{../output}
+\def\markdownOptionHeaderAttributes{true}
 
 % for table resizing
 \usepackage{booktabs}
@@ -131,10 +132,10 @@
 \author[CG]{\inits{C.}\fnms{Carole}
     \snm{Goble}\ead[label=eCG]{carole.goble@manchester.ac.uk}\ead[label=oCG,orcid]{0000-0003-1219-2137}}
 
-\address[SSR1]{Computer Science, 
-    \orgname{The University of Manchester}, \cny{UK}}
+\address[SSR1]{Department of Computer Science, 
+    \orgname{The University of Manchester}, \cny{UK}\printead[presep={\\}]{eSSR,oSSR}}
 \address[SSR2]{Informatics Institute, \orgname{University of Amsterdam},
-    \cny{The Netherlands}\printead[presep={\\}]{eSSR,oSSR}}
+    \cny{The Netherlands}}
 \address[PS]{Faculty of Science, \orgname{University Technology Sydney},
     \cny{Australia}\printead[presep={\\}]{ePS,oPS}}
 \address[EOC]{\orgname{University College Cork},
@@ -161,7 +162,7 @@
 \address[RO]{\url{https://www.researchobject.org/ro-crate/community} (see appendix B)}
 \address[PG]{Informatics Institute, \orgname{University of Amsterdam},
     \cny{The Netherlands}\printead[presep={\\}]{ePG,oPG}}
-\address[CG]{Computer Science, \orgname{The University of Manchester},
+\address[CG]{Department of Computer Science, \orgname{The University of Manchester},
     \cny{UK}\printead[presep={\\}]{eCG,oCG}}
     
 %\begin{review}{editor}
@@ -172,7 +173,6 @@
 %\reviewer{\fnms{First} \snm{Solicited reviewer}\ead[label=os1,orcid]{}\printead[presep={\ }]{os1}}
 %\end{review}
 
-\newpage % Because the author affiliations are too long!
 \begin{abstract}
 \markdownInput{../content/01.abstract.md}
 \end{abstract}
@@ -197,6 +197,7 @@
 \markdownInput{../content/20.rocrate.md}
 %% sub-subsections below to cater for figures in 
 %% markdown vs LaTex
+\markdownInput{../content/20a.methodology.md}
 \markdownInput{../content/21.conceptual.md}
 \input{../content/21a.conceptual-img.tex}
 \markdownInput{../content/21b.foundation.md}
