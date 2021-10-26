@@ -10,9 +10,9 @@
 
 ## Manuscript description
 
-This is the manuscript for the paper _Packaging research artifacts with RO-Crate_, being drafted for the journal [Data Science](https://www.iospress.nl/journal/data-science/).
+This is the manuscript for the paper _Packaging research artifacts with RO-Crate_, accepted for the journal [Data Science](https://www.iospress.nl/journal/data-science/).
 
-For now the manuscript is edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
+The manuscript is edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
 
 The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs; see `bin/build.sh` for workarounds.
 
