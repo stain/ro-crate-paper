@@ -3471,7 +3471,7 @@
       ]
     },
     "page": "e1006750",
-    "title": "Ten principles for machine-actionable data management plans.",
+    "title": "Ten principles for machine-actionable data management plans",
     "type": "article-journal",
     "volume": "15",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1371/journal.pcbi.1006750"
@@ -4666,6 +4666,7 @@
   },
   {
     "DOI": "10.5281/zenodo.3903463",
+    "URL": "https://github.com/BrennerG/Ro-Crate_2_ma-DMP",
     "abstract": "First Release of RO-Crate - maDMP Parser",
     "author": [
       {
@@ -4686,7 +4687,8 @@
     "type": "entry"
   },
   {
-    "DOI": "10.5281/zTenodo.3922136",
+    "DOI": "10.5281/zenodo.3922136",
+    "URL": "https://github.com/GhaithArf/ro-crate-rda-madmp-mapper",
     "author": [
       {
         "family": "Arfaoui",
@@ -5319,6 +5321,34 @@
     "title": "EOSC-Life Methodology framework to enhance reproducibility within EOSC-Life",
     "type": "article-journal",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.4705078"
+  },
+  {
+    "DOI": "10.5281/zenodo.5068950",
+    "URL": "https://github.com/e11938258/RO-Crates-and-Excel",
+    "author": [
+      {
+        "family": "Zoubek",
+        "given": "Filip"
+      },
+      {
+        "family": "Winkler",
+        "given": "Martin"
+      }
+    ],
+    "id": "11jUfQXWE",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "publisher": "Zenodo",
+    "title": "RO Crates and Excel",
+    "type": "book",
+    "version": "v1.0.0",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.5068950"
   },
   {
     "DOI": "10.5281/zenodo.51314",
@@ -6102,6 +6132,7 @@
     "type": "entry"
   },
   {
+    "DOI": "10.5281/zenodo.3956493",
     "URL": "https://github.com/researchobject/ro-crate-py",
     "accessed": {
       "date-parts": [
@@ -6114,28 +6145,32 @@
     },
     "author": [
       {
-        "family": "Leo",
-        "given": "Simone"
+        "family": "Droesbeke",
+        "given": "Bert"
       },
       {
         "family": "Eguinoa",
         "given": "Ignacio"
       },
       {
-        "family": "Soiland-Reyes",
-        "given": "Stian"
+        "family": "Gaignard",
+        "given": "Alban"
       },
       {
-        "family": "Droesbeke",
-        "given": "Bert"
+        "family": "Simone",
+        "given": "Leo"
+      },
+      {
+        "family": "Pireddu",
+        "given": "Luca"
       },
       {
         "family": "Rodríguez-Navas",
         "given": "Laura"
       },
       {
-        "family": "Gaignard",
-        "given": "Alban"
+        "family": "Soiland-Reyes",
+        "given": "Stian"
       }
     ],
     "genre": "WEBSITE",

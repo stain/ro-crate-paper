@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ae314ec382479283c1cda3e2b7afcb8b18318788/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ae314ec382479283c1cda3e2b7afcb8b18318788/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ae314ec382479283c1cda3e2b7afcb8b18318788/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d74891bf4ba9e7204d97c697aa990af6be711b7f/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d74891bf4ba9e7204d97c697aa990af6be711b7f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d74891bf4ba9e7204d97c697aa990af6be711b7f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/ae314ec382479283c1cda3e2b7afcb8b18318788/))
+([permalink](https://stain.github.io/ro-crate-paper/v/d74891bf4ba9e7204d97c697aa990af6be711b7f/))
 was automatically generated
-from [stain/ro-crate-paper@ae314ec](https://github.com/stain/ro-crate-paper/tree/ae314ec382479283c1cda3e2b7afcb8b18318788)
+from [stain/ro-crate-paper@d74891b](https://github.com/stain/ro-crate-paper/tree/d74891bf4ba9e7204d97c697aa990af6be711b7f)
 on October 26, 2021.
 </em></small>
 
@@ -360,19 +360,15 @@ In the following sections we demonstrate how the RO-Crate specification and ecos
 
 ## Development Methodology
 
-It is a good question as to what base level we assume for ‘conceptually simple’. We take simplicity to apply at two levels: for the developers who produce the platforms and for the data practitioners and users who use those platforms. 
+It is a good question as to what base level we assume for ‘conceptually simple’. We take simplicity to apply at two levels: for the _developers_ who produce the platforms and for the _data practitioners_ and users of those platforms. 
 
-For our development methodology we followed the mantra of working closely with a small group to really get a deep understanding of requirements and rapid feedback loops. We created a pool of early adopter projects from a range of disciplines and groups, primarily addressing developers of   platforms. Thus the base level for simplicity was **developer friendliness**. 
+For our development methodology we followed the mantra of working closely with a small group to really get a deep understanding of requirements and ensure rapid feedback loops. We created a pool of early adopter projects from a range of disciplines and groups, primarily addressing developers of platforms. Thus the base level for simplicity was **developer friendliness**. 
 
-We assumed a developer familiar with making Web applications with JSON data (which would then learn how to make RO-Crate JSON-LD), which has informed core design choices for our JSON-level documentation and specification in our approach of making the specification for RO-Crate serialization (section \ref{implementation}). This group drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section \ref{community}. 
+We assumed a developer familiar with making Web applications with JSON data (which would then learn how to make _RO-Crate JSON-LD_), which informed core design choices for our JSON-level documentation approach and RO-Crate serialization (section \ref{implementation}). This group of early adopters, growing as the community evolved, drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section \ref{community}. 
 
-Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example through  interactive tools like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87].  This requires a new type of awareness and learning material, focusing on the simplicity of extensibility to serve the user needs and the development of Profiles.
+Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example with interactive tools  (section \ref{tooling}) like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and  Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87], and by close discussions with domain scientists on how to appropriately capture what they determine to be relevant metadata. This ultimately requires a new type of awareness and learning material separate from developer specifications, focusing on the simplicity of extensibility to serve the user needs, along with user-driven development of new RO-Crate Profiles specific for their needs (section \ref{in-use}).
 
-We are now ready to widen user adoption coupled with user evaluation to confirm our claims of developer friendliness and conceptual simplicity. The development of a comprehensive entry-level tutorial, maturing the reference implementation libraries and a series of EOSC Bring-your-own-Data (BYOD) training events for both communities are priorities, followed by a user survey as you suggest. 
 
-We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. Recent contacts include American Geophysical Union (AGU) on Data Citations,  National Institute of Standards and Technology (NIST) on material science and InvenioRDM for the Zenodo data repository. 
-
-The main addition in RO-Crate 1.2 will be the formalization of profiles for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from Frictionless Data  https://frictionlessdata.io/ 
 
 ## Conceptual Definition
 
@@ -605,6 +601,8 @@ In addition to the typical Open Source-style development with GitHub issues and 
 
 # RO-Crate Tooling
 
+\label{tooling}
+
 The work of the community has led to the development of a number of tools for creating and using RO-Crates. Table 1 shows the current set of implementations. Reviewing this list, one can see that tools support commonly used programming languages, including Python, JavaScript, and Ruby. Additionally, these tools can be integrated into commonly used research environments; in particular, the command line (*ro-crate-html-js* [@ro-crate-html-js]). Furthermore, there are tools that cater to end-users (*Describo* [@describo], *Workflow Hub* [@about-workflowhub]), in order to simplify creating and managing RO-Crates. For example, Describo was developed to help researchers of the Australian [Criminal Characters project](https://criminalcharacters.com/) annotate historical prisoner records to gain greater insight into the history of Australia [@doi:10.1080/14490854.2020.1796500]. 
 
 While the development of these tools is promising, our analysis of their maturity status shows that the majority of them are in the Beta stage. This is partly due to the fact that the RO-Crate specification itself only recently reached 1.0 status, in November 2019 [@doi:10.5281/zenodo.3541888]. Now that there is a fixed point of reference, and RO-Crate 1.1 (October 2020) [@doi:10.5281/zenodo.4031327] has stabilised based on feedback from application development, we expect to see a further increase in the maturity of these tools, along with the creation of new ones.
@@ -617,11 +615,11 @@ Given the stage of the specification, these tools have been primarily targeted t
 | --------  | ------  | ------------------  | -----  | ----------------  |
 | Describo [@describo] | Research Data Managers | NodeJS (Desktop) | RC | Interactive desktop application to create, update and export RO-Crates for different profiles |
 | Describo Online [@describo-online] | Platform developers | NodeJS (Web) | Alpha | Web-based application to create RO-Crates using cloud storage |
-| ro-crate-excel [@ro-crate-excel] | Data managers | JavaScript | Beta | Command-line tool to help create RO-Crates and HTML-readable rendering |
+| ro-crate-excel [@ro-crate-excel] | Data managers | JavaScript | Beta | Command-line tool to create/edit RO-Crates with spreadsheets |
 | ro-crate-html-js [@ro-crate-html-js] | Developers | JavaScript | Beta | HTML rendering of RO-Crate |
 | ro-crate-js [@ro-crate-js] | Research Data Managers | JavaScript | Alpha | Library for creating/manipulating crates; basic validation code |
 | ro-crate-ruby [@ro-crate-ruby] | Developers | Ruby | Beta | Ruby library for reading/writing RO-Crate, with workflow support |
-| ro-crate-py [@ro-crate-py] | Developers | Python | Alpha | Object-oriented Python library for reading/writing RO-Crate |
+| ro-crate-py [@ro-crate-py] | Developers | Python | Alpha | Object-oriented Python library for reading/writing RO-Crate and use by Jupyter Notebook |
 | WorkflowHub [@about-workflowhub] | Workflow users | Ruby | Beta | Workflow repository; imports and exports Workflow RO-Crate |
 | Life Monitor [@about-lifemonitor] | Workflow developers | Python | Alpha | Workflow testing and monitoring service; Workflow Testing profile of RO-Crate |
 | SCHeMa [@arxiv:2103.13138v1] | Workflow users | PHP | Alpha | Workflow execution using RO-Crate as exchange mechanism [@doi:10.5281/zenodo.4671709] |
@@ -633,10 +631,13 @@ Given the stage of the specification, these tools have been primarily targeted t
 | RDA maDMP Mapper [@doi:10.5281/zenodo.3922136] | Data Management Plan users | Python | Beta | Mapping between machine-actionable data management plans (maDMP) and RO-Crate [@doi:10.4126/frl01-006423291] |
 | Ro-Crate_2_ma-DMP [@doi:10.5281/zenodo.3903463] | Data Management Plan users | Python | Beta | Convert between machine-actionable data management plans (maDMP) and RO-Crate |
 | CheckMyCrate [@CheckMyCrate] | Developers | Python (CLI) | Alpha | Validation according to Workflow RO-Crate profile |
+| RO-Crates-and-Excel [@doi:10.5281/zenodo.5068950] | Data Managers | Java (CLI) | Alpha | Describe column/data details of spreadsheets as RO-Crate using DataCube vocabulary | 
 
 Table: Applications and libraries implementing RO-Crate, targeting different types of users across multiple programming languages. Status is indicative as assessed by this work (Alpha < Beta < Release Candidate (RC) < Release).
 
 # Profiles of RO-Crate in use
+
+\label{in-use}
 
 RO-Crate is fundamentally an infrastructure to help build FAIR research artefacts. In other words, the key question is whether RO-Crate can be used to share and (re)use research artefacts. Here we look at three research domains where RO-Crate is being applied: Bioinformatics, Regulatory Science and Cultural Heritage. In addition, we note how RO-Crate may have an important role as part of machine-actionable data management plans and institutional repositories.
 
@@ -813,7 +814,15 @@ As a set of best practice recommendations, developed by an open and broad commun
 
 The adoption of simple web technologies in the RO-Crate specification has helped a rapid development of a wide variety of supporting open source tools and libraries. RO-Crate fits into the larger landscape of open scholarly communication and FAIR Digital Object infrastructure, and can be  integrated into data repository platforms. RO-Crate can be applied as a data/metadata exchange mechanism, assist in long-term archival preservation of metadata and data, or simply used at small-scale by individual researchers. Thanks to its strong community support, new and improved profiles and tools are continuously added to the RO-Crate tooling landscape, making it easier for adopters to find examples and support for their own use case.
 
+## Future Work
+
 As a collaborative effort, the RO-Crate future work is lead by the community around it. We currently plan on further outreach, building training material and maturing the reference implementation libraries. In addition, we are exploring ways to support some entity types requested by users, e.g. workflow runs or containers, which do not have a good match in Schema.org. Such support could be added, for instance, by integrating other vocabularies or having separated (but linked) metadata files. Furthermore, we want to better understand how the community uses RO-Crate in practice and how it contrast with other related efforts as that will help us improve our specification and tools. We plan to gather feedback via user studies either with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.
+
+We are now ready to widen user adoption coupled with user evaluation to confirm our claims of developer friendliness and conceptual simplicity. The development of a comprehensive entry-level tutorial, maturing the reference implementation libraries and a series of EOSC Bring-your-own-Data (BYOD) training events for both communities are priorities, followed by a user survey as you suggest. 
+
+We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. Recent contacts include American Geophysical Union (AGU) on Data Citations,  National Institute of Standards and Technology (NIST) on material science and InvenioRDM for the Zenodo data repository. 
+
+The main addition in RO-Crate 1.2 will be the formalization of profiles for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from Frictionless Data  https://frictionlessdata.io/ 
 
 # Acknowledgements
 
