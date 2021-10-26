@@ -5,3 +5,5 @@
 *.markdown.lua
 *.out
 *.pdf
+ro-crate.bbl
+ro-crate.blg
