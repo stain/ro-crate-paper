@@ -3,17 +3,20 @@ on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-20.04
+    container:
+      image: danteev/texlive:2021-D
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Create symlink latex/content
         run: ln -s ../content latex/content
       - name: Compile ro-crate.tex
-        uses: dante-ev/latex-action@2021-C        
-        with:
-          root_file: ro-crate.tex
-          working_directory: ./latex/
-          args: -pdflua -bibtex -f -gg -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
+        run: make
+        #uses: dante-ev/latex-action@2021-C        
+        #with:
+        #  root_file: ro-crate.tex
+        #  working_directory: ./latex/
+        #  args: -pdflua -bibtex -f -gg -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v2
         with:
