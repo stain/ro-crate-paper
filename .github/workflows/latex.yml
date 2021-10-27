@@ -11,7 +11,7 @@ jobs:
       - name: Create symlink latex/content
         run: ln -s ../content latex/content
       - name: Compile ro-crate.tex
-        run: make
+        run: make LATEXMK=latexmk || true
         #uses: dante-ev/latex-action@2021-C        
         #with:
         #  root_file: ro-crate.tex
