@@ -82,7 +82,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRplus
 FDO
@@ -95,7 +95,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
@@ -119,7 +119,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 InvenioRDM
 IRI
 Jael
@@ -139,7 +139,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -197,7 +197,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROHub
 ROR
