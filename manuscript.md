@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/4cdc1d0e1436ea36d547290dbb34f47a8bb5b560/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4cdc1d0e1436ea36d547290dbb34f47a8bb5b560/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4cdc1d0e1436ea36d547290dbb34f47a8bb5b560/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/1a8e0d5fcf92895b81dacbf0838863b4a2500338/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a8e0d5fcf92895b81dacbf0838863b4a2500338/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/1a8e0d5fcf92895b81dacbf0838863b4a2500338/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/4cdc1d0e1436ea36d547290dbb34f47a8bb5b560/))
+([permalink](https://stain.github.io/ro-crate-paper/v/1a8e0d5fcf92895b81dacbf0838863b4a2500338/))
 was automatically generated
-from [stain/ro-crate-paper@4cdc1d0](https://github.com/stain/ro-crate-paper/tree/4cdc1d0e1436ea36d547290dbb34f47a8bb5b560)
+from [stain/ro-crate-paper@1a8e0d5](https://github.com/stain/ro-crate-paper/tree/1a8e0d5fcf92895b81dacbf0838863b4a2500338)
 on October 27, 2021.
 </em></small>
 
@@ -364,9 +364,9 @@ It is a good question as to what base level we assume for ‘conceptually simple
 
 For our development methodology we followed the mantra of working closely with a small group to really get a deep understanding of requirements and ensure rapid feedback loops. We created a pool of early adopter projects from a range of disciplines and groups, primarily addressing developers of platforms. Thus the base level for simplicity was **developer friendliness**. 
 
-We assumed a developer familiar with making Web applications with JSON data (who would then learn how to make _RO-Crate JSON-LD_), which informed core design choices for our JSON-level documentation approach and RO-Crate serialization (section \ref{implementation}). Our group of early adopters, growing as the community evolved, drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section {@sec:community} \ref{community}. 
+We assumed a developer familiar with making Web applications with JSON data (who would then learn how to make _RO-Crate JSON-LD_), which informed core design choices for our JSON-level documentation approach and RO-Crate serialization (section \ref{implementation}). Our group of early adopters, growing as the community evolved, drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section {@sec:community}\ref{community}. 
 
-Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example with interactive tools  (section \ref{tooling}) like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and  Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87], and by close discussions with domain scientists on how to appropriately capture what they determine to be relevant metadata. This ultimately requires a new type of awareness and learning material separate from developer specifications, focusing on the simplicity of extensibility to serve the user needs, along with user-driven development of new RO-Crate Profiles specific for their needs (section {@in-use} \ref{in-use}).
+Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example with interactive tools  (section \ref{tooling}) like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and  Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87], and by close discussions with domain scientists on how to appropriately capture what they determine to be relevant metadata. This ultimately requires a new type of awareness and learning material separate from developer specifications, focusing on the simplicity of extensibility to serve the user needs, along with user-driven development of new RO-Crate Profiles specific for their needs (section {@sec:in-use}\ref{in-use}).
 
 
 

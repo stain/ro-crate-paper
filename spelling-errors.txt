@@ -139,7 +139,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -167,7 +167,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -205,7 +205,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 serialization
