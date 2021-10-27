@@ -46,7 +46,7 @@ CRS
 CSV
 curation
 customized
-cwl
+CWL
 CWLProv
 cyber
 Czerniak
@@ -95,7 +95,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -167,7 +167,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -238,7 +238,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
