@@ -82,7 +82,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRplus
 FDO
@@ -120,6 +120,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interoperable
+inuse
 InvenioRDM
 IRI
 Jael
@@ -127,6 +128,7 @@ JMFernand
 José
 js
 JSON
+jsonld
 Jupyter
 Juty
 Kanitz
@@ -197,7 +199,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROHub
 ROR
@@ -238,7 +240,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
