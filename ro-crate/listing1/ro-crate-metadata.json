@@ -1,0 +1,118 @@
+{ "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      { "@id": "ro-crate-metadata.json",      
+        "@type": "CreativeWork",
+        "conformsTo": {"@id": "https://w3id.org/ro/crate/1.1"},        
+        "about": {"@id": "./"}
+      },
+      { "@id": "https://w3id.org/ro/crate/1.1",
+        "@type": "WebSite",
+        "name": "RO-Crate 1.1"
+      },      
+      { "@id": "./",
+        "@type": "Dataset",
+        "name": "A simplified RO-Crate",
+        "description": "This example crate expands to Listing 1 in the paper Packaging research artefacts with RO-Crate",
+        "author": {"@id": "#alice"},
+        "publisher": {"@id": "https://www.researchobject.org/ro-crate/community"},
+        "license": {"@id": "https://spdx.org/licenses/CC-BY-4.0"},
+        "keywords": "example, Catalina Park, survey",
+        "funder": {"@id": "https://library.brown.edu/bookplates/fund.php?account=EN464082"},
+        "datePublished": "2021-11-02T16:04:43Z",
+        "citation": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
+        "subjectOf": {"@id": "https://stain.github.io/ro-crate-paper/#cb1"},
+        "hasPart": [
+          {"@id": "survey-responses-2019.csv"},
+          {"@id": "https://example.com/pics/5707039334816454031_o.jpg"}
+        ]
+      },
+      {
+        "@id": "https://stain.github.io/ro-crate-paper/#cb1",
+        "@type": "WebPageElement",
+        "name": "Listing 1: Simplified RO-Crate metadata file"
+      },
+      {
+        "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
+        "@type": "ScholarlyArticle",
+        "name": "Packaging research artefacts with RO-Crate",
+        "journal": "Data Science",
+        "issn": "2451-8492",
+        "identifier": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      { "@id": "survey-responses-2019.csv",
+        "@type": "File",
+        "encodingFormat": "text/csv",
+        "contentSize": "66",
+        "name": "Survey responses (2019)",
+        "description": "A fictional CSV file of survey responses, asking participants if they liked the photo",
+        "about": {"@id": "https://example.com/pics/5707039334816454031_o.jpg"},
+        "author": {"@id": "#alice"}
+      },
+      { "@id": "https://example.com/pics/5707039334816454031_o.jpg",
+        "@type": ["File", "ImageObject"],
+        "name": "Photo Catalina Park",
+        "description": "A (non-existing) photo of Catalina Park",
+        "encodingFormat": "image/jpeg",
+        "contentSize": "420525",
+        "sdDatePublished": "2021-10-01T16:04:43Z",
+        "contentLocation": {"@id": "http://sws.geonames.org/8152662/"},
+        "author": {"@id": "https://orcid.org/0000-0002-1825-0097"}
+      },
+      { "@id": "#alice",
+        "@type": "Person",
+        "name": "Alice",
+        "affiliation": "Wonderland"
+      },
+      { "@id": "https://orcid.org/0000-0002-1825-0097",
+        "@type": "Person",
+        "name": "Josiah Carberry",
+        "affiliation": {"@id": "https://ror.org/05gq02987"}
+      },
+      {
+        "@id": "https://library.brown.edu/bookplates/fund.php?account=EN464082",
+        "@type": "FundingScheme",
+        "name": "Josiah S. Carberry Fund"},
+      {
+        "@id": "https://www.researchobject.org/ro-crate/community",
+        "@type": "Organization",
+        "name": "RO-Crate Community",
+        "url": "https://www.researchobject.org/ro-crate/community",
+        "contactPoint": {"@id": "https://lists.elixir-europe.org/mailman/listinfo/ro-crate_elixir-europe.org"}
+      },
+      {
+        "@id": "https://ror.org/05gq02987",
+        "@type": "Organization",
+        "name": "Brown University",
+        "url": "http://www.brown.edu/"
+      },
+      { "@id": "http://sws.geonames.org/8152662/",
+        "@type": "Place",
+        "name": "Catalina Park",
+        "description": "Catalina Park is a disused motor racing venue, located at Katoomba ...",
+        "geo": {
+          "@id": "#b4168a98-8534-4c6d-a568-64a55157b656"
+        },
+        "identifier": "http://sws.geonames.org/8152662/",
+        "uri": "https://www.geonames.org/8152662/catalina-park.html"        
+      },
+      {
+        "@id": "#b4168a98-8534-4c6d-a568-64a55157b656",
+        "@type": "GeoCoordinates",
+        "latitude": "-33.7152",
+        "longitude": "150.30119",
+        "name": "Latitude: -33.7152 Longitude: 150.30119"
+      },
+      { "@id": "https://spdx.org/licenses/CC-BY-4.0",
+        "@type": "CreativeWork",
+        "name": "Creative Commons Attribution 4.0",
+        "description": "This is a human-readable summary of (and not a substitute for) the license.\nYou are free to:\n\n    Share — copy and redistribute the material in any medium or format\n    Adapt — remix, transform, and build upon the material\n    for any purpose, even commercially.\n\nThis license is acceptable for Free Cultural Works.\n    The licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n    Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\n    No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nNotices:\n    You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\n    No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
+      },
+      {
+        "@id": "https://lists.elixir-europe.org/mailman/listinfo/ro-crate_elixir-europe.org",
+        "@type": "ContactPoint",
+        "name": "RO-Crate Community mailing list",
+        "email": "ro-crate@elixir-europe.org",
+        "url": "https://lists.elixir-europe.org/mailman/listinfo/ro-crate_elixir-europe.org"
+      }
+  ]
+}
