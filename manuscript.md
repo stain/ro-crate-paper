@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d3e1b64d78aa6066a1015da9b9c455ce7d79888f/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3e1b64d78aa6066a1015da9b9c455ce7d79888f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d3e1b64d78aa6066a1015da9b9c455ce7d79888f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/6c40aeed859f6fa17693a6b13e3208fdc0420972/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6c40aeed859f6fa17693a6b13e3208fdc0420972/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/6c40aeed859f6fa17693a6b13e3208fdc0420972/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,13 +139,13 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/d3e1b64d78aa6066a1015da9b9c455ce7d79888f/))
+([permalink](https://stain.github.io/ro-crate-paper/v/6c40aeed859f6fa17693a6b13e3208fdc0420972/))
 was automatically generated
-from [stain/ro-crate-paper@d3e1b64](https://github.com/stain/ro-crate-paper/tree/d3e1b64d78aa6066a1015da9b9c455ce7d79888f)
+from [stain/ro-crate-paper@6c40aee](https://github.com/stain/ro-crate-paper/tree/6c40aeed859f6fa17693a6b13e3208fdc0420972)
 on November 2, 2021.
 </em></small>
 
-## Authors {-}
+# Authors {-}
 
 
 
@@ -309,7 +309,7 @@ on November 2, 2021.
   </small>
 
 
-## Abstract {-}
+# Abstract {-}
 
 
 

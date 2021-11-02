@@ -16,7 +16,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -100,7 +100,7 @@ Freiburg
 Frictionless
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -119,7 +119,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -240,7 +240,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
