@@ -13,4 +13,5 @@ metadata:
   csl: build/assets/style.csl
   link-citations: true
 number-sections: true  
-section-divs: true
+# Sadly section-divs:true breaks manubot plugins for toc and sections!
+section-divs: false
