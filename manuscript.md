@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b84077d915cca79a13e443c5828e0bb060d854a6/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b84077d915cca79a13e443c5828e0bb060d854a6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b84077d915cca79a13e443c5828e0bb060d854a6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,13 +139,13 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/))
+([permalink](https://stain.github.io/ro-crate-paper/v/b84077d915cca79a13e443c5828e0bb060d854a6/))
 was automatically generated
-from [stain/ro-crate-paper@7d2f11c](https://github.com/stain/ro-crate-paper/tree/7d2f11cc2402fb0d8a70471d0e5046581d927ef4)
+from [stain/ro-crate-paper@b84077d](https://github.com/stain/ro-crate-paper/tree/b84077d915cca79a13e443c5828e0bb060d854a6)
 on November 2, 2021.
 </em></small>
 
-## Authors {-}
+# Authors {-}
 
 
 
@@ -309,7 +309,7 @@ on November 2, 2021.
   </small>
 
 
-## Abstract {-}
+# Abstract {-}
 
 
 
@@ -1247,7 +1247,7 @@ As of 2021-10-04, the _RO-Crate_ Community members are:
 
 <hr />
 
-# References {- .page_break_before}
+# References {.unnumbered .page_break_before}
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>

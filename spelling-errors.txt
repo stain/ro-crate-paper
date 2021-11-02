@@ -16,7 +16,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -46,7 +46,7 @@ CRS
 CSV
 curation
 customized
-cwl
+CWL
 CWLProv
 cyber
 Czerniak
@@ -169,7 +169,7 @@ NodeJS
 NoSQL
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -234,7 +234,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
