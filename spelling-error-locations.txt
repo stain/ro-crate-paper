@@ -166,6 +166,7 @@ content/21d.contextual-entities.md:10:RO
 content/21d.contextual-entities.md:10:RO
 content/21d.contextual-entities.md:10:RO
 content/21d.contextual-entities.md:12:https
+content/21d.contextual-entities.md:12:jsonld
 content/21d.contextual-entities.md:12:PID
 content/21d.contextual-entities.md:12:PID
 content/21d.contextual-entities.md:12:researchobject
@@ -225,6 +226,7 @@ content/21g.simplicity.md:6:hoc
 content/21g.simplicity.md:6:https
 content/21g.simplicity.md:6:https
 content/21g.simplicity.md:6:https
+content/21g.simplicity.md:6:jsonld
 content/21g.simplicity.md:6:namespace
 content/21g.simplicity.md:6:PID
 content/21g.simplicity.md:6:researchobject
@@ -273,7 +275,7 @@ content/21h.extensibility.md:12:LD
 content/21h.extensibility.md:12:RDF
 content/21h.extensibility.md:12:RO
 content/21h.extensibility.md:12:RO
-content/21h.extensibility.md:14:RO
+content/21h.extensibility.md:14:inuse
 content/21h.extensibility.md:14:RO
 content/21h.extensibility.md:14:specialization
 content/22.implementation.md:1:RO
@@ -298,12 +300,15 @@ content/22.implementation.md:9:LD
 content/22.implementation.md:9:RDF
 content/22.implementation.md:9:RO
 content/22.implementation.md:11:JSON
+content/22.implementation.md:11:jsonld
 content/22.implementation.md:11:LD
 content/22.implementation.md:11:RO
+content/22.implementation.md:13:jsonld
 content/22.implementation.md:15:https
 content/22.implementation.md:15:json
 content/22.implementation.md:15:JSON
 content/22.implementation.md:15:JSON
+content/22.implementation.md:15:jsonld
 content/22.implementation.md:15:LD
 content/22.implementation.md:15:LD
 content/22.implementation.md:15:researchobject
@@ -380,6 +385,7 @@ content/22.implementation.md:73:RDF
 content/22.implementation.md:75:https
 content/22.implementation.md:75:json
 content/22.implementation.md:75:JSON
+content/22.implementation.md:75:jsonld
 content/22.implementation.md:75:ld
 content/22.implementation.md:75:researchobject
 content/22.implementation.md:75:ro
@@ -409,6 +415,7 @@ content/22.implementation.md:84:Bioschemas
 content/22.implementation.md:84:https
 content/22.implementation.md:84:JSON
 content/22.implementation.md:84:JSON
+content/22.implementation.md:84:jsonld
 content/22.implementation.md:84:LD
 content/22.implementation.md:84:ontologies
 content/22.implementation.md:84:pcdm
@@ -431,6 +438,7 @@ content/22.implementation.md:88:emphasize
 content/22.implementation.md:88:json
 content/22.implementation.md:88:JSON
 content/22.implementation.md:88:JSON
+content/22.implementation.md:88:jsonld
 content/22.implementation.md:88:LD
 content/22.implementation.md:88:RO
 content/23.community.md:1:RO
@@ -682,6 +690,7 @@ content/41.workflows.md:29:reusability
 content/41.workflows.md:31:EOSC
 content/41.workflows.md:31:https
 content/41.workflows.md:31:https
+content/41.workflows.md:31:jsonld
 content/41.workflows.md:31:lifemonitor
 content/41.workflows.md:31:LifeMonitor
 content/41.workflows.md:31:LifeMonitor
@@ -1174,10 +1183,8 @@ content/80.formal-definition.md:92:https
 content/80.formal-definition.md:92:spdx
 content/80.formal-definition.md:96:formalization
 content/80.formal-definition.md:96:JSON
-content/80.formal-definition.md:96:JSON
+content/80.formal-definition.md:96:jsonld
 content/80.formal-definition.md:96:LD
-content/80.formal-definition.md:96:LD
-content/80.formal-definition.md:96:RO
 content/80.formal-definition.md:96:RO
 content/80.formal-definition.md:96:RO
 content/80.formal-definition.md:96:serialization
@@ -1263,6 +1270,7 @@ content/80.formal-definition.md:206:RO
 content/80.formal-definition.md:207:https
 content/80.formal-definition.md:207:IRI
 content/80.formal-definition.md:207:json
+content/80.formal-definition.md:207:jsonld
 content/80.formal-definition.md:207:ld
 content/80.formal-definition.md:207:researchobject
 content/80.formal-definition.md:207:ro

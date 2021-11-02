@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-11-01'
+date-meta: '2021-11-02'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-11-01" />
-  <meta name="citation_publication_date" content="2021-11-01" />
+  <meta name="dc.date" content="2021-11-02" />
+  <meta name="citation_publication_date" content="2021-11-02" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/ba61180f4c2014da4969c65ce7e3e877b9987706/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ba61180f4c2014da4969c65ce7e3e877b9987706/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/ba61180f4c2014da4969c65ce7e3e877b9987706/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +139,10 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/ba61180f4c2014da4969c65ce7e3e877b9987706/))
+([permalink](https://stain.github.io/ro-crate-paper/v/7d2f11cc2402fb0d8a70471d0e5046581d927ef4/))
 was automatically generated
-from [stain/ro-crate-paper@ba61180](https://github.com/stain/ro-crate-paper/tree/ba61180f4c2014da4969c65ce7e3e877b9987706)
-on November 1, 2021.
+from [stain/ro-crate-paper@7d2f11c](https://github.com/stain/ro-crate-paper/tree/7d2f11cc2402fb0d8a70471d0e5046581d927ef4)
+on November 2, 2021.
 </em></small>
 
 ## Authors {-}
@@ -369,9 +369,9 @@ It is a good question as to what base level we assume for ‘conceptually simple
 
 For our development methodology we followed the mantra of working closely with a small group to really get a deep understanding of requirements and ensure rapid feedback loops. We created a pool of early adopter projects from a range of disciplines and groups, primarily addressing developers of platforms. Thus the base level for simplicity was **developer friendliness**. 
 
-We assumed a developer familiar with making Web applications with JSON data (who would then learn how to make _RO-Crate JSON-LD_), which informed core design choices for our JSON-level documentation approach and RO-Crate serialization (section {@sec:sec:implementation}). Our group of early adopters, growing as the community evolved, drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in Section {@sec:sec:community}. 
+We assumed a developer familiar with making Web applications with JSON data (who would then learn how to make _RO-Crate JSON-LD_), which informed core design choices for our JSON-level documentation approach and RO-Crate serialization (section {@sec:implementation}). Our group of early adopters, growing as the community evolved, drove the RO-Crate requirements and provided feedback through our multiple communication channels including bi-monthly meetings, which we describe in section {@sec:community}. 
 
-Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example with interactive tools  (section {@sec:sec:tooling}) like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and  Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87], and by close discussions with domain scientists on how to appropriately capture what they determine to be relevant metadata. This ultimately requires a new type of awareness and learning material separate from developer specifications, focusing on the simplicity of extensibility to serve the user needs, along with user-driven development of new RO-Crate Profiles specific for their needs (section {@sec:sec:inuse}).
+Addressing the simplicity of understanding and engaging with RO-Crate by data practitioners is through the platforms, for example with interactive tools  (section {@sec:tooling}) like [Describo](https://uts-eresearch.github.io/describo/) [@describo] and  Jupyter notebooks [@doi:10.3233/978-1-61499-649-1-87], and by close discussions with domain scientists on how to appropriately capture what they determine to be relevant metadata. This ultimately requires a new type of awareness and learning material separate from developer specifications, focusing on the simplicity of extensibility to serve the user needs, along with user-driven development of new RO-Crate Profiles specific for their needs (section {@sec:inuse}).
 
 
 
@@ -468,7 +468,7 @@ The next version of the RO-Crate specification 1.2 will define a [formalization]
 
 In addition, there are sometimes existing domain-specific metadata formats already exist, but they are either not RDF-based (and thus challenging to add terms for in JSON-LD) or are at a different granularity level that might become overwhelming if represented directly in the RO-Crate Metadata file (e.g. W3C PROV bundle detailing a workflow run [@doi:10.1093/gigascience/giz095]). RO-Crate allows such alternative metadata files to co-exist, and be described as data entities with references to the standards and vocabularies they conform to, enabling their programmatic consumption even where no filename or file extension conventions have emerged for those metadata formats.
 
-Section 4 _Profiles of RO-Crate in use_ examines the observed specialization of RO-Crate use in several domains and their emerging profiles.
+Section {@sec:inuse} examines the observed specialization of RO-Crate use in several domains and their emerging profiles.
 
 
 
@@ -1067,7 +1067,7 @@ license(<http://example.com/ro/123/interviews/>,
 
 ```
 
-Notable from this triple-like formalization is that a RO-Crate R is fully represented as a tree at depth 2 helped by the use of `𝕀𝕣𝕚` nodes. For instance the aggregation from the root entity `hasPart(…interviews/>)` is at same level as the data entity’s property `license(…CC-BY-NC-4.0>)` and that contextual entity’s attribute name `(…Non Commercial 4.0”)`. As shown in section RO-Crate JSON-LD, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of `"@context"` and `"@graph"`.
+Notable from this triple-like formalization is that a RO-Crate R is fully represented as a tree at depth 2 helped by the use of `𝕀𝕣𝕚` nodes. For instance the aggregation from the root entity `hasPart(…interviews/>)` is at same level as the data entity’s property `license(…CC-BY-NC-4.0>)` and that contextual entity’s attribute name `(…Non Commercial 4.0”)`. As shown in section {@sec:jsonld}, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of `"@context"` and `"@graph"`.
 
 In reality many additional attributes and contextual types from schema.org types like <http://schema.org/affiliation> and <http://schema.org/Organization> would be used to further describe the RO-Crate and its entities, but as these are optional (_SHOULD_ requirements) they do not form part of this formalization.
 
@@ -1245,7 +1245,9 @@ As of 2021-10-04, the _RO-Crate_ Community members are:
 * Xuanqi Li <https://orcid.org/0000-0003-1498-6205>
 
 
-## References {.page_break_before}
+<hr />
+
+# References {- .page_break_before}
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
