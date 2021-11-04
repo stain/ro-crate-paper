@@ -2479,6 +2479,78 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/BigData.2016.7840618\noriginal_standard_id: doi:10.1109/BigData.2016.7840618\nstandard_id: doi:10.1109/bigdata.2016.7840618"
   },
   {
+    "DOI": "10.1109/{eScience}.2012.6404482",
+    "ISBN": "978-1-4673-4466-1",
+    "URL": "https://www.research.manchester.ac.uk/portal/files/174861334/why_decay.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "Jun"
+      },
+      {
+        "family": "Gomez-Perez",
+        "given": "Jose Manuel"
+      },
+      {
+        "family": "Belhajjame",
+        "given": "Khalid"
+      },
+      {
+        "family": "Klyne",
+        "given": "Graham"
+      },
+      {
+        "family": "Garcia-Cuesta",
+        "given": "Esteban"
+      },
+      {
+        "family": "Garrido",
+        "given": "Aleix"
+      },
+      {
+        "family": "Hettne",
+        "given": "Kristina"
+      },
+      {
+        "family": "Roos",
+        "given": "Marco"
+      },
+      {
+        "family": "De Roure",
+        "given": "David"
+      },
+      {
+        "family": "Goble",
+        "given": "Carole"
+      }
+    ],
+    "container-title": "2012 IEEE 8th International Conference on E-Science",
+    "id": "CxpjGLx",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          10,
+          8
+        ]
+      ]
+    },
+    "page": "1-9",
+    "publisher": "IEEE",
+    "title": "Why workflows break - Understanding and combating decay in Taverna workflows",
+    "type": "paper-conference",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/eScience.2012.6404482\noriginal_standard_id: doi:10.1109/eScience.2012.6404482\nstandard_id: doi:10.1109/escience.2012.6404482"
+  },
+  {
     "DOI": "10.1109/eScience.2019.00068",
     "ISBN": "978-1-7281-2451-3",
     "URL": "https://ieeexplore.ieee.org/document/9041738/",
