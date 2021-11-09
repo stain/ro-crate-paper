@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-11-04'
+date-meta: '2021-11-09'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-11-04" />
-  <meta name="citation_publication_date" content="2021-11-04" />
+  <meta name="dc.date" content="2021-11-09" />
+  <meta name="citation_publication_date" content="2021-11-09" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/9dae7943f1e67188ad2dea4b51ec3affe14d2d38/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9dae7943f1e67188ad2dea4b51ec3affe14d2d38/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/9dae7943f1e67188ad2dea4b51ec3affe14d2d38/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/353b1358aae60d293d51a08ac3f65ad79032d42b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/353b1358aae60d293d51a08ac3f65ad79032d42b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/353b1358aae60d293d51a08ac3f65ad79032d42b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +139,10 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/9dae7943f1e67188ad2dea4b51ec3affe14d2d38/))
+([permalink](https://stain.github.io/ro-crate-paper/v/353b1358aae60d293d51a08ac3f65ad79032d42b/))
 was automatically generated
-from [stain/ro-crate-paper@9dae794](https://github.com/stain/ro-crate-paper/tree/9dae7943f1e67188ad2dea4b51ec3affe14d2d38)
-on November 4, 2021.
+from [stain/ro-crate-paper@353b135](https://github.com/stain/ro-crate-paper/tree/353b1358aae60d293d51a08ac3f65ad79032d42b)
+on November 9, 2021.
 </em></small>
 
 # Authors {-}
@@ -707,7 +707,7 @@ In addition to showcasing RO-Crate's extensibility, the testing profile is an ex
 
 \label{sec:regulatorysciences}
 
-[BioCompute Objects](https://www.biocomputeobject.org/) (BCO) [@doi:10.1371/journal.pbio.3000099] is a community-led effort to standardise submissions of computational workflows to biomedical regulators. For instance, a genomics sequencing pipeline, as part of a personalised cancer treatment study, can be submitted to the US Food and Drugs Administration (FDA) for approval. BCOs are formalised in the standard IEEE 2791-2020 [@doi:10.1109/IEEESTD.2020.9094416] as a combination of [JSON Schemas](https://opensource.ieee.org/2791-object/ieee-2791-schema/) that define the structure of JSON metadata files describing exemplar workflow runs in detail, covering aspects such as the usability and error domain of the workflow, its runtime requirements, the reference datasets used and representative output data produced.
+[BioCompute Objects](https://biocomputeobject.org/) (BCO) [@doi:10.1371/journal.pbio.3000099] is a community-led effort to standardise submissions of computational workflows to biomedical regulators. For instance, a genomics sequencing pipeline, as part of a personalised cancer treatment study, can be submitted to the US Food and Drugs Administration (FDA) for approval. BCOs are formalised in the standard IEEE 2791-2020 [@doi:10.1109/IEEESTD.2020.9094416] as a combination of [JSON Schemas](https://opensource.ieee.org/2791-object/ieee-2791-schema/) that define the structure of JSON metadata files describing exemplar workflow runs in detail, covering aspects such as the usability and error domain of the workflow, its runtime requirements, the reference datasets used and representative output data produced.
 
 BCOs provide a structured view over a particular workflow, informing regulators about its workings independently of the underlying workflow definition language. However, BCOs have only limited support for additional metadata.[^6] For instance, while the BCO itself can indicate authors and contributors, and in particular regulators and their review decisions, it cannot describe the provenance of individual data files or workflow definitions. 
 
