@@ -743,10 +743,10 @@ content/42a.regulatory-img.md:1:bco
 content/42a.regulatory-img.md:1:BCO
 content/42a.regulatory-img.md:1:BioCompute
 content/42a.regulatory-img.md:1:BioConda
+content/42a.regulatory-img.md:1:CWL
 content/42a.regulatory-img.md:1:datasets
 content/42a.regulatory-img.md:1:JSON
 content/42a.regulatory-img.md:1:LFS
-content/42a.regulatory-img.md:1:Nextflow
 content/42a.regulatory-img.md:1:ro
 content/42a.regulatory-img.md:1:RO
 content/42a.regulatory-img.md:1:RO
@@ -802,6 +802,7 @@ content/42.regulatory.md:18:BCO
 content/42.regulatory.md:18:BCO
 content/42.regulatory.md:18:conda
 content/42.regulatory.md:18:Conda
+content/42.regulatory.md:18:CWL
 content/42.regulatory.md:18:CWL
 content/42.regulatory.md:18:CWL
 content/42.regulatory.md:18:https
