@@ -816,10 +816,7 @@ content/42.regulatory.md:20:Schemas
 content/43.culturalheritage.md:5:https
 content/43.culturalheritage.md:5:https
 content/43.culturalheritage.md:5:https
-content/43.culturalheritage.md:5:https
 content/43.culturalheritage.md:5:NoSQL
-content/43.culturalheritage.md:5:ocfl
-content/43.culturalheritage.md:5:OCFL
 content/43.culturalheritage.md:5:paradisec
 content/43.culturalheritage.md:5:paradisec
 content/43.culturalheritage.md:5:paradisec
@@ -831,7 +828,9 @@ content/43.culturalheritage.md:5:RO
 content/43.culturalheritage.md:5:RO
 content/43.culturalheritage.md:5:RO
 content/43.culturalheritage.md:7:checksums
+content/43.culturalheritage.md:7:https
 content/43.culturalheritage.md:7:js
+content/43.culturalheritage.md:7:ocfl
 content/43.culturalheritage.md:7:OCFL
 content/43.culturalheritage.md:7:PARADISEC
 content/43.culturalheritage.md:7:PARADISEC
