@@ -96,12 +96,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -120,7 +120,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -241,7 +241,7 @@ Thelen
 Tomasz
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
