@@ -1155,6 +1155,53 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1016/j.patter.2020.100136"
   },
   {
+    "DOI": "10.1016/j.patter.2021.100322",
+    "ISSN": "26663899",
+    "PMCID": "PMC8441584",
+    "PMID": "34553169",
+    "abstract": "Reproducible computational research (RCR) is the keystone of the scientific method for in silico analyses, packaging the transformation of raw data to published results. In addition to its role in research integrity, improving the reproducibility of scientific studies can accelerate evaluation and reuse. This potential and wide support for the FAIR principles have motivated interest in metadata standards supporting reproducibility. Metadata provide context and provenance to raw data and methods and are essential to both discovery and validation. Despite this shared connection with scientific data, few studies have explicitly described how metadata enable reproducible computational research. This review employs a functional content analysis to identify metadata standards that support reproducibility across an analytic stack consisting of input data, tools, notebooks, pipelines, and publications. Our review provides background context, explores gaps, and discovers component trends of embeddedness and methodology weight from which we derive recommendations for future work. ©2021 The Authors.",
+    "author": [
+      {
+        "family": "Leipzig",
+        "given": "Jeremy"
+      },
+      {
+        "family": "Nüst",
+        "given": "Daniel"
+      },
+      {
+        "family": "Hoyt",
+        "given": "Charles Tapley"
+      },
+      {
+        "family": "Ram",
+        "given": "Karthik"
+      },
+      {
+        "family": "Greenberg",
+        "given": "Jane"
+      }
+    ],
+    "container-title": "Patterns",
+    "id": "lFb0YQEI",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          10
+        ]
+      ]
+    },
+    "keyword": "metadata and reproducibility",
+    "page": "100322",
+    "title": "The role of metadata in reproducible computational research",
+    "type": "article-journal",
+    "volume": "2",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1016/j.patter.2021.100322"
+  },
+  {
     "DOI": "10.1016/j.tibtech.2012.02.002",
     "PMID": "22417641",
     "URL": "http://dx.doi.org/10.1016/j.tibtech.2012.02.002",
@@ -2482,15 +2529,6 @@
     "DOI": "10.1109/{eScience}.2012.6404482",
     "ISBN": "978-1-4673-4466-1",
     "URL": "https://www.research.manchester.ac.uk/portal/files/174861334/why_decay.pdf",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          6,
-          11
-        ]
-      ]
-    },
     "author": [
       {
         "family": "Zhao",
@@ -5654,15 +5692,6 @@
     "DOI": "10125/4567",
     "ISBN": "978-0-9856211-2-4",
     "abstract": "At the turn of this century, a group of Australian linguistic and musicological researchers recognised that a number of small collections of unique and often irreplaceable field recordings mainly from the Melanesian and broader Pacific regions were not being properly housed and that there was no institution in the region with the capacity to take responsibility for them. The recordings were not held in appropriate conditions and so were deteriorating and in need of digitisation. Further, there was no catalog of their contents or their location so their existence was only known to a few people, typically colleagues of the collector. These practitioners designed the Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC), a digital archive based on internationally accepted standards (Dublin Core/Open Archives Initiative metadata, International Asociation of Sound Archives audio standards and so on) and obtained funding to build an audio digitisation suite in 2003. This is a new conception of a data repository, built into workflows and research methods of particular disciplines, respecting domain-specific ethical concerns and research priorities, but recognising the need to adhere to broader international standards. This paper outlines the way in which researchers involved in documenting languages of Melanesia can use PARADISEC to make valuable recordings available both to the research community and to the source communities.",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          11,
-          10
-        ]
-      ]
-    },
     "author": [
       {
         "family": "Thieberger",

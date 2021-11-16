@@ -1,3 +1,4 @@
+Adapters
 AGU
 Alasdair
 Andreas
@@ -16,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -96,7 +97,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -120,7 +121,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -142,7 +143,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -195,12 +196,13 @@ RDF
 RDFa
 RDFS
 realized
+recogized
 Replicable
 reproducibility
 Repurposable
 researchobject
 reusability
-Ro
+RO
 Rodríguez
 ROHub
 ROR
@@ -211,6 +213,7 @@ scalability
 schemas
 Sebby
 Sefton
+selfdescribed
 serialization
 serializations
 serialized
