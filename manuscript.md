@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-11-10'
+date-meta: '2021-11-16'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-11-10" />
-  <meta name="citation_publication_date" content="2021-11-10" />
+  <meta name="dc.date" content="2021-11-16" />
+  <meta name="citation_publication_date" content="2021-11-16" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -142,7 +142,7 @@ This manuscript
 ([permalink](https://stain.github.io/ro-crate-paper/v/bd43d8cd17e699473f44a545b8ebc7cb27738771/))
 was automatically generated
 from [stain/ro-crate-paper@bd43d8c](https://github.com/stain/ro-crate-paper/tree/bd43d8cd17e699473f44a545b8ebc7cb27738771)
-on November 10, 2021.
+on November 16, 2021.
 </em></small>
 
 # Authors {-}
