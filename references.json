@@ -5847,6 +5847,23 @@
     "type": "entry"
   },
   {
+    "URL": "https://docs.github.com/en/repositories/working-with-files/managing-large-files",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          18
+        ]
+      ]
+    },
+    "genre": "WEBSITE",
+    "id": "p3MbpwCM",
+    "title": "Managing large files - GitHub Docs",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: github-lfs",
+    "type": "entry"
+  },
+  {
     "URL": "http://repscience2016.research-infrastructures.eu/img/CaroleGoble-ReproScience2016v2.pdf",
     "accessed": {
       "date-parts": [

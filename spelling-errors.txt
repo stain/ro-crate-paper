@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -32,7 +32,6 @@ Catalog
 Center
 centric
 CheckMyCrate
-checksums
 Chenxu
 citable
 CLI
@@ -71,6 +70,7 @@ Describo
 Deutsche
 DFG
 dgarijov
+digitized
 discoverability
 DMP
 DOIs
@@ -97,12 +97,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus
@@ -121,6 +121,7 @@ INFRAEDI
 INFRAEOSC
 INFRAIA
 Instituut
+interation
 interoperable
 inuse
 InvenioRDM
@@ -162,13 +163,13 @@ namespaced
 namespaces
 Navas
 NCI’s
+neccessarily
 Nextflow
 NFDI
 NIST
 Niu
 NL
 NodeJS
-NoSQL
 OAC
 OAI
 OCFL
@@ -210,7 +211,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 selfdescribed
@@ -227,7 +228,6 @@ soilandreyes
 Sompel
 SPARQL
 SPDX
-specialization
 specializations
 specialized
 SSHRC
@@ -238,13 +238,13 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
