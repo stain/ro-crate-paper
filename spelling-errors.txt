@@ -86,6 +86,7 @@ EOSC
 eScience
 extensibility
 facto
+FAIRify
 FAIRplus
 FDO
 FDOs
@@ -107,6 +108,7 @@ GH
 Giacomo
 Globus
 Goble
+GraphDB
 Groth
 Grüning
 hdc
@@ -127,6 +129,7 @@ inuse
 InvenioRDM
 IRI
 Jael
+Jena
 JMFernand
 José
 js
@@ -157,6 +160,7 @@ metagenomics
 MGS
 Miksa
 mportier
+multimodal
 myExperiment
 namespace
 namespaced
@@ -176,6 +180,7 @@ OCFL
 Ojsteršek
 ONI
 ontologies
+OntoText
 Oostende
 OpenAIRE
 Organization
