@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/89616584427d38233991d0de008a32c0c445bbd7/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/89616584427d38233991d0de008a32c0c445bbd7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/89616584427d38233991d0de008a32c0c445bbd7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/89616584427d38233991d0de008a32c0c445bbd7/))
+([permalink](https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/))
 was automatically generated
-from [stain/ro-crate-paper@8961658](https://github.com/stain/ro-crate-paper/tree/89616584427d38233991d0de008a32c0c445bbd7)
+from [stain/ro-crate-paper@0886c8c](https://github.com/stain/ro-crate-paper/tree/0886c8c5913c05c210dfb62ba095acd8c68b5f9b)
 on November 19, 2021.
 </em></small>
 
@@ -597,7 +597,7 @@ DataCrate [@doi:10.5281/zenodo.1445817] was presented at RO2018 as a promising l
 
 This group, originally made up of library and Semantic Web experts, has subsequently grown to include domain scientists, developers, publishers and more. This perspective of multiple views led to the specification being used in a variety of domains, from bioinformatics and regulatory submissions to humanities and cultural heritage preservation. 
 
-The RO-Crate community is strongly engaged with the European-wide biology/bioinformatics collaborative e-Infrastructure, ELIXIR,  [@doi:10.1016/j.tibtech.2012.02.002], along with European Open Science Cloud ([EOSC](https://eosc.eu/)) projects including [EOSC-Life](https://www.eosc-life.eu/), [FAIRplus](https://fairplus-project.eu/), [CS3MESH4EOSC](https://cs3mesh4eosc.eu/) and [BY-COVID](https://by-covid.eu/). RO-Crate has also established collaborations with Bioschemas, [GA4GH](https://www.ga4gh.org/), OpenAIRE [@rettberg_2015_openaire] and multiple H2020 projects.
+The RO-Crate community is strongly engaged with the European-wide biology/bioinformatics collaborative e-Infrastructure, ELIXIR [@doi:10.1016/j.tibtech.2012.02.002], along with European Open Science Cloud ([EOSC](https://eosc.eu/)) projects including [EOSC-Life](https://www.eosc-life.eu/), [FAIRplus](https://fairplus-project.eu/), [CS3MESH4EOSC](https://cs3mesh4eosc.eu/) and [BY-COVID](https://by-covid.eu/). RO-Crate has also established collaborations with Bioschemas [@bioschemas_2017], GA4GH [@doi:10.1016/j.xgen.2021.100029],  OpenAIRE [@rettberg_2015_openaire] and multiple H2020 projects.
 
 A key set of stakeholders are developers: the RO-Crate community has made a point of attracting developers who can implement the specifications but, importantly, keeps “developer user experience” in mind. This means that the specifications are straightforward to implement and thus do not require expertise in technologies that are not widely deployed. 
 
