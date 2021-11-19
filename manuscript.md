@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a9a35a8f3548d0372355a3c26ba5ef58e9c34a77/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a9a35a8f3548d0372355a3c26ba5ef58e9c34a77/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a9a35a8f3548d0372355a3c26ba5ef58e9c34a77/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a9a35a8f3548d0372355a3c26ba5ef58e9c34a77/))
+([permalink](https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/))
 was automatically generated
-from [stain/ro-crate-paper@a9a35a8](https://github.com/stain/ro-crate-paper/tree/a9a35a8f3548d0372355a3c26ba5ef58e9c34a77)
+from [stain/ro-crate-paper@00258da](https://github.com/stain/ro-crate-paper/tree/00258da48dc4f756c945a327f5a9231ceceae422)
 on November 19, 2021.
 </em></small>
 
@@ -1019,22 +1019,24 @@ From this formalized language `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` we can interpre
 Below we use `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` to define a minimal[^8] RO-Crate:
 
 ```
-               ROCrate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ 
-                             Mentions(R, d) ∧ DataEntity(d) ∧
-                             Mentions(R, c) ∧ ContextualEntity(c)
-               ∀r Root(r) ⇒  Dataset(r) ∧ name(r, n) ∧ description(r, d) ∧ 
-                             published(r, date) ∧ license(e, l)
+                ROCrate(R) ⊨  Root(R) ∧ Mentions(R, R) ∧ hasPart(R, d) ∧ 
+                               Mentions(R, d) ∧ DataEntity(d) ∧
+                               Mentions(R, c) ∧ ContextualEntity(c)
+               ∀r Root(r) ⇒  Dataset(r) ∧ name(r, n) ∧ 
+                               description(r, d) ∧ 
+                               datePublished(r, date) ∧
+                               license(e, l)
           ∀e∀n name(e, n) ⇒  Value(n)
    ∀e∀s description(e, s) ⇒  Value(s)
  ∀e∀d datePublished(e, d) ⇒  Value(d)
        ∀e∀l license(e, l) ⇒  ContextualEntity(l)
-            DataEntity(e) ≡  File(e) ⊕ Dataset(e)
-                Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
+             DataEntity(e) ≡  File(e) ⊕ Dataset(e)
+                 Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
              ∀e Entity(e) ⇒  Class(e)
-           Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
-        Relation(s, p, o) ⊨  Entity(s) ∧ Property(p) ∧ Entity(o)
-       Attribute(s, p, x) ⊨  Entity(s) ∧ Property(p) ∧ Value(x)
-                 Value(x) ≡  x ∈ ℝ  ⊕  x ∈ 𝕊
+            Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
+         Relation(s, p, o) ⊨  Entity(s) ∧ Property(p) ∧ Entity(o)
+        Attribute(s, p, x) ⊨  Entity(s) ∧ Property(p) ∧ Value(x)
+                  Value(x) ≡  x ∈ ℝ  ⊕  x ∈ 𝕊
 ```
 
 An `ROCrate(R)` is defined as a self-described _Root Data Entity_, which describes and contains parts (_data entities_), which are further described in _contextual entities_.  These terms align with their use in the [RO-Crate 1.1 terminology](https://www.researchobject.org/ro-crate/1.1/terminology). 
@@ -1102,7 +1104,7 @@ based on the RDF abstract syntax [@rdfworkinggroup_2014]:
           Literal(v) ⊨ Value(v) ∧ Datatype(v,t) ∧ IRI(t)
          ∀v Value(v) ⇒ v ∈ 𝕊
     LanguageTag(v,l) ≡ Datatype(v,
-                         http://www.w3.org/1999/02/22-rdf-syntax-ns#langString)
+          http://www.w3.org/1999/02/22-rdf-syntax-ns#langString)
 ```
 
 Below follows a mapping from `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` to `𝕃𝖗𝖉𝖋` using schema.org.
@@ -1121,14 +1123,14 @@ datePublished(e, d) ⇒ Attribute(e, <http://schema.org/datePublished>, d)
       license(e, l) ⇒ Relation(e, <http://schema.org/license>, l) ∧
                       CreativeWork(l)
          type(e, t) ⇒ Relation(e,
-                        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>, t) ∧
+                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>, t) ∧
                       Class(t)
           String(s) ≡ Value(s) ∧  s ∈ 𝕊
           String(s) ⇒ Datatype(s, 
-                        <http://www.w3.org/2001/XMLSchema#string>)
+                  <http://www.w3.org/2001/XMLSchema#string>)
          Decimal(d) ≡ Value(d) ∧  d ∈ ℝ
          Decimal(d) ⇒ Datatype(d,
-                        <http://www.w3.org/2001/XMLSchema#decimal>)
+                  <http://www.w3.org/2001/XMLSchema#decimal>)
     Relation(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ IRI(o)
    Attribute(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ Literal(o)
 

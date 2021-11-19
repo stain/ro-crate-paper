@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRify
 FAIRplus
@@ -98,7 +98,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -147,7 +147,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -208,7 +208,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROHub
 ROR
@@ -244,7 +244,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
