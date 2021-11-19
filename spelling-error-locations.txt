@@ -499,10 +499,12 @@ content/23.community.md:23:Bioschemas
 content/23.community.md:23:covid
 content/23.community.md:23:COVID
 content/23.community.md:23:eosc
+content/23.community.md:23:eosc
 content/23.community.md:23:EOSC
 content/23.community.md:23:EOSC
 content/23.community.md:23:fairplus
 content/23.community.md:23:FAIRplus
+content/23.community.md:23:https
 content/23.community.md:23:https
 content/23.community.md:23:https
 content/23.community.md:23:https
