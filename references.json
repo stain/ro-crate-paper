@@ -6570,6 +6570,37 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10125/4567"
   },
   {
+    "URL": "https://www.dona.net/sites/default/files/2018-11/{DOIPv2Spec_1}.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "DONA Foundation"
+      }
+    ],
+    "id": "pDnfNOp2",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "publisher": "DONA foundation",
+    "title": "Digital Object Interface Protocol Specification, version 2.0",
+    "type": "report",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doip2.0"
+  },
+  {
     "URL": "http://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/",
     "accessed": {
       "date-parts": [

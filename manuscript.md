@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/3df3e3286aca2cac8d56d1b1a3afeb7107940e10/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3df3e3286aca2cac8d56d1b1a3afeb7107940e10/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/3df3e3286aca2cac8d56d1b1a3afeb7107940e10/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/0886c8c5913c05c210dfb62ba095acd8c68b5f9b/))
+([permalink](https://stain.github.io/ro-crate-paper/v/3df3e3286aca2cac8d56d1b1a3afeb7107940e10/))
 was automatically generated
-from [stain/ro-crate-paper@0886c8c](https://github.com/stain/ro-crate-paper/tree/0886c8c5913c05c210dfb62ba095acd8c68b5f9b)
+from [stain/ro-crate-paper@3df3e32](https://github.com/stain/ro-crate-paper/tree/3df3e3286aca2cac8d56d1b1a3afeb7107940e10)
 on November 19, 2021.
 </em></small>
 
@@ -817,7 +817,7 @@ RO-Bundle evolved to [Research Object BagIt archives,](https://w3id.org/ro/bagit
 
 FAIR Digital Objects (FDO) [@doi:10.3390/publications8020021] have been proposed as a conceptual framework for making digital resources available in a Digital Objects (DO) architecture which encourages active use of the objects and their metadata. In particular, an FDO has five parts: (i) The FDO _content_, bit sequences stored in an accessible repository; (ii) a _Persistent Identifier_ (PID) such as a DOI that identifies the FDO and can resolve these same parts; (iii) Associated rich _metadata_, as separate FDOs; (iv) Type definitions, also separate FDOs; (v) Associated _operations_ for the given types. A Digital Object typed as a Collection aggregates other DOs by reference.
 
-As an "[abstract protocol](https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.svg)", DOs could be implemented in multiple ways. One suggested implementation is the [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/), based on HTTP and the Linked Data Principles. While there is agreement on using PIDs based on DOIs, consensus on how to represent common metadata, core types and collections as FDOs has not yet been reached. We argue that RO-Crate can play an important role for FDOs:
+The Digital Object Interface Protocol [@doip2.0] can be considered an "abstract protocol" of requirements, DOs could be implemented in multiple ways. One suggested implementation is the [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/), based on HTTP and the Linked Data Principles. While there is agreement on using PIDs based on DOIs, consensus on how to represent common metadata, core types and collections as FDOs has not yet been reached. We argue that RO-Crate can play an important role for FDOs:
 
 1. By providing a predictable and extensible serialisation of structured metadata.
 2. By formalising how to aggregate digital objects as collections (and adding their context).

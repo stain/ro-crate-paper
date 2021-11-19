@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -103,7 +103,7 @@ Freiburg
 Frictionless
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -124,7 +124,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -147,7 +147,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -176,7 +176,7 @@ NL
 NodeJS
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
