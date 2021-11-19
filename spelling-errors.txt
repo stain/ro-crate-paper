@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -98,7 +98,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
@@ -124,7 +124,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -176,7 +176,7 @@ NL
 NodeJS
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -223,6 +223,7 @@ selfdescribed
 serialization
 serializations
 serialized
+SHACL
 Siebes
 silico
 simleo
@@ -243,7 +244,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz

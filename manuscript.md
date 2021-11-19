@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/a6dcb27487c4d538b31600b62183e94cb2f431ab/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a6dcb27487c4d538b31600b62183e94cb2f431ab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/a6dcb27487c4d538b31600b62183e94cb2f431ab/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/8bc1c69b09d165ee6d74dfa1366f70e21cd7dd2e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8bc1c69b09d165ee6d74dfa1366f70e21cd7dd2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8bc1c69b09d165ee6d74dfa1366f70e21cd7dd2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/a6dcb27487c4d538b31600b62183e94cb2f431ab/))
+([permalink](https://stain.github.io/ro-crate-paper/v/8bc1c69b09d165ee6d74dfa1366f70e21cd7dd2e/))
 was automatically generated
-from [stain/ro-crate-paper@a6dcb27](https://github.com/stain/ro-crate-paper/tree/a6dcb27487c4d538b31600b62183e94cb2f431ab)
+from [stain/ro-crate-paper@8bc1c69](https://github.com/stain/ro-crate-paper/tree/8bc1c69b09d165ee6d74dfa1366f70e21cd7dd2e)
 on November 19, 2021.
 </em></small>
 
@@ -400,13 +400,16 @@ The **Linked Data** principles [@doi:10.4018/978-1-60960-593-3.ch008] (use of IR
 
 RO-Crates are _self-described_ and follow the Linked Data principles to describe all of their resources in both human and machine readable manner.  Hence, resources are identified using global identifiers (absolute IRIs) where possible; and relationships between two resources are defined with links.
 
-The foundation of Linked Data and shared vocabularies also means that multiple RO-Crates and other Linked Data resources can be indexed, combined, queried or transformed using existing Semantic Web technologies such as [SPARQL](https://www.w3.org/TR/sparql11-overview) and well established _knowledge graph_ triple stores like [Apache Jena](https://jena.apache.org/) and [OntoText GraphDB](https://www.ontotext.com/products/graphdb/). 
+The foundation of Linked Data and shared vocabularies also means that multiple RO-Crates and other Linked Data resources can be indexed, combined, queried, validated or transformed using existing Semantic Web technologies such as [SPARQL](https://www.w3.org/TR/sparql11-overview), [SHACL](https://www.w3.org/TR/shacl/) and well established _knowledge graph_ triple stores like [Apache Jena](https://jena.apache.org/) and [OntoText GraphDB](https://www.ontotext.com/products/graphdb/). 
 
-This use of mature Web[^14] technologies means its developers and consumers are not restricted to the Research Object aspects that have already been specified by the RO-Crate community, but can extend and integrate RO-Crate in multiple standardized ways.
+The possibilities of consuming[^15] RO-Crate metadata with such powerful tools gives another strong reason for using Linked Data as a foundation. This use of mature Web[^14] technologies also means its developers and consumers are not restricted to the Research Object aspects that have already been specified by the RO-Crate community, but can extend and integrate RO-Crate in multiple standardized ways.
 
 [^1]: **IRI**s [@doi:10.17487/rfc3987] are a generalisation of *URI*s (which include well-known http/https URLs), permitting international Unicode characters without `%`-encoding, commonly used on the browser address bar and in HTML5.
 
 [^14]: Note that an RO-Crate is not required to be published on the Web, see section {@sec:selfdescribed}.
+
+[^15]: Some consideration is needed in processing of RO-Crates as knowledge graphs, e.g. establishing absolute URIs for files inside a ZIP archive, detailed in the RO-Crate specification: <https://www.researchobject.org/ro-crate/1.1/appendix/relative-uris.html>
+
 
 
 ### RO-Crate is a self-described container {#selfdescribed}
