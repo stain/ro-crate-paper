@@ -97,12 +97,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -122,7 +122,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -211,7 +211,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 selfdescribed

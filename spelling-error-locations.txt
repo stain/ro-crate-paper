@@ -1059,8 +1059,11 @@ content/61.futurework.md:9:COVID
 content/61.futurework.md:9:COVID
 content/61.futurework.md:9:https
 content/61.futurework.md:9:https
+content/61.futurework.md:9:https
 content/61.futurework.md:9:InvenioRDM
 content/61.futurework.md:9:NIST
+content/61.futurework.md:9:researchobject
+content/61.futurework.md:9:ro
 content/61.futurework.md:9:RO
 content/61.futurework.md:9:RO
 content/61.futurework.md:9:zenodo
