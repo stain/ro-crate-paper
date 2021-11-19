@@ -98,12 +98,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
 GDC
-genomic
+Genomic
 GH
 Giacomo
 Globus

@@ -265,7 +265,7 @@
   },
   {
     "ISBN": "9781563081910",
-    "URL": "https://eric.ed.gov/?id={ED387146}",
+    "URL": "https://eric.ed.gov/?id=ED387146",
     "abstract": "The Library of Congress Subject Headings (LCSH) system has become a primary subject retrieval tool in an environment that is very different from that for which it was designed and developed. This book is a comprehensive guide to the principles and application of LCSH that reflects changes and developments in the field. The text is divided into three parts. Part 1 gives a brief history of the system, analyzes its principles, and describes the vocabulary and subject authority control. Part 2 deals with the application of LC subject headings on LC MARC (Machine-readable cataloging) records. LC policies are outlined with regard to the assignment of subject headings in general and the treatment of certain types of materials in particular. Part 3 discusses the future prospects of the system as an online retrieval tool, drawing on recent literature. Appendices contain sample MARC subject authority records and bibliographic records, lists of the most frequently used free-floating",
     "accessed": {
       "date-parts": [
@@ -6570,7 +6570,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10125/4567"
   },
   {
-    "URL": "https://www.dona.net/sites/default/files/2018-11/{DOIPv2Spec_1}.pdf",
+    "URL": "https://www.dona.net/sites/default/files/2018-11/DOIPv2Spec_1.pdf",
     "accessed": {
       "date-parts": [
         [
