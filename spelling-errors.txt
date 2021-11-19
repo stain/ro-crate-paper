@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRify
 FAIRplus
@@ -98,7 +98,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
@@ -124,7 +124,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -147,7 +147,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -216,7 +216,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 selfdescribed
@@ -244,13 +244,13 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI

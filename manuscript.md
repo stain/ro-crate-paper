@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/00258da48dc4f756c945a327f5a9231ceceae422/))
+([permalink](https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/))
 was automatically generated
-from [stain/ro-crate-paper@00258da](https://github.com/stain/ro-crate-paper/tree/00258da48dc4f756c945a327f5a9231ceceae422)
+from [stain/ro-crate-paper@d2a2d6c](https://github.com/stain/ro-crate-paper/tree/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719)
 on November 19, 2021.
 </em></small>
 
@@ -1004,10 +1004,10 @@ Definition of language `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊`:
 
 ```
 𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊 = { Property(p), Class(c), Value(x), ℝ, 𝕊 }
-       𝔻 =  𝕀𝕣𝕚
-       𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
-        ℝ ≡  { real or integer numbers }
-        𝕊 ≡  { literal strings }
+     𝔻 =  𝕀𝕣𝕚
+    𝕀𝕣𝕚 ≡  { IRIs as defined in RFC3987 }
+     ℝ ≡  { real or integer numbers }
+     𝕊 ≡  { literal strings }
 ```
 
 The domain of discourse is the set of `𝕀𝕣𝕚` identifiers [@doi:10.17487/rfc3987] (notation `<http://example.com/>`)[^9], with additional descriptions using numbers `ℝ` (notation `13.37`) and literal strings `𝕊` (notation `“Hello”`). 
@@ -1110,12 +1110,14 @@ based on the RDF abstract syntax [@rdfworkinggroup_2014]:
 Below follows a mapping from `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` to `𝕃𝖗𝖉𝖋` using schema.org.
 
 ```
-        Property(p) ⇒ type(p, <http://www.w3.org/2000/01/rdf-schema#Property>)
-           Class(c) ⇒ type(c, <http://www.w3.org/2000/01/rdf-schema#Class>)
+        Property(p) ⇒ type(p,
+             <http://www.w3.org/2000/01/rdf-schema#Property>)
+           Class(c) ⇒ type(c,
+             <http://www.w3.org/2000/01/rdf-schema#Class>)
          Dataset(d) ⇒ type(d, <http://schema.org/Dataset>)
             File(f) ⇒ type(f, <http://schema.org/MediaObject>)
     CreativeWork(e) ⇒ ContextualEntity(e) ∧
-                      type(e, <http://schema.org/CreativeWork>)
+                        type(e, <http://schema.org/CreativeWork>)
       hasPart(e, t) ⇒ Relation(e, <http://schema.org/hasPart>, t)
          name(e, n) ⇒ Attribute(e, <http://schema.org/name>, n)
   description(e, s) ⇒ Attribute(e, <http://schema.org/description>, s)
@@ -1123,14 +1125,14 @@ datePublished(e, d) ⇒ Attribute(e, <http://schema.org/datePublished>, d)
       license(e, l) ⇒ Relation(e, <http://schema.org/license>, l) ∧
                       CreativeWork(l)
          type(e, t) ⇒ Relation(e,
-                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>, t) ∧
+             <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>, t) ∧
                       Class(t)
           String(s) ≡ Value(s) ∧  s ∈ 𝕊
           String(s) ⇒ Datatype(s, 
-                  <http://www.w3.org/2001/XMLSchema#string>)
+             <http://www.w3.org/2001/XMLSchema#string>)
          Decimal(d) ≡ Value(d) ∧  d ∈ ℝ
          Decimal(d) ⇒ Datatype(d,
-                  <http://www.w3.org/2001/XMLSchema#decimal>)
+             <http://www.w3.org/2001/XMLSchema#decimal>)
     Relation(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ IRI(o)
    Attribute(s,p,o) ⇒ Triple(s,p,o) ∧ IRI(s) ∧ Literal(o)
 
