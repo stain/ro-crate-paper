@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-11-19'
+date-meta: '2021-11-20'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-11-19" />
-  <meta name="citation_publication_date" content="2021-11-19" />
+  <meta name="dc.date" content="2021-11-20" />
+  <meta name="citation_publication_date" content="2021-11-20" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +139,10 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719/))
+([permalink](https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/))
 was automatically generated
-from [stain/ro-crate-paper@d2a2d6c](https://github.com/stain/ro-crate-paper/tree/d2a2d6cd22906255c63e9d8c2ca2fbf5aba07719)
-on November 19, 2021.
+from [stain/ro-crate-paper@90e4c82](https://github.com/stain/ro-crate-paper/tree/90e4c82451c6e51074be339019dfc3166132e9bc)
+on November 20, 2021.
 </em></small>
 
 # Authors {-}
@@ -1032,7 +1032,7 @@ Below we use `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` to define a minimal[^8] RO-Crate
        ∀e∀l license(e, l) ⇒  ContextualEntity(l)
              DataEntity(e) ≡  File(e) ⊕ Dataset(e)
                  Entity(e) ≡  DataEntity(e) ∨ ContextualEntity(e)
-             ∀e Entity(e) ⇒  Class(e)
+   ∀e ContextualEntity(e) ⇒  type(e, c) ∧ Class(c) ∧ name(e, n)
             Mentions(R, s) ⊨  Relation(s, p, e)  ⊕  Attribute(s, p, l)
          Relation(s, p, o) ⊨  Entity(s) ∧ Property(p) ∧ Entity(o)
         Attribute(s, p, x) ⊨  Entity(s) ∧ Property(p) ∧ Value(x)
@@ -1043,7 +1043,7 @@ An `ROCrate(R)` is defined as a self-described _Root Data Entity_, which describ
 
 The `Root(r)` is a type of `Dataset(r)`, and must have the metadata to literal attributes to provide a `name`, `description` and `datePublished`, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 [requirements for the root data entity](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#direct-properties-of-the-root-data-entity).
 
-The concept of an `Entity(e)` is introduced as being either a DataEntity(e), a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities); and must be typed with at least one `Class(e)`. 
+The concept of an `Entity(e)` is introduced as being either a `DataEntity(e)`, a `ContextualEntity(e)`, or [both](https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#contextual-vs-data-entities). Any `ContextualEntity` must be typed with at least one `Class(c)` and have a `name(e,n)`, corresponding to expectations for any _referenced contextual entity_ (section {@sec:contextualentities}). 
 
 For simplicity in this formalization (and to assist production rules below) `R` is a constant representing a single RO-Crate, typically written to independent RO-Crate Metadata files. `R` is used by `Mentions(R, e)` to indicate that `e` is an Entity described by the RO-Crate and therefore its metadata (a set of Relation and Attribute predicates) form part of the RO-Crate serialization. `Relation(s, p, o)` and `Attribute(s, p, x)` are defined as a _subject-predicate-object_ triple pattern from an `Entity(s)` using a `Property(p)` to either another `Entity(o)` or a `Literal(x)` value.
 
@@ -1116,6 +1116,7 @@ Below follows a mapping from `𝕃𝖗𝖔𝖈𝖗𝖆𝖙𝖊` to `𝕃𝖗𝖉
              <http://www.w3.org/2000/01/rdf-schema#Class>)
          Dataset(d) ⇒ type(d, <http://schema.org/Dataset>)
             File(f) ⇒ type(f, <http://schema.org/MediaObject>)
+ContextualEntity(e) ⇒ type(e, <http://schema.org/Thing>)
     CreativeWork(e) ⇒ ContextualEntity(e) ∧
                         type(e, <http://schema.org/CreativeWork>)
       hasPart(e, t) ⇒ Relation(e, <http://schema.org/hasPart>, t)
