@@ -20,7 +20,7 @@
   <meta name="author" content="RO-Crate Community" />
   <meta name="author" content="Paul Groth" />
   <meta name="author" content="Carole Goble" />
-  <meta name="dcterms.date" content="2021-11-20" />
+  <meta name="dcterms.date" content="2021-11-26" />
   <meta name="keywords" content="research object, linked data, scholarly communication, Data publishing, Data packaging, FAIR, Linked Data, Metadata, Reproducibility, Research Object" />
   <title>Packaging research artefacts with RO-Crate</title>
   <style>
@@ -105,8 +105,8 @@
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-11-20" />
-  <meta name="citation_publication_date" content="2021-11-20" />
+  <meta name="dc.date" content="2021-11-26" />
+  <meta name="citation_publication_date" content="2021-11-26" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -178,9 +178,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,10 +196,10 @@
 A DOI-citable preprint is available at <a href="https://doi.org/10.5281/zenodo.5146227" class="uri">https://doi.org/10.5281/zenodo.5146227</a> and <a href="https://arxiv.org/abs/2108.06503">arXiv:2108.06503</a></em></p>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/90e4c82451c6e51074be339019dfc3166132e9bc/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/90e4c82451c6e51074be339019dfc3166132e9bc">stain/ro-crate-paper@90e4c82</a>
-on November 20, 2021.
+from <a href="https://github.com/stain/ro-crate-paper/tree/5ec293a3ce408d27e426eb12a10b20790df2e64e">stain/ro-crate-paper@5ec293a</a>
+on November 26, 2021.
 </em></small></p>
 <h1 class="unnumbered" data-number="" id="authors">Authors</h1>
 <ul>
@@ -430,9 +430,9 @@ Department of Computer Science, The University of Manchester, UK
 <h3 data-number="2.2.6" id="profiles"><span class="header-section-number">2.2.6</span> Extensibility and RO-Crate profiles</h3>
 <p></p>
 <p>The RO-Crate specification provides a core set of conventions to describe research outputs using types and properties applicable across scientific domains. However we have found that domain-specific use of RO-Crate will, implicitly or explicitly, form a specialized <strong>profile</strong> of RO-Crate; i.e., <em>a set of conventions, types and properties that are minimally required and one can expect to be present in that subset of RO-Crates</em>. For instance, RO-Crates used for exchange of workflows will have to contain a data entity of type <code>ComputationalWorkflow</code>, or cultural heritage records should have a <code>contentLocation</code>.</p>
-<p>Making such profiles explicit allow further reliable programmatic consumption and generation of RO-Crates beyond the core types defined in the RO-Crate specification. Following the RO-Crate mantra of guidance over strictness, profiles are mainly <em>duck-typing</em> rather than strict syntactic or semantic types, but may also have corresponding machine-readable schemas at multiple levels (file formats, JSON, RDF shapes, RDFS/OWL semantics).</p>
-<p>The next version of the RO-Crate specification 1.2 will define a <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles">formalization</a> for publishing and declaring conformance to RO-Crate profiles. Such a profile is primarily a human-readable document of before-mentioned expectations and conventions, but may also define a machine-readable profile as a <strong>Profile Crate</strong>: Another RO-Crate that describe the profile and in addition can list schemas for validation, compatible software, applicable repositories, serialization/packaging formats, extension vocabularies, custom JSON-LD contexts and examples. (See for example the <a href="https://w3id.org/workflowhub/workflow-ro-crate/">Workflow RO-Crate profile</a>.</p>
-<p>In addition, there are sometimes existing domain-specific metadata formats, but they are either not RDF-based (and thus time-consuming to construct terms for in JSON-LD) or are at a different granularity level that might become overwhelming if represented directly in the RO-Crate Metadata file (e.g. W3C PROV bundle detailing every step execution of a workflow run <span class="citation" data-cites="4Pd3RTmI">[<a href="#ref-4Pd3RTmI" role="doc-biblioref">35</a>]</span>). RO-Crate allows such alternative metadata files to co-exist, and be described as data entities with references to the standards and vocabularies they conform to, enabling their programmatic consumption even where no filename or file extension conventions have emerged for those metadata formats.</p>
+<p>Making such profiles explicit allow further reliable programmatic consumption and generation of RO-Crates beyond the core types defined in the RO-Crate specification. Following the RO-Crate mantra of <em>guidance over strictness</em>, profiles are mainly <em>duck-typing</em> rather than strict syntactic or semantic types, but may also have corresponding machine-readable schemas at multiple levels (file formats, JSON, RDF shapes, RDFS/OWL semantics).</p>
+<p>The next version of the RO-Crate specification 1.2 will define a <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles">formalization</a> for publishing and declaring conformance to RO-Crate profiles. Such a profile is primarily a human-readable document of before-mentioned expectations and conventions, but may also define a machine-readable profile as a <strong>Profile Crate</strong>: Another RO-Crate that describe the profile and in addition can list schemas for validation, compatible software, applicable repositories, serialization/packaging formats, extension vocabularies, custom JSON-LD contexts and examples (see for example the <a href="https://w3id.org/workflowhub/workflow-ro-crate/">Workflow RO-Crate profile</a>).</p>
+<p>In addition, there are sometimes existing domain-specific metadata formats, but they are either not RDF-based (and thus time-consuming to construct terms for in JSON-LD) or are at a different granularity level that might become overwhelming if represented directly in the RO-Crate Metadata file (e.g. W3C PROV bundle detailing every step execution of a workflow run <span class="citation" data-cites="4Pd3RTmI">[<a href="#ref-4Pd3RTmI" role="doc-biblioref">35</a>]</span>). RO-Crate allows such <em>alternative metadata files</em> to co-exist, and be described as data entities with references to the standards and vocabularies they conform to. This simplifies further programmatic consumption even where no filename or file extension conventions have emerged for those metadata formats.</p>
 <p>Section <a href="#inuse">4</a> examines the observed specializations of RO-Crate use in several domains and their emerging profiles.</p>
 <h2 data-number="2.3" id="implementation"><span class="header-section-number">2.3</span> Technical implementation of the RO-Crate model</h2>
 <p></p>
@@ -792,22 +792,25 @@ Department of Computer Science, The University of Manchester, UK
 <p>From this we see that computational workflows are themselves complex digital objects that need to be recorded not just as files, but in the context of their execution environment, dependencies and analytical purpose in research – as well as other metadata (e.g. version, license, attribution and identifiers).</p>
 <h1 data-number="6" id="conclusion"><span class="header-section-number">6</span> Conclusion</h1>
 <p></p>
-<p>RO-Crate provides an approach to packaging digital research artefacts with structured metadata. This approach assists developers and researchers to produce and consume FAIR archives of their research.</p>
+<p>RO-Crate has been established as an approach to packaging digital research artefacts with structured metadata. This approach assists developers and researchers to produce and consume FAIR archives of their research.</p>
 <p>RO-Crate is formed by a set of best practice recommendations, developed by an open and broad community. These guidelines show how to use “just enough” Linked Data standards in a consistent way. The use of structured metadata with a rich base vocabulary can cover general-purpose contextual relations, with a Linked Data foundation that ensures extensibility to domain- and application-specific uses. We can therefore consider an RO-Crate not just as a structured data archive, but as a multimodal scholarly knowledge graph that can help “FAIRify” and combine metadata of existing resources.</p>
 <p>The adoption of simple Web technologies in the RO-Crate specification has helped a rapid development of a wide variety of supporting open source tools and libraries. RO-Crate fits into the larger landscape of open scholarly communication and FAIR Digital Object infrastructure, and can be integrated into data repository platforms. RO-Crate can be applied as a data/metadata exchange mechanism, assist in long-term archival preservation of metadata and data, or simply used at a small scale by individual researchers. Thanks to its strong community support, new and improved profiles and tools are being continuously added to the RO-Crate tooling landscape, making it easier for adopters to find examples and support for their own use case.</p>
+<h2 data-number="6.1" id="strictness-vs-flexibility"><span class="header-section-number">6.1</span> Strictness vs flexibility</h2>
+<p>There is always a tradeoff between flexibility and strictness <span class="citation" data-cites="1GpgwgQ6y">[<a href="#ref-1GpgwgQ6y" role="doc-biblioref">124</a>]</span> when deciding on semantics of metadata models. Strict requirements make it easier for users and code to consume and populate a model, by reducing choices and having mandated “slots” to fill in. But such rigidity can also restrict richness and applicability of the model, as it in turn enforce the initial assumptions about what can be described.</p>
+<p>RO-Crate attempts to strike a balance between these tensions, and provides a common metadata framework that encourages extensions. However, just like the RO-Crate specification can be thought of as a <em>core profile</em> of schema.org in JSON-LD, we cannot stress the importance of also establishing domain-specific RO-Crate profiles and conventions, as explored in sections <a href="#profiles">2.2.6</a> and <a href="#inuse">4</a>. Specialization comes hand-in-hand with the principle of <em>graceful degradation</em>; RO-Crate applications and users are free to choose the semantic detail level they participate at, as long as they follow the common syntactic requirements.</p>
 <h1 data-number="7" id="futurework"><span class="header-section-number">7</span> Future Work</h1>
 <p></p>
 <p>The direction of future RO-Crate work is determined by the community around it as a collaborative effort. We currently plan on further outreach, building training material (including a comprehensive entry-level tutorial) and maturing the reference implementation libraries. We will also collect and build examples of RO-Crate <em>consumption</em>, e.g. Jupyter Notebooks that query multiple crates using knowledge graphs. In addition, we are exploring ways to support some entity types requested by users, e.g. detailed workflow runs or container provenance, which do not have a good match in Schema.org. Such support could be added, for instance, by integrating other vocabularies or by having separated (but linked) metadata files.</p>
 <p>Furthermore, we want to better understand how the community uses RO-Crate in practice and how it contrasts with other related efforts; this will help us to improve our specification and tools. We plan to gather feedback via user studies, with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.</p>
-<p>We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. In addition we are targeting a wider audience through extensive <a href="https://www.researchobject.org/ro-crate/outreach.html">outreach activities</a> and by initiating new connections. Recent contacts include American Geophysical Union (AGU) on Data Citation Reliquary <span class="citation" data-cites="U1xkcqOk">[<a href="#ref-U1xkcqOk" role="doc-biblioref">124</a>]</span>, National Institute of Standards and Technology (NIST) on material science and <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a> used by the Zenodo data repository. New Horizon Europe projects adapting RO-Crate include <a href="https://by-covid.org/">BY-COVID</a>, which aims to improve FAIR access to data for COVID-19 and other infectious diseases.</p>
-<p>The main addition in the upcoming 1.2 release of the RO-Crate specifications will be the formalization of <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles">profiles</a> for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from <a href="https://frictionlessdata.io/">Frictionless Data</a>. We will be further aligning with and collaborating with related research artefact description efforts like <a href="https://codemeta.github.io/">CodeMeta</a> for software metadata, <a href="https://science-on-schema.org/">Science-on-schema.org</a> <span class="citation" data-cites="PWcjZsZl">[<a href="#ref-PWcjZsZl" role="doc-biblioref">125</a>]</span> for datasets, <a href="https://fairdo.org/">FAIR Digital Objects</a> <span class="citation" data-cites="k5pGkxd5">[<a href="#ref-k5pGkxd5" role="doc-biblioref">75</a>]</span> and activities in <a href="https://www.eosc.eu/task-force-faq">EOSC task forces</a> including the EOSC Interoperability Framework <span class="citation" data-cites="aCye3KpE">[<a href="#ref-aCye3KpE" role="doc-biblioref">16</a>]</span>.</p>
+<p>We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. In addition we are targeting a wider audience through extensive <a href="https://www.researchobject.org/ro-crate/outreach.html">outreach activities</a> and by initiating new connections. Recent contacts include American Geophysical Union (AGU) on Data Citation Reliquary <span class="citation" data-cites="U1xkcqOk">[<a href="#ref-U1xkcqOk" role="doc-biblioref">125</a>]</span>, National Institute of Standards and Technology (NIST) on material science and <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a> used by the Zenodo data repository. New Horizon Europe projects adapting RO-Crate include <a href="https://by-covid.org/">BY-COVID</a>, which aims to improve FAIR access to data for COVID-19 and other infectious diseases.</p>
+<p>The main addition in the upcoming 1.2 release of the RO-Crate specifications will be the formalization of <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles">profiles</a> for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from <a href="https://frictionlessdata.io/">Frictionless Data</a>. We will be further aligning with and collaborating with related research artefact description efforts like <a href="https://codemeta.github.io/">CodeMeta</a> for software metadata, <a href="https://science-on-schema.org/">Science-on-schema.org</a> <span class="citation" data-cites="PWcjZsZl">[<a href="#ref-PWcjZsZl" role="doc-biblioref">126</a>]</span> for datasets, <a href="https://fairdo.org/">FAIR Digital Objects</a> <span class="citation" data-cites="k5pGkxd5">[<a href="#ref-k5pGkxd5" role="doc-biblioref">75</a>]</span> and activities in <a href="https://www.eosc.eu/task-force-faq">EOSC task forces</a> including the EOSC Interoperability Framework <span class="citation" data-cites="aCye3KpE">[<a href="#ref-aCye3KpE" role="doc-biblioref">16</a>]</span>.</p>
 <h1 data-number="8" id="acknowledgements"><span class="header-section-number">8</span> Acknowledgements</h1>
 <p></p>
 <p>This work has received funding from the European Commission’s Horizon 2020 research and innovation programme for projects <a href="https://cordis.europa.eu/project/id/823830">BioExcel-2</a> (H2020-INFRAEDI-2018-1 823830), <a href="https://cordis.europa.eu/project/id/730976">IBISBA 1.0</a> (H2020-INFRAIA-2017-1-two-stage 730976), <a href="https://cordis.europa.eu/project/id/871118">PREP-IBISBA</a> (H2020-INFRADEV-2019-2 871118), <a href="https://cordis.europa.eu/project/id/824087">EOSC-Life</a> (H2020-INFRAEOSC-2018-2 824087), <a href="https://cordis.europa.eu/project/id/823827">SyntheSys+</a> (H2020-INFRAIA-2018-1 823827). From the Horizon Europe Framework Programme this work has received funding for <a href="https://cordis.europa.eu/project/id/101046203">BY-COVID</a> (HORIZON-INFRA-2021-EMERGENCY-01 101046203).</p>
 <p>Björn Grüning is supported by DataPLANT (<a href="https://gepris.dfg.de/gepris/projekt/442077441">NFDI 7/1 – 42077441</a>), part of the German National Research Data Infrastructure (NFDI), funded by the Deutsche Forschungsgemeinschaft (DFG).</p>
 <p>Ana Trisovic is funded by the Alfred P. Sloan Foundation <a href="https://sloan.org/grant-detail/9555">(grant number P-2020-13988)</a>. Harvard Data Commons is supported by an award from Harvard University Information Technology (HUIT).</p>
 <h2 data-number="8.1" id="contributions"><span class="header-section-number">8.1</span> Contributions</h2>
-<p>Author contributions to this article and the RO-Crate projet according to the Contributor Roles Taxonomy <a href="https://casrai.org/credit/">CASRAI CrEDiT</a> <span class="citation" data-cites="ewNBB7el">[<a href="#ref-ewNBB7el" role="doc-biblioref">126</a>]</span>:</p>
+<p>Author contributions to this article and the RO-Crate projet according to the Contributor Roles Taxonomy <a href="https://casrai.org/credit/">CASRAI CrEDiT</a> <span class="citation" data-cites="ewNBB7el">[<a href="#ref-ewNBB7el" role="doc-biblioref">127</a>]</span>:</p>
 <dl>
 <dt>Stian Soiland-Reyes</dt>
 <dd>Conceptualization, Data curation, Formal Analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review &amp; editing
@@ -954,7 +957,7 @@ license(&lt;http://example.com/ro/123/interviews/&gt;,
 <p>In reality many additional attributes and contextual types from schema.org types like <a href="http://schema.org/affiliation" class="uri">http://schema.org/affiliation</a> and <a href="http://schema.org/Organization" class="uri">http://schema.org/Organization</a> would be used to further describe the RO-Crate and its entities, but as these are optional (<em>SHOULD</em> requirements) they do not form part of this formalization.</p>
 <h2 data-number="9.4" id="mapping-to-rdf-with-schema.org"><span class="header-section-number">9.4</span> Mapping to RDF with schema.org</h2>
 <p>A formalized RO-Crate can be mapped to different serializations. Assume a simplified<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> language <code>𝕃ʀᴅꜰ</code>
-based on the RDF abstract syntax <span class="citation" data-cites="lSR394ye">[<a href="#ref-lSR394ye" role="doc-biblioref">127</a>]</span>:</p>
+based on the RDF abstract syntax <span class="citation" data-cites="lSR394ye">[<a href="#ref-lSR394ye" role="doc-biblioref">128</a>]</span>:</p>
 <pre><code>                𝕃𝖗𝖉𝖋 = { Triple(s,p,o), IRI(i), BlankNode(b), Literal(s),
                          𝕀𝕣𝕚, ℝ, 𝕊 }
                 𝔻𝖗𝖉𝖋 = 𝕊
@@ -1684,7 +1687,7 @@ DOI: <a href="https://doi.org/10.3233/APC200107">10.3233/apc200107</a></p>
 <div id="ref-wIuPSf9U">
 <p>107. <strong>Application of BagIt-Serialized Research Object Bundles for Packaging and Re-Execution of Computational Analyses</strong> <br />
 Kyle Chard, Niall Gaffney, Matthew B. Jones, Kacper Kowalik, Bertram Ludascher, Timothy McPhillips, Jarek Nabrzyski, Victoria Stodden, Ian Taylor, Thomas Thelen, … Craig Willis<br />
-<em>15th International Conference on eScience (eScience 2019)</em> (2019-09-24) <a href="https://ieeexplore.ieee.org/document/9041738/">https://ieeexplore.ieee.org/document/9041738/</a> <br />
+<em>15th International Conference on eScience (eScience 2019)</em> (2019-09-24) <br />
 DOI: <a href="https://doi.org/10.1109/eScience.2019.00068">10.1109/escience.2019.00068</a> · ISBN: <a href="https://worldcat.org/isbn/978-1-7281-2451-3">978-1-7281-2451-3</a></p>
 </div>
 <div id="ref-pDnfNOp2">
@@ -1778,26 +1781,32 @@ Enis Afgan, Dannon Baker, Bérénice Batut, Marius van den Beek, Dave Bouvier, M
 <em>Nucleic Acids Research</em> (2018-07-02) <br />
 DOI: <a href="https://doi.org/10.1093/nar/gky379">10.1093/nar/gky379</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29790989">29790989</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030816">PMC6030816</a></p>
 </div>
+<div id="ref-1GpgwgQ6y">
+<p>124. <strong>VAMP: a service for validating MPEG-7 descriptions w.r.t. to formal profile definitions</strong> <br />
+Raphaël Troncy, Werner Bailer, Martin Höffernig, Michael Hausenblas<br />
+<em>Multimedia tools and applications</em> (2010-01) <br />
+DOI: <a href="https://doi.org/10.1007/s11042-009-0397-2">10.1007/s11042-009-0397-2</a></p>
+</div>
 <div id="ref-U1xkcqOk">
-<p>124. <strong>Data Citation Community of Practice - 8 June 2021 Workshop</strong> <br />
+<p>125. <strong>Data Citation Community of Practice - 8 June 2021 Workshop</strong> <br />
 Deborah Agarwal, Carole Goble, Stian Soiland-Reyes, Ugis Sarkans, Daniel Noesgaard, Uwe Schindler, Martin Fenner, Paolo Manghi, Shelley Stall, Caroline Coward, Chris Erdmann<br />
 <em>Zenodo/AGU</em> (2021-06) <a href="https://data.agu.org/DataCitationCoP/2nd-workshop-data-citation">https://data.agu.org/DataCitationCoP/2nd-workshop-data-citation</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.4916734">10.5281/zenodo.4916734</a></p>
 </div>
 <div id="ref-PWcjZsZl">
-<p>125. <strong>Science-on-Schema.org v1.2.0</strong> <br />
+<p>126. <strong>Science-on-Schema.org v1.2.0</strong> <br />
 Matthew B. Jones, Stephen Richard, Dave Vieglais, Adam Shepherd, Ruth Duerr, Dougl Fils, Lewis McGibbney<br />
 <em>Zenodo</em> (2021-02) <a href="https://science-on-schema.org/">https://science-on-schema.org/</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.4477164">10.5281/zenodo.4477164</a></p>
 </div>
 <div id="ref-ewNBB7el">
-<p>126. <strong>Beyond authorship: attribution, contribution, collaboration, and credit</strong> <br />
+<p>127. <strong>Beyond authorship: attribution, contribution, collaboration, and credit</strong> <br />
 Amy Brand, Liz Allen, Micah Altman, Marjorie Hlava, Jo Scott<br />
 <em>Learned Publishing</em> (2015-04-01) <br />
 DOI: <a href="https://doi.org/10.1087/20150211">10.1087/20150211</a></p>
 </div>
 <div id="ref-lSR394ye">
-<p>127. <strong>RDF 1.1 Concepts and Abstract Syntax</strong> <br />
+<p>128. <strong>RDF 1.1 Concepts and Abstract Syntax</strong> <br />
 RDF Working Group<br />
 <em>W3C</em> (2014-02-25) <a href="https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/">https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/</a></p>
 </div>
