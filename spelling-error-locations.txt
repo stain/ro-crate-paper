@@ -1072,6 +1072,15 @@ content/60.conclusion.md:9:RO
 content/60.conclusion.md:9:RO
 content/60.conclusion.md:9:RO
 content/60.conclusion.md:9:RO
+content/60.conclusion.md:14:tradeoff
+content/60.conclusion.md:16:inuse
+content/60.conclusion.md:16:JSON
+content/60.conclusion.md:16:LD
+content/60.conclusion.md:16:RO
+content/60.conclusion.md:16:RO
+content/60.conclusion.md:16:RO
+content/60.conclusion.md:16:RO
+content/60.conclusion.md:16:Specialization
 content/61.futurework.md:5:Jupyter
 content/61.futurework.md:5:RO
 content/61.futurework.md:5:RO

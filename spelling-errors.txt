@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRify
 FAIRplus
@@ -216,7 +216,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 selfdescribed
@@ -234,6 +234,7 @@ soilandreyes
 Sompel
 SPARQL
 SPDX
+Specialization
 specializations
 specialized
 SSHRC
@@ -248,6 +249,7 @@ TavernaPROV
 templating
 Thelen
 Tomasz
+tradeoff
 Trisovic
 UGent
 UML
