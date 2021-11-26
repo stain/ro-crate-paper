@@ -50,7 +50,7 @@ ROCrate(R)                                  & \models & Root(R) \land Mentions(R
 \forall e \forall l \ license(e, l)         & \Rightarrow & ContextualEntity(l) \\
 DataEntity(e)                               & \equiv &      File(e) \oplus Dataset(e) \\
 Entity(e)                                   & \equiv &      DataEntity(e) \lor ContextualEntity(e) \\
-\forall e \ Entity(e)                       & \Rightarrow & type(e, c) \land Class(e) \\
+\forall e \ Entity(e)                       & \Rightarrow & type(e, c) \land Class(c) \\
 \forall e \ ContextualEntity(e)             & \Rightarrow & name(e, n)  \\
 Mentions(R, s)                              & \models &     Relation(s, p, e) \oplus Attribute(s,  p, l) \\
 Relation(s, p, o)                           & \models &     Entity(s) \land Property(p) \land  Entity(o) \\
