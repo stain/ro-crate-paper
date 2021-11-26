@@ -87,6 +87,7 @@ eScience
 extensibility
 facto
 FAIRify
+FAIRifying
 FAIRplus
 FDO
 FDOs
@@ -176,7 +177,7 @@ NL
 NodeJS
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -208,7 +209,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-ro
+RO
 Rodríguez
 ROHub
 ROR
@@ -216,7 +217,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 selfdescribed
@@ -252,7 +253,7 @@ Tomasz
 tradeoff
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
