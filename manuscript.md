@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/0db8601a6eecc86a50930d27e891073926dc0700/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0db8601a6eecc86a50930d27e891073926dc0700/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/0db8601a6eecc86a50930d27e891073926dc0700/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/5ec293a3ce408d27e426eb12a10b20790df2e64e/))
+([permalink](https://stain.github.io/ro-crate-paper/v/0db8601a6eecc86a50930d27e891073926dc0700/))
 was automatically generated
-from [stain/ro-crate-paper@5ec293a](https://github.com/stain/ro-crate-paper/tree/5ec293a3ce408d27e426eb12a10b20790df2e64e)
+from [stain/ro-crate-paper@0db8601](https://github.com/stain/ro-crate-paper/tree/0db8601a6eecc86a50930d27e891073926dc0700)
 on November 26, 2021.
 </em></small>
 
@@ -875,9 +875,9 @@ RO-Crate attempts to strike a balance between these tensions, and provides a com
 
 The direction of future RO-Crate work is determined by the community around it as a collaborative effort. We currently plan on further outreach, building training material (including a comprehensive entry-level tutorial) and maturing the reference implementation libraries. We will also collect and build examples of RO-Crate _consumption_, e.g. Jupyter Notebooks that query multiple crates using knowledge graphs. In addition, we are exploring ways to support some entity types requested by users, e.g. detailed workflow runs or container provenance, which do not have a good match in Schema.org. Such support could be added, for instance, by integrating other vocabularies or by having separated (but linked) metadata files. 
 
-Furthermore, we want to better understand how the community uses RO-Crate in practice and how it contrasts with other related efforts; this will help us to improve our specification and tools. We plan to gather feedback via user studies, with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.
+Furthermore, we want to better understand how the community uses RO-Crate in practice and how it contrasts with other related efforts; this will help us to improve our specification and tools. By discovering commonalities in emerging usage (e.g. additional schema.org types), the community helps to reduce divergence that could otherwise occur with proliferation of further RO-Crate profiles. We plan to gather feedback via user studies, with the Linked Open Data community or as part of EOSC Bring-your-own-Data training events.
 
-We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. In addition we are targeting a wider audience through extensive [outreach activities](https://www.researchobject.org/ro-crate/outreach.html) and by initiating new connections. Recent contacts include American Geophysical Union (AGU) on Data Citation Reliquary [@doi:10.5281/zenodo.4916734],  National Institute of Standards and Technology (NIST) on material science and [InvenioRDM](https://inveniosoftware.org/products/rdm/) used by the Zenodo data repository. New Horizon Europe projects adapting RO-Crate include [BY-COVID](https://by-covid.org/), which aims to improve FAIR access to data for COVID-19 and other infectious diseases. 
+We operate in an open community where future and potential users of RO-Crate are actively welcomed to participate and contribute feedback and requirements. In addition we are targeting a wider audience through extensive [outreach activities](https://www.researchobject.org/ro-crate/outreach.html) and by initiating new connections. Recent contacts include American Geophysical Union (AGU) on Data Citation Reliquary [@doi:10.5281/zenodo.4916734],  National Institute of Standards and Technology (NIST) on material science and [InvenioRDM](https://inveniosoftware.org/products/rdm/) used by the Zenodo data repository. New Horizon Europe projects adapting RO-Crate include [BY-COVID](https://by-covid.org/), which aims to improve FAIR access to data on COVID-19 and other infectious diseases. 
 
 The main addition in the upcoming 1.2 release of the RO-Crate specifications will be the formalization of [profiles](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles) for different categories of crates. Additional entity types have been requested by users, e.g. workflow runs, business workflows, containers and software packages, tabular data structures; these are not always matched well with existing schema.org types but may benefit from other vocabularies or even separate metadata files, e.g. from [Frictionless Data](https://frictionlessdata.io/). We will be further aligning with and collaborating with related research artefact description efforts like [CodeMeta](https://codemeta.github.io/) for software metadata,  [Science-on-schema.org](https://science-on-schema.org/) [@doi:10.5281/zenodo.4477164] for datasets, [FAIR Digital Objects](https://fairdo.org/) [@@doi:10.3390/publications8020021] and activities in [EOSC task forces](https://www.eosc.eu/task-force-faq) including the EOSC Interoperability Framework [@doi:10.2777/620649].
 
