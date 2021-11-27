@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRify
 FAIRifying
@@ -99,12 +99,12 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -125,7 +125,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -148,7 +148,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -246,7 +246,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
