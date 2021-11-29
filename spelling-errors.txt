@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRify
 FAIRifying
@@ -177,7 +177,7 @@ NL
 NodeJS
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
@@ -209,7 +209,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROHub
 ROR
