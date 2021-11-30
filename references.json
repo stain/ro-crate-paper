@@ -144,13 +144,13 @@
     "type": "entry"
   },
   {
-    "URL": "https://about.workflowhub.eu/",
+    "URL": "https://w3id.org/workflowhub/",
     "accessed": {
       "date-parts": [
         [
           2021,
-          5,
-          4
+          11,
+          30
         ]
       ]
     },
@@ -6445,9 +6445,9 @@
     },
     "publisher": "Zenodo",
     "title": "RO Crates and Excel",
-    "type": "book",
     "version": "v1.0.0",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.5068950"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.5068950",
+    "type": "entry"
   },
   {
     "DOI": "10.5281/zenodo.51314",
@@ -6620,7 +6620,8 @@
     },
     "author": [
       {
-        "family": "DONA Foundation"
+        "family": "Foundation",
+        "given": "DONA"
       }
     ],
     "id": "pDnfNOp2",
