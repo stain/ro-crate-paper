@@ -638,12 +638,12 @@
         ]
       ]
     },
-    "note": "(Available from institutional repository https://www.persistent-identifier.nl/urn:nbn:nl:ui:18-14511 )\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1007/s11042-009-0397-2",
     "page": "307-329",
     "title": "VAMP: a service for validating MPEG-7 descriptions w.r.t. to formal profile definitions",
     "title-short": "VAMP",
     "type": "article-journal",
-    "volume": "46"
+    "volume": "46",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1007/s11042-009-0397-2"
   },
   {
     "DOI": "10.1007/s41019-017-0050-4",
@@ -3542,11 +3542,11 @@
         ]
       ]
     },
-    "note": "(preprint available at https://zenodo.org/record/3381754 )\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/eScience.2019.00068\noriginal_standard_id: doi:10.1109/eScience.2019.00068\nstandard_id: doi:10.1109/escience.2019.00068",
     "page": "514-521",
     "publisher": "IEEE",
     "title": "Application of BagIt-Serialized Research Object Bundles for Packaging and Re-Execution of Computational Analyses",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/eScience.2019.00068\noriginal_standard_id: doi:10.1109/eScience.2019.00068\nstandard_id: doi:10.1109/escience.2019.00068"
   },
   {
     "DOI": "10.1109/IEEESTD.2020.9094416",

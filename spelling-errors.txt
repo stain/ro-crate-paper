@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-bioinformatics
+Bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -84,7 +84,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-Extensibility
+extensibility
 facto
 FAIRify
 FAIRifying
@@ -100,7 +100,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -126,7 +126,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -247,14 +247,14 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
 tradeoff
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
