@@ -1,23 +1,20 @@
 # Manuscript: Packaging research artefacts with RO-Crate
 
 [![HTML from Manubot](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://stain.github.io/ro-crate-paper/)
-[![PDF from Manubot](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://stain.github.io/ro-crate-paper/manuscript.pdf)
+[![PDF from LaTeX](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.pdf)
+[!RO-Crate](https://img.shields.io/badge/Research%20Object-Crate-darkcyan.svg)(https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/)
 [![GitHub Actions Status](https://github.com/stain/ro-crate-paper/workflows/Manubot/badge.svg)](https://github.com/stain/ro-crate-paper/actions)
-[![Travis Build Status](https://travis-ci.com/stain/ro-crate-paper.svg?branch=master)](https://travis-ci.com/stain/ro-crate-paper)
-<!-- usage note: delete CI badges above for services not used by your manuscript -->
-
-* [Overleaf manuscript](https://www.overleaf.com/project/608fad8dd252db7a12860c71) 
 
 ## Manuscript description
 
-This is the manuscript for the paper _Packaging research artifacts with RO-Crate_, accepted for the journal [Data Science](https://www.iospress.nl/journal/data-science/).
+This is the manuscript source for the paper _Packaging research artifacts with RO-Crate_, accepted for the journal [Data Science](https://www.iospress.nl/journal/data-science/).
 
 The manuscript is edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
 
 The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs; see `bin/build.sh` for workarounds.
 
 
-The manuscript is currently in a kind of hybrid mode:
+The manuscript is in a kind of hybrid mode:
 
 1. Overleaf uses Luatex to render PDF according to the Data Science template, see <https://www.overleaf.com/read/gbmzkwyhjnzc>
 2. Manubot runs automatically from Git commit and publishes HTML to https://stain.github.io/ro-crate-paper/
@@ -34,6 +31,8 @@ Why still the HTML? Well, https://www.iospress.nl/journal/data-science/ encourag
 * [LuaLatex](http://www.luatex.org/) (for Unicode support) from TeX Live 2020
 * [fontspec](https://ctan.org/pkg/fontspec)
 * [markdown](https://ctan.org/pkg/markdown) (for embedding `content/*.md`)
+
+If you have Docker, then `make` will build the manuscript PDF.
 
 ### Repository directories & files
 
