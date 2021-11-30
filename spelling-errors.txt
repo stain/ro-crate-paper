@@ -99,7 +99,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -125,7 +125,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -148,7 +148,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-lj
+LJ
 ljgarcia
 Ludwigs
 maDMP
@@ -246,14 +246,14 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaPROV
+TavernaProv
 templating
 Thelen
 Tomasz
 tradeoff
 Trisovic
 UGent
-UML
+uml
 Universidad
 unshortened
 URI
