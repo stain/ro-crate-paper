@@ -17,7 +17,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -100,7 +100,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
@@ -126,7 +126,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-interoperable
+Interoperable
 inuse
 InvenioRDM
 IRI
@@ -218,7 +218,7 @@ ROs
 runnable
 runtime
 scalability
-Schemas
+schemas
 Sebby
 Sefton
 selfdescribed
