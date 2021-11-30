@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/2908f2ec4268ca59a23c23862774d76b7971354c/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2908f2ec4268ca59a23c23862774d76b7971354c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/2908f2ec4268ca59a23c23862774d76b7971354c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/cf1b1e13696a32099b9a5be2de791607dbb1f9da/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf1b1e13696a32099b9a5be2de791607dbb1f9da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/cf1b1e13696a32099b9a5be2de791607dbb1f9da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/2908f2ec4268ca59a23c23862774d76b7971354c/))
+([permalink](https://stain.github.io/ro-crate-paper/v/cf1b1e13696a32099b9a5be2de791607dbb1f9da/))
 was automatically generated
-from [stain/ro-crate-paper@2908f2e](https://github.com/stain/ro-crate-paper/tree/2908f2ec4268ca59a23c23862774d76b7971354c)
+from [stain/ro-crate-paper@cf1b1e1](https://github.com/stain/ro-crate-paper/tree/cf1b1e13696a32099b9a5be2de791607dbb1f9da)
 on November 30, 2021.
 </em></small>
 
@@ -841,7 +841,7 @@ However detailed this additional information might be, another researcher who wa
 
 Following the textual description alone, researchers would be forced to jump straight to evaluate “Replicable” by rewriting the pipeline from scratch. This can be expensive and error-prone. They would firstly need to install all the software dependencies and download reference datasets. This can be a daunting task, which may have to be repeated multiple times as workflows typically are developed at small scale on desktop computers, scaled up to local clusters, and potentially put into production using cloud instances, each of which will have different requirements for software installations.
 
-In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, these technologies have been increasingly adopted in life sciences [@doi:10.1007/s41019-017-0050-4] thanks to collaborative efforts such as BioConda [@doi:10.1038/s41592-018-0046-7] and BioContainers [@doi:10.1093/bioinformatics/btx192], and support by Linux distributions (e.g. Debian Med [@doi:10.1186/1471-2105-11-S12-S5]). As of November 2021, more than 9,000 software packages are available [in BioConda alone] (https://anaconda.org/bioconda/), and 10,000 containers [in BioContainers](https://biocontainers.pro/#/registry). 
+In recent years the situation has been greatly improved by software packaging and container technologies like Docker and Conda, these technologies have been increasingly adopted in life sciences [@doi:10.1007/s41019-017-0050-4] thanks to collaborative efforts such as BioConda [@doi:10.1038/s41592-018-0046-7] and BioContainers [@doi:10.1093/bioinformatics/btx192], and support by Linux distributions (e.g. Debian Med [@doi:10.1186/1471-2105-11-S12-S5]). As of November 2021, more than 9,000 software packages are available [in BioConda alone](https://anaconda.org/bioconda/), and 10,000 containers [in BioContainers](https://biocontainers.pro/#/registry). 
 
 Docker and Conda have been integrated into workflow systems such as Snakemake [@doi:10.1093/bioinformatics/bts480], Galaxy [@doi:10.1093/nar/gky379] and Nextflow [@doi:10.1038/nbt.3820], meaning a downloaded workflow definition can now be executed on a “blank” machine (except for the workflow engine) with the underlying analytical tools installed on demand. Even with using containers there is a reproducibility challenge, for instance [Docker Hub's retention policy will expire container images after six months](https://www.docker.com/blog/docker-hub-image-retention-policy-delayed-and-subscription-updates/), or a lack of recording versions of transitive dependencies of Conda packages could cause incompatibilities if the packages are subsequently updated. 
 

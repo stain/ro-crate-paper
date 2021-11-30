@@ -608,6 +608,7 @@
   {
     "DOI": "10.1007/s11042-009-0397-2",
     "ISSN": "1380-7501",
+    "URL": "https://www.persistent-identifier.nl/urn:nbn:nl:ui:18-14511",
     "author": [
       {
         "family": "Troncy",
@@ -3405,7 +3406,7 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.1109/BigData.2016.7840618\noriginal_standard_id: doi:10.1109/BigData.2016.7840618\nstandard_id: doi:10.1109/bigdata.2016.7840618"
   },
   {
-    "DOI": "10.1109/{eScience}.2012.6404482",
+    "DOI": "10.1109/eScience.2012.6404482",
     "ISBN": "978-1-4673-4466-1",
     "URL": "https://www.research.manchester.ac.uk/portal/files/174861334/why_decay.pdf",
     "author": [
@@ -3470,6 +3471,7 @@
   {
     "DOI": "10.1109/eScience.2019.00068",
     "ISBN": "978-1-7281-2451-3",
+    "URL": "https://zenodo.org/record/3381754",
     "accessed": {
       "date-parts": [
         [
