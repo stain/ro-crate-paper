@@ -178,9 +178,9 @@
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/4d7f2e9f21662ba773d7e2602e64b2964f718179/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4d7f2e9f21662ba773d7e2602e64b2964f718179/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/4d7f2e9f21662ba773d7e2602e64b2964f718179/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/b699d26b884cefac756108362cbc391620a406b5/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b699d26b884cefac756108362cbc391620a406b5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/b699d26b884cefac756108362cbc391620a406b5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,9 +196,9 @@
 A DOI-citable preprint is available at <a href="https://doi.org/10.5281/zenodo.5146227" class="uri">https://doi.org/10.5281/zenodo.5146227</a> and <a href="https://arxiv.org/abs/2108.06503">arXiv:2108.06503</a></em></p>
 <p><small><em>
 This manuscript
-(<a href="https://stain.github.io/ro-crate-paper/v/4d7f2e9f21662ba773d7e2602e64b2964f718179/">permalink</a>)
+(<a href="https://stain.github.io/ro-crate-paper/v/b699d26b884cefac756108362cbc391620a406b5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/stain/ro-crate-paper/tree/4d7f2e9f21662ba773d7e2602e64b2964f718179">stain/ro-crate-paper@4d7f2e9</a>
+from <a href="https://github.com/stain/ro-crate-paper/tree/b699d26b884cefac756108362cbc391620a406b5">stain/ro-crate-paper@b699d26</a>
 on November 30, 2021.
 </em></small></p>
 <h1 class="unnumbered" data-number="" id="authors">Authors</h1>
@@ -426,7 +426,7 @@ Department of Computer Science, The University of Manchester, UK
 <h3 data-number="2.2.5" id="simplicity"><span class="header-section-number">2.2.5</span> Ensuring Simplicity</h3>
 <p></p>
 <p>One aim of RO-Crate is to be conceptually simple. This simplicity has been repeatedly checked and confirmed through an informal community review process. For instance, in the discussion on supporting <a href="https://github.com/ResearchObject/ro-crate/issues/71">ad-hoc vocabularies</a> in RO-Crate, the community explored potential Linked Data solutions. The conventional wisdom in <a href="https://www.w3.org/TR/swbp-vocab-pub/">RDF best practices</a> is to establish a vocabulary with a new URI namespace, formalised using <a href="http://www.w3.org/TR/2014/REC-rdf-schema-20140225/">RDF Schema</a> or <a href="http://www.w3.org/TR/2012/REC-owl2-overview-20121211/">OWL</a> ontologies. However, this may seem an excessive learning curve for non-experts in semantic knowledge representation, and the RO-Crate community instead agreed on a dual lightweight approach: (i) <a href="https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html#adding-new-or-ad-hoc-vocabulary-terms">Document</a> how projects with their own Web-presence can make a pure HTML-based vocabulary, and (ii) provide a community-wide PID namespace under <code>https://w3id.org/ro/terms</code> that redirect to simple CSV files <a href="https://github.com/ResearchObject/ro-terms">maintained in GitHub</a>.</p>
-<p>To further verify this idea of simplicity, we have formalised the RO-Crate definition (see <em>Appendix A</em>). An important result of this exercise is that the underlying data structure of RO-Crate, although conceptually a graph, is represented as a depth-limited tree. This formalisation also emphasises the <em>boundedness</em> of the structure; namely, the fact that elements are specifically identified as being either semantically <em>contained</em> by the RO-Crate as <em>Data Entities</em> (<code>hasPart</code>) or mainly referenced (<code>mentions</code>) and typed as <em>external</em> to the Research Object as <em>Contextual Entities</em>. It is worth pointing out that this semantic containment can extend beyond the physical containment of files residing within the RO-Crate Root directory on a given storage system, as the RO-Crate data entities may include any data resource globally identifiable using IRIs.</p>
+<p>To further verify this idea of simplicity, we have formalised the RO-Crate definition (see <em>Appendix <a href="#formaldefinition">9</a>)</em>). An important result of this exercise is that the underlying data structure of RO-Crate, although conceptually a graph, is represented as a depth-limited tree. This formalisation also emphasises the <em>boundedness</em> of the structure; namely, the fact that elements are specifically identified as being either semantically <em>contained</em> by the RO-Crate as <em>Data Entities</em> (<code>hasPart</code>) or mainly referenced (<code>mentions</code>) and typed as <em>external</em> to the Research Object as <em>Contextual Entities</em>. It is worth pointing out that this semantic containment can extend beyond the physical containment of files residing within the RO-Crate Root directory on a given storage system, as the RO-Crate data entities may include any data resource globally identifiable using IRIs.</p>
 <h3 data-number="2.2.6" id="profiles"><span class="header-section-number">2.2.6</span> Extensibility and RO-Crate profiles</h3>
 <p></p>
 <p>The RO-Crate specification provides a core set of conventions to describe research outputs using types and properties applicable across scientific domains. However we have found that domain-specific use of RO-Crate will, implicitly or explicitly, form a specialized <strong>profile</strong> of RO-Crate; i.e., <em>a set of conventions, types and properties that are minimally required and one can expect to be present in that subset of RO-Crates</em>. For instance, RO-Crates used for exchange of workflows will have to contain a data entity of type <code>ComputationalWorkflow</code>, or cultural heritage records should have a <code>contentLocation</code>.</p>

@@ -256,6 +256,7 @@ content/21g.simplicity.md:5:RO
 content/21g.simplicity.md:5:RO
 content/21g.simplicity.md:5:RO
 content/21g.simplicity.md:5:URI
+content/21g.simplicity.md:7:formaldefinition
 content/21g.simplicity.md:7:RO
 content/21g.simplicity.md:7:RO
 content/21g.simplicity.md:7:RO
@@ -1187,6 +1188,7 @@ content/70.acknowledgements.md:82:Corcho
 content/70.acknowledgements.md:88:Navas
 content/70.acknowledgements.md:88:Rodríguez
 content/70.acknowledgements.md:89:Visualization
+content/80.formal-definition.md:1:formaldefinition
 content/80.formal-definition.md:1:Formalizing
 content/80.formal-definition.md:1:RO
 content/80.formal-definition.md:10:formalization
