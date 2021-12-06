@@ -100,7 +100,7 @@ formalized
 Formalizing
 Forschungsgemeinschaft
 Frederik
-FrederikCoppens
+frederikcoppens
 Freiburg
 Frictionless
 Garijo
@@ -149,7 +149,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -210,7 +210,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROHub
 ROR
@@ -218,7 +218,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 selfdescribed
@@ -254,7 +254,7 @@ Tomasz
 tradeoff
 Trisovic
 UGent
-uml
+UML
 Universidad
 unshortened
 URI
