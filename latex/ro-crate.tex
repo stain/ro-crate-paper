@@ -877,13 +877,13 @@ the \texttt{@context} to re-use additional domain-specific ontologies.
 
 Similarly, while the Schema.org context
 currently\footnote{\url{https://schema.org/version/13.0/schemaorg-current-http.jsonld}}
-have \texttt{"@type": "@id"} annotations for object properties, RO-Crate
+have \texttt{"@type": "@id"} annotations for implicit object properties, RO-Crate
 JSON-LD distinguishes explicitly between references to other entities
-(\texttt{\{"@id": "\#alice"}\})
-and string values (\texttt{"Alice"}) -- meaning
+\texttt{\{"@id": "\#alice"}\}
+and string values \texttt{"Alice"} -- meaning
 RO-Crate applications can find references for corresponding entities
 and IRIs without parsing the \texttt{@context} to understand a particular
-property. Notably this is exploited by the \texttt{ro-crate-html-js}
+property. Notably this is exploited by the \textit{ro-crate-html-js}
 \cite{ro-crate-html-js} tool to provide reliable HTML rendering for
 otherwise unknown properties and types.
 
