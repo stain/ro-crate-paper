@@ -53,50 +53,6 @@
 %%\newtheorem{}{}%[]
 %%\theoremstyle{definition}
 %%\newtheorem{}{}%[]
-
-% listing style for JSON/JavaScript - adapted from
-% https://github.com/ghammock/LaTeX_Listings_JavaScript_ES6
-%
-% MIT License
-% 
-% Copyright (c) 2018 Gary Hammock
-% 
-% Permission is hereby granted, free of charge, to any person obtaining a copy
-% of this software and associated documentation files (the "Software"), to deal
-% in the Software without restriction, including without limitation the rights
-% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-% copies of the Software, and to permit persons to whom the Software is
-% furnished to do so, subject to the following conditions:
-% 
-% The above copyright notice and this permission notice shall be included in all
-% copies or substantial portions of the Software.
-% 
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-% SOFTWARE.
-% 
-\lstdefinelanguage{JSON}{
-  morekeywords=[1]{break, continue, delete, else, for, function, if, in,
-    new, return, this, typeof, var, void, while, with},
-  % Literals, primitive types, and reference types.
-  morekeywords=[2]{false, null, true, boolean, number, undefined,
-    Array, Boolean, Date, Math, Number, String, Object},
-  % Built-ins.
-  morekeywords=[3]{eval, parseInt, parseFloat, escape, unescape},
-  sensitive,
-  morecomment=[s]{/*}{*/},
-  morecomment=[l]//,
-  morecomment=[s]{/**}{*/}, % JavaDoc style comments
-  morestring=[b]',
-  morestring=[b]"
-}[keywords, comments, strings]
-%% end listing style
-
-
 \endlocaldefs
 %
 \begin{document}
@@ -765,7 +721,8 @@ containing data entities described using contextual entities.
 
 \begin{listing}
 %\includegraphics{210053i02}
-\begin{lstlisting}[style=JSON]
+\footnotesize
+\begin{verbatim}
 { "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     { "@id": "ro-crate-metadata.json",      
@@ -812,7 +769,7 @@ containing data entities described using contextual entities.
     }
   ]
 }    
-\end{lstlisting}    
+\end{verbatim}    
 \caption{%\qq{}\protect\footnotemark[31]
 Simplified\protect\footnote{Recommended properties for types shown in
 Listing \ref{lis1} also include
