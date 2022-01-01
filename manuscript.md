@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2021-12-07'
+date-meta: '2022-01-01'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2021-12-07" />
-  <meta name="citation_publication_date" content="2021-12-07" />
+  <meta name="dc.date" content="2022-01-01" />
+  <meta name="citation_publication_date" content="2022-01-01" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/aa19d354697198e11109bb31fefbc8e014596692/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aa19d354697198e11109bb31fefbc8e014596692/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aa19d354697198e11109bb31fefbc8e014596692/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/084ca72da9578db83a9ddf6740fd0ea994504a5b/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/084ca72da9578db83a9ddf6740fd0ea994504a5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/084ca72da9578db83a9ddf6740fd0ea994504a5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,10 +139,10 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/aa19d354697198e11109bb31fefbc8e014596692/))
+([permalink](https://stain.github.io/ro-crate-paper/v/084ca72da9578db83a9ddf6740fd0ea994504a5b/))
 was automatically generated
-from [stain/ro-crate-paper@aa19d35](https://github.com/stain/ro-crate-paper/tree/aa19d354697198e11109bb31fefbc8e014596692)
-on December 7, 2021.
+from [stain/ro-crate-paper@084ca72](https://github.com/stain/ro-crate-paper/tree/084ca72da9578db83a9ddf6740fd0ea994504a5b)
+on January 1, 2022.
 </em></small>
 
 # Authors {-}
