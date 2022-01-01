@@ -406,8 +406,8 @@ structured metadata including external references, coupled with the
 contained artefacts (bottom) bundled and described by the RO-Crate.
 
 The conceptual notion of a \textit{Research Object}
-\cite{doi:10.1016/j.future.2011.08.004} is thus realized with the RO-Crate
-model and serialized using Linked Data constructs within the RO-Crate
+\cite{doi:10.1016/j.future.2011.08.004} is thus realised with the RO-Crate
+model and serialised using Linked Data constructs within the RO-Crate
 metadata file.
 
 \begin{figure}%[t!]
@@ -465,7 +465,7 @@ foundation. This use of mature Web\footnote{Note that an RO-Crate is not require
 Web, see Section~\ref{sec:selfdescribed}.} technologies also means its
 developers and consumers are not restricted to the Research Object
 aspects that have already been specified by the RO-Crate community, but
-can extend and integrate RO-Crate in multiple standardized ways.
+can extend and integrate RO-Crate in multiple standardised ways.
 
 \subsubsection{RO-Crate is a self-described container}% {#selfdescribed}
 
@@ -641,7 +641,7 @@ identifiable using IRIs.
 The RO-Crate specification provides a core set of conventions to
 describe research outputs using types and properties applicable across
 scientific domains. However we have found that domain-specific use of
-RO-Crate will, implicitly or explicitly, form a specialized \textbf{profile}
+RO-Crate will, implicitly or explicitly, form a specialised \textbf{profile}
 of RO-Crate; i.e., {a set of conventions, types and properties that are
 minimally required and one can expect to be present in that subset of
 RO-Crates}. For instance, RO-Crates used for exchange of workflows will
@@ -711,7 +711,7 @@ RO-Crate
 mandates\footnote{\url{https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html}}
 the use of flattened, compacted JSON-LD in the RO-Crate Metadata file
 \texttt{ro-crate-metadata.json}\footnote{The avid reader may spot that the RO-Crate Metadata file use the
-extension \texttt{.json} instead of \texttt{.jsonld}, this is to emphasize the
+extension \texttt{.json} instead of \texttt{.jsonld}, this is to emphasise the
 developer expectations as a JSON format, while the file's JSON-LD
 nature is secondary. See \url
 {https://github.com/ResearchObject/ro-crate/issues/82}.}
@@ -807,7 +807,7 @@ identifiers.\footnote{\url{https://www.researchobject.org/ro-crate/1.1/appendix/
 
 In JSON-LD, the \texttt{@context} is a reference to another JSON-LD document
 that provides mapping from JSON keys to Linked Data term IRIs, and can
-enable various JSON-LD directives to cater for customized JSON
+enable various JSON-LD directives to cater for customised JSON
 structures for translating to RDF.
 
 RO-Crate reuses vocabulary terms and IRIs from Schema.org, but provides
@@ -1363,7 +1363,7 @@ The Pacific And Regional Archive for Digital Sources in Endangered
 Cultures (PARADISEC\footnote{\url{https://www.paradisec.org.au/}}) \cite{doi:10125/4567}
 maintains a repository of more than 500,000 files documenting
 endangered languages across more than 16,000 items, collected and
-digitized over many years by researchers interviewing and recording
+digitised over many years by researchers interviewing and recording
 native speakers across the region.
 
 The Modern PARADISEC demonstrator\footnote{\url{https://mod.paradisec.org.au/}} has
@@ -1583,7 +1583,7 @@ networking, attribution and credit, annotations, aggregation packs,
 experiments, view statistics, contributions, and workflow components
 \cite{myExperimentOntology2009}.
 
-This initially workflow-centric approach was further formalized as the
+This initially workflow-centric approach was further formalised as the
 Wf4Ever Research Object Model \cite{doi:10.1016/j.websem.2015.01.003},
 which is a general-purpose research artefact description framework.
 This model is based on existing ontologies (FOAF, Dublin Core Terms,
@@ -1598,7 +1598,7 @@ We now claim that one barrier for wider adoption of the Wf4Eer Research
 Object model for general packaging digital research artefacts was
 exactly this re-use of multiple existing vocabularies (FAIR principle
 I2: \textit{Metadata use vocabularies that follow FAIR principles}), which in
-itself is recogized as a challenge \cite{doi:10.3233/978-1-61499-660-6-9}.
+itself is recognised as a challenge \cite{doi:10.3233/978-1-61499-660-6-9}.
 Adapters of the Wf4Ever RO model would have to navigate documentation
 of multiple overlapping ontologies, in addition to facing the usual
 Semantic Web development choices for RDF serialization formats,
@@ -2142,7 +2142,7 @@ $\textit{Relation}(s, p, o)$ and $\textit{Attribute}(s, p, x)$ are defined as a 
 {subject--predicate--object} triple pattern from an $\textit{Entity}(s)$ using
 a $\textit{Property}(p)$ to either another $\textit{Entity}(o)$ or a $\textit{Value}(x)$ value.
 
-\subsection{Example of formalized RO-Crate}
+\subsection{Example of formalised RO-Crate}
 
 The below is an example RO-Crate represented using the above
 formalisation, assuming a base URI of \texttt{<http://example.com/ro/123/>}:
@@ -2226,7 +2226,7 @@ requirements) they do not form part of this formalization.
 
 \subsection{Mapping to RDF with schema.org}
 
-A formalized RO-Crate in $\mathcal{L}_{\mathit{rocrate}}$ can be mapped to
+A formalised RO-Crate in $\mathcal{L}_{\mathit{rocrate}}$ can be mapped to
 different serializations.
 Assume a simplified\footnote{This simplification does not cover the extensive list of literal
 datatypes built-in to RDF 1.1, only strings and decimal real numbers.
