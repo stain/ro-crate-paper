@@ -473,22 +473,22 @@ can extend and integrate RO-Crate in multiple standardized ways.
 
 An RO-Crate is defined\footnote{\url{https://www.researchobject.org/ro-crate/1.1/structure.html\#ro-crate-metadata-file-ro-crate-metadatajson}}
 as a self-described \textbf{Root Data Entity} that describes and contains
-\textit{data entities}, which are further described by referencing {contextual
+\textit{data entities}, which are further described by referencing \textit{contextual
 entities}. A \textbf{data entity} is either a \textit{file} (i.e. a byte sequence
 stored on disk somewhere) or a \textit{directory} (i.e. set of named files and
 other directories). A~file does not need to be stored inside the
 RO-Crate root, it can be referenced via a PID/IRI. A \textbf{contextual
 entity} exists outside the information system (e.g. a Person, a
 workflow language) and is stored solely by its metadata. The
-representation of a \textbf{data entity} as a byte sequence makes it
+representation of a \textit{data entity} as a byte sequence makes it
 possible to store a variety of research artefacts including not only
 data but also, for instance, software and text.
 
 The Root Data Entity is a directory, the \textit{RO-Crate Root}, identified by
 the presence of the \textbf{RO-Crate Metadata File} \texttt{ro-crate-metadata.json}
-(top of Fig.~\ref{fig:conceptual}). This is a JSON-LD file that
+(top of Fig.~\ref{fig:conceptual}). This file
 describes the RO-Crate, its content and related metadata using Linked
-Data. JSON-LD is a W3C standard RDF serialisation that has become
+Data in JSON-LD format \cite{sporny_2014}. This is a W3C standard RDF serialisation that has become
 popular as it is easy to read by humans while also offers some
 advantages for data exchange on the Internet. JSON-LD, a subset of the
 widely supported and well-known JSON format, has tooling available for
