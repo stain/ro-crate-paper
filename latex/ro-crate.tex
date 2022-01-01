@@ -188,7 +188,7 @@ this paper we introduce RO-Crate, an open, community-driven, and
 lightweight approach
 to packaging research artefacts along with their metadata in a machine
 readable manner.
-RO-Crate is based on \surl{Schema.org} annotations in JSON-LD, aiming to
+RO-Crate is based on Schema.org annotations in JSON-LD, aiming to
 establish best
 practices to formally describe metadata in an accessible and practical
 way for their
@@ -365,7 +365,7 @@ simple'. We take simplicity to apply at two levels: for the
 and users of those platforms.
 
 For our development methodology we followed the mantra of working
-closely with a small group to really get a deep understanding of
+closely with a small group to get a deep understanding of
 requirements and ensure rapid feedback loops. We created a pool of
 early adopter projects from a range of disciplines and groups,
 primarily addressing developers of platforms. Thus the base level for
@@ -383,7 +383,7 @@ in Section~\ref{sec:community} along with the established norms.
 Addressing the simplicity of understanding and engaging with RO-Crate
 by data practitioners is through the platforms, for example with
 interactive tools (Section~\ref{sec:tooling}) like
-Describo\footnote{\url{https://uts-eresearch.github.io/describo/}} \cite{describo} and
+Describo\footnote{\url{https://arkisto-platform.github.io/describo/}} \cite{describo} and
 Jupyter notebooks \cite{doi:10.3233/978-1-61499-649-1-87}, and by close
 discussions with domain scientists on how to appropriately capture what
 they determine to be relevant metadata. This ultimately requires a new
@@ -566,7 +566,7 @@ Entity} represent the Research Object as a dataset. The RO-Crate
 aggregates \emph{data entities} (\texttt{hasPart}) which are further
 described using \emph{contextual entities} (which may include
 aggregated and non-aggregated data entities). Multiple types and
-relations from \surl{Schema.org} allow annotations to be more specific,
+relations from Schema.org allow annotations to be more specific,
 including figures, nested datasets, computational workflows, people,
 organisations, instruments and places. Contextual entities not
 otherwise cross-referenced from other entities' properties (\emph
@@ -586,9 +586,9 @@ to learn each of the underlying technologies in detail.
 As such, the RO-Crate 1.1\footnote{\url{https://w3id.org/ro/crate/1.1}}
 specification \cite{doi:10.5281/zenodo.4541002} can be seen as an
 opinionated and example-driven guide to writing
-\surl{Schema.org}\footnote{\url{https://schema.org/}} \cite{doi:10.1145/2857274.2857276}
+Schema.org\footnote{\url{https://schema.org/}} \cite{doi:10.1145/2857274.2857276}
 metadata as JSON-LD \cite{sporny_2014} (see Section~\ref{sec:implementation}), which leaves it open for implementers to include
-additional metadata using other \surl{Schema.org} types and properties, or
+additional metadata using other Schema.org types and properties, or
 even additional Linked Data vocabularies/ontologies or their own ad-hoc terms.
 
 However the primary purpose of the RO-Crate specification is to assist
@@ -687,7 +687,7 @@ RO-Crate use in several domains and their emerging profiles.
 \label{sec:implementation}
 
 The RO-Crate conceptual model has been realised using JSON-LD and
-\surl{Schema.org} in a prescriptive form as discussed in Section~\ref{sec:conceptual}. These technical choices were made to cater for
+Schema.org in a prescriptive form as discussed in Section~\ref{sec:conceptual}. These technical choices were made to cater for
 simplicity from a developer perspective (as introduced in Section~\ref{sec:methodology}).
 
 JSON-LD\footnote{\url{https://json-ld.org/}} \cite{sporny_2014} provides a way to
@@ -768,7 +768,7 @@ under \texttt{@graph} and represents the RDF triples with a common \textit{subje
 either literal \texttt{"string"} values, referenced \texttt{{objects}} (which
 properties are listed in its own entity), or a JSON \texttt{[list]} of these.
 If processed as JSON-LD, this forms an RDF graph by matching the \texttt{@id}
-IRIs and applying the \texttt{@context} mapping to \surl{schema.org} terms.
+IRIs and applying the \texttt{@context} mapping to Schema.org terms.
 \normalsize
 
  \subsubsection{Flattened JSON-LD}
@@ -810,7 +810,7 @@ that provides mapping from JSON keys to Linked Data term IRIs, and can
 enable various JSON-LD directives to cater for customized JSON
 structures for translating to RDF.
 
-RO-Crate reuses vocabulary terms and IRIs from \surl{Schema.org}, but provides
+RO-Crate reuses vocabulary terms and IRIs from Schema.org, but provides
 its own versioned JSON-LD
 context,\footnote{\url{https://w3id.org/ro/crate/1.1/context}} which has a flat list
 with the mapping from JSON-LD keys to their URI equivalents (e.g. key
@@ -820,14 +820,14 @@ The rationale behind this decision is to support JSON-based RO-Crate
 applications that are largely unaware of JSON-LD, that still may want
 to process the \texttt{@context} to find or add Linked Data definitions of
 otherwise unknown properties and types. Not reusing the official
-\surl{Schema.org} context means RO-Crate is also able to map in additional
+Schema.org context means RO-Crate is also able to map in additional
 vocabularies where needed, namely the \textit{Portland Common Data Model}
 (PCDM) \cite{pcdm} for repositories and Bioschemas \cite{bioschemas_2017} for
 describing computational workflows. RO-Crate profiles may
 extend\footnote{\url{https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html\#extending-ro-crate}}
 the \texttt{@context} to re-use additional domain-specific ontologies.
 
-Similarly, while the \surl{Schema.org} context
+Similarly, while the Schema.org context
 currently\footnote{\url{https://schema.org/version/13.0/schemaorg-current-http.jsonld}}
 have \texttt{"@type": "@id"} annotations for object properties, RO-Crate
 JSON-LD distinguishes explicitly between references to other entities
@@ -1190,7 +1190,7 @@ RO-Bundle\cite{doi:10.5281/zenodo.12586}, a similar Research Object
 packaging method with JSON-LD metadata.}
 
 Simplifying from the CWLProv approach, the planned Workflow Run
-RO-Crate profile will use a high level \surl{Schema.org}
+RO-Crate profile will use a high level Schema.org
 provenance\footnote{\url{https://www.researchobject.org/ro-crate/1.1/provenance.html\#software-used-to-create-files}}
 for the input/output boundary of the overall workflow execution. This
 \textit{Level 1 workflow provenance} \cite{doi:10.1093/gigascience/giz095} can be
@@ -1381,7 +1381,7 @@ presenting a domain-specific view of the items -- the RO-Crate is
 The PARADISEC use case takes advantage of several RO-Crate features and
 principles. Firstly, the transcribed metadata are now independent of
 the PARADISEC platform and can be archived, preserved and processed in
-its own right, using \surl{Schema.org} as base vocabulary and extended with
+its own right, using Schema.org as base vocabulary and extended with
 PARADISEC-specific terms.
 
 In this approach, RO-Crate is the holder of itemised metadata, stored
@@ -1505,7 +1505,7 @@ institutional infrastructures, Harvard Data Commons is currently
 working on RO-Crate adaptation. The RO-Crate metadata provides the
 necessary structure to make all research artefacts FAIR. The Dataverse
 software already has extensive support for metadata, including the Data
-Documentation Initiative (DDI), Dublin Core, DataCite, and \surl{Schema.org}.
+Documentation Initiative (DDI), Dublin Core, DataCite, and Schema.org.
 Incorporating RO-Crate, which has the flexibility to describe a wide
 range of research resources, will facilitate their seamless transition
 from one infrastructure to the other within the Harvard Data Commons.
@@ -1649,7 +1649,7 @@ structured metadata.
 adding their context).
 \item[3.] By providing a natural Metadata FDO in the form of the RO-Crate
 Metadata File.
-\item[4.] By being based on Linked Data and \surl{schema.org} vocabulary, meaning
+\item[4.] By being based on Linked Data and the Schema.org vocabulary, meaning
 that PIDs already exist for common types and properties.
 \end{enumerate}
 
@@ -1824,7 +1824,7 @@ assumptions about what can be described.
 RO-Crate attempts to strike a balance between these tensions, and
 provides a common metadata framework that encourages extensions.
 However, just like the RO-Crate specification can be thought of as a
-\textit{core profile} of \surl{schema.org} in JSON-LD, we cannot stress the
+\textit{core profile} of Schema.org in JSON-LD, we cannot stress the
 importance of also establishing domain-specific RO-Crate profiles and
 conventions, as explored in Sections~\ref{sec:profiles} and \ref
 {sec:inuse}. Specialization comes hand-in-hand with the principle of
@@ -1844,14 +1844,14 @@ libraries. We will also collect and build examples of RO-Crate
 \textit{consumption}, e.g. Jupyter Notebooks that query multiple crates using
 knowledge graphs. In addition, we are exploring ways to support some
 entity types requested by users, e.g. detailed workflow runs or
-container provenance, which do not have a good match in \surl{Schema.org}.
+container provenance, which do not have a good match in Schema.org.
 Such support could be added, for instance, by integrating other
 vocabularies or by having separated (but linked) metadata files.
 
 Furthermore, we want to better understand how the community uses
 RO-Crate in practice and how it contrasts with other related efforts;
 this will help us to improve our specification and tools. By
-discovering commonalities in emerging usage (e.g. additional \surl{schema.org}
+discovering commonalities in emerging usage (e.g. additional Schema.org
 types), the community helps to reduce divergence that could otherwise
 occur with proliferation of further RO-Crate profiles. We plan to
 gather feedback via user studies, with the Linked Open Data community
@@ -1877,7 +1877,7 @@ profiles\footnote{\url{https://www.researchobject.org/ro-crate/1.2-DRAFT/profile
 for different categories of crates. Additional entity types have been
 requested by users, e.g. workflow runs, business workflows, containers
 and software packages, tabular data structures; these are not always
-matched well with existing \surl{schema.org} types but may benefit from other
+matched well with existing Schema.org types but may benefit from other
 vocabularies or even separate metadata files, e.g. from Frictionless
 Data.\footnote{\url{https://frictionlessdata.io/}} We will be further aligning with
 and collaborating with related research artefact description efforts
@@ -2219,7 +2219,7 @@ File serialization is an equivalent shallow tree, although at depth 3
 to cater for the JSON-LD preamble of \texttt{"@context"} and \texttt{"@graph"}.
 
 In reality many additional attributes and contextual types from
-\surl{schema.org} types like \url{http://schema.org/affiliation} and \url
+Schema.org types like \url{http://schema.org/affiliation} and \url
 {http://schema.org/Organization} would be used to further describe the
 RO-Crate and its entities, but as these are optional (\textit{SHOULD}
 requirements) they do not form part of this formalization.
@@ -2261,7 +2261,7 @@ based on the RDF abstract syntax \cite{rdfworkinggroup_2014}:
 \end{eqnarray*}}}
 
 Below follows a mapping from $\mathcal{L}_{\mathit{rocrate}}$ to $\mathcal
-{L}_{\textit{RDF}}$ using \surl{schema.org} as vocabulary:
+{L}_{\textit{RDF}}$ using Schema.org as vocabulary:
 %
 {\fontsize{9.6}{11.6}\selectfont{\begin{eqnarray*}
 \textit{Property}(p) & \Rightarrow& \textit{type}(p, \texttt
@@ -2319,7 +2319,7 @@ Below follows a mapping from $\mathcal{L}_{\mathit{rocrate}}$ to $\mathcal
 
 Note that in the JSON-LD serialization of RO-Crate, the expression of
 $\textit{Class}$ and $\textit{Property}$ is typically indirect: The JSON-LD \texttt
-{@context} maps to \surl{schema.org} IRIs, which, when resolved as Linked
+{@context} maps to Schema.org IRIs, which, when resolved as Linked
 Data, embed their formal definition as RDFa. Extensions may however
 include such term definitions directly in the RO-Crate.
 
@@ -2358,7 +2358,7 @@ depth-limit of the RO-Crate.
 
 \subsection{Forward-chained production rules for JSON-LD}
 
-Combining the above predicates and \surl{schema.org} mapping with rudimentary
+Combining the above predicates and Schema.org mapping with rudimentary
 JSON templates, these forward-chaining production rules can output
 JSON-LD according to the RO-Crate 1.1 specification:\footnote{\textbf{Limitations:}
  Contextual entities not related from the
@@ -2426,7 +2426,7 @@ to $o$, means that $o$ is also mentioned by the $\textit{ROCrate}(R)$. For
 simplicity this rule is one-way; in theory the graph can also contain
 free-standing contextual entities that have outgoing relations to data-
 and contextual entities, but these are proposed to be bound to the root
-data entity with \surl{schema.org} relation \url{http://schema.org/mentions}.
+data entity with Schema.org relation \url{http://schema.org/mentions}.
 
 
 \section{RO-Crate Community}
