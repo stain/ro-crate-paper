@@ -456,7 +456,7 @@ graph} triple stores like Apache Jena\footnote{\url{https://jena.apache.org/}} a
 OntoText GraphDB.\footnote{\url{https://www.ontotext.com/products/graphdb/}}
 
 The possibilities of consuming\footnote{Some consideration is needed in processing of RO-Crates as
-knowledge graphs, e.g. establishing absolute URIs for files inside a
+knowledge graphs, e.g. establishing absolute IRIs for files inside a
 ZIP archive, detailed in the RO-Crate specification: \url
 {https://www.researchobject.org/ro-crate/1.1/appendix/relative-uris.html}.} RO-Crate metadata with such
 powerful tools gives another strong reason for using Linked Data as a
@@ -607,7 +607,7 @@ vocabularies\footnote{\url{https://github.com/ResearchObject/ro-crate/issues/71}
 RO-Crate, the community explored potential Linked Data solutions. The
 conventional wisdom in RDF best
 practices\footnote{\url{https://www.w3.org/TR/swbp-vocab-pub/}} is to establish a
-vocabulary with a new URI namespace, formalised using RDF
+vocabulary with a new IRI namespace, formalised using RDF
 Schema\footnote{\url{http://www.w3.org/TR/2014/REC-rdf-schema-20140225/}} or
 OWL\footnote{\url{http://www.w3.org/TR/2012/REC-owl2-overview-20121211/}}
 ontologies. However, this may seem an excessive learning curve for
@@ -861,7 +861,7 @@ structures for translating to RDF.
 RO-Crate reuses vocabulary terms and IRIs from Schema.org, but provides
 its own versioned JSON-LD
 context,\footnote{\url{https://w3id.org/ro/crate/1.1/context}} which has a flat list
-with the mapping from JSON-LD keys to their URI equivalents (e.g. key
+with the mapping from JSON-LD keys to their IRI equivalents (e.g. key
 \texttt{"author"} maps to the \url{http://schema.org/author} property).
 
 The rationale behind this decision is to support JSON-based RO-Crate
@@ -2142,14 +2142,14 @@ $\textit{datePublished}$, $\textit{CreativeWork}$ and $\textit{name}$.
 \end{eqnarray*}
 
 An $\textit{ROCrate}(R)$ is defined as a self-described \emph{Root Data Entity},
-which describes and contains parts (\emph{data entities}), which are
+which contains parts (\emph{data entities}), which are
 further described in \emph{contextual entities}. These terms align with
 their use in the RO-Crate 1.1 terminology.\footnote{\url{https://www.researchobject.org/ro-crate/1.1/terminology}}
 
-The $\textit{Root}(r)$ is a type of $\textit{Dataset}(r)$, and must have the metadata to
-literal attributes to provide a $\textit{name}$, $description$ and
-$\textit{datePublished}$, as well as a contextual entity identifying its
-license. These predicates correspond to the RO-Crate 1.1 requirements
+The $\textit{Root}(r)$ is a type of $\textit{Dataset}(r)$, and must as metadata 
+have at least the attributes $\textit{name}$, $description$ and
+$\textit{datePublished}$ as literal values, as well as a contextual entity that identify its
+$\textit{license}$. These predicates correspond to the RO-Crate 1.1 minimal requirements
 for the root data entity.\footnote{\url
 {https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#direct-properties-of-the-root-data-entity}}
 
@@ -2174,7 +2174,7 @@ a $\textit{Property}(p)$ to either another $\textit{Entity}(o)$ or a $\textit{Va
 \subsection{Example of formalised RO-Crate}
 
 The below is an example RO-Crate represented using the above
-formalisation, assuming a base URI of \texttt{<http://example.com/ro/123/>}:
+formalisation, assuming a base IRI of \texttt{<http://example.com/ro/123/>}:
 %
 {\fontsize{9.7}{11.7}\selectfont{\begin{gather*}
 \textit{ROCrate}(\texttt{<http://example.com/ro/123/>})
