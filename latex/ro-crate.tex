@@ -2054,6 +2054,7 @@ We would also like to acknowledge contributions from:
 \end{description}
 \begin{appendix}
 
+
 \section{Formalizing RO-Crate in First Order Logic}
 \label{sec:formaldefinition}
 
@@ -2432,8 +2433,8 @@ implied by the $\textit{type}(e, t)$ expansion to $\textit{Relation}(e, \texttt{
 \\
 && \texttt{\}}
 \\
-\forall r \forall c\ \textit{ROCrate}(r) & \Rightarrow& \texttt{\{
-"@graph": [}
+\forall r \forall c\ \textit{ROCrate}(r) & \Rightarrow& 
+\texttt{\{"@graph": [}
 \\
 && \ \ \ \ \ \ \textit{Mentions}(r, c)*
 \\
@@ -2756,7 +2757,7 @@ doi:10.1038/s41586-019-0965-1.
 \bauthor{\binits{R.}~\bsnm{Mazumder}},
 \batitle{Enabling precision medicine via standard communication of {HTS}
 provenance, analysis, and results},
-\bjtitle{PLoS Biology}
+\bjtitle{PLOS Biology}
 \bvolume{16}(\bissue{12})
 (\byear{2018}),
 \bnumber{e3000099}.
@@ -2803,7 +2804,7 @@ V.~Simonyan and
 R.~Mazumder,
 \textit{Enabling precision medicine via standard communication of {HTS}
 provenance, analysis, and results.},
-{PLoS} Biology
+{PLOS} Biology
 16(12)
 (2018),
 e3000099.
@@ -2939,7 +2940,7 @@ manipulating and reading {RO}-Crates.
 \bauthor{\binits{S.}~\bsnm{Weaver}},
 \batitle{No more business as usual: Agile and effective responses to emerging
 pathogen threats require open data and open analytics},
-\bjtitle{PLoS Pathogens}
+\bjtitle{PLOS Pathogens}
 \bvolume{16}(\bissue{8})
 (\byear{2020}),
 \bnumber{e1008643}.
@@ -2967,7 +2968,7 @@ J.~Taylor and
 S.~Weaver,
 \textit{No more business as usual: Agile and effective responses to emerging
 pathogen threats require open data and open analytics.},
-{PLoS} Pathogens
+{PLOS} Pathogens
 16(8)
 (2020),
 e1008643.
@@ -2984,7 +2985,7 @@ doi:10.1371/journal.ppat.1008643.
 \bauthor{\binits{M.}~\bsnm{Barker}},
 \bauthor{\binits{R.}~\bsnm{Wilkinson}} and
 \bauthor{\binits{A.}~\bsnm{Treloar}},
-\batitle{The Australian research data commons},
+\batitle{The Australian Research Data Commons},
 \bjtitle{Data Science Journal}
 \bvolume{18}
 (\byear{2019}).
@@ -3105,7 +3106,7 @@ GitHub,
 \batitle{Using a suite of ontologies for preserving workflow-centric
 research objects},
 \bjtitle{Web Semantics: Science, Services and Agents on the World Wide Web}
-\bvolume{32}(\bissue{0})
+\bvolume{32}
 (\byear{2015}),
 \bfpage{16}--\blpage{42}.
 \bid{doi={10.1016/j.websem.2015.01.003}}
@@ -3127,7 +3128,7 @@ C.~Goble,
 \textit{Using a suite of ontologies for preserving workflow-centric research
 objects},
 Web Semantics: Science, Services and Agents on the World Wide Web
-32(0)
+32
 (2015),
 16--42.
 doi:10.1016/j.websem.2015.01.003.
@@ -3805,7 +3806,7 @@ Portland Common Data Model,
 %
 \begin{barticle}
 \bauthor{\binits{M.}~\bsnm{Crosas}},
-\batitle{The dataverse network: An open-source application for sharing,
+\batitle{The DataVerse Network: An open-source application for sharing,
 discovering and preserving data},
 \bjtitle{D-Lib Magazine}
 \bvolume{17}(\bissue{1/2})
@@ -3914,7 +3915,7 @@ CRS4,
 \bbtitle{Methods Included: Standardizing Computational Reuse and Portability
 with the Common Workflow Language},
 \bpublisher{Communications of the ACM},
-\byear{2021}.
+\byear{2022}.
 \bcomment{Accepted}.
 \bid{doi={10.1145/3486897}}
 \end{bbook}
@@ -3932,7 +3933,7 @@ C.~Goble,
 \textit{Methods Included: Standardizing Computational Reuse and Portability
 with the Common Workflow Language},
 Communications of the ACM
-(2021),
+(2022),
 Accepted.
 doi:10.1145/3486897.
 \endOrigBibText
@@ -4082,7 +4083,7 @@ doi:10.1038/nbt.3820.
 specimen pilot projects},
 \bjtitle{Biodiversity Information Science and Standards}
 \bvolume{3}
-(\byear{2019}.
+(\byear{2019}).
 \bid{doi={10.3897/biss.3.37080}}
 \end{barticle}
 %
@@ -4141,8 +4142,10 @@ doi:10.5281/zenodo.3956493.
 \oauthor{\binits{M.}~\bsnm{Duerst}} and
 \oauthor{\binits{M.}~\bsnm{Suignard}},
 Internationalized resource identifiers ({IRI}s),
-Technical Report,
-2005.
+RFC 3987,
+\bsertitle{Internet Requests for Comments},
+\bpublisher{RFC Editor},
+\byear(2005).
 \bid{doi={10.17487/rfc3987}}
 \end{botherref}
 %
@@ -4150,7 +4153,7 @@ Technical Report,
 M.~Duerst and
 M.~Suignard,
 Internationalized resource identifiers ({IRI}s),
-Technical Report,
+RFC 3987,
 2005.
 doi:10.17487/rfc3987.
 \url{https://www.rfc-editor.org/info/rfc3987}.
@@ -4681,7 +4684,7 @@ Vienna, Austria, 2017.
 \bauthor{\binits{M.}~\bsnm{Patterson}} and
 \bauthor{\binits{W.}~\bsnm{Wells}},
 \batitle{A case for data commons: Toward data science as a service},
-\bjtitle{Computing in science \& engineering}
+\bjtitle{Computing in Science \& Engineering}
 \bvolume{18}(\bissue{5})
 (\byear{2016}),
 \bfpage{10}--\blpage{20}.
@@ -4922,7 +4925,7 @@ doi:10.1182/blood-2017-03-735654.
 \oauthor{\binits{R.}~\bsnm{Duerr}},
 \oauthor{\binits{D.}~\bsnm{Fils}} and
 \oauthor{\binits{L.}~\bsnm{McGibbney}},
-Science-on-Schema.org v1.2.0, Technical Report,
+Science-on-Schema.org v1.2.0, 
 2021.
 \bid{doi={10.5281/zenodo.4477164}}
 \end{botherref}
@@ -4936,7 +4939,6 @@ R.~Duerr,
 D.~Fils and
 L.~McGibbney,
 Science-on-Schema.org v1.2.0,
-Technical Report,
 2021.
 doi:10.5281/zenodo.4477164.
 \url{https://science-on-schema.org/}.
@@ -5221,8 +5223,11 @@ doi:10.1093/bioinformatics/bts480.
 \oauthor{\binits{J.}~\bsnm{Scancella}} and
 \oauthor{\binits{C.}~\bsnm{Adams}},
 The {BagIt} File Packaging Format,
-(V1.0), Technical Report,
-2018.
+(V1.0), 
+RFC 8493,
+\bsertitle{Internet Requests for Comments},
+\bpublisher{RFC Editor},
+(\byear{2018}).
 \bid{doi={10.17487/RFC8493}}
 \end{botherref}
 %
@@ -5290,7 +5295,7 @@ doi:10.2777/620649.
 \bauthor{\binits{T.}~\bsnm{Ian}},
 \bauthor{\binits{T.}~\bsnm{Thomas}} \betal,
 \batitle{Toward enabling reproducibility for data-intensive research
-using the whole tale platform},
+using the Whole Tale platform},
 \bjtitle{Advances in Parallel Computing 36 (Parallel Computing:
 Technology Trends)}
 (\byear{2020}),
@@ -5411,7 +5416,8 @@ doi:10.6087/kcse.192.
 \bauthor{\binits{C.}~\bsnm{Goble}} and
 \bauthor{\binits{S.}~\bsnm{Capella-Gutierrez}},
 \batitle{Towards {FAIR} principles for research software},
-\bjtitle{D\'{e}viance et soci\'{e}t\'{e}}
+\bjtitle{Data Science},
+\bvolume{3}(\bissue{1})
 (\byear{2019}),
 \bfpage{1}--\blpage{23}.
 \bid{doi={10.3233/DS-190026}}
@@ -5437,7 +5443,7 @@ N.~Chue~Hong,
 C.~Goble and
 S.~Capella-Gutierrez,
 Towards {FAIR} principles for~research~software,
-\textit{D\'{e}viance et soci\'{e}t\'{e}}, \textbf{00},
+\textit{Data Science}, \textbf{3},
 (2019),
 1--23.
 doi:10.3233/DS-190026.
@@ -5461,7 +5467,7 @@ doi:10.3233/DS-190026.
 \oauthor{\binits{S.}~\bsnm{Zednik}} and
 \oauthor{\binits{J.}~\bsnm{Zhao}},
 PROV-O: The PROV Ontology,
-Technical Report, W3C Recommendation Note 30,
+W3C Recommendation 30,
 2013.
 \url{http://www.w3.org/TR/2013/REC-prov-o-20130430/}.
 \end{botherref}
@@ -5478,9 +5484,8 @@ S.~Soiland-Reyes,
 S.~Zednik and
 J.~Zhao,
 PROV-O: The PROV Ontology,
-Technical Report,
 2013,
-W3C Recommendation Note 30 April 2013.
+W3C Recommendation 30 April 2013.
 \url{http://www.w3.org/TR/2013/REC-prov-o-20130430/}.
 \endOrigBibText
 \bptok{structpyb}
@@ -5633,7 +5638,7 @@ Managing large files - {GitHub} Docs.
 \batitle{Identifiers for the 21st century: How to design, provision, and
 reuse persistent identifiers to maximize utility and impact of life
 science data},
-\bjtitle{PLoS Biology}
+\bjtitle{PLOS Biology}
 \bvolume{15}(\bissue{6})
 (\byear{2017}),
 \bnumber{e2001414}.
@@ -5687,7 +5692,7 @@ M.A.~Haendel and
 H.~Parkinson,
 \textit{Identifiers for the 21st century: How to design, provision, and reuse
 persistent identifiers to maximize utility and impact of life science data.},
-{PLoS} Biology
+{PLOS} Biology
 15(6)
 (2017),
 e2001414.
@@ -5732,7 +5737,7 @@ doi:10.4126/frl01-006423291.
 \bauthor{\binits{D.}~\bsnm{Mietchen}} and
 \bauthor{\binits{S.}~\bsnm{Jones}},
 \batitle{Ten principles for machine-actionable data management plans},
-\bjtitle{PLoS Computational Biology}
+\bjtitle{PLOS Computational Biology}
 \bvolume{15}(\bissue{3})
 (\byear{2019}),
 \bnumber{e1006750}.
@@ -5745,7 +5750,7 @@ S.~Simms,
 D.~Mietchen and
 S.~Jones,
 \textit{Ten principles for machine-actionable data management plans},
-{PLoS} Computational Biology
+{PLOS} Computational Biology
 15(3)
 (2019),
 e1006750.
@@ -5860,7 +5865,7 @@ Data Stewardship for Open Science,
 1st edn,
 Taylor \& Francis,
 p.~240.
-ISBN 9781315351148.
+ISBN \bisbn{9781315351148}.
 \end{botherref}
 %
 \OrigBibText
@@ -5899,7 +5904,7 @@ ISBN 9781315351148.
 \begin{bchapter}
 \bauthor{\binits{D.}~\bsnm{Newman}},
 \bauthor{\binits{S.}~\bsnm{Bechhofer}} and
-\bauthor{\binits{D.D.}~\bsnm{Roure}},
+\bauthor{\binits{D.}~\bsnm{De Roure}},
 \bctitle{{myExperiment}: An ontology for e-Research},
 in: \bbtitle{Proceedings of the Workshop on Semantic Web Applications
 in Scientific
@@ -6517,7 +6522,7 @@ College \& Research Libraries News
 \bauthor{\binits{J.}~\bsnm{Taylor}} and
 \bauthor{\binits{E.}~\bsnm{Hovig}},
 \batitle{Ten simple rules for reproducible computational research},
-\bjtitle{PLoS Computational Biology}
+\bjtitle{PLOS Computational Biology}
 \bvolume{9}(\bissue{10})
 (\byear{2013}),
 \bnumber{e1003285}.
@@ -6530,7 +6535,7 @@ A.~Nekrutenko,
 J.~Taylor and
 E.~Hovig,
 \textit{Ten simple rules for reproducible computational research.},
-{PLoS} Computational Biology
+{PLOS} Computational Biology
 9(10)
 (2013),
 e1003285.
@@ -6665,7 +6670,6 @@ P.~Sefton,
 \oauthor{\binits{F.}~\bsnm{Bacall}} and
 \oauthor{\binits{T.}~\bsnm{Thelen}},
 {RO}-Crate Metadata Specification 1.0,
-Technical Report,
 2019.
 \bid{doi={10.5281/zenodo.3541888}}
 \end{botherref}
@@ -6695,7 +6699,6 @@ G.~Tartari,
 F.~Bacall and
 T.~Thelen,
 {RO}-Crate Metadata Specification 1.0,
-Technical Report,
 2019.
 doi:10.5281/zenodo.3541888.
 \url{https://w3id.org/ro/crate/1.0}.
@@ -6748,7 +6751,6 @@ doi:10.5281/zenodo.3541888.
 \oauthor{\binits{S.}~\bsnm{Leo}} and
 \oauthor{\binits{M.}~\bsnm{Portier}},
 {RO}-Crate Metadata Specification 1.1.1,
-Technical Report,
 2021.
 \bid{doi={10.5281/zenodo.4541002}}
 \end{botherref}
@@ -6794,7 +6796,6 @@ J.~Koehorst,
 S.~Leo and
 M.~Portier,
 {RO}-Crate Metadata Specification 1.1.1,
-Technical Report,
 2021.
 doi:10.5281/zenodo.4541002.
 \url{https://w3id.org/ro/crate/1.1}.
@@ -6846,7 +6847,6 @@ doi:10.5281/zenodo.4541002.
 \oauthor{\binits{J.}~\bsnm{Koehorst}} and
 \oauthor{\binits{S.}~\bsnm{Leo}},
 {RO}-Crate Metadata Specification 1.1,
-Technical Report,
 2020.
 \bid{doi={10.5281/zenodo.4031327}}
 \end{botherref}
@@ -6891,7 +6891,6 @@ M.~Graves,
 J.~Koehorst and
 S.~Leo,
 {RO}-Crate Metadata Specification 1.1,
-Technical Report,
 2020.
 doi:10.5281/zenodo.4031327.
 \url{https://w3id.org/ro/crate/1.1}.
@@ -7418,7 +7417,7 @@ doi:10.3897/rio.6.e57602.
 \bauthor{\binits{B.}~\bsnm{Mons}},
 \batitle{The {FAIR} guiding principles for scientific data management
 and stewardship},
-\bjtitle{Scientific data}
+\bjtitle{Scientific Data}
 \bvolume{3}
 (\byear{2016}),
 \bnumber{160018}.
