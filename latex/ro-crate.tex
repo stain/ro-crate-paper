@@ -2237,7 +2237,7 @@ formalisation, assuming a base IRI of \texttt{<http://example.com/ro/123/>}:
 Notable from this triple-like formalization is that a RO-Crate $R$ is
 fully represented as a tree at depth 2 helped by the use of
 %PDAG%
-$\mathbh{lri}$
+$\mathbh{IRI}$
 %PDAG%
 nodes. For instance the aggregation from the root entity
 $\textit{hasPart}(\texttt{{\ldots}interviews/>})$ is at same level as the data
@@ -2257,9 +2257,9 @@ requirements) they do not form part of this formalization.
 
 A formalised RO-Crate in $\mathcal{L}_{\mathit{rocrate}}$ can be mapped to
 different serializations.
-Assume a simplified\footnote{This simplification does not cover the extensive list of literal
-datatypes built-in to RDF 1.1, only strings and decimal real numbers.
-Likewise, language of literals are not included.} language $\mathcal{L}_{\textit{RDF}}$
+Assume a simplified\footnote{This simplification and mapping does not cover the extensive list of literal
+datatypes built into RDF 1.1, only strings and decimal real numbers.
+Likewise, \textit{LanguageTag} is deliberately not utillised below.} language $\mathcal{L}_{\textit{RDF}}$
 based on the RDF abstract syntax \cite{rdfworkinggroup_2014}:
 %
 {\fontsize{9.8}{11.8}\selectfont{\begin{eqnarray*}
@@ -2296,8 +2296,7 @@ Below follows a mapping from $\mathcal{L}_{\mathit{rocrate}}$ to $\mathcal
 \textit{Property}(p) & \Rightarrow& \textit{type}(p, \texttt
 {<http://www.w3.org/2000/01/rdf-schema\#Property>})
 \\
-\textit{Class}(c) & \Rightarrow& \textit{type}(c, \texttt {<http://www.w3.org/2000/01/rdf-schema
-\#Class>})
+\textit{Class}(c) & \Rightarrow& \textit{type}(c, \texttt {<http://www.w3.org/2000/01/rdf-schema\#Class>})
 \\
 \textit{Dataset}(d) & \Rightarrow& \textit{type}(d, \texttt {<http://schema.org/Dataset>})
 \\
