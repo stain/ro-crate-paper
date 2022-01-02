@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/aa854c8cada6edfcc7f8e88346b341e1f15a8c90/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aa854c8cada6edfcc7f8e88346b341e1f15a8c90/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/aa854c8cada6edfcc7f8e88346b341e1f15a8c90/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/723488bf187622a0135ca1f487d4c73ab24c2fb4/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/723488bf187622a0135ca1f487d4c73ab24c2fb4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/723488bf187622a0135ca1f487d4c73ab24c2fb4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -139,9 +139,9 @@ A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/aa854c8cada6edfcc7f8e88346b341e1f15a8c90/))
+([permalink](https://stain.github.io/ro-crate-paper/v/723488bf187622a0135ca1f487d4c73ab24c2fb4/))
 was automatically generated
-from [stain/ro-crate-paper@aa854c8](https://github.com/stain/ro-crate-paper/tree/aa854c8cada6edfcc7f8e88346b341e1f15a8c90)
+from [stain/ro-crate-paper@723488b](https://github.com/stain/ro-crate-paper/tree/723488bf187622a0135ca1f487d4c73ab24c2fb4)
 on January 2, 2022.
 </em></small>
 
