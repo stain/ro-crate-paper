@@ -2354,7 +2354,7 @@ include such term definitions directly in the RO-Crate.
 \subsection{RO-Crate 1.1 Metadata File Descriptor}
 
 An important RO-Crate principle is that of being \textbf
-{self-described} Therefore the serialisation of the RO-Crate into a
+{self-described}. Therefore the serialisation of the RO-Crate into a
 file should also describe itself in a Metadata File Descriptor,\footnote{\url
 {https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#ro-crate-metadata-file-descriptor}} indicating it is $\textit{about}$ (describing) the RO-Crate root data entity,
 and that it $\textit{conformsTo}$ a particular version of the RO-Crate specification:
@@ -2367,7 +2367,7 @@ and that it $\textit{conformsTo}$ a particular version of the RO-Crate specifica
 {<http://purl.org/dc/terms/conformsTo>}, o)
 \\
 \textit{MetadataFile}(m) & \Rightarrow& \textit{CreativeWork}(m) \land
-\textit{about}(m,R) {\wedge } \textit{ROCrate}(R) \land
+\textit{about}(m,R) \land \textit{ROCrate}(R) \land
 \\
 & &{} \textit{conformsTo}(m, \texttt{<https://w3id.org/ro/crate/1.1>})
 \end{eqnarray*}
@@ -2378,7 +2378,7 @@ JSON-LD), it is not considered to be a contained \emph{part} of the
 RO-Crate in the form of a \emph{data entity}, rather it is described
 only as a \emph{contextual entity}.
 
-In the conceptual model the \emph{RO-Crate Metadata File} can be seen
+In the conceptual model, the \emph{RO-Crate Metadata File} can be seen
 as the top-level node that describes the \emph{RO-Crate Root}, however
 in the formal model (and the JSON-LD format) the metadata file
 descriptor is an additional contextual entity that is not affecting the
@@ -2418,10 +2418,10 @@ implied by the $\textit{type}(e, t)$ expansion to $\textit{Relation}(e, \texttt{
 \\
 && \texttt{\}}
 \\
-\forall s \forall p \forall o \ \textit{Relation}(s,p,o) & \Rightarrow& \texttt{
-\{"@id":} s \texttt{,}
+\forall s \forall p \forall o \ \textit{Relation}(s,p,o) & \Rightarrow& 
+\texttt{\{"@id":} s \texttt{,}
 \\
-&& \ \ p \texttt{: \{ "@id":} o \texttt{\}}
+&& \ \ p \texttt{: \{"@id":} o \texttt{\}}
 \\
 && \texttt{\}}
 \\
@@ -2435,7 +2435,7 @@ implied by the $\textit{type}(e, t)$ expansion to $\textit{Relation}(e, \texttt{
 \forall r \forall c\ \textit{ROCrate}(r) & \Rightarrow& \texttt{\{
 "@graph": [}
 \\
-&& \ \ \ \ \textit{Mentions}(r, c)*
+&& \ \ \ \ \ \ \textit{Mentions}(r, c)*
 \\
 && \ \ \ \texttt{]}
 \\
