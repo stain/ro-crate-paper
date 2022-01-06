@@ -1,5 +1,6 @@
 # Manuscript: Packaging research artefacts with RO-Crate
 
+[![doi:10.3233/DS-210053](https://img.shields.io/badge/doi-10.3233%2FDS--210053-blue)](https://doi.org/10.3233/DS-210053)
 [![HTML from Manubot](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://stain.github.io/ro-crate-paper/)
 [![PDF from LaTeX](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.pdf)
 [![RO-Crate](https://img.shields.io/badge/Research%20Object-Crate-darkcyan.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/)
@@ -8,14 +9,11 @@
 
 ## Manuscript description
 
-This is the manuscript source for the paper _Packaging research artifacts with RO-Crate_, accepted for the journal [Data Science](https://www.iospress.nl/journal/data-science/).
+This is the manuscript source for the paper _Packaging research artifacts with RO-Crate_, published in the journal [Data Science](https://www.iospress.nl/journal/data-science/) as <https://doi.org/10.3233/DS-210053>
 
-The manuscript is edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
+The manuscript was edited as a hybrid of [Manubot](https://github.com/manubot/manubot) and [Overleaf](https://www.overleaf.com/) using Markdown in the [content](content)/ folder. 
 
-The authorative version is for now the LaTeX rendering through Overleaf, meaning that some bugs might appear in the Manubot outputs; see `bin/build.sh` for workarounds.
-
-
-The manuscript is in a kind of hybrid mode:
+The manuscript was created in a kind of hybrid mode:
 
 1. Overleaf uses Luatex to render PDF according to the Data Science template, see <https://www.overleaf.com/read/gbmzkwyhjnzc>
 2. Manubot runs automatically from Git commit and publishes HTML to https://stain.github.io/ro-crate-paper/
