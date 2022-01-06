@@ -1,13 +1,6 @@
 content/00.front-matter.md:7:https
 content/00.front-matter.md:7:https
-content/00.front-matter.md:7:ro
-content/00.front-matter.md:8:arxiv
-content/00.front-matter.md:8:arXiv
-content/00.front-matter.md:8:citable
 content/00.front-matter.md:8:https
-content/00.front-matter.md:8:https
-content/00.front-matter.md:8:preprint
-content/00.front-matter.md:8:zenodo
 content/00.front-matter.md:20:https
 content/00.front-matter.md:35:https
 content/00.front-matter.md:39:https
@@ -601,7 +594,6 @@ content/31.tooling-table.md:11:workflowhub
 content/31.tooling-table.md:11:WorkflowHub
 content/31.tooling-table.md:12:lifemonitor
 content/31.tooling-table.md:12:RO
-content/31.tooling-table.md:13:arxiv
 content/31.tooling-table.md:13:RO
 content/31.tooling-table.md:13:zenodo
 content/31.tooling-table.md:14:RO

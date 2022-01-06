@@ -12,7 +12,7 @@ keywords:
 - Reproducibility
 - Research Object
 lang: en-GB
-date-meta: '2022-01-02'
+date-meta: '2022-01-06'
 author-meta:
 - Stian Soiland-Reyes
 - Peter Sefton
@@ -40,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="Packaging research artefacts with RO-Crate" />
   <meta property="og:title" content="Packaging research artefacts with RO-Crate" />
   <meta property="twitter:title" content="Packaging research artefacts with RO-Crate" />
-  <meta name="dc.date" content="2022-01-02" />
-  <meta name="citation_publication_date" content="2022-01-02" />
+  <meta name="dc.date" content="2022-01-06" />
+  <meta name="citation_publication_date" content="2022-01-06" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://stain.github.io/ro-crate-paper/" />
   <meta name="citation_pdf_url" content="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://stain.github.io/ro-crate-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/8d69339f7ed0f3e62940dc4557060001f0ab2a31/" />
-  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8d69339f7ed0f3e62940dc4557060001f0ab2a31/" />
-  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/8d69339f7ed0f3e62940dc4557060001f0ab2a31/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://stain.github.io/ro-crate-paper/v/7c90d1aeb485759527056d26a7461543f4d81ce9/" />
+  <meta name="manubot_html_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7c90d1aeb485759527056d26a7461543f4d81ce9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://stain.github.io/ro-crate-paper/v/7c90d1aeb485759527056d26a7461543f4d81ce9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,16 +133,16 @@ manubot-clear-requests-cache: false
 
 
 
-_This manuscript has been [accepted](https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate) by the journal [Data Science](https://datasciencehub.net/) for review.
-A DOI-citable preprint is available at <https://doi.org/10.5281/zenodo.5146227> and	[arXiv:2108.06503](https://arxiv.org/abs/2108.06503)_
+_This manuscript has now been [published](https://doi.org/10.3233/DS-210053) by the journal [Data Science](https://datasciencehub.net/)._  
+**Cite as**: <https://doi.org/10.3233/DS-210053>
 
 
 <small><em>
 This manuscript
-([permalink](https://stain.github.io/ro-crate-paper/v/8d69339f7ed0f3e62940dc4557060001f0ab2a31/))
+([permalink](https://stain.github.io/ro-crate-paper/v/7c90d1aeb485759527056d26a7461543f4d81ce9/))
 was automatically generated
-from [stain/ro-crate-paper@8d69339](https://github.com/stain/ro-crate-paper/tree/8d69339f7ed0f3e62940dc4557060001f0ab2a31)
-on January 2, 2022.
+from [stain/ro-crate-paper@7c90d1a](https://github.com/stain/ro-crate-paper/tree/7c90d1aeb485759527056d26a7461543f4d81ce9)
+on January 6, 2022.
 </em></small>
 
 # Authors {-}

@@ -5,7 +5,6 @@ Andreas
 AO
 APIs
 ARDC
-arXiv
 atrisovic
 automatable
 BagIt
@@ -17,7 +16,7 @@ BioConda
 BioContainers
 BioExcel
 BioHackathon
-Bioinformatics
+bioinformatics
 Bioschemas
 bjoerngruening
 Björn
@@ -33,7 +32,6 @@ Center
 centric
 CheckMyCrate
 Chenxu
-citable
 CLI
 CodeMeta
 communitylist
@@ -84,7 +82,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRify
 FAIRifying
@@ -149,7 +147,7 @@ LFS
 lifecycle
 LifeMonitor
 LifeMonitor’s
-LJ
+lj
 ljgarcia
 Ludwigs
 maDMP
@@ -194,7 +192,6 @@ PID
 PIDs
 Politécnica
 Portier
-preprint
 programmatically
 projet
 ptsefton
@@ -210,7 +207,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+ro
 Rodríguez
 ROHub
 ROR
@@ -218,7 +215,7 @@ ROs
 runnable
 runtime
 scalability
-schemas
+Schemas
 Sebby
 Sefton
 selfdescribed
@@ -247,7 +244,7 @@ syntaxes
 SyntheSys
 Tanabe
 Tartari
-TavernaProv
+TavernaPROV
 templating
 Thelen
 Tomasz
