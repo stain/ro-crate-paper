@@ -112,10 +112,10 @@ The below is an example RO-Crate represented using the above formalisation, assu
 
 Notable from this triple-like formalization is that a RO-Crate $R$ is fully represented as a tree at depth 2 helped by the use of $𝕀𝕣𝕚$ nodes. For instance the aggregation from the root entity $hasPart(\texttt{…interviews/>})$ is at same level as the data entity’s property $license(\texttt{…CC-BY-NC-4.0>})$ and that contextual entity’s attribute $ name(\text{…Non Commercial 4.0”})$. As shown in section \ref{sec:jsonld}, the RO-Crate Metadata File serialization is an equivalent shallow tree, although at depth 3 to cater for the JSON-LD preamble of \texttt{"@context"} and \texttt{"@graph"}.
 
-In reality many additional attributes and contextual types from schema.org types like \url{http://schema.org/affiliation} and \url{http://schema.org/Organization} would be used to further describe the RO-Crate and its entities, but as these are optional (\textit{SHOULD} requirements) they do not form part of this formalization.
+In reality many additional attributes and contextual types from Schema.org types like \url{http://schema.org/affiliation} and \url{http://schema.org/Organization} would be used to further describe the RO-Crate and its entities, but as these are optional (\textit{SHOULD} requirements) they do not form part of this formalization.
 
 
-\subsection{Mapping to RDF with schema.org}
+\subsection{Mapping to RDF with Schema.org}
 
 A formalized RO-Crate in $\mathcal{L}_{rocrate}$ can be mapped to different serializations.
 Assume a simplified\footnote{
@@ -138,7 +138,7 @@ LanguageTag(v, l)           & \equiv &      Datatype\big(v, \\
     && \texttt{<http://www.w3.org/1999/02/22-rdf-syntax-ns\#langString>}\big)
 \end{eqnarray*}
 
-Below follows a mapping from $\mathcal{L}_{rocrate}$ to $\mathcal{L}_{RDF}$ using schema.org as vocabulary:
+Below follows a mapping from $\mathcal{L}_{rocrate}$ to $\mathcal{L}_{RDF}$ using Schema.org as vocabulary:
 
 \begin{eqnarray*}
 Property(p)         & \Rightarrow &     type(p, \texttt{<http://www.w3.org/2000/01/rdf-schema\#Property>})   \\
@@ -162,7 +162,7 @@ Relation(s,p,o)     & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land IRI(o) 
 Attribute(s,p,o)    & \Rightarrow &     Triple(s,p,o) \land IRI(s) \land Literal(o) \\
 \end{eqnarray*}
 
-Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD \texttt{@context} maps to schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa. Extensions may however include such term definitions directly in the RO-Crate.
+Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ and $Property$ is typically indirect: The JSON-LD \texttt{@context} maps to Schema.org IRIs, which, when resolved as Linked Data, embed their formal definition as RDFa. Extensions may however include such term definitions directly in the RO-Crate.
 
 \subsection{RO-Crate 1.1 Metadata File Descriptor}
 
@@ -183,7 +183,7 @@ In the conceptual model the \emph{RO-Crate Metadata File} can be seen as the top
 
 \subsection{Forward-chained Production Rules for JSON-LD}
 
-Combining the above predicates and schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification\footnote{
+Combining the above predicates and Schema.org mapping with rudimentary JSON templates, these forward-chaining production rules can output JSON-LD according to the RO-Crate 1.1 specification\footnote{
     \textbf{Limitations:} Contextual entities not related from the RO-Crate (e.g. using inverse relations to a data entity) would not be covered by the single direction $Mentions(R, s)$ production rule; see \href{https://github.com/ResearchObject/ro-crate/issues/122}{GitHub issue ResearchObject/ro-crate\#122}. The $datePublished(e, d)$ rule do not include syntax checks for the ISO 8601 datetime format. Compared with RO-Crate examples, this generated JSON-LD does not use a $@context$ as the IRIs are produced unshortened, a post-step could do JSON-LD Flattening with a versioned RO-Crate context. The \texttt{@type} expansion is included for clarity, even though this is also implied by the $type(e, t)$ expansion to $Relation(e, \texttt{xsd:type})$.
 }:
 
@@ -215,4 +215,4 @@ R   & \equiv & \texttt{<./>}  \\
 R   & \Rightarrow &  MetadataFile(\texttt{<ro-crate-metadata.json>}) \\
 \end{eqnarray*}
 
-This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of $R$ by adding a transitive rule – anything described in $R$ which is related to $o$, means that $o$ is also mentioned by the $ROCrate(R)$. For simplicity this rule is one-way; in theory the graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities, but these are proposed to be bound to the root data entity with schema.org relation \href{http://schema.org/mentions}.
+This exposes the first order logic domain of discourse of IRIs, with rational numbers and strings as their corresponding JSON-LD representation. These production rules first grow the graph of $R$ by adding a transitive rule – anything described in $R$ which is related to $o$, means that $o$ is also mentioned by the $ROCrate(R)$. For simplicity this rule is one-way; in theory the graph can also contain free-standing contextual entities that have outgoing relations to data- and contextual entities, but these are proposed to be bound to the root data entity with Schema.org relation \href{http://schema.org/mentions}.
