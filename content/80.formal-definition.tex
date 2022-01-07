@@ -18,13 +18,13 @@ Definition of language $\mathcal{L}_{rocrate}$:
     \mathcal{L}_{rocrate}   & = & \big\{ Property(p), Class(c),
                             Value(x), \mathbb{R}, \mathbb{S} \big\} \\
     \mathbb{D}              & = & \mathbb{IRI} \\
-    \mathbb{IRI}            & \equiv & { \text{IRIs as defined in RFC3987} } \\
+    \mathbb{IRI}            & \equiv & { \text{IRIs as defined in RFC3987 \cite{doi:10.17487/rfc3987}}} } \\
     \mathbb{R}              & \equiv & { \text{real or integer numbers} } \\
     \mathbb{S}              & \equiv & { \text{literal strings} }
 \end{eqnarray*}
 
 
-The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers \cite{doi:10.17487/rfc3987} (notation $\texttt{<http://example.com/>}$)\footnote{
+The domain of discourse $\mathbb{D}$ is the set of $\mathbb{IRI}$ identifiers (notation $\texttt{<http://example.com/>}$)\footnote{
     For simplicity, blank nodes are not included in this formalisation, as RO-Crate
     recommends the use of IRI identifiers: \url{https://www.researchobject.org/ro-crate/1.1/appendix/jsonld.html\#describing-entities-in-json-ld}
 }, with additional descriptions using numbers $\mathbb{R}$ (notation $13.37$) and literal strings $\mathbb{S}$ (notation $\text{“Hello”}$).
@@ -58,10 +58,10 @@ Attribute(s, p, v)                          & \models &     Entity(s) \land Prop
 Value(v)                                    & \equiv &      v \in \mathbb{R} \oplus v \in \mathbb{S}
 \end{eqnarray*}
 
-An $ROCrate(R)$ is defined as a self-described \emph{Root Data Entity}, which describes and contains parts (\emph{data entities}), which are further described in \emph{contextual entities}.  These terms align with their use in the RO-Crate 1.1 terminology\footnote{
+An $ROCrate(R)$ is defined as a self-described \emph{Root Data Entity}, which contains parts (\emph{data entities}), which are further described in \emph{contextual entities}.  These terms align with their use in the RO-Crate 1.1 terminology\footnote{
     \url{https://www.researchobject.org/ro-crate/1.1/terminology}}.
 
-The $Root(r)$ is a type of $Dataset(r)$, and must have the metadata to literal attributes to provide a $name$, $description$ and $datePublished$, as well as a contextual entity identifying its license. These predicates correspond to the RO-Crate 1.1 requirements for the root data entity\footnote{
+The $Root(r)$ is a type of $Dataset(r)$, and must as metadata have at least the attributes $name$, $description$ and $datePublished$, as well as a contextual entity that identify its $license$. These predicates correspond to the RO-Crate 1.1 minimal requirements for the root data entity\footnote{
     \url{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#direct-properties-of-the-root-data-entity}
 }.
 
@@ -92,11 +92,11 @@ The below is an example RO-Crate represented using the above formalisation, assu
 \\
 && ContextualEntity(\texttt{<https://spdx.org/licenses/CC-BY-4.0>}) \\
 && name(\texttt{<https://spdx.org/licenses/CC-BY-4.0>},  \\
-&& \ \ \ \ \  \text{Creative Commons Attribution 4.0”}) \\
+&& \ \ \ \ \  \text{“Creative Commons Attribution 4.0”}) \\
 \\
 && ContextualEntity(\texttt{<https://spdx.org/licenses/CC-BY-NC-4.0>}) \\
 && name(\texttt{<https://spdx.org/licenses/CC-BY-NC-4.0>},  \\
-&& \ \ \ \ \  \text{Creative Commons Attribution Non Commercial 4.0”}) \\
+&& \ \ \ \ \  \text{“Creative Commons Attribution Non Commercial 4.0”}) \\
 \\
 && File(\texttt{<http://example.com/ro/123/survey.csv>}) \\
 && name(\texttt{<http://example.com/ro/123/survey.csv>},
@@ -119,7 +119,7 @@ In reality many additional attributes and contextual types from Schema.org types
 
 A formalized RO-Crate in $\mathcal{L}_{rocrate}$ can be mapped to different serializations.
 Assume a simplified\footnote{
- This simplification does not cover the extensive list of literal datatypes built-in to RDF 1.1, only strings and decimal real numbers. Likewise, language of literals are not included.
+ This simplification and mapping does not cover the extensive list of literal datatypes built into RDF 1.1, only strings and decimal real numbers. Likewise, $LanguageTag$ is deliberately not utillised below.
 } language $\mathcal{L}_{RDF}$
 based on the RDF abstract syntax \cite{rdfworkinggroup_2014}:
 
@@ -166,7 +166,7 @@ Note that in the JSON-LD serialization of RO-Crate, the expression of $Class$ an
 
 \subsection{RO-Crate 1.1 Metadata File Descriptor}
 
-An important RO-Crate principle is that of being \textbf{self-described} Therefore the serialisation of the RO-Crate into a file should also describe itself in a Metadata File Descriptor\footnote{
+An important RO-Crate principle is that of being \textbf{self-described}. Therefore the serialisation of the RO-Crate into a file should also describe itself in a Metadata File Descriptor\footnote{
     \url{https://www.researchobject.org/ro-crate/1.1/root-data-entity.html\#ro-crate-metadata-file-descriptor}
 }, indicating it is $about$ (describing) the RO-Crate root data entity, and that it $conformsTo$ a particular version of the RO-Crate specification:
 
@@ -179,7 +179,7 @@ MetadataFile(m) & \Rightarrow & CreativeWork(m) \land about(m,R) ∧ ROCrate(R) 
 
 Note that although the metadata file necessarily is an \emph{information resource} written to disk or served over the network (as JSON-LD), it is not considered to be a contained \emph{part} of the RO-Crate in the form of a \emph{data entity}, rather it is described only as a \emph{contextual entity}.
 
-In the conceptual model the \emph{RO-Crate Metadata File} can be seen as the top-level node that describes the \emph{RO-Crate Root}, however in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity that is not affecting the depth-limit of the RO-Crate.
+In the conceptual model, the \emph{RO-Crate Metadata File} can be seen as the top-level node that describes the \emph{RO-Crate Root}, however in the formal model (and the JSON-LD format) the metadata file descriptor is an additional contextual entity that is not affecting the depth-limit of the RO-Crate.
 
 \subsection{Forward-chained Production Rules for JSON-LD}
 
