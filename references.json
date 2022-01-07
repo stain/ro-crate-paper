@@ -1338,7 +1338,6 @@
     ],
     "container-title": "Web Semantics: Science, Services and Agents on the World Wide Web",
     "id": "eWgJ0fZt",
-    "issue": "0",
     "issued": {
       "date-parts": [
         [
@@ -2519,7 +2518,7 @@
         "given": "Ramona"
       }
     ],
-    "container-title": "Scientific data",
+    "container-title": "Scientific Data",
     "id": "WD4Wsy0c",
     "issue": "1",
     "issued": {
@@ -2808,7 +2807,7 @@
         ]
       ]
     },
-    "title": "The Dataverse Network: An Open-Source Application for Sharing, Discovering and Preserving Data",
+    "title": "The DataVerse Network: An Open-Source Application for Sharing, Discovering and Preserving Data",
     "type": "article-journal",
     "volume": "17",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.1045/january2011-crosas"
@@ -3613,7 +3612,7 @@
         "given": "Walt"
       }
     ],
-    "container-title": "Computing in science & engineering",
+    "container-title": "Computing in Science & Engineering",
     "id": "7O1j0YRj",
     "issue": "5",
     "issued": {
@@ -3777,7 +3776,7 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2022
         ]
       ]
     },
@@ -4175,7 +4174,7 @@
         "given": "Helen"
       }
     ],
-    "container-title": "PLoS Biology",
+    "container-title": "PLOS Biology",
     "id": "5ln5TkiV",
     "issue": "6",
     "issued": {
@@ -4358,7 +4357,7 @@
         "given": "Raja"
       }
     ],
-    "container-title": "PLoS Biology",
+    "container-title": "PLOS Biology",
     "id": "17fJm3JS",
     "issue": "12",
     "issued": {
@@ -4407,7 +4406,7 @@
         "given": "Eivind"
       }
     ],
-    "container-title": "PLoS Computational Biology",
+    "container-title": "PLOS Computational Biology",
     "id": "Pf3steOn",
     "issue": "10",
     "issued": {
@@ -4448,7 +4447,7 @@
         "given": "Sarah"
       }
     ],
-    "container-title": "PLoS Computational Biology",
+    "container-title": "PLOS Computational Biology",
     "id": "1DVC7tcYl",
     "issue": "3",
     "issued": {
@@ -4546,7 +4545,7 @@
         "given": "Steven"
       }
     ],
-    "container-title": "PLoS Pathogens",
+    "container-title": "PLOS Pathogens",
     "id": "l0OIdydM",
     "issue": "8",
     "issued": {
@@ -4650,10 +4649,10 @@
         ]
       ]
     },
+    "note": "RFC 3987, Internet Requests for Comments\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc3987",
     "publisher": "RFC Editor",
     "title": "Internationalized resource identifiers (IRIs)",
-    "type": "report",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc3987"
+    "type": "report"
   },
   {
     "DOI": "10.17487/RFC8493",
@@ -4698,10 +4697,10 @@
         ]
       ]
     },
+    "note": "RFC 8493, Internet Requests for Comments\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc8493",
     "publisher": "RFC Editor",
     "title": "The BagIt File Packaging Format (V1.0)",
-    "type": "report",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.17487/rfc8493"
+    "type": "report"
   },
   {
     "DOI": "10.2200/S00334ED1V01Y201102WBE001",
@@ -5083,6 +5082,7 @@
     "page": "1-23",
     "title": "Towards FAIR principles for research software",
     "type": "article-journal",
+    "volume": "3",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\noriginal_id: doi:10.3233/DS-190026\noriginal_standard_id: doi:10.3233/DS-190026\nstandard_id: doi:10.3233/ds-190026"
   },
   {
@@ -5485,9 +5485,33 @@
       {
         "family": "Sefton",
         "given": "Peter"
+      },
+      {
+        "family": "Devine",
+        "given": "G."
+      },
+      {
+        "family": "Evenhuis",
+        "given": "C."
+      },
+      {
+        "family": "Lynch",
+        "given": "M."
+      },
+      {
+        "family": "Wise",
+        "given": "S."
+      },
+      {
+        "family": "Lake",
+        "given": "M."
+      },
+      {
+        "family": "Loxton",
+        "given": "D."
       }
     ],
-    "container-title": "Zenodo",
+    "container-title": "Workshop on Research Objects (RO 2018)",
     "id": "1Hsf35Rx7",
     "issued": {
       "date-parts": [
@@ -5496,8 +5520,9 @@
         ]
       ]
     },
-    "title": "Datacrate Submisssion To The Workshop On Research Objects",
-    "type": "article-journal",
+    "publisher": "Zenodo",
+    "title": "DataCrate: a method of packaging, distributing, displaying and archiving Research Objects",
+    "type": "paper-conference",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.1445817"
   },
   {
@@ -5514,8 +5539,8 @@
     },
     "author": [
       {
-        "family": "Carragáin",
-        "given": "Eoghan Ó"
+        "family": "Ó Carragáin",
+        "given": "Eoghan"
       },
       {
         "family": "Goble",
@@ -5530,7 +5555,7 @@
         "given": "Stian"
       }
     ],
-    "container-title": "Zenodo",
+    "container-title": "Bioinformatics Open Source Conference (BOSC2019)",
     "id": "19ead6wt6",
     "issued": {
       "date-parts": [
@@ -5539,8 +5564,9 @@
         ]
       ]
     },
+    "publisher": "Zenodo",
     "title": "A lightweight approach to research object data packaging",
-    "type": "article-journal",
+    "type": "paper-conference",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-ro-crate.bib\nstandard_id: doi:10.5281/zenodo.3250687"
   },
   {
@@ -5553,8 +5579,8 @@
         "given": "Peter"
       },
       {
-        "family": "Carragáin",
-        "given": "Eoghan Ó"
+        "family": "Ó Carragáin",
+        "given": "Eoghan"
       },
       {
         "family": "Soiland-Reyes",
@@ -5712,8 +5738,8 @@
         "given": "Peter"
       },
       {
-        "family": "Carragáin",
-        "given": "Eoghan Ó"
+        "family": "Ó Carragáin",
+        "given": "Eoghan"
       },
       {
         "family": "Soiland-Reyes",
@@ -5940,8 +5966,8 @@
         "given": "Peter"
       },
       {
-        "family": "Carragáin",
-        "given": "Eoghan Ó"
+        "family": "Ó Carragáin",
+        "given": "Eoghan"
       },
       {
         "family": "Soiland-Reyes",
@@ -6212,6 +6238,37 @@
     "publisher": "Zenodo",
     "title": "Describing and packaging workflows using RO-Crate and BioCompute Objects",
     "type": "entry"
+  },
+  {
+    "type": "article-journal",
+    "id": "1H1OTXp4j",
+    "categories": [
+      "RO-Crate",
+      "ELIXIR",
+      "ELIXIR-GR"
+    ],
+    "author": [
+      {
+        "family": "Vergoulis",
+        "given": "Thanasis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          8
+        ]
+      ]
+    },
+    "abstract": "Presentation of the use of RO-Crate objects in SCHeMa.",
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.4671709",
+    "publisher": "Zenodo",
+    "title": "Use of RO-Crates in SCHeMa",
+    "URL": "https://doi.org/gjx264",
+    "note": "This CSL Item was generated by Manubot v0.5.0 from its persistent identifier (standard_id).\nstandard_id: doi:10.5281/zenodo.4671709"
   },
   {
     "DOI": "10.5281/zenodo.4705078",
@@ -6896,8 +6953,8 @@
         "given": "Sean"
       },
       {
-        "family": "Roure",
-        "given": "David De"
+        "family": "De Roure",
+        "given": "David"
       }
     ],
     "collection-title": "CEUR Workshop Proceedings",
