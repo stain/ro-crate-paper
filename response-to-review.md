@@ -1,6 +1,6 @@
 # Response to peer review, Data Science submission 706-1686
 
-Response to  open peer review at <https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate> of “Packaging research artefacts with RO-Crate” submitted to Data Science._
+_Response to  open peer review at <https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate> of “Packaging research artefacts with RO-Crate” submitted to Data Science._
 
 We thank the reviewers for their attentive and detailed comments, and we very much appreciate the time and care they have given that has helped us improve the article.
 
