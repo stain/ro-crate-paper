@@ -45,7 +45,7 @@ Crosas
 CRS
 CSV
 curation
-cwl
+CWL
 CWLProv
 cyber
 Czerniak
@@ -79,7 +79,7 @@ eocarragain
 Eoghan
 EOSC
 eScience
-extensibility
+Extensibility
 facto
 FAIRify
 FAIRifying
@@ -95,7 +95,7 @@ formalization
 Formalizing
 Forschungsgemeinschaft
 Frederik
-frederikcoppens
+FrederikCoppens
 Freiburg
 Frictionless
 Garijo
@@ -173,7 +173,7 @@ NL
 NodeJS
 OAC
 OAI
-ocfl
+OCFL
 Ojsteršek
 ONI
 ontologies
@@ -202,7 +202,7 @@ reproducibility
 Repurposable
 researchobject
 reusability
-RO
+Ro
 Rodríguez
 ROHub
 ROR
