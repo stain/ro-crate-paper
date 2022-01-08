@@ -5,14 +5,14 @@
 
 
 % add. options: [seceqn,secthm,crcready]
-\documentclass[ds,crcready]{iosart2x}
+\documentclass[ds,v1.1.2,openaccess]{iosart2x}
 
 %%%%%%%%%%% Put your definitions here
 
 % From https://www.overleaf.com/latex/templates/using-the-stix2-opentype-fonts-with-lualatex-or-xelatex/hdfvhzqmhnpx
-\usepackage{fontspec}
-\usepackage{amsmath}
-\usepackage{amssymb}
+%\usepackage{fontspec}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \definecolor{darkerblue}{cmyk}{1,1,0,0.45}
@@ -22,8 +22,8 @@
     citecolor=black,
     urlcolor=darkerblue}
 
-\usepackage{unicode-math}
-\usepackage{graphicx}
+%\usepackage{unicode-math}
+%\usepackage{graphicx}
 
 % Hyperlinks on DOI permalinks – just 20 years after DOI invention!
 % 
@@ -40,52 +40,32 @@
 
 \DeclareGraphicsExtensions{.pdf,.png,.svg}
 \graphicspath{../content/images/}
-\usepackage[citations,definitionLists,fencedCode,footnotes,hybrid,pipeTables,smartEllipses,tableCaptions,underscores]{markdown}
-\def\markdownOptionOutputDir{../output}
-\def\markdownOptionHeaderAttributes{true}
+%\usepackage[citations,definitionLists,fencedCode,footnotes,hybrid,pipeTables,smartEllipses,tableCaptions,underscores]{markdown}
+%\def\markdownOptionOutputDir{../output}
+%\def\markdownOptionHeaderAttributes{true}
 
 % for table resizing
 \usepackage{booktabs}
 \usepackage{multirow}
+%\usepackage{tmultirow}
+
 
 %%%%%%%%%%% End of definitions
 
 
+\volume{-1}
+\issue{-1}
 \pubyear{2022}
-\volume{0}
 \firstpage{1}
-\lastpage{1}
-\def\doi{10.3233/DS-210053}
+\lastpage{42}
+\aid{DS210053}% Updated by VTEXPTS2LaTeX.exe, 28.12.2021 09:11
+\doi{10.3233/DS-210053}% Updated by VTEXPTS2LaTeX.exe, 28.12.2021 09:11
 
+\startlocaldefs
+\setpkgattr{license}{type}{CC@BY} %% CC@BY@NC
+\endlocaldefs
 
 \begin{document}
-
-% Welcome to the 2000s with UNICODE fonts!
-% Adapted from
-% https://www.overleaf.com/learn/latex/Articles%2FOpenType-based_math_typesetting:_An_introduction_to_the_STIX2_OpenType_fonts
-\setmathfont{STIX2Math}[
-    Extension={.otf},
-    Path=./STIX2fonts/,
-    Scale=1
-]
-\setmainfont{STIX2Text}[
-    Extension={.otf},
-    Path=./STIX2fonts/,
-    UprightFont={*-Regular},
-    BoldFont={*-Bold},
-    ItalicFont={*-Italic},
-    BoldItalicFont={*-BoldItalic}
-]
-
-% https://typeof.net/Iosevka/ mono font has 
-% all the logic symbols we need
-%\setmonofont{iosevka-slab}[
-%    Extension={.ttf},
-%    Path=./ttf-iosevka-slab-6.1.3/,
-%    Scale=MatchLowercase,
-%    UprightFont={*-light},
-%    ItalicFont={*-lightitalic}
-%]
 
 \begin{frontmatter}
 
@@ -166,30 +146,74 @@
 \address[CG]{Department of Computer Science, \orgname{The University of Manchester},
     \cny{UK}\printead[presep={\\}]{eCG,oCG}}
     
-%\begin{review}{editor}
-%\reviewer{\fnms{First} \snm{Editor}\ead[label=oe1,orcid]{}\printead[presep={\ }]{oe1}}
-%\reviewer{\fnms{Second} \snm{Editor}\ead[label=oe2,orcid]{}\printead[presep={\ }]{oe2}}
-%\end{review}
-%\begin{review}{solicited}
-%\reviewer{\fnms{First} \snm{Solicited reviewer}\ead[label=os1,orcid]{}\printead[presep={\ }]{os1}}
-%\end{review}
+\begin{review}{editor}
+\reviewer{\fnms{Silvio} \snm{Peroni}\ead
+[label=oe1,orcid]{0000-0003-0530-4305}\printead[presep={\ }]{oe1}}
+%\reviewer{\fnms{} \snm{}\ead[label=oe2,orcid]{}\printead[presep={\
+%}]{oe2}}
+\end{review}
 
+\begin{review}{solicited}
+\reviewer{\fnms{Angelo A.} \snm{Salatino}\ead
+[label=os1,orcid]{0000-0002-4763-3943}\printead[presep={\ }]{os1}}
+\reviewer{\fnms{Alessia} \snm{Bardi}\ead
+[label=os2,orcid]{0000-0002-1112-1292}\printead[presep={\ }]{os2}}
+\reviewer{\snm{one anonymous reviewer}}
+\end{review}
+%
+%\dedicated{}
+%
+% HISTORY:
+\received{\sday{13} \smonth{8} \syear{2021}}
+\accepted{\sday{23} \smonth{9} \syear{2021}}
+%
 \begin{abstract}
-\markdownInput{../content/01.abstract.md}
-\end{abstract}
+%\parttitle{}
+An increasing number of researchers support reproducibility by
+including pointers to and
+descriptions of datasets, software and methods in their publications.
+However, scientific
+articles may be ambiguous, incomplete and difficult to process by
+automated systems. In
+this paper we introduce RO-Crate, an open, community-driven, and
+lightweight approach
+to packaging research artefacts along with their metadata in a machine
+readable manner.
+RO-Crate is based on Schema.org annotations in JSON-LD, aiming to
+establish best
+practices to formally describe metadata in an accessible and practical
+way for their
+use in a wide variety of situations.
 
-\begin{keyword}
+An RO-Crate is a structured archive of all the items that contributed
+to a research
+outcome, including their identifiers, provenance, relations and
+annotations. As a general
+purpose packaging approach for data and their metadata, RO-Crate is
+used across multiple
+areas, including bioinformatics, digital humanities and regulatory
+sciences. By applying
+``just enough'' Linked Data standards, RO-Crate simplifies the process of
+making research outputs FAIR while also enhancing research reproducibility.
+
+An RO-Crate for this article\footnote{\url
+{https://w3id.org/ro/doi/10.5281/zenodo.5146227}}
+is archived at \url{https://doi.org/10.5281/zenodo.5146227}.
+\end{abstract}
+%
+\begin{keyword} %% 1 u.c.
 \kwd{Data publishing}
-\kwd{Data packaging}
+\kwd{data packaging}
 \kwd{FAIR}
 \kwd{Linked Data}
-\kwd{Metadata}
-\kwd{Reproducibility}
-\kwd{Research Object}
+\kwd{metadata}
+\kwd{reproducibility}
+\kwd{research object}
 \end{keyword}
-
+%
 \end{frontmatter}
 
+    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Main text entry area:
 \section{Introduction}
@@ -1020,8 +1044,8 @@ Candidate (RC) $<$ Release)}
 %
 \begin{tabular*}{\textwidth}{@{\extracolsep{4in minus 4in}}llcc@{}}
 \hline
-\textbf{Tool name} & \multicolumn{1}{c}{\tmultirow{2}{*}{Targets}}
-& \tmultirow{2}{*}{Language/Platform} & \tmultirow{2}{*}{Status} \\
+\textbf{Tool name} & \multicolumn{1}{c}{\multirow{2}{*}{Targets}}
+& \multirow{2}{*}{Language/Platform} & \multirow{2}{*}{Status} \\
 \textit{Brief Description}&&& \\
 \hline
 \textbf{Describo} \cite{describo}                                                                                                          & Research Data Managers     & NodeJS (Desktop) & RC    \\
@@ -2206,9 +2230,7 @@ formalisation, assuming a base IRI of \texttt{<http://example.com/ro/123/>}:
 
 Notable from this triple-like formalization is that a RO-Crate $R$ is
 fully represented as a tree at depth 2 helped by the use of
-%PDAG%
-$\mathbh{IRI}$
-%PDAG%
+$\mathbb{IRI}$
 nodes. For instance the aggregation from the root entity
 $\textit{hasPart}(\texttt{{\ldots}interviews/>})$ is at same level as the data
 entity's property \textit{license}(\texttt{{\ldots}CC-BY-\noxml{\break}NC-4.0>}) and that
@@ -3412,7 +3434,7 @@ in: \bbtitle{Advances in Information Retrieval},
 \byear{2020},
 pp.~\bfpage{118}--\blpage{125}.
 ISBN \bisbn{978-3-030-45442-5}.
-\bid{doi={10.1007/978-3-030-45442-5_15}}
+\bid{doi={10.1007/978-3-030-45442-5\_15}}
 \end{bchapter}
 %
 \OrigBibText
@@ -6628,7 +6650,7 @@ doi:10.5281/zenodo.1445817.
 %
 \begin{botherref}
 \oauthor{\binits{P.}~\bsnm{Sefton}},
-{FAIR} Data Management; It's a lifestyle not a lifecycle -- \surl{ptsefton.com},
+{FAIR} Data Management; It's a lifestyle not a lifecycle -- ptsefton.com,
 2021.
 \url{http://ptsefton.com/2021/04/07/rdmpic/}.
 \end{botherref}
