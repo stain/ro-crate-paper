@@ -100,7 +100,7 @@ Freiburg
 Frictionless
 Garijo
 GDC
-Genomic
+genomic
 GH
 Giacomo
 Globus
@@ -121,7 +121,7 @@ INFRAEOSC
 INFRAIA
 Instituut
 interation
-Interoperable
+interoperable
 inuse
 InvenioRDM
 IRI
@@ -173,7 +173,7 @@ NL
 NodeJS
 OAC
 OAI
-OCFL
+ocfl
 Ojsteršek
 ONI
 ontologies
