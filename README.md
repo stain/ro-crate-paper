@@ -1,9 +1,9 @@
 # Manuscript: Packaging research artefacts with RO-Crate
 
 [![doi:10.3233/DS-210053](https://img.shields.io/badge/doi-10.3233%2FDS--210053-blue)](https://doi.org/10.3233/DS-210053)
-[![HTML from Manubot](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://stain.github.io/ro-crate-paper/)
+[![RO-Crate](https://img.shields.io/badge/Research%20Object-Crate-darkcyan.svg)](https://w3id.org/ro/doi/10.5281/zenodo.5146227)
+[![HTML from Manubot](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html)
 [![PDF from LaTeX](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.pdf)
-[![RO-Crate](https://img.shields.io/badge/Research%20Object-Crate-darkcyan.svg)](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/)
 [![GitHub Actions Status Manubot](https://github.com/stain/ro-crate-paper/workflows/Manubot/badge.svg)](https://github.com/stain/ro-crate-paper/actions)
 [![GitHub Actions Status LaTeX](https://github.com/stain/ro-crate-paper/workflows/LaTeX/badge.svg)](https://github.com/stain/ro-crate-paper/actions)
 
